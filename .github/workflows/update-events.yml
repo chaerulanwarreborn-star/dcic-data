@@ -32,12 +32,14 @@ jobs:
       - name: Commit events.json when changed
         shell: bash
         run: |
-          if git diff --quiet -- events.json; then
+          git add events.json
+
+          if git diff --cached --quiet; then
             echo "events.json is already up to date."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add events.json
           git commit -m "Update events.json"
           git push
