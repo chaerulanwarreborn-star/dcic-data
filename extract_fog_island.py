@@ -137,6 +137,7 @@ def main() -> None:
             dragons.append({
                 "id": dragon_id,
                 "name": str(item.get("name") or f"Dragon {dragon_id}"),
+                "dragon_rarity": str(item.get("dragon_rarity") or "").upper(),
                 "rarity": item.get("rarity"),
                 "img_name_mobile": img_mobile,
                 "image_url": f"{DRAGON_BASE}thumb_{img_mobile}_3.png" if img_mobile else "",
@@ -202,6 +203,8 @@ def main() -> None:
                     "reward_config_id": reward_config_id,
                     "dragon_id": dragon_id,
                     "name": str(item.get("name") or f"Dragon {dragon_id}"),
+                    "dragon_rarity": str(item.get("dragon_rarity") or "").upper(),
+                    "rarity": item.get("rarity"),
                     "img_name_mobile": img_mobile,
                     "image_url": f"{DRAGON_BASE}thumb_{img_mobile}_3.png" if img_mobile else "",
                     "num_pieces": as_int(fr.get("num_pieces")),
