@@ -8,6 +8,7 @@ on:
       - game_config.json
       - extract_events.py
       - extract_fog_island.py
+      - build_fog_assets.py
       - event_overrides.json
       - .github/workflows/update-events.yml
   workflow_dispatch:
@@ -33,13 +34,16 @@ jobs:
       - name: Build fog_island.json
         run: python extract_fog_island.py
 
-      - name: Commit generated JSON when changed
+      - name: Build Fog Island image cache
+        run: python build_fog_assets.py
+
+      - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json
+          git add events.json fog_island.json fog_assets.json
 
           if git diff --cached --quiet; then
-            echo "Generated JSON files are already up to date."
+            echo "Generated data is already up to date."
             exit 0
           fi
 
