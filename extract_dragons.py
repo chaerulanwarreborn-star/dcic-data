@@ -35,14 +35,30 @@ DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
     9999: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
     # The config points to highhollowcrown, but the _b asset contains the complete body art.
     3504: f"{DRAGON_FULL_BODY_CDN}ui_3504_dragon_highhollowcrown_b_3@2x.png",
-    2802: f"{DRAGON_FULL_BODY_CDN}ui_2802_dragon_gracekarma_b_3@2x.png",
+    2802: f"{DRAGON_FULL_BODY_CDN}ui_2802_dragon_gracekarma_c_3@2x.png",
+    1416: f"{DRAGON_FULL_BODY_CDN}ui_1416_dragon_darkjaws_3@2x.png",
+    2482: f"{DRAGON_FULL_BODY_CDN}ui_2482_dragon_positive_b_3@2x.png",
+    2785: f"{DRAGON_FULL_BODY_CDN}ui_2785_dragon_courageouskarma_b_3@2x.png",
+    2819: f"{DRAGON_FULL_BODY_CDN}ui_2819_dragon_focuskarma_b_3@2x.png",
+    2836: f"{DRAGON_FULL_BODY_CDN}ui_2836_dragon_kungflowkarma_b_3@2x.png",
+    2837: f"{DRAGON_FULL_BODY_CDN}ui_2837_dragon_ambitionkarma_b_3@2x.png",
+    2854: f"{DRAGON_FULL_BODY_CDN}ui_2854_dragon_revivalkarma_b_3@2x.png",
+    2906: f"{DRAGON_FULL_BODY_CDN}ui_2906_dragon_endurancekarma_b_3@2x.png",
 }
 
 # Asset-name overrides are useful for pages that still construct the SocialPoint
 # full-body URL from adult_asset instead of reading full_body_image directly.
 DRAGON_ASSET_OVERRIDES: Dict[int, str] = {
     3504: "3504_dragon_highhollowcrown_b",
-    2802: "2802_dragon_gracekarma_b",
+    2802: "2802_dragon_gracekarma_c",
+    1416: "1416_dragon_darkjaws",
+    2482: "2482_dragon_positive_b",
+    2785: "2785_dragon_courageouskarma_b",
+    2819: "2819_dragon_focuskarma_b",
+    2836: "2836_dragon_kungflowkarma_b",
+    2837: "2837_dragon_ambitionkarma_b",
+    2854: "2854_dragon_revivalkarma_b",
+    2906: "2906_dragon_endurancekarma_b",
 }
 
 RARITY_ORDER = ["C", "R", "V", "E", "L", "M", "H"]
