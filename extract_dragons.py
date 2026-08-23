@@ -121,6 +121,45 @@ FAMILY_LABELS = {
     "twd": "TWD", "vampire": "Vampire", "vip": "VIP", "void": "Void", "youtuber": "Youtuber",
 }
 
+
+# Manual family filter order used by DCIC.
+# Mythical first, then families roughly oldest -> newest, with VIP and Youtuber last.
+FAMILY_ORDER = [
+    "mythical",
+    "titans",
+    "vampire",
+    "corrupted",
+    "ascended",
+    "mecha",
+    "karma",
+    "redemption",
+    "dual",
+    "twd",
+    "eternals",
+    "arcana",
+    "plasma",
+    "quantum",
+    "berserker",
+    "guard",
+    "spikes",
+    "extractor",
+    "strategist",
+    "evader",
+    "silencer",
+    "risen",
+    "critical",
+    "armor",
+    "apocalypse",
+    "doom",
+    "astro",
+    "void",
+    "stained",
+    "vip",
+    "youtuber",
+]
+
+FAMILY_ORDER_INDEX = {key: index for index, key in enumerate(FAMILY_ORDER)}
+
 FALLBACK_FAMILY_TAGS = {
     "VIP": ("vip", "family-badge/vip-badge.png"),
     "Youtuber": ("youtuber", "family-badge/youtuber-badge.png"),
@@ -315,6 +354,9 @@ def main() -> None:
         production = "gold_food" if produces_food else "gold"
         production_icon = "resources/ic-gold-food.png" if produces_food else "resources/ic-gold.png"
 
+        tags = [str(t) for t in (item.get("tags") or [])]
+
+        # Primary family shown on the card. dragon_family_boost keeps visual priority.
         family: Optional[Dict[str, Any]] = None
         family_dragon = family_dragon_lookup.get(did)
         if family_dragon:
@@ -331,7 +373,6 @@ def main() -> None:
                 "source": "family_boost",
             }
         else:
-            tags = [str(t) for t in (item.get("tags") or [])]
             for tag in FALLBACK_FAMILY_PRIORITY:
                 if tag in tags:
                     key, asset = FALLBACK_FAMILY_TAGS[tag]
@@ -344,10 +385,35 @@ def main() -> None:
                     }
                     break
 
+        # Multiple family filters are allowed even though only the primary family
+        # above is displayed on the card.
+        family_filters: List[str] = []
+
         if family and family.get("asset") and family.get("asset") != "family-badge/ic-vip-twins.png":
+            primary_key = str(family["key"])
+            family_filters.append(primary_key)
             family_filter_defs.setdefault(
-                str(family["key"]),
-                {"key": family["key"], "asset": family["asset"], "label": FAMILY_LABELS.get(str(family["key"]), family.get("id") or family["key"])},
+                primary_key,
+                {
+                    "key": primary_key,
+                    "asset": family["asset"],
+                    "label": FAMILY_LABELS.get(primary_key, family.get("id") or primary_key),
+                },
+            )
+
+        # Every dragon tagged VIP must match the VIP filter even when it already
+        # belongs to another family. The displayed family icon does not change.
+        if "VIP" in tags:
+            if "vip" not in family_filters:
+                family_filters.append("vip")
+            vip_key, vip_asset = FALLBACK_FAMILY_TAGS["VIP"]
+            family_filter_defs.setdefault(
+                vip_key,
+                {
+                    "key": vip_key,
+                    "asset": vip_asset,
+                    "label": FAMILY_LABELS.get(vip_key, "VIP"),
+                },
             )
 
         book = book_lookup.get(did, {})
@@ -385,6 +451,7 @@ def main() -> None:
             "production": production,
             "production_icon": production_icon,
             "family": family,
+            "family_filters": family_filters,
             "skills": {
                 "passive": passive,
                 "post": post,
@@ -441,7 +508,13 @@ def main() -> None:
                 {"key": "passive", "label": "Passive / Post", "asset": "skills-icon/ic-skills-passive-special-1.png"},
                 {"key": "mix", "label": "Mix", "asset": "skills-icon/ic-skills-mix-special-1.png"},
             ],
-            "families": sorted(family_filter_defs.values(), key=lambda x: str(x.get("label", "")).lower()),
+            "families": sorted(
+                family_filter_defs.values(),
+                key=lambda x: (
+                    FAMILY_ORDER_INDEX.get(str(x.get("key")), 999),
+                    str(x.get("label", "")).lower(),
+                ),
+            ),
             "orbs": ["100", "200", "250", "500", "500+"],
             "production": [
                 {"key": "gold", "label": "Gold", "asset": "resources/ic-gold.png"},
