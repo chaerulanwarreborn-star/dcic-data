@@ -6,9 +6,11 @@ on:
       - main
     paths:
       - game_config.json
+      - localization/dragon_city_localization_baseline_en.json
       - extract_events.py
       - extract_fog_island.py
       - build_fog_assets.py
+      - extract_dragons.py
       - event_overrides.json
       - .github/workflows/update-events.yml
   workflow_dispatch:
@@ -37,10 +39,13 @@ jobs:
       - name: Build Fog Island image cache
         run: python build_fog_assets.py
 
+      - name: Build dragons.json
+        run: python extract_dragons.py
+
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json
+          git add events.json fog_island.json fog_assets.json dragons.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
