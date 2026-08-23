@@ -393,6 +393,7 @@ def main() -> None:
         production_icon = "resources/ic-gold-food.png" if produces_food else "resources/ic-gold.png"
 
         tags = [str(t) for t in (item.get("tags") or [])]
+        normalized_tags = {str(t).strip().lower() for t in tags}
 
         # Primary family shown on the card. dragon_family_boost keeps visual priority.
         family: Optional[Dict[str, Any]] = None
@@ -439,38 +440,38 @@ def main() -> None:
                 },
             )
 
-# Tag-based family filters.
-# These are additional filters only and do not replace the family shown on the card.
+        # Tag-based family filters.
+        # These are additional filters only and do not replace the family shown on the card.
 
-if "vip" in normalized_tags:
-    vip_key, vip_asset = FALLBACK_FAMILY_TAGS["VIP"]
+        if "vip" in normalized_tags:
+            vip_key, vip_asset = FALLBACK_FAMILY_TAGS["VIP"]
 
-    if vip_key not in family_filters:
-        family_filters.append(vip_key)
+            if vip_key not in family_filters:
+                family_filters.append(vip_key)
 
-    family_filter_defs.setdefault(
-        vip_key,
-        {
-            "key": vip_key,
-            "asset": vip_asset,
-            "label": FAMILY_LABELS.get(vip_key, "VIP"),
-        },
-    )
+            family_filter_defs.setdefault(
+                vip_key,
+                {
+                    "key": vip_key,
+                    "asset": vip_asset,
+                    "label": FAMILY_LABELS.get(vip_key, "VIP"),
+                },
+            )
 
-if "mythical" in normalized_tags:
-    mythical_key, mythical_asset = FALLBACK_FAMILY_TAGS["Mythical"]
+        if "mythical" in normalized_tags:
+            mythical_key, mythical_asset = FALLBACK_FAMILY_TAGS["Mythical"]
 
-    if mythical_key not in family_filters:
-        family_filters.append(mythical_key)
+            if mythical_key not in family_filters:
+                family_filters.append(mythical_key)
 
-    family_filter_defs.setdefault(
-        mythical_key,
-        {
-            "key": mythical_key,
-            "asset": mythical_asset,
-            "label": FAMILY_LABELS.get(mythical_key, "Mythical"),
-        },
-    )
+            family_filter_defs.setdefault(
+                mythical_key,
+                {
+                    "key": mythical_key,
+                    "asset": mythical_asset,
+                    "label": FAMILY_LABELS.get(mythical_key, "Mythical"),
+                },
+            )
 
         book = book_lookup.get(did, {})
         summon_rec = summon_dragon_lookup.get(did) or summon_rarity_lookup.get(rarity) or {}
