@@ -520,6 +520,7 @@ def main() -> None:
             "book_id": safe_int(book.get("number")) or safe_int(book.get("id")),
             "name": localized_name,
             "rarity": rarity,
+            "tags": tags,
             "elements": attrs,
             "display_elements": {"current": current_display, "old": old_display},
             "adult_image": adult_thumb_url,
