@@ -44,6 +44,8 @@ DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
     2837: f"{DRAGON_FULL_BODY_CDN}ui_2837_dragon_ambitionkarma_b_3@2x.png",
     2854: f"{DRAGON_FULL_BODY_CDN}ui_2854_dragon_revivalkarma_b_3@2x.png",
     2906: f"{DRAGON_FULL_BODY_CDN}ui_2906_dragon_endurancekarma_b_3@2x.png",
+    3278: f"{DRAGON_FULL_BODY_CDN}ui_3278_dragon_skeletalextractor_b_3@2x.png",
+    3245: f"{DRAGON_FULL_BODY_CDN}ui_3245_dragon_serpentextractor_b_3@2x.png",
 }
 
 # Asset-name overrides are useful for pages that still construct the SocialPoint
@@ -59,6 +61,8 @@ DRAGON_ASSET_OVERRIDES: Dict[int, str] = {
     2837: "2837_dragon_ambitionkarma_b",
     2854: "2854_dragon_revivalkarma_b",
     2906: "2906_dragon_endurancekarma_b",
+    3278: "3278_dragon_skeletalextractor_b",
+    3245: "3245_dragon_serpentextractor_b",
 }
 
 RARITY_ORDER = ["C", "R", "V", "E", "L", "M", "H"]
@@ -435,20 +439,38 @@ def main() -> None:
                 },
             )
 
-        # Every dragon tagged VIP must match the VIP filter even when it already
-        # belongs to another family. The displayed family icon does not change.
-        if "VIP" in tags:
-            if "vip" not in family_filters:
-                family_filters.append("vip")
-            vip_key, vip_asset = FALLBACK_FAMILY_TAGS["VIP"]
-            family_filter_defs.setdefault(
-                vip_key,
-                {
-                    "key": vip_key,
-                    "asset": vip_asset,
-                    "label": FAMILY_LABELS.get(vip_key, "VIP"),
-                },
-            )
+# Tag-based family filters.
+# These are additional filters only and do not replace the family shown on the card.
+
+if "vip" in normalized_tags:
+    vip_key, vip_asset = FALLBACK_FAMILY_TAGS["VIP"]
+
+    if vip_key not in family_filters:
+        family_filters.append(vip_key)
+
+    family_filter_defs.setdefault(
+        vip_key,
+        {
+            "key": vip_key,
+            "asset": vip_asset,
+            "label": FAMILY_LABELS.get(vip_key, "VIP"),
+        },
+    )
+
+if "mythical" in normalized_tags:
+    mythical_key, mythical_asset = FALLBACK_FAMILY_TAGS["Mythical"]
+
+    if mythical_key not in family_filters:
+        family_filters.append(mythical_key)
+
+    family_filter_defs.setdefault(
+        mythical_key,
+        {
+            "key": mythical_key,
+            "asset": mythical_asset,
+            "label": FAMILY_LABELS.get(mythical_key, "Mythical"),
+        },
+    )
 
         book = book_lookup.get(did, {})
         summon_rec = summon_dragon_lookup.get(did) or summon_rarity_lookup.get(rarity) or {}
