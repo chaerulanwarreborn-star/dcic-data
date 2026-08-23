@@ -34,6 +34,14 @@ DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
     # Placeholder VIP has no img_name_mobile/img_name in game_config.
     9999: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
     3494: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+    1113: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1113_dragon_gaudi_3@2x.png",
+    1144: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1144_dragon_test_light_3@2x.png",
+    1145: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1145_dragon_test_war_3@2x.png",
+    1146: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1146_dragon_test_eternal_3@2x.png",
+    1395: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1395_flying_chest_3@2x.png",
+    1396: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1396_dragoonie_3@2x.png",
+    1410: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1410_deus_advisor_3@2x.png",
+    1142: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_0000_dragon_placeholder_3@2x.png",
     # The config points to highhollowcrown, but the _b asset contains the complete body art.
     3504: f"{DRAGON_FULL_BODY_CDN}ui_3504_dragon_highhollowcrown_b_3@2x.png",
     2802: f"{DRAGON_FULL_BODY_CDN}ui_2802_dragon_gracekarma_c_3@2x.png",
