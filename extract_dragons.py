@@ -39,8 +39,8 @@ RARITY_NAMES = {
 }
 
 ELEMENT_ORDER = [
-    "e", "f", "p", "w", "el", "i", "m", "d", "li", "wr", "pu", "l",
-    "pr", "wd", "ti", "hp", "so", "ch", "mg", "bt", "dr",
+    "e", "f", "w", "p", "el", "i", "m", "d", "li", "wr", "pu", "l",
+    "pr", "wd", "ti", "bt", "mg", "ch", "hp", "dr", "so",
 ]
 ELEMENT_NAMES = {
     "e": "Terra",
@@ -130,7 +130,6 @@ FAMILY_ORDER = [
     "vampire",
     "corrupted",
     "ascended",
-    "mecha",
     "karma",
     "redemption",
     "dual",
@@ -147,6 +146,7 @@ FAMILY_ORDER = [
     "evader",
     "silencer",
     "risen",
+    "mecha",
     "critical",
     "armor",
     "apocalypse",
