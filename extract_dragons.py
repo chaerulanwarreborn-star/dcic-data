@@ -25,7 +25,23 @@ LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_e
 OUTPUT_PATH = ROOT / "dragons.json"
 
 DRAGON_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
+DRAGON_FULL_BODY_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
 ASSET_ROOT = "icons/"
+
+# Full-body image overrides for dragons whose default config asset is missing or unsuitable.
+# Keep this keyed by Dragon ID so future overrides can be added without touching page code.
+DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
+    # Placeholder VIP has no img_name_mobile/img_name in game_config.
+    9999: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+    # The config points to highhollowcrown, but the _b asset contains the complete body art.
+    3504: f"{DRAGON_FULL_BODY_CDN}ui_3504_dragon_highhollowcrown_b_3@2x.png",
+}
+
+# Asset-name overrides are useful for pages that still construct the SocialPoint
+# full-body URL from adult_asset instead of reading full_body_image directly.
+DRAGON_ASSET_OVERRIDES: Dict[int, str] = {
+    3504: "3504_dragon_highhollowcrown_b",
+}
 
 RARITY_ORDER = ["C", "R", "V", "E", "L", "M", "H"]
 RARITY_NAMES = {
@@ -430,7 +446,17 @@ def main() -> None:
             orb_filter = str(summon_orbs)
 
         img_name = str(item.get("img_name_mobile") or item.get("img_name") or "")
+        adult_asset = DRAGON_ASSET_OVERRIDES.get(did, img_name)
+        adult_full_image = DRAGON_FULL_BODY_OVERRIDES.get(
+            did,
+            f"{DRAGON_FULL_BODY_CDN}ui_{adult_asset}_3@2x.png" if adult_asset else "",
+        )
         adult_thumb_url = f"{DRAGON_CDN}thumb_{img_name}_3.png" if img_name else ""
+
+        # If the config has no thumbnail at all (currently Placeholder VIP), use the
+        # custom full-body override as a safe fallback for UIs that still read adult_image.
+        if not adult_thumb_url and adult_full_image:
+            adult_thumb_url = adult_full_image
 
         if did in CURRENT_ELEMENT_OVERRIDES:
             current_display = CURRENT_ELEMENT_OVERRIDES[did]
@@ -447,7 +473,8 @@ def main() -> None:
             "elements": attrs,
             "display_elements": {"current": current_display, "old": old_display},
             "adult_image": adult_thumb_url,
-            "adult_asset": img_name,
+            "adult_asset": adult_asset,
+            "full_body_image": adult_full_image,
             "production": production,
             "production_icon": production_icon,
             "family": family,
