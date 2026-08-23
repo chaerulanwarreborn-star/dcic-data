@@ -33,9 +33,9 @@ ASSET_ROOT = "icons/"
 DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
     # Placeholder VIP has no img_name_mobile/img_name in game_config.
     9999: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+    3494: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
     # The config points to highhollowcrown, but the _b asset contains the complete body art.
     3504: f"{DRAGON_FULL_BODY_CDN}ui_3504_dragon_highhollowcrown_b_3@2x.png",
-    3494: f"{DRAGON_FULL_BODY_CDN}ui_3483_dragon_sparkler_3@2x.png",
     2802: f"{DRAGON_FULL_BODY_CDN}ui_2802_dragon_gracekarma_c_3@2x.png",
     1416: f"{DRAGON_FULL_BODY_CDN}ui_1416_dragon_darkjaws_3@2x.png",
     2482: f"{DRAGON_FULL_BODY_CDN}ui_2482_dragon_positive_b_3@2x.png",
