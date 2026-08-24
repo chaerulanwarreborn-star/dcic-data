@@ -467,7 +467,11 @@ def main() -> None:
     non_summonable = {
         int(row.get("dragon_id"))
         for row in (tol.get("non_summonable_dragons") or [])
-        if isinstance(row, dict) and safe_int(row.get("dragon_id")) is not None
+        if (
+                isinstance(row, dict)
+                and safe_int(row.get("dragon_id")) is not None
+                and not row.get("unlock_system_id")
+            )
     }
 
     dragons: List[Dict[str, Any]] = []
@@ -581,7 +585,10 @@ def main() -> None:
         summon_rec = summon_dragon_lookup.get(did) or summon_rarity_lookup.get(rarity) or {}
         summon_time = safe_int(summon_rec.get("summon_time_seconds"))
         summon_orbs = safe_int(item.get("seeds_to_summon"))
-        if summon_orbs is None:
+
+        if did in non_summonable:
+            orb_filter = "non_summonable"
+        elif summon_orbs is None:
             orb_filter = None
         elif summon_orbs > 500:
             orb_filter = "500+"
@@ -701,7 +708,7 @@ def main() -> None:
                     str(x.get("label", "")).lower(),
                 ),
             ),
-            "orbs": ["100", "150", "200", "500", "500+"],
+            "orbs": ["100", "150", "200", "500", "500+", "non_summonable"],
             "production": [
                 {"key": "gold", "label": "Gold", "asset": "resources/ic-gold.png"},
                 {"key": "gold_food", "label": "Gold + Food", "asset": "resources/ic-gold-food.png"},
