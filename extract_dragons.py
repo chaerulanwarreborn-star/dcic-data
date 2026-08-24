@@ -74,6 +74,19 @@ DRAGON_ASSET_OVERRIDES: Dict[int, str] = {
     3245: "3245_dragon_serpentextractor_b",
 }
 
+# Dragon IDs that should be treated as invalid/unreleased/non-dragon placeholders in DCIC.
+# Maintain this list manually as discoveries change.
+INVALID_DRAGON_IDS = {
+    9999, 1113, 1144, 1145, 1146, 1395, 1396, 1410,
+    2222, 1142, 1114, 1852, 1882, 1911, 1920, 1921,
+}
+
+# Display/sort ID overrides. These do not change the dragon's real ID.
+# Autumn Dragon is a normal released dragon whose config ID is unusually high.
+DRAGON_SORT_ID_OVERRIDES: Dict[int, int] = {
+    9900: 2684,
+}
+
 RARITY_ORDER = ["C", "R", "V", "E", "L", "M", "H"]
 RARITY_NAMES = {
     "C": "Common",
@@ -300,6 +313,21 @@ def skill_summary(ids: Iterable[Any], lookup: Dict[int, Dict[str, Any]], source:
     return result
 
 
+def _is_attack_linked_skill(row: Dict[str, Any], special: Optional[int] = None) -> bool:
+    """Return True only for a real skilled attack.
+
+    Some normal attacks in game_config carry special_icon=1/2 for UI purposes even
+    though they do not have a skill_id. Those must NOT be treated as Active/Mix
+    skilled attacks.
+    """
+    if row.get("skill_id") is None:
+        return False
+    value = row.get("special_icon")
+    if special is None:
+        return value in (1, 2)
+    return value == special
+
+
 def classify_skill_filters(
     passive: List[Dict[str, Any]],
     post: List[Dict[str, Any]],
@@ -308,18 +336,20 @@ def classify_skill_filters(
 ) -> List[str]:
     found = set()
 
-    # Passive + post blue icons are intentionally one filter category.
+    # Passive + Post blue icons are intentionally one filter category.
     if any(s.get("special_icon") == 1 for s in passive + post):
         found.add("passive")
 
-    # Mix can be passive/post based OR attack based. Both default attacks and
-    # trainable attacks must be scanned so trained-only skills remain filterable.
-    if any(s.get("special_icon") == 2 for s in passive + post + attacks + trainable_attacks):
+    # Mix is a visual/behavior category and may come from Passive/Post OR a
+    # real attack-linked skilled attack.
+    if any(s.get("special_icon") == 2 for s in passive + post) or any(
+        _is_attack_linked_skill(s, 2) for s in attacks + trainable_attacks
+    ):
         found.add("mix")
 
-    # Active means an attack-linked special skill. Scan both the dragon's
-    # default attacks and the attacks unlocked through training.
-    if any(s.get("special_icon") == 1 for s in attacks + trainable_attacks):
+    # Active means the dragon has a real skilled attack. A Mix attack is still
+    # an active/skilled attack, so both special_icon 1 and 2 belong here.
+    if any(_is_attack_linked_skill(s) for s in attacks + trainable_attacks):
         found.add("active")
 
     return [x for x in ("active", "passive", "mix") if x in found]
@@ -329,37 +359,32 @@ def classify_attack_skill_availability(
     attacks: List[Dict[str, Any]],
     trainable_attacks: List[Dict[str, Any]],
 ) -> List[str]:
-    """Classify attack-linked Active/Mix skill availability.
+    # This section applies ONLY to real attack-linked Active/Mix skills.
+    # Passive/Post skills do not participate.
+    has_default = any(_is_attack_linked_skill(s) for s in attacks)
+    has_trained = any(_is_attack_linked_skill(s) for s in trainable_attacks)
 
-    all:
-        At least one Active/Mix skill exists in default attacks or trainable attacks.
-    upgradable:
-        The same attack slot is special in both default and trainable attacks.
-    trained_only:
-        No default attack slot is special, but at least one trainable attack is special.
-
-    Passive/post skills are deliberately ignored here.
-    """
-    special_values = {1, 2}
-    default_special = [s.get("special_icon") in special_values for s in attacks]
-    trained_special = [s.get("special_icon") in special_values for s in trainable_attacks]
-
-    has_default = any(default_special)
-    has_trained = any(trained_special)
     found: List[str] = []
 
+    # ALL — a real skilled attack exists in default attacks, trainable attacks, or both.
     if has_default or has_trained:
         found.append("all")
 
-    slot_count = max(len(default_special), len(trained_special))
-    if any(
-        (default_special[i] if i < len(default_special) else False)
-        and (trained_special[i] if i < len(trained_special) else False)
+    # Upgradable — the SAME SLOT has a real skilled attack in default + trainable,
+    # and the attack IDs are different. Same ID means the existing skill cannot be
+    # trained into another version and therefore is not an upgrade.
+    slot_count = min(len(attacks), len(trainable_attacks))
+    has_upgrade = any(
+        _is_attack_linked_skill(attacks[i])
+        and _is_attack_linked_skill(trainable_attacks[i])
+        and str(attacks[i].get("id")) != str(trainable_attacks[i].get("id"))
         for i in range(slot_count)
-    ):
+    )
+    if has_upgrade:
         found.append("upgradable")
 
-    if (not has_default) and has_trained:
+    # Trained Only — no real skilled attack by default; one appears after training.
+    if not has_default and has_trained:
         found.append("trained_only")
 
     return found
@@ -374,7 +399,8 @@ def representative_skill_icon(
 
     # Priority:
     # Passive -> Post -> Default Skilled Attack -> Trainable Skilled Attack.
-    # Check every entry instead of only the first one.
+    # Passive/Post keep their existing behavior. Attack-linked icons require
+    # skill_id so ordinary attacks with special_icon metadata are ignored.
 
     for s in passive:
         special = s.get("special_icon")
@@ -396,16 +422,13 @@ def representative_skill_icon(
 
     for source in (attacks, trainable_attacks):
         for s in source:
-            special = s.get("special_icon")
-
-            if special == 1:
+            if _is_attack_linked_skill(s, 1):
                 return "skills-icon/ic-skills-special-1.png"
 
-            if special == 2:
+            if _is_attack_linked_skill(s, 2):
                 return "skills-icon/ic-skills-mix-special-1.png"
 
     return "skills-icon/ic-skill-empty.png"
-
 
 def main() -> None:
     config = load_json(CONFIG_PATH)
@@ -562,7 +585,7 @@ def main() -> None:
             orb_filter = None
         elif summon_orbs > 500:
             orb_filter = "500+"
-        elif summon_orbs in (100, 200, 250, 500):
+        elif summon_orbs in (100, 150, 200, 500):
             orb_filter = str(summon_orbs)
         else:
             orb_filter = str(summon_orbs)
@@ -588,6 +611,8 @@ def main() -> None:
 
         dragon = {
             "id": did,
+            "sort_id": DRAGON_SORT_ID_OVERRIDES.get(did, did),
+            "is_invalid": did in INVALID_DRAGON_IDS,
             "item_index": item_index,
             "book_id": safe_int(book.get("number")) or safe_int(book.get("id")),
             "name": localized_name,
@@ -665,6 +690,10 @@ def main() -> None:
                 {"key": "upgradable", "label": "Upgradable"},
                 {"key": "trained_only", "label": "Trained Only"},
             ],
+            "invalid_dragons": [
+                {"key": "hide", "label": "Hide Invalid Dragons"},
+                {"key": "only", "label": "Only Show Invalid Dragons"},
+            ],
             "families": sorted(
                 family_filter_defs.values(),
                 key=lambda x: (
@@ -672,7 +701,7 @@ def main() -> None:
                     str(x.get("label", "")).lower(),
                 ),
             ),
-            "orbs": ["100", "200", "250", "500", "500+"],
+            "orbs": ["100", "150", "200", "500", "500+"],
             "production": [
                 {"key": "gold", "label": "Gold", "asset": "resources/ic-gold.png"},
                 {"key": "gold_food", "label": "Gold + Food", "asset": "resources/ic-gold-food.png"},
