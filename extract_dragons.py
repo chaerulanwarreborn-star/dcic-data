@@ -430,6 +430,207 @@ def representative_skill_icon(
 
     return "skills-icon/ic-skill-empty.png"
 
+
+
+def localized_value(loc: Dict[str, str], key: Any, fallback: str = "") -> str:
+    if key is None:
+        return fallback
+    return str(loc.get(str(key)) or fallback or "")
+
+
+def price_entries(raw: Any) -> List[Dict[str, Any]]:
+    if not isinstance(raw, dict):
+        return []
+    labels = {"c": "Gems", "g": "Gold", "f": "Food"}
+    out: List[Dict[str, Any]] = []
+    for currency, value in raw.items():
+        amount = safe_int(value)
+        if amount is None:
+            continue
+        out.append({
+            "currency": str(currency),
+            "label": labels.get(str(currency), str(currency)),
+            "amount": amount,
+        })
+    return out
+
+
+def attack_detail(
+    ids: Iterable[Any],
+    attack_lookup: Dict[int, Dict[str, Any]],
+    skill_def_lookup: Dict[int, Dict[str, Any]],
+    loc: Dict[str, str],
+) -> List[Dict[str, Any]]:
+    out: List[Dict[str, Any]] = []
+    for raw_id in ids or []:
+        aid = safe_int(raw_id)
+        if aid is None:
+            continue
+        rec = attack_lookup.get(aid, {})
+        skill_id = safe_int(rec.get("skill_id"))
+        skill_def = skill_def_lookup.get(skill_id or -1, {}) if skill_id is not None else {}
+        name = localized_value(loc, rec.get("name_key"), str(rec.get("name") or f"Attack {aid}"))
+        if skill_def.get("tid_name"):
+            name = localized_value(loc, skill_def.get("tid_name"), name)
+        out.append({
+            "id": aid,
+            "name": name,
+            "element": str(rec.get("element") or "ph"),
+            "button_style": safe_int(rec.get("button_style")) or 1,
+            "special_icon": safe_int(rec.get("special_icon")) or 0,
+            "skill_id": skill_id,
+            "damage": safe_int(rec.get("ui_damage")) or safe_int(rec.get("damage")),
+            "training_time": safe_int(rec.get("training_time")),
+        })
+    return out
+
+
+def logical_skill_details(
+    passive_ids: Iterable[Any],
+    post_ids: Iterable[Any],
+    attack_ids: Iterable[Any],
+    trainable_attack_ids: Iterable[Any],
+    passive_lookup: Dict[int, Dict[str, Any]],
+    post_lookup: Dict[int, Dict[str, Any]],
+    attack_lookup: Dict[int, Dict[str, Any]],
+    skill_def_lookup: Dict[int, Dict[str, Any]],
+    loc: Dict[str, str],
+) -> List[Dict[str, Any]]:
+    out: List[Dict[str, Any]] = []
+    seen = set()
+
+    def add_from_skill_record(rec: Dict[str, Any], source: str) -> None:
+        sid = safe_int(rec.get("skill_id"))
+        if sid is None:
+            return
+        special = safe_int(rec.get("special_icon")) or 0
+        kind = "mix" if special == 2 else "passive"
+        key = (sid, kind)
+        if key in seen:
+            return
+        seen.add(key)
+        sdef = skill_def_lookup.get(sid, {})
+        name = localized_value(loc, sdef.get("tid_name"), str(rec.get("name") or f"Skill {sid}"))
+        description = localized_value(loc, sdef.get("tid_description"), "")
+        out.append({"id": sid, "name": name, "description": description, "type": kind, "source": source})
+
+    for raw_id in passive_ids or []:
+        rid = safe_int(raw_id)
+        if rid is not None:
+            add_from_skill_record(passive_lookup.get(rid, {}), "passive")
+    for raw_id in post_ids or []:
+        rid = safe_int(raw_id)
+        if rid is not None:
+            add_from_skill_record(post_lookup.get(rid, {}), "post")
+
+    for raw_id in list(attack_ids or []) + list(trainable_attack_ids or []):
+        aid = safe_int(raw_id)
+        if aid is None:
+            continue
+        rec = attack_lookup.get(aid, {})
+        sid = safe_int(rec.get("skill_id"))
+        if sid is None:
+            continue
+        special = safe_int(rec.get("special_icon")) or 0
+        if special not in (1, 2):
+            continue
+        kind = "mix" if special == 2 else "active"
+        key = (sid, kind)
+        if key in seen:
+            continue
+        seen.add(key)
+        sdef = skill_def_lookup.get(sid, {})
+        name = localized_value(loc, sdef.get("tid_name"), localized_value(loc, rec.get("name_key"), str(rec.get("name") or f"Skill {sid}")))
+        description = localized_value(loc, sdef.get("tid_description"), "")
+        out.append({"id": sid, "name": name, "description": description, "type": kind, "source": "attack"})
+
+    return out
+
+
+def build_normal_breeding_lookup(rows: Any) -> Dict[int, Dict[str, Any]]:
+    """Choose one canonical normal-breeding element recipe per dragon.
+
+    The config stores results as dragon_id_1, dragon_id_2, ... within an element-pair row.
+    Prefer an unempowered result, then the earliest result slot, then the earliest recipe row.
+    """
+    candidates: Dict[int, List[tuple]] = {}
+    if not isinstance(rows, list):
+        return {}
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        e1, e2 = row.get("element_one"), row.get("element_two")
+        if not e1 or not e2:
+            continue
+        for key, value in row.items():
+            if not str(key).startswith("dragon_id_"):
+                continue
+            try:
+                slot = int(str(key).split("_")[-1])
+            except ValueError:
+                continue
+            did = safe_int(value)
+            if did is None:
+                continue
+            empower = safe_int(row.get(f"empower_{slot}")) or 0
+            rank = (1 if empower else 0, slot, safe_int(row.get("id")) or 999999)
+            candidates.setdefault(did, []).append((rank, {"elements": [str(e1), str(e2)], "recipe_id": safe_int(row.get("id"))}))
+    out: Dict[int, Dict[str, Any]] = {}
+    for did, values in candidates.items():
+        values.sort(key=lambda x: x[0])
+        out[did] = values[0][1]
+    return out
+
+
+def skin_details(
+    rows: Iterable[Dict[str, Any]],
+    loc: Dict[str, str],
+) -> List[Dict[str, Any]]:
+    out: List[Dict[str, Any]] = []
+    for row in rows or []:
+        if not isinstance(row, dict):
+            continue
+        img_name = str(row.get("img_name_mobile") or row.get("img_name_canvas") or "")
+        out.append({
+            "id": safe_int(row.get("id")),
+            "name": localized_value(loc, row.get("skin_name_tid"), f"Skin {row.get('id', '')}"),
+            "image": f"{DRAGON_FULL_BODY_CDN}ui_{img_name}_3@2x.png" if img_name else "",
+        })
+    return out
+
+
+def world_food_production(
+    passive: List[Dict[str, Any]],
+    post: List[Dict[str, Any]],
+    world_skill_lookup: Dict[int, Dict[str, Any]],
+    world_effect_lookup: Dict[int, Dict[str, Any]],
+) -> Dict[str, Any]:
+    total = 0
+    intervals: List[int] = []
+    for row in passive + post:
+        wsid = safe_int(row.get("world_skill_id"))
+        if wsid is None:
+            continue
+        world_skill = world_skill_lookup.get(wsid, {})
+        for effect_id in world_skill.get("effects") or []:
+            eid = safe_int(effect_id)
+            effect = world_effect_lookup.get(eid or -1, {})
+            if effect.get("effect_type") != "RESOURCE_PRODUCTION":
+                continue
+            params = effect.get("parameters") or {}
+            resources = params.get("resource") or {}
+            amount = safe_int(resources.get("f"))
+            if amount is not None:
+                total += amount
+            interval = safe_int(effect.get("interval_time"))
+            if interval:
+                intervals.append(interval)
+    return {
+        "food_per_min": total if total > 0 else None,
+        "food_collect_interval": min(intervals) if intervals else None,
+    }
+
+
 def main() -> None:
     config = load_json(CONFIG_PATH)
     loc = localization_map(load_json(LOCALIZATION_PATH))
@@ -438,6 +639,40 @@ def main() -> None:
     passive_lookup = index_by_id(skills.get("passive") or [])
     post_lookup = index_by_id(skills.get("post") or [])
     attack_lookup = index_by_id(skills.get("attacks") or [])
+    skill_def_lookup = index_by_id(skills.get("skills") or [])
+    world_skill_lookup = index_by_id(skills.get("world_skills") or [])
+    world_effect_lookup = index_by_id(skills.get("world_effects") or [])
+
+    all_dragon_items = {
+        int(row.get("id")): row
+        for row in (config.get("items") or [])
+        if isinstance(row, dict) and row.get("group_type") == "DRAGON" and safe_int(row.get("id")) is not None
+    }
+
+    breeding_cfg = config.get("breeding") or {}
+    soulmate_lookup = {
+        int(row.get("dragon_id")): row
+        for row in (breeding_cfg.get("soulmates") or [])
+        if isinstance(row, dict) and safe_int(row.get("dragon_id")) is not None
+    }
+    normal_breeding_lookup = build_normal_breeding_lookup(breeding_cfg.get("breeding") or [])
+
+    sanctuary_lookup: Dict[int, Dict[str, Any]] = {}
+    for level in ((config.get("sanctuary_breeding") or {}).get("upgrades_config") or []):
+        if not isinstance(level, dict):
+            continue
+        for dragon_id in level.get("dragons_unlocked") or []:
+            sid = safe_int(dragon_id)
+            if sid is not None:
+                sanctuary_lookup[sid] = {"level": safe_int(level.get("id")), "item_id": safe_int(level.get("item_id"))}
+
+    skins_by_dragon: Dict[int, List[Dict[str, Any]]] = {}
+    for skin in ((config.get("dragon_skins") or {}).get("dragon_skins") or []):
+        if not isinstance(skin, dict):
+            continue
+        skin_did = safe_int(skin.get("dragon_id"))
+        if skin_did is not None:
+            skins_by_dragon.setdefault(skin_did, []).append(skin)
 
     family_boost = config.get("dragon_family_boost") or {}
     family_dragon_lookup = index_by_id(family_boost.get("dragons") or [])
@@ -616,6 +851,108 @@ def main() -> None:
             current_display = [f"{code}-1" for code in attrs]
         old_display = OLD_ELEMENT_OVERRIDES.get(did, [f"{code}-0" for code in attrs])
 
+        # Detail-popup data -------------------------------------------------
+        stage_base_asset = img_name
+        stage_images = {
+            "egg": f"{DRAGON_FULL_BODY_CDN}ui_{stage_base_asset}_0@2x.png" if stage_base_asset else "",
+            "baby": f"{DRAGON_FULL_BODY_CDN}ui_{stage_base_asset}_1@2x.png" if stage_base_asset else "",
+            "adult": adult_full_image,
+        }
+
+        # The popup uses the dragon's actual/current attributes. Old Symbols only
+        # switches code-1 -> code-0; historical special-element overrides are not used here.
+        detail_elements = list(attrs)
+
+        food_prod = world_food_production(passive, post, world_skill_lookup, world_effect_lookup)
+
+        soulmate = soulmate_lookup.get(did)
+        sanctuary = sanctuary_lookup.get(did)
+        normal_recipe = normal_breeding_lookup.get(did)
+        breeding_type: Optional[str] = None
+        breeding_formula_elements: List[str] = []
+        breeding_parents: List[Dict[str, Any]] = []
+        min_parent_level: Optional[int] = None
+
+        if soulmate:
+            breeding_type = "soulmate"
+            min_parent_level = safe_int(soulmate.get("level_parents"))
+            for parent_key in ("parent_1_id", "parent_2_id"):
+                parent_id = safe_int(soulmate.get(parent_key))
+                if parent_id is None:
+                    continue
+                parent_item = all_dragon_items.get(parent_id, {})
+                parent_img = str(parent_item.get("img_name_mobile") or parent_item.get("img_name") or "")
+                breeding_parents.append({
+                    "id": parent_id,
+                    "name": loc.get(f"tid_unit_{parent_id}_name") or parent_item.get("name") or f"Dragon {parent_id}",
+                    "image": f"{DRAGON_CDN}thumb_{parent_img}_3.png" if parent_img else "",
+                })
+        elif sanctuary:
+            breeding_type = "sanctuary"
+            # Sanctuary uses the complete target element set. The elements may be
+            # distributed between the two parents in any way as long as together
+            # they cover the target dragon's elements.
+            breeding_formula_elements = list(attrs)
+        elif bool(item.get("breedable")):
+            breeding_type = "hybrid"
+            if normal_recipe:
+                breeding_formula_elements = list(normal_recipe.get("elements") or [])
+
+        effective_breedable = bool(breeding_type) or bool(item.get("breedable"))
+
+        detail_attacks = attack_detail(item.get("attacks") or [], attack_lookup, skill_def_lookup, loc)
+        detail_trainable_attacks = attack_detail(item.get("trainable_attacks") or [], attack_lookup, skill_def_lookup, loc)
+        detail_skills = logical_skill_details(
+            item.get("passive_skills") or [],
+            item.get("post_skills") or [],
+            item.get("attacks") or [],
+            item.get("trainable_attacks") or [],
+            passive_lookup,
+            post_lookup,
+            attack_lookup,
+            skill_def_lookup,
+            loc,
+        )
+
+        details = {
+            "images": stage_images,
+            "elements": detail_elements,
+            "income": {
+                "gold_per_min": safe_int(item.get("starting_coins")),
+                "food_per_min": food_prod.get("food_per_min"),
+                "food_collect_interval": food_prod.get("food_collect_interval"),
+            },
+            "shop": {
+                "in_shop": bool(item.get("in_store")),
+                "price": price_entries(item.get("costs")),
+            },
+            "breeding": {
+                "breedable": effective_breedable,
+                "type": breeding_type,
+                "formula_elements": breeding_formula_elements,
+                "parents": breeding_parents,
+                "min_parent_level": min_parent_level,
+                "sanctuary_level": sanctuary.get("level") if sanctuary else None,
+                "time": safe_int(item.get("breeding_time")),
+            },
+            "summoning": {
+                "summonable": did not in non_summonable,
+                "orbs": summon_orbs,
+                "time": summon_time,
+            },
+            "hatching": {
+                "time": safe_int(item.get("hatching_time")),
+                "xp": safe_int(item.get("xp")),
+                "sell": price_entries(item.get("sell_price")),
+            },
+            "skills": detail_skills,
+            "attacks": {
+                "basic": detail_attacks,
+                "trained": detail_trainable_attacks,
+            },
+            "skins": skin_details(skins_by_dragon.get(did, []), loc),
+        }
+
         dragon = {
             "id": did,
             "sort_id": DRAGON_SORT_ID_OVERRIDES.get(did, did),
@@ -634,6 +971,7 @@ def main() -> None:
             "production_icon": production_icon,
             "family": family,
             "family_filters": family_filters,
+            "details": details,
             "skills": {
                 "passive": passive,
                 "post": post,
@@ -673,7 +1011,7 @@ def main() -> None:
         element_filters.append({"code": code, "name": ELEMENT_NAMES.get(code, code)})
 
     output = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "meta": {
             "dragon_count": len(dragons),
