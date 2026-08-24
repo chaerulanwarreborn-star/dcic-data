@@ -594,6 +594,7 @@ def skin_details(
         out.append({
             "id": safe_int(row.get("id")),
             "name": localized_value(loc, row.get("skin_name_tid"), f"Skin {row.get('id', '')}"),
+            "description": localized_value(loc, row.get("skin_description_tid"), ""),
             # Dragon Details uses the compact portrait/thumbnail art for skin rows,
             # not the full-body UI asset.
             "image": f"{DRAGON_CDN}thumb_{img_name}_3.png" if img_name else "",
@@ -925,6 +926,7 @@ def main() -> None:
         details = {
             "images": stage_images,
             "elements": detail_elements,
+            "description": loc.get(f"tid_unit_{did}_description") or "",
             "income": {
                 "gold_per_min": safe_int(item.get("starting_coins")),
                 "food_per_min": food_prod.get("food_per_min"),
