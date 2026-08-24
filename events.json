@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T16:21:12.028282Z",
+  "generated_at": "2026-08-24T16:34:47.291423Z",
   "source_file": "game_config.json",
   "event_count": 70,
   "events": [
@@ -1099,7 +1099,7 @@
       "guide": "/p/maze-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "maze_island",
-      "building_id": 10076,
+      "building_id": 10650,
       "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
     },
     {
