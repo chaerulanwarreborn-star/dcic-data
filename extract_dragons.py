@@ -300,27 +300,87 @@ def skill_summary(ids: Iterable[Any], lookup: Dict[int, Dict[str, Any]], source:
     return result
 
 
-def classify_skill_filters(passive: List[Dict[str, Any]], post: List[Dict[str, Any]], attacks: List[Dict[str, Any]]) -> List[str]:
+def classify_skill_filters(
+    passive: List[Dict[str, Any]],
+    post: List[Dict[str, Any]],
+    attacks: List[Dict[str, Any]],
+    trainable_attacks: List[Dict[str, Any]],
+) -> List[str]:
     found = set()
+
     # Passive + post blue icons are intentionally one filter category.
     if any(s.get("special_icon") == 1 for s in passive + post):
         found.add("passive")
-    # Any mix special (passive/post/attack) belongs to the same Mix filter.
-    if any(s.get("special_icon") == 2 for s in passive + post + attacks):
+
+    # Mix can be passive/post based OR attack based. Both default attacks and
+    # trainable attacks must be scanned so trained-only skills remain filterable.
+    if any(s.get("special_icon") == 2 for s in passive + post + attacks + trainable_attacks):
         found.add("mix")
-    if any(s.get("special_icon") == 1 for s in attacks):
+
+    # Active means an attack-linked special skill. Scan both the dragon's
+    # default attacks and the attacks unlocked through training.
+    if any(s.get("special_icon") == 1 for s in attacks + trainable_attacks):
         found.add("active")
+
     return [x for x in ("active", "passive", "mix") if x in found]
+
+
+def classify_attack_skill_availability(
+    attacks: List[Dict[str, Any]],
+    trainable_attacks: List[Dict[str, Any]],
+) -> List[str]:
+
+    special_values = {1, 2}
+
+    has_default = any(
+        s.get("special_icon") in special_values
+        for s in attacks
+    )
+
+    has_trained = any(
+        s.get("special_icon") in special_values
+        for s in trainable_attacks
+    )
+
+    found: List[str] = []
+
+    # ALL — Active/Mix exists either by default or through training.
+    if has_default or has_trained:
+        found.append("all")
+
+    # Upgradable —
+    # same slot is special in default + trained,
+    # AND the trained attack is a DIFFERENT attack ID.
+    slot_count = min(len(attacks), len(trainable_attacks))
+
+    has_upgrade = any(
+        attacks[i].get("special_icon") in special_values
+        and trainable_attacks[i].get("special_icon") in special_values
+        and attacks[i].get("id") != trainable_attacks[i].get("id")
+        for i in range(slot_count)
+    )
+
+    if has_upgrade:
+        found.append("upgradable")
+
+    # Trained Only —
+    # no Active/Mix skill exists in default attacks,
+    # but at least one exists after training.
+    if not has_default and has_trained:
+        found.append("trained_only")
+
+    return found
 
 
 def representative_skill_icon(
     passive: List[Dict[str, Any]],
     post: List[Dict[str, Any]],
     attacks: List[Dict[str, Any]],
+    trainable_attacks: List[Dict[str, Any]],
 ) -> str:
 
     # Priority:
-    # Passive -> Post -> Skilled Attack.
+    # Passive -> Post -> Default Skilled Attack -> Trainable Skilled Attack.
     # Check every entry instead of only the first one.
 
     for s in passive:
@@ -341,14 +401,15 @@ def representative_skill_icon(
         if special == 2:
             return "skills-icon/ic-post-skills-mix-special.png"
 
-    for s in attacks:
-        special = s.get("special_icon")
+    for source in (attacks, trainable_attacks):
+        for s in source:
+            special = s.get("special_icon")
 
-        if special == 1:
-            return "skills-icon/ic-skills-special-1.png"
+            if special == 1:
+                return "skills-icon/ic-skills-special-1.png"
 
-        if special == 2:
-            return "skills-icon/ic-skills-mix-special-1.png"
+            if special == 2:
+                return "skills-icon/ic-skills-mix-special-1.png"
 
     return "skills-icon/ic-skill-empty.png"
 
@@ -410,8 +471,10 @@ def main() -> None:
         passive = skill_summary(item.get("passive_skills") or [], passive_lookup, "passive")
         post = skill_summary(item.get("post_skills") or [], post_lookup, "post")
         attacks = skill_summary(item.get("attacks") or [], attack_lookup, "attack")
-        skill_filters = classify_skill_filters(passive, post, attacks)
-        skill_icon = representative_skill_icon(passive, post, attacks)
+        trainable_attacks = skill_summary(item.get("trainable_attacks") or [], attack_lookup, "trainable_attack")
+        skill_filters = classify_skill_filters(passive, post, attacks, trainable_attacks)
+        attack_skill_availability = classify_attack_skill_availability(attacks, trainable_attacks)
+        skill_icon = representative_skill_icon(passive, post, attacks, trainable_attacks)
 
         produces_food = any(s.get("world_skill_id") is not None for s in passive)
         production = "gold_food" if produces_food else "gold"
@@ -550,7 +613,9 @@ def main() -> None:
                 "passive": passive,
                 "post": post,
                 "attacks": attacks,
+                "trainable_attacks": trainable_attacks,
                 "filters": skill_filters,
+                "attack_availability": attack_skill_availability,
                 "card_icon": skill_icon,
             },
             "orbs_to_summon": summon_orbs,
@@ -601,6 +666,11 @@ def main() -> None:
                 {"key": "active", "label": "Active", "asset": "skills-icon/ic-skills-special-1.png"},
                 {"key": "passive", "label": "Passive / Post", "asset": "skills-icon/ic-skills-passive-special-1.png"},
                 {"key": "mix", "label": "Mix", "asset": "skills-icon/ic-skills-mix-special-1.png"},
+            ],
+            "active_skill_availability": [
+                {"key": "all", "label": "ALL — Default & Trainable"},
+                {"key": "upgradable", "label": "Upgradable"},
+                {"key": "trained_only", "label": "Trained Only"},
             ],
             "families": sorted(
                 family_filter_defs.values(),
