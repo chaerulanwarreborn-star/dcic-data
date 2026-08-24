@@ -300,6 +300,21 @@ def skill_summary(ids: Iterable[Any], lookup: Dict[int, Dict[str, Any]], source:
     return result
 
 
+def _is_attack_linked_skill(row: Dict[str, Any], special: Optional[int] = None) -> bool:
+    """Return True only for a real skilled attack.
+
+    Some normal attacks in game_config carry special_icon=1/2 for UI purposes even
+    though they do not have a skill_id. Those must NOT be treated as Active/Mix
+    skilled attacks.
+    """
+    if row.get("skill_id") is None:
+        return False
+    value = row.get("special_icon")
+    if special is None:
+        return value in (1, 2)
+    return value == special
+
+
 def classify_skill_filters(
     passive: List[Dict[str, Any]],
     post: List[Dict[str, Any]],
@@ -309,17 +324,22 @@ def classify_skill_filters(
     found = set()
 
     # Passive + post blue icons are intentionally one filter category.
+    # Keep their existing logic; skill_id validation is only required for
+    # attack-linked skills from attacks/trainable_attacks.
     if any(s.get("special_icon") == 1 for s in passive + post):
         found.add("passive")
 
-    # Mix can be passive/post based OR attack based. Both default attacks and
-    # trainable attacks must be scanned so trained-only skills remain filterable.
-    if any(s.get("special_icon") == 2 for s in passive + post + attacks + trainable_attacks):
+    # Mix may be passive/post based OR attack based. For attack-linked Mix,
+    # require a real skill_id to avoid false positives from ordinary attacks
+    # that merely carry special_icon=2.
+    if any(s.get("special_icon") == 2 for s in passive + post) or any(
+        _is_attack_linked_skill(s, 2) for s in attacks + trainable_attacks
+    ):
         found.add("mix")
 
-    # Active means an attack-linked special skill. Scan both the dragon's
-    # default attacks and the attacks unlocked through training.
-    if any(s.get("special_icon") == 1 for s in attacks + trainable_attacks):
+    # Active is attack-linked only. Scan default + trainable attacks, but only
+    # count records that actually reference a skill_id.
+    if any(_is_attack_linked_skill(s, 1) for s in attacks + trainable_attacks):
         found.add("active")
 
     return [x for x in ("active", "passive", "mix") if x in found]
@@ -381,7 +401,8 @@ def representative_skill_icon(
 
     # Priority:
     # Passive -> Post -> Default Skilled Attack -> Trainable Skilled Attack.
-    # Check every entry instead of only the first one.
+    # Passive/Post keep their existing behavior. Attack-linked icons require
+    # skill_id so ordinary attacks with special_icon metadata are ignored.
 
     for s in passive:
         special = s.get("special_icon")
@@ -403,16 +424,13 @@ def representative_skill_icon(
 
     for source in (attacks, trainable_attacks):
         for s in source:
-            special = s.get("special_icon")
-
-            if special == 1:
+            if _is_attack_linked_skill(s, 1):
                 return "skills-icon/ic-skills-special-1.png"
 
-            if special == 2:
+            if _is_attack_linked_skill(s, 2):
                 return "skills-icon/ic-skills-mix-special-1.png"
 
     return "skills-icon/ic-skill-empty.png"
-
 
 def main() -> None:
     config = load_json(CONFIG_PATH)
