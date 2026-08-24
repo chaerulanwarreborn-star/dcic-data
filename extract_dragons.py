@@ -594,7 +594,9 @@ def skin_details(
         out.append({
             "id": safe_int(row.get("id")),
             "name": localized_value(loc, row.get("skin_name_tid"), f"Skin {row.get('id', '')}"),
-            "image": f"{DRAGON_FULL_BODY_CDN}ui_{img_name}_3@2x.png" if img_name else "",
+            # Dragon Details uses the compact portrait/thumbnail art for skin rows,
+            # not the full-body UI asset.
+            "image": f"{DRAGON_CDN}thumb_{img_name}_3.png" if img_name else "",
         })
     return out
 
@@ -750,6 +752,11 @@ def main() -> None:
             family = {
                 "key": key,
                 "id": fam_id,
+                "label": localized_value(
+                    loc,
+                    fam_def.get("tid_name"),
+                    FAMILY_LABELS.get(key, fam_id),
+                ),
                 "team": str(fam_def.get("icon_number") or ""),
                 "asset": asset,
                 "source": "family_boost",
@@ -761,6 +768,7 @@ def main() -> None:
                     family = {
                         "key": key,
                         "id": tag,
+                        "label": FAMILY_LABELS.get(key, tag),
                         "team": "",
                         "asset": asset,
                         "source": "tag",
