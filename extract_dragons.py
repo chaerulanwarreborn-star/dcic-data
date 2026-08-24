@@ -861,11 +861,19 @@ def main() -> None:
         old_display = OLD_ELEMENT_OVERRIDES.get(did, [f"{code}-0" for code in attrs])
 
         # Detail-popup data -------------------------------------------------
+        # Invalid/unreleased placeholder dragons must use the asset declared by
+        # game_config inside Overview. Custom DCIC image overrides remain available
+        # elsewhere (e.g. All Dragons cards) but are intentionally ignored here.
         stage_base_asset = img_name
+        detail_adult_image = (
+            f"{DRAGON_FULL_BODY_CDN}ui_{stage_base_asset}_3@2x.png"
+            if did in INVALID_DRAGON_IDS and stage_base_asset
+            else adult_full_image
+        )
         stage_images = {
             "egg": f"{DRAGON_FULL_BODY_CDN}ui_{stage_base_asset}_0@2x.png" if stage_base_asset else "",
             "baby": f"{DRAGON_FULL_BODY_CDN}ui_{stage_base_asset}_1@2x.png" if stage_base_asset else "",
-            "adult": adult_full_image,
+            "adult": detail_adult_image,
         }
 
         # The popup uses the dragon's actual/current attributes. Old Symbols only
