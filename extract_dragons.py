@@ -313,27 +313,43 @@ def classify_skill_filters(passive: List[Dict[str, Any]], post: List[Dict[str, A
     return [x for x in ("active", "passive", "mix") if x in found]
 
 
-def representative_skill_icon(passive: List[Dict[str, Any]], post: List[Dict[str, Any]], attacks: List[Dict[str, Any]]) -> str:
-    # Project rule: passive takes visual priority, then post, then skilled attacks.
-    if passive:
-        s = passive[0]
-        if s.get("special_icon") == 1:
+def representative_skill_icon(
+    passive: List[Dict[str, Any]],
+    post: List[Dict[str, Any]],
+    attacks: List[Dict[str, Any]],
+) -> str:
+
+    # Priority:
+    # Passive -> Post -> Skilled Attack.
+    # Check every entry instead of only the first one.
+
+    for s in passive:
+        special = s.get("special_icon")
+
+        if special == 1:
             return "skills-icon/ic-skills-passive-special-1.png"
-        if s.get("special_icon") == 2:
+
+        if special == 2:
             return "skills-icon/ic-skills-mix-special-1.png"
-        return "skills-icon/ic-skill-empty.png"
-    if post:
-        s = post[0]
-        if s.get("special_icon") == 1:
+
+    for s in post:
+        special = s.get("special_icon")
+
+        if special == 1:
             return "skills-icon/ic-post-skills.png"
-        if s.get("special_icon") == 2:
+
+        if special == 2:
             return "skills-icon/ic-post-skills-mix-special.png"
-        return "skills-icon/ic-skill-empty.png"
+
     for s in attacks:
-        if s.get("special_icon") == 1:
+        special = s.get("special_icon")
+
+        if special == 1:
             return "skills-icon/ic-skills-special-1.png"
-        if s.get("special_icon") == 2:
+
+        if special == 2:
             return "skills-icon/ic-skills-mix-special-1.png"
+
     return "skills-icon/ic-skill-empty.png"
 
 
