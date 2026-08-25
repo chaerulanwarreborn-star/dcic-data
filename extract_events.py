@@ -39,6 +39,18 @@ SECTION_SPECS = [
 ]
 
 
+def guide_url(event_type: str, event_id: int) -> str:
+    """Return the guide URL for an event.
+
+    Fog Island has historical maps addressable by ID, so its guide link must keep
+    the event ID. Other guides retain their existing shared URL for now.
+    """
+    base = GUIDES[event_type]
+    if event_type == "fog_island" and event_id > 0:
+        return f"{base}?id={event_id}"
+    return base
+
+
 def load_json(path: Path, default: Any = None) -> Any:
     if not path.exists():
         if default is not None:
@@ -199,7 +211,7 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]]) -
                 "end_ts": end_ts,
                 "start_iso": iso(start_ts),
                 "end_iso": iso(end_ts),
-                "guide": GUIDES[event_type],
+                "guide": guide_url(event_type, event_id),
                 "schedule_source": schedule_source,
                 "source_section": section,
             }

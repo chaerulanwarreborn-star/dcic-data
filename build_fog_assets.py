@@ -7,12 +7,15 @@ import mimetypes
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List
+from typing import Any, Dict, Iterable, List
 
 ROOT = Path(__file__).resolve().parent
 FOG_JSON = ROOT / "fog_island.json"
 OUT_JSON = ROOT / "fog_assets.json"
-UA = "Mozilla/5.0 DCIC-Fog-Asset-Builder/1.0"
+UA = "Mozilla/5.0 DCIC-Fog-Asset-Builder/2.0"
+STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
+CHEST_BASE = STATIC_BASE + "mobile/ui/chests/"
+DRAGON_BASE = STATIC_BASE + "mobile/ui/dragons/"
 
 
 def load_json(path: Path):
@@ -20,52 +23,124 @@ def load_json(path: Path):
         return json.load(f)
 
 
+def unique(values: Iterable[str]) -> List[str]:
+    out: List[str] = []
+    seen = set()
+    for value in values:
+        value = str(value or "").strip()
+        if value and value not in seen:
+            seen.add(value)
+            out.append(value)
+    return out
+
+
 def choose_island(islands):
     now = int(datetime.now(timezone.utc).timestamp())
-    valid = [i for i in islands if int(i.get("start_ts",0)) > 0 and int(i.get("end_ts",0)) > int(i.get("start_ts",0))]
-    current = sorted([i for i in valid if int(i["start_ts"]) <= now < int(i["end_ts"])], key=lambda x:int(x["end_ts"]))
+    valid = [i for i in islands if int(i.get("start_ts", 0)) > 0 and int(i.get("end_ts", 0)) > int(i.get("start_ts", 0))]
+    current = sorted([i for i in valid if int(i["start_ts"]) <= now < int(i["end_ts"])], key=lambda x: int(x["end_ts"]))
     if current:
         return current[0]
-    upcoming = sorted([i for i in valid if int(i["start_ts"]) > now], key=lambda x:int(x["start_ts"]))
+    upcoming = sorted([i for i in valid if int(i["start_ts"]) > now], key=lambda x: int(x["start_ts"]))
     if upcoming:
         return upcoming[0]
-    return sorted(valid, key=lambda x:int(x["end_ts"]), reverse=True)[0] if valid else None
+    return sorted(valid, key=lambda x: int(x["end_ts"]), reverse=True)[0] if valid else None
 
 
-def chest_candidates(img_name: str) -> List[str]:
-    base = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/"
-    raw = (img_name or "").strip()
+def asset_key(row: Dict[str, Any]) -> str:
+    kind = str(row.get("asset_kind") or row.get("kind") or "").lower()
+    if kind in {"dragon", "dragon_piece"}:
+        value = row.get("dragon_id") or row.get("id")
+        return f"dragon:{value}" if value else ""
+    if kind in {"decoration", "building", "item"}:
+        value = row.get("item_id") or row.get("id")
+        return f"item:{value}" if value else ""
+    if kind == "chest" or row.get("source_chest_id"):
+        value = row.get("source_chest_id") or row.get("id")
+        return f"chest:{value}" if value else ""
+    return ""
+
+
+def clean_asset_name(value: Any) -> str:
+    raw = str(value or "").strip()
+    raw = raw.removeprefix("ui_")
+    if raw.lower().endswith("@2x.png"):
+        raw = raw[:-7]
+    elif raw.lower().endswith("@2x"):
+        raw = raw[:-3]
+    elif raw.lower().endswith(".png"):
+        raw = raw[:-4]
+    return raw
+
+
+def dragon_candidates(row: Dict[str, Any]) -> List[str]:
+    raw = clean_asset_name(row.get("img_name_mobile") or row.get("img_name"))
     if not raw:
         return []
+    return unique([
+        DRAGON_BASE + "HD/thumb_" + raw + "_3.png",
+        DRAGON_BASE + "ui_" + raw + "_3@2x.png",
+        DRAGON_BASE + "ui_" + raw + "_3.png",
+    ])
 
-    clean = raw
-    if clean.lower().startswith("ui_"):
-        clean = clean[3:]
-    if clean.lower().endswith("@2x"):
-        clean = clean[:-3]
-    if clean.lower().endswith(".png"):
-        clean = clean[:-4]
 
-    after_chest = clean[6:] if clean.lower().startswith("chest_") else clean
-    after_basic = clean
+def chest_candidates(row: Dict[str, Any]) -> List[str]:
+    raw = clean_asset_name(row.get("source_chest_img_name") or row.get("img_name"))
+    if not raw:
+        return []
+    chest_id = int(row.get("source_chest_id") or row.get("id") or 0)
+    after_chest = raw[6:] if raw.lower().startswith("chest_") else raw
+    after_basic = raw
     if after_basic.lower().startswith("basic_chest_"):
         after_basic = after_basic[12:]
     if after_basic.lower().startswith("chest_"):
         after_basic = after_basic[6:]
+    return unique([
+        CHEST_BASE + f"ui_{chest_id}_{raw}@2x.png" if chest_id else "",
+        CHEST_BASE + f"ui_{chest_id}_{raw}.png" if chest_id else "",
+        CHEST_BASE + "ui_" + raw + "@2x.png",
+        CHEST_BASE + "ui_" + raw + ".png",
+        CHEST_BASE + raw + ".png",
+        CHEST_BASE + "ui_basic_chest_" + raw + "@2x.png",
+        CHEST_BASE + "ui_" + after_chest + "@2x.png",
+        CHEST_BASE + "ui_basic_chest_" + after_chest + "@2x.png",
+        CHEST_BASE + "ui_" + after_basic + "@2x.png",
+        CHEST_BASE + "ui_basic_chest_" + after_basic + "@2x.png",
+    ])
 
-    urls = []
-    def add(u):
-        if u and u not in urls:
-            urls.append(u)
 
-    add(base + raw)
-    add(base + "ui_" + clean + "@2x.png")
-    add(base + "ui_basic_chest_" + clean + "@2x.png")
-    add(base + "ui_" + after_chest + "@2x.png")
-    add(base + "ui_basic_chest_" + after_chest + "@2x.png")
-    add(base + "ui_" + after_basic + "@2x.png")
-    add(base + "ui_basic_chest_" + after_basic + "@2x.png")
-    return urls
+def decoration_candidates(row: Dict[str, Any]) -> List[str]:
+    raw = clean_asset_name(row.get("img_name_mobile") or row.get("img_name"))
+    if not raw:
+        return []
+    return unique([
+        STATIC_BASE + "mobile/ui/decorations/ui_" + raw + "@2x.png",
+        STATIC_BASE + "mobile/ui/decorations/" + raw + "@2x.png",
+        STATIC_BASE + "mobile/ui/decorations/" + raw + ".png",
+        STATIC_BASE + "mobile/ui/decorations/HD/" + raw + ".png",
+        STATIC_BASE + "mobile/ui/buildings/ui_" + raw + "@2x.png",
+        STATIC_BASE + "mobile/ui/buildings/" + raw + "@2x.png",
+        STATIC_BASE + "mobile/ui/buildings/" + raw + ".png",
+        STATIC_BASE + "mobile/ui/buildings/HD/" + raw + ".png",
+    ])
+
+
+def row_candidates(row: Dict[str, Any]) -> List[str]:
+    values: List[str] = []
+    if isinstance(row.get("image_candidates"), list):
+        values.extend(str(v) for v in row["image_candidates"])
+    if row.get("image_url"):
+        values.append(str(row["image_url"]))
+
+    kind = str(row.get("asset_kind") or row.get("kind") or "").lower()
+    if kind in {"decoration", "building", "item"} or row.get("item_id"):
+        values.extend(decoration_candidates(row))
+        # Historical event-item wrappers may store their icon in chests/.
+        values.extend(chest_candidates(row))
+    elif kind in {"dragon", "dragon_piece"} or row.get("img_name_mobile") or row.get("dragon_id"):
+        values.extend(dragon_candidates(row))
+    elif kind == "chest" or row.get("source_chest_id") or row.get("img_name"):
+        values.extend(chest_candidates(row))
+    return unique(values)
 
 
 def download_as_data_url(urls: List[str]):
@@ -93,18 +168,24 @@ def main():
 
     jobs: Dict[str, List[str]] = {}
 
-    for dragon in island.get("rewards_summary", {}).get("dragons", []):
-        dragon_id = int(dragon.get("id",0))
-        if dragon_id and dragon.get("image_url"):
-            jobs[f"dragon:{dragon_id}"] = [dragon["image_url"]]
-
-    for sq in island.get("squares", []):
-        reward = sq.get("reward") or {}
-        if reward.get("kind") != "chest":
+    summary = island.get("rewards_summary") or {}
+    for row in list(summary.get("dragons") or []) + list(summary.get("event_items") or []):
+        if not isinstance(row, dict):
             continue
-        chest_id = int(reward.get("id",0))
-        if chest_id and f"chest:{chest_id}" not in jobs:
-            jobs[f"chest:{chest_id}"] = chest_candidates(str(reward.get("img_name") or ""))
+        key = asset_key(row)
+        urls = row_candidates(row)
+        if key and urls:
+            jobs[key] = urls
+
+    # Map-only chests/items may not be in Rewards Summary (e.g. generic Fog chests).
+    for square in island.get("squares", []):
+        reward = square.get("reward") or {}
+        if not isinstance(reward, dict):
+            continue
+        key = asset_key(reward)
+        urls = row_candidates(reward)
+        if key and urls and key not in jobs:
+            jobs[key] = urls
 
     assets = {}
     resolved = {}
@@ -121,8 +202,8 @@ def main():
             print("FAILED", key)
 
     out = {
-        "schema_version": 1,
-        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00","Z"),
+        "schema_version": 2,
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "island_id": island.get("id"),
         "island_name": island.get("name"),
         "asset_count": len(assets),
@@ -132,7 +213,7 @@ def main():
     }
 
     with OUT_JSON.open("w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, separators=(",",":"))
+        json.dump(out, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
 
     print(f"Wrote {OUT_JSON.name}: {len(assets)} asset(s), {len(failed)} failed")
