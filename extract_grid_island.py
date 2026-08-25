@@ -59,6 +59,12 @@ OTHER_SPECIAL_CHEST_NAMES = {
     "Titan Chest",
     "Black Chest",
     "Lucky Break Chest",
+    # Dragon/Egg reward chests are special rewards too. Keep these name-based
+    # so alternate chest IDs with the same localized label are grouped together.
+    "VIP Chest",
+    "Mythical Egg Chest",
+    "Corrupted Chest",
+    "Heroic Egg Chest",
 }
 
 PET_FOOD_RESOURCE_TO_CHEST_NAME = {

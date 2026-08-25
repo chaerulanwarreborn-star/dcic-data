@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-25T09:23:41.860375Z",
+  "generated_at": "2026-08-25T09:39:36.802094Z",
   "source_file": "game_config.json",
   "localization_file": "localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -434,57 +434,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -500,23 +449,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -641,6 +573,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -664,12 +664,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -4795,7 +4799,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -4923,7 +4927,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -4943,7 +4947,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -5767,7 +5771,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -6290,57 +6294,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -6356,23 +6309,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -6497,6 +6433,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -6520,12 +6524,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -10661,7 +10669,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -10789,7 +10797,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -10809,7 +10817,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -11648,7 +11656,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -12198,57 +12206,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -12264,23 +12221,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -12405,6 +12345,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -12428,12 +12436,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -16603,7 +16615,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -16731,7 +16743,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -16751,7 +16763,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -17595,7 +17607,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -18124,57 +18136,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -18190,23 +18151,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -18331,6 +18275,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -18354,12 +18366,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -22485,7 +22501,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -22613,7 +22629,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -22633,7 +22649,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -23469,7 +23485,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -23992,57 +24008,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -24058,23 +24023,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -24199,6 +24147,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -24222,12 +24238,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -28363,7 +28383,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -28491,7 +28511,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -28511,7 +28531,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -29350,7 +29370,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -29879,57 +29899,6 @@
             ]
           },
           {
-            "id": 40004,
-            "source_chest_id": 40004,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "VIP Chest",
-            "description": "A random VIP dragon is waiting inside, which one will you get?",
-            "img_name": "465_chest_vip_egg",
-            "source_chest_img_name": "465_chest_vip_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "localization_name_key": "tid_chest_name_vip",
-            "localization_description_key": "tid_chest_desc_vip",
-            "tile_count": 1,
-            "source_chest_ids": [
-              40004
-            ]
-          },
-          {
-            "id": 3052,
-            "source_chest_id": 3052,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mythical Egg Chest",
-            "description": "This Chest contains a random Mythical Dragon!",
-            "img_name": "231_chest_mythical_egg_b",
-            "source_chest_img_name": "231_chest_mythical_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_231",
-            "localization_description_key": "tid_chest_description_231",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3052
-            ]
-          },
-          {
-            "id": 14012,
-            "source_chest_id": 14012,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Corrupted Chest",
-            "description": "A deadly egg that contains only the most fangy of dragons!",
-            "img_name": "526_chest_titanvampire_egg",
-            "source_chest_img_name": "526_chest_titanvampire_egg",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "localization_name_key": "tid_chest_name_447",
-            "localization_description_key": "tid_chest_description_428",
-            "tile_count": 1,
-            "source_chest_ids": [
-              14012
-            ]
-          },
-          {
             "id": 16560,
             "source_chest_id": 16560,
             "kind": "chest",
@@ -29945,23 +29914,6 @@
             "source_chest_ids": [
               16560,
               16619
-            ]
-          },
-          {
-            "id": 3057,
-            "source_chest_id": 3057,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Heroic Egg Chest",
-            "description": "This Chest contains a random Heroic Dragon!",
-            "img_name": "228_chest_heroic_egg_b",
-            "source_chest_img_name": "228_chest_heroic_egg_b",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "localization_name_key": "tid_chest_name_222",
-            "localization_description_key": "tid_chest_description_222",
-            "tile_count": 1,
-            "source_chest_ids": [
-              3057
             ]
           }
         ],
@@ -30086,6 +30038,74 @@
             "source_chest_ids": [
               3175
             ]
+          },
+          {
+            "id": 40004,
+            "source_chest_id": 40004,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "VIP Chest",
+            "description": "A random VIP dragon is waiting inside, which one will you get?",
+            "img_name": "465_chest_vip_egg",
+            "source_chest_img_name": "465_chest_vip_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
+            "localization_name_key": "tid_chest_name_vip",
+            "localization_description_key": "tid_chest_desc_vip",
+            "tile_count": 1,
+            "source_chest_ids": [
+              40004
+            ]
+          },
+          {
+            "id": 3052,
+            "source_chest_id": 3052,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Egg Chest",
+            "description": "This Chest contains a random Mythical Dragon!",
+            "img_name": "231_chest_mythical_egg_b",
+            "source_chest_img_name": "231_chest_mythical_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_231",
+            "localization_description_key": "tid_chest_description_231",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3052
+            ]
+          },
+          {
+            "id": 14012,
+            "source_chest_id": 14012,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Corrupted Chest",
+            "description": "A deadly egg that contains only the most fangy of dragons!",
+            "img_name": "526_chest_titanvampire_egg",
+            "source_chest_img_name": "526_chest_titanvampire_egg",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
+            "localization_name_key": "tid_chest_name_447",
+            "localization_description_key": "tid_chest_description_428",
+            "tile_count": 1,
+            "source_chest_ids": [
+              14012
+            ]
+          },
+          {
+            "id": 3057,
+            "source_chest_id": 3057,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Heroic Egg Chest",
+            "description": "This Chest contains a random Heroic Dragon!",
+            "img_name": "228_chest_heroic_egg_b",
+            "source_chest_img_name": "228_chest_heroic_egg_b",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
+            "localization_name_key": "tid_chest_name_222",
+            "localization_description_key": "tid_chest_description_222",
+            "tile_count": 1,
+            "source_chest_ids": [
+              3057
+            ]
           }
         ],
         "excluded_chest_names": [
@@ -30109,12 +30129,16 @@
         ],
         "other_special_chest_names": [
           "Black Chest",
+          "Corrupted Chest",
           "Diamond Chest",
           "Flame Chest",
+          "Heroic Egg Chest",
           "Key Chest",
           "Lucky Break Chest",
           "Lucky Legendary Chest",
-          "Titan Chest"
+          "Mythical Egg Chest",
+          "Titan Chest",
+          "VIP Chest"
         ]
       },
       "squares": [
@@ -34240,7 +34264,7 @@
             "img_name": "465_chest_vip_egg",
             "source_chest_img_name": "465_chest_vip_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_40004_465_chest_vip_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -34368,7 +34392,7 @@
             "img_name": "231_chest_mythical_egg_b",
             "source_chest_img_name": "231_chest_mythical_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3052_231_chest_mythical_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -34388,7 +34412,7 @@
             "img_name": "526_chest_titanvampire_egg",
             "source_chest_img_name": "526_chest_titanvampire_egg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14012_526_chest_titanvampire_egg@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
@@ -35224,7 +35248,7 @@
             "img_name": "228_chest_heroic_egg_b",
             "source_chest_img_name": "228_chest_heroic_egg_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3057_228_chest_heroic_egg_b@2x.png",
-            "summary_classification": "event_item"
+            "summary_classification": "other_special_chest"
           }
         },
         {
