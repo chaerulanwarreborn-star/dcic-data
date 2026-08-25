@@ -19,6 +19,8 @@ ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "game_config.json"
 LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = ROOT / "heroic_race.json"
+LEGACY_DIR = ROOT / "legacy" / "heroic_races"
+OVERRIDES_PATH = ROOT / "heroic_race_archive_overrides.json"
 
 STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 DRAGON_BASE = STATIC_BASE + "mobile/ui/dragons/HD/"
@@ -59,6 +61,23 @@ RESOURCE_INFO = {
     "g": ("Gold", "resources/ic-gold.png"),
     "f": ("Food", "resources/ic-food.png"),
     "xp": ("XP", "resources/ic-experience-xp.png"),
+}
+
+TOKEN_INFO = {
+    "f_token": ("fire", "tid_token_fire_resource"),
+    "p_token": ("plant", "tid_token_plant_resource"),
+    "e_token": ("earth", "tid_token_earth_resource"),
+    "w_token": ("water", "tid_token_sea_resource"),
+    "el_token": ("electric", "tid_token_electric_resource"),
+    "i_token": ("ice", "tid_token_ice_resource"),
+    "m_token": ("metal", "tid_token_metal_resource"),
+    "d_token": ("dark", "tid_token_dark_resource"),
+    "li_token": ("light", "tid_token_light_resource"),
+    "wr_token": ("war", "tid_token_war_resource"),
+    "pu_token": ("pure", "tid_token_pure_resource"),
+    "pr_token": ("primal", "tid_token_primal_resource"),
+    "wi_token": ("wind", "tid_token_wind_resource"),
+    "l_token": ("legend", "tid_token_legend_resource"),
 }
 
 
@@ -314,6 +333,17 @@ def make_resource(key: str, amount: int) -> Dict[str, Any]:
     }
 
 
+def make_element_token(key: str, amount: int, loc: Dict[str, str]) -> Dict[str, Any]:
+    element, loc_key = TOKEN_INFO.get(key, (key.replace("_token", ""), ""))
+    name = loc_text(loc, loc_key, f"{element.replace('_', ' ').title()} Tokens")
+    return {
+        "id": f"element_token:{element}", "kind": "element_token", "asset_kind": "element_token",
+        "name": name, "amount": amount, "element": element, "resource_code": key,
+        "image_url": DCIC_ICON_BASE + f"tokens/ic-token-{element}.png",
+        "localization_name_key": loc_key,
+    }
+
+
 def parse_reward_refs(refs: Any, *, items: Dict[int, Dict[str, Any]], chests: Dict[int, Dict[str, Any]], skins: Dict[int, Dict[str, Any]], loc: Dict[str, str]) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     if not isinstance(refs, list):
@@ -358,6 +388,8 @@ def parse_reward_refs(refs: Any, *, items: Dict[int, Dict[str, Any]], chests: Di
                 out.append(make_rank_coin(key, as_int(value), loc))
             elif key in RESOURCE_INFO:
                 out.append(make_resource(key, as_int(value)))
+            elif key in TOKEN_INFO or key.endswith("_token"):
+                out.append(make_element_token(key, as_int(value), loc))
             else:
                 # Preserve unknown future rewards instead of dropping them.
                 out.append({
@@ -380,24 +412,60 @@ def positions_label(positions: List[int]) -> str:
     return f"{min(positions)}th - {max(positions)}th Place" if len(positions) > 1 else f"{positions[0]}th Place"
 
 
-def main() -> None:
-    cfg = load_json(CONFIG_PATH)
-    loc = normalize_localization(load_json(LOCALIZATION_PATH))
-    hr = cfg.get("heroic_races") or {}
+def reward_variant_fingerprint(value: Any) -> str:
+    return json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
 
-    items = {as_int(r.get("id")): r for r in cfg.get("items", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
-    chests = {as_int(r.get("id")): r for r in (cfg.get("chests") or {}).get("chests", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
-    skins = {as_int(r.get("id")): r for r in (cfg.get("dragon_skins") or {}).get("dragon_skins", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
+
+def canonical_final_variants(raw_rewards: Any) -> Tuple[List[Dict[str, Any]], List[Tuple[int, Dict[str, Any]]]]:
+    """Return one canonical reward variant plus unique tier variants when they differ."""
+    variants = [x for x in (raw_rewards or []) if isinstance(x, dict)]
+    if not variants:
+        return [], []
+    seen: Dict[str, int] = {}
+    unique_variants: List[Tuple[int, Dict[str, Any]]] = []
+    for idx, variant in enumerate(variants):
+        fp = reward_variant_fingerprint(variant)
+        if fp in seen:
+            continue
+        seen[fp] = idx
+        unique_variants.append((idx, variant))
+    canonical = [unique_variants[0][1]]
+    return canonical, unique_variants if len(unique_variants) > 1 else []
+
+
+def source_freshness(hr: Dict[str, Any]) -> int:
+    return max((as_int(x.get("end_ts")) for x in hr.get("islands", []) if isinstance(x, dict)), default=0)
+
+
+def load_archive_overrides() -> Dict[str, Any]:
+    if not OVERRIDES_PATH.exists():
+        return {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
+    data = load_json(OVERRIDES_PATH)
+    return data if isinstance(data, dict) else {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
+
+
+def normalize_source(
+    hr: Dict[str, Any],
+    *,
+    source_name: str,
+    historical: bool,
+    source_order: int,
+    items: Dict[int, Dict[str, Any]],
+    chests: Dict[int, Dict[str, Any]],
+    skins: Dict[int, Dict[str, Any]],
+    loc: Dict[str, str],
+) -> List[Dict[str, Any]]:
     final_by_id = {as_int(r.get("id")): r for r in hr.get("rewards", []) if isinstance(r, dict)}
     lap_by_island = {as_int(r.get("id")): r.get("lap_rewards", {}) for r in hr.get("lap_rewards", []) if isinstance(r, dict)}
+    out: List[Dict[str, Any]] = []
 
-    islands_out: List[Dict[str, Any]] = []
     for island in hr.get("islands", []):
         if not isinstance(island, dict):
             continue
         iid = as_int(island.get("id"))
         if iid <= 0:
             continue
+
         title_key = str(island.get("island_title_tid") or "")
         race_type = loc_text(loc, title_key, "HEROIC RACE").title()
         featured_id = as_int(island.get("dragon_race_id"))
@@ -407,64 +475,236 @@ def main() -> None:
         final_prizes: List[Dict[str, Any]] = []
         for rid in island.get("rewards", []) or []:
             row = final_by_id.get(as_int(rid), {})
+            if not row:
+                continue
             positions = [as_int(x) for x in row.get("positions", []) if as_int(x) > 0]
-            final_prizes.append({
+            canonical_refs, different_variants = canonical_final_variants(row.get("rewards", []))
+            group: Dict[str, Any] = {
                 "id": as_int(row.get("id")),
                 "positions": positions,
                 "label": positions_label(positions),
-                "rewards": parse_reward_refs(row.get("rewards", []), items=items, chests=chests, skins=skins, loc=loc),
-            })
+                "rewards": parse_reward_refs(canonical_refs, items=items, chests=chests, skins=skins, loc=loc),
+                "canonicalized_identical_level_tiers": int(bool(row.get("rewards")) and not different_variants and len(row.get("rewards", [])) > 1),
+            }
+            if different_variants:
+                level_tiers = island.get("level_tiers", []) or []
+                group["level_tier_variants"] = [
+                    {
+                        "variant_index": idx + 1,
+                        "level_tier": as_int(level_tiers[idx]) if idx < len(level_tiers) else 0,
+                        "rewards": parse_reward_refs([variant], items=items, chests=chests, skins=skins, loc=loc),
+                    }
+                    for idx, variant in different_variants
+                ]
+            final_prizes.append(group)
+
+        final_prize_status = "available" if final_prizes else "none"
+        unverified_final_prizes: List[Dict[str, Any]] = []
+        if historical and featured_id and final_prizes and as_int(island.get("dragon_is_new")):
+            first_group = next((g for g in final_prizes if 1 in (g.get("positions") or [])), None)
+            first_dragon_ids = {as_int(r.get("dragon_id")) for r in (first_group or {}).get("rewards", []) if r.get("kind") == "dragon"}
+            if first_group and featured_id not in first_dragon_ids:
+                # Some very old snapshots retain old islands but their shared reward-table
+                # rows were overwritten by a later Race. Never present those stale prizes
+                # as historical fact; preserve them only as unverified source data.
+                final_prize_status = "unverified"
+                unverified_final_prizes = final_prizes
+                final_prizes = []
+
+        lap_map = lap_by_island.get(iid, {})
+        if not isinstance(lap_map, dict):
+            lap_map = {}
+        lap_keys = sorted(as_int(k) for k in lap_map.keys() if as_int(k) > 0)
+        # Current and later legacy snapshots explicitly enumerate reward-lap indices.
+        # For the earliest snapshots, where lap_rewards did not exist yet, the
+        # island's lap-template count is the only finite span available.
+        max_lap_index = max(lap_keys, default=0)
+        if max_lap_index <= 0:
+            max_lap_index = len(island.get("laps", []) or [])
 
         laps: List[Dict[str, Any]] = []
-        lap_map = lap_by_island.get(iid, {})
-        for lap_no in sorted((as_int(k) for k in lap_map.keys() if as_int(k) > 0)):
-            row = lap_map.get(str(lap_no), {})
+        for lap_no in range(1, max_lap_index + 1):
+            row = lap_map.get(str(lap_no)) or lap_map.get(lap_no) or {}
+            has_row = isinstance(row, dict) and bool(row)
+            has_reward_field = has_row and "reward" in row
+            parsed_rewards = parse_reward_refs(row.get("reward", []), items=items, chests=chests, skins=skins, loc=loc) if has_row else []
+            parsed_limited = parse_reward_refs(row.get("limited_reward", []), items=items, chests=chests, skins=skins, loc=loc) if has_row else []
+            reward_status = "available" if parsed_rewards else "none"
             laps.append({
-                "id": as_int(row.get("id")), "lap": lap_no,
-                "reward_cell_type": str(row.get("reward_cell_type") or ""),
-                "wait_until_race_ends": as_int(row.get("wait_until_race_ends")),
-                "omit_if_winner": as_int(row.get("omit_if_winner")),
-                "limited_time": as_int(row.get("limited_time")),
-                "multiplier": as_int(row.get("multiplier")),
-                "rewards": parse_reward_refs(row.get("reward", []), items=items, chests=chests, skins=skins, loc=loc),
-                "limited_rewards": parse_reward_refs(row.get("limited_reward", []), items=items, chests=chests, skins=skins, loc=loc),
+                "id": as_int(row.get("id")) if has_row else 0,
+                "lap": lap_no,
+                "reward_status": reward_status,
+                "reward_declared": int(has_reward_field),
+                "reward_cell_type": str(row.get("reward_cell_type") or "") if has_row else "",
+                "wait_until_race_ends": as_int(row.get("wait_until_race_ends")) if has_row else 0,
+                "omit_if_winner": as_int(row.get("omit_if_winner")) if has_row else 0,
+                "limited_time": as_int(row.get("limited_time")) if has_row else 0,
+                "multiplier": as_int(row.get("multiplier")) if has_row else 0,
+                "rewards": parsed_rewards,
+                "limited_rewards": parsed_limited,
             })
 
         start_ts, end_ts = as_int(island.get("start_ts")), as_int(island.get("end_ts"))
-        islands_out.append({
+        available_lap_rewards = sum(1 for x in laps if x.get("reward_status") == "available")
+        out.append({
             "id": iid,
             "race_type": race_type,
             "race_type_key": title_key,
             "name": race_name,
             "featured_dragon_id": featured_id,
             "featured_dragon": featured,
-            "start_ts": start_ts, "end_ts": end_ts,
-            "start_iso": iso(start_ts), "end_iso": iso(end_ts),
+            "start_ts": start_ts,
+            "end_ts": end_ts,
+            "start_iso": iso(start_ts),
+            "end_iso": iso(end_ts),
             "min_level": as_int(island.get("min_level")),
             "min_qualifying_laps": as_int(island.get("min_qualifying_laps")),
             "spinner_enabled": as_int(island.get("spinner_enabled")),
             "spin_cooldown": as_int(island.get("spin_cooldown")),
             "buy_spin_price": as_int(island.get("buy_spin_price")),
             "lap_count": len(laps),
+            "lap_template_count": len(island.get("laps", []) or []),
+            "available_lap_reward_count": available_lap_rewards,
+            "final_prize_status": final_prize_status,
             "final_prizes": final_prizes,
+            "unverified_final_prizes": unverified_final_prizes,
             "lap_rewards": laps,
             "zip_file": str(island.get("zip_file") or ""),
+            "canvas_assets_url": str(island.get("canvas_assets_url") or ""),
+            "sound_tag": str(island.get("sound_tag") or ""),
+            "active_platforms": island.get("active_platforms") if isinstance(island.get("active_platforms"), dict) else {},
+            "historical": bool(historical),
+            "source_generation": "legacy" if historical else "current",
+            "source_snapshot": source_name,
+            "source_snapshots": [source_name],
+            "_source_order": source_order,
         })
+    return out
 
+
+def candidate_score(row: Dict[str, Any]) -> Tuple[int, int, int, int, int]:
+    return (
+        1 if not row.get("historical") else 0,
+        as_int(row.get("available_lap_reward_count")),
+        len(row.get("final_prizes", []) or []),
+        as_int(row.get("lap_count")),
+        as_int(row.get("_source_order")),
+    )
+
+
+def main() -> None:
+    cfg = load_json(CONFIG_PATH)
+    loc = normalize_localization(load_json(LOCALIZATION_PATH))
+    current_hr = cfg.get("heroic_races") or {}
+
+    items = {as_int(r.get("id")): r for r in cfg.get("items", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
+    chests = {as_int(r.get("id")): r for r in (cfg.get("chests") or {}).get("chests", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
+    skins = {as_int(r.get("id")): r for r in (cfg.get("dragon_skins") or {}).get("dragon_skins", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
+
+    sources: List[Tuple[int, str, bool, Dict[str, Any]]] = []
+    if LEGACY_DIR.exists():
+        legacy_rows: List[Tuple[int, str, Dict[str, Any]]] = []
+        for path in sorted(LEGACY_DIR.glob("*.json")):
+            try:
+                data = load_json(path)
+            except Exception as exc:
+                print(f"WARNING: skipping {path.name}: {exc}")
+                continue
+            if not isinstance(data, dict) or not isinstance(data.get("islands"), list):
+                print(f"WARNING: skipping {path.name}: not a heroic_races snapshot")
+                continue
+            legacy_rows.append((source_freshness(data), path.name, data))
+        legacy_rows.sort(key=lambda x: (x[0], x[1]))
+        for order, (_, name, data) in enumerate(legacy_rows, start=1):
+            sources.append((order, name, True, data))
+
+    current_order = len(sources) + 1000
+    sources.append((current_order, CONFIG_PATH.name, False, current_hr))
+
+    merged: Dict[int, Dict[str, Any]] = {}
+    seen_sources: Dict[int, List[str]] = {}
+    for order, source_name, historical, hr in sources:
+        rows = normalize_source(
+            hr,
+            source_name=source_name,
+            historical=historical,
+            source_order=order,
+            items=items,
+            chests=chests,
+            skins=skins,
+            loc=loc,
+        )
+        for row in rows:
+            iid = as_int(row.get("id"))
+            seen_sources.setdefault(iid, [])
+            if source_name not in seen_sources[iid]:
+                seen_sources[iid].append(source_name)
+            prev = merged.get(iid)
+            if prev is None or candidate_score(row) >= candidate_score(prev):
+                merged[iid] = row
+
+    for iid, row in merged.items():
+        row["source_snapshots"] = seen_sources.get(iid, [row.get("source_snapshot")])
+
+    overrides = load_archive_overrides()
+    excluded = {as_int(x) for x in overrides.get("exclude", []) if as_int(x) > 0}
+    redirect_map: Dict[int, int] = {}
+    for section in ("duplicates", "aliases"):
+        mapping = overrides.get(section, {})
+        if isinstance(mapping, dict):
+            for old, new in mapping.items():
+                old_id, new_id = as_int(old), as_int(new)
+                if old_id > 0 and new_id > 0 and old_id != new_id:
+                    redirect_map[old_id] = new_id
+
+    notes = overrides.get("notes", {}) if isinstance(overrides.get("notes", {}), dict) else {}
+    for key, note in notes.items():
+        iid = as_int(key)
+        if iid in merged and str(note or "").strip():
+            merged[iid]["archive_note"] = str(note).strip()
+
+    aliases_out: Dict[str, int] = {}
+    for old_id, target_id in redirect_map.items():
+        if old_id in merged and target_id in merged:
+            aliases_out[str(old_id)] = target_id
+            target = merged[target_id]
+            target.setdefault("alternate_ids", [])
+            if old_id not in target["alternate_ids"]:
+                target["alternate_ids"].append(old_id)
+            target["source_snapshots"] = unique((target.get("source_snapshots") or []) + (merged[old_id].get("source_snapshots") or []))
+            del merged[old_id]
+
+    for iid in excluded:
+        merged.pop(iid, None)
+
+    islands_out = sorted(merged.values(), key=lambda r: (as_int(r.get("start_ts")), as_int(r.get("id"))))
+    for row in islands_out:
+        row.pop("_source_order", None)
+
+    historical_count = sum(1 for row in islands_out if row.get("historical"))
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "localization_file": str(LOCALIZATION_PATH.relative_to(ROOT)).replace("\\", "/"),
+        "legacy_directory": str(LEGACY_DIR.relative_to(ROOT)).replace("\\", "/"),
+        "archive_overrides_file": OVERRIDES_PATH.name,
         "island_count": len(islands_out),
+        "historical_island_count": historical_count,
+        "current_island_count": len(islands_out) - historical_count,
+        "aliases": aliases_out,
         "assets": {"dcic_icons_base": DCIC_ICON_BASE, "static_base": STATIC_BASE},
         "islands": islands_out,
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"Wrote {OUTPUT_PATH.name}: {len(islands_out)} races")
+
+    print(f"Wrote {OUTPUT_PATH.name}: {len(islands_out)} races ({historical_count} historical, {len(islands_out)-historical_count} current)")
     for row in islands_out:
-        print(f"  ID {row['id']}: {row['name']} | {row['lap_count']} laps | {len(row['final_prizes'])} final prize groups")
+        print(
+            f"  ID {row['id']}: {row['name']} | {row['lap_count']} lap slots | "
+            f"{row['available_lap_reward_count']} with rewards | {len(row['final_prizes'])} final prize groups | {row['source_snapshot']}"
+        )
 
 
 if __name__ == "__main__":

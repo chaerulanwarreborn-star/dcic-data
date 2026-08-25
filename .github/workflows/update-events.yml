@@ -12,6 +12,8 @@ on:
       - extract_grid_island.py
       - extract_tower_island.py
       - extract_heroic_race.py
+      - legacy/heroic_races/**
+      - heroic_race_archive_overrides.json
       - build_fog_assets.py
       - extract_dragons.py
       - event_overrides.json
