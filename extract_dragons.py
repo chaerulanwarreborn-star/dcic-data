@@ -15,6 +15,7 @@ and All Dragons UIs while avoiding a ~29 MB game_config fetch in every visitor b
 from __future__ import annotations
 
 import json
+import math
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
@@ -22,6 +23,8 @@ from typing import Any, Dict, Iterable, List, Optional
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "game_config.json"
 LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
+if not LOCALIZATION_PATH.exists():
+    LOCALIZATION_PATH = ROOT / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = ROOT / "dragons.json"
 
 DRAGON_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
@@ -432,6 +435,173 @@ def representative_skill_icon(
 
 
 
+def config_ratio(value: Any) -> float:
+    """Decode config ratios stored either as decimals or millionths."""
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return 0.0
+    return number / 1_000_000.0 if abs(number) > 10 else number
+
+
+def stat_health_at_level(base_life: Optional[int], level: int) -> Optional[int]:
+    if base_life is None:
+        return None
+    return math.floor(base_life * (level ** 1.25) / 50.0) + 10
+
+
+def stat_damage_at_level(base_attack: Optional[int], level: int) -> Optional[int]:
+    if base_attack is None:
+        return None
+    return math.floor(base_attack * ((level ** 1.5) + 10.0) / 250.0)
+
+
+def build_stat_config(config: Dict[str, Any]) -> Dict[str, Any]:
+    powerup = config.get("tree_of_life_powerup") or {}
+    empower_by_rarity = {
+        str(row.get("rarity") or "").upper(): config_ratio(row.get("stats_boost"))
+        for row in (powerup.get("grades_by_rarity") or [])
+        if isinstance(row, dict) and row.get("rarity")
+    }
+    empower_by_dragon = {
+        int(row.get("dragon")): config_ratio(row.get("stats_boost"))
+        for row in (powerup.get("grades_by_dragon") or [])
+        if isinstance(row, dict) and safe_int(row.get("dragon")) is not None
+    }
+    max_empower = max(
+        [safe_int(row.get("value")) or 0 for row in (powerup.get("parameters") or [])
+         if isinstance(row, dict) and row.get("name") == "MAX_EMPOWER_GRADE"] or [5]
+    )
+    max_level = max(
+        [safe_int(row.get("max_level")) or 0
+         for row in ((config.get("max_dragon_levels") or {}).get("max_levels_by_grade") or [])
+         if isinstance(row, dict)] or [70]
+    )
+
+    rank_rows = [
+        row for row in ((config.get("dragon_rank_up") or {}).get("dragon_rank_up") or [])
+        if isinstance(row, dict) and row.get("active") and row.get("new_system")
+    ]
+    max_rank_row = max(rank_rows, key=lambda row: safe_int(row.get("rank")) or 0, default={})
+    max_rank = safe_int(max_rank_row.get("rank")) or 12
+    max_rank_bonus = safe_int(max_rank_row.get("bonus")) or 70
+
+    perks_cfg = config.get("perks") or {}
+    ability_lookup = index_by_id(perks_cfg.get("abilities") or [])
+    basic_perk_boosts: Dict[str, Dict[str, float]] = {"health": {}, "damage": {}}
+    for perk in (perks_cfg.get("perks") or []):
+        if not isinstance(perk, dict) or perk.get("type") != "combat":
+            continue
+        if perk.get("available_for_dragons"):
+            continue
+        if safe_int(perk.get("rarity_level")) != 1:
+            continue
+        max_by_rarity = {
+            str(row.get("rarity") or "").upper(): safe_int(row.get("max")) or 0
+            for row in (perk.get("max_perks") or []) if isinstance(row, dict)
+        }
+        for ability_id in (perk.get("abilities") or []):
+            ability = ability_lookup.get(safe_int(ability_id) or -1, {})
+            ability_type = str(ability.get("type") or "")
+            key = "health" if ability_type == "dragon_life_boost" else "damage" if ability_type == "dragon_attack_boost" else None
+            if not key:
+                continue
+            per_stack = (float((ability.get("parameters") or {}).get("value") or 0) / 100.0)
+            for rarity, maximum in max_by_rarity.items():
+                basic_perk_boosts[key][rarity] = max(basic_perk_boosts[key].get(rarity, 0.0), per_stack * maximum)
+
+    battle = config.get("battle_parameters") or {}
+    speed_by_rarity = {
+        str(row.get("rarity") or "").upper(): row
+        for row in (battle.get("speed") or []) if isinstance(row, dict) and row.get("rarity")
+    }
+    speed_overrides = {
+        int(row.get("id")): row
+        for row in (battle.get("speed_override") or [])
+        if isinstance(row, dict) and safe_int(row.get("id")) is not None
+    }
+
+    return {
+        "empower_by_rarity": empower_by_rarity,
+        "empower_by_dragon": empower_by_dragon,
+        "max_empower": max_empower,
+        "max_level": max_level,
+        "max_rank": max_rank,
+        "max_rank_bonus": max_rank_bonus,
+        "basic_perk_boosts": basic_perk_boosts,
+        "speed_by_rarity": speed_by_rarity,
+        "speed_overrides": speed_overrides,
+    }
+
+
+def dragon_stat_profiles(item: Dict[str, Any], rarity: str, stat_cfg: Dict[str, Any]) -> Dict[str, Any]:
+    did = safe_int(item.get("id"))
+    raw_health = safe_int(item.get("base_life"))
+    raw_damage = safe_int(item.get("base_attack"))
+    raw_speed = safe_int(item.get("speed"))
+
+    # The default Dragon Stats overview uses the Level-40 health/damage curves,
+    # while the displayed base speed is the dragon's raw speed value.
+    base_level = 40
+    in_game_base = {
+        "health": stat_health_at_level(raw_health, base_level),
+        "damage": stat_damage_at_level(raw_damage, base_level),
+        "speed": raw_speed,
+    }
+
+    max_level = int(stat_cfg.get("max_level") or 70)
+    max_empower = int(stat_cfg.get("max_empower") or 5)
+    max_rank = int(stat_cfg.get("max_rank") or 12)
+    max_rank_bonus = float(stat_cfg.get("max_rank_bonus") or 70) / 100.0
+    empower_rate = stat_cfg.get("empower_by_dragon", {}).get(
+        did, stat_cfg.get("empower_by_rarity", {}).get(rarity, 0.0)
+    )
+
+    level70_health = stat_health_at_level(raw_health, max_level)
+    level70_damage = stat_damage_at_level(raw_damage, max_level)
+    hp_perk = float(stat_cfg.get("basic_perk_boosts", {}).get("health", {}).get(rarity, 0.0))
+    dmg_perk = float(stat_cfg.get("basic_perk_boosts", {}).get("damage", {}).get(rarity, 0.0))
+
+    hp_multiplier = 1.0 + (empower_rate * max_empower) + max_rank_bonus + hp_perk
+    dmg_multiplier = 1.0 + (empower_rate * max_empower) + max_rank_bonus + dmg_perk
+    max_health = math.floor(level70_health * hp_multiplier) if level70_health is not None else None
+    max_damage = math.floor(level70_damage * dmg_multiplier) if level70_damage is not None else None
+
+    speed_rule = None
+    speed_override_id = safe_int(item.get("speed_override"))
+    if speed_override_id is not None:
+        speed_rule = stat_cfg.get("speed_overrides", {}).get(speed_override_id)
+    if not speed_rule:
+        speed_rule = stat_cfg.get("speed_by_rarity", {}).get(rarity)
+    max_speed = None
+    if raw_speed is not None and speed_rule:
+        max_speed = (
+            raw_speed
+            + max_level * (safe_int(speed_rule.get("level_bonus")) or 0)
+            + max_empower * (safe_int(speed_rule.get("empower_bonus")) or 0)
+            + max_rank * (safe_int(speed_rule.get("rank_bonus")) or 0)
+        )
+
+    return {
+        "health": raw_health,
+        "damage": raw_damage,
+        "speed": raw_speed,
+        "raw": {"health": raw_health, "damage": raw_damage, "speed": raw_speed},
+        "in_game_base": in_game_base,
+        "in_game_max": {"health": max_health, "damage": max_damage, "speed": max_speed},
+        "calculation": {
+            "base_level": base_level,
+            "max_level": max_level,
+            "max_empower": max_empower,
+            "max_rank": max_rank,
+            "max_rank_bonus_percent": int(round(max_rank_bonus * 100)),
+            "empower_boost_per_grade": empower_rate,
+            "basic_health_perk_boost": hp_perk,
+            "basic_damage_perk_boost": dmg_perk,
+        },
+    }
+
+
 def localized_value(loc: Dict[str, str], key: Any, fallback: str = "") -> str:
     if key is None:
         return fallback
@@ -479,6 +649,7 @@ def attack_detail(
             "button_style": safe_int(rec.get("button_style")) or 1,
             "special_icon": safe_int(rec.get("special_icon")) or 0,
             "skill_id": skill_id,
+            "cooldown": safe_int(skill_def.get("cooldown")) if skill_id is not None else None,
             "damage": safe_int(rec.get("ui_damage")) or safe_int(rec.get("damage")),
             "training_time": safe_int(rec.get("training_time")),
         })
@@ -499,29 +670,38 @@ def logical_skill_details(
     out: List[Dict[str, Any]] = []
     seen = set()
 
-    def add_from_skill_record(rec: Dict[str, Any], source: str) -> None:
+    def add_passive_or_post(record_id: int, rec: Dict[str, Any], source: str) -> None:
         sid = safe_int(rec.get("skill_id"))
         if sid is None:
             return
         special = safe_int(rec.get("special_icon")) or 0
         kind = "mix" if special == 2 else "passive"
-        key = (sid, kind)
+        key = (source, record_id, kind)
         if key in seen:
             return
         seen.add(key)
         sdef = skill_def_lookup.get(sid, {})
-        name = localized_value(loc, sdef.get("tid_name"), str(rec.get("name") or f"Skill {sid}"))
+        name = localized_value(loc, sdef.get("tid_name"), str(rec.get("name") or f"Skill {record_id}"))
         description = localized_value(loc, sdef.get("tid_description"), "")
-        out.append({"id": sid, "name": name, "description": description, "type": kind, "source": source})
+        out.append({
+            "id": record_id,
+            "skill_definition_id": sid,
+            "name": name,
+            "description": description,
+            "type": kind,
+            "source": source,
+            "link_type": "passive_skill_id" if source == "passive" else "post_skill_id",
+            "link_id": record_id,
+        })
 
     for raw_id in passive_ids or []:
         rid = safe_int(raw_id)
         if rid is not None:
-            add_from_skill_record(passive_lookup.get(rid, {}), "passive")
+            add_passive_or_post(rid, passive_lookup.get(rid, {}), "passive")
     for raw_id in post_ids or []:
         rid = safe_int(raw_id)
         if rid is not None:
-            add_from_skill_record(post_lookup.get(rid, {}), "post")
+            add_passive_or_post(rid, post_lookup.get(rid, {}), "post")
 
     for raw_id in list(attack_ids or []) + list(trainable_attack_ids or []):
         aid = safe_int(raw_id)
@@ -535,17 +715,26 @@ def logical_skill_details(
         if special not in (1, 2):
             continue
         kind = "mix" if special == 2 else "active"
-        key = (sid, kind)
+        key = ("attack", aid, kind)
         if key in seen:
             continue
         seen.add(key)
         sdef = skill_def_lookup.get(sid, {})
-        name = localized_value(loc, sdef.get("tid_name"), localized_value(loc, rec.get("name_key"), str(rec.get("name") or f"Skill {sid}")))
+        name = localized_value(loc, sdef.get("tid_name"), localized_value(loc, rec.get("name_key"), str(rec.get("name") or f"Attack {aid}")))
         description = localized_value(loc, sdef.get("tid_description"), "")
-        out.append({"id": sid, "name": name, "description": description, "type": kind, "source": "attack"})
+        out.append({
+            "id": aid,
+            "attack_id": aid,
+            "skill_definition_id": sid,
+            "name": name,
+            "description": description,
+            "type": kind,
+            "source": "attack",
+            "link_type": "attack_id",
+            "link_id": aid,
+        })
 
     return out
-
 
 def build_normal_breeding_lookup(rows: Any) -> Dict[int, Dict[str, Any]]:
     """Choose one canonical normal-breeding element recipe per dragon.
@@ -645,6 +834,7 @@ def main() -> None:
     skill_def_lookup = index_by_id(skills.get("skills") or [])
     world_skill_lookup = index_by_id(skills.get("world_skills") or [])
     world_effect_lookup = index_by_id(skills.get("world_effects") or [])
+    stat_cfg = build_stat_config(config)
 
     all_dragon_items = {
         int(row.get("id")): row
@@ -885,11 +1075,21 @@ def main() -> None:
         soulmate = soulmate_lookup.get(did)
         sanctuary = sanctuary_lookup.get(did)
         normal_recipe = normal_breeding_lookup.get(did)
+        breeding_sources: List[str] = []
+        if bool(item.get("breedable")) or normal_recipe:
+            breeding_sources.append("hybrid")
+        if sanctuary:
+            breeding_sources.append("sanctuary")
+        if soulmate:
+            breeding_sources.append("soulmate")
+
         breeding_type: Optional[str] = None
         breeding_formula_elements: List[str] = []
         breeding_parents: List[Dict[str, Any]] = []
         min_parent_level: Optional[int] = None
 
+        # Keep one primary formula for the popup, while preserving every breeding
+        # source in breeding_sources/types for filters and source-aware UIs.
         if soulmate:
             breeding_type = "soulmate"
             min_parent_level = safe_int(soulmate.get("level_parents"))
@@ -906,16 +1106,13 @@ def main() -> None:
                 })
         elif sanctuary:
             breeding_type = "sanctuary"
-            # Sanctuary uses the complete target element set. The elements may be
-            # distributed between the two parents in any way as long as together
-            # they cover the target dragon's elements.
             breeding_formula_elements = list(attrs)
-        elif bool(item.get("breedable")):
+        elif "hybrid" in breeding_sources:
             breeding_type = "hybrid"
             if normal_recipe:
                 breeding_formula_elements = list(normal_recipe.get("elements") or [])
 
-        effective_breedable = bool(breeding_type) or bool(item.get("breedable"))
+        effective_breedable = bool(breeding_sources)
 
         detail_attacks = attack_detail(item.get("attacks") or [], attack_lookup, skill_def_lookup, loc)
         detail_trainable_attacks = attack_detail(item.get("trainable_attacks") or [], attack_lookup, skill_def_lookup, loc)
@@ -947,6 +1144,7 @@ def main() -> None:
             "breeding": {
                 "breedable": effective_breedable,
                 "type": breeding_type,
+                "types": breeding_sources,
                 "formula_elements": breeding_formula_elements,
                 "parents": breeding_parents,
                 "min_parent_level": min_parent_level,
@@ -987,6 +1185,7 @@ def main() -> None:
             "full_body_image": adult_full_image,
             "production": production,
             "production_icon": production_icon,
+            "breeding_sources": breeding_sources,
             "family": family,
             "family_filters": family_filters,
             "details": details,
@@ -1007,11 +1206,7 @@ def main() -> None:
                 "breeding": safe_int(item.get("breeding_time")),
                 "summon": summon_time,
             },
-            "stats": {
-                "health": safe_int(item.get("base_life")),
-                "damage": safe_int(item.get("base_attack")),
-                "speed": safe_int(item.get("speed")),
-            },
+            "stats": dragon_stat_profiles(item, rarity, stat_cfg),
         }
         dragons.append(dragon)
 
@@ -1033,7 +1228,16 @@ def main() -> None:
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "meta": {
             "dragon_count": len(dragons),
+            "valid_dragon_count": sum(1 for d in dragons if not d.get("is_invalid")),
+            "invalid_dragon_count": sum(1 for d in dragons if d.get("is_invalid")),
             "newest_count": len(newest_ids),
+            "stats_display_condition": {
+                "max_level": stat_cfg.get("max_level", 70),
+                "max_empower": stat_cfg.get("max_empower", 5),
+                "max_rank": stat_cfg.get("max_rank", 12),
+                "rank_label": "Platinum III",
+                "perks": "Max Basic Perks",
+            },
         },
         "assets": {
             "base": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/",
@@ -1065,9 +1269,18 @@ def main() -> None:
                 ),
             ),
             "orbs": ["100", "150", "200", "500", "500+", "non_summonable"],
+            "others": [
+                {"key": "gold", "label": "Only Produce Gold", "asset": "resources/ic-gold.png"},
+                {"key": "gold_food", "label": "Food Producers", "asset": "resources/ic-gold-food.png"},
+                {"key": "breed_hybrid", "label": "Breedable — Hybrid", "asset": "source/ic-sourcebadge-breedable.png"},
+                {"key": "breed_sanctuary", "label": "Breedable — Sanctuary", "asset": "source/ic-sourcebadge-breedingsanctuary.png"},
+                {"key": "breed_soulmate", "label": "Breedable — Soulmates", "asset": "source/ic-sourcebadge-soulmates.png"},
+                {"key": "shop", "label": "Available in Shop", "asset": "source/ic-sourcebadge-shop.png"},
+                {"key": "has_skin", "label": "Has Skin", "asset": "text-icons/ic-dragon-skin-badge.png"},
+            ],
             "production": [
-                {"key": "gold", "label": "Gold", "asset": "resources/ic-gold.png"},
-                {"key": "gold_food", "label": "Gold + Food", "asset": "resources/ic-gold-food.png"},
+                {"key": "gold", "label": "Only Produce Gold", "asset": "resources/ic-gold.png"},
+                {"key": "gold_food", "label": "Food Producers", "asset": "resources/ic-gold-food.png"},
             ],
         },
         "newest_ids": newest_ids,
