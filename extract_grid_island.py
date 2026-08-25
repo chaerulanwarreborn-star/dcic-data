@@ -35,18 +35,11 @@ SUMMARY_EXCLUDED_CHEST_NAMES = {
     "Wood Chest",
     "Bamboo Chest",
     "Common Orbs Chest",
-    "Key Chest",
     "Rare Orbs Chest",
-    "Lucky Legendary Chest",
-    "Flame Chest",
     "Very Rare Orbs Chest",
     "Bronze Chest",
-    "Diamond Chest",
     "Epic Orbs Chest",
     "Silver Chest",
-    "Titan Chest",
-    "Black Chest",
-    "Lucky Break Chest",
     "Legendary Orbs Chest",
     "Gold Chest",
 }
@@ -59,8 +52,8 @@ OTHER_SPECIAL_CHEST_NAMES = {
     "Titan Chest",
     "Black Chest",
     "Lucky Break Chest",
-    # Dragon/Egg reward chests are special rewards too. Keep these name-based
-    # so alternate chest IDs with the same localized label are grouped together.
+    # Classification is name-based, but each chest ID remains a separate
+    # summary record so future chest-detail popups can target the exact ID.
     "VIP Chest",
     "Mythical Egg Chest",
     "Corrupted Chest",
@@ -307,24 +300,19 @@ def make_chest_record(
     localization: Dict[str, str],
     gatcha_rows: Dict[int, List[Dict[str, Any]]],
     item_by_id: Dict[int, Dict[str, Any]],
-    resolve_wrapped_building: bool = True,
+    resolve_wrapped_building: bool = False,
 ) -> Dict[str, Any]:
-    chest_name, chest_description, chest_name_key = chest_display(chest_id, chest, localization)
-    wrapped_item = resolve_single_building_reward(chest, gatcha_rows, item_by_id) if resolve_wrapped_building else None
-    if wrapped_item:
-        item_id = as_int(wrapped_item.get("id"))
-        out = make_building_record(item_id, wrapped_item, localization)
-        out.update({
-            "source_chest_id": chest_id,
-            "source_chest_name": chest_name,
-            "source_chest_img_name": str(chest.get("img_name") or ""),
-        })
-        return out
+    """Return the chest itself, never a gatcha reward hidden inside it.
 
+    A chest can contain multiple reward types and its chest ID is important for
+    future detail popups, so event summaries must preserve chest identity.
+    """
+    chest_name, chest_description, chest_name_key = chest_display(chest_id, chest, localization)
     img_name = str(chest.get("img_name") or "")
     candidates = chest_candidates(chest_id, img_name)
     return {
         "id": chest_id,
+        "chest_id": chest_id,
         "source_chest_id": chest_id,
         "kind": "chest",
         "asset_kind": "chest",
@@ -336,7 +324,6 @@ def make_chest_record(
         "localization_name_key": chest_name_key,
         "localization_description_key": str(chest.get("description_key") or ""),
     }
-
 
 def merge_summary_record(target: Dict[str, Dict[str, Any]], key: str, row: Dict[str, Any], count: int = 1) -> None:
     if key not in target:
@@ -484,21 +471,18 @@ def main() -> None:
                 reward = make_chest_record(chest_id, chest, localization, gatcha_rows, item_by_id)
 
                 if chest_name_norm in special_norm:
-                    # Special-chest classification is based on the localized chest
-                    # name even if future IDs change.
+                    # Classification follows the localized name, but the output is
+                    # keyed by chest ID so equal names never merge together.
                     special_reward = make_chest_record(
                         chest_id, chest, localization, gatcha_rows, item_by_id,
                         resolve_wrapped_building=False,
                     )
-                    merge_summary_record(special_summary, f"chest-name:{chest_name_norm}", special_reward, 1)
+                    merge_summary_record(special_summary, f"chest:{chest_id}", special_reward, 1)
                     classification = "other_special_chest"
                 elif chest_name_norm in excluded_norm:
                     classification = "excluded_generic_chest"
                 else:
-                    if reward.get("asset_kind") in {"decoration", "building", "item"} or reward.get("item_id"):
-                        summary_key = f"item:{reward.get('item_id') or reward.get('id')}"
-                    else:
-                        summary_key = f"chest-name:{normalized_name(str(reward.get('name') or chest_name))}"
+                    summary_key = f"chest:{chest_id}"
                     merge_summary_record(items_summary, summary_key, reward, 1)
                     classification = "event_item"
 
@@ -516,7 +500,7 @@ def main() -> None:
                     if reward.get("item_id"):
                         summary_key = f"item:{reward.get('item_id')}"
                     elif reward.get("source_chest_id"):
-                        summary_key = f"chest-name:{normalized_name(str(reward.get('name') or ''))}"
+                        summary_key = f"chest:{as_int(reward.get('source_chest_id'))}"
                     else:
                         summary_key = f"resource:{reward.get('resource_key') or reward.get('name')}"
                     merge_summary_record(items_summary, summary_key, reward, 1)
@@ -576,7 +560,7 @@ def main() -> None:
     islands_out.sort(key=lambda r: (r["start_ts"], r["end_ts"], r["id"]))
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "localization_file": str(LOCALIZATION_PATH.relative_to(ROOT)).replace("\\", "/"),

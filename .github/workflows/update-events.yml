@@ -10,6 +10,7 @@ on:
       - extract_events.py
       - extract_fog_island.py
       - extract_grid_island.py
+      - extract_tower_island.py
       - build_fog_assets.py
       - extract_dragons.py
       - event_overrides.json
@@ -43,13 +44,16 @@ jobs:
       - name: Build grid_island.json
         run: python extract_grid_island.py
 
+      - name: Build tower_island.json
+        run: python extract_tower_island.py
+
       - name: Build dragons.json
         run: python extract_dragons.py
 
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json grid_island.json dragons.json
+          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json dragons.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."

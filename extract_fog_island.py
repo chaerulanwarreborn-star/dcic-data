@@ -27,7 +27,10 @@ CHEST_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobil
 STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 
 # Generic Fog chests remain on the map but are excluded from Rewards Summary.
-SUMMARY_EXCLUDED_CHESTS = {7020, 7021, 7022}
+# Classification is localization-name based so future alternate chest IDs are
+# handled correctly without merging different IDs into one reward card.
+SUMMARY_EXCLUDED_CHEST_NAMES = {"Bronze Chest", "Silver Chest", "Gold Chest"}
+SUMMARY_EXCLUDED_CHEST_IDS_LEGACY = {7020, 7021, 7022}
 
 
 def load_json(path: Path) -> Any:
@@ -104,6 +107,10 @@ def loc_text(localization: Dict[str, str], key: Any, fallback: str = "") -> str:
     value = localization.get(str(key or ""), "")
     value = str(value or "").strip()
     return value or fallback
+
+
+def normalized_name(value: str) -> str:
+    return re.sub(r"\s+", " ", str(value or "").strip()).casefold()
 
 
 def fog_theme(island: Dict[str, Any]) -> str:
@@ -280,56 +287,39 @@ def make_chest_record(
     gatcha_rows: Dict[int, List[Dict[str, Any]]],
     item_by_id: Dict[int, Dict[str, Any]],
 ) -> Dict[str, Any]:
-    """Create display metadata for a Fog chest.
+    """Create display metadata for the chest itself.
 
-    If the chest is only a wrapper around one DECO/building item, surface the
-    localized item itself (including its image candidates) while retaining the
-    source chest id for tile counting/map logic.
+    Never replace a chest with one of its gatcha contents: a gatcha can contain
+    multiple reward types, and preserving the exact chest ID is required for
+    future chest-detail popups.
     """
-    wrapped_item = resolve_single_building_reward(chest, gatcha_rows, item_by_id)
-    if wrapped_item:
-        item_id = as_int(wrapped_item.get("id"))
-        name, description = building_display(item_id, localization)
-        img_name = str(wrapped_item.get("img_name_mobile") or wrapped_item.get("img_name") or "")
-        # Prefer the real decoration/building asset. If a historical client stored
-        # the event-item icon in the chest UI directory, retain those candidates
-        # as a fallback too.
-        candidates = unique(
-            decoration_candidates(img_name)
-            + chest_candidates(chest_id, str(chest.get("img_name") or ""))
-        )
-        return {
-            "id": chest_id,
-            "source_chest_id": chest_id,
-            "source_chest_img_name": str(chest.get("img_name") or ""),
-            "item_id": item_id,
-            "kind": "decoration",
-            "asset_kind": "decoration",
-            "group_type": str(wrapped_item.get("group_type") or ""),
-            "name": name,
-            "description": description,
-            "img_name": img_name,
-            "image_url": candidates[0] if candidates else "",
-                "localization_name_key": f"tid_building_{item_id}_name",
-            "localization_description_key": f"tid_building_{item_id}_description",
-        }
-
     name, description, name_key = chest_display(chest_id, chest, localization)
     img_name = str(chest.get("img_name") or "")
     candidates = chest_candidates(chest_id, img_name)
     return {
         "id": chest_id,
+        "chest_id": chest_id,
         "source_chest_id": chest_id,
         "kind": "chest",
         "asset_kind": "chest",
         "name": name,
         "description": description,
         "img_name": img_name,
+        "source_chest_img_name": img_name,
         "image_url": candidates[0] if candidates else "",
         "localization_name_key": name_key,
         "localization_description_key": str(chest.get("description_key") or ""),
     }
 
+
+def is_summary_excluded_chest(
+    chest_id: int,
+    chest: Dict[str, Any],
+    localization: Dict[str, str],
+) -> bool:
+    name, _description, _key = chest_display(chest_id, chest, localization)
+    names = {normalized_name(x) for x in SUMMARY_EXCLUDED_CHEST_NAMES}
+    return normalized_name(name) in names or chest_id in SUMMARY_EXCLUDED_CHEST_IDS_LEGACY
 
 def main() -> None:
     config = load_json(CONFIG_PATH)
@@ -416,14 +406,11 @@ def main() -> None:
 
         event_items: List[Dict[str, Any]] = []
         for chest_id in used_chest_ids:
-            if chest_id in SUMMARY_EXCLUDED_CHESTS:
+            chest = chest_by_id.get(chest_id, {})
+            if is_summary_excluded_chest(chest_id, chest, localization):
                 continue
             event_items.append(make_chest_record(
-                chest_id,
-                chest_by_id.get(chest_id, {}),
-                localization,
-                gatcha_rows,
-                item_by_id,
+                chest_id, chest, localization, gatcha_rows, item_by_id,
             ))
 
         squares_out: List[Dict[str, Any]] = []
@@ -448,7 +435,7 @@ def main() -> None:
                     gatcha_rows,
                     item_by_id,
                 )
-                reward["summary_excluded"] = chest_id in SUMMARY_EXCLUDED_CHESTS
+                reward["summary_excluded"] = is_summary_excluded_chest(chest_id, chest_by_id.get(chest_id, {}), localization)
                 # Keep map rows compact: descriptions/localization keys live in
                 # Rewards Summary; the shared theme resolver rebuilds image
                 # candidates from asset_kind + img_name when needed.
@@ -513,7 +500,8 @@ def main() -> None:
             "rewards_summary": {
                 "dragons": dragons,
                 "event_items": event_items,
-                "excluded_generic_chest_ids": sorted(SUMMARY_EXCLUDED_CHESTS),
+                "excluded_generic_chest_names": sorted(SUMMARY_EXCLUDED_CHEST_NAMES),
+                "excluded_generic_chest_ids_legacy": sorted(SUMMARY_EXCLUDED_CHEST_IDS_LEGACY),
             },
             "squares": squares_out,
         })
@@ -521,7 +509,7 @@ def main() -> None:
     islands_out.sort(key=lambda r: (r["start_ts"], r["end_ts"], r["id"]))
 
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "localization_file": localization_path.name,
