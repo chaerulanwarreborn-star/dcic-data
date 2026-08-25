@@ -438,10 +438,31 @@ def source_freshness(hr: Dict[str, Any]) -> int:
 
 
 def load_archive_overrides() -> Dict[str, Any]:
+    default = {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
     if not OVERRIDES_PATH.exists():
-        return {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
-    data = load_json(OVERRIDES_PATH)
-    return data if isinstance(data, dict) else {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
+        return default
+
+    # An override file is optional. Treat an empty/whitespace-only file as
+    # "no overrides" so a newly created placeholder file cannot break CI.
+    raw = OVERRIDES_PATH.read_text(encoding="utf-8-sig").strip()
+    if not raw:
+        return default
+
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise SystemExit(
+            f"Invalid JSON in {OVERRIDES_PATH.name}: "
+            f"line {exc.lineno}, column {exc.colno}: {exc.msg}"
+        ) from exc
+
+    if not isinstance(data, dict):
+        return default
+
+    # Supply missing top-level keys without overwriting user-defined data.
+    merged = dict(default)
+    merged.update(data)
+    return merged
 
 
 def normalize_source(
