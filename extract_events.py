@@ -42,11 +42,11 @@ SECTION_SPECS = [
 def guide_url(event_type: str, event_id: int) -> str:
     """Return the guide URL for an event.
 
-    Fog Island has historical maps addressable by ID, so its guide link must keep
-    the event ID. Other guides retain their existing shared URL for now.
+    Fog and Grid guides keep the event ID so current, upcoming, and historical
+    islands can be opened directly from the Events page.
     """
     base = GUIDES[event_type]
-    if event_type == "fog_island" and event_id > 0:
+    if event_type in {"fog_island", "grid_island"} and event_id > 0:
         return f"{base}?id={event_id}"
     return base
 
