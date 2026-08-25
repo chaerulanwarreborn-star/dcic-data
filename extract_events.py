@@ -16,6 +16,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "game_config.json"
 OVERRIDES_PATH = ROOT / "event_overrides.json"
+LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = ROOT / "events.json"
 
 GUIDES = {
@@ -46,7 +47,7 @@ def guide_url(event_type: str, event_id: int) -> str:
     historical islands can be opened directly from the Events page.
     """
     base = GUIDES[event_type]
-    if event_type in {"fog_island", "grid_island", "tower_island"} and event_id > 0:
+    if event_type in {"fog_island", "grid_island", "tower_island", "heroic_race"} and event_id > 0:
         return f"{base}?id={event_id}"
     return base
 
@@ -59,6 +60,25 @@ def load_json(path: Path, default: Any = None) -> Any:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
+
+
+
+def normalize_localization(raw: Any) -> Dict[str, str]:
+    if isinstance(raw, dict):
+        return {str(k): str(v) for k, v in raw.items() if v is not None}
+    out: Dict[str, str] = {}
+    if isinstance(raw, list):
+        for row in raw:
+            if isinstance(row, dict):
+                for key, value in row.items():
+                    if value is not None:
+                        out[str(key)] = str(value)
+    return out
+
+
+def loc_text(localization: Dict[str, str], key: Any, fallback: str = "") -> str:
+    value = str(localization.get(str(key or ""), "") or "").strip()
+    return value or fallback
 
 def as_int(value: Any) -> int:
     try:
@@ -115,13 +135,13 @@ def maze_subtitle(row: Dict[str, Any]) -> str:
     return zip_theme(row)
 
 
-def make_title(event_type: str, label: str, row: Dict[str, Any], items: Dict[int, Dict[str, Any]]) -> Tuple[str, str]:
+def make_title(event_type: str, label: str, row: Dict[str, Any], items: Dict[int, Dict[str, Any]], localization: Dict[str, str]) -> Tuple[str, str]:
     if event_type == "heroic_race":
         dragon_id = as_int(row.get("dragon_race_id"))
         dragon = items.get(dragon_id, {})
-        dragon_name = clean_dragon_name(str(dragon.get("name") or ""))
+        dragon_name = clean_dragon_name(loc_text(localization, f"tid_unit_{dragon_id}_name", str(dragon.get("name") or "")))
         if dragon_name:
-            return f"{dragon_name} Heroic Race", ""
+            return f"{dragon_name} {label}", ""
         return label, zip_theme(row)
     if event_type == "maze_island":
         return label, maze_subtitle(row)
@@ -160,7 +180,7 @@ def iso(ts: int) -> str:
     return datetime.fromtimestamp(ts, timezone.utc).isoformat().replace("+00:00", "Z")
 
 
-def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[str]]:
+def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]], localization: Dict[str, str]) -> Tuple[List[Dict[str, Any]], List[str]]:
     items = item_index(config)
     events: List[Dict[str, Any]] = []
     warnings: List[str] = []
@@ -199,12 +219,15 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]]) -
                 warnings.append(f"Skipped {key}: incomplete schedule start={start_ts}, end={end_ts}.{extra}")
                 continue
 
-            title, subtitle = make_title(event_type, label, row, items)
+            row_label = label
+            if event_type == "heroic_race":
+                row_label = loc_text(localization, row.get("island_title_tid"), label).title()
+            title, subtitle = make_title(event_type, row_label, row, items, localization)
             event: Dict[str, Any] = {
                 "key": key,
                 "id": event_id,
                 "type": event_type,
-                "type_label": label,
+                "type_label": row_label,
                 "title": title,
                 "subtitle": subtitle,
                 "start_ts": start_ts,
@@ -223,7 +246,7 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]]) -
                 event["featured_dragon_id"] = did
                 dragon = items.get(did)
                 if dragon:
-                    event["featured_dragon_name"] = str(dragon.get("name") or "")
+                    event["featured_dragon_name"] = loc_text(localization, f"tid_unit_{did}_name", str(dragon.get("name") or ""))
                     event["featured_dragon_img_name"] = str(dragon.get("img_name") or "")
             if isinstance(row.get("featured_dragons"), list):
                 event["featured_dragon_ids"] = [as_int(x) for x in row.get("featured_dragons", []) if as_int(x) > 0]
@@ -243,7 +266,8 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]]) -
 def main() -> None:
     config = load_json(CONFIG_PATH)
     overrides = load_overrides()
-    events, warnings = build_events(config, overrides)
+    localization = normalize_localization(load_json(LOCALIZATION_PATH))
+    events, warnings = build_events(config, overrides, localization)
 
     payload = {
         "schema_version": 1,
