@@ -38,19 +38,29 @@ def load_json(path: Path) -> Any:
 
 
 def find_localization_path() -> Path:
-    preferred = [
-        ROOT / "localization_en.json",
+    # DCIC repository canonical location. Keep the existing repository layout:
+    #   localization/dragon_city_localization_baseline_en.json
+    canonical = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
+    if canonical.exists():
+        return canonical
+
+    # Backward-compatible fallbacks are only for local/manual testing. They do
+    # not change the repository convention and are not required by the workflow.
+    fallbacks = [
         ROOT / "dragon_city_localization_baseline_en.json",
     ]
-    for path in preferred:
+    for path in fallbacks:
         if path.exists():
             return path
 
-    # Accept names such as dragon_city_localization_baseline_en(1).json.
-    matches = sorted(ROOT.glob("*localization*en*.json"))
+    matches = sorted((ROOT / "localization").glob("*localization*en*.json")) if (ROOT / "localization").exists() else []
     if matches:
         return matches[0]
-    raise SystemExit("Missing English localization JSON (expected localization_en.json or *localization*en*.json).")
+
+    raise SystemExit(
+        "Missing English localization JSON: "
+        "localization/dragon_city_localization_baseline_en.json"
+    )
 
 
 def normalize_localization(raw: Any) -> Dict[str, str]:
