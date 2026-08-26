@@ -344,7 +344,117 @@ def make_element_token(key: str, amount: int, loc: Dict[str, str]) -> Dict[str, 
     }
 
 
-def parse_reward_refs(refs: Any, *, items: Dict[int, Dict[str, Any]], chests: Dict[int, Dict[str, Any]], skins: Dict[int, Dict[str, Any]], loc: Dict[str, str]) -> List[Dict[str, Any]]:
+def asset_basename(value: Any) -> str:
+    raw = str(value or "").strip().replace("\\", "/")
+    if not raw:
+        return ""
+    return raw.rsplit("/", 1)[-1]
+
+
+def build_perk_catalog(cfg: Dict[str, Any]) -> Dict[int, Dict[str, Any]]:
+    root = cfg.get("perks") or {}
+    if not isinstance(root, dict):
+        return {}
+    abilities = {
+        as_int(row.get("id")): row
+        for row in root.get("abilities", [])
+        if isinstance(row, dict) and as_int(row.get("id")) > 0
+    }
+    out: Dict[int, Dict[str, Any]] = {}
+    for row in root.get("perks", []):
+        if not isinstance(row, dict):
+            continue
+        perk_id = as_int(row.get("id"))
+        if perk_id <= 0:
+            continue
+        ability_rows = [abilities.get(as_int(aid), {}) for aid in (row.get("abilities") or [])]
+        icon_files = unique(
+            asset_basename((ability.get("asset") or {}).get("remote"))
+            for ability in ability_rows
+            if isinstance(ability, dict)
+        )
+        frame_file = asset_basename((row.get("asset") or {}).get("remote"))
+        out[perk_id] = {
+            "id": perk_id,
+            "type": str(row.get("type") or ""),
+            "name_tid": str(row.get("name_tid") or ""),
+            "description_tid": str(row.get("description_tid") or ""),
+            "rarity_level": as_int(row.get("rarity_level")),
+            "frame_file": frame_file,
+            "icon_files": icon_files,
+            "ability_ids": [as_int(x) for x in (row.get("abilities") or []) if as_int(x) > 0],
+            "ability_types": unique(str(a.get("type") or "") for a in ability_rows if isinstance(a, dict)),
+        }
+    return out
+
+
+def make_perk(perk_id: int, amount: int, perks: Dict[int, Dict[str, Any]], loc: Dict[str, str]) -> Dict[str, Any]:
+    spec = perks.get(perk_id, {})
+    name_key = str(spec.get("name_tid") or "")
+    desc_key = str(spec.get("description_tid") or "")
+    name = loc_text(loc, name_key, f"Perk {perk_id}")
+    desc = loc_text(loc, desc_key, "")
+    frame_file = str(spec.get("frame_file") or "")
+    icon_files = [str(x) for x in (spec.get("icon_files") or []) if str(x or "").strip()]
+    icon_file = icon_files[0] if icon_files else ""
+    return {
+        "id": perk_id, "perk_id": perk_id, "kind": "perk", "asset_kind": "perk",
+        "name": name, "description": desc, "amount": max(1, as_int(amount)),
+        "perk_type": str(spec.get("type") or ""),
+        "perk_rarity_level": as_int(spec.get("rarity_level")),
+        "perk_frame_file": frame_file,
+        "perk_icon_file": icon_file,
+        "perk_icon_files": icon_files,
+        "perk_ability_ids": spec.get("ability_ids") or [],
+        "perk_ability_types": spec.get("ability_types") or [],
+        "image_url": DCIC_ICON_BASE + f"perks/{frame_file}" if frame_file else "",
+        "overlay_image_url": DCIC_ICON_BASE + f"perks/{icon_file}" if icon_file else "",
+        "localization_name_key": name_key,
+        "localization_description_key": desc_key,
+    }
+
+
+def classify_race_type(
+    island: Dict[str, Any],
+    featured: Dict[str, Any],
+    items: Dict[int, Dict[str, Any]],
+    loc: Dict[str, str],
+) -> Tuple[str, str]:
+    title_key = str(island.get("island_title_tid") or "")
+    title_text = loc_text(loc, title_key, "").strip()
+    key_low = title_key.lower()
+    text_low = title_text.lower()
+
+    building = items.get(as_int(island.get("building_id")), {})
+    building_name = str(building.get("name") or "").strip()
+    building_asset = str(building.get("img_name_mobile") or building.get("img_name") or "").lower()
+    canvas_asset = str(island.get("canvas_assets_url") or "").lower()
+    if "alliance race" in building_name.lower() or "ar_island" in building_asset or "alliance" in canvas_asset:
+        return "Alliance Race", "alliance_race"
+
+    if "mythicalmarathon" in key_low or "mythical marathon" in text_low:
+        return "Mythical Marathon", "mythical_marathon"
+    if "heroic_marathon" in key_low or "heroicmarathon" in key_low or "heroic marathon" in text_low:
+        return "Heroic Marathon", "heroic_marathon"
+    if "mythicalrace" in key_low or "mythical_race" in key_low or "mythical race" in text_low:
+        return "Mythical Race", "mythical_race"
+    if "heroic_race" in key_low or "heroic race" in text_low:
+        return "Heroic Race", "heroic_race"
+
+    rarity = str(featured.get("dragon_rarity") or "").upper()
+    if "marathon" in key_low or "marathon" in text_low:
+        if rarity == "M":
+            return "Mythical Marathon", "mythical_marathon"
+        if rarity == "H":
+            return "Heroic Marathon", "heroic_marathon"
+    if title_text:
+        return title_text.title(), "race"
+    if rarity == "M":
+        return "Mythical Race", "mythical_race"
+    return "Heroic Race", "heroic_race"
+
+
+def parse_reward_refs(refs: Any, *, items: Dict[int, Dict[str, Any]], chests: Dict[int, Dict[str, Any]], skins: Dict[int, Dict[str, Any]], perks: Dict[int, Dict[str, Any]], loc: Dict[str, str]) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     if not isinstance(refs, list):
         refs = [refs] if isinstance(refs, dict) else []
@@ -375,6 +485,10 @@ def parse_reward_refs(refs: Any, *, items: Dict[int, Dict[str, Any]], chests: Di
             elif key == "skin":
                 if as_int(value) > 0:
                     out.append(make_skin(as_int(value), skins, items, loc))
+            elif key == "perks" and isinstance(value, list):
+                for row in value:
+                    if isinstance(row, dict) and as_int(row.get("id")) > 0:
+                        out.append(make_perk(as_int(row.get("id")), as_int(row.get("quantity")) or 1, perks, loc))
             elif key == "b":
                 ids = value if isinstance(value, list) else [value]
                 counts = Counter(as_int(x) for x in ids if as_int(x) > 0)
@@ -442,8 +556,6 @@ def load_archive_overrides() -> Dict[str, Any]:
     if not OVERRIDES_PATH.exists():
         return default
 
-    # An override file is optional. Treat an empty/whitespace-only file as
-    # "no overrides" so a newly created placeholder file cannot break CI.
     raw = OVERRIDES_PATH.read_text(encoding="utf-8-sig").strip()
     if not raw:
         return default
@@ -459,7 +571,6 @@ def load_archive_overrides() -> Dict[str, Any]:
     if not isinstance(data, dict):
         return default
 
-    # Supply missing top-level keys without overwriting user-defined data.
     merged = dict(default)
     merged.update(data)
     return merged
@@ -474,6 +585,7 @@ def normalize_source(
     items: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
     skins: Dict[int, Dict[str, Any]],
+    perks: Dict[int, Dict[str, Any]],
     loc: Dict[str, str],
 ) -> List[Dict[str, Any]]:
     final_by_id = {as_int(r.get("id")): r for r in hr.get("rewards", []) if isinstance(r, dict)}
@@ -488,9 +600,9 @@ def normalize_source(
             continue
 
         title_key = str(island.get("island_title_tid") or "")
-        race_type = loc_text(loc, title_key, "HEROIC RACE").title()
         featured_id = as_int(island.get("dragon_race_id"))
         featured = make_dragon(featured_id, items, loc) if featured_id else {}
+        race_type, race_variant = classify_race_type(island, featured, items, loc)
         race_name = f"{clean_dragon_name(featured.get('name', ''))} {race_type}".strip() if featured else race_type
 
         final_prizes: List[Dict[str, Any]] = []
@@ -504,7 +616,7 @@ def normalize_source(
                 "id": as_int(row.get("id")),
                 "positions": positions,
                 "label": positions_label(positions),
-                "rewards": parse_reward_refs(canonical_refs, items=items, chests=chests, skins=skins, loc=loc),
+                "rewards": parse_reward_refs(canonical_refs, items=items, chests=chests, skins=skins, perks=perks, loc=loc),
                 "canonicalized_identical_level_tiers": int(bool(row.get("rewards")) and not different_variants and len(row.get("rewards", [])) > 1),
             }
             if different_variants:
@@ -513,7 +625,7 @@ def normalize_source(
                     {
                         "variant_index": idx + 1,
                         "level_tier": as_int(level_tiers[idx]) if idx < len(level_tiers) else 0,
-                        "rewards": parse_reward_refs([variant], items=items, chests=chests, skins=skins, loc=loc),
+                        "rewards": parse_reward_refs([variant], items=items, chests=chests, skins=skins, perks=perks, loc=loc),
                     }
                     for idx, variant in different_variants
                 ]
@@ -548,9 +660,9 @@ def normalize_source(
             row = lap_map.get(str(lap_no)) or lap_map.get(lap_no) or {}
             has_row = isinstance(row, dict) and bool(row)
             has_reward_field = has_row and "reward" in row
-            parsed_rewards = parse_reward_refs(row.get("reward", []), items=items, chests=chests, skins=skins, loc=loc) if has_row else []
-            parsed_limited = parse_reward_refs(row.get("limited_reward", []), items=items, chests=chests, skins=skins, loc=loc) if has_row else []
-            reward_status = "available" if parsed_rewards else "none"
+            parsed_rewards = parse_reward_refs(row.get("reward", []), items=items, chests=chests, skins=skins, perks=perks, loc=loc) if has_row else []
+            parsed_limited = parse_reward_refs(row.get("limited_reward", []), items=items, chests=chests, skins=skins, perks=perks, loc=loc) if has_row else []
+            reward_status = "available" if parsed_rewards else ("unavailable" if has_row and not has_reward_field else "none")
             laps.append({
                 "id": as_int(row.get("id")) if has_row else 0,
                 "lap": lap_no,
@@ -567,9 +679,12 @@ def normalize_source(
 
         start_ts, end_ts = as_int(island.get("start_ts")), as_int(island.get("end_ts"))
         available_lap_rewards = sum(1 for x in laps if x.get("reward_status") == "available")
+        unavailable_lap_rewards = sum(1 for x in laps if x.get("reward_status") == "unavailable")
         out.append({
             "id": iid,
             "race_type": race_type,
+            "race_variant": race_variant,
+            "race_scope": "alliance" if race_variant == "alliance_race" else "individual",
             "race_type_key": title_key,
             "name": race_name,
             "featured_dragon_id": featured_id,
@@ -586,6 +701,7 @@ def normalize_source(
             "lap_count": len(laps),
             "lap_template_count": len(island.get("laps", []) or []),
             "available_lap_reward_count": available_lap_rewards,
+            "unavailable_lap_reward_count": unavailable_lap_rewards,
             "final_prize_status": final_prize_status,
             "final_prizes": final_prizes,
             "unverified_final_prizes": unverified_final_prizes,
@@ -621,6 +737,7 @@ def main() -> None:
     items = {as_int(r.get("id")): r for r in cfg.get("items", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
     chests = {as_int(r.get("id")): r for r in (cfg.get("chests") or {}).get("chests", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
     skins = {as_int(r.get("id")): r for r in (cfg.get("dragon_skins") or {}).get("dragon_skins", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
+    perks = build_perk_catalog(cfg)
 
     sources: List[Tuple[int, str, bool, Dict[str, Any]]] = []
     if LEGACY_DIR.exists():
@@ -653,6 +770,7 @@ def main() -> None:
             items=items,
             chests=chests,
             skins=skins,
+            perks=perks,
             loc=loc,
         )
         for row in rows:
@@ -704,7 +822,7 @@ def main() -> None:
 
     historical_count = sum(1 for row in islands_out if row.get("historical"))
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "localization_file": str(LOCALIZATION_PATH.relative_to(ROOT)).replace("\\", "/"),
@@ -714,7 +832,7 @@ def main() -> None:
         "historical_island_count": historical_count,
         "current_island_count": len(islands_out) - historical_count,
         "aliases": aliases_out,
-        "assets": {"dcic_icons_base": DCIC_ICON_BASE, "static_base": STATIC_BASE},
+        "assets": {"dcic_icons_base": DCIC_ICON_BASE, "static_base": STATIC_BASE, "perk_icons_base": DCIC_ICON_BASE + "perks/"},
         "islands": islands_out,
     }
     with OUTPUT_PATH.open("w", encoding="utf-8") as f:
