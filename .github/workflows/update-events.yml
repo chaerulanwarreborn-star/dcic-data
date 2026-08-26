@@ -16,6 +16,9 @@ on:
       - heroic_race_archive_overrides.json
       - build_fog_assets.py
       - extract_dragons.py
+      - arena_config.json
+      - extract_arena_seasons.py
+      - arena_overrides.json
       - event_overrides.json
       - .github/workflows/update-events.yml
   workflow_dispatch:
@@ -56,10 +59,13 @@ jobs:
       - name: Build dragons.json
         run: python extract_dragons.py
 
+      - name: Build arena_seasons.json
+        run: python extract_arena_seasons.py
+
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json heroic_race.json dragons.json
+          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json heroic_race.json dragons.json arena_seasons.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
