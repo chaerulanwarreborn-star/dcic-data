@@ -1,1 +1,16 @@
 # dcic-data
+
+Generated data used by Dragon City Information Center.
+
+## Arena Season pipeline
+
+- `arena_config.json` — raw PVP Arenas config captured from the game (static Arenas, seasonal Arenas, parameters, Warrior Chests).
+- `game_config.json` — main game config used to resolve Arena Tribute offers and the dragon-side VIP Tribute signature.
+- `dragons.json` — compact dragon database used for names, images, rarity, elements, and the shared Dragon Details popup.
+- `arena_overrides.json` — configurable Tribute signatures and optional manual corrections.
+- `extract_arena_seasons.py` — builds the compact frontend feed.
+- `arena_seasons.json` — frontend feed for the homepage Arena section and `/p/arena-season.html?id=...`.
+
+Static Arena levels are stored only once in `static_arenas`. Seasonal Arena records are grouped by Arena Season. `arena_level_id` is retained only as an internal sort/join key and is intentionally not displayed on the website.
+
+Normal Arena Tributes are resolved from matching `offer_system` offers. VIP-Exclusive Tributes are detected from the configurable temporary stats/hatching signature in the dragon data, with previously observed season results preserved by subsequent extractor runs.

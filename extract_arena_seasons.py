@@ -113,6 +113,13 @@ def compact_restrictions(raw: Any) -> Dict[str, List[str]]:
         values = raw.get(key)
         if isinstance(values, list) and values:
             out[key] = [str(x) for x in values]
+
+    # Older PVP Arena payloads used `elements` for the positive element
+    # restriction. Normalize it into Required so the frontend can keep a
+    # stable four-slot rules layout (Health, Attack, Banned, Required).
+    legacy_elements = raw.get("elements")
+    if isinstance(legacy_elements, list) and legacy_elements and "required_elements" not in out:
+        out["required_elements"] = [str(x) for x in legacy_elements]
     return out
 
 
