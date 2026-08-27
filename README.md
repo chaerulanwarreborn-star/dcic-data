@@ -2,6 +2,15 @@
 
 Generated data used by Dragon City Information Center.
 
+
+## Dragon Skins pipeline
+
+- `extract_skins.py` — resolves `dragon_skins`, attribute modifiers, Skin/Flair UI type, owner data, and Flair BG/FG VFX into a frontend-ready database.
+- `skins.json` — frontend feed for `/p/all-dragon-skins.html` and the global `?skin_id=...` Skin Details popup.
+- `dragons.json` remains the authoritative owner-dragon source for rarity, elements, families, images, skills, attacks, income, and DCIC stat profiles.
+
+`skins.json` keeps official `ui_type` (Skin/Flair) separate from `effect_class` (Attribute Modifiers/Cosmetic-Flair). This preserves edge cases such as a Flair that also modifies gameplay attributes. Attack modifiers are classified semantically: normal attacks become Basic/Trained Attack tags, while attacks linked to a skill definition become Active Skill tags. Flair PNG layers are resolved through `dragon_vfx -> generic_spine` and point to the DCIC `bg-fg/flair` asset directory.
+
 ## Arena Season pipeline
 
 - `arena_config.json` — raw PVP Arenas config captured from the game (static Arenas, seasonal Arenas, parameters, Warrior Chests).
