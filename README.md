@@ -14,3 +14,11 @@ Generated data used by Dragon City Information Center.
 Static Arena levels are stored only once in `static_arenas`. Seasonal Arena records are grouped by Arena Season. `arena_level_id` is retained only as an internal sort/join key and is intentionally not displayed on the website.
 
 Normal Arena Tributes are resolved from matching `offer_system` offers. VIP-Exclusive Tributes are detected from the configurable temporary stats/hatching signature in the dragon data, with previously observed season results preserved by subsequent extractor runs.
+
+### Dragon stat profiles
+
+`dragons.json` schema v3 adds `stats.level_1`, representing the dragon's Level 1
+Health, Damage, and Speed with no stat-boosting attributes applied. The legacy
+`stats.in_game_base` key is retained as a backward-compatible alias of the same
+Level 1 profile. `stats.in_game_max` remains the Level 70 + Empower 5 +
+Platinum III + maximum Basic Perks profile used by DCIC.

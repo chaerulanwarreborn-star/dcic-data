@@ -540,14 +540,9 @@ def dragon_stat_profiles(item: Dict[str, Any], rarity: str, stat_cfg: Dict[str, 
     raw_damage = safe_int(item.get("base_attack"))
     raw_speed = safe_int(item.get("speed"))
 
-    # The default Dragon Stats overview uses the Level-40 health/damage curves,
-    # while the displayed base speed is the dragon's raw speed value.
-    base_level = 40
-    in_game_base = {
-        "health": stat_health_at_level(raw_health, base_level),
-        "damage": stat_damage_at_level(raw_damage, base_level),
-        "speed": raw_speed,
-    }
+    # Level 1 Stats shown by Dragon Overview:
+    # Level 1 with no stat-boosting attributes applied.
+    level_1 = 1
 
     max_level = int(stat_cfg.get("max_level") or 70)
     max_empower = int(stat_cfg.get("max_empower") or 5)
@@ -573,6 +568,16 @@ def dragon_stat_profiles(item: Dict[str, Any], rarity: str, stat_cfg: Dict[str, 
         speed_rule = stat_cfg.get("speed_overrides", {}).get(speed_override_id)
     if not speed_rule:
         speed_rule = stat_cfg.get("speed_by_rarity", {}).get(rarity)
+    level_1_speed = raw_speed
+    if raw_speed is not None and speed_rule:
+        level_1_speed = raw_speed + level_1 * (safe_int(speed_rule.get("level_bonus")) or 0)
+
+    level_1_stats = {
+        "health": stat_health_at_level(raw_health, level_1),
+        "damage": stat_damage_at_level(raw_damage, level_1),
+        "speed": level_1_speed,
+    }
+
     max_speed = None
     if raw_speed is not None and speed_rule:
         max_speed = (
@@ -587,10 +592,14 @@ def dragon_stat_profiles(item: Dict[str, Any], rarity: str, stat_cfg: Dict[str, 
         "damage": raw_damage,
         "speed": raw_speed,
         "raw": {"health": raw_health, "damage": raw_damage, "speed": raw_speed},
-        "in_game_base": in_game_base,
+        "level_1": level_1_stats,
+        # Backward-compatible alias for older DCIC clients.
+        # It now represents the same Level 1 / no-attributes profile.
+        "in_game_base": level_1_stats,
         "in_game_max": {"health": max_health, "damage": max_damage, "speed": max_speed},
         "calculation": {
-            "base_level": base_level,
+            "base_level": level_1,
+            "level_1": level_1,
             "max_level": max_level,
             "max_empower": max_empower,
             "max_rank": max_rank,
@@ -1224,13 +1233,17 @@ def main() -> None:
         element_filters.append({"code": code, "name": ELEMENT_NAMES.get(code, code)})
 
     output = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "meta": {
             "dragon_count": len(dragons),
             "valid_dragon_count": sum(1 for d in dragons if not d.get("is_invalid")),
             "invalid_dragon_count": sum(1 for d in dragons if d.get("is_invalid")),
             "newest_count": len(newest_ids),
+            "level_1_stats_condition": {
+                "level": 1,
+                "attributes": "None",
+            },
             "stats_display_condition": {
                 "max_level": stat_cfg.get("max_level", 70),
                 "max_empower": stat_cfg.get("max_empower", 5),
