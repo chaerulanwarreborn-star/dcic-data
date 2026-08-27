@@ -70,6 +70,35 @@ def norm_list(value: Any) -> List[Any]:
     return [value]
 
 
+def clean_description_piece(value: Any) -> str:
+    """Normalize one localized description fragment for display.
+
+    Localization occasionally contains locked-description entries that are only
+    punctuation (for example "." or ","). Those fragments are ignored. A real
+    fragment receives a trailing period only when it has no terminal punctuation.
+    """
+    text = " ".join(str(value or "").split()).strip()
+    if not text:
+        return ""
+    if not any(ch.isalnum() for ch in text):
+        return ""
+    if text[-1] not in ".!?,;:…":
+        text += "."
+    return text
+
+
+def combined_description(primary: Any, locked: Any) -> str:
+    parts: List[str] = []
+    seen = set()
+    for raw in (primary, locked):
+        text = clean_description_piece(raw)
+        key = text.casefold()
+        if text and key not in seen:
+            seen.add(key)
+            parts.append(text)
+    return " ".join(parts)
+
+
 def multiply_config_value(current: Any, raw_multiplier: Any) -> Any:
     try:
         cur = float(current)
@@ -231,6 +260,7 @@ def owner_snapshot(dragon: Dict[str, Any]) -> Dict[str, Any]:
         "name": dragon.get("name"),
         "book_id": dragon.get("book_id"),
         "image": dragon.get("full_body_image") or (details.get("images") or {}).get("adult") or dragon.get("adult_image"),
+        "thumbnail": dragon.get("adult_image") or dragon.get("full_body_image") or (details.get("images") or {}).get("adult"),
         "rarity": dragon.get("rarity"),
         "elements": list(dragon.get("elements") or []),
         "display_elements": deepcopy(dragon.get("display_elements") or {}),
@@ -410,6 +440,10 @@ def main() -> None:
             "income": original.get("income") != with_skin.get("income"),
         }
 
+        primary_description = loc.get(str(skin.get("skin_description_tid"))) or ""
+        locked_description = loc.get(str(skin.get("skin_locked_description_tid"))) or ""
+        display_description = combined_description(primary_description, locked_description)
+
         raw_mods = []
         for mod in mods:
             raw_mods.append({
@@ -424,10 +458,12 @@ def main() -> None:
         output_skins.append({
             "id": sid,
             "name": loc.get(str(skin.get("skin_name_tid"))) or f"Skin {sid}",
-            "description": loc.get(str(skin.get("skin_description_tid"))) or "",
-            "locked_description": loc.get(str(skin.get("skin_locked_description_tid"))) or "",
+            "description": primary_description,
+            "locked_description": locked_description,
+            "description_combined": display_description,
             "owner_id": owner_id,
             "owner_name": owner.get("name") or f"Dragon {owner_id}",
+            "owner_thumbnail": owner.get("adult_image") or owner.get("full_body_image") or ((owner.get("details") or {}).get("images") or {}).get("adult"),
             "owner_book_id": safe_int(owner.get("book_id")),
             "owner_rarity": owner.get("rarity"),
             "owner_elements": list(owner.get("elements") or []),
