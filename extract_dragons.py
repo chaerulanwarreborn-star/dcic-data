@@ -36,7 +36,6 @@ ASSET_ROOT = "icons/"
 DRAGON_FULL_BODY_OVERRIDES: Dict[int, str] = {
     # Placeholder VIP has no img_name_mobile/img_name in game_config.
     9999: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
-    3494: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
     1113: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1113_dragon_gaudi_3@2x.png",
     1144: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1144_dragon_test_light_3@2x.png",
     1145: "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1145_dragon_test_war_3@2x.png",
