@@ -31,3 +31,8 @@ Health, Damage, and Speed with no stat-boosting attributes applied. The legacy
 `stats.in_game_base` key is retained as a backward-compatible alias of the same
 Level 1 profile. `stats.in_game_max` remains the Level 70 + Empower 5 +
 Platinum III + maximum Basic Perks profile used by DCIC.
+
+## Skin image overrides
+
+`skin_image_overrides.json` stores manual full-body image corrections for skins whose config image code is legacy, broken, or missing. Keys are Skin IDs. `extract_skins.py` applies these overrides when regenerating `skins.json`, so manual corrections are not lost on future config updates.
+

@@ -17,6 +17,7 @@ on:
       - build_fog_assets.py
       - extract_dragons.py
       - extract_skins.py
+      - skin_image_overrides.json
       - arena_config.json
       - extract_arena_seasons.py
       - arena_overrides.json

@@ -31,6 +31,7 @@ if not LOCALIZATION_PATH.exists():
     LOCALIZATION_PATH = ROOT / "dragon_city_localization_baseline_en.json"
 DRAGONS_PATH = ROOT / "dragons.json"
 OUTPUT_PATH = ROOT / "skins.json"
+IMAGE_OVERRIDES_PATH = ROOT / "skin_image_overrides.json"
 
 DRAGON_FULL_BODY_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
 DRAGON_THUMB_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
@@ -228,6 +229,7 @@ def owner_snapshot(dragon: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "id": dragon.get("id"),
         "name": dragon.get("name"),
+        "book_id": dragon.get("book_id"),
         "image": dragon.get("full_body_image") or (details.get("images") or {}).get("adult") or dragon.get("adult_image"),
         "rarity": dragon.get("rarity"),
         "elements": list(dragon.get("elements") or []),
@@ -251,6 +253,12 @@ def main() -> None:
     dragons_payload = load_json(DRAGONS_PATH)
     dragons = dragons_payload.get("dragons") or []
     dragon_by_id = {safe_int(d.get("id")): d for d in dragons if safe_int(d.get("id")) is not None}
+
+    image_overrides: Dict[str, Any] = {}
+    if IMAGE_OVERRIDES_PATH.exists():
+        raw_overrides = load_json(IMAGE_OVERRIDES_PATH)
+        if isinstance(raw_overrides, dict):
+            image_overrides = raw_overrides
 
     item_lookup = {
         safe_int(item.get("id")): item
@@ -320,6 +328,15 @@ def main() -> None:
         img_name = str(skin.get("img_name_mobile") or skin.get("img_name_canvas") or "")
         full_body = f"{DRAGON_FULL_BODY_CDN}ui_{img_name}_3@2x.png" if img_name else ""
         thumb = f"{DRAGON_THUMB_CDN}thumb_{img_name}_3.png" if img_name else ""
+
+        # Manual image overrides are intentionally kept outside generated data so
+        # known legacy/missing skin art mappings survive future config updates.
+        image_override = image_overrides.get(str(sid)) or image_overrides.get(sid)
+        if isinstance(image_override, str):
+            full_body = image_override.strip() or full_body
+        elif isinstance(image_override, dict):
+            full_body = str(image_override.get("image") or full_body).strip()
+            thumb = str(image_override.get("thumbnail") or thumb).strip()
 
         # The selected skin visual uses the owner/skin body plus VFX introduced by the skin.
         bg_values = []
@@ -411,6 +428,7 @@ def main() -> None:
             "locked_description": loc.get(str(skin.get("skin_locked_description_tid"))) or "",
             "owner_id": owner_id,
             "owner_name": owner.get("name") or f"Dragon {owner_id}",
+            "owner_book_id": safe_int(owner.get("book_id")),
             "owner_rarity": owner.get("rarity"),
             "owner_elements": list(owner.get("elements") or []),
             "family": deepcopy(owner.get("family")),
@@ -462,8 +480,23 @@ def main() -> None:
         "assets": {
             "base": ASSET_BASE,
             "flair_vfx_base": FLAIR_VFX_BASE,
+            "attribute_modifiers_badge": "text-icons/ic-dragon-skin-attribute-modifiers-badge.png",
             "skin_badge": "text-icons/ic-dragon-skin-badge.png",
             "flair_badge": "text-icons/ic-dragon-flair-badge.png",
+            "effect_tag_icons": {
+                "health": "dragon-stats/ic-health.png",
+                "damage": "dragon-stats/ic-damage.png",
+                "speed": "dragon-stats/ic-speed.png",
+                "basic_attacks": "text-icons/ic-hud-pvp.png",
+                "trained_attacks": "text-icons/gr-train.png",
+                "active_skill": "skills-icon/ic-skills-special-1.png",
+                "passive_skill": "skills-icon/ic-skills-passive-special-1.png",
+                "post_skill": "skills-icon/ic-skills-passive-special-1.png",
+                "bg_vfx": "text-icons/ic-dragon-flair-badge.png",
+                "fg_vfx": "text-icons/ic-dragon-flair-badge.png",
+                "bg_fg_flair": "text-icons/ic-dragon-flair-badge.png",
+                "cosmetic_only": "text-icons/ic-dragon-skin-badge.png"
+            },
             "comparison_arrow": "feature-icon/gr-arrow.png",
         },
         "filters": {
