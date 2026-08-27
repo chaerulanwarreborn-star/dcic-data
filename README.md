@@ -36,3 +36,8 @@ Platinum III + maximum Basic Perks profile used by DCIC.
 
 `skin_image_overrides.json` stores manual full-body image corrections for skins whose config image code is legacy, broken, or missing. Keys are Skin IDs. `extract_skins.py` applies these overrides when regenerating `skins.json`, so manual corrections are not lost on future config updates.
 
+## Skill description resolver
+
+`extract_dragons.py` and `extract_skins.py` share a defensive Skill Definition description resolver. It normally uses the configured `tid_description`, but when the config incorrectly points that field at the skill name (or the localized description is otherwise unusable), it automatically tries the matching `tid_skill_description_*` localization key. Trained / `_TR` variants may fall back to the base skill description when no trained-specific description exists.
+
+`skill_description_overrides.json` is the final manual fallback, keyed by Skill Definition ID. Each entry may be a plain string or an object with a `description` field (and an optional human-readable `note`). Manual overrides take priority and survive future config regeneration.

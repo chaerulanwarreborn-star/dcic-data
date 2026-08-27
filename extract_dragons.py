@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import math
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
@@ -26,6 +27,7 @@ LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_e
 if not LOCALIZATION_PATH.exists():
     LOCALIZATION_PATH = ROOT / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = ROOT / "dragons.json"
+SKILL_DESCRIPTION_OVERRIDES_PATH = ROOT / "skill_description_overrides.json"
 
 DRAGON_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
 DRAGON_FULL_BODY_CDN = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
@@ -616,6 +618,76 @@ def localized_value(loc: Dict[str, str], key: Any, fallback: str = "") -> str:
     return str(loc.get(str(key)) or fallback or "")
 
 
+def load_skill_description_overrides(path: Path = SKILL_DESCRIPTION_OVERRIDES_PATH) -> Dict[int, str]:
+    """Load optional manual Skill Definition description corrections keyed by skill ID."""
+    if not path.exists():
+        return {}
+    raw = load_json(path)
+    if not isinstance(raw, dict):
+        return {}
+    out: Dict[int, str] = {}
+    for raw_id, value in raw.items():
+        sid = safe_int(raw_id)
+        if sid is None:
+            continue
+        if isinstance(value, str):
+            description = value.strip()
+        elif isinstance(value, dict):
+            description = str(value.get("description") or "").strip()
+        else:
+            description = ""
+        if description:
+            out[sid] = description
+    return out
+
+
+def resolved_skill_description(
+    skill_def: Dict[str, Any],
+    loc: Dict[str, str],
+    overrides: Optional[Dict[int, str]] = None,
+) -> str:
+    """Resolve a display description while tolerating bad config localization pointers.
+
+    Priority:
+      1. Manual override by Skill Definition ID.
+      2. Configured tid_description when it resolves to useful text.
+      3. tid_skill_name_* -> tid_skill_description_* sibling localization.
+      4. For trained/TR variants, the base skill description.
+      5. Configured description as a final compatibility fallback.
+
+    Dragon City occasionally points tid_description at tid_name. The automatic sibling
+    lookup fixes those cases without hard-coding individual skills.
+    """
+    sid = safe_int(skill_def.get("id"))
+    if sid is not None and overrides and overrides.get(sid):
+        return str(overrides[sid]).strip()
+
+    name_key = str(skill_def.get("tid_name") or "").strip()
+    desc_key = str(skill_def.get("tid_description") or "").strip()
+    name = localized_value(loc, name_key, "").strip()
+    configured = localized_value(loc, desc_key, "").strip()
+
+    configured_is_name = bool(configured and name and configured.casefold() == name.casefold())
+    if configured and not configured_is_name:
+        return configured
+
+    if name_key.startswith("tid_skill_name_"):
+        sibling_key = name_key.replace("tid_skill_name_", "tid_skill_description_", 1)
+        sibling = localized_value(loc, sibling_key, "").strip()
+        if sibling and (not name or sibling.casefold() != name.casefold()):
+            return sibling
+
+        # Trained variants do not always have their own description key. Reuse the
+        # base description when the skill is the same mechanic with an upgraded name.
+        base_key = re.sub(r"(?i)(?:_trained|_tr)$", "", sibling_key)
+        if base_key != sibling_key:
+            base_description = localized_value(loc, base_key, "").strip()
+            if base_description and (not name or base_description.casefold() != name.casefold()):
+                return base_description
+
+    return configured
+
+
 def price_entries(raw: Any) -> List[Dict[str, Any]]:
     if not isinstance(raw, dict):
         return []
@@ -674,6 +746,7 @@ def logical_skill_details(
     attack_lookup: Dict[int, Dict[str, Any]],
     skill_def_lookup: Dict[int, Dict[str, Any]],
     loc: Dict[str, str],
+    skill_description_overrides: Optional[Dict[int, str]] = None,
 ) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
     seen = set()
@@ -690,7 +763,7 @@ def logical_skill_details(
         seen.add(key)
         sdef = skill_def_lookup.get(sid, {})
         name = localized_value(loc, sdef.get("tid_name"), str(rec.get("name") or f"Skill {record_id}"))
-        description = localized_value(loc, sdef.get("tid_description"), "")
+        description = resolved_skill_description(sdef, loc, skill_description_overrides)
         out.append({
             "id": record_id,
             "skill_definition_id": sid,
@@ -729,7 +802,7 @@ def logical_skill_details(
         seen.add(key)
         sdef = skill_def_lookup.get(sid, {})
         name = localized_value(loc, sdef.get("tid_name"), localized_value(loc, rec.get("name_key"), str(rec.get("name") or f"Attack {aid}")))
-        description = localized_value(loc, sdef.get("tid_description"), "")
+        description = resolved_skill_description(sdef, loc, skill_description_overrides)
         out.append({
             "id": aid,
             "attack_id": aid,
@@ -834,6 +907,7 @@ def world_food_production(
 def main() -> None:
     config = load_json(CONFIG_PATH)
     loc = localization_map(load_json(LOCALIZATION_PATH))
+    skill_description_overrides = load_skill_description_overrides()
 
     skills = config.get("skills") or {}
     passive_lookup = index_by_id(skills.get("passive") or [])
@@ -1134,6 +1208,7 @@ def main() -> None:
             attack_lookup,
             skill_def_lookup,
             loc,
+            skill_description_overrides,
         )
 
         details = {

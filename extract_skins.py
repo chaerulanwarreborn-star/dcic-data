@@ -20,6 +20,7 @@ from extract_dragons import (
     index_by_id,
     load_json,
     localization_map,
+    load_skill_description_overrides,
     logical_skill_details,
     safe_int,
 )
@@ -280,6 +281,7 @@ def compare_values(before: Dict[str, Any], after: Dict[str, Any], keys: Iterable
 def main() -> None:
     config = load_json(CONFIG_PATH)
     loc = localization_map(load_json(LOCALIZATION_PATH))
+    skill_description_overrides = load_skill_description_overrides()
     dragons_payload = load_json(DRAGONS_PATH)
     dragons = dragons_payload.get("dragons") or []
     dragon_by_id = {safe_int(d.get("id")): d for d in dragons if safe_int(d.get("id")) is not None}
@@ -404,6 +406,7 @@ def main() -> None:
             attack_lookup,
             skill_def_lookup,
             loc,
+            skill_description_overrides,
         )
 
         original = owner_snapshot(owner)
