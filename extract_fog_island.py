@@ -31,6 +31,8 @@ STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 # handled correctly without merging different IDs into one reward card.
 SUMMARY_EXCLUDED_CHEST_NAMES = {"Bronze Chest", "Silver Chest", "Gold Chest"}
 SUMMARY_EXCLUDED_CHEST_IDS_LEGACY = {7020, 7021, 7022}
+SUMMARY_SPECIAL_CHEST_NAMES = {"Mully Chest"}
+
 
 
 def load_json(path: Path) -> Any:
@@ -405,13 +407,19 @@ def main() -> None:
         })
 
         event_items: List[Dict[str, Any]] = []
+        special_chests: List[Dict[str, Any]] = []
+        special_names = {normalized_name(x) for x in SUMMARY_SPECIAL_CHEST_NAMES}
         for chest_id in used_chest_ids:
             chest = chest_by_id.get(chest_id, {})
             if is_summary_excluded_chest(chest_id, chest, localization):
                 continue
-            event_items.append(make_chest_record(
+            record = make_chest_record(
                 chest_id, chest, localization, gatcha_rows, item_by_id,
-            ))
+            )
+            if normalized_name(record.get("name")) in special_names:
+                special_chests.append(record)
+            else:
+                event_items.append(record)
 
         squares_out: List[Dict[str, Any]] = []
         for s in raw_squares:
@@ -500,6 +508,7 @@ def main() -> None:
             "rewards_summary": {
                 "dragons": dragons,
                 "event_items": event_items,
+                "special_chests": special_chests,
                 "excluded_generic_chest_names": sorted(SUMMARY_EXCLUDED_CHEST_NAMES),
                 "excluded_generic_chest_ids_legacy": sorted(SUMMARY_EXCLUDED_CHEST_IDS_LEGACY),
             },

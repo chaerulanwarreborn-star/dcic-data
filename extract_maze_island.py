@@ -11,6 +11,10 @@ STATIC='https://dci-static-s1.socialpointgames.com/static/dragoncity/'
 CHEST=STATIC+'mobile/ui/chests/'
 EXCLUDED={"Wood Chest","Bamboo Chest","Common Orbs Chest","Rare Orbs Chest","Very Rare Orbs Chest","Bronze Chest","Epic Orbs Chest","Silver Chest","Legendary Orbs Chest","Gold Chest"}
 
+# Chest-backed rewards that function as event items in Maze rewards summary.
+# Keep them clickable as Generic Chests, but group them under Event Items.
+EVENT_ITEM_CHEST_IDS={10238,14935,16552,13825,16553,16554,16556,16558,16559,16560,14937,17058,2659,10239}
+
 def load(p): return json.load(open(p,encoding='utf-8'))
 def dump(p,d): json.dump(d,open(p,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
 def ii(v):
@@ -76,7 +80,8 @@ def main():
       name=lx(loc,ch.get('chest_name_key'),lx(loc,ch.get('type_name_key'),f'Chest {cid}'))
       if name in EXCLUDED: continue
       img=str(ch.get('img_name') or '')
-      rec=special_chests.setdefault(cid,{'id':cid,'chest_id':cid,'source_chest_id':cid,'kind':'chest','name':name,'img_name':img,'source_chest_img_name':img,'image_candidates':chest_cands(cid,img),'tile_count':0});rec['tile_count']+=1
+      target=event_items if cid in EVENT_ITEM_CHEST_IDS else special_chests
+      rec=target.setdefault(cid,{'id':cid,'chest_id':cid,'source_chest_id':cid,'kind':'chest','name':name,'img_name':img,'source_chest_img_name':img,'image_candidates':chest_cands(cid,img),'tile_count':0});rec['tile_count']+=1
   start=ii((isl.get('availability') or {}).get('from')); end=ii((isl.get('availability') or {}).get('to'))
   title=lx(loc,isl.get('tid_name'),'Maze Island')
   internal=str(isl.get('name') or '')

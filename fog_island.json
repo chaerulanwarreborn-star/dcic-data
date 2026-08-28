@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-28T17:10:03.515052Z",
+  "generated_at": "2026-08-28T17:42:47.092817Z",
   "source_file": "game_config.json",
   "localization_file": "dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -99,20 +99,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 16551,
             "chest_id": 16551,
             "source_chest_id": 16551,
@@ -195,6 +181,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16722_chest_hatchingpass_winter@2x.png",
             "localization_name_key": "tid_chest_name_hatchlingsreborn",
             "localization_description_key": "tid_chest_description_hatchlingsreborn"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -5061,20 +5063,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 16333,
             "chest_id": 16333,
             "source_chest_id": 16333,
@@ -5199,6 +5187,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -10065,20 +10069,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -10217,6 +10207,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -15083,20 +15089,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -15235,6 +15227,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -20101,20 +20109,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -20267,6 +20261,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16747_chest_idolmedallion@2x.png",
             "localization_name_key": "tid_chest_name_medallion",
             "localization_description_key": "tid_chest_description_medallion"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -25133,20 +25143,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -25299,6 +25295,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16771_chest_14cake@2x.png",
             "localization_name_key": "tid_chest_20740_name",
             "localization_description_key": "tid_chest_20740_desc"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -30165,20 +30177,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -30317,6 +30315,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16787_chest_risenstarhelmet@2x.png",
             "localization_name_key": "tid_chest_name_risenheadpiece",
             "localization_description_key": "tid_chest_description_risenheadpiece"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -35211,20 +35225,6 @@
             "localization_description_key": "tid_chest_5200_type"
           },
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 13884,
             "chest_id": 13884,
             "source_chest_id": 13884,
@@ -35405,6 +35405,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -40271,20 +40287,6 @@
         ],
         "event_items": [
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 14935,
             "chest_id": 14935,
             "source_chest_id": 14935,
@@ -40423,6 +40425,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -45331,20 +45349,6 @@
             "localization_description_key": "tid_building_11985_name"
           },
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 10238,
             "chest_id": 10238,
             "source_chest_id": 10238,
@@ -45595,6 +45599,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18180_chest_gachakey_mds@2x.png",
             "localization_name_key": "tid_chest_name_H_HR_fog",
             "localization_description_key": "tid_chest_desc_H_HR_fog"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
@@ -50487,20 +50507,6 @@
             "localization_description_key": "tid_chest_4689_desc"
           },
           {
-            "id": 6625,
-            "chest_id": 6625,
-            "source_chest_id": 6625,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Mully Chest",
-            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
-            "img_name": "warriorschest_018_eggnature",
-            "source_chest_img_name": "warriorschest_018_eggnature",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
-            "localization_name_key": "tid_chest_name_mully",
-            "localization_description_key": "tid_chest_description_mully"
-          },
-          {
             "id": 10238,
             "chest_id": 10238,
             "source_chest_id": 10238,
@@ -50625,6 +50631,22 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16618_chest_stickerpack_ace_no_rarity@2x.png",
             "localization_name_key": "tid_chest_name_sticker_ace_pack_generic",
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
+          }
+        ],
+        "special_chests": [
+          {
+            "id": 6625,
+            "chest_id": 6625,
+            "source_chest_id": 6625,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mully Chest",
+            "description": "The Mully Dragon wants you to open this Chest for a surprise!",
+            "img_name": "warriorschest_018_eggnature",
+            "source_chest_img_name": "warriorschest_018_eggnature",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6625_warriorschest_018_eggnature@2x.png",
+            "localization_name_key": "tid_chest_name_mully",
+            "localization_description_key": "tid_chest_description_mully"
           }
         ],
         "excluded_generic_chest_names": [
