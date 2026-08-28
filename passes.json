@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-28T07:27:05.746771Z",
+  "schema_version": 2,
+  "generated_at": "2026-08-28T09:00:28.463199Z",
   "source_file": "game_config.json",
   "pass_count": 114,
   "passes": [
@@ -2240,7 +2240,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic-dmp-point-massive.png"
+      "currency_ids": [
+        "unlock_iap_points.20260528"
+      ],
+      "currency_id": "unlock_iap_points.20260528",
+      "visual_icon_id": "unlock_iap_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_stamps/$HDSD/ic_iap_pass_currency_stamps-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_stamps/HD/ic_iap_pass_currency_stamps-massive_c.png",
+      "hud_button_asset": "iap-pass-hud"
     },
     {
       "key": "divine_pass:110",
@@ -2320,7 +2327,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic-dmp-point-massive.png"
+      "currency_ids": [
+        "dragon_mastery_pass_points.20260702"
+      ],
+      "currency_id": "dragon_mastery_pass_points.20260702",
+      "visual_icon_id": "dragon_mastery_pass_points.20260702",
+      "icon_remote": "/mobile/ui/economy_system/dmp_points_c/$HDSD/ic-dmp-point_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/dmp_points_c/HD/ic-dmp-point_c.png",
+      "hud_button_asset": "dmp-event-hud"
     },
     {
       "key": "progression_pass:294",
@@ -2380,7 +2394,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260709"
+      ],
+      "currency_id": "arena_pass_points.20260709",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:292",
@@ -2399,7 +2420,14 @@
       "unlock_system_availability": "pet_food_pass.20260709",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic_petspass_currency-massive_c.png"
+      "currency_ids": [
+        "pet_food_pass_points.20260709"
+      ],
+      "currency_id": "pet_food_pass_points.20260709",
+      "visual_icon_id": "pet_food_pass_points.20260709",
+      "icon_remote": "/mobile/ui/economy_system/ic_petspass_currency/$HDSD/ic_petspass_currency_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_petspass_currency/HD/ic_petspass_currency_c.png",
+      "hud_button_asset": "currency-pets-pass-fix"
     },
     {
       "key": "progression_pass:298",
@@ -2427,7 +2455,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic-currency-footballpass_c.png"
+      "currency_ids": [
+        "season_pass_points.20260709"
+      ],
+      "currency_id": "season_pass_points.20260709",
+      "visual_icon_id": "season_pass_points.20260709",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-footballpass/$HDSD/ic-currency-footballpass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-footballpass/HD/ic-currency-footballpass_c.png",
+      "hud_button_asset": "football_pass_hud"
     },
     {
       "key": "progression_pass:293",
@@ -2455,7 +2490,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic_iap_pass_currency_hatchery_egg-massive_c.png"
+      "currency_ids": [
+        "hatching_pass_points.20260713"
+      ],
+      "currency_id": "hatching_pass_points.20260713",
+      "visual_icon_id": "hatching_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/$HDSD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/HD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "hud_button_asset": "hatchery-current-icon"
     },
     {
       "key": "progression_pass:296",
@@ -2515,7 +2557,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260716"
+      ],
+      "currency_id": "arena_pass_points.20260716",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:300",
@@ -2575,7 +2624,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260723"
+      ],
+      "currency_id": "arena_pass_points.20260723",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:303",
@@ -2594,7 +2650,14 @@
       "unlock_system_availability": "gem_sink_pass.20260723",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic-currency-gempass_special_c.png"
+      "currency_ids": [
+        "gem_sink_pass_points.20260723"
+      ],
+      "currency_id": "gem_sink_pass_points.20260723",
+      "visual_icon_id": "gem_sink_pass_points.20260723",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
     },
     {
       "key": "divine_pass:112",
@@ -2680,7 +2743,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260730"
+      ],
+      "currency_id": "arena_pass_points.20260730",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:310",
@@ -2699,7 +2769,14 @@
       "unlock_system_availability": "gem_sink_pass.20260730",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic-currency-gempass_special_c.png"
+      "currency_ids": [
+        "gem_sink_pass_points.20260730"
+      ],
+      "currency_id": "gem_sink_pass_points.20260730",
+      "visual_icon_id": "gem_sink_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
     },
     {
       "key": "progression_pass:299",
@@ -2718,7 +2795,14 @@
       "unlock_system_availability": "heroic_race_pass.20260730",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic-racepass.png"
+      "currency_ids": [
+        "heroic_race_pass_points.20260730"
+      ],
+      "currency_id": "heroic_race_pass_points.20260730",
+      "visual_icon_id": "heroic_race_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-racepass/$HDSD/ic-racepass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-racepass/HD/ic-racepass.png",
+      "hud_button_asset": "progression-hr-pass-hud"
     },
     {
       "key": "progression_pass:304",
@@ -2737,7 +2821,14 @@
       "unlock_system_availability": "tree_of_life_pass.20260730",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic-collectorshunt-generic.png"
+      "currency_ids": [
+        "tree_of_life_pass_points.20260730"
+      ],
+      "currency_id": "tree_of_life_pass_points.20260730",
+      "visual_icon_id": "tree_of_life_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-summonpass-s1/$HDSD/ic-summonpass-s1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-summonpass-s1/HD/ic-summonpass-s1.png",
+      "hud_button_asset": "dmp-collectors_hunt-hud"
     },
     {
       "key": "progression_pass:306",
@@ -2797,7 +2888,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260806"
+      ],
+      "currency_id": "arena_pass_points.20260806",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:314",
@@ -2816,7 +2914,14 @@
       "unlock_system_availability": "gem_sink_pass.20260806",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic-currency-gempass_special_c.png"
+      "currency_ids": [
+        "gem_sink_pass_points.20260806"
+      ],
+      "currency_id": "gem_sink_pass_points.20260806",
+      "visual_icon_id": "gem_sink_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
     },
     {
       "key": "divine_pass:113",
@@ -2861,7 +2966,14 @@
       "unlock_system_availability": "temporary_sticker_set_pass.20260810",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic_iap_pass_currency_liberation_massive_c.png"
+      "currency_ids": [
+        "temporary_sticker_set_pass_points.20260810"
+      ],
+      "currency_id": "temporary_sticker_set_pass_points.20260810",
+      "visual_icon_id": "temporary_sticker_set_pass_points.20260810",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-groovefestpass/$HDSD/ic-currency-footballpass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-groovefestpass/HD/ic-currency-footballpass_c.png",
+      "hud_button_asset": "liberationpass_hud"
     },
     {
       "key": "progression_pass:307",
@@ -2921,7 +3033,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260813"
+      ],
+      "currency_id": "arena_pass_points.20260813",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:312",
@@ -2949,7 +3068,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic-dmp-point-massive.png"
+      "currency_ids": [
+        "dragon_mastery_pass_points.20260813"
+      ],
+      "currency_id": "dragon_mastery_pass_points.20260813",
+      "visual_icon_id": "dragon_mastery_pass_points.20260813",
+      "icon_remote": "/mobile/ui/economy_system/dmp_points_c/$HDSD/ic-dmp-point_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/dmp_points_c/HD/ic-dmp-point_c.png",
+      "hud_button_asset": "dmp-event-hud"
     },
     {
       "key": "progression_pass:308",
@@ -3009,7 +3135,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260820"
+      ],
+      "currency_id": "arena_pass_points.20260820",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:315",
@@ -3028,7 +3161,14 @@
       "unlock_system_availability": "pet_food_pass.20260820",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "icon_file": "ic_petspass_currency-massive_c.png"
+      "currency_ids": [
+        "pet_food_pass_points.20260820"
+      ],
+      "currency_id": "pet_food_pass_points.20260820",
+      "visual_icon_id": "pet_food_pass_points.20260820",
+      "icon_remote": "/mobile/ui/economy_system/ic_petspass_currency/$HDSD/ic_petspass_currency_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_petspass_currency/HD/ic_petspass_currency_c.png",
+      "hud_button_asset": "currency-pets-pass-fix"
     },
     {
       "key": "progression_pass:311",
@@ -3056,7 +3196,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic-currency-beach-pass_c.png"
+      "currency_ids": [
+        "season_pass_points.20260820"
+      ],
+      "currency_id": "season_pass_points.20260820",
+      "visual_icon_id": "season_pass_points.20260820",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-beach-pass/$HDSD/ic-currency-beach-pass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-beach-pass/HD/ic-currency-beach-pass_c.png",
+      "hud_button_asset": "highrisenstar_pass_hud"
     },
     {
       "key": "progression_pass:316",
@@ -3084,7 +3231,14 @@
         }
       ],
       "featured_dragon_count": 1,
-      "icon_file": "ic_iap_pass_currency_hatchery_egg-massive_c.png"
+      "currency_ids": [
+        "hatching_pass_points.20260824"
+      ],
+      "currency_id": "hatching_pass_points.20260824",
+      "visual_icon_id": "hatching_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/$HDSD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/HD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "hud_button_asset": "hatchery-current-icon"
     },
     {
       "key": "progression_pass:309",
@@ -3144,7 +3298,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260827"
+      ],
+      "currency_id": "arena_pass_points.20260827",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:319",
@@ -3204,7 +3365,14 @@
         }
       ],
       "featured_dragon_count": 5,
-      "icon_file": "ic-arenapass.png"
+      "currency_ids": [
+        "arena_pass_points.20260903"
+      ],
+      "currency_id": "arena_pass_points.20260903",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "progression_pass:318",
@@ -3223,11 +3391,18 @@
       "unlock_system_availability": "master_arena_pass.20260903_seg81",
       "featured_dragons": [],
       "featured_dragon_count": 0,
+      "currency_ids": [
+        "master_arena_pass_points.20260903_seg81"
+      ],
+      "currency_id": "master_arena_pass_points.20260903_seg81",
+      "visual_icon_id": "master_arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_master_arenas_pass/$HDSD/ic_iap_pass_currency_master_arenas_pass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_master_arenas_pass/HD/ic_iap_pass_currency_master_arenas_pass_c.png",
+      "hud_button_asset": "currency-arena-pass",
       "player_segment_ids": [
         81
       ],
-      "player_segmentation_type": "dynamic",
-      "icon_file": "ic_iap_pass_currency_master_arenas_pass_c.png"
+      "player_segmentation_type": "dynamic"
     }
   ]
 }

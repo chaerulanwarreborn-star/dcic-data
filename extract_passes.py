@@ -21,6 +21,7 @@ LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_e
 OUTPUT_PATH = ROOT / "passes.json"
 
 DRAGON_THUMB_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
+SOCIALPOINT_STATIC_BASE = "https://dcw-static-s1.socialpointgames.com/static/dragoncity"
 RARITY_ORDER = {"H": 0, "M": 1, "L": 2, "E": 3, "V": 4, "R": 5, "C": 6}
 PATH_ORDER = {"platinum": 0, "golden": 1, "gold": 1, "free": 2}
 
@@ -181,47 +182,75 @@ def slug(value: Any) -> str:
     return re.sub(r"[^a-z0-9]+", "_", str(value or "").lower()).strip("_")
 
 
-def progression_icon_file(variant: str, title: str, view: Dict[str, Any]) -> str:
-    """Resolve the homepage icon already mirrored in dcic-assets/currency-icon.
+def economy_visual_icon_index(config: Dict[str, Any]) -> Tuple[Dict[str, Dict[str, Any]], List[Tuple[str, Dict[str, Any]]]]:
+    """Index economy_system.visual_icon for exact and wildcard currency IDs.
 
-    Keep this mapping in the extractor so Blogger only renders the filename from
-    passes.json.  The Event Guides menu intentionally keeps its existing generic
-    Progression Pass icon.
+    Progression routes reference currencies such as ``pet_food_pass_points.20260820``.
+    The physical icon path is defined by ``economy_system.visual_icon``.  Some
+    currencies have an exact visual-icon row; others intentionally rely on a
+    wildcard row such as ``arena_pass_points.*``.
     """
-    v = slug(variant)
-    t = str(title or "").upper()
-    asset = str(view.get("asset") or "").lower()
-    hud = str(view.get("hud_button_asset") or "").lower()
+    rows = config.get("economy_system", {}).get("visual_icon", [])
+    exact: Dict[str, Dict[str, Any]] = {}
+    wildcards: List[Tuple[str, Dict[str, Any]]] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        key = str(row.get("id") or "").strip()
+        if not key:
+            continue
+        exact[key] = row
+        if key.endswith("*"):
+            wildcards.append((key[:-1], row))
+    # Prefer the most specific wildcard when multiple prefixes could match.
+    wildcards.sort(key=lambda pair: len(pair[0]), reverse=True)
+    return exact, wildcards
 
-    if v == "hatching_pass" or "HATCH PASS" in t or "hatchery" in hud:
-        return "ic_iap_pass_currency_hatchery_egg-massive_c.png"
-    if v == "master_arena_pass" or "LEGENDS PASS" in t or "master-arenapass" in asset:
-        return "ic_iap_pass_currency_master_arenas_pass_c.png"
-    if v == "arena_pass" or "ARENA PASS" in t or "CHAMPIONS PASS" in t or "arena-pass" in hud:
-        return "ic-arenapass.png"
-    if v == "pet_food_pass" or "PET PASS" in t or "pets-pass" in hud:
-        return "ic_petspass_currency-massive_c.png"
-    if v == "season_pass":
-        if "BEACH PASS" in t or "beach" in asset:
-            return "ic-currency-beach-pass_c.png"
-        if "SPORTS PASS" in t or "football" in asset or "football" in hud:
-            return "ic-currency-footballpass_c.png"
-    if v == "gem_sink_pass" or "GEMS PASS" in t or "gempass" in asset:
-        return "ic-currency-gempass_special_c.png"
-    if v == "heroic_race_pass" or "RACE PASS" in t or "racepass" in asset:
-        return "ic-racepass.png"
-    if v == "tree_of_life_pass" or "TREE OF LIFE PASS" in t or "collectors_hunt" in hud:
-        return "ic-collectorshunt-generic.png"
-    if v == "temporary_sticker_set_pass" or "GROOVE PASS" in t or "liberationpass" in hud:
-        return "ic_iap_pass_currency_liberation_massive_c.png"
-    if "BREED" in t or "breeding" in asset or "breeding" in hud:
-        return "ic-breedingpass-s1.png"
-    if "SUMMON" in t or "summon" in asset or "summon" in hud:
-        return "ic-summonpass-s1.png"
-    if v == "dragon_mastery_pass" or "MASTERY PASS" in t or "dmp-" in hud:
-        return "ic-dmp-point-massive.png"
-    return "ic-dmp-point-massive.png"
 
+def resolve_currency_icon(
+    currency_id: str,
+    exact_icons: Dict[str, Dict[str, Any]],
+    wildcard_icons: List[Tuple[str, Dict[str, Any]]],
+) -> Dict[str, str]:
+    """Resolve the *regular* Socialpoint icon declared by game_config.
+
+    No filename inference is performed.  The resolver only accepts an exact
+    ``visual_icon.id`` match or an explicit wildcard row from the config.
+    ``$HDSD`` is resolved to ``HD`` because that is the directory requested by
+    the desktop client and is suitable for the website as well.
+    """
+    currency_id = str(currency_id or "").strip()
+    if not currency_id:
+        return {}
+
+    row = exact_icons.get(currency_id)
+    matched_id = currency_id if row else ""
+    if row is None:
+        for prefix, candidate in wildcard_icons:
+            if currency_id.startswith(prefix):
+                row = candidate
+                matched_id = str(candidate.get("id") or "")
+                break
+    if not isinstance(row, dict):
+        return {}
+
+    regular = row.get("regular")
+    remote = str(regular.get("remote") if isinstance(regular, dict) else "").strip()
+    if not remote:
+        return {}
+
+    resolved_remote = remote.replace("$HDSD", "HD")
+    if resolved_remote.startswith("http://") or resolved_remote.startswith("https://"):
+        url = resolved_remote
+    else:
+        url = SOCIALPOINT_STATIC_BASE.rstrip("/") + "/" + resolved_remote.lstrip("/")
+
+    return {
+        "currency_id": currency_id,
+        "visual_icon_id": matched_id,
+        "icon_remote": remote,
+        "icon_url": url,
+    }
 
 def divine_passes(config: Dict[str, Any], localization: Dict[str, str], items: Dict[int, Dict[str, Any]]) -> List[Dict[str, Any]]:
     section = config.get("battle_pass", {})
@@ -295,6 +324,7 @@ def progression_passes(config: Dict[str, Any], localization: Dict[str, str], ite
     reward_by_id = {
         as_int(row.get("id")): row for row in pm.get("rewards", []) if isinstance(row, dict)
     }
+    exact_icons, wildcard_icons = economy_visual_icon_index(config)
 
     out: List[Dict[str, Any]] = []
     for row in pm.get("progression_milestones", []):
@@ -310,13 +340,23 @@ def progression_passes(config: Dict[str, Any], localization: Dict[str, str], ite
         view = view_by_id.get(as_int(row.get("view_templates_ui_id")), {})
         title = loc_text(localization, view.get("title_tid"), str(row.get("analytics_tag") or "Progression Pass"))
         variant = slug(row.get("analytics_tag") or title or "progression_pass")
-        icon_file = progression_icon_file(variant, title, view)
 
         progression = progression_by_id.get(as_int(row.get("ps_progression_id")), {})
+        route_rows = [route_by_id.get(as_int(route_id), {}) for route_id in progression.get("route_ids", []) or []]
+        currencies = []
+        for route in route_rows:
+            currency = str(route.get("currency") or "").strip() if isinstance(route, dict) else ""
+            if currency and currency not in currencies:
+                currencies.append(currency)
+        icon_meta: Dict[str, str] = {}
+        for currency in currencies:
+            icon_meta = resolve_currency_icon(currency, exact_icons, wildcard_icons)
+            if icon_meta:
+                break
+
         paths: List[Tuple[int, int, Dict[str, Any]]] = []
         seq = 0
-        for route_id in progression.get("route_ids", []) or []:
-            route = route_by_id.get(as_int(route_id), {})
+        for route in route_rows:
             for path_id in route.get("path_ids", []) or []:
                 path = path_by_id.get(as_int(path_id), {})
                 path_name = str(path.get("name_tid") or "").strip().lower()
@@ -354,12 +394,18 @@ def progression_passes(config: Dict[str, Any], localization: Dict[str, str], ite
             "start_iso": iso(start_ts),
             "end_iso": iso(end_ts),
             "details": "/p/progression-pass.html",
-            "icon_file": icon_file,
             "source_section": "progression_milestones.progression_milestones",
             "unlock_system_availability": unlock_id,
             "featured_dragons": featured,
             "featured_dragon_count": len(featured),
         }
+        if currencies:
+            pass_record["currency_ids"] = currencies
+        if icon_meta:
+            pass_record.update(icon_meta)
+        hud_asset = str(view.get("hud_button_asset") or "").strip()
+        if hud_asset:
+            pass_record["hud_button_asset"] = hud_asset
         if row.get("player_segment_ids"):
             pass_record["player_segment_ids"] = [as_int(x) for x in row.get("player_segment_ids", []) if as_int(x) > 0]
         if row.get("player_segmentation_type"):
@@ -379,7 +425,7 @@ def main() -> None:
     passes = sorted(dedup.values(), key=lambda p: (p["start_ts"], p["end_ts"], p["key"]))
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "pass_count": len(passes),
