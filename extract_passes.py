@@ -181,6 +181,48 @@ def slug(value: Any) -> str:
     return re.sub(r"[^a-z0-9]+", "_", str(value or "").lower()).strip("_")
 
 
+def progression_icon_file(variant: str, title: str, view: Dict[str, Any]) -> str:
+    """Resolve the homepage icon already mirrored in dcic-assets/currency-icon.
+
+    Keep this mapping in the extractor so Blogger only renders the filename from
+    passes.json.  The Event Guides menu intentionally keeps its existing generic
+    Progression Pass icon.
+    """
+    v = slug(variant)
+    t = str(title or "").upper()
+    asset = str(view.get("asset") or "").lower()
+    hud = str(view.get("hud_button_asset") or "").lower()
+
+    if v == "hatching_pass" or "HATCH PASS" in t or "hatchery" in hud:
+        return "ic_iap_pass_currency_hatchery_egg-massive_c.png"
+    if v == "master_arena_pass" or "LEGENDS PASS" in t or "master-arenapass" in asset:
+        return "ic_iap_pass_currency_master_arenas_pass_c.png"
+    if v == "arena_pass" or "ARENA PASS" in t or "CHAMPIONS PASS" in t or "arena-pass" in hud:
+        return "ic-arenapass.png"
+    if v == "pet_food_pass" or "PET PASS" in t or "pets-pass" in hud:
+        return "ic_petspass_currency-massive_c.png"
+    if v == "season_pass":
+        if "BEACH PASS" in t or "beach" in asset:
+            return "ic-currency-beach-pass_c.png"
+        if "SPORTS PASS" in t or "football" in asset or "football" in hud:
+            return "ic-currency-footballpass_c.png"
+    if v == "gem_sink_pass" or "GEMS PASS" in t or "gempass" in asset:
+        return "ic-currency-gempass_special_c.png"
+    if v == "heroic_race_pass" or "RACE PASS" in t or "racepass" in asset:
+        return "ic-racepass.png"
+    if v == "tree_of_life_pass" or "TREE OF LIFE PASS" in t or "collectors_hunt" in hud:
+        return "ic-collectorshunt-generic.png"
+    if v == "temporary_sticker_set_pass" or "GROOVE PASS" in t or "liberationpass" in hud:
+        return "ic_iap_pass_currency_liberation_massive_c.png"
+    if "BREED" in t or "breeding" in asset or "breeding" in hud:
+        return "ic-breedingpass-s1.png"
+    if "SUMMON" in t or "summon" in asset or "summon" in hud:
+        return "ic-summonpass-s1.png"
+    if v == "dragon_mastery_pass" or "MASTERY PASS" in t or "dmp-" in hud:
+        return "ic-dmp-point-massive.png"
+    return "ic-dmp-point-massive.png"
+
+
 def divine_passes(config: Dict[str, Any], localization: Dict[str, str], items: Dict[int, Dict[str, Any]]) -> List[Dict[str, Any]]:
     section = config.get("battle_pass", {})
     nodes_by_id = {
@@ -268,6 +310,7 @@ def progression_passes(config: Dict[str, Any], localization: Dict[str, str], ite
         view = view_by_id.get(as_int(row.get("view_templates_ui_id")), {})
         title = loc_text(localization, view.get("title_tid"), str(row.get("analytics_tag") or "Progression Pass"))
         variant = slug(row.get("analytics_tag") or title or "progression_pass")
+        icon_file = progression_icon_file(variant, title, view)
 
         progression = progression_by_id.get(as_int(row.get("ps_progression_id")), {})
         paths: List[Tuple[int, int, Dict[str, Any]]] = []
@@ -311,6 +354,7 @@ def progression_passes(config: Dict[str, Any], localization: Dict[str, str], ite
             "start_iso": iso(start_ts),
             "end_iso": iso(end_ts),
             "details": "/p/progression-pass.html",
+            "icon_file": icon_file,
             "source_section": "progression_milestones.progression_milestones",
             "unlock_system_availability": unlock_id,
             "featured_dragons": featured,

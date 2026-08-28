@@ -2239,7 +2239,8 @@
           "path": "free"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic-dmp-point-massive.png"
     },
     {
       "key": "divine_pass:110",
@@ -2318,7 +2319,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic-dmp-point-massive.png"
     },
     {
       "key": "progression_pass:294",
@@ -2377,7 +2379,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:292",
@@ -2395,7 +2398,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "pet_food_pass.20260709",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic_petspass_currency-massive_c.png"
     },
     {
       "key": "progression_pass:298",
@@ -2422,7 +2426,8 @@
           "path": "free"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic-currency-footballpass_c.png"
     },
     {
       "key": "progression_pass:293",
@@ -2449,7 +2454,8 @@
           "path": "free"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic_iap_pass_currency_hatchery_egg-massive_c.png"
     },
     {
       "key": "progression_pass:296",
@@ -2508,7 +2514,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:300",
@@ -2567,7 +2574,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:303",
@@ -2585,7 +2593,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "gem_sink_pass.20260723",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic-currency-gempass_special_c.png"
     },
     {
       "key": "divine_pass:112",
@@ -2670,7 +2679,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:310",
@@ -2688,7 +2698,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "gem_sink_pass.20260730",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic-currency-gempass_special_c.png"
     },
     {
       "key": "progression_pass:299",
@@ -2706,7 +2717,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "heroic_race_pass.20260730",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic-racepass.png"
     },
     {
       "key": "progression_pass:304",
@@ -2724,7 +2736,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "tree_of_life_pass.20260730",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic-collectorshunt-generic.png"
     },
     {
       "key": "progression_pass:306",
@@ -2783,7 +2796,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:314",
@@ -2801,7 +2815,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "gem_sink_pass.20260806",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic-currency-gempass_special_c.png"
     },
     {
       "key": "divine_pass:113",
@@ -2845,7 +2860,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "temporary_sticker_set_pass.20260810",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic_iap_pass_currency_liberation_massive_c.png"
     },
     {
       "key": "progression_pass:307",
@@ -2904,7 +2920,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:312",
@@ -2931,7 +2948,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic-dmp-point-massive.png"
     },
     {
       "key": "progression_pass:308",
@@ -2990,7 +3008,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:315",
@@ -3008,7 +3027,8 @@
       "source_section": "progression_milestones.progression_milestones",
       "unlock_system_availability": "pet_food_pass.20260820",
       "featured_dragons": [],
-      "featured_dragon_count": 0
+      "featured_dragon_count": 0,
+      "icon_file": "ic_petspass_currency-massive_c.png"
     },
     {
       "key": "progression_pass:311",
@@ -3035,7 +3055,8 @@
           "path": "free"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic-currency-beach-pass_c.png"
     },
     {
       "key": "progression_pass:316",
@@ -3062,7 +3083,8 @@
           "path": "free"
         }
       ],
-      "featured_dragon_count": 1
+      "featured_dragon_count": 1,
+      "icon_file": "ic_iap_pass_currency_hatchery_egg-massive_c.png"
     },
     {
       "key": "progression_pass:309",
@@ -3121,7 +3143,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:319",
@@ -3180,7 +3203,8 @@
           "path": "golden"
         }
       ],
-      "featured_dragon_count": 5
+      "featured_dragon_count": 5,
+      "icon_file": "ic-arenapass.png"
     },
     {
       "key": "progression_pass:318",
@@ -3202,7 +3226,8 @@
       "player_segment_ids": [
         81
       ],
-      "player_segmentation_type": "dynamic"
+      "player_segmentation_type": "dynamic",
+      "icon_file": "ic_iap_pass_currency_master_arenas_pass_c.png"
     }
   ]
 }
