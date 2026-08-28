@@ -11,6 +11,8 @@ on:
       - extract_fog_island.py
       - extract_grid_island.py
       - extract_tower_island.py
+      - extract_maze_island.py
+      - extract_chests.py
       - extract_heroic_race.py
       - legacy/heroic_races/**
       - heroic_race_archive_overrides.json
@@ -56,6 +58,9 @@ jobs:
       - name: Build tower_island.json
         run: python extract_tower_island.py
 
+      - name: Build maze_island.json
+        run: python extract_maze_island.py
+
       - name: Build heroic_race.json
         run: python extract_heroic_race.py
 
@@ -65,13 +70,16 @@ jobs:
       - name: Build skins.json
         run: python extract_skins.py
 
+      - name: Build chests.json and chest detail shards
+        run: python extract_chests.py
+
       - name: Build arena_seasons.json
         run: python extract_arena_seasons.py
 
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json heroic_race.json dragons.json skins.json arena_seasons.json
+          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
