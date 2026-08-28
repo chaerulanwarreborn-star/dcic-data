@@ -8,10 +8,15 @@ Sources:
 
 Outputs:
 - chests.json          compact browse/search/filter index
-- chest-details/*.json lazy normalized reward detail shards used by the global popup
+- chest-details/<type>/<bucket>.json deterministic lazy reward-detail buckets used by the global popup
 
 Source IDs are preserved. Because IDs collide between namespaces, every record
 also carries a stable `key` (`generic:2`, `alliance:2`, `warrior:102`).
+
+Detail files use fixed ID buckets (`chest_id % bucket_count`) rather than config
+position, so adding a new chest never moves older chests between files. Existing
+archive records that disappear from a later config are retained; same-ID content
+is simply updated in place (no revision history).
 """
 from __future__ import annotations
 
@@ -30,7 +35,7 @@ DRAGONS_PATH = ROOT / "dragons.json"
 SKINS_PATH = ROOT / "skins.json"
 SUMMARY_PATH = ROOT / "chests.json"
 DETAIL_DIR = ROOT / "chest-details"
-DETAIL_SHARD_SIZES = {"generic": 300, "alliance": 100, "warrior": 100}
+DETAIL_BUCKET_COUNTS = {"generic": 64, "alliance": 16, "warrior": 32}
 
 STATIC = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 ICON = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/"
@@ -334,7 +339,45 @@ def all_components(detail:Dict[str,Any])->Iterable[Dict[str,Any]]:
             for e in g.get("entries",[]): yield from e.get("components",[])
 
 
+def load_existing_archive() -> Tuple[Dict[str,Dict[str,Any]], Dict[str,Dict[str,Any]], str]:
+    """Load the previous generated archive, if one exists.
+
+    Returns summary rows by stable key, detail rows by stable key, and the prior
+    archive generation timestamp. Both the legacy flat shard layout and the new
+    nested deterministic layout are supported so this is migration-safe.
+    """
+    summaries: Dict[str,Dict[str,Any]] = {}
+    details: Dict[str,Dict[str,Any]] = {}
+    previous_generated = ""
+    if SUMMARY_PATH.exists():
+        try:
+            payload=load(SUMMARY_PATH)
+            previous_generated=str(payload.get("generated_at") or "") if isinstance(payload,dict) else ""
+            for row in (payload.get("chests") or []) if isinstance(payload,dict) else []:
+                if isinstance(row,dict) and row.get("key"):
+                    summaries[str(row["key"])]=row
+        except Exception:
+            pass
+    if DETAIL_DIR.exists():
+        for path in DETAIL_DIR.rglob("*.json"):
+            try:
+                payload=load(path)
+            except Exception:
+                continue
+            for row in (payload.get("details") or []) if isinstance(payload,dict) else []:
+                if isinstance(row,dict) and row.get("key"):
+                    details[str(row["key"])]=row
+    return summaries,details,previous_generated
+
+
+def detail_bucket_filename(dtype: str, chest_id: int) -> str:
+    count=DETAIL_BUCKET_COUNTS.get(dtype,32)
+    bucket=(max(0,int(chest_id)) % count)
+    return f"{dtype}/{bucket:02d}.json"
+
+
 def main()->None:
+    previous_summaries,previous_details,previous_generated=load_existing_archive()
     cfg=load(CONFIG_PATH); arena=load(ARENA_PATH); locmap=normalize_loc(load(LOC_PATH)); dragons=load(DRAGONS_PATH); skins=load(SKINS_PATH)
     cx=Context(cfg,arena,locmap,dragons,skins)
     details=[]; summaries=[]
@@ -408,32 +451,59 @@ def main()->None:
         starts=[x["from"] for x in refs if x.get("from")]; ends=[x["to"] for x in refs if x.get("to")]
         detail={"key":key,"type":"warrior","id":cid,"config_order":order,"name":name,"description":desc,"image_candidates":images,"guaranteed":guar,"possible":poss,"arena_context":{"elements":elements,"season_ids":seasons,"arena_types":types,"references":refs},"availability":{"first_known":iso(min(starts)) if starts else "","last_known":iso(max(ends)) if ends else "","appearance_count":len(refs)},"raw":{"claim_animation_name":str(ch.get("claim_animation_name") or ""),"gatcha_ids":ch.get("gatcha_ids") or []}}
         details.append(detail)
-    # Detail shards are intentionally small enough for lazy browser loading.
-    DETAIL_DIR.mkdir(exist_ok=True)
-    for old in DETAIL_DIR.glob("*.json"):
-        old.unlink()
+    # Preserve chest definitions that disappeared from the latest source files.
+    # Current source data wins for keys that still exist. Same-ID changes update
+    # in place; revision history is intentionally not kept.
+    current_keys={str(d.get("key")) for d in details}
+    archived_added=0
+    for key,old_detail in previous_details.items():
+        if key not in current_keys:
+            details.append(old_detail)
+            archived_added+=1
+
+    # Deterministic detail buckets: namespace + (chest_id % fixed bucket count).
+    # Do not include a per-run generated timestamp inside each bucket. Therefore
+    # an extractor run that adds one chest only changes its target bucket (plus
+    # chests.json), rather than rewriting every detail file.
+    if DETAIL_DIR.exists():
+        import shutil
+        shutil.rmtree(DETAIL_DIR)
+    DETAIL_DIR.mkdir(parents=True,exist_ok=True)
     shard_map={}
     buckets=defaultdict(list)
     for d in details:
         dtype=str(d.get("type") or "generic")
-        shard_size=DETAIL_SHARD_SIZES.get(dtype, 200)
-        shard_no=int(d.get("config_order",0))//shard_size
-        filename=f"{dtype}-{shard_no:02d}.json"
+        filename=detail_bucket_filename(dtype,i(d.get("id")))
         shard_map[d["key"]]=filename
-        buckets[filename].append(d)
-    for filename, rows in buckets.items():
-        dump(DETAIL_DIR / filename, {"schema_version":1,"generated_at":datetime.now(timezone.utc).isoformat().replace("+00:00","Z"),"details":rows})
+        # config_order belongs to the browse index and may shift when SP inserts
+        # definitions. Keeping it out of detail buckets makes bucket contents
+        # stable unless an actual chest definition changes.
+        stored={k:v for k,v in d.items() if k!="config_order"}
+        buckets[filename].append(stored)
+    for filename,rows in buckets.items():
+        rows.sort(key=lambda x:(i(x.get("id")),str(x.get("key") or "")))
+        path=DETAIL_DIR / filename
+        path.parent.mkdir(parents=True,exist_ok=True)
+        dump(path,{"schema_version":2,"details":rows})
 
-    # Summaries / search/filter facets.
-    type_counts=defaultdict(int)
+    # Summaries / search/filter facets. Current presence is tracked here rather
+    # than inside shards, so periodic runs do not rewrite every detail bucket.
+    type_counts=defaultdict(int); current_type_counts=defaultdict(int); merged_collisions=defaultdict(list)
+    now=datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
     for d in details:
+        key=str(d.get("key") or ""); is_current=key in current_keys
         comps=list(all_components(d)); types=uniq([x.get("type") for x in comps if x.get("type")]); names=uniq([x.get("name") for x in comps if x.get("name")]); opens=uniq([x.get("dragon_id") for x in comps if x.get("dragon_id")])
         type_counts[d["type"]]+=1
+        if is_current: current_type_counts[d["type"]]+=1
+        merged_collisions[i(d.get("id"))].append(str(d.get("type") or ""))
         availability=d.get("availability") or {}
-        summaries.append({"key":d["key"],"type":d["type"],"id":d["id"],"config_order":d["config_order"],"name":d["name"],"image_candidates":d.get("image_candidates") or [MISSING_CHEST],"reward_types":types,"reward_names":names,"reward_dragon_ids":opens,"availability":availability,"detail_file":shard_map.get(d["key"],""),"activity":d.get("activity",""),"activity_name":d.get("activity_name","")})
-    collision_rows={str(cid):types for cid,types in sorted(collisions.items()) if len(types)>1}
-    now=datetime.now(timezone.utc).isoformat().replace("+00:00","Z")
-    summary_payload={"schema_version":1,"generated_at":now,"meta":{"total":len(summaries),"counts":dict(type_counts),"page_size":200,"id_collisions":collision_rows},"assets":{"missing_chest":MISSING_CHEST,"reward_type_icons":REWARD_TYPE_ICONS},"reward_filter_groups":[
+        old=previous_summaries.get(key,{})
+        first_seen=str(old.get("first_seen") or previous_generated or now)
+        last_seen=now if is_current else str(old.get("last_seen") or previous_generated or first_seen)
+        summaries.append({"key":d["key"],"type":d["type"],"id":d["id"],"config_order":d.get("config_order",old.get("config_order",0)),"name":d["name"],"image_candidates":d.get("image_candidates") or [MISSING_CHEST],"reward_types":types,"reward_names":names,"reward_dragon_ids":opens,"availability":availability,"detail_file":shard_map.get(d["key"],""),"activity":d.get("activity",""),"activity_name":d.get("activity_name",""),"present_in_latest_config":is_current,"first_seen":first_seen,"last_seen":last_seen})
+    summaries.sort(key=lambda x:(str(x.get("type") or ""),i(x.get("config_order")),i(x.get("id"))))
+    collision_rows={str(cid):uniq(types) for cid,types in sorted(merged_collisions.items()) if len(uniq(types))>1}
+    summary_payload={"schema_version":2,"generated_at":now,"meta":{"total":len(summaries),"current_total":len(current_keys),"archived_total":len(summaries)-len(current_keys),"counts":dict(type_counts),"current_counts":dict(current_type_counts),"page_size":200,"detail_bucket_counts":DETAIL_BUCKET_COUNTS,"id_collisions":collision_rows},"assets":{"missing_chest":MISSING_CHEST,"reward_type_icons":REWARD_TYPE_ICONS},"reward_filter_groups":[
         {"id":"main_resources","label":"Main Resources","types":["gold","food","gems","xp"]},
         {"id":"dragons","label":"Dragons","types":["dragon_egg","empowered_dragon_egg","dragon_orbs","skin"]},
         {"id":"tree_of_life","label":"Tree of Life","types":["joker_orbs","trade_essence"]},
@@ -444,7 +514,8 @@ def main()->None:
     ],"chests":summaries}
     dump(SUMMARY_PATH,summary_payload)
     print(f"Wrote {SUMMARY_PATH.name}: {len(summaries)} chests")
-    print(f"Wrote {len(buckets)} lazy detail shards to {DETAIL_DIR.name}/")
+    print(f"Wrote {len(buckets)} deterministic detail buckets to {DETAIL_DIR.name}/")
+    print(f"Archive preserved: {archived_added} chest(s) not present in latest config")
     print("Counts:",dict(type_counts))
     print("ID collisions:",collision_rows)
 
