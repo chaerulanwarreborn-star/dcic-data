@@ -2,18 +2,35 @@
   "_notes": [
     "Normal Arena Tributes are resolved from offer_system Arena Tribute offers whose availability matches an Arena Season.",
     "VIP-Exclusive Tributes are not explicitly listed in arena_config. They are detected from the temporary dragon stat/hatching signature embedded in game_config.",
-    "Update tribute_signatures here if Socialpoint changes the values. manual_include/manual_exclude can be used for a temporary correction without changing the extractor."
+    "Update tribute_signatures here if Socialpoint changes the values. manual_include/manual_exclude can be used for a temporary correction without changing the extractor.",
+    "VIP detection excludes dragons that appear in any known normal Arena Tribute offer, preventing upcoming/current normal Tributes from being retroactively classified as VIP-Exclusive in older seasons."
   ],
   "tribute_signatures": {
-    "L": {"health": 22500, "damage": 9000, "max_hatching_time": 10800},
-    "M": {"health": 24750, "damage": 10950, "max_hatching_time": 10800},
-    "H": {"health": 45000, "damage": 13350, "max_hatching_time": 10800}
+    "L": {
+      "health": 22500,
+      "damage": 9000,
+      "max_hatching_time": 10800
+    },
+    "M": {
+      "health": 24750,
+      "damage": 10950,
+      "max_hatching_time": 10800
+    },
+    "H": {
+      "health": 45000,
+      "damage": 13350,
+      "max_hatching_time": 10800
+    }
   },
   "vip_detection": {
-    "preferred_tags_any": ["VIP", "Divinepass"],
+    "preferred_tags_any": [
+      "VIP",
+      "Divinepass"
+    ],
     "require_preferred_tag": false,
     "manual_include": [],
-    "manual_exclude": []
+    "manual_exclude": [],
+    "exclude_any_known_normal_tribute": true
   },
   "season_overrides": {}
 }

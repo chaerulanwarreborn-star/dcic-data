@@ -228,11 +228,15 @@ def signatures_from_overrides(overrides: Dict[str, Any]) -> Dict[str, Dict[str, 
 def detect_vip_tributes(
     game_config: Dict[str, Any],
     dragons_payload: Dict[str, Any],
-    normal_ids: Iterable[int],
+    known_normal_ids: Iterable[int],
     overrides: Dict[str, Any],
 ) -> Tuple[List[int], List[Dict[str, Any]]]:
     signatures = signatures_from_overrides(overrides)
-    normal = {as_int(x) for x in normal_ids}
+    # A dragon explicitly listed by any known Arena Tribute offer must not be
+    # inferred as VIP-Exclusive from the temporary stat signature. This is
+    # intentionally archive-wide, because upcoming normal Tributes can already
+    # carry the signature in the current game_config snapshot.
+    normal = {as_int(x) for x in known_normal_ids}
     dragons = {as_int(d.get("id")): d for d in dragons_payload.get("dragons", []) if isinstance(d, dict)}
     raw_items = {as_int(x.get("id")): x for x in game_config.get("items", []) if isinstance(x, dict) and as_int(x.get("id")) in dragons}
 
@@ -345,7 +349,22 @@ def main() -> None:
             break
 
     current_normal = normal_tributes.get(current_season_id, [])
-    vip_current, vip_debug = detect_vip_tributes(game_config, dragons_payload, current_normal, overrides)
+    vip_config = overrides.get("vip_detection") if isinstance(overrides.get("vip_detection"), dict) else {}
+    exclude_known_normal = bool(vip_config.get("exclude_any_known_normal_tribute", True))
+
+    known_normal_ids = set()
+    if exclude_known_normal:
+        for ids in normal_tributes.values():
+            known_normal_ids.update(as_int(x) for x in ids if as_int(x) > 0)
+    else:
+        known_normal_ids.update(as_int(x) for x in current_normal if as_int(x) > 0)
+
+    vip_current, vip_debug = detect_vip_tributes(
+        game_config,
+        dragons_payload,
+        known_normal_ids,
+        overrides,
+    )
 
     season_overrides = overrides.get("season_overrides") if isinstance(overrides.get("season_overrides"), dict) else {}
     seasons: List[Dict[str, Any]] = []
@@ -372,8 +391,11 @@ def main() -> None:
         prev = previous_seasons.get(season_id, {})
         prev_vip = prev.get("vip_exclusive_tributes") if isinstance(prev, dict) else None
         if isinstance(prev_vip, list) and prev_vip:
-            season["vip_exclusive_tributes"] = [as_int(x) for x in prev_vip if as_int(x) > 0]
-            season["vip_exclusive_tributes_source"] = str(prev.get("vip_exclusive_tributes_source") or "preserved_snapshot")
+            preserved_vip = [as_int(x) for x in prev_vip if as_int(x) > 0]
+            if exclude_known_normal:
+                preserved_vip = [x for x in preserved_vip if x not in known_normal_ids]
+            season["vip_exclusive_tributes"] = preserved_vip
+            season["vip_exclusive_tributes_source"] = str(prev.get("vip_exclusive_tributes_source") or "preserved_snapshot") if preserved_vip else "unavailable"
 
         if season_id == current_season_id:
             season["vip_exclusive_tributes"] = list(vip_current)
@@ -398,6 +420,8 @@ def main() -> None:
             "seasonal_arena_count": sum(len(s["arenas"]) for s in seasons),
             "warrior_chest_count": len(chest_index),
             "current_season_at_build": current_season_id or None,
+            "vip_excludes_known_normal_tributes": exclude_known_normal,
+            "known_normal_tribute_id_count": len(known_normal_ids),
             "vip_signature_candidates_at_build": vip_debug,
         },
         "static_arenas": static_arenas,
