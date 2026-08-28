@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Build a small events.json from Dragon City's large game_config.json.
+"""Build the compact homepage events feed from Dragon City's game_config.json.
 
-Designed for the dcic-data GitHub repository. Uses only Python's standard library.
-The Blogger frontend reads events.json instead of downloading the full game_config.
+This feed is intentionally separate from the detailed event-guide feeds
+(fog_island.json, grid_island.json, tower_island.json, heroic_race.json).  It
+contains only the schedule/card data needed by the site-wide Current/Upcoming
+Events UI and menu indicators.
 """
 
 from __future__ import annotations
@@ -18,6 +20,9 @@ CONFIG_PATH = ROOT / "game_config.json"
 OVERRIDES_PATH = ROOT / "event_overrides.json"
 LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = ROOT / "events.json"
+
+DRAGON_THUMB_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
+RARITY_ORDER = {"H": 0, "M": 1, "L": 2, "E": 3, "V": 4, "R": 5, "C": 6}
 
 GUIDES = {
     "heroic_race": "/p/heroic-race-guide.html",
@@ -41,11 +46,6 @@ SECTION_SPECS = [
 
 
 def guide_url(event_type: str, event_id: int) -> str:
-    """Return the guide URL for an event.
-
-    Fog, Grid, and Tower guides keep the event ID so current, upcoming, and
-    historical islands can be opened directly from the Events page.
-    """
     base = GUIDES[event_type]
     if event_type in {"fog_island", "grid_island", "tower_island", "heroic_race"} and event_id > 0:
         return f"{base}?id={event_id}"
@@ -59,8 +59,6 @@ def load_json(path: Path, default: Any = None) -> Any:
         raise SystemExit(f"Missing required file: {path.name}")
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
-
-
 
 
 def normalize_localization(raw: Any) -> Dict[str, str]:
@@ -79,6 +77,7 @@ def normalize_localization(raw: Any) -> Dict[str, str]:
 def loc_text(localization: Dict[str, str], key: Any, fallback: str = "") -> str:
     value = str(localization.get(str(key or ""), "") or "").strip()
     return value or fallback
+
 
 def as_int(value: Any) -> int:
     try:
@@ -109,13 +108,13 @@ def clean_dragon_name(name: str) -> str:
 
 
 def zip_theme(row: Dict[str, Any]) -> str:
-    """Best-effort theme from asset filename; display-only, never used for schedule."""
     raw = str(row.get("zip_file") or "")
     if not raw:
         return ""
     stem = Path(raw).stem
-    stem = re.sub(r"^(?:hr|mr|mi|fi|gi|ti|pi)_", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"^(?:hr|mr|mi|fi|gi|ti|pi|ri)_", "", stem, flags=re.IGNORECASE)
     stem = re.sub(r"_[bcd]$", "", stem, flags=re.IGNORECASE)
+    stem = re.sub(r"_(?:fog|grid|maze|tower|puzzle|runner)_?island$", "", stem, flags=re.IGNORECASE)
     stem = re.sub(r"_island$", "", stem, flags=re.IGNORECASE)
     words = [w for w in stem.split("_") if w and not w.isdigit()]
     if not words:
@@ -123,7 +122,7 @@ def zip_theme(row: Dict[str, Any]) -> str:
     return " ".join(w.capitalize() for w in words)
 
 
-def maze_subtitle(row: Dict[str, Any]) -> str:
+def maze_theme(row: Dict[str, Any]) -> str:
     name = str(row.get("name") or "").strip()
     low = name.lower()
     if low.startswith("maze island - "):
@@ -135,17 +134,45 @@ def maze_subtitle(row: Dict[str, Any]) -> str:
     return zip_theme(row)
 
 
-def make_title(event_type: str, label: str, row: Dict[str, Any], items: Dict[int, Dict[str, Any]], localization: Dict[str, str]) -> Tuple[str, str]:
+def full_event_title(theme: str, label: str) -> str:
+    theme = str(theme or "").strip()
+    label = str(label or "").strip()
+    if not theme:
+        return label
+    if label.lower() in theme.lower():
+        return theme
+    return f"{theme} {label}".strip()
+
+
+def race_variant(label: str) -> str:
+    token = re.sub(r"[^a-z0-9]+", "_", str(label or "").lower()).strip("_")
+    aliases = {
+        "heroic_race": "heroic_race",
+        "heroic_marathon": "heroic_marathon",
+        "alliance_race": "alliance_race",
+        "mythical_race": "mythical_race",
+        "mythical_marathon": "mythical_marathon",
+    }
+    return aliases.get(token, token or "heroic_race")
+
+
+def make_title(
+    event_type: str,
+    label: str,
+    row: Dict[str, Any],
+    items: Dict[int, Dict[str, Any]],
+    localization: Dict[str, str],
+) -> str:
     if event_type == "heroic_race":
         dragon_id = as_int(row.get("dragon_race_id"))
         dragon = items.get(dragon_id, {})
-        dragon_name = clean_dragon_name(loc_text(localization, f"tid_unit_{dragon_id}_name", str(dragon.get("name") or "")))
-        if dragon_name:
-            return f"{dragon_name} {label}", ""
-        return label, zip_theme(row)
+        dragon_name = clean_dragon_name(
+            loc_text(localization, f"tid_unit_{dragon_id}_name", str(dragon.get("name") or ""))
+        )
+        return f"{dragon_name} {label}".strip() if dragon_name else label
     if event_type == "maze_island":
-        return label, maze_subtitle(row)
-    return label, zip_theme(row)
+        return full_event_title(maze_theme(row), label)
+    return full_event_title(zip_theme(row), label)
 
 
 def load_overrides() -> Dict[str, Dict[str, Any]]:
@@ -156,11 +183,6 @@ def load_overrides() -> Dict[str, Dict[str, Any]]:
 
 
 def path_end_fallback(config: Dict[str, Any], island: Dict[str, Any]) -> int:
-    """For diagnostics only: infer a missing Maze *end* from timed child paths.
-
-    We intentionally do NOT fabricate a start time. If the config omits the island
-    start, use event_overrides.json for that event.
-    """
     path_ids = set(island.get("paths") or [])
     if not path_ids:
         return 0
@@ -180,7 +202,143 @@ def iso(ts: int) -> str:
     return datetime.fromtimestamp(ts, timezone.utc).isoformat().replace("+00:00", "Z")
 
 
-def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]], localization: Dict[str, str]) -> Tuple[List[Dict[str, Any]], List[str]]:
+def extract_egg_ids(value: Any) -> List[int]:
+    """Collect direct deterministic egg IDs from nested reward structures."""
+    out: List[int] = []
+
+    def visit(node: Any) -> None:
+        if isinstance(node, dict):
+            for key, val in node.items():
+                if key == "egg":
+                    if isinstance(val, list):
+                        for item in val:
+                            did = as_int(item)
+                            if did > 0:
+                                out.append(did)
+                    else:
+                        did = as_int(val)
+                        if did > 0:
+                            out.append(did)
+                else:
+                    visit(val)
+        elif isinstance(node, list):
+            for item in node:
+                visit(item)
+
+    visit(value)
+    return out
+
+
+def dragon_record(dragon_id: int, items: Dict[int, Dict[str, Any]], localization: Dict[str, str]) -> Optional[Dict[str, Any]]:
+    item = items.get(dragon_id, {})
+    if not item or str(item.get("group_type") or "").upper() != "DRAGON":
+        return None
+    img_name = str(item.get("img_name_mobile") or item.get("img_name") or "").strip()
+    name = loc_text(localization, f"tid_unit_{dragon_id}_name", str(item.get("name") or f"Dragon {dragon_id}"))
+    rarity = str(item.get("dragon_rarity") or "").upper()
+    return {
+        "id": dragon_id,
+        "name": name,
+        "rarity": rarity,
+        "img_name": img_name,
+        "thumbnail": f"{DRAGON_THUMB_BASE}thumb_{img_name}_3.png" if img_name else "",
+    }
+
+
+def sort_featured(ids: Iterable[int], items: Dict[int, Dict[str, Any]], localization: Dict[str, str]) -> List[Dict[str, Any]]:
+    seen = set()
+    rows: List[Dict[str, Any]] = []
+    for raw_id in ids:
+        did = as_int(raw_id)
+        if did <= 0 or did in seen:
+            continue
+        seen.add(did)
+        row = dragon_record(did, items, localization)
+        if row:
+            rows.append(row)
+    rows.sort(key=lambda d: RARITY_ORDER.get(str(d.get("rarity") or "").upper(), 99))
+    return rows
+
+
+def featured_dragon_ids(config: Dict[str, Any], event_type: str, row: Dict[str, Any]) -> List[int]:
+    event_id = as_int(row.get("id"))
+    ids: List[int] = []
+
+    # Any explicit config list remains a useful fallback/primary source.
+    if isinstance(row.get("featured_dragons"), list):
+        ids.extend(as_int(x) for x in row.get("featured_dragons", []))
+
+    if event_type == "heroic_race":
+        featured = as_int(row.get("dragon_race_id"))
+        if featured:
+            ids.append(featured)
+        reward_by_id = {
+            as_int(r.get("id")): r
+            for r in config.get("heroic_races", {}).get("rewards", [])
+            if isinstance(r, dict)
+        }
+        # Final-position reward tables provide the authoritative race dragon set.
+        for reward_id in row.get("rewards", []) or []:
+            ids.extend(extract_egg_ids(reward_by_id.get(as_int(reward_id), {})))
+
+    elif event_type == "fog_island":
+        for reward in config.get("fog_island", {}).get("rewards", []):
+            if isinstance(reward, dict) and as_int(reward.get("island_id")) == event_id:
+                did = as_int(reward.get("reward_id"))
+                if did:
+                    ids.append(did)
+
+    elif event_type == "grid_island":
+        for square in config.get("grid_island", {}).get("squares", []):
+            if not isinstance(square, dict) or as_int(square.get("island_id")) != event_id:
+                continue
+            if str(square.get("type") or "").upper() == "DRAGON":
+                did = as_int(square.get("type_id"))
+                if did:
+                    ids.append(did)
+
+    elif event_type == "maze_island":
+        path_ids = {as_int(x) for x in row.get("paths", []) or []}
+        for path in config.get("maze_island", {}).get("paths", []):
+            if isinstance(path, dict) and as_int(path.get("id")) in path_ids:
+                did = as_int(path.get("dragon_type"))
+                if did:
+                    ids.append(did)
+
+    elif event_type == "tower_island":
+        tower = config.get("tower_island", {})
+        reward_by_id = {
+            as_int(r.get("id")): r for r in tower.get("rewards", []) if isinstance(r, dict)
+        }
+        # Piece reward configs are deterministic featured dragons.
+        for reward in tower.get("rewards", []):
+            if isinstance(reward, dict) and as_int(reward.get("island_id")) == event_id:
+                did = as_int(reward.get("dragon_reward_id"))
+                if did:
+                    ids.append(did)
+        # Some final tower squares award an egg directly.
+        for square in tower.get("squares", []):
+            if not isinstance(square, dict) or as_int(square.get("island_id")) != event_id:
+                continue
+            ids.extend(extract_egg_ids(square.get("rewards_array")))
+            reward_id = as_int(square.get("piece_reward_id"))
+            if reward_id:
+                did = as_int(reward_by_id.get(reward_id, {}).get("dragon_reward_id"))
+                if did:
+                    ids.append(did)
+
+    elif event_type == "puzzle_island":
+        # Modern Puzzle configs expose the highlighted dragons directly.
+        ids.extend(as_int(x) for x in row.get("featured_dragons", []) or [])
+
+    return [x for x in ids if as_int(x) > 0]
+
+
+def build_events(
+    config: Dict[str, Any],
+    overrides: Dict[str, Dict[str, Any]],
+    localization: Dict[str, str],
+) -> Tuple[List[Dict[str, Any]], List[str]]:
     items = item_index(config)
     events: List[Dict[str, Any]] = []
     warnings: List[str] = []
@@ -200,15 +358,16 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]], l
             start_ts, end_ts = timestamps(row)
             key = f"{event_type}:{event_id}"
             override = overrides.get(key, {})
-            schedule_source = "game_config"
+            override_used = False
 
-            if override:
-                if as_int(override.get("start_ts")) > 0:
-                    start_ts = as_int(override.get("start_ts"))
-                    schedule_source = "override"
-                if as_int(override.get("end_ts")) > 0:
-                    end_ts = as_int(override.get("end_ts"))
-                    schedule_source = "override"
+            # Overrides are fallbacks only. Never overwrite a complete official
+            # window when a newer game_config has fixed the schedule itself.
+            if start_ts <= 0 and as_int(override.get("start_ts")) > 0:
+                start_ts = as_int(override.get("start_ts"))
+                override_used = True
+            if (end_ts <= 0 or end_ts <= start_ts) and as_int(override.get("end_ts")) > start_ts:
+                end_ts = as_int(override.get("end_ts"))
+                override_used = True
 
             if start_ts <= 0 or end_ts <= start_ts:
                 extra = ""
@@ -220,44 +379,44 @@ def build_events(config: Dict[str, Any], overrides: Dict[str, Dict[str, Any]], l
                 continue
 
             row_label = label
+            variant = event_type
             if event_type == "heroic_race":
                 row_label = loc_text(localization, row.get("island_title_tid"), label).title()
-            title, subtitle = make_title(event_type, row_label, row, items, localization)
+                variant = race_variant(row_label)
+
+            title = make_title(event_type, row_label, row, items, localization)
+            featured = sort_featured(featured_dragon_ids(config, event_type, row), items, localization)
             event: Dict[str, Any] = {
                 "key": key,
                 "id": event_id,
                 "type": event_type,
+                "variant": variant,
                 "type_label": row_label,
                 "title": title,
-                "subtitle": subtitle,
+                # Kept for backwards compatibility; homepage v2 intentionally renders only 2 title levels.
+                "subtitle": "",
                 "start_ts": start_ts,
                 "end_ts": end_ts,
                 "start_iso": iso(start_ts),
                 "end_iso": iso(end_ts),
                 "guide": guide_url(event_type, event_id),
-                "schedule_source": schedule_source,
+                "schedule_source": "override" if override_used else "game_config",
                 "source_section": section,
+                "featured_dragons": featured,
+                "featured_dragon_count": len(featured),
             }
 
             if row.get("building_id") is not None:
                 event["building_id"] = as_int(row.get("building_id"))
             if row.get("dragon_race_id") is not None:
-                did = as_int(row.get("dragon_race_id"))
-                event["featured_dragon_id"] = did
-                dragon = items.get(did)
-                if dragon:
-                    event["featured_dragon_name"] = loc_text(localization, f"tid_unit_{did}_name", str(dragon.get("name") or ""))
-                    event["featured_dragon_img_name"] = str(dragon.get("img_name") or "")
-            if isinstance(row.get("featured_dragons"), list):
-                event["featured_dragon_ids"] = [as_int(x) for x in row.get("featured_dragons", []) if as_int(x) > 0]
+                event["featured_dragon_id"] = as_int(row.get("dragon_race_id"))
             if row.get("zip_file"):
                 event["asset_zip"] = str(row.get("zip_file"))
-            if override.get("note"):
+            if override_used and override.get("note"):
                 event["schedule_note"] = str(override.get("note"))
 
             events.append(event)
 
-    # Deduplicate by key, then sort chronologically.
     dedup: Dict[str, Dict[str, Any]] = {e["key"]: e for e in events}
     events = sorted(dedup.values(), key=lambda e: (e["start_ts"], e["end_ts"], e["key"]))
     return events, warnings
@@ -270,7 +429,7 @@ def main() -> None:
     events, warnings = build_events(config, overrides, localization)
 
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "event_count": len(events),

@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-08-28T02:43:34.794402Z",
+  "schema_version": 2,
+  "generated_at": "2026-08-28T07:27:04.057183Z",
   "source_file": "game_config.json",
   "event_count": 70,
   "events": [
@@ -8,6 +8,7 @@
       "key": "event_island:1",
       "id": 1,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -18,12 +19,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:33",
       "id": 33,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -34,12 +38,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 869
     },
     {
       "key": "event_island:2",
       "id": 2,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -50,12 +57,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:3",
       "id": 3,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -66,12 +76,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:4",
       "id": 4,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -82,12 +95,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:5",
       "id": 5,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -98,12 +114,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:6",
       "id": 6,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -114,12 +133,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:7",
       "id": 7,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -130,12 +152,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:8",
       "id": 8,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -146,12 +171,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:9",
       "id": 9,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -162,12 +190,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:10",
       "id": 10,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -178,12 +209,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:11",
       "id": 11,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -194,12 +228,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:12",
       "id": 12,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -210,12 +247,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:13",
       "id": 13,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -226,12 +266,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 430
     },
     {
       "key": "event_island:14",
       "id": 14,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -242,12 +285,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 502
     },
     {
       "key": "event_island:15",
       "id": 15,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -258,12 +304,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:16",
       "id": 16,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -274,12 +323,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:17",
       "id": 17,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -290,12 +342,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:18",
       "id": 18,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -306,12 +361,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:19",
       "id": 19,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -322,12 +380,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:20",
       "id": 20,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -338,12 +399,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:21",
       "id": 21,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -354,12 +418,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:22",
       "id": 22,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -370,12 +437,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 540
     },
     {
       "key": "event_island:23",
       "id": 23,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -386,12 +456,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 601
     },
     {
       "key": "event_island:24",
       "id": 24,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -402,12 +475,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 602
     },
     {
       "key": "event_island:25",
       "id": 25,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -418,12 +494,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 603
     },
     {
       "key": "event_island:26",
       "id": 26,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -434,12 +513,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 629
     },
     {
       "key": "event_island:27",
       "id": 27,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -450,12 +532,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 629
     },
     {
       "key": "event_island:28",
       "id": 28,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -466,12 +551,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 821
     },
     {
       "key": "event_island:29",
       "id": 29,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -482,12 +570,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 821
     },
     {
       "key": "event_island:30",
       "id": 30,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -498,12 +589,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 821
     },
     {
       "key": "event_island:31",
       "id": 31,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -514,12 +608,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 821
     },
     {
       "key": "event_island:32",
       "id": 32,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -530,12 +627,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 845
     },
     {
       "key": "event_island:34",
       "id": 34,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -546,12 +646,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 901
     },
     {
       "key": "event_island:35",
       "id": 35,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -562,12 +665,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 903
     },
     {
       "key": "event_island:36",
       "id": 36,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -578,12 +684,15 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 936
     },
     {
       "key": "event_island:40",
       "id": 40,
       "type": "event_island",
+      "variant": "event_island",
       "type_label": "Event Island",
       "title": "Event Island",
       "subtitle": "",
@@ -594,15 +703,18 @@
       "guide": "/p/event-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "event_island",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
       "building_id": 991
     },
     {
       "key": "puzzle_island:120",
       "id": 120,
       "type": "puzzle_island",
+      "variant": "puzzle_island",
       "type_label": "Puzzle Island",
-      "title": "Puzzle Island",
-      "subtitle": "Tropical Puzzle",
+      "title": "Tropical Puzzle Island",
+      "subtitle": "",
       "start_ts": 1591956000,
       "end_ts": 1592387999,
       "start_iso": "2020-06-12T10:00:00Z",
@@ -610,21 +722,41 @@
       "guide": "/p/puzzle-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "puzzle_island",
-      "building_id": 10089,
-      "featured_dragon_ids": [
-        3352,
-        2838,
-        1691
+      "featured_dragons": [
+        {
+          "id": 3352,
+          "name": "Eggspulsion Dragon",
+          "rarity": "L",
+          "img_name": "3352_dragon_eggspulsion",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png"
+        },
+        {
+          "id": 2838,
+          "name": "Red Crested Dragon",
+          "rarity": "L",
+          "img_name": "2838_dragon_redcrested",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png"
+        },
+        {
+          "id": 1691,
+          "name": "Peevish Dragon",
+          "rarity": "E",
+          "img_name": "1691_dragon_grumpy",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png"
+        }
       ],
+      "featured_dragon_count": 3,
+      "building_id": 10089,
       "asset_zip": "/mobile/ui/puzzle_islands/tropical_puzzle_island_b.zip"
     },
     {
       "key": "puzzle_island:121",
       "id": 121,
       "type": "puzzle_island",
+      "variant": "puzzle_island",
       "type_label": "Puzzle Island",
-      "title": "Puzzle Island",
-      "subtitle": "Halloween Puzzle",
+      "title": "Halloween Puzzle Island",
+      "subtitle": "",
       "start_ts": 1761138000,
       "end_ts": 1761487140,
       "start_iso": "2025-10-22T13:00:00Z",
@@ -632,21 +764,41 @@
       "guide": "/p/puzzle-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "puzzle_island",
-      "building_id": 10604,
-      "featured_dragon_ids": [
-        2340,
-        2322,
-        2283
+      "featured_dragons": [
+        {
+          "id": 2340,
+          "name": "Pyramid Dragon",
+          "rarity": "E",
+          "img_name": "2340_dragon_pyramid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png"
+        },
+        {
+          "id": 2322,
+          "name": "Prowling Dragon",
+          "rarity": "E",
+          "img_name": "2322_dragon_prowling",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png"
+        },
+        {
+          "id": 2283,
+          "name": "Abnormal Dragon",
+          "rarity": "E",
+          "img_name": "2283_dragon_abnormal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png"
+        }
       ],
+      "featured_dragon_count": 3,
+      "building_id": 10604,
       "asset_zip": "/mobile/ui/puzzle_islands/halloween_puzzle_island.zip"
     },
     {
       "key": "tower_island:89",
       "id": 89,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Norsegods",
+      "title": "Norsegods Tower Island",
+      "subtitle": "",
       "start_ts": 1768215600,
       "end_ts": 1768474799,
       "start_iso": "2026-01-12T11:00:00Z",
@@ -654,6 +806,44 @@
       "guide": "/p/tower-island-guide.html?id=89",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2749,
+          "name": "Fundy Dragon",
+          "rarity": "L",
+          "img_name": "2749_dragon_fundy",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png"
+        },
+        {
+          "id": 3135,
+          "name": "Hanshock Dragon",
+          "rarity": "L",
+          "img_name": "3135_dragon_hanshock",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3135_dragon_hanshock_3.png"
+        },
+        {
+          "id": 2115,
+          "name": "Paper Fold Dragon",
+          "rarity": "E",
+          "img_name": "2115_dragon_paperscut",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png"
+        },
+        {
+          "id": 2656,
+          "name": "Projectile Dragon",
+          "rarity": "V",
+          "img_name": "2656_dragon_projectile",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png"
+        },
+        {
+          "id": 1187,
+          "name": "Photon Dragon",
+          "rarity": "R",
+          "img_name": "1187_dragon_photon_d",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1187_dragon_photon_d_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10177,
       "asset_zip": "/mobile/ui/tower_islands/ti_norsegods_b.zip"
     },
@@ -661,9 +851,10 @@
       "key": "fog_island:126",
       "id": 126,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Arctic",
+      "title": "Arctic Fog Island",
+      "subtitle": "",
       "start_ts": 1769425200,
       "end_ts": 1769770799,
       "start_iso": "2026-01-26T11:00:00Z",
@@ -671,6 +862,44 @@
       "guide": "/p/fog-island-guide.html?id=126",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 3186,
+          "name": "Geckobolt Dragon",
+          "rarity": "L",
+          "img_name": "3186_dragon_geckobolt",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png"
+        },
+        {
+          "id": 1664,
+          "name": "Super Terra Dragon",
+          "rarity": "E",
+          "img_name": "1664_dragon_superterra",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1664_dragon_superterra_3.png"
+        },
+        {
+          "id": 1379,
+          "name": "Shaolin Dragon",
+          "rarity": "V",
+          "img_name": "1379_dragon_shaolin",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1379_dragon_shaolin_3.png"
+        },
+        {
+          "id": 2267,
+          "name": "Starhunter Dragon",
+          "rarity": "R",
+          "img_name": "2267_dragon_starhunter",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2267_dragon_starhunter_3.png"
+        },
+        {
+          "id": 1155,
+          "name": "Poseidon Dragon",
+          "rarity": "C",
+          "img_name": "1155_dragon_poseydon_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1155_dragon_poseydon_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10212,
       "asset_zip": "/mobile/ui/fog_islands/fi_arctic.zip"
     },
@@ -678,9 +907,10 @@
       "key": "grid_island:129",
       "id": 129,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "Upupandaway",
+      "title": "Upupandaway Grid Island",
+      "subtitle": "",
       "start_ts": 1770289200,
       "end_ts": 1770893999,
       "start_iso": "2026-02-05T11:00:00Z",
@@ -688,6 +918,44 @@
       "guide": "/p/grid-island-guide.html?id=129",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2847,
+          "name": "Legend Status Dragon",
+          "rarity": "L",
+          "img_name": "2847_dragon_legendstatus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2847_dragon_legendstatus_3.png"
+        },
+        {
+          "id": 3434,
+          "name": "Helium Dragon",
+          "rarity": "L",
+          "img_name": "3434_dragon_helium",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3434_dragon_helium_3.png"
+        },
+        {
+          "id": 2687,
+          "name": "Fae-Feast Dragon",
+          "rarity": "E",
+          "img_name": "2687_dragon_faefeast",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2687_dragon_faefeast_3.png"
+        },
+        {
+          "id": 2528,
+          "name": "Glimmer Dragon",
+          "rarity": "V",
+          "img_name": "2528_dragon_glimmer_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2528_dragon_glimmer_b_3.png"
+        },
+        {
+          "id": 2057,
+          "name": "Trickster Fae Dragon",
+          "rarity": "R",
+          "img_name": "2057_dragon_tricksterfae",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2057_dragon_tricksterfae_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 753,
       "asset_zip": "/mobile/ui/grid_islands/gi_upupandaway.zip"
     },
@@ -695,9 +963,10 @@
       "key": "tower_island:90",
       "id": 90,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1770894000,
       "end_ts": 1771153200,
       "start_iso": "2026-02-12T11:00:00Z",
@@ -705,6 +974,44 @@
       "guide": "/p/tower-island-guide.html?id=90",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2503,
+          "name": "Storm Magus Dragon",
+          "rarity": "L",
+          "img_name": "2503_dragon_stormmagi_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png"
+        },
+        {
+          "id": 3173,
+          "name": "Moxie Dragon",
+          "rarity": "L",
+          "img_name": "3173_dragon_moxie",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3173_dragon_moxie_3.png"
+        },
+        {
+          "id": 2857,
+          "name": "Tricky Trunk Dragon",
+          "rarity": "E",
+          "img_name": "2857_dragon_trickytrunk",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png"
+        },
+        {
+          "id": 1218,
+          "name": "Strong Dragon",
+          "rarity": "V",
+          "img_name": "1218_dragon_strong",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png"
+        },
+        {
+          "id": 1177,
+          "name": "Hammer Dragon",
+          "rarity": "R",
+          "img_name": "1177_dragon_hammer_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1177_dragon_hammer_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10127,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -712,9 +1019,10 @@
       "key": "fog_island:127",
       "id": 127,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Brightest Mirror",
+      "title": "Brightest Mirror Fog Island",
+      "subtitle": "",
       "start_ts": 1771498800,
       "end_ts": 1771844400,
       "start_iso": "2026-02-19T11:00:00Z",
@@ -722,6 +1030,44 @@
       "guide": "/p/fog-island-guide.html?id=127",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 3391,
+          "name": "Chosen Charm Dragon",
+          "rarity": "L",
+          "img_name": "3391_dragon_chosencharm",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3391_dragon_chosencharm_3.png"
+        },
+        {
+          "id": 2654,
+          "name": "Clown Dragon",
+          "rarity": "E",
+          "img_name": "2654_dragon_clown",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2654_dragon_clown_3.png"
+        },
+        {
+          "id": 2668,
+          "name": "Underground Dragon",
+          "rarity": "V",
+          "img_name": "2668_dragon_underground",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2668_dragon_underground_3.png"
+        },
+        {
+          "id": 1783,
+          "name": "Freezox Dragon",
+          "rarity": "R",
+          "img_name": "1783_dragon_freezox",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1783_dragon_freezox_3.png"
+        },
+        {
+          "id": 2024,
+          "name": "Grass Dragon",
+          "rarity": "C",
+          "img_name": "2024_dragon_grass",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2024_dragon_grass_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 977,
       "asset_zip": "/mobile/ui/fog_islands/fi_brightest_mirror.zip"
     },
@@ -729,9 +1075,10 @@
       "key": "fog_island:128",
       "id": 128,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Stpatrick",
+      "title": "Stpatrick Fog Island",
+      "subtitle": "",
       "start_ts": 1773054000,
       "end_ts": 1773399600,
       "start_iso": "2026-03-09T11:00:00Z",
@@ -739,6 +1086,44 @@
       "guide": "/p/fog-island-guide.html?id=128",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 3446,
+          "name": "Liberation Dragon",
+          "rarity": "L",
+          "img_name": "3446_dragon_liberation",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3446_dragon_liberation_3.png"
+        },
+        {
+          "id": 2443,
+          "name": "Maraca Dragon",
+          "rarity": "E",
+          "img_name": "2443_dragon_bead",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2443_dragon_bead_3.png"
+        },
+        {
+          "id": 2338,
+          "name": "Colosseum Dragon",
+          "rarity": "V",
+          "img_name": "2338_dragon_colosseum",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2338_dragon_colosseum_3.png"
+        },
+        {
+          "id": 2337,
+          "name": "Taj Mahal Dragon",
+          "rarity": "R",
+          "img_name": "2337_dragon_tajmahal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2337_dragon_tajmahal_3.png"
+        },
+        {
+          "id": 2025,
+          "name": "Ride Dragon",
+          "rarity": "C",
+          "img_name": "2025_dragon_ride",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2025_dragon_ride_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10566,
       "asset_zip": "/mobile/ui/fog_islands/fi_stpatrick.zip"
     },
@@ -746,9 +1131,10 @@
       "key": "grid_island:130",
       "id": 130,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "Norse Gods",
+      "title": "Norse Gods Grid Island",
+      "subtitle": "",
       "start_ts": 1773918000,
       "end_ts": 1774522800,
       "start_iso": "2026-03-19T11:00:00Z",
@@ -756,6 +1142,44 @@
       "guide": "/p/grid-island-guide.html?id=130",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2720,
+          "name": "Moonshade Dragon",
+          "rarity": "L",
+          "img_name": "2720_dragon_moonshade",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2720_dragon_moonshade_3.png"
+        },
+        {
+          "id": 3193,
+          "name": "Pitcher Plant Dragon",
+          "rarity": "L",
+          "img_name": "3193_dragon_pitcherplant",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3193_dragon_pitcherplant_3.png"
+        },
+        {
+          "id": 1407,
+          "name": "Golem Dragon",
+          "rarity": "E",
+          "img_name": "1407_dragon_golem",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1407_dragon_golem_3.png"
+        },
+        {
+          "id": 2408,
+          "name": "Gift Dragon",
+          "rarity": "V",
+          "img_name": "2408_dragon_gift",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2408_dragon_gift_3.png"
+        },
+        {
+          "id": 1433,
+          "name": "Balloon Dragon",
+          "rarity": "R",
+          "img_name": "1433_dragon_balloon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1433_dragon_balloon_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 976,
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     },
@@ -763,9 +1187,10 @@
       "key": "tower_island:92",
       "id": 92,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1774522800,
       "end_ts": 1774778340,
       "start_iso": "2026-03-26T11:00:00Z",
@@ -773,6 +1198,44 @@
       "guide": "/p/tower-island-guide.html?id=92",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3351,
+          "name": "Jealous Egg Dragon",
+          "rarity": "L",
+          "img_name": "3351_dragon_jealousegg",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png"
+        },
+        {
+          "id": 3029,
+          "name": "Silhouette Dragon",
+          "rarity": "L",
+          "img_name": "3029_dragon_silhouette",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3029_dragon_silhouette_3.png"
+        },
+        {
+          "id": 2144,
+          "name": "Furfur Dragon",
+          "rarity": "E",
+          "img_name": "2144_dragon_furfur",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png"
+        },
+        {
+          "id": 2069,
+          "name": "Cotton Candy Dragon",
+          "rarity": "V",
+          "img_name": "2069_dragon_cottoncandy",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png"
+        },
+        {
+          "id": 1321,
+          "name": "Easter Dragon",
+          "rarity": "R",
+          "img_name": "1321_dragon_easter",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 836,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -780,9 +1243,10 @@
       "key": "fog_island:130",
       "id": 130,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Easter2019",
+      "title": "Easter2019 Fog Island",
+      "subtitle": "",
       "start_ts": 1775124000,
       "end_ts": 1775469540,
       "start_iso": "2026-04-02T10:00:00Z",
@@ -790,6 +1254,44 @@
       "guide": "/p/fog-island-guide.html?id=130",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2948,
+          "name": "Starveton Dragon",
+          "rarity": "L",
+          "img_name": "2948_dragon_starveton",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2948_dragon_starveton_3.png"
+        },
+        {
+          "id": 2274,
+          "name": "Dark Tharos Dragon",
+          "rarity": "E",
+          "img_name": "2274_dragon_darktharos",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2274_dragon_darktharos_3.png"
+        },
+        {
+          "id": 2548,
+          "name": "Fool's Treasure Dragon",
+          "rarity": "V",
+          "img_name": "2548_dragon_foolstreasure",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2548_dragon_foolstreasure_3.png"
+        },
+        {
+          "id": 1467,
+          "name": "Eggster Dragon",
+          "rarity": "R",
+          "img_name": "1467_dragon_eggster",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1467_dragon_eggster_3.png"
+        },
+        {
+          "id": 1112,
+          "name": "Paradise Dragon",
+          "rarity": "C",
+          "img_name": "1112_dragon_paradise_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1112_dragon_paradise_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 921,
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019_b.zip"
     },
@@ -797,9 +1299,10 @@
       "key": "tower_island:93",
       "id": 93,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1775469600,
       "end_ts": 1775728800,
       "start_iso": "2026-04-06T10:00:00Z",
@@ -807,6 +1310,44 @@
       "guide": "/p/tower-island-guide.html?id=93",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2685,
+          "name": "Fae-Flora Dragon",
+          "rarity": "L",
+          "img_name": "2685_dragon_faeflora",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png"
+        },
+        {
+          "id": 2544,
+          "name": "North Wind Dragon",
+          "rarity": "L",
+          "img_name": "2544_dragon_northwind",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2544_dragon_northwind_3.png"
+        },
+        {
+          "id": 2240,
+          "name": "Pythoness Dragon",
+          "rarity": "E",
+          "img_name": "2240_dragon_pythoness",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png"
+        },
+        {
+          "id": 2235,
+          "name": "Chibi-Chief Dragon",
+          "rarity": "V",
+          "img_name": "2235_dragon_chibichief",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png"
+        },
+        {
+          "id": 1442,
+          "name": "Bride Dragon",
+          "rarity": "R",
+          "img_name": "1442_dragon_bride",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10127,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -814,9 +1355,10 @@
       "key": "fog_island:129",
       "id": 129,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Stpatrick",
+      "title": "Stpatrick Fog Island",
+      "subtitle": "",
       "start_ts": 1776679200,
       "end_ts": 1777024740,
       "start_iso": "2026-04-20T10:00:00Z",
@@ -824,6 +1366,44 @@
       "guide": "/p/fog-island-guide.html?id=129",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2918,
+          "name": "Koraken Dragon",
+          "rarity": "L",
+          "img_name": "2918_dragon_koraken",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2918_dragon_koraken_3.png"
+        },
+        {
+          "id": 1890,
+          "name": "Ironscales Dragon",
+          "rarity": "E",
+          "img_name": "1890_dragon_ironscales",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1890_dragon_ironscales_3.png"
+        },
+        {
+          "id": 1536,
+          "name": "Motorbike Dragon",
+          "rarity": "V",
+          "img_name": "1536_dragon_motorbike",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1536_dragon_motorbike_3.png"
+        },
+        {
+          "id": 1227,
+          "name": "Crossfire Dragon",
+          "rarity": "R",
+          "img_name": "1227_dragon_crossfire",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1227_dragon_crossfire_3.png"
+        },
+        {
+          "id": 1059,
+          "name": "Storm Dragon",
+          "rarity": "C",
+          "img_name": "1059_dragon_storm_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1059_dragon_storm_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10566,
       "asset_zip": "/mobile/ui/fog_islands/fi_stpatrick_b.zip"
     },
@@ -831,9 +1411,10 @@
       "key": "grid_island:132",
       "id": 132,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "De Mayo",
+      "title": "De Mayo Grid Island",
+      "subtitle": "",
       "start_ts": 1777543200,
       "end_ts": 1778148000,
       "start_iso": "2026-04-30T10:00:00Z",
@@ -841,6 +1422,44 @@
       "guide": "/p/grid-island-guide.html?id=132",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2490,
+          "name": "Fiesta Dragon",
+          "rarity": "L",
+          "img_name": "2490_dragon_fiesta_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2490_dragon_fiesta_b_3.png"
+        },
+        {
+          "id": 3032,
+          "name": "Puebla Dragon",
+          "rarity": "L",
+          "img_name": "3032_dragon_puebla",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3032_dragon_puebla_3.png"
+        },
+        {
+          "id": 2477,
+          "name": "Pluto God Dragon",
+          "rarity": "E",
+          "img_name": "2477_dragon_plutogod_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2477_dragon_plutogod_b_3.png"
+        },
+        {
+          "id": 2083,
+          "name": "Lizard Dragon",
+          "rarity": "V",
+          "img_name": "2083_dragon_lizard",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2083_dragon_lizard_3.png"
+        },
+        {
+          "id": 1447,
+          "name": "Mermaid Dragon",
+          "rarity": "R",
+          "img_name": "1447_dragon_mermaid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1447_dragon_mermaid_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10108,
       "asset_zip": "/mobile/ui/grid_islands/gi_5_de_mayo_b.zip"
     },
@@ -848,9 +1467,10 @@
       "key": "tower_island:94",
       "id": 94,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1778148000,
       "end_ts": 1778407140,
       "start_iso": "2026-05-07T10:00:00Z",
@@ -858,6 +1478,44 @@
       "guide": "/p/tower-island-guide.html?id=94",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3075,
+          "name": "Odysseus Dragon",
+          "rarity": "L",
+          "img_name": "3075_dragon_odysseus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png"
+        },
+        {
+          "id": 2280,
+          "name": "Happiness Dragon",
+          "rarity": "L",
+          "img_name": "2280_dragon_happiness",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2280_dragon_happiness_3.png"
+        },
+        {
+          "id": 2268,
+          "name": "Stardust Dragon",
+          "rarity": "E",
+          "img_name": "2268_dragon_stardust",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png"
+        },
+        {
+          "id": 1984,
+          "name": "Copper Dragon",
+          "rarity": "V",
+          "img_name": "1984_dragon_copper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png"
+        },
+        {
+          "id": 1194,
+          "name": "White Knight Dragon",
+          "rarity": "R",
+          "img_name": "1194_dragon_whiteknight_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1194_dragon_whiteknight_c_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 751,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -865,9 +1523,10 @@
       "key": "fog_island:131",
       "id": 131,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Brightest Mirror",
+      "title": "Brightest Mirror Fog Island",
+      "subtitle": "",
       "start_ts": 1778752800,
       "end_ts": 1779098340,
       "start_iso": "2026-05-14T10:00:00Z",
@@ -875,6 +1534,44 @@
       "guide": "/p/fog-island-guide.html?id=131",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2944,
+          "name": "Radiance Dragon",
+          "rarity": "L",
+          "img_name": "2944_dragon_radiance",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2944_dragon_radiance_3.png"
+        },
+        {
+          "id": 2291,
+          "name": "Purpureus Dragon",
+          "rarity": "E",
+          "img_name": "2291_dragon_purpureus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2291_dragon_purpureus_3.png"
+        },
+        {
+          "id": 1981,
+          "name": "Swamp Dragon",
+          "rarity": "V",
+          "img_name": "1981_dragon_swamp",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1981_dragon_swamp_3.png"
+        },
+        {
+          "id": 1302,
+          "name": "Martial Arts Dragon",
+          "rarity": "R",
+          "img_name": "1302_dragon_karate",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1302_dragon_karate_3.png"
+        },
+        {
+          "id": 1047,
+          "name": "Rattlesnake Dragon",
+          "rarity": "C",
+          "img_name": "1047_dragon_rattlesnake_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1047_dragon_rattlesnake_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10460,
       "asset_zip": "/mobile/ui/fog_islands/fi_brightest_mirror.zip"
     },
@@ -882,9 +1579,10 @@
       "key": "tower_island:95",
       "id": 95,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1779098400,
       "end_ts": 1779357540,
       "start_iso": "2026-05-18T10:00:00Z",
@@ -892,6 +1590,44 @@
       "guide": "/p/tower-island-guide.html?id=95",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2942,
+          "name": "Lustre Dragon",
+          "rarity": "L",
+          "img_name": "2942_dragon_lustre",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png"
+        },
+        {
+          "id": 3296,
+          "name": "Embracing Dragon",
+          "rarity": "L",
+          "img_name": "3296_dragon_embracing",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3296_dragon_embracing_3.png"
+        },
+        {
+          "id": 2711,
+          "name": "Omnivicious Dragon",
+          "rarity": "E",
+          "img_name": "2711_dragon_omnivicious",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png"
+        },
+        {
+          "id": 2524,
+          "name": "Aegis Dragon",
+          "rarity": "V",
+          "img_name": "2524_dragon_aegis_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png"
+        },
+        {
+          "id": 1916,
+          "name": "Wandering Dragon",
+          "rarity": "R",
+          "img_name": "1916_dragon_wandering",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 751,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -899,9 +1635,10 @@
       "key": "fog_island:144",
       "id": 144,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Divination Mapbg Ragnarok",
+      "title": "Divination Mapbg Ragnarok Fog Island",
+      "subtitle": "",
       "start_ts": 1780308000,
       "end_ts": 1780653540,
       "start_iso": "2026-06-01T10:00:00Z",
@@ -909,6 +1646,44 @@
       "guide": "/p/fog-island-guide.html?id=144",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2898,
+          "name": "Pettalion Dragon",
+          "rarity": "L",
+          "img_name": "2898_dragon_pettalion",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2898_dragon_pettalion_3.png"
+        },
+        {
+          "id": 2340,
+          "name": "Pyramid Dragon",
+          "rarity": "E",
+          "img_name": "2340_dragon_pyramid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png"
+        },
+        {
+          "id": 2235,
+          "name": "Chibi-Chief Dragon",
+          "rarity": "V",
+          "img_name": "2235_dragon_chibichief",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png"
+        },
+        {
+          "id": 2029,
+          "name": "Sailer Dragon",
+          "rarity": "R",
+          "img_name": "2029_dragon_sailer",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2029_dragon_sailer_3.png"
+        },
+        {
+          "id": 2027,
+          "name": "Destiny Dragon",
+          "rarity": "C",
+          "img_name": "2027_dragon_primal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2027_dragon_primal_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 977,
       "asset_zip": "/mobile/ui/fog_islands/fi_divination_mapbg_ragnarok_island.zip"
     },
@@ -916,9 +1691,10 @@
       "key": "grid_island:307",
       "id": 307,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "Seaside Break",
+      "title": "Seaside Break Grid Island",
+      "subtitle": "",
       "start_ts": 1781172000,
       "end_ts": 1781776740,
       "start_iso": "2026-06-11T10:00:00Z",
@@ -926,6 +1702,44 @@
       "guide": "/p/grid-island-guide.html?id=307",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2707,
+          "name": "Exploranaut Dragon",
+          "rarity": "L",
+          "img_name": "2707_dragon_exploranaut",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2707_dragon_exploranaut_3.png"
+        },
+        {
+          "id": 2719,
+          "name": "Full Moon Dragon",
+          "rarity": "L",
+          "img_name": "2719_dragon_fullmoon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2719_dragon_fullmoon_3.png"
+        },
+        {
+          "id": 1809,
+          "name": "Charging Dragon",
+          "rarity": "E",
+          "img_name": "1809_dragon_charging",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1809_dragon_charging_3.png"
+        },
+        {
+          "id": 1619,
+          "name": "Wave Dragon",
+          "rarity": "V",
+          "img_name": "34390_wave_dragon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34390_wave_dragon_3.png"
+        },
+        {
+          "id": 1916,
+          "name": "Wandering Dragon",
+          "rarity": "R",
+          "img_name": "1916_dragon_wandering",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 10941,
       "asset_zip": "/mobile/ui/grid_islands/gi_seaside_break.zip"
     },
@@ -933,9 +1747,10 @@
       "key": "tower_island:309",
       "id": 309,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Wooden Tower",
+      "title": "Wooden Tower Tower Island",
+      "subtitle": "",
       "start_ts": 1781776800,
       "end_ts": 1782035940,
       "start_iso": "2026-06-18T10:00:00Z",
@@ -943,6 +1758,44 @@
       "guide": "/p/tower-island-guide.html?id=309",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2794,
+          "name": "Robo Hound Dragon",
+          "rarity": "L",
+          "img_name": "2794_dragon_robohound",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png"
+        },
+        {
+          "id": 2793,
+          "name": "Robo Ravager Dragon",
+          "rarity": "L",
+          "img_name": "2793_dragon_roboravager",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png"
+        },
+        {
+          "id": 1755,
+          "name": "Scarecrow Dragon",
+          "rarity": "E",
+          "img_name": "1755_dragon_scarecrow",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png"
+        },
+        {
+          "id": 1814,
+          "name": "Wingspan Dragon",
+          "rarity": "V",
+          "img_name": "1814_dragon_wingspan",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png"
+        },
+        {
+          "id": 1323,
+          "name": "Lightbeam Dragon",
+          "rarity": "R",
+          "img_name": "1323_dragon_lightbeam",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1323_dragon_lightbeam_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 578,
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
@@ -950,9 +1803,10 @@
       "key": "fog_island:311",
       "id": 311,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Abyss",
+      "title": "Abyss Fog Island",
+      "subtitle": "",
       "start_ts": 1782381600,
       "end_ts": 1782727140,
       "start_iso": "2026-06-25T10:00:00Z",
@@ -960,6 +1814,44 @@
       "guide": "/p/fog-island-guide.html?id=311",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2864,
+          "name": "Broodby Dragon",
+          "rarity": "L",
+          "img_name": "2864_dragon_broodby",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2864_dragon_broodby_3.png"
+        },
+        {
+          "id": 1723,
+          "name": "Rideable Dragon",
+          "rarity": "E",
+          "img_name": "1723_dragon_rideable",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1723_dragon_rideable_3.png"
+        },
+        {
+          "id": 1671,
+          "name": "Sustainable Dragon",
+          "rarity": "V",
+          "img_name": "1671_dragon_recyclinggreen",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1671_dragon_recyclinggreen_3.png"
+        },
+        {
+          "id": 1413,
+          "name": "Adamantium Dragon",
+          "rarity": "R",
+          "img_name": "1413_dragon_adamantium",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1413_dragon_adamantium_3.png"
+        },
+        {
+          "id": 1085,
+          "name": "Sky Dragon",
+          "rarity": "C",
+          "img_name": "1085_dragon_air_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1085_dragon_air_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 11151,
       "asset_zip": "/mobile/ui/fog_islands/fi_abyss.zip"
     },
@@ -967,9 +1859,10 @@
       "key": "tower_island:312",
       "id": 312,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Wooden Tower",
+      "title": "Wooden Tower Tower Island",
+      "subtitle": "",
       "start_ts": 1782727200,
       "end_ts": 1782986340,
       "start_iso": "2026-06-29T10:00:00Z",
@@ -977,6 +1870,44 @@
       "guide": "/p/tower-island-guide.html?id=312",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2748,
+          "name": "Sweet Dream Dragon",
+          "rarity": "L",
+          "img_name": "2748_dragon_sweetdream",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png"
+        },
+        {
+          "id": 3080,
+          "name": "Drag-On Dragon",
+          "rarity": "L",
+          "img_name": "3080_dragon_dragon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3080_dragon_dragon_3.png"
+        },
+        {
+          "id": 1821,
+          "name": "Atomic Dragon",
+          "rarity": "E",
+          "img_name": "1821_dragon_atomic",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png"
+        },
+        {
+          "id": 2114,
+          "name": "Dimensional Dragon",
+          "rarity": "V",
+          "img_name": "2114_dragon_dimensional",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png"
+        },
+        {
+          "id": 1293,
+          "name": "Big Hat Dragon",
+          "rarity": "R",
+          "img_name": "1293_dragon_bighat",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1293_dragon_bighat_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 578,
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
@@ -984,9 +1915,10 @@
       "key": "fog_island:315",
       "id": 315,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Easter2019",
+      "title": "Easter2019 Fog Island",
+      "subtitle": "",
       "start_ts": 1783936800,
       "end_ts": 1784282400,
       "start_iso": "2026-07-13T10:00:00Z",
@@ -994,6 +1926,44 @@
       "guide": "/p/fog-island-guide.html?id=315",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2741,
+          "name": "Hidden Swamp Dragon",
+          "rarity": "L",
+          "img_name": "2741_dragon_hiddenswamp",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2741_dragon_hiddenswamp_3.png"
+        },
+        {
+          "id": 1835,
+          "name": "Bull Dragon",
+          "rarity": "E",
+          "img_name": "1835_dragon_bull",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1835_dragon_bull_3.png"
+        },
+        {
+          "id": 2211,
+          "name": "Nigiri Dragon",
+          "rarity": "V",
+          "img_name": "2211_dragon_nigiri",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2211_dragon_nigiri_3.png"
+        },
+        {
+          "id": 1269,
+          "name": "Peace Dragon",
+          "rarity": "R",
+          "img_name": "1269_dragon_peace",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1269_dragon_peace_3.png"
+        },
+        {
+          "id": 1098,
+          "name": "Queen Dragon",
+          "rarity": "C",
+          "img_name": "1098_dragon_queen_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1098_dragon_queen_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 921,
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019.zip"
     },
@@ -1001,9 +1971,10 @@
       "key": "grid_island:317",
       "id": 317,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "Musicfest",
+      "title": "Musicfest Grid Island",
+      "subtitle": "",
       "start_ts": 1784800800,
       "end_ts": 1785405540,
       "start_iso": "2026-07-23T10:00:00Z",
@@ -1011,6 +1982,44 @@
       "guide": "/p/grid-island-guide.html?id=317",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2589,
+          "name": "Milky Way Dragon",
+          "rarity": "L",
+          "img_name": "2589_dragon_milkyway_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2589_dragon_milkyway_b_3.png"
+        },
+        {
+          "id": 2893,
+          "name": "Wonderland Dragon",
+          "rarity": "L",
+          "img_name": "2893_dragon_wonderland",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2893_dragon_wonderland_3.png"
+        },
+        {
+          "id": 2384,
+          "name": "Psychedelia Dragon",
+          "rarity": "E",
+          "img_name": "2384_dragon_psychedelia",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2384_dragon_psychedelia_3.png"
+        },
+        {
+          "id": 1457,
+          "name": "Depth Dragon",
+          "rarity": "V",
+          "img_name": "1457_dragon_depth_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1457_dragon_depth_b_3.png"
+        },
+        {
+          "id": 2382,
+          "name": "K-Pop Dragon",
+          "rarity": "R",
+          "img_name": "2382_dragon_kpop",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2382_dragon_kpop_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 11986,
       "asset_zip": "/mobile/ui/grid_islands/gi_musicfest.zip"
     },
@@ -1018,9 +2027,10 @@
       "key": "tower_island:319",
       "id": 319,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Wooden Tower",
+      "title": "Wooden Tower Tower Island",
+      "subtitle": "",
       "start_ts": 1785405600,
       "end_ts": 1785664740,
       "start_iso": "2026-07-30T10:00:00Z",
@@ -1028,6 +2038,44 @@
       "guide": "/p/tower-island-guide.html?id=319",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3302,
+          "name": "Rule Breaker Dragon",
+          "rarity": "L",
+          "img_name": "3302_dragon_rulebreaker",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png"
+        },
+        {
+          "id": 2793,
+          "name": "Robo Ravager Dragon",
+          "rarity": "L",
+          "img_name": "2793_dragon_roboravager",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png"
+        },
+        {
+          "id": 2549,
+          "name": "Pyroclastic Dragon",
+          "rarity": "E",
+          "img_name": "2549_dragon_pyroclastic",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png"
+        },
+        {
+          "id": 1642,
+          "name": "Tiamat Dragon",
+          "rarity": "V",
+          "img_name": "1642_dragon_tiamat",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png"
+        },
+        {
+          "id": 1813,
+          "name": "Headstrong Dragon",
+          "rarity": "R",
+          "img_name": "1813_dragon_headstrong",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1813_dragon_headstrong_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 578,
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
@@ -1035,6 +2083,7 @@
       "key": "heroic_race:318",
       "id": 318,
       "type": "heroic_race",
+      "variant": "heroic_race",
       "type_label": "Heroic Race",
       "title": "High Falalute Heroic Race",
       "subtitle": "",
@@ -1045,19 +2094,49 @@
       "guide": "/p/heroic-race-guide.html?id=318",
       "schedule_source": "game_config",
       "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 3499,
+          "name": "High Falalute Dragon",
+          "rarity": "H",
+          "img_name": "3499_dragon_highfalalute",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3499_dragon_highfalalute_3.png"
+        },
+        {
+          "id": 3330,
+          "name": "Coin Holder Dragon",
+          "rarity": "L",
+          "img_name": "3330_dragon_coinholder",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3330_dragon_coinholder_3.png"
+        },
+        {
+          "id": 2450,
+          "name": "Flame Virago Dragon",
+          "rarity": "E",
+          "img_name": "2450_dragon_firevirago_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2450_dragon_firevirago_b_3.png"
+        },
+        {
+          "id": 2353,
+          "name": "Dwarf Dragon",
+          "rarity": "V",
+          "img_name": "2353_dragon_dwarf",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2353_dragon_dwarf_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
       "building_id": 837,
       "featured_dragon_id": 3499,
-      "featured_dragon_name": "High Falalute Dragon",
-      "featured_dragon_img_name": "3499_dragon_highfalalute",
       "asset_zip": "/mobile/ui/heroicraces_islands/hr_medievalholidays.zip"
     },
     {
       "key": "fog_island:320",
       "id": 320,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Statue Of Dc",
+      "title": "Statue Of Dc Fog Island",
+      "subtitle": "",
       "start_ts": 1786010400,
       "end_ts": 1786355940,
       "start_iso": "2026-08-06T10:00:00Z",
@@ -1065,6 +2144,44 @@
       "guide": "/p/fog-island-guide.html?id=320",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2881,
+          "name": "Cavemodo Dragon",
+          "rarity": "L",
+          "img_name": "2881_dragon_cavemodo",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2881_dragon_cavemodo_3.png"
+        },
+        {
+          "id": 1723,
+          "name": "Rideable Dragon",
+          "rarity": "E",
+          "img_name": "1723_dragon_rideable",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1723_dragon_rideable_3.png"
+        },
+        {
+          "id": 1671,
+          "name": "Sustainable Dragon",
+          "rarity": "V",
+          "img_name": "1671_dragon_recyclinggreen",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1671_dragon_recyclinggreen_3.png"
+        },
+        {
+          "id": 1413,
+          "name": "Adamantium Dragon",
+          "rarity": "R",
+          "img_name": "1413_dragon_adamantium",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1413_dragon_adamantium_3.png"
+        },
+        {
+          "id": 1085,
+          "name": "Sky Dragon",
+          "rarity": "C",
+          "img_name": "1085_dragon_air_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1085_dragon_air_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 912,
       "asset_zip": "/mobile/ui/fog_islands/fi_statue_of_dc.zip"
     },
@@ -1072,9 +2189,10 @@
       "key": "tower_island:320",
       "id": 320,
       "type": "tower_island",
+      "variant": "tower_island",
       "type_label": "Tower Island",
-      "title": "Tower Island",
-      "subtitle": "Energysource",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
       "start_ts": 1786356000,
       "end_ts": 1786615200,
       "start_iso": "2026-08-10T10:00:00Z",
@@ -1082,6 +2200,44 @@
       "guide": "/p/tower-island-guide.html?id=320",
       "schedule_source": "game_config",
       "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3411,
+          "name": "Lifetime Liar Dragon",
+          "rarity": "L",
+          "img_name": "3411_dragon_lifetimeliar",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png"
+        },
+        {
+          "id": 2729,
+          "name": "Queen's Villain Dragon",
+          "rarity": "L",
+          "img_name": "2729_dragon_queensvillain",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2729_dragon_queensvillain_3.png"
+        },
+        {
+          "id": 2601,
+          "name": "Coven Dragon",
+          "rarity": "E",
+          "img_name": "2601_dragon_coven",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png"
+        },
+        {
+          "id": 2235,
+          "name": "Chibi-Chief Dragon",
+          "rarity": "V",
+          "img_name": "2235_dragon_chibichief",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png"
+        },
+        {
+          "id": 1988,
+          "name": "Fortune Dragon",
+          "rarity": "R",
+          "img_name": "1988_dragon_fortune",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1988_dragon_fortune_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 101941,
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
@@ -1089,9 +2245,10 @@
       "key": "maze_island:317",
       "id": 317,
       "type": "maze_island",
+      "variant": "maze_island",
       "type_label": "Maze Island",
-      "title": "Maze Island",
-      "subtitle": "Tropical Retreat 2026",
+      "title": "Tropical Retreat 2026 Maze Island",
+      "subtitle": "",
       "start_ts": 1786615200,
       "end_ts": 1787565600,
       "start_iso": "2026-08-13T10:00:00Z",
@@ -1099,6 +2256,107 @@
       "guide": "/p/maze-island-guide.html",
       "schedule_source": "game_config",
       "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 3409,
+          "name": "Bandaged Dragon",
+          "rarity": "L",
+          "img_name": "3409_dragon_bandaged",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3409_dragon_bandaged_3.png"
+        },
+        {
+          "id": 3440,
+          "name": "Spring Sniper Dragon",
+          "rarity": "L",
+          "img_name": "3440_dragon_springsniper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3440_dragon_springsniper_3.png"
+        },
+        {
+          "id": 3410,
+          "name": "Plagued Pal Dragon",
+          "rarity": "L",
+          "img_name": "3410_dragon_plaguedpal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3410_dragon_plaguedpal_3.png"
+        },
+        {
+          "id": 3060,
+          "name": "Abracadabra Dragon",
+          "rarity": "L",
+          "img_name": "3060_dragon_abracadabra",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3060_dragon_abracadabra_3.png"
+        },
+        {
+          "id": 3048,
+          "name": "Estival Dragon",
+          "rarity": "L",
+          "img_name": "3048_dragon_estival",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3048_dragon_estival_3.png"
+        },
+        {
+          "id": 2582,
+          "name": "Mountain Ogre Dragon",
+          "rarity": "E",
+          "img_name": "2582_dragon_mountainogre",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2582_dragon_mountainogre_3.png"
+        },
+        {
+          "id": 2259,
+          "name": "Zombie Nature Dragon",
+          "rarity": "E",
+          "img_name": "2259_dragon_zombienature",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2259_dragon_zombienature_3.png"
+        },
+        {
+          "id": 2319,
+          "name": "Native Dragon",
+          "rarity": "E",
+          "img_name": "2319_dragon_native",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2319_dragon_native_3.png"
+        },
+        {
+          "id": 2339,
+          "name": "Chichen Itza Dragon",
+          "rarity": "E",
+          "img_name": "2339_dragon_chichenitza",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2339_dragon_chichenitza_3.png"
+        },
+        {
+          "id": 1409,
+          "name": "Dark Angel Dragon",
+          "rarity": "E",
+          "img_name": "1409_dragon_darkangel",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1409_dragon_darkangel_3.png"
+        },
+        {
+          "id": 1183,
+          "name": "Loki Dragon",
+          "rarity": "V",
+          "img_name": "1183_dragon_loki_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1183_dragon_loki_c_3.png"
+        },
+        {
+          "id": 1403,
+          "name": "Sad Dragon",
+          "rarity": "V",
+          "img_name": "1403_dragon_sad",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1403_dragon_sad_3.png"
+        },
+        {
+          "id": 1161,
+          "name": "Luminescent Dragon",
+          "rarity": "R",
+          "img_name": "1161_dragon_luminiscent_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png"
+        },
+        {
+          "id": 1091,
+          "name": "Two-Headed Dragon",
+          "rarity": "R",
+          "img_name": "1091_dragon_twoheaded_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1091_dragon_twoheaded_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 14,
       "building_id": 10650,
       "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
     },
@@ -1106,6 +2364,7 @@
       "key": "heroic_race:315",
       "id": 315,
       "type": "heroic_race",
+      "variant": "mythical_race",
       "type_label": "Mythical Race",
       "title": "Gel Barrier Mythical Race",
       "subtitle": "",
@@ -1116,19 +2375,49 @@
       "guide": "/p/heroic-race-guide.html?id=315",
       "schedule_source": "game_config",
       "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 2143,
+          "name": "Gel Barrier Dragon",
+          "rarity": "M",
+          "img_name": "2143_dragon_gelbarrier",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2143_dragon_gelbarrier_3.png"
+        },
+        {
+          "id": 3298,
+          "name": "Glass Angel Dragon",
+          "rarity": "L",
+          "img_name": "3298_dragon_glassangel",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3298_dragon_glassangel_3.png"
+        },
+        {
+          "id": 2691,
+          "name": "Genemancer Dragon",
+          "rarity": "L",
+          "img_name": "2691_dragon_genemancer",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2691_dragon_genemancer_3.png"
+        },
+        {
+          "id": 2111,
+          "name": "Gelatin Dragon",
+          "rarity": "E",
+          "img_name": "2111_dragon_gelatin",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2111_dragon_gelatin_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
       "building_id": 11127,
       "featured_dragon_id": 2143,
-      "featured_dragon_name": "Gel Barrier Dragon",
-      "featured_dragon_img_name": "2143_dragon_gelbarrier",
       "asset_zip": "/mobile/ui/heroicraces_islands/mr_108_mythical_gelbarrier.zip"
     },
     {
       "key": "fog_island:316",
       "id": 316,
       "type": "fog_island",
+      "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Fog Island",
-      "subtitle": "Catacombs",
+      "title": "Catacombs Fog Island",
+      "subtitle": "",
       "start_ts": 1787565600,
       "end_ts": 1787911200,
       "start_iso": "2026-08-24T10:00:00Z",
@@ -1136,6 +2425,44 @@
       "guide": "/p/fog-island-guide.html?id=316",
       "schedule_source": "game_config",
       "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2921,
+          "name": "Beakaneer Dragon",
+          "rarity": "L",
+          "img_name": "2921_dragon_beakaneer",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2921_dragon_beakaneer_3.png"
+        },
+        {
+          "id": 2409,
+          "name": "Wreath Dragon",
+          "rarity": "E",
+          "img_name": "2409_dragon_wreath",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2409_dragon_wreath_3.png"
+        },
+        {
+          "id": 2673,
+          "name": "Elder Mountain Dragon",
+          "rarity": "V",
+          "img_name": "2673_dragon_eldermountain",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png"
+        },
+        {
+          "id": 1082,
+          "name": "Paladin Dragon",
+          "rarity": "R",
+          "img_name": "1082_dragon_paladin_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1082_dragon_paladin_b_3.png"
+        },
+        {
+          "id": 1084,
+          "name": "Seahorse Dragon",
+          "rarity": "C",
+          "img_name": "1084_dragon_seahorse_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1084_dragon_seahorse_c_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 930,
       "asset_zip": "/mobile/ui/fog_islands/fi_catacombs_d.zip"
     },
@@ -1143,27 +2470,101 @@
       "key": "maze_island:320",
       "id": 320,
       "type": "maze_island",
+      "variant": "maze_island",
       "type_label": "Maze Island",
-      "title": "Maze Island",
-      "subtitle": "Summer Trip Collection",
-      "start_ts": 1787738400,
+      "title": "Summer Trip Collection Maze Island",
+      "subtitle": "",
+      "start_ts": 1787911200,
       "end_ts": 1788429600,
-      "start_iso": "2026-08-26T10:00:00Z",
+      "start_iso": "2026-08-28T10:00:00Z",
       "end_iso": "2026-09-03T10:00:00Z",
       "guide": "/p/maze-island-guide.html",
-      "schedule_source": "override",
+      "schedule_source": "game_config",
       "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 1855,
+          "name": "Demon Viper Dragon",
+          "rarity": "L",
+          "img_name": "1855_dragon_demonviper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1855_dragon_demonviper_3.png"
+        },
+        {
+          "id": 2653,
+          "name": "Peacock Dragon",
+          "rarity": "L",
+          "img_name": "2653_dragon_peacock",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2653_dragon_peacock_3.png"
+        },
+        {
+          "id": 1992,
+          "name": "Delicate Dragon",
+          "rarity": "L",
+          "img_name": "1992_dragon_delicate",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1992_dragon_delicate_3.png"
+        },
+        {
+          "id": 2508,
+          "name": "Aerosoar Dragon",
+          "rarity": "E",
+          "img_name": "2508_dragon_aerosaur_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2508_dragon_aerosaur_b_3.png"
+        },
+        {
+          "id": 2303,
+          "name": "Wind Lord Dragon",
+          "rarity": "E",
+          "img_name": "2303_dragon_windlord",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2303_dragon_windlord_3.png"
+        },
+        {
+          "id": 2223,
+          "name": "Millium Dragon",
+          "rarity": "E",
+          "img_name": "2223_dragon_sahasra",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png"
+        },
+        {
+          "id": 2140,
+          "name": "Grove Dragon",
+          "rarity": "V",
+          "img_name": "2140_dragon_grove",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2140_dragon_grove_3.png"
+        },
+        {
+          "id": 1679,
+          "name": "Dark Cave Dragon",
+          "rarity": "V",
+          "img_name": "1679_dragon_darkcave",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1679_dragon_darkcave_3.png"
+        },
+        {
+          "id": 1658,
+          "name": "Squid Dragon",
+          "rarity": "R",
+          "img_name": "1658_dragon_squid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1658_dragon_squid_3.png"
+        },
+        {
+          "id": 1480,
+          "name": "DéjàVu Dragon",
+          "rarity": "R",
+          "img_name": "1480_dragon_dejavu",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1480_dragon_dejavu_3.png"
+        }
+      ],
+      "featured_dragon_count": 10,
       "building_id": 11087,
-      "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip",
-      "schedule_note": "game_config has availability 0/0 for Maze Island 320. Start was supplied from the current event schedule screenshot; end matches the timed child paths in game_config. Remove this override if you want strict config-only output."
+      "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
     },
     {
       "key": "grid_island:318",
       "id": 318,
       "type": "grid_island",
+      "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Grid Island",
-      "subtitle": "Norse Gods",
+      "title": "Norse Gods Grid Island",
+      "subtitle": "",
       "start_ts": 1788429600,
       "end_ts": 1789034400,
       "start_iso": "2026-09-03T10:00:00Z",
@@ -1171,6 +2572,44 @@
       "guide": "/p/grid-island-guide.html?id=318",
       "schedule_source": "game_config",
       "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 2974,
+          "name": "Walrus Dragon",
+          "rarity": "L",
+          "img_name": "2974_dragon_walrus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2974_dragon_walrus_3.png"
+        },
+        {
+          "id": 2593,
+          "name": "Jörmungandr Dragon",
+          "rarity": "L",
+          "img_name": "2593_dragon_jormungandr_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2593_dragon_jormungandr_b_3.png"
+        },
+        {
+          "id": 1979,
+          "name": "Neumon Dragon",
+          "rarity": "E",
+          "img_name": "1979_dragon_neumon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1979_dragon_neumon_3.png"
+        },
+        {
+          "id": 2507,
+          "name": "Tri-Ice Dragon",
+          "rarity": "V",
+          "img_name": "2507_dragon_triice_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2507_dragon_triice_b_3.png"
+        },
+        {
+          "id": 1104,
+          "name": "Ice&Fire Dragon",
+          "rarity": "R",
+          "img_name": "1104_dragon_fireice_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1104_dragon_fireice_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
       "building_id": 11593,
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     }
