@@ -47,7 +47,7 @@ SECTION_SPECS = [
 
 def guide_url(event_type: str, event_id: int) -> str:
     base = GUIDES[event_type]
-    if event_type in {"fog_island", "grid_island", "tower_island", "heroic_race"} and event_id > 0:
+    if event_type in {"fog_island", "grid_island", "maze_island", "tower_island", "heroic_race"} and event_id > 0:
         return f"{base}?id={event_id}"
     return base
 
