@@ -168,6 +168,21 @@ def chest_candidates(chest_id: int, img_name: str) -> List[str]:
     ])
 
 
+def habitat_candidates(img_name: str) -> List[str]:
+    raw = str(img_name or "").strip()
+    if not raw:
+        return []
+    clean = re.sub(r"^ui_", "", raw, flags=re.I)
+    clean = re.sub(r"@2x(?:\\.png)?$", "", clean, flags=re.I)
+    clean = re.sub(r"\\.png$", "", clean, flags=re.I)
+    return unique([
+        f"{STATIC_BASE}mobile/ui/habitats/ui_{clean}@2x.png",
+        f"{STATIC_BASE}mobile/ui/habitats/ui_{clean}.png",
+        f"{STATIC_BASE}mobile/ui/habitats/{clean}@2x.png",
+        f"{STATIC_BASE}mobile/ui/habitats/{clean}.png",
+    ])
+
+
 def item_candidates(img_name: str) -> List[str]:
     raw = str(img_name or "").strip()
     if not raw:
@@ -223,9 +238,18 @@ def make_item(item_id: int, items: Dict[int, Dict[str, Any]], loc: Dict[str, str
     name = loc_text(loc, name_key, str(item.get("name") or f"Item {item_id}"))
     desc = loc_text(loc, desc_key, "")
     img = str(item.get("img_name_mobile") or item.get("img_name") or "")
-    cands = item_candidates(img)
+    group_type = str(item.get("group_type") or "").upper()
+
+    # Habitat rewards use a dedicated CDN directory instead of the normal
+    # decorations/buildings directories. Keep the exact building ID intact.
+    is_habitat = group_type == "HABITAT" or item_id == 10119
+    if item_id == 10119 and not img:
+        img = "10119_habitat_rainbow"
+
+    cands = habitat_candidates(img) if is_habitat else item_candidates(img)
     return {
-        "id": item_id, "item_id": item_id, "kind": "item", "asset_kind": "item",
+        "id": item_id, "item_id": item_id,
+        "kind": "item", "asset_kind": "habitat" if is_habitat else "item",
         "name": name, "description": desc, "amount": amount,
         "img_name_mobile": img, "image_url": cands[0] if cands else "",
         "localization_name_key": name_key, "localization_description_key": desc_key,
