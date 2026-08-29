@@ -13,7 +13,11 @@ EXCLUDED={"Wood Chest","Bamboo Chest","Common Orbs Chest","Rare Orbs Chest","Ver
 
 # Chest-backed rewards that function as event items in Maze rewards summary.
 # Keep them clickable as Generic Chests, but group them under Event Items.
-EVENT_ITEM_CHEST_IDS={10238,14935,16552,13825,16553,16554,16556,16558,16559,16560,14937,17058,2659,10239}
+EVENT_ITEM_CHEST_IDS={10238,14935,14936,16551,16552,16553,16554,16556,16557,16558,16559,16560,14937,13825,18127,17058,2659,10239}
+
+# Ordinary/non-special chests that can appear on Maze paths but should not be
+# promoted into the "Other Special Chests" summary.
+ORDINARY_CHEST_IDS={10714,10710,4045,5013,7002,8147,10711}
 
 def load(p): return json.load(open(p,encoding='utf-8'))
 def dump(p,d): json.dump(d,open(p,'w',encoding='utf-8'),ensure_ascii=False,separators=(',',':'))
@@ -78,7 +82,7 @@ def main():
      for raw in vals:
       cid=ii(raw); ch=chests.get(cid,{})
       name=lx(loc,ch.get('chest_name_key'),lx(loc,ch.get('type_name_key'),f'Chest {cid}'))
-      if name in EXCLUDED: continue
+      if name in EXCLUDED or cid in ORDINARY_CHEST_IDS: continue
       img=str(ch.get('img_name') or '')
       target=event_items if cid in EVENT_ITEM_CHEST_IDS else special_chests
       rec=target.setdefault(cid,{'id':cid,'chest_id':cid,'source_chest_id':cid,'kind':'chest','name':name,'img_name':img,'source_chest_img_name':img,'image_candidates':chest_cands(cid,img),'tile_count':0});rec['tile_count']+=1

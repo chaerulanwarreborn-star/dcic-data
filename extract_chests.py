@@ -120,7 +120,7 @@ REWARD_TYPE_ICONS = {
     "joker_orbs":ICON+"tree-of-life/ic-joker-all.png","trade_essence":ICON+"tree-of-life/ic-trade-orb-mid-generic.png",
     "building":ICON+"text-icons/gr-category-buildings.png","habitat":ICON+"text-icons/gr-category-habitats.png","decoration":ICON+"text-icons/gr-category-decos.png",
     "elemental_token":ICON+"tokens/gr-category-tokens.png","special_token":ICON+"tokens/ic-token-neutral.png","perk":ICON+"perks/ic-combat-perk.png","rank_up_coin":ICON+"rank-up-coins/ic-rank-up-coin-common.png",
-    "event_coin":ICON+"currency-icon/coin-mix.png","hollow_ticket":ICON+"currency-icon/ic_ic_hollow_crown_massive.png","puzzle_move":ICON+"currency-icon/coin-puzzle.png","flight_stamp":ICON+"currency-icon/coin-runner.png","keys":ICON+"text-icons/ic-key-massive.png","dragon_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","power_tags":ICON+"battleground-keys/battleground_8_key_1.png",
+    "event_coin":ICON+"currency-icon/coin-mix.png","hollow_ticket":ICON+"currency-icon/ic_ic_hollow_crown_massive.png","puzzle_move":ICON+"currency-icon/coin-puzzle.png","flight_stamp":ICON+"currency-icon/coin-runner.png","keys":ICON+"text-icons/ic-key-massive.png","old_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","dragon_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","power_tags":ICON+"battleground-keys/battleground_8_key_1.png",
     "pet_food":ICON+"currency-icon/ic-pet-food-massive_c.png","progression_pass_tier":ICON+"currency-icon/ic-dmp-point-massive.png","treasure_key":ICON+"currency-icon/gachakey_gold_silver_mds.png",
     "sticker_pack":ICON+"stickers/ic_stickers_pack_ace_generic_massive.png","missing_sticker":ICON+"stickers/sticker-not-owned-rarity-1.png","sticker_diamond":ICON+"stickers/ic-album-dust-massive_c.png",
     "chest":ICON+"text-icons/gold-chest.png","other":"",
@@ -294,7 +294,7 @@ class Context:
             for x in value:
                 if not isinstance(x,dict): continue
                 d=self.dragon(i(x.get("id"))); token=RARITY_FILE.get(d["rarity"],d["rarity"].lower())
-                out.append({"type":"dragon_orbs","raw_type":key,"name":d["name"]+" Orbs","amount":i(x.get("amount")),"dragon_id":d["id"],"rarity":d["rarity"],"image":d["adult_image"],"mini_icon":ICON+f"tree-of-life/ic-seed-{token}-mid-shadow.png" if token else "","old_mini_icon":ICON+"tree-of-life/ic-seed-h-old.png" if token=="h" else "","open":{"kind":"dragon","id":d["id"]}})
+                orb_base=re.sub(r"\s+Dragon$","",d["name"],flags=re.I); out.append({"type":"dragon_orbs","raw_type":key,"name":orb_base+" Orbs","amount":i(x.get("amount")),"dragon_id":d["id"],"rarity":d["rarity"],"image":d["adult_image"],"mini_icon":ICON+f"tree-of-life/ic-seed-{token}-mid-shadow.png" if token else "","old_mini_icon":ICON+"tree-of-life/ic-seed-h-old.png" if token=="h" else "","open":{"kind":"dragon","id":d["id"]}})
             return out
         if key=="rarity_seeds" and isinstance(value,list):
             for x in value:
@@ -338,7 +338,7 @@ class Context:
                 image,image_candidates,fallback_ref=battleground_key_icon(bg_id,key_id)
                 is_power_tag=(bg_id==8)
                 row={
-                    "type":"power_tags" if is_power_tag else "dragon_rescue_keys",
+                    "type":"old_rescue_keys",
                     "raw_type":key,
                     "name":"Power Tags" if is_power_tag else loc(self.loc,"tid_battleground_keys","Dragon Rescue Keys"),
                     "amount":i(x.get("amount")) or 1,
@@ -467,6 +467,45 @@ def all_components(detail:Dict[str,Any])->Iterable[Dict[str,Any]]:
             for e in g.get("entries",[]): yield from e.get("components",[])
         for g in detail.get("possible",[]):
             for e in g.get("entries",[]): yield from e.get("components",[])
+
+
+def reward_groups(detail:Dict[str,Any])->Iterable[Dict[str,Any]]:
+    """Yield every guaranteed/possible reward group from a chest detail."""
+    if detail.get("levels"):
+        for lv in detail.get("levels",[]):
+            yield from lv.get("guaranteed",[])
+            yield from lv.get("possible",[])
+    else:
+        yield from detail.get("guaranteed",[])
+        yield from detail.get("possible",[])
+
+def reward_entries(detail:Dict[str,Any])->Iterable[Dict[str,Any]]:
+    for group in reward_groups(detail):
+        for entry in group.get("entries",[]):
+            if isinstance(entry,dict):
+                yield entry
+
+def special_rules(detail:Dict[str,Any])->List[str]:
+    rules=[]
+    # Legacy player-level scaling uses fixed-point multipliers such as
+    # 1100000 (=1.1x), 1400000 (=1.4x), etc. Only referenced chest
+    # rewards with that fixed-point family count as Level-Scaled.
+    if any(i(e.get("tier_multi"))>=1000000 for e in reward_entries(detail)):
+        rules.append("level_scaled")
+    if any(i(g.get("draw_max"))>1 for g in reward_groups(detail)):
+        rules.append("multiple_draws")
+    return rules
+
+def add_special_rule_metadata(detail:Dict[str,Any])->None:
+    rules=special_rules(detail)
+    detail["special_rules"]=rules
+    if "level_scaled" in rules:
+        tiers=[i(x) for x in (detail.get("level_tiers") or []) if i(x)>0]
+        detail["level_scaling"]={
+            "level_tiers":tiers,
+            "formula":"base_amount * (tier_multi / 1000000) ^ tier_index",
+            "rounding":"nearest_integer"
+        }
 
 
 def load_existing_archive() -> Tuple[Dict[str,Dict[str,Any]], Dict[str,Dict[str,Any]], str]:
@@ -603,6 +642,11 @@ def main()->None:
             details.append(old_detail)
             archived_added+=1
 
+    # Recompute derived metadata for current and archived records so the
+    # browse index and popup use one consistent rule model.
+    for d in details:
+        add_special_rule_metadata(d)
+
     # Deterministic detail buckets: namespace + (chest_id % fixed bucket count).
     # Do not include a per-run generated timestamp inside each bucket. Therefore
     # an extractor run that adds one chest only changes its target bucket (plus
@@ -642,7 +686,7 @@ def main()->None:
         old=previous_summaries.get(key,{})
         first_seen=str(old.get("first_seen") or previous_generated or now)
         last_seen=now if is_current else str(old.get("last_seen") or previous_generated or first_seen)
-        summaries.append({"key":d["key"],"type":d["type"],"id":d["id"],"config_order":d.get("config_order",old.get("config_order",0)),"name":d["name"],"image_candidates":d.get("image_candidates") or [MISSING_CHEST],"reward_types":types,"reward_names":names,"reward_dragon_ids":opens,"availability":availability,"detail_file":shard_map.get(d["key"],""),"activity":d.get("activity",""),"activity_name":d.get("activity_name",""),"present_in_latest_config":is_current,"first_seen":first_seen,"last_seen":last_seen})
+        summaries.append({"key":d["key"],"type":d["type"],"id":d["id"],"config_order":d.get("config_order",old.get("config_order",0)),"name":d["name"],"image_candidates":d.get("image_candidates") or [MISSING_CHEST],"reward_types":types,"reward_names":names,"reward_dragon_ids":opens,"special_rules":d.get("special_rules") or [],"availability":availability,"detail_file":shard_map.get(d["key"],""),"activity":d.get("activity",""),"activity_name":d.get("activity_name",""),"present_in_latest_config":is_current,"first_seen":first_seen,"last_seen":last_seen})
     summaries.sort(key=lambda x:(str(x.get("type") or ""),i(x.get("config_order")),i(x.get("id"))))
     collision_rows={str(cid):uniq(types) for cid,types in sorted(merged_collisions.items()) if len(uniq(types))>1}
     summary_payload={"schema_version":2,"generated_at":now,"meta":{"total":len(summaries),"current_total":len(current_keys),"archived_total":len(summaries)-len(current_keys),"counts":dict(type_counts),"current_counts":dict(current_type_counts),"page_size":200,"detail_bucket_counts":DETAIL_BUCKET_COUNTS,"id_collisions":collision_rows},"assets":{"missing_chest":MISSING_CHEST,"reward_type_icons":REWARD_TYPE_ICONS},"reward_filter_groups":[
@@ -651,7 +695,8 @@ def main()->None:
         {"id":"tree_of_life","label":"Tree of Life","types":["joker_orbs","trade_essence"]},
         {"id":"items","label":"Items","types":["building","habitat","decoration"]},
         {"id":"progression","label":"Progression","types":["elemental_token","special_token","perk","rank_up_coin"]},
-        {"id":"event_resources","label":"Event Resources","types":["event_coin","hollow_ticket","puzzle_move","flight_stamp","keys","dragon_rescue_keys","power_tags","pet_food","progression_pass_tier","treasure_key"]},
+        {"id":"event_resources","label":"Event Resources","types":["event_coin","puzzle_move","flight_stamp","keys"]},
+        {"id":"others","label":"Others","types":["old_rescue_keys","pet_food","progression_pass_tier","treasure_key","hollow_ticket"]},
         {"id":"stickers","label":"Stickers","types":["sticker_pack","missing_sticker","sticker_diamond"]},
     ],"chests":summaries}
     dump(SUMMARY_PATH,summary_payload)
