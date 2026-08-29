@@ -534,7 +534,9 @@ def add_special_rule_metadata(detail:Dict[str,Any], default_level_tiers:Optional
         detail["level_scaling"]={
             "level_tiers":tiers,
             "player_level_cap":i(player_level_cap),
-            "formula":"base_amount * tier_multiplier ^ tier_index",
+            "reference_tier_index":2,
+            "reference_level_range":[12,17],
+            "formula":"round(round(config_amount / tier_multiplier ^ reference_tier_index) * tier_multiplier ^ tier_index)",
             "rounding":"nearest_integer",
             "entry_specific_multiplier":True
         }
