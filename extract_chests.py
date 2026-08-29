@@ -137,6 +137,25 @@ def i(v: Any) -> int:
     try: return int(v)
     except (TypeError, ValueError): return 0
 
+def fnum(v: Any, default: float=0.0) -> float:
+    try: return float(v)
+    except (TypeError, ValueError): return default
+
+def normalize_tier_multiplier(v: Any) -> float:
+    """Normalize SP's two tier-multiplier encodings to a normal float.
+
+    Older content commonly stores fixed-point values such as 1400000 (=1.4x),
+    while newer gatcha rewards may store 1.4 directly. A zero override behaves
+    like no scaling and is normalized to 1.0.
+    """
+    n=fnum(v,1.0)
+    if n<=0: return 1.0
+    if abs(n)>=100000: n/=1000000.0
+    return n
+
+def is_scaled_multiplier(v: Any) -> bool:
+    return abs(normalize_tier_multiplier(v)-1.0)>1e-9
+
 def uniq(values: Iterable[Any]) -> List[Any]:
     out=[]; seen=set()
     for v in values:
@@ -441,7 +460,12 @@ class Context:
             static_entries=[]
             for row in self.gstatic.get(gid,[]):
                 comps=self.parse_resource(row.get("resource"));
-                if comps: static_entries.append({"source_id":i(row.get("id")),"components":comps})
+                if comps:
+                    entry={"source_id":i(row.get("id")),"components":comps}
+                    raw_tm=row.get("overwritten_tier_multi")
+                    if raw_tm is not None and is_scaled_multiplier(raw_tm):
+                        entry["tier_multi"]=raw_tm; entry["tier_multiplier"]=normalize_tier_multiplier(raw_tm)
+                    static_entries.append(entry)
             if static_entries:
                 guaranteed.append({"gatcha_id":gid,"entries":static_entries})
             random_rows=self.grandom.get(gid,[])
@@ -450,7 +474,12 @@ class Context:
                 entries=[]
                 for row in random_rows:
                     weight=max(0,i(row.get("weight"))); comps=self.parse_resource(row.get("resource"))
-                    if comps: entries.append({"source_id":i(row.get("id")),"weight":weight,"odds":(weight/total*100 if total else None),"components":comps})
+                    if comps:
+                        entry={"source_id":i(row.get("id")),"weight":weight,"odds":(weight/total*100 if total else None),"components":comps}
+                        raw_tm=row.get("overwritten_tier_multi")
+                        if raw_tm is not None and is_scaled_multiplier(raw_tm):
+                            entry["tier_multi"]=raw_tm; entry["tier_multiplier"]=normalize_tier_multiplier(raw_tm)
+                        entries.append(entry)
                 possible.append({"index":possible_index,"gatcha_id":gid,"draw_min":i(spec.get("min_random")),"draw_max":i(spec.get("max_random")),"total_weight":total,"entries":entries})
         return guaranteed,possible
 
@@ -487,25 +516,30 @@ def reward_entries(detail:Dict[str,Any])->Iterable[Dict[str,Any]]:
 
 def special_rules(detail:Dict[str,Any])->List[str]:
     rules=[]
-    # Legacy player-level scaling uses fixed-point multipliers such as
-    # 1100000 (=1.1x), 1400000 (=1.4x), etc. Only referenced chest
-    # rewards with that fixed-point family count as Level-Scaled.
-    if any(i(e.get("tier_multi"))>=1000000 for e in reward_entries(detail)):
+    # Player-level scaling exists in two reward generations:
+    # - legacy chest rewards: tier_multi (normally fixed-point, e.g. 1400000)
+    # - gatcha rewards: overwritten_tier_multi (fixed-point OR direct float)
+    # Both are normalized into entry.tier_multiplier by the extractor.
+    if any(is_scaled_multiplier(e.get("tier_multiplier",e.get("tier_multi",1))) for e in reward_entries(detail)):
         rules.append("level_scaled")
     if any(i(g.get("draw_max"))>1 for g in reward_groups(detail)):
         rules.append("multiple_draws")
     return rules
 
-def add_special_rule_metadata(detail:Dict[str,Any])->None:
+def add_special_rule_metadata(detail:Dict[str,Any], default_level_tiers:Optional[List[int]]=None, player_level_cap:int=0)->None:
     rules=special_rules(detail)
     detail["special_rules"]=rules
     if "level_scaled" in rules:
-        tiers=[i(x) for x in (detail.get("level_tiers") or []) if i(x)>0]
+        tiers=[i(x) for x in (detail.get("level_tiers") or default_level_tiers or []) if i(x)>0]
         detail["level_scaling"]={
             "level_tiers":tiers,
-            "formula":"base_amount * (tier_multi / 1000000) ^ tier_index",
-            "rounding":"nearest_integer"
+            "player_level_cap":i(player_level_cap),
+            "formula":"base_amount * tier_multiplier ^ tier_index",
+            "rounding":"nearest_integer",
+            "entry_specific_multiplier":True
         }
+    else:
+        detail.pop("level_scaling",None)
 
 
 def load_existing_archive() -> Tuple[Dict[str,Dict[str,Any]], Dict[str,Dict[str,Any]], str]:
@@ -549,6 +583,16 @@ def main()->None:
     previous_summaries,previous_details,previous_generated=load_existing_archive()
     cfg=load(CONFIG_PATH); arena=load(ARENA_PATH); locmap=normalize_loc(load(LOC_PATH)); dragons=load(DRAGONS_PATH); skins=load(SKINS_PATH)
     cx=Context(cfg,arena,locmap,dragons,skins)
+    # Canonical player-level tier boundaries are also used by Alliance rewards.
+    # Current config exposes them through the Battle Pass LEVEL_TIERS row.
+    default_player_level_tiers=[]
+    for row in (cfg.get("battle_pass") or {}).get("rewards_tiers",[]):
+        if str(row.get("name") or "").upper()=="LEVEL_TIERS" and isinstance(row.get("value"),list):
+            default_player_level_tiers=[i(x) for x in row.get("value") if i(x)>0]
+            break
+    if not default_player_level_tiers:
+        default_player_level_tiers=[5,11,17,21,28,35,41,49,74,99,150]
+    player_level_cap=max([i(x.get("level")) for x in (cfg.get("levels") or []) if isinstance(x,dict)]+[200])
     details=[]; summaries=[]
     collisions=defaultdict(list)
     # References from Arena to Warrior chest availability/context.
@@ -587,7 +631,11 @@ def main()->None:
             total=sum(max(0,i(x.get("weight"))) for x in reward_rows)
             for row in reward_rows:
                 comps=cx.parse_legacy_reward((row or {}).get("reward")); weight=max(0,i((row or {}).get("weight")))
-                if comps: rows.append({"source_id":i(row.get("id")),"weight":weight,"odds":weight/total*100 if total else None,"tier_multi":row.get("tier_multi"),"components":comps})
+                if comps:
+                    raw_tm=row.get("tier_multi",1)
+                    entry={"source_id":i(row.get("id")),"weight":weight,"odds":weight/total*100 if total else None,"tier_multi":raw_tm,"components":comps}
+                    if is_scaled_multiplier(raw_tm): entry["tier_multiplier"]=normalize_tier_multiplier(raw_tm)
+                    rows.append(entry)
             if rows: poss=[{"index":1,"gatcha_id":None,"draw_min":1,"draw_max":i(ch.get("pool_size")) or 1,"total_weight":total,"entries":rows}]
         images=chest_candidates(cid,str(ch.get("img_name") or ""))
         detail={"key":key,"type":"generic","id":cid,"config_order":order,"name":name,"description":desc,"source_mode":mode,"image_candidates":images,"guaranteed":guar,"possible":poss,"level_tiers":ch.get("level_tiers") or [],"pool_size":i(ch.get("pool_size")),"raw":{"type":str(ch.get("type") or ""),"chest_name_key":str(ch.get("chest_name_key") or ""),"description_key":str(ch.get("description_key") or "")}}
@@ -645,7 +693,7 @@ def main()->None:
     # Recompute derived metadata for current and archived records so the
     # browse index and popup use one consistent rule model.
     for d in details:
-        add_special_rule_metadata(d)
+        add_special_rule_metadata(d,default_player_level_tiers,player_level_cap)
 
     # Deterministic detail buckets: namespace + (chest_id % fixed bucket count).
     # Do not include a per-run generated timestamp inside each bucket. Therefore
