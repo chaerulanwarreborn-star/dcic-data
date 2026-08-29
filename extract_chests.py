@@ -530,9 +530,18 @@ def add_special_rule_metadata(detail:Dict[str,Any], default_level_tiers:Optional
     rules=special_rules(detail)
     detail["special_rules"]=rules
     if "level_scaled" in rules:
-        tiers=[i(x) for x in (detail.get("level_tiers") or default_level_tiers or []) if i(x)>0]
+        # The global LEVEL_TIERS table is the current canonical player-level scale.
+        # Some legacy chest definitions still carry an older local list ending at 99;
+        # using that stale list incorrectly merges Lv.100-150 and Lv.151-200.
+        source_tiers=[i(x) for x in (detail.get("level_tiers") or []) if i(x)>0]
+        canonical_tiers=[i(x) for x in (default_level_tiers or source_tiers) if i(x)>0]
+        tiers=[]
+        for x in canonical_tiers:
+            if x not in tiers: tiers.append(x)
+        tiers.sort()
         detail["level_scaling"]={
             "level_tiers":tiers,
+            "source_level_tiers":source_tiers,
             "player_level_cap":i(player_level_cap),
             "reference_tier_index":2,
             "reference_level_range":[12,17],
