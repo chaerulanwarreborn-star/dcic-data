@@ -551,8 +551,45 @@ def source_freshness(hr: Dict[str, Any]) -> int:
     return max((as_int(x.get("end_ts")) for x in hr.get("islands", []) if isinstance(x, dict)), default=0)
 
 
+def source_snapshot_timestamp(source_name: str, hr: Dict[str, Any]) -> int:
+    """Best-known timestamp for a legacy snapshot.
+
+    Prefer an explicit date embedded in filenames such as
+    heroic_races_2023-10-06.json. Older undated archive files fall back to
+    the latest event end timestamp contained in that snapshot.
+    """
+    name = str(source_name or "")
+    match = re.search(r"(?<!\d)(20\d{2})[-_.](\d{2})[-_.](\d{2})(?!\d)", name)
+    if match:
+        try:
+            dt = datetime(
+                int(match.group(1)), int(match.group(2)), int(match.group(3)),
+                tzinfo=timezone.utc,
+            )
+            return int(dt.timestamp())
+        except ValueError:
+            pass
+
+    # Also accept archive names that retained the original DD.MM.YYYY date.
+    match = re.search(r"(?<!\d)(\d{2})[._-](\d{2})[._-](20\d{2})(?!\d)", name)
+    if match:
+        try:
+            dt = datetime(
+                int(match.group(3)), int(match.group(2)), int(match.group(1)),
+                tzinfo=timezone.utc,
+            )
+            return int(dt.timestamp())
+        except ValueError:
+            pass
+
+    return source_freshness(hr)
+
+
 def load_archive_overrides() -> Dict[str, Any]:
-    default = {"duplicates": {}, "aliases": {}, "exclude": [], "notes": {}}
+    default = {
+        "duplicates": {}, "aliases": {}, "exclude": [], "notes": {},
+        "source_preferences": {},
+    }
     if not OVERRIDES_PATH.exists():
         return default
 
@@ -582,6 +619,7 @@ def normalize_source(
     source_name: str,
     historical: bool,
     source_order: int,
+    source_timestamp: int,
     items: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
     skins: Dict[int, Dict[str, Any]],
@@ -633,10 +671,18 @@ def normalize_source(
 
         final_prize_status = "available" if final_prizes else "none"
         unverified_final_prizes: List[Dict[str, Any]] = []
-        if historical and featured_id and final_prizes and as_int(island.get("dragon_is_new")):
+        if historical and featured_id and final_prizes:
             first_group = next((g for g in final_prizes if 1 in (g.get("positions") or [])), None)
-            first_dragon_ids = {as_int(r.get("dragon_id")) for r in (first_group or {}).get("rewards", []) if r.get("kind") == "dragon"}
-            if first_group and featured_id not in first_dragon_ids:
+            first_dragon_ids = {
+                as_int(r.get("dragon_id"))
+                for r in (first_group or {}).get("rewards", [])
+                if r.get("kind") == "dragon" and as_int(r.get("dragon_id")) > 0
+            }
+            # A Race/Marathon 1st-place group that contains dragons should include
+            # its featured dragon. If it does not, the shared reward-table row was
+            # almost certainly reused/overwritten by a later event. This validation
+            # intentionally also covers rerun dragons where dragon_is_new == 0.
+            if first_group and first_dragon_ids and featured_id not in first_dragon_ids:
                 # Some very old snapshots retain old islands but their shared reward-table
                 # rows were overwritten by a later Race. Never present those stale prizes
                 # as historical fact; preserve them only as unverified source data.
@@ -715,17 +761,97 @@ def normalize_source(
             "source_snapshot": source_name,
             "source_snapshots": [source_name],
             "_source_order": source_order,
+            "_source_timestamp": source_timestamp,
         })
     return out
 
 
-def candidate_score(row: Dict[str, Any]) -> Tuple[int, int, int, int, int]:
+def candidate_quality(row: Dict[str, Any]) -> Tuple[int, int, int, int, int, int]:
+    """Quality score independent of snapshot age/order.
+
+    This is intentionally evaluated before temporal preference. A newer snapshot
+    may repair a stale reward pointer from an older one (for example a featured
+    dragon mismatch), while an older equally-complete snapshot is safer when both
+    candidates are valid because shared config tables can be reused later.
+    """
+    final_status = str(row.get("final_prize_status") or "")
+    final_rank = {"available": 2, "none": 1, "unverified": 0}.get(final_status, 0)
     return (
-        1 if not row.get("historical") else 0,
-        as_int(row.get("available_lap_reward_count")),
+        final_rank,
         len(row.get("final_prizes", []) or []),
+        as_int(row.get("available_lap_reward_count")),
         as_int(row.get("lap_count")),
-        as_int(row.get("_source_order")),
+        1 if as_int(row.get("featured_dragon_id")) > 0 else 0,
+        1 if as_int(row.get("end_ts")) > as_int(row.get("start_ts")) > 0 else 0,
+    )
+
+
+def candidate_snapshot_distance(row: Dict[str, Any]) -> int:
+    source_ts = as_int(row.get("_source_timestamp"))
+    event_ts = as_int(row.get("end_ts")) or as_int(row.get("start_ts"))
+    if source_ts <= 0 or event_ts <= 0:
+        return 10**18
+    return abs(source_ts - event_ts)
+
+
+def source_matches_preference(source_name: str, preference: Any) -> bool:
+    if not str(preference or "").strip():
+        return False
+    pref = str(preference).strip()
+    source = str(source_name or "").strip()
+    return source == pref or Path(source).stem == Path(pref).stem
+
+
+def choose_candidate(
+    rows: List[Dict[str, Any]],
+    *,
+    preferred_source: Any = "",
+) -> Tuple[Dict[str, Any], str]:
+    if not rows:
+        raise ValueError("choose_candidate() requires at least one row")
+
+    # Manual archive preference is the explicit authority for known collisions.
+    preferred = [
+        row for row in rows
+        if source_matches_preference(str(row.get("source_snapshot") or ""), preferred_source)
+    ]
+    if preferred:
+        chosen = preferred[0]
+        return chosen, "manual_source_preference"
+
+    # Current game_config remains authoritative for IDs it actively contains.
+    current = [row for row in rows if not row.get("historical")]
+    pool = current or rows
+    if current:
+        reason = "current_game_config"
+    else:
+        reason = "best_historical_snapshot"
+
+    # IMPORTANT: quality/completeness first. Only after candidates are equally
+    # useful do we prefer the snapshot closest to the event, then the older
+    # snapshot. This prevents both kinds of archive damage:
+    #   * an old stale/invalid pointer beating a later repaired copy; and
+    #   * a much later snapshot beating an older equally-valid copy after a
+    #     shared table (rewards/encounters/etc.) has been reused.
+    chosen = max(
+        pool,
+        key=lambda row: (
+            candidate_quality(row),
+            -candidate_snapshot_distance(row),
+            -as_int(row.get("_source_timestamp")),
+            -as_int(row.get("_source_order")),
+        ),
+    )
+    return chosen, reason
+
+
+def candidate_identity(row: Dict[str, Any]) -> Tuple[Any, ...]:
+    return (
+        as_int(row.get("featured_dragon_id")),
+        as_int(row.get("start_ts")),
+        as_int(row.get("end_ts")),
+        str(row.get("race_variant") or ""),
+        str(row.get("canvas_assets_url") or ""),
     )
 
 
@@ -739,9 +865,14 @@ def main() -> None:
     skins = {as_int(r.get("id")): r for r in (cfg.get("dragon_skins") or {}).get("dragon_skins", []) if isinstance(r, dict) and as_int(r.get("id")) > 0}
     perks = build_perk_catalog(cfg)
 
-    sources: List[Tuple[int, str, bool, Dict[str, Any]]] = []
+    overrides = load_archive_overrides()
+    source_preferences = overrides.get("source_preferences", {})
+    if not isinstance(source_preferences, dict):
+        source_preferences = {}
+
+    sources: List[Tuple[int, str, bool, int, Dict[str, Any]]] = []
     if LEGACY_DIR.exists():
-        legacy_rows: List[Tuple[int, str, Dict[str, Any]]] = []
+        legacy_rows: List[Tuple[int, int, str, Dict[str, Any]]] = []
         for path in sorted(LEGACY_DIR.glob("*.json")):
             try:
                 data = load_json(path)
@@ -751,22 +882,28 @@ def main() -> None:
             if not isinstance(data, dict) or not isinstance(data.get("islands"), list):
                 print(f"WARNING: skipping {path.name}: not a heroic_races snapshot")
                 continue
-            legacy_rows.append((source_freshness(data), path.name, data))
-        legacy_rows.sort(key=lambda x: (x[0], x[1]))
-        for order, (_, name, data) in enumerate(legacy_rows, start=1):
-            sources.append((order, name, True, data))
+            snapshot_ts = source_snapshot_timestamp(path.name, data)
+            legacy_rows.append((snapshot_ts, source_freshness(data), path.name, data))
+
+        # Stable chronological ordering is useful for provenance/logging only.
+        # Candidate selection itself does NOT use last-file-wins semantics.
+        legacy_rows.sort(key=lambda x: (x[0], x[1], x[2]))
+        for order, (snapshot_ts, _, name, data) in enumerate(legacy_rows, start=1):
+            sources.append((order, name, True, snapshot_ts, data))
 
     current_order = len(sources) + 1000
-    sources.append((current_order, CONFIG_PATH.name, False, current_hr))
+    current_snapshot_ts = int(datetime.now(timezone.utc).timestamp())
+    sources.append((current_order, CONFIG_PATH.name, False, current_snapshot_ts, current_hr))
 
-    merged: Dict[int, Dict[str, Any]] = {}
+    candidates: Dict[int, List[Dict[str, Any]]] = {}
     seen_sources: Dict[int, List[str]] = {}
-    for order, source_name, historical, hr in sources:
+    for order, source_name, historical, snapshot_ts, hr in sources:
         rows = normalize_source(
             hr,
             source_name=source_name,
             historical=historical,
             source_order=order,
+            source_timestamp=snapshot_ts,
             items=items,
             chests=chests,
             skins=skins,
@@ -775,17 +912,27 @@ def main() -> None:
         )
         for row in rows:
             iid = as_int(row.get("id"))
+            candidates.setdefault(iid, []).append(row)
             seen_sources.setdefault(iid, [])
             if source_name not in seen_sources[iid]:
                 seen_sources[iid].append(source_name)
-            prev = merged.get(iid)
-            if prev is None or candidate_score(row) >= candidate_score(prev):
-                merged[iid] = row
 
-    for iid, row in merged.items():
-        row["source_snapshots"] = seen_sources.get(iid, [row.get("source_snapshot")])
+    merged: Dict[int, Dict[str, Any]] = {}
+    for iid, rows in candidates.items():
+        preference = source_preferences.get(str(iid), source_preferences.get(iid, ""))
+        chosen, selection_reason = choose_candidate(rows, preferred_source=preference)
+        chosen["source_snapshots"] = seen_sources.get(iid, [chosen.get("source_snapshot")])
+        chosen["source_selection_reason"] = selection_reason
+        merged[iid] = chosen
 
-    overrides = load_archive_overrides()
+        historical_rows = [row for row in rows if row.get("historical")]
+        identities = {candidate_identity(row) for row in historical_rows}
+        if len(identities) > 1:
+            print(
+                f"WARNING: ID {iid} has conflicting historical identities across "
+                f"{len(historical_rows)} snapshots; chose {chosen.get('source_snapshot')}"
+            )
+
     excluded = {as_int(x) for x in overrides.get("exclude", []) if as_int(x) > 0}
     redirect_map: Dict[int, int] = {}
     for section in ("duplicates", "aliases"):
@@ -819,6 +966,7 @@ def main() -> None:
     islands_out = sorted(merged.values(), key=lambda r: (as_int(r.get("start_ts")), as_int(r.get("id"))))
     for row in islands_out:
         row.pop("_source_order", None)
+        row.pop("_source_timestamp", None)
 
     historical_count = sum(1 for row in islands_out if row.get("historical"))
     payload = {
