@@ -64,7 +64,6 @@ RESOURCE_INFO = {
     "moves":("puzzle_move","Puzzle Moves",ICON+"currency-icon/coin-puzzle.png"),
     "en_runner":("flight_stamp","Flight Stamps",ICON+"currency-icon/coin-runner.png"),
     "gacha_event_tickets":("hollow_ticket","Hollow Tickets",ICON+"currency-icon/ic_ic_hollow_crown_massive.png"),
-    "keys":("rescue_key","Dragon Rescue Keys",ICON+"text-icons/ic-key-massive.png"),
 }
 RANK_FILE = {"common":"common","rare":"rare","very_rare":"veryrare","veryrare":"veryrare","epic":"epic","legendary":"legendary","mythical":"mythical","heroic":"heroic"}
 STICKER_PACK_FILES = {
@@ -72,6 +71,38 @@ STICKER_PACK_FILES = {
     "ace_1":"ic_stickers_pack_ace_1_massive.png","ace_2":"ic_stickers_pack_ace_2_massive.png","ace_3":"ic_stickers_pack_ace_3_massive.png",
     "ace_4":"ic_stickers_pack_ace_4_massive.png","ace_5":"ic_stickers_pack_ace_5_massive.png","ace_generic":"ic_stickers_pack_ace_generic_massive.png",
 }
+BATTLEGROUND_KEY_FALLBACKS = {
+    # BG1-3 artwork is no longer available. Use the closest surviving BG4
+    # equivalent for the known historical colors/shapes. BG3 was reconstructed
+    # from Dragon Rescue footage dated 21 Feb 2019.
+    (1, 3):(4, 1),   # yellow small
+    (1, 4):(4, 3),   # blue/cyan small
+    (2, 1):(4, 1),   # yellow small
+    (2, 2):(4, 3),   # blue/cyan small
+    (2, 3):(4, 2),   # red small
+    (3, 1):(4,10),   # green small
+    (3, 2):(4, 1),   # yellow small
+    (3, 3):(4, 6),   # blue/cyan big
+    (3, 4):(4, 2),   # red small
+    (3, 5):(4, 5),   # red big
+}
+
+def battleground_key_icon(bg_id: int, key_id: int) -> Tuple[str,List[str],Optional[Tuple[int,int]]]:
+    """Return the archive icon for a legacy battleground key.
+
+    BG4+ assets are preserved in dcic-assets. BG1-3 were removed from the
+    original game CDN, so known keys use a visually-equivalent BG4 fallback.
+    """
+    direct=ICON+f"battleground-keys/battleground_{bg_id}_key_{key_id}.png"
+    fallback_ref=BATTLEGROUND_KEY_FALLBACKS.get((bg_id,key_id))
+    if bg_id>=4:
+        return direct,uniq([direct,ICON+"text-icons/ic-key-massive.png"]),None
+    if fallback_ref:
+        fbg,fkey=fallback_ref
+        fallback=ICON+f"battleground-keys/battleground_{fbg}_key_{fkey}.png"
+        return fallback,uniq([fallback,ICON+"text-icons/ic-key-massive.png"]),fallback_ref
+    return ICON+"text-icons/ic-key-massive.png",[ICON+"text-icons/ic-key-massive.png"],None
+
 STICKER_THEME_FILES = {
     "sweet-surprise":"ic_stickers_pack_sweetsurprise_massive.png",
     "groovefest":"ic_stickers_pack_groovefest_massive.png",
@@ -88,8 +119,8 @@ REWARD_TYPE_ICONS = {
     "joker_orbs":ICON+"tree-of-life/ic-joker-all.png","trade_essence":ICON+"tree-of-life/ic-trade-orb-mid-generic.png",
     "building":ICON+"text-icons/gr-category-buildings.png","habitat":ICON+"text-icons/gr-category-habitats.png","decoration":ICON+"text-icons/gr-category-decos.png",
     "elemental_token":ICON+"tokens/gr-category-tokens.png","special_token":ICON+"tokens/ic-token-neutral.png","perk":ICON+"perks/ic-combat-perk.png","rank_up_coin":ICON+"rank-up-coins/ic-rank-up-coin-common.png",
-    "event_coin":ICON+"currency-icon/coin-mix.png","hollow_ticket":ICON+"currency-icon/ic_ic_hollow_crown_massive.png","puzzle_move":ICON+"currency-icon/coin-puzzle.png","flight_stamp":ICON+"currency-icon/coin-runner.png","rescue_key":ICON+"text-icons/ic-key-massive.png",
-    "pet_food":ICON+"pet-food/ui_chest_pet_food_xl.png","progression_pass_tier":ICON+"currency-icon/ic-dmp-point-massive.png","treasure_key":ICON+"currency-icon/gachakey_gold_silver_mds.png",
+    "event_coin":ICON+"currency-icon/coin-mix.png","hollow_ticket":ICON+"currency-icon/ic_ic_hollow_crown_massive.png","puzzle_move":ICON+"currency-icon/coin-puzzle.png","flight_stamp":ICON+"currency-icon/coin-runner.png","keys":ICON+"text-icons/ic-key-massive.png","dragon_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","power_tags":ICON+"battleground-keys/battleground_8_key_1.png",
+    "pet_food":ICON+"currency-icon/ic-pet-food-massive_c.png","progression_pass_tier":ICON+"currency-icon/ic-dmp-point-massive.png","treasure_key":ICON+"currency-icon/gachakey_gold_silver_mds.png",
     "sticker_pack":ICON+"stickers/ic_stickers_pack_ace_generic_massive.png","missing_sticker":ICON+"stickers/sticker-not-owned-rarity-1.png","sticker_diamond":ICON+"stickers/ic-album-dust-massive_c.png",
     "chest":ICON+"text-icons/gold-chest.png","other":"",
 }
@@ -137,7 +168,7 @@ def remote_url(value: Any) -> str:
     return STATIC+s.lstrip("/")
 
 def chest_candidates(chest_id: int, img_name: str) -> List[str]:
-    """Resolve the chest filename conventions used across DC generations."""
+    """Resolve chest artwork across old/modern naming conventions."""
     raw=str(img_name or "").strip().replace("\\","/").rsplit("/",1)[-1]
     if not raw: return [MISSING_CHEST]
     raw=re.sub(r"\.png$","",raw,flags=re.I); raw=re.sub(r"@2x$","",raw,flags=re.I)
@@ -146,6 +177,15 @@ def chest_candidates(chest_id: int, img_name: str) -> List[str]:
         bare=re.sub(r"^ui_basic_","",bare,flags=re.I)
     elif bare.lower().startswith("ui_"):
         bare=re.sub(r"^ui_","",bare,flags=re.I)
+
+    # Known source names whose shipped artwork uses another canonical filename.
+    bare=re.sub(r"^106_halloween_chest_[bc]$","106_halloween_chest",bare,flags=re.I)
+    if bare.lower()=="290_chest_abyss_bag":
+        bare="275_chest_bones_bag"
+    m=re.match(r"^pet_food_chest_(s|m|l|xl)$",bare,flags=re.I)
+    if m:
+        bare="chest_pet_food_"+m.group(1).lower()
+
     candidates=[]
     if raw.lower().startswith(("ui_basic_","ui_")):
         candidates.append(STATIC+f"mobile/ui/chests/{raw}@2x.png")
@@ -170,9 +210,16 @@ def chest_candidates(chest_id: int, img_name: str) -> List[str]:
 def item_candidates(item: Dict[str,Any]) -> List[str]:
     raw=str(item.get("img_name_mobile") or item.get("img_name") or "").strip()
     if not raw: return []
-    return uniq([
-        STATIC+f"mobile/ui/decorations/ui_{raw}@2x.png", STATIC+f"mobile/ui/decorations/{raw}.png",
-        STATIC+f"mobile/ui/buildings/ui_{raw}@2x.png", STATIC+f"mobile/ui/buildings/{raw}.png",
+    group=str(item.get("group_type") or "").upper()
+    habitat=[
+        STATIC+f"mobile/ui/habitats/ui_{raw}@2x.png", STATIC+f"mobile/ui/habitats/{raw}@2x.png",
+        STATIC+f"mobile/ui/habitats/{raw}.png", STATIC+f"mobile/ui/habitats/HD/{raw}.png",
+    ] if group in {"HABITAT","ORB_HABITAT"} else []
+    return uniq(habitat+[
+        STATIC+f"mobile/ui/decorations/ui_{raw}@2x.png", STATIC+f"mobile/ui/decorations/{raw}@2x.png",
+        STATIC+f"mobile/ui/decorations/{raw}.png", STATIC+f"mobile/ui/decorations/HD/{raw}.png",
+        STATIC+f"mobile/ui/buildings/ui_{raw}@2x.png", STATIC+f"mobile/ui/buildings/{raw}@2x.png",
+        STATIC+f"mobile/ui/buildings/{raw}.png", STATIC+f"mobile/ui/buildings/HD/{raw}.png",
     ])
 
 def slug_name(value: str) -> str:
@@ -218,6 +265,9 @@ class Context:
     def reward_component(self,key:str,value:Any)->List[Dict[str,Any]]:
         out=[]
         # Main/simple resources.
+        if key=="keys":
+            out.append({"type":"keys","raw_type":key,"name":loc(self.loc,"tid_key_resource","Keys"),"amount":i(value),"image":ICON+"text-icons/ic-key-massive.png"})
+            return out
         if key in RESOURCE_INFO:
             typ,name,img=RESOURCE_INFO[key]
             out.append({"type":typ,"raw_type":key,"name":name,"amount":i(value),"image":img})
@@ -234,7 +284,7 @@ class Context:
             for x in value:
                 if not isinstance(x,dict): continue
                 d=self.dragon(i(x.get("id"))); token=RARITY_FILE.get(d["rarity"],d["rarity"].lower())
-                out.append({"type":"dragon_orbs","raw_type":key,"name":d["name"]+" Orbs","amount":i(x.get("amount")),"dragon_id":d["id"],"rarity":d["rarity"],"image":d["adult_image"],"mini_icon":ICON+f"tree-of-life/ic-seed-{token}-mid-shadow.png" if token else "","open":{"kind":"dragon","id":d["id"]}})
+                out.append({"type":"dragon_orbs","raw_type":key,"name":d["name"]+" Orbs","amount":i(x.get("amount")),"dragon_id":d["id"],"rarity":d["rarity"],"image":d["adult_image"],"mini_icon":ICON+f"tree-of-life/ic-seed-{token}-mid-shadow.png" if token else "","old_mini_icon":ICON+"tree-of-life/ic-seed-h-old.png" if token=="h" else "","open":{"kind":"dragon","id":d["id"]}})
             return out
         if key=="rarity_seeds" and isinstance(value,list):
             for x in value:
@@ -244,7 +294,7 @@ class Context:
         if key=="trade_tickets" and isinstance(value,list):
             for x in value:
                 r=str(x.get("rarity") or "").upper(); token=RARITY_FILE.get(r,r.lower())
-                out.append({"type":"trade_essence","raw_type":key,"name":RARITY_NAMES.get(r,r)+" Trade Essences","amount":i(x.get("amount")),"rarity":r,"image":ICON+f"tree-of-life/ic-trade-orb-big-{token}.png"})
+                out.append({"type":"trade_essence","raw_type":key,"name":RARITY_NAMES.get(r,r)+" Trade Essences","amount":i(x.get("amount")),"rarity":r,"image":ICON+f"tree-of-life/ic-trade-orb-big-{token}.png","old_image":ICON+f"tree-of-life/ic-trade-orb-big-{token}-old.png" if token in {"l","h"} else ""})
             return out
         if key=="skin":
             sid=i(value); s=self.skins.get(sid,{})
@@ -267,15 +317,32 @@ class Context:
             rarity=key.split(".",1)[1].lower(); fname=RANK_FILE.get(rarity,rarity); name=loc(self.loc,(self.eco_defs.get(key) or {}).get("tid_name"),fname.replace("_"," ").title()+" Rank Up Coin")
             img=ICON+f"rank-up-coins/ic-rank-up-coin-{fname}.png"; out.append({"type":"rank_up_coin","raw_type":key,"name":name,"amount":i(value),"rarity":rarity,"image":img,"image_candidates":uniq([img,self.visual_icon(key)])}); return out
         if key in TOKEN_MAP:
-            token,label=TOKEN_MAP[key]; out.append({"type":"elemental_token","raw_type":key,"name":label,"amount":i(value),"token":token,"image":ICON+f"tokens/ic-token-{token}.png"}); return out
+            token,label=TOKEN_MAP[key]; out.append({"type":"elemental_token","raw_type":key,"name":label,"amount":i(value),"token":token,"image":ICON+f"tokens/ic-token-{token}.png","old_image":ICON+f"tokens/ic-token-{token}-0.png"}); return out
         if key in SPECIAL_TOKEN_MAP:
             token,label=SPECIAL_TOKEN_MAP[key]; out.append({"type":"special_token","raw_type":key,"name":label,"amount":i(value),"token":token,"image":ICON+f"tokens/ic-token-{token}.png"}); return out
         if key=="battleground_keys" and isinstance(value,list):
             for x in value:
-                if isinstance(x,dict): out.append({"type":"rescue_key","raw_type":key,"name":"Battleground Keys","amount":i(x.get("amount")) or 1,"battleground_id":i(x.get("battleground_id")),"key_id":i(x.get("key_id")),"image":ICON+"text-icons/ic-key-massive.png"})
+                if not isinstance(x,dict):
+                    continue
+                bg_id=i(x.get("battleground_id")); key_id=i(x.get("key_id"))
+                image,image_candidates,fallback_ref=battleground_key_icon(bg_id,key_id)
+                is_power_tag=(bg_id==8)
+                row={
+                    "type":"power_tags" if is_power_tag else "dragon_rescue_keys",
+                    "raw_type":key,
+                    "name":"Power Tags" if is_power_tag else loc(self.loc,"tid_battleground_keys","Dragon Rescue Keys"),
+                    "amount":i(x.get("amount")) or 1,
+                    "battleground_id":bg_id,
+                    "key_id":key_id,
+                    "image":image,
+                    "image_candidates":image_candidates,
+                }
+                if fallback_ref:
+                    row["reconstructed_icon_from"]={"battleground_id":fallback_ref[0],"key_id":fallback_ref[1]}
+                out.append(row)
             return out
         if key=="pet_food":
-            out.append({"type":"pet_food","raw_type":key,"name":"Pet Food","amount":i(value),"image":ICON+"pet-food/ui_chest_pet_food_xl.png"}); return out
+            out.append({"type":"pet_food","raw_type":key,"name":"Pet Food","amount":i(value),"image":ICON+"currency-icon/ic-pet-food-massive_c.png"}); return out
         if key.startswith("pet_food_pack."):
             size=key.split(".",1)[1].lower(); img=ICON+f"pet-food/ui_chest_pet_food_{size}.png"; out.append({"type":"pet_food","raw_type":key,"name":size.upper()+" Pet Food Pack","amount":i(value),"subtype":size,"image":img,"image_candidates":uniq([img,self.visual_icon(key,"massive")])}); return out
         if key.startswith("permanent_gacha."):
@@ -299,7 +366,12 @@ class Context:
             shiny=key.startswith("album_ace_dust."); img=ICON+("stickers/ic-album-dust-aces-massive_c.png" if shiny else "stickers/ic-album-dust-massive_c.png")
             out.append({"type":"sticker_diamond","raw_type":key,"name":"Shiny Diamond" if shiny else "Diamond","amount":i(value),"shiny":shiny,"image":img,"image_candidates":uniq([img,self.visual_icon(key,"massive")])}); return out
         if key.startswith("dragon_mastery_pass_tickets") or key.startswith("temporary_sticker_set_pass_unlock."):
-            out.append({"type":"progression_pass_tier","raw_type":key,"name":"Mastery Tickets" if key.startswith("dragon_mastery") else "Platinum Pass Unlock","amount":i(value),"image":self.visual_icon(key,"massive") or ICON+"currency-icon/ic-dmp-point-massive.png"}); return out
+            is_mastery=key.startswith("dragon_mastery")
+            # Only use a pass-unlock artwork when the exact reward has a verified
+            # explicit icon. Older temporary pass unlocks otherwise remain image-less
+            # rather than inheriting an unrelated generic pass icon.
+            img=(self.visual_icon(key,"massive") if key=="temporary_sticker_set_pass_unlock.20260629_platinum" else (ICON+"currency-icon/ic-dmp-point-massive.png" if is_mastery else ""))
+            out.append({"type":"progression_pass_tier","raw_type":key,"name":"Mastery Tickets" if is_mastery else "Platinum Pass Unlock","amount":i(value),"image":img,"image_candidates":[img] if img else []}); return out
         if key in {"b","buildings"}:
             values=value if isinstance(value,list) else [value]
             for raw in values:
@@ -451,21 +523,15 @@ def main()->None:
         cid=i(ch.get("id")); key=f"generic:{cid}"; collisions[cid].append("generic")
         raw_name_key=str(ch.get("chest_name_key") or ch.get("type_name_key") or "Unknown Chest")
         name=loc(locmap,ch.get("chest_name_key"),loc(locmap,ch.get("type_name_key"),raw_name_key))
+        # A second capitalization family exists in config without localization.
+        # Keep the in-game Pet Food Basket names instead of exposing the raw TID.
+        pet_key=str(ch.get("chest_name_key") or "")
+        m_pet=re.fullmatch(r"tid_chest_name_petfood_(s|m|l|xl)",pet_key,flags=re.I)
+        if m_pet:
+            name={"s":"Small Pet Food Basket","m":"Medium Pet Food Basket","l":"Large Pet Food Basket","xl":"Extra Large Pet Food Basket"}[m_pet.group(1).lower()]
         desc=loc(locmap,ch.get("description_key"),"")
         if ch.get("gatcha_ids"):
             guar,poss=cx.gatcha_groups(ch.get("gatcha_ids") or []); mode="gatcha"
-            # Pet Food chest families use S/M/L artwork for the same raw
-            # `pet_food` currency. The chest image name is the only size hint.
-            pf=re.search(r"pet_food_chest_(S|M|L|XL)$",str(ch.get("img_name") or ""),re.I)
-            if pf:
-                pf_size=pf.group(1).lower()
-                pf_img=ICON+f"pet-food/ui_chest_pet_food_{pf_size}.png"
-                for group in list(guar)+list(poss):
-                    for entry in group.get("entries",[]):
-                        for comp in entry.get("components",[]):
-                            if comp.get("raw_type")=="pet_food":
-                                comp["image"]=pf_img
-                                comp["subtype"]=pf_size
         else:
             mode="legacy"; guar=[]; poss=[]; rows=[]
             reward_rows=[legacy_reward_by_id.get(i(x)) for x in (ch.get("rewards") or [])]; reward_rows=[x for x in reward_rows if x]
@@ -487,7 +553,12 @@ def main()->None:
         name=f"{activity_name} Alliance Chest" if "Alliance Chest" not in activity_name else activity_name
         desc=loc(locmap,ch.get("chest_claim_description_tid"),f"Complete {activity_name} activities with your Alliance to unlock better chest levels.")
         asset=str(ch.get("asset_name") or "")
-        level_images={str(lv):chest_candidates(cid,asset.replace("%d",str(lv))) for lv in range(1,7)} if asset else {}
+        if asset and re.match(r"^alliancechest_%d_",asset,flags=re.I):
+            # Legacy Alliance artwork has only three visual tiers:
+            # levels 1-2 -> art 1, 3-4 -> art 2, 5-6 -> art 3.
+            level_images={str(lv):chest_candidates(cid,asset.replace("%d",str(min(3,(lv+1)//2)))) for lv in range(1,7)}
+        else:
+            level_images={str(lv):chest_candidates(cid,asset.replace("%d",str(lv))) for lv in range(1,7)} if asset else {}
         images=level_images.get("6") or ([MISSING_CHEST] if not asset else chest_candidates(cid,asset.replace("%d","6")))
         levels=[]
         for lv in range(1,7):
@@ -570,7 +641,7 @@ def main()->None:
         {"id":"tree_of_life","label":"Tree of Life","types":["joker_orbs","trade_essence"]},
         {"id":"items","label":"Items","types":["building","habitat","decoration"]},
         {"id":"progression","label":"Progression","types":["elemental_token","special_token","perk","rank_up_coin"]},
-        {"id":"event_resources","label":"Event Resources","types":["event_coin","hollow_ticket","puzzle_move","flight_stamp","rescue_key","pet_food","progression_pass_tier","treasure_key"]},
+        {"id":"event_resources","label":"Event Resources","types":["event_coin","hollow_ticket","puzzle_move","flight_stamp","keys","dragon_rescue_keys","power_tags","pet_food","progression_pass_tier","treasure_key"]},
         {"id":"stickers","label":"Stickers","types":["sticker_pack","missing_sticker","sticker_diamond"]},
     ],"chests":summaries}
     dump(SUMMARY_PATH,summary_payload)
