@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import json
 import re
+from fnmatch import fnmatchcase
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -253,7 +254,16 @@ class Context:
         return {"id":did,"name":name,"rarity":rarity,"baby_image":baby,"adult_image":adult,"img_name_mobile":str(d.get("adult_asset") or "")}
 
     def visual_icon(self,key:str,variant:str="regular")->str:
-        row=self.eco_icons.get(key,{})
+        # Prefer the exact economy-system entry. If SP only ships a wildcard
+        # family definition (for example temporary_sticker_set_pass_unlock.*),
+        # use it as a future-proof fallback instead of leaving the reward blank.
+        row=self.eco_icons.get(key)
+        if not row:
+            for pattern,candidate in self.eco_icons.items():
+                if "*" in pattern and fnmatchcase(key,pattern):
+                    row=candidate
+                    break
+        row=row or {}
         return remote_url(row.get(variant) or row.get("massive") or row.get("regular") or "")
 
     def item(self,item_id:int)->Dict[str,Any]:
@@ -367,10 +377,10 @@ class Context:
             out.append({"type":"sticker_diamond","raw_type":key,"name":"Shiny Diamond" if shiny else "Diamond","amount":i(value),"shiny":shiny,"image":img,"image_candidates":uniq([img,self.visual_icon(key,"massive")])}); return out
         if key.startswith("dragon_mastery_pass_tickets") or key.startswith("temporary_sticker_set_pass_unlock."):
             is_mastery=key.startswith("dragon_mastery")
-            # Only use a pass-unlock artwork when the exact reward has a verified
-            # explicit icon. Older temporary pass unlocks otherwise remain image-less
-            # rather than inheriting an unrelated generic pass icon.
-            img=(self.visual_icon(key,"massive") if key=="temporary_sticker_set_pass_unlock.20260629_platinum" else (ICON+"currency-icon/ic-dmp-point-massive.png" if is_mastery else ""))
+            # Temporary pass unlocks have date-specific economy-system artwork.
+            # Resolve every exact key first, with the wildcard family entry as a
+            # fallback for future dates, instead of hardcoding one known season.
+            img=(ICON+"currency-icon/ic-dmp-point-massive.png") if is_mastery else self.visual_icon(key,"massive")
             out.append({"type":"progression_pass_tier","raw_type":key,"name":"Mastery Tickets" if is_mastery else "Platinum Pass Unlock","amount":i(value),"image":img,"image_candidates":[img] if img else []}); return out
         if key in {"b","buildings"}:
             values=value if isinstance(value,list) else [value]
