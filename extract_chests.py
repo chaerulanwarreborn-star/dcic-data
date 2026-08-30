@@ -453,6 +453,50 @@ class Context:
         if reward.get("buildings") is not None: out.extend(self.reward_component("buildings",reward.get("buildings")))
         return self.aggregate_components(out)
 
+    def aggregate_static_entries(self,entries:List[Dict[str,Any]])->List[Dict[str,Any]]:
+        """Collapse identical deterministic gatcha rewards into one quantity.
+
+        SocialPoint often represents collectible/placeable guaranteed rewards as
+        repeated static rows (for example 20 identical Pure Essence rows) rather
+        than one row with amount=20. Static rewards are deterministic, so merging
+        identical components is presentation-safe. Random reward rows are *not*
+        passed through this function because duplicate random rows may intentionally
+        contribute separate weight/probability.
+        """
+        out=[]; positions={}
+        for entry in entries or []:
+            base_meta={k:v for k,v in entry.items() if k not in {"source_id","source_ids","components"}}
+            source_id=i(entry.get("source_id"))
+            for comp in entry.get("components") or []:
+                # Reward identity = every component attribute except quantity, plus
+                # entry-level scaling metadata. This prevents merging rewards that
+                # look alike but use different player-level multipliers.
+                comp_identity={k:v for k,v in comp.items() if k!="amount"}
+                marker=json.dumps({"component":comp_identity,"entry":base_meta},sort_keys=True,ensure_ascii=False,separators=(",",":"))
+                amount=comp.get("amount",1)
+                try:
+                    amount_num=float(amount)
+                except (TypeError,ValueError):
+                    amount_num=1.0
+                if marker in positions:
+                    target=out[positions[marker]]
+                    tc=target["components"][0]
+                    try: current=float(tc.get("amount",0))
+                    except (TypeError,ValueError): current=0.0
+                    total=current+amount_num
+                    tc["amount"]=int(total) if float(total).is_integer() else total
+                    if source_id>0 and source_id not in target["source_ids"]: target["source_ids"].append(source_id)
+                    continue
+                copied_comp=dict(comp)
+                copied_comp["amount"]=int(amount_num) if float(amount_num).is_integer() else amount_num
+                merged=dict(base_meta)
+                merged["source_id"]=source_id
+                merged["source_ids"]=[source_id] if source_id>0 else []
+                merged["components"]=[copied_comp]
+                positions[marker]=len(out)
+                out.append(merged)
+        return out
+
     def gatcha_groups(self,gids:Iterable[Any])->Tuple[List[Dict[str,Any]],List[Dict[str,Any]]]:
         guaranteed=[]; possible=[]; possible_index=0
         for gidraw in gids or []:
@@ -467,6 +511,7 @@ class Context:
                         entry["tier_multi"]=raw_tm; entry["tier_multiplier"]=normalize_tier_multiplier(raw_tm)
                     static_entries.append(entry)
             if static_entries:
+                static_entries=self.aggregate_static_entries(static_entries)
                 guaranteed.append({"gatcha_id":gid,"entries":static_entries})
             random_rows=self.grandom.get(gid,[])
             if random_rows:
