@@ -166,8 +166,11 @@ def build(args):
             found,row,gid=find_static(c,seeds)
             if found:
                 did=int(found.get('id') or 0); result['dragon_id']=did or None; result['amount']=found.get('amount')
-                rarity=(dragon_by_id.get(did) or {}).get('rarity')
+                dragon=dragon_by_id.get(did) or {}
+                rarity=dragon.get('rarity')
                 result['rarity']=rarity
+                result['dragon_name']=dragon.get('name')
+                result['dragon_image']=dragon.get('adult_image') or dragon.get('thumbnail') or dragon.get('full_body_image')
                 result['image_url']=orb_icon(rarity)
         if not result.get('image_url'):
             result['image_url']=HIGHLIGHT_ICONS['food']
@@ -189,10 +192,11 @@ def build(args):
 
         def add(row):
             if not row or not row.get('image_url'): return
-            key=(row.get('type'),row.get('rarity'),row.get('dragon_id'),row.get('label'),row.get('amount'))
-            # Avoid repeating the exact highlighted resource itself. Rarity-specific
-            # variants remain visible as Other Rewards when they are distinct.
-            hk=(first.get('type'),first.get('rarity'),first.get('dragon_id'),first.get('label'),first.get('amount'))
+            # Resource identity deliberately excludes the display label. The highlighted
+            # Breeding reward may be named simply 'Orbs' while the same static row is
+            # later resolved to '<Dragon> Orbs'; those are still the same reward.
+            key=(row.get('type'),row.get('rarity'),row.get('dragon_id'),row.get('amount'))
+            hk=(first.get('type'),first.get('rarity'),first.get('dragon_id'),first.get('amount'))
             if key==hk: return
             if key in seen: return
             seen.add(key); row['role']='other'; out.append(row)
@@ -223,7 +227,7 @@ def build(args):
                 for x in (res.get('seeds') or []):
                     did=int(x.get('id') or 0); dragon=dragon_by_id.get(did) or {}; rarity=dragon.get('rarity') or (highlighted or {}).get('rarity') or 'L'
                     name=str(dragon.get('name') or 'Dragon').removesuffix(' Dragon')+' Orbs'
-                    add({'type':'orbs','label':name,'amount':x.get('amount'),'dragon_id':did or None,'rarity':rarity,'image_url':orb_icon(rarity)})
+                    add({'type':'orbs','label':name,'amount':x.get('amount'),'dragon_id':did or None,'dragon_name':dragon.get('name'),'dragon_image':dragon.get('adult_image') or dragon.get('thumbnail') or dragon.get('full_body_image'),'rarity':rarity,'image_url':orb_icon(rarity)})
         return out
 
     meta_by_id={}
