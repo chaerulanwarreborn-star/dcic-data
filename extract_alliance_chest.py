@@ -23,6 +23,9 @@ HIGHLIGHT_ICONS={
     'joker_orbs': ASSET_RAW+'icons/amount-rss/ic-rarity-orb-special.png',
 }
 
+RARITY_FILE={'C':'c','R':'r','V':'vr','VR':'vr','E':'e','L':'l','M':'m','H':'h'}
+RARITY_NAMES={'C':'Common','R':'Rare','V':'Very Rare','VR':'Very Rare','E':'Epic','L':'Legendary','M':'Mythical','H':'Heroic'}
+
 
 def load_json(path, default=None):
     p=Path(path)
@@ -170,6 +173,59 @@ def build(args):
             result['image_url']=HIGHLIGHT_ICONS['food']
         return result
 
+    def preview_rewards(c, highlighted):
+        """Compact Level-VI reward preview for the homepage card.
+
+        The first entry is always the game-facing highlighted reward. Remaining
+        entries are actual static rewards from the featured Alliance Chest level.
+        This intentionally does not replace Chest Details; it is only a preview.
+        """
+        out=[]
+        first=dict(highlighted or {})
+        first['role']='highlighted'
+        out.append(first)
+        lv=highest_level(c)
+        seen=set()
+
+        def add(row):
+            if not row or not row.get('image_url'): return
+            key=(row.get('type'),row.get('rarity'),row.get('dragon_id'),row.get('label'),row.get('amount'))
+            # Avoid repeating the exact highlighted resource itself. Rarity-specific
+            # variants remain visible as Other Rewards when they are distinct.
+            hk=(first.get('type'),first.get('rarity'),first.get('dragon_id'),first.get('label'),first.get('amount'))
+            if key==hk: return
+            if key in seen: return
+            seen.add(key); row['role']='other'; out.append(row)
+
+        for gid in gatcha_ids_for_level(c,lv):
+            for sr in static_by.get(gid,[]):
+                res=sr.get('resource') or {}
+                scaled=bool(sr.get('overwritten_tier_multi') not in (None,1,1.0))
+                raw_multi=sr.get('overwritten_tier_multi')
+                common_scale={}
+                if scaled:
+                    common_scale={'level_scaled':True,'reference_tier_index':2}
+                    if raw_multi is not None:
+                        common_scale['tier_multiplier_raw']=raw_multi
+                        common_scale['tier_multiplier']=(float(raw_multi)/1000000.0 if float(raw_multi)>1000 else float(raw_multi))
+                if 'c' in res:
+                    add({'type':'gems','label':'Gems','amount':res.get('c'),'image_url':HIGHLIGHT_ICONS['gems'],**common_scale})
+                if 'f' in res:
+                    add({'type':'food','label':'Food','amount':res.get('f'),'image_url':HIGHLIGHT_ICONS['food'],**common_scale})
+                if 'keys' in res:
+                    add({'type':'keys','label':'Keys','amount':res.get('keys'),'image_url':ASSET_RAW+'icons/text-icons/ic-key-massive.png',**common_scale})
+                for x in (res.get('rarity_seeds') or []):
+                    r=str(x.get('rarity') or '').upper(); token=RARITY_FILE.get(r,r.lower())
+                    add({'type':'joker_orbs','label':RARITY_NAMES.get(r,r)+' Joker Orbs','amount':x.get('amount'),'rarity':r,'image_url':ASSET_RAW+f'icons/tree-of-life/ic-joker-{token}.png'})
+                for x in (res.get('trade_tickets') or []):
+                    r=str(x.get('rarity') or '').upper(); token=RARITY_FILE.get(r,r.lower())
+                    add({'type':'trade_essence','label':RARITY_NAMES.get(r,r)+' Trade Essences','amount':x.get('amount'),'rarity':r,'image_url':ASSET_RAW+f'icons/tree-of-life/ic-trade-orb-big-{token}.png'})
+                for x in (res.get('seeds') or []):
+                    did=int(x.get('id') or 0); dragon=dragon_by_id.get(did) or {}; rarity=dragon.get('rarity') or (highlighted or {}).get('rarity') or 'L'
+                    name=str(dragon.get('name') or 'Dragon').removesuffix(' Dragon')+' Orbs'
+                    add({'type':'orbs','label':name,'amount':x.get('amount'),'dragon_id':did or None,'rarity':rarity,'image_url':orb_icon(rarity)})
+        return out
+
     meta_by_id={}
     for cid,c in chests.items():
         lv=highest_level(c)
@@ -182,11 +238,12 @@ def build(args):
         candidates=sm.get('image_candidates') or chest_image_fallback(c,lv)
         am=ACTIVITY_META.get(str(c.get('activity') or ''),{})
         activity_name=loc.get(c.get('activity_name_tid')) or sm.get('activity_name') or am.get('name') or str(c.get('activity') or '').replace('_',' ').title()
+        hi=highlight(c)
         meta_by_id[cid]={
             'chest_id':cid,'activity':c.get('activity'),'mission_name':activity_name,'mission_short':am.get('short') or activity_name,
             'featured_level':lv,'levels':levels,'featured_points':next((x['points_required'] for x in levels if x['level']==lv),0),
             'chest_name':sm.get('name') or f'{activity_name} Alliance Chest','chest_image_candidates':candidates,
-            'highlighted_reward':highlight(c),'asset_name':c.get('asset_name'),'reward_set':c.get('reward_set'),'level_set':c.get('level_set')
+            'highlighted_reward':hi,'preview_rewards':preview_rewards(c,hi),'asset_name':c.get('asset_name'),'reward_set':c.get('reward_set'),'level_set':c.get('level_set')
         }
 
     resolved=resolve_week_starts(ac.get('weeks') or [])
@@ -244,7 +301,7 @@ def build(args):
         enriched.append(item)
 
     payload={
-        'schema_version':1,
+        'schema_version':2,
         'generated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'meta':{
             'mission_occurrences':len(enriched),
@@ -273,7 +330,7 @@ def build(args):
 if __name__=='__main__':
     ap=argparse.ArgumentParser()
     ap.add_argument('--game-config',default='game_config.json')
-    ap.add_argument('--localization',default='dragon_city_localization_baseline_en.json')
+    ap.add_argument('--localization',default='localization/dragon_city_localization_baseline_en.json')
     ap.add_argument('--chests',default='chests.json')
     ap.add_argument('--dragons',default='dragons.json')
     ap.add_argument('--output',default='alliance_chest.json')
