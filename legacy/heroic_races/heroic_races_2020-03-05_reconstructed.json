@@ -1,0 +1,107 @@
+{
+  "dcic_reconstruction": {
+    "schema_version": 1,
+    "race_id": 46,
+    "base_race_id": 45,
+    "event_name": "The Virago Sanctuary",
+    "display_name": "High Virago Heroic Race",
+    "race_type": "Heroic Race",
+    "race_variant": "heroic_race",
+    "race_scope": "individual",
+    "race_type_key": "tid_heroic_race_title",
+    "featured_dragon_id": 2423,
+    "start_ts": 1583406000,
+    "end_ts": 1584356399,
+    "start_iso": "2020-03-05T11:00:00Z",
+    "end_iso": "2020-03-16T10:59:59Z",
+    "time_source": "manual_verified",
+    "time_verified": true,
+    "confidence": "verified",
+    "note": "Reconstructed from historical Virago reward/final-prize guides. Generic lap rewards, limited-reward timing, and Race settings use Heroic Race ID 45 as the matching template; event-specific rewards are replaced with verified Virago rewards.",
+    "final_prizes": [
+      {
+        "positions": [
+          1
+        ],
+        "dragon_ids": [
+          2423,
+          2162,
+          1831,
+          1814
+        ]
+      },
+      {
+        "positions": [
+          2,
+          3
+        ],
+        "dragon_ids": [
+          2162,
+          1831,
+          1814
+        ]
+      },
+      {
+        "positions": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "dragon_ids": [
+          1831,
+          1814
+        ]
+      }
+    ],
+    "lap_reward_overrides": {
+      "2": {
+        "type": "dragon",
+        "dragon_id": 1794
+      },
+      "12": {
+        "type": "dragon_orbs",
+        "dragon_id": 2162,
+        "amount": 30,
+        "limited_amount": 120
+      },
+      "14": {
+        "type": "dragon",
+        "dragon_id": 2423
+      },
+      "19": {
+        "type": "dragon_orbs",
+        "dragon_id": 2162,
+        "amount": 40,
+        "limited_amount": 200
+      },
+      "23": {
+        "type": "skin",
+        "skin_id": 3012,
+        "name": "Battle Armor",
+        "owner_dragon_id": 2423
+      },
+      "28": {
+        "type": "dragon_orbs",
+        "dragon_id": 2423,
+        "amount": 30
+      },
+      "33": {
+        "type": "dragon_orbs",
+        "dragon_id": 2423,
+        "amount": 30
+      },
+      "37": {
+        "type": "dragon_orbs",
+        "dragon_id": 2423,
+        "amount": 30
+      },
+      "41": {
+        "type": "dragon_orbs",
+        "dragon_id": 2423,
+        "amount": 30
+      }
+    }
+  }
+}
