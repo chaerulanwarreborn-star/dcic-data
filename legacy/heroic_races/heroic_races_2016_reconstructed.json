@@ -1,0 +1,392 @@
+{
+  "dcic_reconstructions": [
+    {
+      "schema_version": 1,
+      "mode": "patch",
+      "race_id": 1,
+      "event_name": "High Fenrir Heroic Race",
+      "deployment_variant": "Android / mobile rollout",
+      "featured_dragon_id": 1675,
+      "confidence": "verified",
+      "note": "Final Prizes reconstructed from historical in-game footage. Raw lap/node/mission data is preserved. No Lap Reward payload is added because no evidence of per-lap rewards has been found.",
+      "final_prizes": [
+        {
+          "positions": [
+            1
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1675
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            2,
+            3
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            },
+            {
+              "type": "gems",
+              "amount": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "patch",
+      "race_id": 2,
+      "event_name": "High Fenrir Heroic Race",
+      "deployment_variant": "Second rollout variant",
+      "featured_dragon_id": 1675,
+      "confidence": "verified",
+      "note": "Final Prizes reconstructed from the same High Fenrir reward set used by the platform rollout variants. Raw lap/node/mission data and raw timestamps are preserved.",
+      "final_prizes": [
+        {
+          "positions": [
+            1
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1675
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            2,
+            3
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            },
+            {
+              "type": "gems",
+              "amount": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "patch",
+      "race_id": 3,
+      "event_name": "High Fenrir Heroic Race",
+      "deployment_variant": "iOS / Amazon / Canvas rollout",
+      "featured_dragon_id": 1675,
+      "confidence": "verified",
+      "note": "Final Prizes reconstructed from historical High Fenrir footage. Raw lap/node/mission data and raw timestamps are preserved.",
+      "final_prizes": [
+        {
+          "positions": [
+            1
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1675
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            2,
+            3
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1393
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            }
+          ]
+        },
+        {
+          "positions": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1414
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1618
+            },
+            {
+              "type": "gems",
+              "amount": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "patch",
+      "race_id": 4,
+      "event_name": "High Nucleus Heroic Race",
+      "featured_dragon_id": 1644,
+      "confidence": "verified",
+      "note": "Final Prizes reconstructed from historical in-game footage. Raw 09-20 June 2016 timing and raw lap/node/mission data are preserved. No per-lap rewards are added.",
+      "final_prizes": [
+        {
+          "positions": [
+            1
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1644
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1408
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1402
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1492
+            }
+          ]
+        },
+        {
+          "positions": [
+            2,
+            3
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1408
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1402
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1492
+            }
+          ]
+        },
+        {
+          "positions": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1402
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1492
+            },
+            {
+              "type": "gems",
+              "amount": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "schema_version": 1,
+      "mode": "patch",
+      "race_id": 5,
+      "event_name": "High Tension Heroic Race",
+      "featured_dragon_id": 1719,
+      "confidence": "verified",
+      "note": "Final Prizes reconstructed from historical in-game footage. Raw 07-18 July 2016 timing and raw lap/node/mission data are preserved. No per-lap rewards are added.",
+      "final_prizes": [
+        {
+          "positions": [
+            1
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1719
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1534
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1635
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1120
+            }
+          ]
+        },
+        {
+          "positions": [
+            2,
+            3
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1534
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1635
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1120
+            }
+          ]
+        },
+        {
+          "positions": [
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "rewards": [
+            {
+              "type": "dragon",
+              "dragon_id": 1635
+            },
+            {
+              "type": "dragon",
+              "dragon_id": 1120
+            },
+            {
+              "type": "gems",
+              "amount": 25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

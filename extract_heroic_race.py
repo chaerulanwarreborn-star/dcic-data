@@ -888,191 +888,285 @@ def inject_verified_reconstructions(
     loc: Dict[str, str],
     specs: List[Dict[str, Any]],
 ) -> None:
-    """Inject reconstruction specs stored beside the legacy snapshots.
+    """Apply verified historical reconstruction specs.
 
-    Reconstruction files are intentionally separate from raw game_config
-    snapshots and use a `dcic_reconstruction` object. A reconstruction is used
-    only when that exact Race ID is absent from all raw/current sources.
+    Two modes are supported:
+      - inject: create a Race that is absent from raw/current config (e.g. ID 46)
+      - patch: preserve an existing raw Race and replace only verified missing/
+        overwritten fields (e.g. Final Prizes for IDs 1-5)
+
+    This keeps raw missions/laps intact whenever they still exist.
     """
+
+    def build_spec_reward(reward_spec: Dict[str, Any]) -> Dict[str, Any]:
+        reward_type = str(reward_spec.get("type") or "").lower()
+
+        if reward_type == "dragon":
+            return make_dragon(as_int(reward_spec.get("dragon_id")), items, loc)
+
+        if reward_type == "dragon_orbs":
+            return make_orbs(
+                as_int(reward_spec.get("dragon_id")),
+                as_int(reward_spec.get("amount")),
+                items,
+                loc,
+            )
+
+        if reward_type in {"resource", "gems", "gold", "food", "xp"}:
+            resource_key = str(reward_spec.get("resource") or "").lower()
+            if reward_type == "gems":
+                resource_key = "c"
+            elif reward_type == "gold":
+                resource_key = "g"
+            elif reward_type == "food":
+                resource_key = "f"
+            elif reward_type == "xp":
+                resource_key = "xp"
+            return make_resource(resource_key, as_int(reward_spec.get("amount")))
+
+        if reward_type == "skin":
+            skin_id = as_int(reward_spec.get("skin_id"))
+            owner_id = as_int(reward_spec.get("owner_dragon_id"))
+            reward = make_skin(skin_id, skins, items, loc)
+            if not as_int(reward.get("dragon_id")) and owner_id > 0:
+                owner = make_dragon(owner_id, items, loc)
+                reward.update({
+                    "id": skin_id,
+                    "skin_id": skin_id,
+                    "dragon_id": owner_id,
+                    "kind": "skin",
+                    "asset_kind": "skin",
+                    "name": str(reward_spec.get("name") or f"Dragon Skin {skin_id}"),
+                    "description": "",
+                    "amount": 1,
+                    "dragon_rarity": owner.get("dragon_rarity", ""),
+                    "img_name_mobile": owner.get("img_name_mobile", ""),
+                    "image_url": owner.get("image_url", ""),
+                    "overlay_image_url": DCIC_ICON_BASE + "text-icons/ic-dragon-skin-badge.png",
+                    "localization_name_key": "",
+                    "localization_description_key": "",
+                })
+            elif reward_spec.get("name"):
+                reward["name"] = str(reward_spec["name"])
+            return reward
+
+        return {
+            "kind": "unknown",
+            "asset_kind": "unknown",
+            "name": str(reward_spec.get("name") or "Unknown Reward"),
+            "amount": as_int(reward_spec.get("amount")) or 1,
+        }
+
     for spec in specs:
         race_id = as_int(spec.get("race_id"))
-        base_id = as_int(spec.get("base_race_id"))
+        mode = str(spec.get("mode") or "inject").lower()
+        base_id = as_int(spec.get("base_race_id")) or race_id
         source_name = str(spec.get("_source_name") or "reconstruction")
 
-        if race_id <= 0 or base_id <= 0:
-            print(f"WARNING: skipping {source_name}: invalid reconstruction IDs")
-            continue
-        if race_id in merged:
-            print(f"INFO: raw Race ID {race_id} exists; skipping reconstruction {source_name}")
+        if race_id <= 0:
+            print(f"WARNING: skipping {source_name}: invalid Race ID")
             continue
 
-        base = merged.get(base_id)
-        if not isinstance(base, dict):
-            print(
-                f"WARNING: cannot reconstruct ID {race_id} from {source_name}: "
-                f"base Race ID {base_id} is unavailable"
-            )
-            continue
+        if mode == "patch":
+            existing = merged.get(race_id)
+            if not isinstance(existing, dict):
+                print(
+                    f"WARNING: cannot patch ID {race_id} from {source_name}: "
+                    "raw Race is unavailable"
+                )
+                continue
+            row = deepcopy(existing)
+            base = existing
+        else:
+            if race_id in merged:
+                print(
+                    f"INFO: raw Race ID {race_id} exists; "
+                    f"skipping injected reconstruction {source_name}"
+                )
+                continue
+            base = merged.get(base_id)
+            if not isinstance(base, dict):
+                print(
+                    f"WARNING: cannot reconstruct ID {race_id} from {source_name}: "
+                    f"base Race ID {base_id} is unavailable"
+                )
+                continue
+            row = deepcopy(base)
 
-        start_ts = as_int(spec.get("start_ts"))
-        end_ts = as_int(spec.get("end_ts"))
-        featured_id = as_int(spec.get("featured_dragon_id"))
-        if start_ts <= 0 or end_ts <= 0 or featured_id <= 0:
-            print(f"WARNING: skipping {source_name}: incomplete event identity/time metadata")
-            continue
+        featured_id = as_int(spec.get("featured_dragon_id")) or as_int(row.get("featured_dragon_id"))
+        start_ts = as_int(spec.get("start_ts")) or as_int(row.get("start_ts"))
+        end_ts = as_int(spec.get("end_ts")) or as_int(row.get("end_ts"))
 
-        row = deepcopy(base)
-        featured = make_dragon(featured_id, items, loc)
-        race_type = str(spec.get("race_type") or "Heroic Race")
-        race_variant = str(spec.get("race_variant") or "heroic_race")
-        race_scope = str(spec.get("race_scope") or "individual")
+        if featured_id > 0:
+            featured = make_dragon(featured_id, items, loc)
+            row["featured_dragon_id"] = featured_id
+            row["featured_dragon"] = featured
 
-        row.update({
-            "id": race_id,
-            "race_type": race_type,
-            "race_variant": race_variant,
-            "race_scope": race_scope,
-            "race_type_key": str(spec.get("race_type_key") or "tid_heroic_race_title"),
-            "name": str(spec.get("display_name") or f"{clean_dragon_name(featured.get('name', f'Race {race_id}'))} {race_type}"),
-            "archive_event_name": str(spec.get("event_name") or ""),
-            "featured_dragon_id": featured_id,
-            "featured_dragon": featured,
-            "start_ts": start_ts,
-            "end_ts": end_ts,
-            "start_iso": iso(start_ts),
-            "end_iso": iso(end_ts),
-            "time_source": str(spec.get("time_source") or "manual_verified"),
-            "time_verified": bool(spec.get("time_verified", True)),
-            # Never inherit another event's artwork identifiers as if they were
-            # verified data for the reconstructed event.
-            "zip_file": str(spec.get("zip_file") or ""),
-            "canvas_assets_url": str(spec.get("canvas_assets_url") or ""),
-            "sound_tag": str(spec.get("sound_tag") or ""),
-            "historical": True,
-            "source_generation": "reconstructed_legacy",
-            "source_snapshot": source_name,
-            "source_selection_reason": "verified_manual_reconstruction",
-            "reconstructed": True,
-            "reconstruction_base_race_id": base_id,
-            "reconstruction_confidence": str(spec.get("confidence") or "verified"),
-            "reconstruction_note": str(spec.get("note") or ""),
-        })
+        # For a fully injected Race, identity/time metadata must be explicit or
+        # available from the selected base. Patch mode intentionally preserves
+        # the existing raw identity unless a verified value is supplied.
+        if mode != "patch":
+            if start_ts <= 0 or end_ts <= 0 or featured_id <= 0:
+                print(f"WARNING: skipping {source_name}: incomplete event identity/time metadata")
+                continue
+
+            race_type = str(spec.get("race_type") or "Heroic Race")
+            row.update({
+                "id": race_id,
+                "race_type": race_type,
+                "race_variant": str(spec.get("race_variant") or "heroic_race"),
+                "race_scope": str(spec.get("race_scope") or "individual"),
+                "race_type_key": str(spec.get("race_type_key") or "tid_heroic_race_title"),
+                "name": str(
+                    spec.get("display_name")
+                    or f"{clean_dragon_name(row['featured_dragon'].get('name', f'Race {race_id}'))} {race_type}"
+                ),
+                "archive_event_name": str(spec.get("event_name") or ""),
+                "start_ts": start_ts,
+                "end_ts": end_ts,
+                "start_iso": iso(start_ts),
+                "end_iso": iso(end_ts),
+                "time_source": str(spec.get("time_source") or "manual_verified"),
+                "time_verified": bool(spec.get("time_verified", True)),
+                "zip_file": str(spec.get("zip_file") or ""),
+                "canvas_assets_url": str(spec.get("canvas_assets_url") or ""),
+                "sound_tag": str(spec.get("sound_tag") or ""),
+                "historical": True,
+                "source_generation": "reconstructed_legacy",
+                "source_snapshot": source_name,
+                "source_selection_reason": "verified_manual_reconstruction",
+                "reconstructed": True,
+                "reconstruction_base_race_id": base_id,
+            })
+        else:
+            # Optional verified metadata for an existing raw record.
+            if spec.get("display_name"):
+                row["name"] = str(spec["display_name"])
+            if spec.get("event_name"):
+                row["archive_event_name"] = str(spec["event_name"])
+            if spec.get("deployment_variant"):
+                row["deployment_variant"] = str(spec["deployment_variant"])
+            if spec.get("active_platforms"):
+                row["reconstructed_active_platforms"] = spec["active_platforms"]
+
+            row["partially_reconstructed"] = True
+            row["reconstruction_source"] = source_name
+            row["source_selection_reason"] = row.get("source_selection_reason") or "raw_with_verified_patch"
+
+        row["reconstruction_confidence"] = str(spec.get("confidence") or "verified")
+        row["reconstruction_note"] = str(spec.get("note") or "")
         row["source_snapshots"] = unique(
-            (base.get("source_snapshots") or []) + [source_name]
+            (row.get("source_snapshots") or []) + [source_name]
         )
 
-        # Final prizes.
-        def final_group(group_id: int, positions: List[int], dragon_ids: List[int]) -> Dict[str, Any]:
-            return {
-                "id": group_id,
-                "positions": positions,
-                "label": positions_label(positions),
-                "rewards": [make_dragon(did, items, loc) for did in dragon_ids],
-                "canonicalized_identical_level_tiers": 1,
-                "reconstructed": True,
-            }
-
+        # ----- Final prizes -----
         final_specs = spec.get("final_prizes")
         if isinstance(final_specs, list) and final_specs:
-            row["final_prize_status"] = "available"
-            row["final_prizes"] = []
+            groups: List[Dict[str, Any]] = []
             for idx, group in enumerate(final_specs, start=1):
                 if not isinstance(group, dict):
                     continue
-                positions = [as_int(x) for x in group.get("positions", []) if as_int(x) > 0]
-                dragon_ids = [as_int(x) for x in group.get("dragon_ids", []) if as_int(x) > 0]
-                row["final_prizes"].append(
-                    final_group(race_id * 100 + idx, positions, dragon_ids)
-                )
+
+                positions = [
+                    as_int(x) for x in group.get("positions", [])
+                    if as_int(x) > 0
+                ]
+
+                reward_specs = group.get("rewards")
+                if not isinstance(reward_specs, list):
+                    # Backward compatibility with the ID 46 reconstruction.
+                    reward_specs = [
+                        {"type": "dragon", "dragon_id": did}
+                        for did in group.get("dragon_ids", [])
+                        if as_int(did) > 0
+                    ]
+
+                rewards = [
+                    build_spec_reward(r)
+                    for r in reward_specs
+                    if isinstance(r, dict)
+                ]
+
+                groups.append({
+                    "id": race_id * 100 + idx,
+                    "positions": positions,
+                    "label": positions_label(positions),
+                    "rewards": rewards,
+                    "canonicalized_identical_level_tiers": 1,
+                    "reconstructed": True,
+                    "reconstruction_basis": str(
+                        group.get("basis") or "verified_historical_final_prizes"
+                    ),
+                })
+
+            row["final_prize_status"] = "available"
+            row["final_prizes"] = groups
             row["unverified_final_prizes"] = []
 
-        # Copy the verified generic lap schedule from the selected base Race,
-        # then replace only event-specific rewards supplied by the reconstruction.
-        laps = deepcopy(base.get("lap_rewards") or [])
-        lap_map = {as_int(lap.get("lap")): lap for lap in laps if isinstance(lap, dict)}
-        for lap in lap_map.values():
-            lap["id"] = 0  # original raw lap_reward ID for this event is unknown
-            lap["reconstructed"] = True
-            lap["reconstruction_basis"] = f"id{base_id}_template"
+            fields = list(row.get("reconstructed_fields") or [])
+            if "final_prizes" not in fields:
+                fields.append("final_prizes")
+            row["reconstructed_fields"] = fields
 
-        def build_spec_reward(reward_spec: Dict[str, Any]) -> Dict[str, Any]:
-            reward_type = str(reward_spec.get("type") or "").lower()
-            if reward_type == "dragon":
-                return make_dragon(as_int(reward_spec.get("dragon_id")), items, loc)
-            if reward_type == "dragon_orbs":
-                return make_orbs(
-                    as_int(reward_spec.get("dragon_id")),
-                    as_int(reward_spec.get("amount")),
-                    items,
-                    loc,
-                )
-            if reward_type == "skin":
-                skin_id = as_int(reward_spec.get("skin_id"))
-                owner_id = as_int(reward_spec.get("owner_dragon_id"))
-                reward = make_skin(skin_id, skins, items, loc)
-                if not as_int(reward.get("dragon_id")) and owner_id > 0:
-                    owner = make_dragon(owner_id, items, loc)
-                    reward.update({
-                        "id": skin_id,
-                        "skin_id": skin_id,
-                        "dragon_id": owner_id,
-                        "kind": "skin",
-                        "asset_kind": "skin",
-                        "name": str(reward_spec.get("name") or f"Dragon Skin {skin_id}"),
-                        "description": "",
-                        "amount": 1,
-                        "dragon_rarity": owner.get("dragon_rarity", ""),
-                        "img_name_mobile": owner.get("img_name_mobile", ""),
-                        "image_url": owner.get("image_url", ""),
-                        "overlay_image_url": DCIC_ICON_BASE + "text-icons/ic-dragon-skin-badge.png",
-                        "localization_name_key": "",
-                        "localization_description_key": "",
-                    })
-                elif reward_spec.get("name"):
-                    reward["name"] = str(reward_spec["name"])
-                return reward
-            return {
-                "kind": "unknown",
-                "asset_kind": "unknown",
-                "name": str(reward_spec.get("name") or "Unknown Reward"),
-                "amount": as_int(reward_spec.get("amount")) or 1,
+        # ----- Lap rewards -----
+        # Only rebuild/copy laps when this is an injected reconstruction or the
+        # spec actually requests lap overrides. Patch-only early Races therefore
+        # keep their original raw "no lap rewards" state untouched.
+        overrides = spec.get("lap_reward_overrides")
+        if mode != "patch" or isinstance(overrides, dict):
+            laps = deepcopy(base.get("lap_rewards") or [])
+            lap_map = {
+                as_int(lap.get("lap")): lap
+                for lap in laps if isinstance(lap, dict)
             }
 
-        overrides = spec.get("lap_reward_overrides")
-        if isinstance(overrides, dict):
-            for lap_key, reward_spec in overrides.items():
-                lap_no = as_int(lap_key)
-                lap = lap_map.get(lap_no)
-                if not lap or not isinstance(reward_spec, dict):
-                    continue
+            if mode != "patch":
+                for lap in lap_map.values():
+                    lap["id"] = 0
+                    lap["reconstructed"] = True
+                    lap["reconstruction_basis"] = f"id{base_id}_template"
 
-                reward = build_spec_reward(reward_spec)
-                lap["rewards"] = [reward]
-                lap["reward_status"] = "available"
-                lap["reward_declared"] = 1
-                lap["reconstruction_basis"] = "verified_historical_guide"
+            if isinstance(overrides, dict):
+                for lap_key, reward_spec in overrides.items():
+                    lap_no = as_int(lap_key)
+                    lap = lap_map.get(lap_no)
+                    if not lap or not isinstance(reward_spec, dict):
+                        continue
 
-                limited_amount = as_int(reward_spec.get("limited_amount"))
-                if limited_amount > 0:
-                    limited_spec = dict(reward_spec)
-                    limited_spec["amount"] = limited_amount
-                    lap["limited_rewards"] = [build_spec_reward(limited_spec)]
+                    reward = build_spec_reward(reward_spec)
+                    lap["rewards"] = [reward]
+                    lap["reward_status"] = "available"
+                    lap["reward_declared"] = 1
+                    lap["reconstructed"] = True
+                    lap["reconstruction_basis"] = "verified_historical_guide"
 
-        row["lap_rewards"] = laps
-        row["lap_count"] = len(laps)
-        row["available_lap_reward_count"] = sum(
-            1 for lap in laps if lap.get("reward_status") == "available"
-        )
-        row["unavailable_lap_reward_count"] = sum(
-            1 for lap in laps if lap.get("reward_status") == "unavailable"
-        )
+                    limited_amount = as_int(reward_spec.get("limited_amount"))
+                    if limited_amount > 0:
+                        limited_spec = dict(reward_spec)
+                        limited_spec["amount"] = limited_amount
+                        lap["limited_rewards"] = [build_spec_reward(limited_spec)]
+
+                fields = list(row.get("reconstructed_fields") or [])
+                if "lap_rewards" not in fields:
+                    fields.append("lap_rewards")
+                row["reconstructed_fields"] = fields
+
+            row["lap_rewards"] = laps
+            row["lap_count"] = len(laps)
+            row["available_lap_reward_count"] = sum(
+                1 for lap in laps if lap.get("reward_status") == "available"
+            )
+            row["unavailable_lap_reward_count"] = sum(
+                1 for lap in laps if lap.get("reward_status") == "unavailable"
+            )
 
         merged[race_id] = row
+
+        action = "patched" if mode == "patch" else "injected"
         print(
-            f"INFO: injected verified reconstruction for Heroic Race ID {race_id} "
+            f"INFO: {action} verified reconstruction for Heroic Race ID {race_id} "
             f"from {source_name}"
         )
-
 
 def main() -> None:
     cfg = load_json(CONFIG_PATH)
@@ -1100,12 +1194,27 @@ def main() -> None:
                 print(f"WARNING: skipping {path.name}: {exc}")
                 continue
 
-            if isinstance(data, dict) and isinstance(data.get("dcic_reconstruction"), dict):
-                spec = dict(data["dcic_reconstruction"])
-                spec["_source_name"] = path.name
-                reconstruction_specs.append(spec)
-                print(f"INFO: loaded reconstruction spec {path.name}")
-                continue
+            if isinstance(data, dict):
+                if isinstance(data.get("dcic_reconstruction"), dict):
+                    spec = dict(data["dcic_reconstruction"])
+                    spec["_source_name"] = path.name
+                    reconstruction_specs.append(spec)
+                    print(f"INFO: loaded reconstruction spec {path.name}")
+                    continue
+
+                if isinstance(data.get("dcic_reconstructions"), list):
+                    loaded = 0
+                    for raw_spec in data["dcic_reconstructions"]:
+                        if not isinstance(raw_spec, dict):
+                            continue
+                        spec = dict(raw_spec)
+                        spec["_source_name"] = path.name
+                        reconstruction_specs.append(spec)
+                        loaded += 1
+                    print(
+                        f"INFO: loaded {loaded} reconstruction specs from {path.name}"
+                    )
+                    continue
 
             if not isinstance(data, dict) or not isinstance(data.get("islands"), list):
                 print(f"WARNING: skipping {path.name}: not a heroic_races snapshot")
