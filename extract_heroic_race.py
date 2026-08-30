@@ -439,6 +439,18 @@ def make_perk(perk_id: int, amount: int, perks: Dict[int, Dict[str, Any]], loc: 
     }
 
 
+# Verified public event naming overrides.
+# Keep the raw island_title_tid in output for provenance, but prefer the
+# live/public event classification when the reused localization/template key
+# is misleading.
+RACE_TYPE_OVERRIDES: Dict[int, Tuple[str, str]] = {
+    # Magic Antidote (17–28 Sep 2024) was publicly presented by Dragon City as
+    # the second edition of the "Mythical Race", despite using the
+    # tid_hr_mythicalmarathon_name localization/template key in config.
+    99: ("Mythical Race", "mythical_race"),
+}
+
+
 def classify_race_type(
     island: Dict[str, Any],
     featured: Dict[str, Any],
@@ -666,6 +678,8 @@ def normalize_source(
         featured_id = as_int(island.get("dragon_race_id"))
         featured = make_dragon(featured_id, items, loc) if featured_id else {}
         race_type, race_variant = classify_race_type(island, featured, items, loc)
+        if iid in RACE_TYPE_OVERRIDES:
+            race_type, race_variant = RACE_TYPE_OVERRIDES[iid]
         race_name = f"{clean_dragon_name(featured.get('name', ''))} {race_type}".strip() if featured else race_type
 
         final_prizes: List[Dict[str, Any]] = []
