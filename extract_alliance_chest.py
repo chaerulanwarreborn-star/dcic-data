@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import argparse, json, math, time
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 WEEK=7*86400
 DAY=86400
@@ -25,6 +25,37 @@ HIGHLIGHT_ICONS={
 
 RARITY_FILE={'C':'c','R':'r','V':'vr','VR':'vr','E':'e','L':'l','M':'m','H':'h'}
 RARITY_NAMES={'C':'Common','R':'Rare','V':'Very Rare','VR':'Very Rare','E':'Epic','L':'Legendary','M':'Mythical','H':'Heroic'}
+
+# Historical Alliance Chest archive corrections. The live config is mutable: old
+# schedule blocks can be removed when a newer cycle is inserted, and old Breeding
+# reward references can be overwritten. Keep corrections narrow and evidence-based.
+DC_ARCHIVE_TZ=timezone(timedelta(hours=7))
+
+def archive_ts(value):
+    # Archive dates below are written in the same UTC+7 wall-clock time used by DCIC.
+    return int(datetime.fromisoformat(value).replace(tzinfo=DC_ARCHIVE_TZ).timestamp())
+
+HISTORICAL_REPEAT_WINDOWS=[
+    # Cycle 3 repeated after its first block and was cut when Cycle 4 arrived.
+    {'source_start':archive_ts('2021-02-01T23:00:00'),'source_end':archive_ts('2021-05-31T23:00:00'),
+     'target_start':archive_ts('2021-05-31T23:00:00'),'target_end':archive_ts('2021-06-08T23:00:00'),'archive_cycle':3},
+    # Cycle 5 repeated until Cycle 6 replaced it.
+    {'source_start':archive_ts('2021-10-04T23:00:00'),'source_end':archive_ts('2022-01-31T23:00:00'),
+     'target_start':archive_ts('2022-01-31T23:00:00'),'target_end':archive_ts('2022-02-08T23:00:00'),'archive_cycle':5},
+    # The first Cycle 12 block continued through the gap before the next configured block.
+    {'source_start':archive_ts('2024-01-22T23:00:00'),'source_end':archive_ts('2024-05-20T23:00:00'),
+     'target_start':archive_ts('2024-05-20T23:00:00'),'target_end':archive_ts('2024-06-18T23:00:00'),'archive_cycle':12},
+]
+
+HISTORICAL_BREEDING_ORB_OVERRIDES=[
+    # June 2025 still used the Cycle 15 featured dragons. Preserve the current
+    # chest IDs/economy and replace only the featured Breeding dragon reward.
+    {'start_ts':archive_ts('2025-06-01T00:00:00'),'end_ts':archive_ts('2025-07-01T00:00:00'),'archive_cycle':15,
+     'dragons':{
+         'E':{'dragon_id':2055,'name':'Frilled Dragon','rarity':'E'},
+         'L':{'dragon_id':3099,'name':'Duo-Damp Dragon','rarity':'L'},
+     }},
+]
 
 
 def load_json(path, default=None):
@@ -84,6 +115,39 @@ def merge_days(days):
         else:
             out.append({'chest_id':cid,'start_ts':d['start_ts'],'end_ts':d['end_ts'],'week_ids':[d['week_id']],
                         'schedule_source':d['schedule_source'],'cycle_repeat':d['cycle_repeat']})
+    return out
+
+def repeat_occurrence_window(occurrences, spec):
+    """Repeat the beginning of a known historical cycle into a removed config gap.
+
+    Only schedule/chest IDs are copied. Reward metadata is resolved later from the
+    copied chest ID, so the archive keeps the original chest economy for that cycle.
+    """
+    source_start=int(spec['source_start']); source_end=int(spec['source_end'])
+    target_start=int(spec['target_start']); target_end=int(spec['target_end'])
+    if source_end<=source_start or target_end<=target_start:
+        return []
+    shift=target_start-source_start
+    out=[]
+    for original in sorted(occurrences,key=lambda x:x['start_ts']):
+        # Only copy missions belonging to the source block itself.
+        if original['start_ts'] < source_start or original['start_ts'] >= source_end:
+            continue
+        ns=int(original['start_ts'])+shift; ne=int(original['end_ts'])+shift
+        if ns>=target_end:
+            continue
+        ne=min(ne,target_end)
+        if ne<=target_start or ne<=ns:
+            continue
+        ns=max(ns,target_start)
+        row=dict(original)
+        row['start_ts']=ns; row['end_ts']=ne
+        row['schedule_source']='historical_repeat'
+        row['cycle_repeat']=1
+        row['archive_cycle']=spec.get('archive_cycle')
+        row['historical_source_start_ts']=int(original['start_ts'])
+        row['historical_source_end_ts']=int(original['end_ts'])
+        out.append(row)
     return out
 
 def chest_image_fallback(c, level=6):
@@ -254,6 +318,13 @@ def build(args):
     days=day_rows_from_weeks(resolved)
     occurrences=merge_days(days)
 
+    # Restore only historically confirmed repeat windows that have disappeared from
+    # the mutable current config. These are deliberately explicit rather than a
+    # blanket gap filler, because older Alliance Chest history contains real gaps.
+    configured_occurrences=list(occurrences)
+    for spec in HISTORICAL_REPEAT_WINDOWS:
+        occurrences.extend(repeat_occurrence_window(configured_occurrences,spec))
+
     # Last explicitly anchored block is the cycle the live game reuses when no newer
     # Alliance Chest cycle is present.  Repeat the whole block after its configured end.
     explicit_indices=[i for i,w in enumerate(resolved) if w.get('start_ts')]
@@ -285,6 +356,49 @@ def build(args):
         seen.add(key); uniq.append(o)
     occurrences=uniq
 
+    def apply_historical_breeding_orb_override(item):
+        if item.get('activity')!='BREEDING':
+            return item
+        for spec in HISTORICAL_BREEDING_ORB_OVERRIDES:
+            if not (int(spec['start_ts']) <= int(item['start_ts']) < int(spec['end_ts'])):
+                continue
+            current=item.get('highlighted_reward') or {}
+            rarity=str(current.get('rarity') or '').upper()
+            target=(spec.get('dragons') or {}).get(rarity)
+            if not target:
+                return item
+            did=int(target['dragon_id'])
+            # If the current config already carries the historically correct dragon,
+            # leave it as config-sourced instead of marking a no-op as an override.
+            if int(current.get('dragon_id') or 0)==did:
+                item['featured_reward_source']='config'
+                return item
+            dragon=dragon_by_id.get(did) or {}
+            name=dragon.get('name') or target.get('name') or f'Dragon {did}'
+            target_rarity=dragon.get('rarity') or target.get('rarity') or rarity
+            dragon_image=dragon.get('adult_image') or dragon.get('thumbnail') or dragon.get('full_body_image')
+
+            # Preserve amount, chest ID, required points and all non-dragon rewards.
+            hi=dict(current)
+            hi.update({'dragon_id':did,'dragon_name':name,'dragon_image':dragon_image,
+                       'rarity':target_rarity,'image_url':orb_icon(target_rarity)})
+            item['highlighted_reward']=hi
+
+            preview=[]
+            for reward in item.get('preview_rewards') or []:
+                r=dict(reward)
+                if r.get('type')=='orbs':
+                    r.update({'dragon_id':did,'dragon_name':name,'dragon_image':dragon_image,
+                              'rarity':target_rarity,'image_url':orb_icon(target_rarity),
+                              'label':str(name).removesuffix(' Dragon')+' Orbs'})
+                preview.append(r)
+            item['preview_rewards']=preview
+            item['featured_reward_source']='historical_override'
+            item['archive_cycle']=spec.get('archive_cycle')
+            return item
+        item['featured_reward_source']='config'
+        return item
+
     enriched=[]
     for i,o in enumerate(occurrences):
         m=meta_by_id.get(int(o['chest_id']))
@@ -299,6 +413,7 @@ def build(args):
         hr=item.get('highlighted_reward') or {}
         if item.get('activity')=='PVP_LEAGUES' and hr.get('amount') is None:
             hr=dict(hr); hr['amount']={2:3,3:4,4:6}.get(max(1,round(item['duration_seconds']/DAY))); item['highlighted_reward']=hr
+        item=apply_historical_breeding_orb_override(item)
         item['occurrence_id']=f"{item['start_ts']}-{item['chest_id']}"
         enriched.append(item)
 
@@ -312,6 +427,9 @@ def build(args):
             'latest_config_end_ts':config_end,
             'repeat_cycle_weeks':(block_len//WEEK if block_len else 0),
             'repeat_rule':'Repeat the latest configured Alliance Chest cycle once when no newer cycle is available.',
+            'historical_repeat_windows':len(HISTORICAL_REPEAT_WINDOWS),
+            'historical_reward_overrides':len(HISTORICAL_BREEDING_ORB_OVERRIDES),
+            'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill old schedule gaps.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
             'player_level_tiers':next((x.get('value') for x in g.get('parameters',[]) if x.get('name') in ('REWARDS_TIERS','LEVEL_TIERS') and isinstance(x.get('value'),list)),[5,11,17,21,28,35,41,49,74,99,150]),
             'player_level_cap':200,
