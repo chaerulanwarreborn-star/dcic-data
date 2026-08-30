@@ -150,6 +150,54 @@ def repeat_occurrence_window(occurrences, spec):
         out.append(row)
     return out
 
+
+def build_dragon_reward_history(missions):
+    """Derive modern Epic + Legendary featured-dragon periods from Breeding missions.
+
+    The archive mission list is already corrected for evidence-backed historical
+    repeats/overrides, so history should be derived from those mission rewards rather
+    than duplicating dragon names or cycle tables in the webpage.
+    """
+    rows=[]
+    current=None
+    for item in sorted(missions,key=lambda x:(int(x.get('start_ts') or 0),int(x.get('end_ts') or 0))):
+        if str(item.get('activity') or '')!='BREEDING':
+            continue
+        reward=item.get('highlighted_reward') or {}
+        if reward.get('type')!='orbs':
+            continue
+        dragon_id=int(reward.get('dragon_id') or 0)
+        rarity=str(reward.get('rarity') or '').upper()
+        if not dragon_id or rarity not in ('E','L'):
+            continue
+        start_ts=int(item.get('start_ts') or 0)
+        end_ts=int(item.get('end_ts') or start_ts)
+
+        # Modern Alliance Chest rotations introduce the Epic member first. A new
+        # Epic ID therefore marks the next featured pair. Older pre-modern rows that
+        # only contain Legendary rewards are naturally ignored.
+        if rarity=='E':
+            if current is None:
+                current={'start_ts':start_ts,'end_ts':end_ts,'epic_dragon_id':dragon_id,'legendary_dragon_id':None}
+            elif int(current.get('epic_dragon_id') or 0)!=dragon_id:
+                if current.get('epic_dragon_id') and current.get('legendary_dragon_id'):
+                    rows.append(current)
+                current={'start_ts':start_ts,'end_ts':end_ts,'epic_dragon_id':dragon_id,'legendary_dragon_id':None}
+            else:
+                current['end_ts']=max(int(current.get('end_ts') or 0),end_ts)
+        elif current is not None:
+            current_legendary=int(current.get('legendary_dragon_id') or 0)
+            if current_legendary in (0,dragon_id):
+                current['legendary_dragon_id']=dragon_id
+                current['end_ts']=max(int(current.get('end_ts') or 0),end_ts)
+
+    if current and current.get('epic_dragon_id') and current.get('legendary_dragon_id'):
+        rows.append(current)
+
+    for row in rows:
+        row['source']='derived_from_breeding_rewards'
+    return list(reversed(rows))
+
 def chest_image_fallback(c, level=6):
     asset=str(c.get('asset_name') or '').replace('%d',str(level))
     if not asset: return []
@@ -417,8 +465,10 @@ def build(args):
         item['occurrence_id']=f"{item['start_ts']}-{item['chest_id']}"
         enriched.append(item)
 
+    dragon_reward_history=build_dragon_reward_history(enriched)
+
     payload={
-        'schema_version':2,
+        'schema_version':3,
         'generated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'meta':{
             'mission_occurrences':len(enriched),
@@ -429,6 +479,7 @@ def build(args):
             'repeat_rule':'Repeat the latest configured Alliance Chest cycle once when no newer cycle is available.',
             'historical_repeat_windows':len(HISTORICAL_REPEAT_WINDOWS),
             'historical_reward_overrides':len(HISTORICAL_BREEDING_ORB_OVERRIDES),
+            'dragon_reward_history_pairs':len(dragon_reward_history),
             'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill old schedule gaps.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
             'player_level_tiers':next((x.get('value') for x in g.get('parameters',[]) if x.get('name') in ('REWARDS_TIERS','LEVEL_TIERS') and isinstance(x.get('value'),list)),[5,11,17,21,28,35,41,49,74,99,150]),
@@ -442,6 +493,7 @@ def build(args):
             'highlight_orbs_base':ASSET_RAW+'icons/amount-rss/ic-amount-orbs-{rarity}.png',
         },
         'activities':ACTIVITY_META,
+        'dragon_reward_history':dragon_reward_history,
         'missions':enriched,
     }
     Path(args.output).write_text(json.dumps(payload,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
