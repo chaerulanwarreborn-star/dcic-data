@@ -262,17 +262,15 @@ def build(args):
         block=resolved[last_anchor_i:]
         if block:
             base_start=int(block[0]['_start_ts']); block_len=len(block)*WEEK; config_end=base_start+block_len
-            now=int(time.time()) if args.now is None else int(args.now)
-            horizon=now+args.future_days*DAY
-            # include every repeat needed through future horizon
+            # Only generate one fallback repeat of the latest configured cycle.
+            # This keeps a single predicted cycle available when no newer config
+            # exists, without projecting repeated schedules far into the future.
             repeat_num=1
             cycle_start=config_end
-            while cycle_start < horizon:
-                repeated=[]
-                for idx,w in enumerate(block):
-                    nr=dict(w); nr['_start_ts']=cycle_start+idx*WEEK; repeated.append(nr)
-                occurrences.extend(merge_days(day_rows_from_weeks(repeated,'repeated_cycle',repeat_num)))
-                repeat_num+=1; cycle_start+=block_len
+            repeated=[]
+            for idx,w in enumerate(block):
+                nr=dict(w); nr['_start_ts']=cycle_start+idx*WEEK; repeated.append(nr)
+            occurrences.extend(merge_days(day_rows_from_weeks(repeated,'repeated_cycle',repeat_num)))
         else:
             base_start=config_end=block_len=None
     else:
@@ -313,7 +311,7 @@ def build(args):
             'latest_cycle_start_ts':base_start,
             'latest_config_end_ts':config_end,
             'repeat_cycle_weeks':(block_len//WEEK if block_len else 0),
-            'repeat_rule':'Repeat the latest configured Alliance Chest cycle when no newer cycle is available.',
+            'repeat_rule':'Repeat the latest configured Alliance Chest cycle once when no newer cycle is available.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
             'player_level_tiers':next((x.get('value') for x in g.get('parameters',[]) if x.get('name') in ('REWARDS_TIERS','LEVEL_TIERS') and isinstance(x.get('value'),list)),[5,11,17,21,28,35,41,49,74,99,150]),
             'player_level_cap':200,
