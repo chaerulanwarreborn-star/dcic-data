@@ -51,7 +51,22 @@
         "highlight": "gems",
         "evidence": "Alliance Chest Update 1.0 replaced League with Level Up; Update 2.0 restored League on Mar 28, 2023. Feb-10 rebalance gatchas remain in the current config."
       }
-    ]
+    ],
+    "player_level_cap_history": [
+      {
+        "start": null,
+        "end": "2022-06-01T00:00:00+07:00",
+        "max_player_level": 150,
+        "note": "Historical max player level was 150 before the level-cap increase went live on June 1, 2022."
+      },
+      {
+        "start": "2022-06-01T00:00:00+07:00",
+        "end": null,
+        "max_player_level": 200,
+        "note": "Max player level 200 is treated as live from June 1, 2022, based on contemporary player evidence showing accumulated XP immediately converting into levels above 150."
+      }
+    ],
+    "legacy_snapshot_level_scaled_reference_tier_index": 0
   },
   "static_rewards": [
     {
