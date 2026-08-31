@@ -64,6 +64,12 @@ HISTORICAL_BREEDING_ORB_OVERRIDES=[
      }},
 ]
 
+# Resource reward history is also mutable in the live config.  The 2021 snapshot
+# preserves the older Food / Trade Essence / Joker Orb economy, while Mythical
+# rewards are known to have been added to Alliance Chests only in late May 2024.
+LEGACY_RESOURCE_REWARD_END=archive_ts('2023-01-31T23:00:00')
+MYTHICAL_ALLIANCE_START=archive_ts('2024-05-25T23:00:00')
+
 
 def load_json(path, default=None):
     p=Path(path)
@@ -237,6 +243,7 @@ def chest_image_fallback(c, level=6):
 
 def build(args):
     cfg=load_json(args.game_config,{}) or {}
+    reward_history=load_json(args.reward_history,{}) or {}
     ac=cfg.get('alliance_chest') or {}
     g=cfg.get('gatcha') or {}
     loc=loc_map(args.localization)
@@ -253,6 +260,9 @@ def build(args):
     gatchas={int(x['id']):x for x in (g.get('gatchas') or [])}
     static_by={}
     for x in g.get('static_rewards') or []: static_by.setdefault(int(x['gatcha_id']),[]).append(x)
+    historical_static_by={}
+    for x in reward_history.get('static_rewards') or []:
+        historical_static_by.setdefault(int(x['gatcha_id']),[]).append(x)
 
     def highest_level(c):
         ls=level_sets.get(int(c.get('level_set') or 0),[])
@@ -263,25 +273,26 @@ def build(args):
         row=next((x for x in rows if int(x.get('level') or 0)==level),None)
         return [int(x) for x in ((row or {}).get('gatcha_ids') or [])]
 
-    def find_static(c, pred):
+    def find_static(c, pred, static_provider=None):
         lv=highest_level(c)
+        provider=static_provider or (lambda gid: static_by.get(gid,[]))
         for gid in gatcha_ids_for_level(c,lv):
-            for row in static_by.get(gid,[]):
+            for row in provider(gid):
                 res=row.get('resource') or {}
                 val=pred(res,row)
                 if val is not None: return val,row,gid
         return None,None,None
 
-    def highlight(c):
+    def highlight(c, static_provider=None):
         activity=str(c.get('activity') or '')
         typ=(ACTIVITY_META.get(activity) or {}).get('highlight') or 'food'
         result={'type':typ,'label':{'gems':'Gems','food':'Food','joker_orbs':'Joker Orbs','orbs':'Orbs'}.get(typ,typ.replace('_',' ').title()),
                 'amount':None,'image_url':HIGHLIGHT_ICONS.get(typ),'level_scaled':False,'dragon_id':None,'rarity':None,'reference_tier_index':2}
         if typ=='gems':
-            found,row,gid=find_static(c,lambda res,row: res.get('c') if 'c' in res else None)
+            found,row,gid=find_static(c,lambda res,row: res.get('c') if 'c' in res else None,static_provider)
             if found is not None: result['amount']=found
         elif typ=='food':
-            found,row,gid=find_static(c,lambda res,row: res.get('f') if 'f' in res else None)
+            found,row,gid=find_static(c,lambda res,row: res.get('f') if 'f' in res else None,static_provider)
             if found is not None:
                 result['amount']=found
                 result['level_scaled']=bool(row.get('overwritten_tier_multi') not in (None,1,1.0))
@@ -293,7 +304,7 @@ def build(args):
             def joker(res,row):
                 vals=res.get('rarity_seeds') or []
                 return vals[0] if vals else None
-            found,row,gid=find_static(c,joker)
+            found,row,gid=find_static(c,joker,static_provider)
             if found:
                 result['amount']=found.get('amount')
                 result['rarity']=found.get('rarity')
@@ -303,7 +314,7 @@ def build(args):
             def seeds(res,row):
                 vals=res.get('seeds') or []
                 return vals[0] if vals else None
-            found,row,gid=find_static(c,seeds)
+            found,row,gid=find_static(c,seeds,static_provider)
             if found:
                 did=int(found.get('id') or 0); result['dragon_id']=did or None; result['amount']=found.get('amount')
                 dragon=dragon_by_id.get(did) or {}
@@ -316,7 +327,7 @@ def build(args):
             result['image_url']=HIGHLIGHT_ICONS['food']
         return result
 
-    def preview_rewards(c, highlighted):
+    def preview_rewards(c, highlighted, static_provider=None):
         """Compact Level-VI reward preview for the homepage card.
 
         The first entry is always the game-facing highlighted reward. Remaining
@@ -324,6 +335,7 @@ def build(args):
         This intentionally does not replace Chest Details; it is only a preview.
         """
         out=[]
+        provider=static_provider or (lambda gid: static_by.get(gid,[]))
         first=dict(highlighted or {})
         first['role']='highlighted'
         out.append(first)
@@ -342,7 +354,7 @@ def build(args):
             seen.add(key); row['role']='other'; out.append(row)
 
         for gid in gatcha_ids_for_level(c,lv):
-            for sr in static_by.get(gid,[]):
+            for sr in provider(gid):
                 res=sr.get('resource') or {}
                 scaled=bool(sr.get('overwritten_tier_multi') not in (None,1,1.0))
                 raw_multi=sr.get('overwritten_tier_multi')
@@ -475,6 +487,55 @@ def build(args):
         item['featured_reward_source']='config'
         return item
 
+    def apply_historical_resource_rewards(item):
+        """Resolve time-correct Food/Essence/Joker rewards for an occurrence.
+
+        The live config mutates shared gatcha IDs, so old occurrences otherwise inherit
+        today's quantities.  Before the Jan-31-2023 Alliance Chest overhaul, prefer
+        static reward rows preserved in alliance_chest_reward_history.json (derived
+        from the Mar-21-2021 config snapshot) whenever the same gatcha ID existed there.  Missing snapshot rows (typically featured-dragon
+        gatchas created later) fall back to the current config so dragon identity is
+        preserved.  Mythical rewards are removed before the reconstructed May-25-2024
+        Alliance-Chest introduction boundary.
+        """
+        start_ts=int(item.get('start_ts') or 0)
+        cid=int(item.get('chest_id') or 0)
+        c=chests.get(cid)
+        if not c:
+            return item
+
+        used_snapshot=False
+        if start_ts < LEGACY_RESOURCE_REWARD_END and historical_static_by:
+            def provider(gid):
+                nonlocal used_snapshot
+                old_rows=historical_static_by.get(int(gid)) or []
+                if old_rows:
+                    used_snapshot=True
+                    return old_rows
+                return static_by.get(int(gid),[])
+            hi=highlight(c,provider)
+            # Keep an already-correct featured Breeding dragon if the snapshot does
+            # not know that later cycle; provider() falls back to current for it.
+            item['highlighted_reward']=hi
+            item['preview_rewards']=preview_rewards(c,hi,provider)
+            if used_snapshot:
+                item['resource_reward_source']='historical_snapshot_2021-03-21'
+            else:
+                item['resource_reward_source']='current_config'
+        else:
+            item['resource_reward_source']='current_config'
+
+        if start_ts < MYTHICAL_ALLIANCE_START:
+            before=len(item.get('preview_rewards') or [])
+            item['preview_rewards']=[r for r in (item.get('preview_rewards') or [])
+                                     if str(r.get('rarity') or '').upper()!='M']
+            after=len(item.get('preview_rewards') or [])
+            if after!=before:
+                item['mythical_reward_cutoff_applied']=True
+                if item.get('resource_reward_source')=='current_config':
+                    item['resource_reward_source']='current_config_without_mythical'
+        return item
+
     enriched=[]
     for i,o in enumerate(occurrences):
         m=meta_by_id.get(int(o['chest_id']))
@@ -489,6 +550,7 @@ def build(args):
         hr=item.get('highlighted_reward') or {}
         if item.get('activity')=='PVP_LEAGUES' and hr.get('amount') is None:
             hr=dict(hr); hr['amount']={2:3,3:4,4:6}.get(max(1,round(item['duration_seconds']/DAY))); item['highlighted_reward']=hr
+        item=apply_historical_resource_rewards(item)
         item=apply_historical_breeding_orb_override(item)
         item['occurrence_id']=f"{item['start_ts']}-{item['chest_id']}"
         enriched.append(item)
@@ -496,7 +558,7 @@ def build(args):
     dragon_reward_history=build_dragon_reward_history(enriched)
 
     payload={
-        'schema_version':4,
+        'schema_version':5,
         'generated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'meta':{
             'mission_occurrences':len(enriched),
@@ -507,6 +569,11 @@ def build(args):
             'repeat_rule':'Repeat the latest configured Alliance Chest cycle once when no newer cycle is available.',
             'historical_repeat_windows':len(HISTORICAL_REPEAT_WINDOWS),
             'historical_reward_overrides':len(HISTORICAL_BREEDING_ORB_OVERRIDES),
+            'legacy_resource_reward_end_ts':LEGACY_RESOURCE_REWARD_END,
+            'historical_reward_dataset':Path(args.reward_history).name,
+            'legacy_resource_snapshot':'2021-03-21',
+            'mythical_alliance_start_ts':MYTHICAL_ALLIANCE_START,
+            'resource_reward_rule':'Use the compact historical reward dataset derived from the 2021 snapshot for matching legacy resource gatchas before the 2023 overhaul; remove Mythical Alliance rewards before May 25, 2024.',
             'dragon_reward_history_pairs':len(dragon_reward_history),
             'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill uncertain transition gaps.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
@@ -530,6 +597,7 @@ def build(args):
 if __name__=='__main__':
     ap=argparse.ArgumentParser()
     ap.add_argument('--game-config',default='game_config.json')
+    ap.add_argument('--reward-history',default='alliance_chest_reward_history.json')
     ap.add_argument('--localization',default='localization/dragon_city_localization_baseline_en.json')
     ap.add_argument('--chests',default='chests.json')
     ap.add_argument('--dragons',default='dragons.json')

@@ -1,0 +1,6488 @@
+{
+  "schema_version": 1,
+  "source": {
+    "type": "historical_game_config_snapshot",
+    "file": "get_game_config-210321.php.json",
+    "snapshot_date": "2021-03-21",
+    "purpose": "Preserve mutable Alliance Chest gatcha rewards for historical archive reconstruction."
+  },
+  "rules": {
+    "legacy_resource_reward_end": "2023-01-31T23:00:00+07:00",
+    "mythical_alliance_start": "2024-05-25T23:00:00+07:00"
+  },
+  "static_rewards": [
+    {
+      "id": 8,
+      "gatcha_id": 41,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "gatcha_id": 41,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "gatcha_id": 42,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "gatcha_id": 42,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "gatcha_id": 42,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "gatcha_id": 43,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "gatcha_id": 43,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "gatcha_id": 43,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "gatcha_id": 44,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "gatcha_id": 44,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "gatcha_id": 44,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "gatcha_id": 44,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "gatcha_id": 45,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2022,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "gatcha_id": 45,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "gatcha_id": 45,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "gatcha_id": 45,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "gatcha_id": 45,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "gatcha_id": 63,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "gatcha_id": 63,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "gatcha_id": 64,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "gatcha_id": 64,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "gatcha_id": 64,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "gatcha_id": 65,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "gatcha_id": 65,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "gatcha_id": 65,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 33,
+      "gatcha_id": 66,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 34,
+      "gatcha_id": 66,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 35,
+      "gatcha_id": 66,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "gatcha_id": 66,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 37,
+      "gatcha_id": 67,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2022,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 38,
+      "gatcha_id": 67,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 39,
+      "gatcha_id": 67,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 40,
+      "gatcha_id": 67,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 41,
+      "gatcha_id": 67,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 42,
+      "gatcha_id": 85,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "gatcha_id": 85,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 44,
+      "gatcha_id": 86,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 45,
+      "gatcha_id": 86,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 46,
+      "gatcha_id": 86,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 47,
+      "gatcha_id": 87,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 48,
+      "gatcha_id": 87,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "gatcha_id": 87,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "gatcha_id": 88,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "gatcha_id": 88,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 52,
+      "gatcha_id": 88,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 53,
+      "gatcha_id": 88,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 54,
+      "gatcha_id": 89,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2022,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 55,
+      "gatcha_id": 89,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 56,
+      "gatcha_id": 89,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 57,
+      "gatcha_id": 89,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 58,
+      "gatcha_id": 89,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 59,
+      "gatcha_id": 116,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 60,
+      "gatcha_id": 117,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1872,
+            "amount": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": 61,
+      "gatcha_id": 117,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 62,
+      "gatcha_id": 118,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1872,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 63,
+      "gatcha_id": 118,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 64,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1872,
+            "amount": 26
+          }
+        ]
+      }
+    },
+    {
+      "id": 65,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1872,
+            "amount": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": 67,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 68,
+      "gatcha_id": 121,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 69,
+      "gatcha_id": 122,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 70,
+      "gatcha_id": 122,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1958,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 71,
+      "gatcha_id": 123,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 72,
+      "gatcha_id": 123,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1958,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 73,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 74,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1958,
+            "amount": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": 75,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1828,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 76,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1958,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 77,
+      "gatcha_id": 116,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 78,
+      "gatcha_id": 116,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 79,
+      "gatcha_id": 117,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 80,
+      "gatcha_id": 117,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 81,
+      "gatcha_id": 117,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 82,
+      "gatcha_id": 118,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 83,
+      "gatcha_id": 118,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 84,
+      "gatcha_id": 118,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 85,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 86,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 87,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 88,
+      "gatcha_id": 119,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 89,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2022,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 90,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 91,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 92,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 93,
+      "gatcha_id": 120,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 94,
+      "gatcha_id": 121,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 95,
+      "gatcha_id": 121,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 96,
+      "gatcha_id": 122,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 97,
+      "gatcha_id": 122,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 98,
+      "gatcha_id": 122,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 99,
+      "gatcha_id": 123,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 100,
+      "gatcha_id": 123,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "gatcha_id": 123,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 103,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 104,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 105,
+      "gatcha_id": 124,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 106,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2022,
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 107,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2021,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 108,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2020,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 109,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2019,
+            "amount": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 110,
+      "gatcha_id": 125,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2027,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 123,
+      "gatcha_id": 188,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1623,
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 124,
+      "gatcha_id": 189,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1623,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 125,
+      "gatcha_id": 190,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1623,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 126,
+      "gatcha_id": 191,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1623,
+            "amount": 14
+          }
+        ]
+      }
+    },
+    {
+      "id": 127,
+      "gatcha_id": 192,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1623,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 128,
+      "gatcha_id": 263,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 129,
+      "gatcha_id": 264,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 130,
+      "gatcha_id": 265,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": 131,
+      "gatcha_id": 266,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 132,
+      "gatcha_id": 267,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": 133,
+      "gatcha_id": 268,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 134,
+      "gatcha_id": 269,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": 135,
+      "gatcha_id": 270,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 136,
+      "gatcha_id": 271,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 137,
+      "gatcha_id": 272,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2059,
+            "amount": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": 148,
+      "gatcha_id": 290,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1578,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 149,
+      "gatcha_id": 291,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1578,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 150,
+      "gatcha_id": 292,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1578,
+            "amount": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": 151,
+      "gatcha_id": 293,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1578,
+            "amount": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": 152,
+      "gatcha_id": 294,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1578,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 153,
+      "gatcha_id": 290,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1579,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 154,
+      "gatcha_id": 291,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1579,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 155,
+      "gatcha_id": 292,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1579,
+            "amount": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": 156,
+      "gatcha_id": 293,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1579,
+            "amount": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": 157,
+      "gatcha_id": 294,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1579,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 158,
+      "gatcha_id": 290,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1580,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 159,
+      "gatcha_id": 291,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1580,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 160,
+      "gatcha_id": 292,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1580,
+            "amount": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": 161,
+      "gatcha_id": 293,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1580,
+            "amount": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": 162,
+      "gatcha_id": 294,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1580,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 163,
+      "gatcha_id": 295,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1581,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 164,
+      "gatcha_id": 296,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1581,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 165,
+      "gatcha_id": 297,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1581,
+            "amount": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": 166,
+      "gatcha_id": 298,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1581,
+            "amount": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": 167,
+      "gatcha_id": 299,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1581,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 168,
+      "gatcha_id": 295,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1798,
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 169,
+      "gatcha_id": 296,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1798,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 170,
+      "gatcha_id": 297,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1798,
+            "amount": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": 171,
+      "gatcha_id": 298,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1798,
+            "amount": 24
+          }
+        ]
+      }
+    },
+    {
+      "id": 172,
+      "gatcha_id": 299,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1798,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 4000,
+      "gatcha_id": 4000,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1543,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4001,
+      "gatcha_id": 4001,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1543,
+            "amount": 40
+          }
+        ]
+      }
+    },
+    {
+      "id": 4002,
+      "gatcha_id": 4002,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1543,
+            "amount": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": 4003,
+      "gatcha_id": 4003,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1543,
+            "amount": 80
+          }
+        ]
+      }
+    },
+    {
+      "id": 4004,
+      "gatcha_id": 4004,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1543,
+            "amount": 120
+          }
+        ]
+      }
+    },
+    {
+      "id": 4035,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2170,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4036,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2177,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4037,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4038,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2169,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4039,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4040,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4041,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4042,
+      "gatcha_id": 4040,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4043,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4044,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2169,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4045,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4046,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4047,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4048,
+      "gatcha_id": 4039,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4049,
+      "gatcha_id": 4038,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4050,
+      "gatcha_id": 4038,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4051,
+      "gatcha_id": 4038,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4052,
+      "gatcha_id": 4038,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4053,
+      "gatcha_id": 4037,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4054,
+      "gatcha_id": 4037,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4055,
+      "gatcha_id": 4037,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4056,
+      "gatcha_id": 4036,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4057,
+      "gatcha_id": 4036,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4058,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2170,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4059,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2169,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4060,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4061,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 4062,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4063,
+      "gatcha_id": 4035,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4064,
+      "gatcha_id": 4034,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2169,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4065,
+      "gatcha_id": 4034,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4066,
+      "gatcha_id": 4034,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4067,
+      "gatcha_id": 4034,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4068,
+      "gatcha_id": 4034,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4069,
+      "gatcha_id": 4033,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4070,
+      "gatcha_id": 4033,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4071,
+      "gatcha_id": 4033,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4072,
+      "gatcha_id": 4033,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4073,
+      "gatcha_id": 4032,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4074,
+      "gatcha_id": 4032,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4075,
+      "gatcha_id": 4032,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4076,
+      "gatcha_id": 4031,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4077,
+      "gatcha_id": 4031,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4078,
+      "gatcha_id": 4030,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4079,
+      "gatcha_id": 4030,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4080,
+      "gatcha_id": 4030,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4081,
+      "gatcha_id": 4030,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4082,
+      "gatcha_id": 4029,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4083,
+      "gatcha_id": 4029,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4084,
+      "gatcha_id": 4029,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4085,
+      "gatcha_id": 4028,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4086,
+      "gatcha_id": 4028,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4087,
+      "gatcha_id": 4028,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4088,
+      "gatcha_id": 4027,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4089,
+      "gatcha_id": 4027,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4090,
+      "gatcha_id": 4026,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4091,
+      "gatcha_id": 4025,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4092,
+      "gatcha_id": 4025,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4093,
+      "gatcha_id": 4025,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4094,
+      "gatcha_id": 4024,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4095,
+      "gatcha_id": 4024,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4096,
+      "gatcha_id": 4024,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4097,
+      "gatcha_id": 4023,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4098,
+      "gatcha_id": 4023,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4099,
+      "gatcha_id": 4022,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4100,
+      "gatcha_id": 4022,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4101,
+      "gatcha_id": 4021,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1291,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4102,
+      "gatcha_id": 4020,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4103,
+      "gatcha_id": 4020,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4104,
+      "gatcha_id": 4020,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4105,
+      "gatcha_id": 4019,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2176,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4106,
+      "gatcha_id": 4019,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4107,
+      "gatcha_id": 4019,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4108,
+      "gatcha_id": 4018,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2178,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4109,
+      "gatcha_id": 4018,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 4110,
+      "gatcha_id": 4017,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 4111,
+      "gatcha_id": 4016,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2167,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 40096,
+      "gatcha_id": 4102,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40097,
+      "gatcha_id": 4103,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40098,
+      "gatcha_id": 4103,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40099,
+      "gatcha_id": 4104,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40100,
+      "gatcha_id": 4104,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40101,
+      "gatcha_id": 4104,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40102,
+      "gatcha_id": 4105,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1908,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40103,
+      "gatcha_id": 4105,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40104,
+      "gatcha_id": 4105,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40105,
+      "gatcha_id": 4105,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40106,
+      "gatcha_id": 4106,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1909,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40107,
+      "gatcha_id": 4106,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1908,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40108,
+      "gatcha_id": 4106,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40109,
+      "gatcha_id": 4106,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40110,
+      "gatcha_id": 4106,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 40111,
+      "gatcha_id": 4107,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40112,
+      "gatcha_id": 4108,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40113,
+      "gatcha_id": 4108,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40114,
+      "gatcha_id": 4109,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40115,
+      "gatcha_id": 4109,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40116,
+      "gatcha_id": 4109,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40117,
+      "gatcha_id": 4110,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1908,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40118,
+      "gatcha_id": 4110,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40119,
+      "gatcha_id": 4110,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40120,
+      "gatcha_id": 4110,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40121,
+      "gatcha_id": 4111,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1909,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40122,
+      "gatcha_id": 4111,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1908,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40123,
+      "gatcha_id": 4111,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1907,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40124,
+      "gatcha_id": 4111,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1906,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 40125,
+      "gatcha_id": 4111,
+      "resource": {
+        "seeds": [
+          {
+            "id": 1905,
+            "amount": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": 91161,
+      "gatcha_id": 9116,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91162,
+      "gatcha_id": 9116,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91163,
+      "gatcha_id": 9116,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91171,
+      "gatcha_id": 9117,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91172,
+      "gatcha_id": 9117,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91173,
+      "gatcha_id": 9117,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91174,
+      "gatcha_id": 9117,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91175,
+      "gatcha_id": 9117,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91181,
+      "gatcha_id": 9118,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91182,
+      "gatcha_id": 9118,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91183,
+      "gatcha_id": 9118,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91184,
+      "gatcha_id": 9118,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91191,
+      "gatcha_id": 9119,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91192,
+      "gatcha_id": 9119,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91193,
+      "gatcha_id": 9119,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91194,
+      "gatcha_id": 9119,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 91195,
+      "gatcha_id": 9119,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 1,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30210,
+      "gatcha_id": 3204,
+      "resource": {
+        "f": 900
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30211,
+      "gatcha_id": 3205,
+      "resource": {
+        "f": 1800
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30212,
+      "gatcha_id": 3206,
+      "resource": {
+        "f": 3600
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30213,
+      "gatcha_id": 3207,
+      "resource": {
+        "f": 24700
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30214,
+      "gatcha_id": 3208,
+      "resource": {
+        "f": 89800
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30215,
+      "gatcha_id": 3209,
+      "resource": {
+        "f": 260500
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30216,
+      "gatcha_id": 3210,
+      "resource": {
+        "f": 1300
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30217,
+      "gatcha_id": 3211,
+      "resource": {
+        "f": 2700
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30218,
+      "gatcha_id": 3212,
+      "resource": {
+        "f": 5400
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30219,
+      "gatcha_id": 3213,
+      "resource": {
+        "f": 37100
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30220,
+      "gatcha_id": 3214,
+      "resource": {
+        "f": 134700
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30221,
+      "gatcha_id": 3215,
+      "resource": {
+        "f": 390700
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30222,
+      "gatcha_id": 3259,
+      "resource": {
+        "f": 1800
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30223,
+      "gatcha_id": 3260,
+      "resource": {
+        "f": 3600
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30224,
+      "gatcha_id": 3261,
+      "resource": {
+        "f": 7200
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30225,
+      "gatcha_id": 3262,
+      "resource": {
+        "f": 49400
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30226,
+      "gatcha_id": 3263,
+      "resource": {
+        "f": 179600
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30227,
+      "gatcha_id": 3264,
+      "resource": {
+        "f": 521000
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30228,
+      "gatcha_id": 3216,
+      "resource": {
+        "f": 2200
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30229,
+      "gatcha_id": 3217,
+      "resource": {
+        "f": 4500
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30230,
+      "gatcha_id": 3218,
+      "resource": {
+        "f": 9000
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30231,
+      "gatcha_id": 3219,
+      "resource": {
+        "f": 61800
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30232,
+      "gatcha_id": 3220,
+      "resource": {
+        "f": 224600
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30233,
+      "gatcha_id": 3221,
+      "resource": {
+        "f": 651200
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30234,
+      "gatcha_id": 3222,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30235,
+      "gatcha_id": 3223,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30236,
+      "gatcha_id": 3223,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30237,
+      "gatcha_id": 3224,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30238,
+      "gatcha_id": 3224,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30239,
+      "gatcha_id": 3224,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30240,
+      "gatcha_id": 3225,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30241,
+      "gatcha_id": 3225,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30242,
+      "gatcha_id": 3225,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30243,
+      "gatcha_id": 3225,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30244,
+      "gatcha_id": 3226,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30245,
+      "gatcha_id": 3226,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30246,
+      "gatcha_id": 3226,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30247,
+      "gatcha_id": 3226,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30248,
+      "gatcha_id": 3226,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30249,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "H",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30250,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30251,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30252,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30253,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30254,
+      "gatcha_id": 3227,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 30255,
+      "gatcha_id": 3228,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30256,
+      "gatcha_id": 3229,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30257,
+      "gatcha_id": 3229,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30258,
+      "gatcha_id": 3230,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30259,
+      "gatcha_id": 3230,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30260,
+      "gatcha_id": 3230,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30261,
+      "gatcha_id": 3231,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30262,
+      "gatcha_id": 3231,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30263,
+      "gatcha_id": 3231,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30264,
+      "gatcha_id": 3231,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30265,
+      "gatcha_id": 3232,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30266,
+      "gatcha_id": 3232,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30267,
+      "gatcha_id": 3232,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30268,
+      "gatcha_id": 3232,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30269,
+      "gatcha_id": 3232,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30270,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "H",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30271,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30272,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30273,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30274,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30275,
+      "gatcha_id": 3233,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 30276,
+      "gatcha_id": 3234,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30277,
+      "gatcha_id": 3235,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30278,
+      "gatcha_id": 3235,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30279,
+      "gatcha_id": 3236,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30280,
+      "gatcha_id": 3236,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30281,
+      "gatcha_id": 3236,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30282,
+      "gatcha_id": 3237,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30283,
+      "gatcha_id": 3237,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30284,
+      "gatcha_id": 3237,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30285,
+      "gatcha_id": 3237,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30286,
+      "gatcha_id": 3238,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30287,
+      "gatcha_id": 3238,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30288,
+      "gatcha_id": 3238,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30289,
+      "gatcha_id": 3238,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30290,
+      "gatcha_id": 3238,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30291,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "H",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30292,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30293,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30294,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30295,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30296,
+      "gatcha_id": 3239,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": 30297,
+      "gatcha_id": 3240,
+      "resource": {
+        "c": 1
+      }
+    },
+    {
+      "id": 30298,
+      "gatcha_id": 3241,
+      "resource": {
+        "c": 3
+      }
+    },
+    {
+      "id": 30299,
+      "gatcha_id": 3242,
+      "resource": {
+        "c": 5
+      }
+    },
+    {
+      "id": 30300,
+      "gatcha_id": 3243,
+      "resource": {
+        "c": 10
+      }
+    },
+    {
+      "id": 30301,
+      "gatcha_id": 3244,
+      "resource": {
+        "c": 15
+      }
+    },
+    {
+      "id": 30302,
+      "gatcha_id": 3245,
+      "resource": {
+        "c": 105
+      }
+    },
+    {
+      "id": 30303,
+      "gatcha_id": 3246,
+      "resource": {
+        "c": 1
+      }
+    },
+    {
+      "id": 30304,
+      "gatcha_id": 3247,
+      "resource": {
+        "c": 4
+      }
+    },
+    {
+      "id": 30305,
+      "gatcha_id": 3248,
+      "resource": {
+        "c": 7
+      }
+    },
+    {
+      "id": 30306,
+      "gatcha_id": 3249,
+      "resource": {
+        "c": 14
+      }
+    },
+    {
+      "id": 30307,
+      "gatcha_id": 3250,
+      "resource": {
+        "c": 20
+      }
+    },
+    {
+      "id": 30308,
+      "gatcha_id": 3251,
+      "resource": {
+        "c": 155
+      }
+    },
+    {
+      "id": 30309,
+      "gatcha_id": 3265,
+      "resource": {
+        "c": 1
+      }
+    },
+    {
+      "id": 30310,
+      "gatcha_id": 3266,
+      "resource": {
+        "c": 6
+      }
+    },
+    {
+      "id": 30311,
+      "gatcha_id": 3267,
+      "resource": {
+        "c": 10
+      }
+    },
+    {
+      "id": 30312,
+      "gatcha_id": 3268,
+      "resource": {
+        "c": 20
+      }
+    },
+    {
+      "id": 30313,
+      "gatcha_id": 3269,
+      "resource": {
+        "c": 30
+      }
+    },
+    {
+      "id": 30314,
+      "gatcha_id": 3270,
+      "resource": {
+        "c": 210
+      }
+    },
+    {
+      "id": 30315,
+      "gatcha_id": 3252,
+      "resource": {
+        "c": 1
+      }
+    },
+    {
+      "id": 30316,
+      "gatcha_id": 3253,
+      "resource": {
+        "c": 7
+      }
+    },
+    {
+      "id": 30317,
+      "gatcha_id": 3254,
+      "resource": {
+        "c": 12
+      }
+    },
+    {
+      "id": 30318,
+      "gatcha_id": 3255,
+      "resource": {
+        "c": 25
+      }
+    },
+    {
+      "id": 30319,
+      "gatcha_id": 3256,
+      "resource": {
+        "c": 35
+      }
+    },
+    {
+      "id": 30320,
+      "gatcha_id": 3257,
+      "resource": {
+        "c": 260
+      }
+    },
+    {
+      "id": 30321,
+      "gatcha_id": 3271,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 30322,
+      "gatcha_id": 3272,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30323,
+      "gatcha_id": 3273,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30324,
+      "gatcha_id": 3274,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 30325,
+      "gatcha_id": 3275,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": 30326,
+      "gatcha_id": 3276,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 300
+          }
+        ]
+      }
+    },
+    {
+      "id": 30327,
+      "gatcha_id": 3277,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30328,
+      "gatcha_id": 3278,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30329,
+      "gatcha_id": 3279,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 30330,
+      "gatcha_id": 3280,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": 30331,
+      "gatcha_id": 3281,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": 30332,
+      "gatcha_id": 3282,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2277,
+            "amount": 450
+          }
+        ]
+      }
+    },
+    {
+      "id": 30333,
+      "gatcha_id": 3283,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30334,
+      "gatcha_id": 3284,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30335,
+      "gatcha_id": 3285,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": 30336,
+      "gatcha_id": 3286,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 30337,
+      "gatcha_id": 3287,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": 30338,
+      "gatcha_id": 3288,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 370
+          }
+        ]
+      }
+    },
+    {
+      "id": 30339,
+      "gatcha_id": 3289,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30340,
+      "gatcha_id": 3290,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30341,
+      "gatcha_id": 3291,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 30342,
+      "gatcha_id": 3292,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": 30343,
+      "gatcha_id": 3293,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 95
+          }
+        ]
+      }
+    },
+    {
+      "id": 30344,
+      "gatcha_id": 3294,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2331,
+            "amount": 495
+          }
+        ]
+      }
+    },
+    {
+      "id": 30345,
+      "gatcha_id": 3295,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30346,
+      "gatcha_id": 3296,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30347,
+      "gatcha_id": 3296,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30348,
+      "gatcha_id": 3297,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30349,
+      "gatcha_id": 3297,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30350,
+      "gatcha_id": 3297,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30351,
+      "gatcha_id": 3298,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30352,
+      "gatcha_id": 3298,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30353,
+      "gatcha_id": 3298,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30354,
+      "gatcha_id": 3298,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30355,
+      "gatcha_id": 3299,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30356,
+      "gatcha_id": 3299,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30357,
+      "gatcha_id": 3299,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30358,
+      "gatcha_id": 3299,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30359,
+      "gatcha_id": 3299,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30360,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "H",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30361,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30362,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30363,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30364,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30365,
+      "gatcha_id": 3300,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 3,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30366,
+      "gatcha_id": 3301,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30367,
+      "gatcha_id": 3302,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30368,
+      "gatcha_id": 3302,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30369,
+      "gatcha_id": 3303,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30370,
+      "gatcha_id": 3303,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30371,
+      "gatcha_id": 3303,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30372,
+      "gatcha_id": 3304,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30373,
+      "gatcha_id": 3304,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30374,
+      "gatcha_id": 3304,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30375,
+      "gatcha_id": 3304,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30376,
+      "gatcha_id": 3305,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30377,
+      "gatcha_id": 3305,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30378,
+      "gatcha_id": 3305,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30379,
+      "gatcha_id": 3305,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30380,
+      "gatcha_id": 3305,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30381,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "H",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30382,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30383,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30384,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30385,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30386,
+      "gatcha_id": 3306,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 4,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30387,
+      "gatcha_id": 3307,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30388,
+      "gatcha_id": 3308,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30389,
+      "gatcha_id": 3308,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30390,
+      "gatcha_id": 3309,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30391,
+      "gatcha_id": 3309,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30392,
+      "gatcha_id": 3309,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30393,
+      "gatcha_id": 3310,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30394,
+      "gatcha_id": 3310,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30395,
+      "gatcha_id": 3310,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30396,
+      "gatcha_id": 3310,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30397,
+      "gatcha_id": 3311,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30398,
+      "gatcha_id": 3311,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30399,
+      "gatcha_id": 3311,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30400,
+      "gatcha_id": 3311,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30401,
+      "gatcha_id": 3311,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30402,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "H",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30403,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30404,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30405,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30406,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30407,
+      "gatcha_id": 3312,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 5,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30408,
+      "gatcha_id": 3326,
+      "resource": {
+        "f": 400
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30409,
+      "gatcha_id": 3327,
+      "resource": {
+        "f": 900
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30410,
+      "gatcha_id": 3328,
+      "resource": {
+        "f": 1800
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30411,
+      "gatcha_id": 3329,
+      "resource": {
+        "f": 12400
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30412,
+      "gatcha_id": 3330,
+      "resource": {
+        "f": 44900
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30413,
+      "gatcha_id": 3331,
+      "resource": {
+        "f": 130200
+      },
+      "overwritten_tier_multi": 1.4
+    },
+    {
+      "id": 30414,
+      "gatcha_id": 3332,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "C",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30415,
+      "gatcha_id": 3333,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "R",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30416,
+      "gatcha_id": 3334,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "V",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30417,
+      "gatcha_id": 3335,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "E",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30418,
+      "gatcha_id": 3336,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "L",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30419,
+      "gatcha_id": 3337,
+      "resource": {
+        "rarity_seeds": [
+          {
+            "rarity": "H",
+            "amount": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": 30420,
+      "gatcha_id": 3338,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30421,
+      "gatcha_id": 3339,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30422,
+      "gatcha_id": 3339,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30423,
+      "gatcha_id": 3340,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30424,
+      "gatcha_id": 3340,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30425,
+      "gatcha_id": 3340,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30426,
+      "gatcha_id": 3341,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30427,
+      "gatcha_id": 3341,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30428,
+      "gatcha_id": 3341,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30429,
+      "gatcha_id": 3341,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30430,
+      "gatcha_id": 3342,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30431,
+      "gatcha_id": 3342,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30432,
+      "gatcha_id": 3342,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30433,
+      "gatcha_id": 3342,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30434,
+      "gatcha_id": 3342,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30435,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "H",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30436,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "L",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30437,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "E",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30438,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "V",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30439,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "R",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30440,
+      "gatcha_id": 3343,
+      "resource": {
+        "trade_tickets": [
+          {
+            "rarity": "C",
+            "amount": 2,
+            "limit": false
+          }
+        ]
+      }
+    },
+    {
+      "id": 30441,
+      "gatcha_id": 3344,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 30442,
+      "gatcha_id": 3345,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30443,
+      "gatcha_id": 3346,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30444,
+      "gatcha_id": 3347,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 30445,
+      "gatcha_id": 3348,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": 30446,
+      "gatcha_id": 3349,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 300
+          }
+        ]
+      }
+    },
+    {
+      "id": 30447,
+      "gatcha_id": 3350,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30448,
+      "gatcha_id": 3351,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30449,
+      "gatcha_id": 3352,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 30450,
+      "gatcha_id": 3353,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": 30451,
+      "gatcha_id": 3354,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": 30452,
+      "gatcha_id": 3355,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2510,
+            "amount": 450
+          }
+        ]
+      }
+    },
+    {
+      "id": 30453,
+      "gatcha_id": 3356,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 30454,
+      "gatcha_id": 3357,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30455,
+      "gatcha_id": 3358,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30456,
+      "gatcha_id": 3359,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 30457,
+      "gatcha_id": 3360,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 30458,
+      "gatcha_id": 3361,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 245
+          }
+        ]
+      }
+    },
+    {
+      "id": 30459,
+      "gatcha_id": 3362,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30460,
+      "gatcha_id": 3363,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30461,
+      "gatcha_id": 3364,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": 30462,
+      "gatcha_id": 3365,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 30463,
+      "gatcha_id": 3366,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": 30464,
+      "gatcha_id": 3367,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2355,
+            "amount": 370
+          }
+        ]
+      }
+    },
+    {
+      "id": 30486,
+      "gatcha_id": 3389,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 30469,
+      "gatcha_id": 3372,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 60
+          }
+        ]
+      }
+    },
+    {
+      "id": 30479,
+      "gatcha_id": 3382,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30485,
+      "gatcha_id": 3388,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 25
+          }
+        ]
+      }
+    },
+    {
+      "id": 30473,
+      "gatcha_id": 3376,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 30482,
+      "gatcha_id": 3385,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 245
+          }
+        ]
+      }
+    },
+    {
+      "id": 30483,
+      "gatcha_id": 3386,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30474,
+      "gatcha_id": 3377,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 55
+          }
+        ]
+      }
+    },
+    {
+      "id": 30478,
+      "gatcha_id": 3381,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30481,
+      "gatcha_id": 3384,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 45
+          }
+        ]
+      }
+    },
+    {
+      "id": 30480,
+      "gatcha_id": 3383,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 30
+          }
+        ]
+      }
+    },
+    {
+      "id": 30468,
+      "gatcha_id": 3371,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 35
+          }
+        ]
+      }
+    },
+    {
+      "id": 30472,
+      "gatcha_id": 3375,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30476,
+      "gatcha_id": 3379,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 450
+          }
+        ]
+      }
+    },
+    {
+      "id": 30471,
+      "gatcha_id": 3374,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 30467,
+      "gatcha_id": 3370,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": 30477,
+      "gatcha_id": 3380,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 30466,
+      "gatcha_id": 3369,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30465,
+      "gatcha_id": 3368,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 30484,
+      "gatcha_id": 3387,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 15
+          }
+        ]
+      }
+    },
+    {
+      "id": 30475,
+      "gatcha_id": 3378,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 90
+          }
+        ]
+      }
+    },
+    {
+      "id": 30470,
+      "gatcha_id": 3373,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2508,
+            "amount": 300
+          }
+        ]
+      }
+    },
+    {
+      "id": 30487,
+      "gatcha_id": 3390,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 70
+          }
+        ]
+      }
+    },
+    {
+      "id": 30488,
+      "gatcha_id": 3391,
+      "resource": {
+        "seeds": [
+          {
+            "id": 2048,
+            "amount": 370
+          }
+        ]
+      }
+    }
+  ]
+}
