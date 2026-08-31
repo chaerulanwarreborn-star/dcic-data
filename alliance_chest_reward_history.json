@@ -6542,5 +6542,59 @@
         ]
       }
     }
-  ]
+  ],
+  "classic_dragon_history": {
+    "source_rule": "Original = dragon pool used by classic reward sets 1–3 / Alliance Chest collection. Special Event-Themed = additional dragon IDs introduced by classic reward sets 4–19.",
+    "groups": [
+      {
+        "id": "original",
+        "title": "Original Alliance Rewards",
+        "dragon_ids": [
+          2027,
+          2019,
+          2020,
+          2021,
+          2022,
+          2025,
+          2028,
+          2030,
+          2032,
+          2034,
+          2035,
+          2036,
+          2037
+        ]
+      },
+      {
+        "id": "special_event_themed",
+        "title": "Special Event-Themed Alliance Rewards",
+        "dragon_ids": [
+          1828,
+          1872,
+          1958,
+          1623,
+          2059,
+          1578,
+          1579,
+          1580,
+          1581,
+          1798,
+          1543,
+          2167,
+          2176,
+          2178,
+          1291,
+          1510,
+          2169,
+          2170,
+          2177,
+          1905,
+          1906,
+          1907,
+          1908,
+          1909
+        ]
+      }
+    ]
+  }
 }
