@@ -29,7 +29,7 @@ from typing import Any, Dict, Iterable, List, Mapping, Optional, Sequence, Tuple
 ROOT = Path(__file__).resolve().parent
 ASSET_RAW = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/"
 ICON_RAW = ASSET_RAW + "icons/"
-WIZARD_ASSET_RAW = ICON_RAW
+WIZARD_ASSET_RAW = ICON_RAW + "wizards-cave/"
 STATIC_DC = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 
 
@@ -231,6 +231,33 @@ def compact_entity(row: Optional[Mapping[str, Any]], rid: Any, fallback_name: st
     return result
 
 
+def dragon_full_body_candidates(row: Optional[Mapping[str, Any]]) -> List[str]:
+    """Build canonical full-body Dragon City artwork URLs, never HD thumbnail crops."""
+    row = dict(row or {})
+    raw = str(row.get("img_name_mobile") or row.get("img_name") or "").strip().replace("\\", "/")
+    raw = raw.rsplit("/", 1)[-1]
+    raw = re.sub(r"\.png$", "", raw, flags=re.I)
+    raw = re.sub(r"@2x$", "", raw, flags=re.I)
+    raw = re.sub(r"^ui_", "", raw, flags=re.I)
+    raw = re.sub(r"_3$", "", raw, flags=re.I)
+
+    # If compact DB only exposed a thumb URL, recover the dragon asset slug from it.
+    if not raw:
+        for candidate in image_values(row):
+            m = re.search(r"/HD/thumb_(.+?)_3(?:@2x)?\.png(?:\?.*)?$", str(candidate), flags=re.I)
+            if m:
+                raw = m.group(1)
+                break
+            m = re.search(r"/ui/(?:dragons/)?ui_(.+?)_3(?:@2x)?\.png(?:\?.*)?$", str(candidate), flags=re.I)
+            if m:
+                raw = m.group(1)
+                break
+    if not raw:
+        return []
+    base = STATIC_DC + "mobile/ui/dragons/"
+    return [base + "ui_" + raw + "_3@2x.png", base + "ui_" + raw + "_3.png"]
+
+
 def search_dragon_in_game_config(raw: Any, dragon_id: int) -> Optional[Dict[str, Any]]:
     """Best-effort fallback; bounded recursive traversal to avoid depending on one main-config schema."""
     if not isinstance(raw, dict):
@@ -290,6 +317,10 @@ def normalize_reward(
         if not drow:
             drow = search_dragon_in_game_config(game_config, did)
         ent = compact_entity(drow, did, f"Dragon #{did}")
+        full_body = dragon_full_body_candidates(drow)
+        if full_body:
+            ent["full_body_image"] = full_body[0]
+            ent["image_candidates"] = unique_strings(full_body + list(ent.get("image_candidates") or []))[:10]
         ent.update({"reward_id": rid, "type": "dragon", "popup": {"kind": "dragon", "id": did}})
         return ent
 
