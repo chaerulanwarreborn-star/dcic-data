@@ -7,7 +7,7 @@ on:
     paths:
       - game_config.json
       - side_events_config.json
-      - extract_wizards_hollow_fix_runes_v2.py
+      - extract_wizards_hollow.py
       - localization/dragon_city_localization_baseline_en.json
       - extract_events.py
       - extract_fog_island.py
@@ -80,7 +80,7 @@ jobs:
         run: python extract_alliance_chest.py --localization localization/dragon_city_localization_baseline_en.json
 
       - name: Build wizards_hollow.json
-        run: python extract_wizards_hollow_fix_runes_v2.py --localization localization/dragon_city_localization_baseline_en.json
+        run: python extract_wizards_hollow.py --localization localization/dragon_city_localization_baseline_en.json
 
       - name: Build arena_seasons.json
         run: python extract_arena_seasons.py
