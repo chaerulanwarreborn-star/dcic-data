@@ -17,7 +17,7 @@ needed by the browser.
 """
 from __future__ import annotations
 
-EXTRACTOR_BUILD = "2026-09-01-rune-fix-v2"
+EXTRACTOR_BUILD = "2026-09-01-rune-amount-fix-v3"
 
 import argparse
 import json
@@ -409,6 +409,15 @@ def goal_reward_id(goal: Mapping[str, Any]) -> Optional[int]:
     return None
 
 
+def action_required_amount(action: Mapping[str, Any]) -> int:
+    """Resolve the rune target from a collectible-action row across config generations."""
+    for key in ("amount", "required_amount", "target", "quantity", "count", "value"):
+        n = as_int(action.get(key), 0)
+        if n > 0:
+            return n
+    return 0
+
+
 def resolve_rune_goal(
     config: Mapping[str, Any], goal_id: Any, ui_reward_id: Any,
     reward_by_id: Mapping[int, Mapping[str, Any]], dragons: Mapping[Any, Dict[str, Any]],
@@ -418,33 +427,37 @@ def resolve_rune_goal(
     goals = by_id(find_goal_rows(config))
     actions = by_id(list_rows(config.get("collectible_actions")))
     goal = goals.get(gid, {})
+    collectible_ids = goal_collectible_ids(goal)
     required: Optional[int] = None
     action_type = ""
-    for aid in goal_collectible_ids(goal):
+
+    for aid in collectible_ids:
         action = actions.get(aid)
         if not action:
             continue
-        amount = as_int(action.get("amount"), 0)
+        amount = action_required_amount(action)
         if amount > 0 and (required is None or amount > required):
             required = amount
         if action.get("type"):
             action_type = str(action.get("type"))
-    # Some config generations put the amount directly on the goal.
+
+    # Some config generations put the target directly on the goal instead.
     if required is None:
-        for key in ("required_amount", "amount", "target", "quantity"):
+        for key in ("required_amount", "amount", "target", "quantity", "count", "value"):
             n = as_int(goal.get(key), 0)
             if n > 0:
                 required = n
                 break
+
     # The goal row is authoritative for the reward tied to this rune target.
-    # ui_config left/right popup ids describe visual placement and can be reversed
-    # relative to silver/golden goal_ids (for example Cave 11). Use ui_config only
-    # as a fallback when an older config generation omits the goal reward.
+    # ui_config left/right are only visual-placement fallbacks.
     gr = goal_reward_id(goal)
     display_reward_id = gr if gr is not None and gr >= 0 else as_int(ui_reward_id, -1)
     reward = normalize_reward(display_reward_id, reward_by_id, dragons, skins, chests, game_config) if display_reward_id >= 0 else None
+
     return {
         "goal_id": gid if gid >= 0 else None,
+        "collectible_action_ids": collectible_ids,
         "required": required,
         "action_type": action_type or None,
         "reward": reward,
@@ -544,6 +557,18 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
                 "rune_rewards": {"silver": silver, "golden": golden},
             })
 
+    # Never silently publish a '?' rune requirement again. Every configured rune goal
+    # used by a Hollow must resolve to a positive collectible-action amount.
+    missing_requirements = []
+    for row in occurrences:
+        for rune_kind in ("silver", "golden"):
+            goal = (row.get("rune_rewards") or {}).get(rune_kind) or {}
+            if goal.get("goal_id") is not None and as_int(goal.get("required"), 0) <= 0:
+                missing_requirements.append((row.get("cave_id"), rune_kind, goal.get("goal_id"), goal.get("collectible_action_ids")))
+    if missing_requirements:
+        sample = ", ".join(str(x) for x in missing_requirements[:8])
+        raise SystemExit("Unresolved Wizards' Hollow rune requirements: " + sample)
+
     occurrences.sort(key=lambda x: (as_int(x.get("start_ts")), as_int(x.get("cave_id"))))
     # Build enough for current + five future cards, but keep a wider window for the full page/archive.
     current = next((x for x in occurrences if as_int(x.get("start_ts")) <= now < as_int(x.get("end_ts"))), None)
@@ -555,6 +580,7 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
         "generated_at": int(time.time()),
         "meta": {
             "source": "side_events_config.json:wizards_cave",
+            "extractor_build": EXTRACTOR_BUILD,
             "future_days": int(args.future_days),
             "occurrence_count": len(occurrences),
             "current_cave_id": current_id,
