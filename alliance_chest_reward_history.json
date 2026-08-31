@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "source": {
     "type": "historical_game_config_snapshot",
     "file": "get_game_config-210321.php.json",
@@ -8,7 +8,50 @@
   },
   "rules": {
     "legacy_resource_reward_end": "2023-01-31T23:00:00+07:00",
-    "mythical_alliance_start": "2024-05-25T23:00:00+07:00"
+    "mythical_alliance_start": "2024-05-25T23:00:00+07:00",
+    "alliance_chest_update_1_start": "2023-01-31T23:00:00+07:00",
+    "alliance_chest_feb10_rebalance_start": "2023-02-10T23:00:00+07:00",
+    "alliance_chest_update_2_start": "2023-03-28T23:00:00+07:00",
+    "historical_mission_family_overrides": [
+      {
+        "id": "update_1_arena_food_keys",
+        "start": "2023-01-31T23:00:00+07:00",
+        "end": "2023-03-28T23:00:00+07:00",
+        "match_activity": "PVP_ARENAS",
+        "historical_activity": "PVP_ARENAS",
+        "historical_mission_name": "Win Arena Battles",
+        "historical_mission_short": "Arena",
+        "keep_chest_id": true,
+        "reward_set_by_duration_days": {
+          "2": 67,
+          "3": 68
+        },
+        "highlight": "food",
+        "evidence": "Alliance Chest Update 1.0: Arena rewarded Food + Missing Dragon Rescue Keys before Update 2.0.",
+        "quantity_status_before": "2023-02-10T23:00:00+07:00",
+        "quantity_status_before_value": "family_confirmed_quantity_pending",
+        "quantity_status_after_value": "rebalance_config_supported"
+      },
+      {
+        "id": "update_1_level_up_gems",
+        "start": "2023-01-31T23:00:00+07:00",
+        "end": "2023-03-28T23:00:00+07:00",
+        "match_activity": "PVP_LEAGUES",
+        "historical_activity": "LEVELING_UP",
+        "historical_mission_name": "Level Up Dragons",
+        "historical_mission_short": "Level Up",
+        "chest_id_by_duration_days": {
+          "2": 87,
+          "3": 88
+        },
+        "reward_set_by_duration_days": {
+          "2": 69,
+          "3": 70
+        },
+        "highlight": "gems",
+        "evidence": "Alliance Chest Update 1.0 replaced League with Level Up; Update 2.0 restored League on Mar 28, 2023. Feb-10 rebalance gatchas remain in the current config."
+      }
+    ]
   },
   "static_rewards": [
     {
