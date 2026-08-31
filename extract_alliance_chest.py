@@ -36,6 +36,13 @@ def archive_ts(value):
     return int(datetime.fromisoformat(value).replace(tzinfo=DC_ARCHIVE_TZ).timestamp())
 
 HISTORICAL_REPEAT_WINDOWS=[
+    # Apr 2019-Mar 2020: the 2-week Week 39-40 block repeated continuously until
+    # the next explicit anchor on Mar 30, 2020. This is strongly corroborated by
+    # contemporary screenshots throughout 2019 (Hatch/Arena/League/Breed dates).
+    # Unlike the shorter windows below, this one tiles the whole source block.
+    {'source_start':archive_ts('2019-04-01T23:00:00'),'source_end':archive_ts('2019-04-15T23:00:00'),
+     'target_start':archive_ts('2019-04-15T23:00:00'),'target_end':archive_ts('2020-03-30T23:00:00'),
+     'repeat_pattern':True,'archive_cycle':'2019_classic_repeat'},
     # Cycle 3 repeated after its first block and was cut when Cycle 4 arrived.
     {'source_start':archive_ts('2021-02-01T23:00:00'),'source_end':archive_ts('2021-05-31T23:00:00'),
      'target_start':archive_ts('2021-05-31T23:00:00'),'target_end':archive_ts('2021-06-08T23:00:00'),'archive_cycle':3},
@@ -118,36 +125,57 @@ def merge_days(days):
     return out
 
 def repeat_occurrence_window(occurrences, spec):
-    """Repeat the beginning of a known historical cycle into a removed config gap.
+    """Restore an evidence-backed historical repeat into a removed config gap.
 
-    Only schedule/chest IDs are copied. Reward metadata is resolved later from the
-    copied chest ID, so the archive keeps the original chest economy for that cycle.
+    By default the source block is copied once. If ``repeat_pattern`` is true, the
+    complete source interval is tiled repeatedly until ``target_end``. Only the
+    schedule/chest IDs are copied; reward metadata is resolved later from the copied
+    chest ID so the historical chest economy is preserved.
     """
     source_start=int(spec['source_start']); source_end=int(spec['source_end'])
     target_start=int(spec['target_start']); target_end=int(spec['target_end'])
     if source_end<=source_start or target_end<=target_start:
         return []
-    shift=target_start-source_start
+
+    source_rows=[x for x in sorted(occurrences,key=lambda x:x['start_ts'])
+                 if source_start <= int(x['start_ts']) < source_end]
+    if not source_rows:
+        return []
+
+    pattern_len=source_end-source_start
+    tile=bool(spec.get('repeat_pattern'))
+    repeat_starts=[]
+    if tile:
+        cycle_start=target_start
+        while cycle_start < target_end:
+            repeat_starts.append(cycle_start)
+            cycle_start += pattern_len
+    else:
+        repeat_starts=[target_start]
+
     out=[]
-    for original in sorted(occurrences,key=lambda x:x['start_ts']):
-        # Only copy missions belonging to the source block itself.
-        if original['start_ts'] < source_start or original['start_ts'] >= source_end:
-            continue
-        ns=int(original['start_ts'])+shift; ne=int(original['end_ts'])+shift
-        if ns>=target_end:
-            continue
-        ne=min(ne,target_end)
-        if ne<=target_start or ne<=ns:
-            continue
-        ns=max(ns,target_start)
-        row=dict(original)
-        row['start_ts']=ns; row['end_ts']=ne
-        row['schedule_source']='historical_repeat'
-        row['cycle_repeat']=1
-        row['archive_cycle']=spec.get('archive_cycle')
-        row['historical_source_start_ts']=int(original['start_ts'])
-        row['historical_source_end_ts']=int(original['end_ts'])
-        out.append(row)
+    for repeat_index,cycle_start in enumerate(repeat_starts,1):
+        shift=cycle_start-source_start
+        for original in source_rows:
+            ns=int(original['start_ts'])+shift
+            ne=int(original['end_ts'])+shift
+            if ns>=target_end:
+                continue
+            # Do not manufacture partial missions at the end of a reconstructed
+            # window. A mission is copied only when its full historical duration fits
+            # before the next confirmed anchor.
+            if ne>target_end or ne<=target_start or ns<target_start:
+                continue
+            row=dict(original)
+            row['start_ts']=ns; row['end_ts']=ne
+            row['schedule_source']='historical_repeat'
+            row['cycle_repeat']=repeat_index
+            row['archive_cycle']=spec.get('archive_cycle')
+            row['historical_source_start_ts']=int(original['start_ts'])
+            row['historical_source_end_ts']=int(original['end_ts'])
+            if tile:
+                row['historical_repeat_index']=repeat_index
+            out.append(row)
     return out
 
 
@@ -468,7 +496,7 @@ def build(args):
     dragon_reward_history=build_dragon_reward_history(enriched)
 
     payload={
-        'schema_version':3,
+        'schema_version':4,
         'generated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'meta':{
             'mission_occurrences':len(enriched),
@@ -480,7 +508,7 @@ def build(args):
             'historical_repeat_windows':len(HISTORICAL_REPEAT_WINDOWS),
             'historical_reward_overrides':len(HISTORICAL_BREEDING_ORB_OVERRIDES),
             'dragon_reward_history_pairs':len(dragon_reward_history),
-            'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill old schedule gaps.',
+            'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill uncertain transition gaps.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
             'player_level_tiers':next((x.get('value') for x in g.get('parameters',[]) if x.get('name') in ('REWARDS_TIERS','LEVEL_TIERS') and isinstance(x.get('value'),list)),[5,11,17,21,28,35,41,49,74,99,150]),
             'player_level_cap':200,
