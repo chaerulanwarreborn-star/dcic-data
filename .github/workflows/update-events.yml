@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - game_config.json
+      - side_events_config.json
       - localization/dragon_city_localization_baseline_en.json
       - extract_events.py
       - extract_fog_island.py
@@ -14,6 +15,7 @@ on:
       - extract_maze_island.py
       - extract_chests.py
       - extract_alliance_chest.py
+      - extract_wizards_hollow.py
       - extract_heroic_race.py
       - legacy/heroic_races/**
       - heroic_race_archive_overrides.json
@@ -80,10 +82,13 @@ jobs:
       - name: Build arena_seasons.json
         run: python extract_arena_seasons.py
 
+      - name: Build wizards_hollow.json
+        run: python extract_wizards_hollow.py
+
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json
+          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json wizards_hollow.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
