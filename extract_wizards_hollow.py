@@ -17,6 +17,8 @@ needed by the browser.
 """
 from __future__ import annotations
 
+EXTRACTOR_BUILD = "2026-09-01-rune-fix-v2"
+
 import argparse
 import json
 import math
@@ -387,7 +389,7 @@ def find_goal_rows(config: Mapping[str, Any]) -> List[Dict[str, Any]]:
 
 
 def goal_collectible_ids(goal: Mapping[str, Any]) -> List[int]:
-    for key in ("collectibles", "collectible_ids", "actions", "action_ids"):
+    for key in ("collectible_actions", "collectibles", "collectible_ids", "actions", "action_ids"):
         v = goal.get(key)
         if isinstance(v, list):
             return [as_int(x, -1) for x in v if as_int(x, -1) >= 0]
@@ -434,12 +436,12 @@ def resolve_rune_goal(
             if n > 0:
                 required = n
                 break
-    # ui_config reward ids are the display rewards used by the official Hollow news/start UI.
-    # Prefer them, but keep goal reward as a documented fallback.
-    display_reward_id = as_int(ui_reward_id, -1)
-    if display_reward_id < 0:
-        gr = goal_reward_id(goal)
-        display_reward_id = gr if gr is not None else -1
+    # The goal row is authoritative for the reward tied to this rune target.
+    # ui_config left/right popup ids describe visual placement and can be reversed
+    # relative to silver/golden goal_ids (for example Cave 11). Use ui_config only
+    # as a fallback when an older config generation omits the goal reward.
+    gr = goal_reward_id(goal)
+    display_reward_id = gr if gr is not None and gr >= 0 else as_int(ui_reward_id, -1)
     reward = normalize_reward(display_reward_id, reward_by_id, dragons, skins, chests, game_config) if display_reward_id >= 0 else None
     return {
         "goal_id": gid if gid >= 0 else None,
