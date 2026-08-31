@@ -233,12 +233,19 @@ def build_dragon_reward_history(missions):
     return list(reversed(rows))
 
 def chest_image_fallback(c, level=6):
-    asset=str(c.get('asset_name') or '').replace('%d',str(level))
+    # Legacy Alliance Chests (the old 5-level system) used the tier-3 chest
+    # artwork even when the featured/final reward level was 5.  Using the
+    # featured level directly produces nonexistent *_5_* asset URLs and leaves
+    # broken images in the archive.
+    visual_level = 3 if int(level or 0) <= 5 else int(level or 6)
+    asset=str(c.get('asset_name') or '').replace('%d',str(visual_level))
     if not asset: return []
     candidates=[]
-    # Modern alliance assets follow ui_basic most often.
-    for prefix in ('ui_basic_','ui_',''):
+    prefixes = ('ui_','ui_basic_','') if visual_level == 3 else ('ui_basic_','ui_','')
+    for prefix in prefixes:
         candidates.append(CHEST_CDN+prefix+asset+'@2x.png')
+    candidates.append(CHEST_CDN+asset+'.png')
+    candidates.append(ASSET_RAW+'override/ui_000_chest_diagram%402x.png')
     return candidates
 
 def build(args):
