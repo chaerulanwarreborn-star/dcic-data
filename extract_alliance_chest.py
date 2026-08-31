@@ -610,6 +610,15 @@ def build(args):
             item['highlighted_reward']=hi
             item['preview_rewards']=preview_rewards(c,hi,provider)
             if used_snapshot:
+                # The 2021 snapshot's Food amount is the base Lv. 1-5 value.
+                # Do not treat it as tier index 2; historical max display is
+                # selected separately from the player-level cap timeline.
+                legacy_ref=int(history_rules.get('legacy_snapshot_level_scaled_reference_tier_index',0) or 0)
+                if (item.get('highlighted_reward') or {}).get('level_scaled'):
+                    item['highlighted_reward']['reference_tier_index']=legacy_ref
+                for rr in (item.get('preview_rewards') or []):
+                    if rr.get('level_scaled'):
+                        rr['reference_tier_index']=legacy_ref
                 item['resource_reward_source']='historical_snapshot_2021-03-21'
             else:
                 item['resource_reward_source']='current_config'
@@ -674,6 +683,7 @@ def build(args):
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
             'player_level_tiers':next((x.get('value') for x in g.get('parameters',[]) if x.get('name') in ('REWARDS_TIERS','LEVEL_TIERS') and isinstance(x.get('value'),list)),[5,11,17,21,28,35,41,49,74,99,150]),
             'player_level_cap':200,
+            'player_level_cap_history':history_rules.get('player_level_cap_history') or [],
         },
         'assets':{
             'alliance_grove':ASSET_RAW+'items/buildings/alliance-grove.png',
