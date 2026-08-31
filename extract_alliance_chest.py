@@ -14,7 +14,7 @@ ACTIVITY_META={
     'PVP_LEAGUES': {'name':'Win League Battles','short':'Leagues','highlight':'joker_orbs'},
     'BREEDING': {'name':'Breed Dragons','short':'Breeding','highlight':'orbs'},
     'GROWING_FOOD': {'name':'Grow Food','short':'Growing Food','highlight':'food'},
-    'LEVELING_UP': {'name':'Feed Dragons','short':'Feeding','highlight':'food'},
+    'LEVELING_UP': {'name':'Level Up Dragons','short':'Level Up','highlight':'gems'},
 }
 
 HIGHLIGHT_ICONS={
@@ -263,6 +263,13 @@ def build(args):
     historical_static_by={}
     for x in reward_history.get('static_rewards') or []:
         historical_static_by.setdefault(int(x['gatcha_id']),[]).append(x)
+    history_rules=reward_history.get('rules') or {}
+    historical_mission_specs=history_rules.get('historical_mission_family_overrides') or []
+
+    def history_rule_ts(value):
+        if value in (None,''):
+            return None
+        return int(datetime.fromisoformat(str(value)).timestamp())
 
     def highest_level(c):
         ls=level_sets.get(int(c.get('level_set') or 0),[])
@@ -283,9 +290,9 @@ def build(args):
                 if val is not None: return val,row,gid
         return None,None,None
 
-    def highlight(c, static_provider=None):
+    def highlight(c, static_provider=None, highlight_type=None):
         activity=str(c.get('activity') or '')
-        typ=(ACTIVITY_META.get(activity) or {}).get('highlight') or 'food'
+        typ=highlight_type or (ACTIVITY_META.get(activity) or {}).get('highlight') or 'food'
         result={'type':typ,'label':{'gems':'Gems','food':'Food','joker_orbs':'Joker Orbs','orbs':'Orbs'}.get(typ,typ.replace('_',' ').title()),
                 'amount':None,'image_url':HIGHLIGHT_ICONS.get(typ),'level_scaled':False,'dragon_id':None,'rarity':None,'reference_tier_index':2}
         if typ=='gems':
@@ -487,6 +494,83 @@ def build(args):
         item['featured_reward_source']='config'
         return item
 
+    def apply_historical_mission_family_override(item):
+        """Restore mission/reward families overwritten by the 2023 live config.
+
+        Alliance Chest Update 1.0 temporarily moved Food+Keys to Arena and replaced
+        League with Level Up (Gems+Trade Essences). Update 2.0 reversed that mapping
+        on Mar 28, 2023. The mutable current config now exposes the post-Update-2
+        families at the older timestamps, so resolve those occurrence rows from the
+        compact historical rules dataset instead.
+        """
+        if not historical_mission_specs:
+            return item
+        start_ts=int(item.get('start_ts') or 0)
+        original_activity=str(item.get('activity') or '')
+        duration_days=max(1,round((int(item.get('end_ts') or start_ts)-start_ts)/DAY))
+        for spec in historical_mission_specs:
+            st=history_rule_ts(spec.get('start')); en=history_rule_ts(spec.get('end'))
+            if st is not None and start_ts < st:
+                continue
+            if en is not None and start_ts >= en:
+                continue
+            if original_activity != str(spec.get('match_activity') or ''):
+                continue
+
+            original_cid=int(item.get('chest_id') or 0)
+            hist_cid=original_cid
+            cid_map=spec.get('chest_id_by_duration_days') or {}
+            if str(duration_days) in cid_map:
+                hist_cid=int(cid_map[str(duration_days)])
+            keep_cid=bool(spec.get('keep_chest_id'))
+            if keep_cid:
+                hist_cid=original_cid
+
+            # When the historical mission had its own retained chest object (Level
+            # Up IDs 87/88), inherit its point table/image metadata. Schedule timing
+            # and archive provenance remain untouched.
+            if hist_cid != original_cid and hist_cid in meta_by_id:
+                hm=meta_by_id[hist_cid]
+                for key in ('featured_level','levels','featured_points','chest_name',
+                            'chest_image_candidates','asset_name','level_set'):
+                    if key in hm:
+                        item[key]=hm[key]
+                item['historical_original_config_chest_id']=original_cid
+                item['chest_id']=hist_cid
+
+            hist_activity=str(spec.get('historical_activity') or original_activity)
+            item['activity']=hist_activity
+            item['mission_name']=spec.get('historical_mission_name') or (ACTIVITY_META.get(hist_activity) or {}).get('name') or item.get('mission_name')
+            item['mission_short']=spec.get('historical_mission_short') or (ACTIVITY_META.get(hist_activity) or {}).get('short') or item.get('mission_short')
+            if hist_activity=='LEVELING_UP':
+                item['chest_name']='Level Up Dragons Alliance Chest'
+
+            reward_set_map=spec.get('reward_set_by_duration_days') or {}
+            reward_set=reward_set_map.get(str(duration_days))
+            reward_base=chests.get(hist_cid) or chests.get(original_cid)
+            if reward_base and reward_set is not None:
+                reward_c=dict(reward_base)
+                reward_c['reward_set']=int(reward_set)
+                hi=highlight(reward_c,highlight_type=spec.get('highlight'))
+                preview=preview_rewards(reward_c,hi)
+                # Mythical did not exist in Alliance Chest rewards in this 2023 era.
+                preview=[r for r in preview if str(r.get('rarity') or '').upper()!='M']
+                item['highlighted_reward']=hi
+                item['preview_rewards']=preview
+                item['reward_set']=int(reward_set)
+                item['historical_reward_set']=int(reward_set)
+
+            item['historical_mission_override']=spec.get('id') or 'historical_mission_family_override'
+            item['historical_mission_evidence']=spec.get('evidence')
+            item['resource_reward_source']='historical_2023_update_family'
+            cutoff=history_rule_ts(spec.get('quantity_status_before'))
+            if cutoff is not None:
+                item['historical_reward_quantity_status']=(spec.get('quantity_status_before_value') if start_ts < cutoff else spec.get('quantity_status_after_value'))
+            else:
+                item['historical_reward_quantity_status']='rebalance_config_supported'
+            return item
+        return item
+
     def apply_historical_resource_rewards(item):
         """Resolve time-correct Food/Essence/Joker rewards for an occurrence.
 
@@ -551,6 +635,7 @@ def build(args):
         if item.get('activity')=='PVP_LEAGUES' and hr.get('amount') is None:
             hr=dict(hr); hr['amount']={2:3,3:4,4:6}.get(max(1,round(item['duration_seconds']/DAY))); item['highlighted_reward']=hr
         item=apply_historical_resource_rewards(item)
+        item=apply_historical_mission_family_override(item)
         item=apply_historical_breeding_orb_override(item)
         item['occurrence_id']=f"{item['start_ts']}-{item['chest_id']}"
         enriched.append(item)
@@ -558,7 +643,7 @@ def build(args):
     dragon_reward_history=build_dragon_reward_history(enriched)
 
     payload={
-        'schema_version':5,
+        'schema_version':6,
         'generated_at':datetime.now(timezone.utc).isoformat().replace('+00:00','Z'),
         'meta':{
             'mission_occurrences':len(enriched),
@@ -573,7 +658,10 @@ def build(args):
             'historical_reward_dataset':Path(args.reward_history).name,
             'legacy_resource_snapshot':'2021-03-21',
             'mythical_alliance_start_ts':MYTHICAL_ALLIANCE_START,
-            'resource_reward_rule':'Use the compact historical reward dataset derived from the 2021 snapshot for matching legacy resource gatchas before the 2023 overhaul; remove Mythical Alliance rewards before May 25, 2024.',
+            'historical_mission_family_overrides':len(historical_mission_specs),
+            'alliance_chest_update_1_start':history_rules.get('alliance_chest_update_1_start'),
+            'alliance_chest_update_2_start':history_rules.get('alliance_chest_update_2_start'),
+            'resource_reward_rule':'Use the compact historical reward dataset derived from the 2021 snapshot for matching legacy resource gatchas before the 2023 overhaul; restore evidence-backed 2023 Update 1.0 mission/reward-family swaps; remove Mythical Alliance rewards before May 25, 2024.',
             'dragon_reward_history_pairs':len(dragon_reward_history),
             'archive_rule':'Restore only evidence-backed historical repeats and reward overrides; do not blanket-fill uncertain transition gaps.',
             'min_user_level':next((int(x.get('value')) for x in ac.get('parameters',[]) if x.get('name')=='MIN_USER_LEVEL' and isinstance(x.get('value'),(int,float))),16),
