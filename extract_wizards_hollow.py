@@ -6,6 +6,7 @@ Inputs (repository root by default):
   game_config.json                         # optional fallback lookup; kept build-time only
   localization/dragon_city_localization_baseline_en.json
   dragons.json                             # optional, preferred dragon names/art
+  extract_dragons.py                       # optional, shared full-body override source
   skins.json                               # optional, preferred skin names/art
   chests.json                              # optional, preferred chest names/art
 
@@ -17,7 +18,7 @@ needed by the browser.
 """
 from __future__ import annotations
 
-EXTRACTOR_BUILD = "2026-09-01-rune-amount-fix-v3"
+EXTRACTOR_BUILD = "2026-09-01-dragon-override-fix-v4"
 
 import argparse
 import json
@@ -33,6 +34,18 @@ ASSET_RAW = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-asse
 ICON_RAW = ASSET_RAW + "icons/"
 WIZARD_ASSET_RAW = ICON_RAW + "wizards-cave/"
 STATIC_DC = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
+
+# Reuse the exact full-body overrides maintained by extract_dragons.py.
+# dragons.json is still the preferred compact source; these mappings guarantee that
+# Wizards' Hollow follows the same corrected art when an override exists.
+try:
+    from extract_dragons import (
+        DRAGON_FULL_BODY_OVERRIDES as DCIC_DRAGON_FULL_BODY_OVERRIDES,
+        DRAGON_ASSET_OVERRIDES as DCIC_DRAGON_ASSET_OVERRIDES,
+    )
+except Exception:
+    DCIC_DRAGON_FULL_BODY_OVERRIDES = {}
+    DCIC_DRAGON_ASSET_OVERRIDES = {}
 
 
 def load_json(path: Path, default: Any = None) -> Any:
@@ -233,9 +246,34 @@ def compact_entity(row: Optional[Mapping[str, Any]], rid: Any, fallback_name: st
     return result
 
 
-def dragon_full_body_candidates(row: Optional[Mapping[str, Any]]) -> List[str]:
-    """Build canonical full-body Dragon City artwork URLs, never HD thumbnail crops."""
+def dragon_full_body_candidates(row: Optional[Mapping[str, Any]], dragon_id: Optional[int] = None) -> List[str]:
+    """Resolve full-body art using the same override priority as extract_dragons.py."""
     row = dict(row or {})
+    did = as_int(dragon_id if dragon_id is not None else row.get("id"), -1)
+    base = STATIC_DC + "mobile/ui/dragons/"
+    candidates: List[str] = []
+
+    # 1) dragons.json already contains extract_dragons.py's resolved full-body art.
+    for key in ("full_body_image", "full_body", "fullbody", "full_image"):
+        value = row.get(key)
+        if isinstance(value, str) and value.strip():
+            normalized = normalize_image_candidate(value, dragon=True)
+            if normalized:
+                candidates.append(normalized)
+
+    # 2) Read the authoritative manual override dictionaries directly from extract_dragons.py.
+    if did >= 0:
+        override = DCIC_DRAGON_FULL_BODY_OVERRIDES.get(did)
+        if override:
+            candidates.append(str(override))
+        asset_override = DCIC_DRAGON_ASSET_OVERRIDES.get(did)
+        if asset_override:
+            slug = str(asset_override).strip().replace("\\", "/").rsplit("/", 1)[-1]
+            slug = re.sub(r"^ui_", "", slug, flags=re.I)
+            slug = re.sub(r"_3(?:@2x)?(?:\.png)?$", "", slug, flags=re.I)
+            candidates.extend([base + "ui_" + slug + "_3@2x.png", base + "ui_" + slug + "_3.png"])
+
+    # 3) Canonical config/compact-row asset name.
     raw = str(row.get("img_name_mobile") or row.get("img_name") or "").strip().replace("\\", "/")
     raw = raw.rsplit("/", 1)[-1]
     raw = re.sub(r"\.png$", "", raw, flags=re.I)
@@ -254,10 +292,11 @@ def dragon_full_body_candidates(row: Optional[Mapping[str, Any]]) -> List[str]:
             if m:
                 raw = m.group(1)
                 break
-    if not raw:
-        return []
-    base = STATIC_DC + "mobile/ui/dragons/"
-    return [base + "ui_" + raw + "_3@2x.png", base + "ui_" + raw + "_3.png"]
+    if raw:
+        candidates.extend([base + "ui_" + raw + "_3@2x.png", base + "ui_" + raw + "_3.png"])
+
+    # Only full-body candidates go first; generic image_candidates remain fallback elsewhere.
+    return unique_strings(candidates)
 
 
 def search_dragon_in_game_config(raw: Any, dragon_id: int) -> Optional[Dict[str, Any]]:
@@ -319,7 +358,7 @@ def normalize_reward(
         if not drow:
             drow = search_dragon_in_game_config(game_config, did)
         ent = compact_entity(drow, did, f"Dragon #{did}")
-        full_body = dragon_full_body_candidates(drow)
+        full_body = dragon_full_body_candidates(drow, did)
         if full_body:
             ent["full_body_image"] = full_body[0]
             ent["image_candidates"] = unique_strings(full_body + list(ent.get("image_candidates") or []))[:10]
@@ -587,6 +626,7 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
             "next_cave_id": next_obj.get("cave_id") if next_obj else None,
             "frontend_max_cards": 5,
             "game_config_role": "build-time fallback only",
+            "dragon_art_source": "dragons.json + extract_dragons.py full-body overrides",
         },
         "labels": {
             "title": loc(localization, "tid_wizardshollow_gameplay_screen_title", "WIZARDS' HOLLOW"),
