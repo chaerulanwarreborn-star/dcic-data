@@ -18,7 +18,7 @@ needed by the browser.
 """
 from __future__ import annotations
 
-EXTRACTOR_BUILD = "2026-09-01-shared-reward-icons-perks-v8"
+EXTRACTOR_BUILD = "2026-09-01-perk-stale-json-fallback-v9"
 
 import argparse
 import json
@@ -94,15 +94,64 @@ def asset_basename(value: Any) -> str:
 
 
 def build_perk_catalog(cfg: Mapping[str, Any]) -> Dict[int, Dict[str, Any]]:
+    fallback_specs: Dict[int, Dict[str, Any]] = {
+        1: {
+            "id": 1,
+            "type": "character",
+            "name_tid": "tid_name_increase_breeding_chances",
+            "description_tid": "tid_perk_description_breeding_chances",
+            "rarity_level": 1,
+            "frame_file": "ic-character-perk-frame-basic.png",
+            "icon_files": ["ic-breeding-boost-perk.png"],
+            "ability_ids": [1],
+            "ability_types": ["increase_breeding_chances"],
+        },
+        2: {
+            "id": 2,
+            "type": "combat",
+            "name_tid": "tid_health_perk_name",
+            "description_tid": "tid_health_perk_desc",
+            "rarity_level": 1,
+            "frame_file": "ic-combat-perk-frame-basic.png",
+            "icon_files": ["ic-health-perk.png"],
+            "ability_ids": [2],
+            "ability_types": ["dragon_life_boost"],
+        },
+        3: {
+            "id": 3,
+            "type": "combat",
+            "name_tid": "tid_damage_perk_name",
+            "description_tid": "tid_damage_perk_desc",
+            "rarity_level": 1,
+            "frame_file": "ic-combat-perk-frame-basic.png",
+            "icon_files": ["ic-combat-perk.png"],
+            "ability_ids": [3],
+            "ability_types": ["dragon_attack_boost"],
+        },
+        4: {
+            "id": 4,
+            "type": "combat",
+            "name_tid": "tid_phoenix_perk_name",
+            "description_tid": "tid_phoenix_perk_desc",
+            "rarity_level": 3,
+            "frame_file": "ic-combat-perk-frame-pro.png",
+            "icon_files": ["ic-phoenix-perk.png"],
+            "ability_ids": [4],
+            "ability_types": ["phoenix_skill"],
+        },
+    }
+
     root = cfg.get("perks") or {}
     if not isinstance(root, dict):
-        return {}
+        return fallback_specs
     abilities = {
         as_int(row.get("id")): row
         for row in list_rows(root.get("abilities"))
         if as_int(row.get("id")) > 0
     }
-    out: Dict[int, Dict[str, Any]] = {}
+    out: Dict[int, Dict[str, Any]] = {
+        perk_id: dict(spec) for perk_id, spec in fallback_specs.items()
+    }
     for row in list_rows(root.get("perks")):
         perk_id = as_int(row.get("id"))
         if perk_id <= 0:
@@ -774,6 +823,17 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
     game_config = load_json(Path(args.game_config), {}) if args.game_config else {}
     localization = norm_loc(load_json(Path(args.localization), {}))
     perks = build_perk_catalog(game_config if isinstance(game_config, dict) else {})
+    missing_core_perks = [
+        perk_id for perk_id in (1, 2, 3, 4)
+        if not perks.get(perk_id, {}).get("frame_file")
+        or not perks.get(perk_id, {}).get("icon_files")
+    ]
+    if missing_core_perks:
+        raise SystemExit(
+            "Core perk icon metadata could not be resolved: "
+            + ", ".join(str(x) for x in missing_core_perks)
+        )
+
     dragons = index_entities(load_json(Path(args.dragons), {})) if args.dragons else {}
     skins = index_entities(load_json(Path(args.skins), {})) if args.skins else {}
     chests = index_entities(load_json(Path(args.chests), {}), type_key="type") if args.chests else {}
