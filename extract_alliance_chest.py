@@ -320,10 +320,32 @@ def build(args):
                 return vals[0] if vals else None
             found,row,gid=find_static(c,joker,static_provider)
             if found:
+                # Joker Orbs are highlighted only when they really exist in this chest.
                 result['amount']=found.get('amount')
                 result['rarity']=found.get('rarity')
-            # Per the game-facing homepage pattern requested by DCIC, use the generic
-            # Joker Orb highlight even when a newer reward-set revision has no JO row.
+            else:
+                # Some newer League reward sets contain Food but no Joker-Orb row.
+                # Promote that real Food reward instead of inventing a Joker-Orb amount.
+                found,row,gid=find_static(
+                    c,
+                    lambda res,row: res.get('f') if 'f' in res else None,
+                    static_provider
+                )
+                if found is not None:
+                    result={
+                        'type':'food',
+                        'label':'Food',
+                        'amount':found,
+                        'image_url':HIGHLIGHT_ICONS['food'],
+                        'level_scaled':bool(row.get('overwritten_tier_multi') not in (None,1,1.0)),
+                        'dragon_id':None,
+                        'rarity':None,
+                        'reference_tier_index':2,
+                    }
+                    if row.get('overwritten_tier_multi') is not None:
+                        raw=row.get('overwritten_tier_multi')
+                        result['tier_multiplier_raw']=raw
+                        result['tier_multiplier']=(float(raw)/1000000.0 if float(raw)>1000 else float(raw))
         elif typ=='orbs':
             def seeds(res,row):
                 vals=res.get('seeds') or []
@@ -642,14 +664,9 @@ def build(args):
         if not m: continue
         item=dict(o); item.update({k:v for k,v in m.items() if k!='chest_id'})
         item['duration_seconds']=int(item['end_ts']-item['start_ts'])
-        # The user-facing Alliance Chest highlight pattern is Arenas=Gems,
-        # Hatching=Food, Leagues=Joker Orbs, Breeding=Dragon Orbs.  Some recent
-        # Leagues reward sets no longer expose a Joker-Orb row, so preserve the
-        # game-facing highlight using the established duration amounts from the
-        # Alliance Chest family (2d=3, 3d=4, 4d=6) instead of showing a blank.
-        hr=item.get('highlighted_reward') or {}
-        if item.get('activity')=='PVP_LEAGUES' and hr.get('amount') is None:
-            hr=dict(hr); hr['amount']={2:3,3:4,4:6}.get(max(1,round(item['duration_seconds']/DAY))); item['highlighted_reward']=hr
+        # Highlighted rewards must come from the actual reward set. League missions
+        # use Joker Orbs only when a Joker-Orb row exists; otherwise highlight()
+        # already falls back to the real Food reward.
         item=apply_historical_resource_rewards(item)
         item=apply_historical_mission_family_override(item)
         item=apply_historical_breeding_orb_override(item)
