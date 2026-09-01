@@ -18,7 +18,7 @@ needed by the browser.
 """
 from __future__ import annotations
 
-EXTRACTOR_BUILD = "2026-09-01-dragon-override-fix-v4"
+EXTRACTOR_BUILD = "2026-09-01-possible-outcomes-v5"
 
 import argparse
 import json
@@ -384,40 +384,160 @@ def normalize_reward(
 
     # Single-key currencies/resources and structured resources.
     key, value = next(iter(payload.items()))
-    if key in ("seeds", "rarity_seeds", "trade_tickets", "perks"):
-        return {"reward_id": rid, "type": key, "value": value, "name": key.replace("_", " ").title()}
+
+    if key == "seeds":
+        vals = value if isinstance(value, list) else []
+        first = vals[0] if vals and isinstance(vals[0], dict) else {}
+        did = as_int(first.get("id"), 0)
+        amount = first.get("amount")
+        drow = dragons.get(str(did)) if did else None
+        rarity = str((drow or {}).get("rarity") or "L")
+        token = {"C":"c","R":"r","V":"vr","VR":"vr","E":"e","L":"l","M":"m","H":"h"}.get(rarity.upper(), rarity.lower())
+        name = str((drow or {}).get("name") or (f"Dragon #{did}" if did else "Dragon"))
+        return {
+            "reward_id": rid, "type": "orbs", "dragon_id": did or None,
+            "amount": amount, "rarity": rarity,
+            "name": name.removesuffix(" Dragon") + " Orbs",
+            "image_url": ICON_RAW + f"amount-rss/ic-amount-orbs-{token}.png",
+            "popup": ({"kind":"dragon","id":did} if did else None),
+        }
+
+    if key == "rarity_seeds":
+        vals = value if isinstance(value, list) else []
+        first = vals[0] if vals and isinstance(vals[0], dict) else {}
+        rarity = str(first.get("rarity") or "L").upper()
+        amount = first.get("amount")
+        token = {"C":"c","R":"r","V":"vr","VR":"vr","E":"e","L":"l","M":"m","H":"h"}.get(rarity, rarity.lower())
+        rarity_name = {"C":"Common","R":"Rare","V":"Very Rare","VR":"Very Rare","E":"Epic","L":"Legendary","M":"Mythical","H":"Heroic"}.get(rarity, rarity)
+        return {
+            "reward_id": rid, "type": "joker_orbs", "rarity": rarity, "amount": amount,
+            "name": rarity_name + " Joker Orbs",
+            "image_url": ICON_RAW + f"tree-of-life/ic-joker-{token}.png",
+        }
+
+    if key == "trade_tickets":
+        vals = value if isinstance(value, list) else []
+        first = vals[0] if vals and isinstance(vals[0], dict) else {}
+        rarity = str(first.get("rarity") or "L").upper()
+        amount = first.get("amount")
+        token = {"C":"c","R":"r","V":"vr","VR":"vr","E":"e","L":"l","M":"m","H":"h"}.get(rarity, rarity.lower())
+        rarity_name = {"C":"Common","R":"Rare","V":"Very Rare","VR":"Very Rare","E":"Epic","L":"Legendary","M":"Mythical","H":"Heroic"}.get(rarity, rarity)
+        return {
+            "reward_id": rid, "type": "trade_essence", "rarity": rarity, "amount": amount,
+            "name": rarity_name + " Trade Essences",
+            "image_url": ICON_RAW + f"tree-of-life/ic-trade-orb-big-{token}.png",
+        }
+
+    if key == "perks":
+        vals = value if isinstance(value, list) else []
+        first = vals[0] if vals and isinstance(vals[0], dict) else {}
+        perk_id = as_int(first.get("id"), 0)
+        quantity = first.get("quantity", first.get("amount"))
+        return {
+            "reward_id": rid, "type": "perk", "perk_id": perk_id or None,
+            "amount": quantity, "name": (f"Perk #{perk_id}" if perk_id else "Perk"),
+        }
 
     resource_names = {
         "c": "Gems", "g": "Gold", "f": "Food", "keys": "Rescue Keys",
         "silver_rune": "Stone Rune", "golden_rune": "Amber Rune",
     }
-    return {
+    resource_icons = {
+        "c": ICON_RAW + "amount-rss/ic-gems-special.png",
+        "g": ICON_RAW + "amount-rss/ic-gold-special.png",
+        "f": ICON_RAW + "amount-rss/ic-food-special.png",
+        "keys": ICON_RAW + "text-icons/ic-key-massive.png",
+        "silver_rune": WIZARD_ASSET_RAW + "ic-rune-silver-massive.png",
+        "golden_rune": WIZARD_ASSET_RAW + "ic-rune-gold-massive.png",
+    }
+    result = {
         "reward_id": rid,
         "type": "resource",
         "resource": str(key),
         "amount": value,
         "name": resource_names.get(str(key), str(key).replace("_", " ").title()),
     }
+    if str(key) in resource_icons:
+        result["image_url"] = resource_icons[str(key)]
+    return result
 
 
-def pool_reward_id(config: Mapping[str, Any], pool_id: int) -> Optional[int]:
-    # Wizards' Hollow has historically used reward_pool / reward_pools / pool / rewards_weights-like tables.
+def reward_pool_rows(config: Mapping[str, Any]) -> List[Dict[str, Any]]:
+    """Return the Wizards' Hollow pool table once, without duplicate heuristic matches."""
     candidates: List[Dict[str, Any]] = []
+    seen_rows = set()
     for key in ("reward_pool", "reward_pools", "reward_pool_items", "pools", "pool"):
-        candidates.extend(list_rows(config.get(key)))
-    # Heuristic discovery of any direct table carrying pool_id + reward_id.
+        for row in list_rows(config.get(key)):
+            sig = (as_int(row.get("id"), -1), as_int(row.get("pool_id"), -1), as_int(row.get("reward_id"), -1))
+            if sig not in seen_rows:
+                seen_rows.add(sig); candidates.append(row)
     for key, value in config.items():
-        if key in ("rewards", "stage", "cave", "ui_config"):
+        if key in ("rewards", "stage", "cave", "ui_config", "reward_pool", "reward_pools", "reward_pool_items", "pools", "pool"):
             continue
         rows = list_rows(value)
         if rows and any("pool_id" in x and "reward_id" in x for x in rows[:10]):
-            candidates.extend(rows)
-    matches = [x for x in candidates if as_int(x.get("pool_id"), -1) == pool_id and x.get("reward_id") is not None]
+            for row in rows:
+                sig = (as_int(row.get("id"), -1), as_int(row.get("pool_id"), -1), as_int(row.get("reward_id"), -1))
+                if sig not in seen_rows:
+                    seen_rows.add(sig); candidates.append(row)
+    return candidates
+
+
+def pool_reward_id(config: Mapping[str, Any], pool_id: int) -> Optional[int]:
+    matches = [x for x in reward_pool_rows(config) if as_int(x.get("pool_id"), -1) == pool_id and x.get("reward_id") is not None]
     if not matches:
         return None
-    # Final pools are deterministic in captured config (weight 1), but choosing the first is also safe for display.
     matches.sort(key=lambda x: as_int(x.get("id"), 10**9))
     return as_int(matches[0].get("reward_id"), -1)
+
+
+def build_outcome_pool(
+    pool_id: int, pool_rows: Sequence[Mapping[str, Any]], reward_by_id: Mapping[int, Mapping[str, Any]],
+    dragons: Mapping[Any, Dict[str, Any]], skins: Mapping[Any, Dict[str, Any]],
+    chests: Mapping[Any, Dict[str, Any]], game_config: Any,
+) -> Dict[str, Any]:
+    rows = [x for x in pool_rows if as_int(x.get("pool_id"), -1) == pool_id and x.get("reward_id") is not None]
+    rows.sort(key=lambda x: (-as_int(x.get("weight"), 0), -as_int(x.get("visual_weight"), 0), as_int(x.get("id"), 10**9)))
+    outcomes: List[Dict[str, Any]] = []
+    seen = set()
+    for row in rows:
+        rid = as_int(row.get("reward_id"), -1)
+        reward = normalize_reward(rid, reward_by_id, dragons, skins, chests, game_config)
+        if not reward:
+            continue
+        # A reward id is unique in the pool table; keep one normalized entry even if a malformed config duplicates it.
+        if rid in seen:
+            continue
+        seen.add(rid)
+        item = dict(reward)
+        item["pool_entry_id"] = as_int(row.get("id"), 0) or None
+        item["weight"] = row.get("weight")
+        item["visual_weight"] = row.get("visual_weight")
+        outcomes.append(item)
+    return {"pool_id": pool_id, "outcome_count": len(outcomes), "rewards": outcomes}
+
+
+def build_floor_layout(cave: Mapping[str, Any], stages: Mapping[int, Mapping[str, Any]]) -> List[Dict[str, Any]]:
+    stage_ids = cave.get("stage_ids") if isinstance(cave.get("stage_ids"), list) else []
+    floors: List[Dict[str, Any]] = []
+    for index, raw_stage_id in enumerate(stage_ids, 1):
+        stage_id = as_int(raw_stage_id, -1)
+        stage = stages.get(stage_id, {})
+        kind = str(stage.get("type") or ("final" if index == len(stage_ids) else "regular"))
+        floors.append({
+            "floor": index,
+            "stage_id": stage_id if stage_id >= 0 else None,
+            "type": kind,
+            "pool_id": as_int(stage.get("pool_id"), -1) if stage else None,
+            "wizards": max(0, as_int(stage.get("wizards"), 0)),
+            "silver_runes": max(0, as_int(stage.get("silver_runes"), 0)),
+            "silver_rune_pool_id": as_int(stage.get("silver_rune_pool_id"), -1) if stage.get("silver_rune_pool_id") is not None else None,
+            "golden_runes": max(0, as_int(stage.get("golden_runes"), 0)),
+            "golden_rune_pool_id": as_int(stage.get("golden_rune_pool_id"), -1) if stage.get("golden_rune_pool_id") is not None else None,
+            "fixed_rewards": bool(as_int(stage.get("fixed_rewards"), 0)),
+            "extra_selection_cost_ids": list(stage.get("extra_selection_cost_ids") or []) if isinstance(stage.get("extra_selection_cost_ids"), list) else [],
+        })
+    return floors
 
 
 def find_goal_rows(config: Mapping[str, Any]) -> List[Dict[str, Any]]:
@@ -554,6 +674,20 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
     stages = by_id(list_rows(config.get("stage")))
     uis = by_id(list_rows(config.get("ui_config")))
     rewards = by_id(list_rows(config.get("rewards")))
+    pool_rows = reward_pool_rows(config)
+
+    # Normalize each reward pool only once. Hollows reference these compact catalogs by pool_id.
+    used_pool_ids = set()
+    for cave in caves:
+        for raw_stage_id in (cave.get("stage_ids") if isinstance(cave.get("stage_ids"), list) else []):
+            stage = stages.get(as_int(raw_stage_id, -1), {})
+            pid = as_int(stage.get("pool_id"), -1)
+            if pid >= 0:
+                used_pool_ids.add(pid)
+    outcome_pools = {
+        str(pid): build_outcome_pool(pid, pool_rows, rewards, dragons, skins, chests, game_config)
+        for pid in sorted(used_pool_ids)
+    }
 
     now = int(args.now if args.now is not None else time.time())
     horizon_end = now + int(args.future_days) * 86400
@@ -594,6 +728,7 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
                 "final_stage_id": final_stage_id if final_stage_id >= 0 else None,
                 "main_reward": main_reward,
                 "rune_rewards": {"silver": silver, "golden": golden},
+                "floors": build_floor_layout(cave, stages),
             })
 
     # Never silently publish a '?' rune requirement again. Every configured rune goal
@@ -624,9 +759,12 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
             "occurrence_count": len(occurrences),
             "current_cave_id": current_id,
             "next_cave_id": next_obj.get("cave_id") if next_obj else None,
-            "frontend_max_cards": 5,
+            "frontend_max_cards": 10,
             "game_config_role": "build-time fallback only",
             "dragon_art_source": "dragons.json + extract_dragons.py full-body overrides",
+            "floor_outcomes": True,
+            "outcome_pool_count": len(outcome_pools),
+            "reward_pool_entry_count": len(pool_rows),
         },
         "labels": {
             "title": loc(localization, "tid_wizardshollow_gameplay_screen_title", "WIZARDS' HOLLOW"),
@@ -639,7 +777,9 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
             "wizard_unavailable": WIZARD_ASSET_RAW + "wizard-unavailable.png",
             "silver_rune": WIZARD_ASSET_RAW + "ic-rune-silver-massive.png",
             "golden_rune": WIZARD_ASSET_RAW + "ic-rune-gold-massive.png",
+            "wizard_outcome": WIZARD_ASSET_RAW + "gr-emoji-smile.png",
         },
+        "outcome_pools": outcome_pools,
         "hollows": occurrences,
     }
     Path(args.output).write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
