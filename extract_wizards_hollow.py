@@ -18,7 +18,7 @@ needed by the browser.
 """
 from __future__ import annotations
 
-EXTRACTOR_BUILD = "2026-09-01-possible-outcomes-v5"
+EXTRACTOR_BUILD = "2026-09-01-shared-reward-icons-perks-v8"
 
 import argparse
 import json
@@ -84,6 +84,48 @@ def as_int(value: Any, default: int = 0) -> int:
 
 def list_rows(value: Any) -> List[Dict[str, Any]]:
     return [x for x in value if isinstance(x, dict)] if isinstance(value, list) else []
+
+
+def asset_basename(value: Any) -> str:
+    raw = str(value or "").strip().replace("\\", "/")
+    if not raw:
+        return ""
+    return raw.rsplit("/", 1)[-1]
+
+
+def build_perk_catalog(cfg: Mapping[str, Any]) -> Dict[int, Dict[str, Any]]:
+    root = cfg.get("perks") or {}
+    if not isinstance(root, dict):
+        return {}
+    abilities = {
+        as_int(row.get("id")): row
+        for row in list_rows(root.get("abilities"))
+        if as_int(row.get("id")) > 0
+    }
+    out: Dict[int, Dict[str, Any]] = {}
+    for row in list_rows(root.get("perks")):
+        perk_id = as_int(row.get("id"))
+        if perk_id <= 0:
+            continue
+        ability_rows = [abilities.get(as_int(aid), {}) for aid in (row.get("abilities") or [])]
+        icon_files = unique_strings(
+            asset_basename((ability.get("asset") or {}).get("remote"))
+            for ability in ability_rows
+            if isinstance(ability, dict)
+        )
+        frame_file = asset_basename((row.get("asset") or {}).get("remote"))
+        out[perk_id] = {
+            "id": perk_id,
+            "type": str(row.get("type") or ""),
+            "name_tid": str(row.get("name_tid") or ""),
+            "description_tid": str(row.get("description_tid") or ""),
+            "rarity_level": as_int(row.get("rarity_level")),
+            "frame_file": frame_file,
+            "icon_files": icon_files,
+            "ability_ids": [as_int(x) for x in (row.get("abilities") or []) if as_int(x) > 0],
+            "ability_types": unique_strings(str(a.get("type") or "") for a in ability_rows if isinstance(a, dict)),
+        }
+    return out
 
 
 def by_id(rows: Iterable[Mapping[str, Any]]) -> Dict[int, Mapping[str, Any]]:
@@ -344,6 +386,8 @@ def normalize_reward(
     skins: Mapping[Any, Dict[str, Any]],
     chests: Mapping[Any, Dict[str, Any]],
     game_config: Any,
+    perks: Optional[Mapping[int, Mapping[str, Any]]] = None,
+    localization: Optional[Mapping[str, str]] = None,
 ) -> Optional[Dict[str, Any]]:
     rid = as_int(reward_id, -1)
     row = reward_by_id.get(rid)
@@ -433,32 +477,86 @@ def normalize_reward(
         first = vals[0] if vals and isinstance(vals[0], dict) else {}
         perk_id = as_int(first.get("id"), 0)
         quantity = first.get("quantity", first.get("amount"))
+        spec = dict((perks or {}).get(perk_id, {}) or {})
+        loc_table = localization or {}
+        name_tid = str(spec.get("name_tid") or "")
+        desc_tid = str(spec.get("description_tid") or "")
+        frame_file = str(spec.get("frame_file") or "")
+        icon_files = [str(x) for x in (spec.get("icon_files") or []) if str(x or "").strip()]
+        icon_file = icon_files[0] if icon_files else ""
         return {
-            "reward_id": rid, "type": "perk", "perk_id": perk_id or None,
-            "amount": quantity, "name": (f"Perk #{perk_id}" if perk_id else "Perk"),
+            "reward_id": rid,
+            "type": "perk",
+            "kind": "perk",
+            "asset_kind": "perk",
+            "perk_id": perk_id or None,
+            "amount": quantity,
+            "name": loc(loc_table, name_tid, f"Perk #{perk_id}" if perk_id else "Perk"),
+            "description": loc(loc_table, desc_tid, ""),
+            "perk_type": str(spec.get("type") or ""),
+            "perk_rarity_level": as_int(spec.get("rarity_level")),
+            "perk_frame_file": frame_file,
+            "perk_icon_file": icon_file,
+            "perk_icon_files": icon_files,
+            "perk_ability_ids": list(spec.get("ability_ids") or []),
+            "perk_ability_types": list(spec.get("ability_types") or []),
+            "image_url": ICON_RAW + f"perks/{frame_file}" if frame_file else "",
+            "overlay_image_url": ICON_RAW + f"perks/{icon_file}" if icon_file else "",
         }
+
+    token_resources = {
+        "l_token": ("Legend Tokens", "legend"),
+        "pr_token": ("Primal Tokens", "primal"),
+        "pu_token": ("Pure Tokens", "pure"),
+        "wr_token": ("War Tokens", "war"),
+        "wd_token": ("Wind Tokens", "wind"),
+        "e_token": ("Terra Tokens", "earth"),
+        "f_token": ("Flame Tokens", "fire"),
+        "p_token": ("Nature Tokens", "plant"),
+        "w_token": ("Sea Tokens", "water"),
+        "el_token": ("Electric Tokens", "electric"),
+        "i_token": ("Ice Tokens", "ice"),
+        "m_token": ("Metal Tokens", "metal"),
+        "d_token": ("Dark Tokens", "dark"),
+        "li_token": ("Light Tokens", "light"),
+        "kg_token": ("Kindergarten Tokens", "kindergarten"),
+    }
 
     resource_names = {
         "c": "Gems", "g": "Gold", "f": "Food", "keys": "Rescue Keys",
         "silver_rune": "Stone Rune", "golden_rune": "Amber Rune",
     }
     resource_icons = {
-        "c": ICON_RAW + "amount-rss/ic-gems-special.png",
-        "g": ICON_RAW + "amount-rss/ic-gold-special.png",
-        "f": ICON_RAW + "amount-rss/ic-food-special.png",
+        "c": ICON_RAW + "resources/ic-gem.png",
+        "g": ICON_RAW + "resources/ic-gold.png",
+        "f": ICON_RAW + "resources/ic-food.png",
         "keys": ICON_RAW + "text-icons/ic-key-massive.png",
         "silver_rune": WIZARD_ASSET_RAW + "ic-rune-silver-massive.png",
         "golden_rune": WIZARD_ASSET_RAW + "ic-rune-gold-massive.png",
     }
+
+    resource_key = str(key)
+    if resource_key in token_resources:
+        token_name, token_asset_key = token_resources[resource_key]
+        return {
+            "reward_id": rid,
+            "type": "resource",
+            "resource": resource_key,
+            "token_asset_key": token_asset_key,
+            "amount": value,
+            "name": token_name,
+            "image_url": ICON_RAW + f"tokens/ic-token-{token_asset_key}.png",
+        }
+
     result = {
         "reward_id": rid,
         "type": "resource",
-        "resource": str(key),
+        "resource": resource_key,
         "amount": value,
-        "name": resource_names.get(str(key), str(key).replace("_", " ").title()),
+        "name": resource_names.get(resource_key, resource_key.replace("_", " ").title()),
     }
-    if str(key) in resource_icons:
-        result["image_url"] = resource_icons[str(key)]
+    if resource_key in resource_icons:
+        result["image_url"] = resource_icons[resource_key]
     return result
 
 
@@ -495,6 +593,7 @@ def build_outcome_pool(
     pool_id: int, pool_rows: Sequence[Mapping[str, Any]], reward_by_id: Mapping[int, Mapping[str, Any]],
     dragons: Mapping[Any, Dict[str, Any]], skins: Mapping[Any, Dict[str, Any]],
     chests: Mapping[Any, Dict[str, Any]], game_config: Any,
+    perks: Mapping[int, Mapping[str, Any]], localization: Mapping[str, str],
 ) -> Dict[str, Any]:
     rows = [x for x in pool_rows if as_int(x.get("pool_id"), -1) == pool_id and x.get("reward_id") is not None]
     rows.sort(key=lambda x: (-as_int(x.get("weight"), 0), -as_int(x.get("visual_weight"), 0), as_int(x.get("id"), 10**9)))
@@ -502,7 +601,10 @@ def build_outcome_pool(
     seen = set()
     for row in rows:
         rid = as_int(row.get("reward_id"), -1)
-        reward = normalize_reward(rid, reward_by_id, dragons, skins, chests, game_config)
+        reward = normalize_reward(
+            rid, reward_by_id, dragons, skins, chests, game_config,
+            perks=perks, localization=localization
+        )
         if not reward:
             continue
         # A reward id is unique in the pool table; keep one normalized entry even if a malformed config duplicates it.
@@ -581,6 +683,8 @@ def resolve_rune_goal(
     config: Mapping[str, Any], goal_id: Any, ui_reward_id: Any,
     reward_by_id: Mapping[int, Mapping[str, Any]], dragons: Mapping[Any, Dict[str, Any]],
     skins: Mapping[Any, Dict[str, Any]], chests: Mapping[Any, Dict[str, Any]], game_config: Any,
+    perks: Optional[Mapping[int, Mapping[str, Any]]] = None,
+    localization: Optional[Mapping[str, str]] = None,
 ) -> Dict[str, Any]:
     gid = as_int(goal_id, -1)
     goals = by_id(find_goal_rows(config))
@@ -612,7 +716,10 @@ def resolve_rune_goal(
     # ui_config left/right are only visual-placement fallbacks.
     gr = goal_reward_id(goal)
     display_reward_id = gr if gr is not None and gr >= 0 else as_int(ui_reward_id, -1)
-    reward = normalize_reward(display_reward_id, reward_by_id, dragons, skins, chests, game_config) if display_reward_id >= 0 else None
+    reward = normalize_reward(
+        display_reward_id, reward_by_id, dragons, skins, chests, game_config,
+        perks=perks, localization=localization
+    ) if display_reward_id >= 0 else None
 
     return {
         "goal_id": gid if gid >= 0 else None,
@@ -666,6 +773,7 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
 
     game_config = load_json(Path(args.game_config), {}) if args.game_config else {}
     localization = norm_loc(load_json(Path(args.localization), {}))
+    perks = build_perk_catalog(game_config if isinstance(game_config, dict) else {})
     dragons = index_entities(load_json(Path(args.dragons), {})) if args.dragons else {}
     skins = index_entities(load_json(Path(args.skins), {})) if args.skins else {}
     chests = index_entities(load_json(Path(args.chests), {}), type_key="type") if args.chests else {}
@@ -685,7 +793,10 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
             if pid >= 0:
                 used_pool_ids.add(pid)
     outcome_pools = {
-        str(pid): build_outcome_pool(pid, pool_rows, rewards, dragons, skins, chests, game_config)
+        str(pid): build_outcome_pool(
+            pid, pool_rows, rewards, dragons, skins, chests, game_config,
+            perks, localization
+        )
         for pid in sorted(used_pool_ids)
     }
 
@@ -707,13 +818,24 @@ def build(args: argparse.Namespace) -> Dict[str, Any]:
         main_reward_id: Optional[int] = None
         if final_stage:
             main_reward_id = pool_reward_id(config, as_int(final_stage.get("pool_id"), final_stage_id))
-        main_reward = normalize_reward(main_reward_id, rewards, dragons, skins, chests, game_config) if main_reward_id is not None else None
+        main_reward = normalize_reward(
+            main_reward_id, rewards, dragons, skins, chests, game_config,
+            perks=perks, localization=localization
+        ) if main_reward_id is not None else None
 
         goal_ids = cave.get("goal_ids") if isinstance(cave.get("goal_ids"), list) else []
         silver_goal_id = goal_ids[0] if len(goal_ids) >= 1 else None
         golden_goal_id = goal_ids[1] if len(goal_ids) >= 2 else None
-        silver = resolve_rune_goal(config, silver_goal_id, ui.get("left_reward_id_popup"), rewards, dragons, skins, chests, game_config)
-        golden = resolve_rune_goal(config, golden_goal_id, ui.get("right_reward_id_popup"), rewards, dragons, skins, chests, game_config)
+        silver = resolve_rune_goal(
+            config, silver_goal_id, ui.get("left_reward_id_popup"),
+            rewards, dragons, skins, chests, game_config,
+            perks=perks, localization=localization
+        )
+        golden = resolve_rune_goal(
+            config, golden_goal_id, ui.get("right_reward_id_popup"),
+            rewards, dragons, skins, chests, game_config,
+            perks=perks, localization=localization
+        )
 
         for start, end in occurrence_windows(cave, now, horizon_end, args.history_days):
             occurrences.append({
