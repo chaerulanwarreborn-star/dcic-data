@@ -6,10 +6,9 @@ on:
       - main
     paths:
       - game_config.json
-      - side_events_config.json
-      - extract_wizards_hollow.py
       - localization/dragon_city_localization_baseline_en.json
       - extract_events.py
+      - extract_event_collections.py
       - extract_fog_island.py
       - extract_grid_island.py
       - extract_tower_island.py
@@ -76,11 +75,11 @@ jobs:
       - name: Build chests.json and chest detail shards
         run: python extract_chests.py
 
+      - name: Build event_collections.json
+        run: python extract_event_collections.py --localization localization/dragon_city_localization_baseline_en.json
+
       - name: Build alliance_chest.json
         run: python extract_alliance_chest.py --localization localization/dragon_city_localization_baseline_en.json
-
-      - name: Build wizards_hollow.json
-        run: python extract_wizards_hollow.py --localization localization/dragon_city_localization_baseline_en.json
 
       - name: Build arena_seasons.json
         run: python extract_arena_seasons.py
@@ -88,7 +87,7 @@ jobs:
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json wizards_hollow.json
+          git add events.json event_collections.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
