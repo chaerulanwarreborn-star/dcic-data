@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T08:31:28.785417Z",
+  "generated_at": "2026-09-01T10:34:10.938059Z",
   "source_file": "game_config.json",
   "event_count": 69,
   "events": [
@@ -2378,11 +2378,11 @@
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1479_dragon_imp_3.png"
         },
         {
-          "id": 1557,
-          "name": "Cruel Dragon",
+          "id": 1613,
+          "name": "Impassible Dragon",
           "rarity": "L",
-          "img_name": "1557_dragon_cruel_b",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1557_dragon_cruel_b_3.png"
+          "img_name": "1613_dragon_impassible_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1613_dragon_impassible_b_3.png"
         },
         {
           "id": 2508,
