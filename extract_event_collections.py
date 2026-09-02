@@ -19,6 +19,7 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 ASSET_ICON_BASE = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/"
+DRAGON_ASSET_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
 
 RARITY_NAMES = {
     "C": "Common",
@@ -213,20 +214,59 @@ def build_chest_index(payload: Any) -> Dict[int, Dict[str, Any]]:
     return out
 
 
+def rarity_token(value: Any) -> Optional[str]:
+    rarity = str(value or "").upper()
+    return {"C": "c", "R": "r", "V": "vr", "VR": "vr", "E": "e", "L": "l", "M": "m", "H": "h"}.get(rarity)
+
+
 def dragon_info(dragon_id: int, dragon_by_id: Dict[int, Dict[str, Any]]) -> Dict[str, Any]:
     row = dragon_by_id.get(dragon_id) or {}
     name = row.get("name") or f"Dragon {dragon_id}"
     rarity = str(row.get("rarity") or "").upper() or None
-    image_candidates = unique_strings([
-        row.get("adult_image"),
+    raw = str(row.get("img_name_mobile") or row.get("img_name") or "").strip()
+
+    detail = row.get("detail") if isinstance(row.get("detail"), dict) else {}
+    images = detail.get("images") if isinstance(detail.get("images"), dict) else {}
+    if not images and isinstance(row.get("images"), dict):
+        images = row.get("images") or {}
+
+    thumb_candidates = unique_strings([
+        DRAGON_ASSET_BASE + f"HD/thumb_{raw}_3.png" if raw else None,
         row.get("thumbnail"),
+        row.get("thumbnail_image"),
+        DRAGON_ASSET_BASE + f"ui_{raw}_3@2x.png" if raw else None,
+        DRAGON_ASSET_BASE + f"ui_{raw}_3.png" if raw else None,
+        row.get("adult_image"),
         row.get("full_body_image"),
         row.get("image_url"),
     ])
+
+    # Homepage dragon rewards intentionally use the BABY full-body stage (_1),
+    # while Dragon Orbs use the framed thumbnail (_3).
+    baby_candidates = unique_strings([
+        DRAGON_ASSET_BASE + f"ui_{raw}_1@2x.png" if raw else None,
+        DRAGON_ASSET_BASE + f"ui_{raw}_1.png" if raw else None,
+        images.get("baby") if isinstance(images, dict) else None,
+        row.get("baby_image"),
+    ])
+
+    token = rarity_token(rarity)
+    orb_icon = ASSET_ICON_BASE + f"tree-of-life/ic-seed-{token}-mid-shadow.png" if token else None
+
     return {
         "dragon_name": name,
         "dragon_rarity": rarity,
-        "image_candidates": image_candidates,
+        "rarity": rarity,
+        "img_name_mobile": row.get("img_name_mobile"),
+        "img_name": row.get("img_name"),
+        "thumbnail_candidates": thumb_candidates,
+        "baby_image_candidates": baby_candidates,
+        "dragon_thumbnail": thumb_candidates[0] if thumb_candidates else None,
+        "dragon_baby_image": baby_candidates[0] if baby_candidates else None,
+        "orb_icon_url": orb_icon,
+        # Keep the generic list for older frontend code. Put the thumbnail first
+        # so a self-contained Event Collection card renders correctly immediately.
+        "image_candidates": thumb_candidates,
     }
 
 
