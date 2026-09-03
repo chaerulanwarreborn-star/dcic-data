@@ -1519,11 +1519,10 @@ def divine_passes(
                         "orbs_habitat_slot": loc_text(
                             localization, "tid_elite_orbs_habitat_one_slot", "+1 extra Orbs slot"
                         ),
-                        "orbs_habitat_description": loc_text(
-                            localization,
-                            "tid_elite_orbs_habitat_inactive_desc",
-                            "Guaranteed Orbs of a dragon placed inside",
-                        ),
+                        # In practice this Elite Habitat generates Orbs only
+                        # for a Heroic dragon placed inside, so expose the more
+                        # precise site description instead of the generic locale.
+                        "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
                         "event_booster_title": loc_text(
                             localization, "tid_elite_events_booster", "EVENT BOOSTER"
                         ),

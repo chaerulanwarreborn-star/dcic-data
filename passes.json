@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-03T16:17:50.268030Z",
+  "generated_at": "2026-09-03T16:22:53.756752Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 90,
+  "pass_count": 115,
   "divine_pass_count": 90,
-  "progression_pass_count": 0,
+  "progression_pass_count": 25,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -1531,7 +1531,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -3067,7 +3067,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -4603,7 +4603,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -10100,7 +10100,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -16769,7 +16769,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -22243,7 +22243,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -28866,7 +28866,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -34340,7 +34340,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -41630,7 +41630,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -47653,7 +47653,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -53676,7 +53676,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -59699,7 +59699,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -65684,7 +65684,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -69492,7 +69492,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -75477,7 +75477,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -81462,7 +81462,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -87447,7 +87447,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -93432,7 +93432,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -99417,7 +99417,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -105402,7 +105402,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -109771,7 +109771,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -115756,7 +115756,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -123987,7 +123987,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -129968,7 +129968,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -135956,7 +135956,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -141925,7 +141925,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -147925,7 +147925,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -154091,7 +154091,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -160079,7 +160079,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -166048,7 +166048,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -172025,7 +172025,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -175821,7 +175821,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -181798,7 +181798,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -187661,7 +187661,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -191993,7 +191993,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -197877,7 +197877,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -204008,7 +204008,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -210348,7 +210348,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -214282,7 +214282,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -220378,7 +220378,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -226474,7 +226474,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -230143,7 +230143,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -236418,7 +236418,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -242690,7 +242690,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -246624,7 +246624,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -252699,7 +252699,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -258774,7 +258774,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -262708,7 +262708,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -268917,7 +268917,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -274905,7 +274905,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -278839,7 +278839,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -285239,7 +285239,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -291639,7 +291639,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -295573,7 +295573,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -301973,7 +301973,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -308426,7 +308426,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -312360,7 +312360,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -318813,7 +318813,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -325266,7 +325266,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -329200,7 +329200,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -335627,7 +335627,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -339561,7 +339561,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -346007,7 +346007,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -349941,7 +349941,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -356368,7 +356368,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -360258,7 +360258,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -366641,7 +366641,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -370531,7 +370531,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -376958,7 +376958,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -380848,7 +380848,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -387275,7 +387275,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -390885,7 +390885,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -397012,7 +397012,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -400622,7 +400622,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -406754,7 +406754,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -410364,7 +410364,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -416358,7 +416358,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -419968,7 +419968,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -425962,7 +425962,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -430374,7 +430374,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -436297,7 +436297,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -439830,7 +439830,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -445807,7 +445807,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -449760,7 +449760,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -455785,7 +455785,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -455797,6 +455797,45 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:272",
+      "id": 272,
+      "type": "progression_pass",
+      "variant": "unlock_iap",
+      "type_label": "Progression Pass",
+      "title": "APOCALYPSE PATH",
+      "subtitle": "",
+      "start_ts": 1779962400,
+      "end_ts": 1784800740,
+      "start_iso": "2026-05-28T10:00:00Z",
+      "end_iso": "2026-07-23T09:59:00Z",
+      "details": "/p/progression-pass.html?id=272",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "unlock_iap.20260528",
+      "featured_dragons": [
+        {
+          "id": 3450,
+          "name": "High Death Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3450_dragon_highdeath_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3450_dragon_highdeath_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "unlock_iap_points.20260528"
+      ],
+      "currency_id": "unlock_iap_points.20260528",
+      "visual_icon_id": "unlock_iap_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_stamps/$HDSD/ic_iap_pass_currency_stamps-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_stamps/HD/ic_iap_pass_currency_stamps-massive_c.png",
+      "hud_button_asset": "iap-pass-hud"
     },
     {
       "key": "divine_pass:110",
@@ -459807,7 +459846,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -465832,7 +465871,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -465844,6 +465883,436 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:295",
+      "id": 295,
+      "type": "progression_pass",
+      "variant": "dragon_mastery_pass",
+      "type_label": "Progression Pass",
+      "title": "MASTERY PASS",
+      "subtitle": "",
+      "start_ts": 1782986400,
+      "end_ts": 1785405540,
+      "start_iso": "2026-07-02T10:00:00Z",
+      "end_iso": "2026-07-30T09:59:00Z",
+      "details": "/p/progression-pass.html?id=295",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "dragon_mastery_pass.20260702",
+      "featured_dragons": [
+        {
+          "id": 3473,
+          "name": "Void Fortress Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3473_dragon_voidfortress_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3473_dragon_voidfortress_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "dragon_mastery_pass_points.20260702"
+      ],
+      "currency_id": "dragon_mastery_pass_points.20260702",
+      "visual_icon_id": "dragon_mastery_pass_points.20260702",
+      "icon_remote": "/mobile/ui/economy_system/dmp_points_c/$HDSD/ic-dmp-point_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/dmp_points_c/HD/ic-dmp-point_c.png",
+      "hud_button_asset": "dmp-event-hud"
+    },
+    {
+      "key": "progression_pass:294",
+      "id": 294,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1783591200,
+      "end_ts": 1784196000,
+      "start_iso": "2026-07-09T10:00:00Z",
+      "end_iso": "2026-07-16T10:00:00Z",
+      "details": "/p/progression-pass.html?id=294",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260709",
+      "featured_dragons": [
+        {
+          "id": 1773,
+          "name": "High Supremacy Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1773_dragon_supremacy_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1773_dragon_supremacy_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2782,
+          "name": "Lake Guardian Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2782_dragon_lakeguardian_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2782_dragon_lakeguardian_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2603,
+          "name": "Elixir Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2603_dragon_elixir_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2603_dragon_elixir_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2218,
+          "name": "Dark Commander Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2218_dragon_darkcommander_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2218_dragon_darkcommander_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 1856,
+          "name": "Mastery Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1856_dragon_mastery_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1856_dragon_mastery_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260709"
+      ],
+      "currency_id": "arena_pass_points.20260709",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:292",
+      "id": 292,
+      "type": "progression_pass",
+      "variant": "pet_food_pass",
+      "type_label": "Progression Pass",
+      "title": "PET PASS",
+      "subtitle": "",
+      "start_ts": 1783591200,
+      "end_ts": 1784800740,
+      "start_iso": "2026-07-09T10:00:00Z",
+      "end_iso": "2026-07-23T09:59:00Z",
+      "details": "/p/progression-pass.html?id=292",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "pet_food_pass.20260709",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "pet_food_pass_points.20260709"
+      ],
+      "currency_id": "pet_food_pass_points.20260709",
+      "visual_icon_id": "pet_food_pass_points.20260709",
+      "icon_remote": "/mobile/ui/economy_system/ic_petspass_currency/$HDSD/ic_petspass_currency_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_petspass_currency/HD/ic_petspass_currency_c.png",
+      "hud_button_asset": "currency-pets-pass-fix"
+    },
+    {
+      "key": "progression_pass:298",
+      "id": 298,
+      "type": "progression_pass",
+      "variant": "season_pass",
+      "type_label": "Progression Pass",
+      "title": "SPORTS PASS",
+      "subtitle": "",
+      "start_ts": 1783591200,
+      "end_ts": 1784800740,
+      "start_iso": "2026-07-09T10:00:00Z",
+      "end_iso": "2026-07-23T09:59:00Z",
+      "details": "/p/progression-pass.html?id=298",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "season_pass.20260709",
+      "featured_dragons": [
+        {
+          "id": 3340,
+          "name": "Wicked Silencer Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3340_dragon_wickedsilencer_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3340_dragon_wickedsilencer_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "season_pass_points.20260709"
+      ],
+      "currency_id": "season_pass_points.20260709",
+      "visual_icon_id": "season_pass_points.20260709",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-footballpass/$HDSD/ic-currency-footballpass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-footballpass/HD/ic-currency-footballpass_c.png",
+      "hud_button_asset": "football_pass_hud"
+    },
+    {
+      "key": "progression_pass:293",
+      "id": 293,
+      "type": "progression_pass",
+      "variant": "hatching_pass",
+      "type_label": "Progression Pass",
+      "title": "HATCH PASS",
+      "subtitle": "",
+      "start_ts": 1783936800,
+      "end_ts": 1784800800,
+      "start_iso": "2026-07-13T10:00:00Z",
+      "end_iso": "2026-07-23T10:00:00Z",
+      "details": "/p/progression-pass.html?id=293",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "hatching_pass.20260713",
+      "featured_dragons": [
+        {
+          "id": 2937,
+          "name": "Tentacularian Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "hatching_pass_points.20260713"
+      ],
+      "currency_id": "hatching_pass_points.20260713",
+      "visual_icon_id": "hatching_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/$HDSD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/HD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "hud_button_asset": "hatchery-current-icon"
+    },
+    {
+      "key": "progression_pass:296",
+      "id": 296,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1784196000,
+      "end_ts": 1784800800,
+      "start_iso": "2026-07-16T10:00:00Z",
+      "end_iso": "2026-07-23T10:00:00Z",
+      "details": "/p/progression-pass.html?id=296",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260716",
+      "featured_dragons": [
+        {
+          "id": 3045,
+          "name": "High Destiny Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3045_dragon_highdestiny_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3045_dragon_highdestiny_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3056,
+          "name": "Utopia Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3056_dragon_utopia_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3056_dragon_utopia_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3106,
+          "name": "Downfall Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3106_dragon_downfall_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3106_dragon_downfall_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2979,
+          "name": "Cactispine Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2979_dragon_cactispine_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2979_dragon_cactispine_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3023,
+          "name": "Hibernation Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3023_dragon_hibernation_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3023_dragon_hibernation_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260716"
+      ],
+      "currency_id": "arena_pass_points.20260716",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:300",
+      "id": 300,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "CHAMPIONS PASS",
+      "subtitle": "",
+      "start_ts": 1784800800,
+      "end_ts": 1785405540,
+      "start_iso": "2026-07-23T10:00:00Z",
+      "end_iso": "2026-07-30T09:59:00Z",
+      "details": "/p/progression-pass.html?id=300",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260723",
+      "featured_dragons": [
+        {
+          "id": 2946,
+          "name": "High Famine Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2946_dragon_highfamine_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2946_dragon_highfamine_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3064,
+          "name": "Toxiberry Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3064_dragon_toxiberry_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3064_dragon_toxiberry_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3209,
+          "name": "Pterasoul Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3209_dragon_pterasoul_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3209_dragon_pterasoul_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2917,
+          "name": "Algae Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2917_dragon_algae_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2917_dragon_algae_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2935,
+          "name": "Screamer Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2935_dragon_screamer_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2935_dragon_screamer_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260723"
+      ],
+      "currency_id": "arena_pass_points.20260723",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:303",
+      "id": 303,
+      "type": "progression_pass",
+      "variant": "gem_sink_pass",
+      "type_label": "Progression Pass",
+      "title": "GEMS PASS",
+      "subtitle": "",
+      "start_ts": 1784800800,
+      "end_ts": 1785405600,
+      "start_iso": "2026-07-23T10:00:00Z",
+      "end_iso": "2026-07-30T10:00:00Z",
+      "details": "/p/progression-pass.html?id=303",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "gem_sink_pass.20260723",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "gem_sink_pass_points.20260723"
+      ],
+      "currency_id": "gem_sink_pass_points.20260723",
+      "visual_icon_id": "gem_sink_pass_points.20260723",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
     },
     {
       "key": "divine_pass:112",
@@ -469906,7 +470375,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -469918,6 +470387,284 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:301",
+      "id": 301,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1785405600,
+      "end_ts": 1786010340,
+      "start_iso": "2026-07-30T10:00:00Z",
+      "end_iso": "2026-08-06T09:59:00Z",
+      "details": "/p/progression-pass.html?id=301",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260730",
+      "featured_dragons": [
+        {
+          "id": 3059,
+          "name": "High Scale Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3059_dragon_highscale_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3059_dragon_highscale_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3324,
+          "name": "Azure Cold Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3324_dragon_azurecold_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3324_dragon_azurecold_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3218,
+          "name": "Reanimation Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3125,
+          "name": "Globalio Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3125_dragon_globalio_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3125_dragon_globalio_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3193,
+          "name": "Pitcher Plant Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3193_dragon_pitcherplant_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3193_dragon_pitcherplant_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260730"
+      ],
+      "currency_id": "arena_pass_points.20260730",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:310",
+      "id": 310,
+      "type": "progression_pass",
+      "variant": "gem_sink_pass",
+      "type_label": "Progression Pass",
+      "title": "GEMS PASS",
+      "subtitle": "",
+      "start_ts": 1785405600,
+      "end_ts": 1786010400,
+      "start_iso": "2026-07-30T10:00:00Z",
+      "end_iso": "2026-08-06T10:00:00Z",
+      "details": "/p/progression-pass.html?id=310",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "gem_sink_pass.20260730",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "gem_sink_pass_points.20260730"
+      ],
+      "currency_id": "gem_sink_pass_points.20260730",
+      "visual_icon_id": "gem_sink_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
+    },
+    {
+      "key": "progression_pass:299",
+      "id": 299,
+      "type": "progression_pass",
+      "variant": "heroic_race_pass",
+      "type_label": "Progression Pass",
+      "title": "RACE PASS",
+      "subtitle": "",
+      "start_ts": 1785405600,
+      "end_ts": 1786356000,
+      "start_iso": "2026-07-30T10:00:00Z",
+      "end_iso": "2026-08-10T10:00:00Z",
+      "details": "/p/progression-pass.html?id=299",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "heroic_race_pass.20260730",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "heroic_race_pass_points.20260730"
+      ],
+      "currency_id": "heroic_race_pass_points.20260730",
+      "visual_icon_id": "heroic_race_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-racepass/$HDSD/ic-racepass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-racepass/HD/ic-racepass.png",
+      "hud_button_asset": "progression-hr-pass-hud"
+    },
+    {
+      "key": "progression_pass:304",
+      "id": 304,
+      "type": "progression_pass",
+      "variant": "tree_of_life_pass",
+      "type_label": "Progression Pass",
+      "title": "TREE OF LIFE PASS",
+      "subtitle": "",
+      "start_ts": 1785405600,
+      "end_ts": 1786615200,
+      "start_iso": "2026-07-30T10:00:00Z",
+      "end_iso": "2026-08-13T10:00:00Z",
+      "details": "/p/progression-pass.html?id=304",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "tree_of_life_pass.20260730",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "tree_of_life_pass_points.20260730"
+      ],
+      "currency_id": "tree_of_life_pass_points.20260730",
+      "visual_icon_id": "tree_of_life_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-summonpass-s1/$HDSD/ic-summonpass-s1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-summonpass-s1/HD/ic-summonpass-s1.png",
+      "hud_button_asset": "dmp-collectors_hunt-hud"
+    },
+    {
+      "key": "progression_pass:306",
+      "id": 306,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1786010400,
+      "end_ts": 1786615140,
+      "start_iso": "2026-08-06T10:00:00Z",
+      "end_iso": "2026-08-13T09:59:00Z",
+      "details": "/p/progression-pass.html?id=306",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260806",
+      "featured_dragons": [
+        {
+          "id": 2496,
+          "name": "High Arcane Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2496_dragon_higharcanemagi_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2496_dragon_higharcanemagi_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3134,
+          "name": "Storyteller Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3134_dragon_storyteller_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3134_dragon_storyteller_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3276,
+          "name": "Magic Antidote Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3276_dragon_magicantidote_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3276_dragon_magicantidote_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3395,
+          "name": "Spellcaster Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3329,
+          "name": "Grand Intel Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3329_dragon_grandintel_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3329_dragon_grandintel_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260806"
+      ],
+      "currency_id": "arena_pass_points.20260806",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:314",
+      "id": 314,
+      "type": "progression_pass",
+      "variant": "gem_sink_pass",
+      "type_label": "Progression Pass",
+      "title": "GEMS PASS",
+      "subtitle": "",
+      "start_ts": 1786010400,
+      "end_ts": 1786615200,
+      "start_iso": "2026-08-06T10:00:00Z",
+      "end_iso": "2026-08-13T10:00:00Z",
+      "details": "/p/progression-pass.html?id=314",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "gem_sink_pass.20260806",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "gem_sink_pass_points.20260806"
+      ],
+      "currency_id": "gem_sink_pass_points.20260806",
+      "visual_icon_id": "gem_sink_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-gempass/$HDSD/ic-currency-gempass_special_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-gempass/HD/ic-currency-gempass_special_c.png",
+      "hud_button_asset": "gems_pass_hud"
     },
     {
       "key": "divine_pass:113",
@@ -476128,7 +476875,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
@@ -476140,6 +476887,578 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:313",
+      "id": 313,
+      "type": "progression_pass",
+      "variant": "temporary_sticker_set_pass",
+      "type_label": "Progression Pass",
+      "title": "GROOVE PASS",
+      "subtitle": "",
+      "start_ts": 1786356000,
+      "end_ts": 1787133540,
+      "start_iso": "2026-08-10T10:00:00Z",
+      "end_iso": "2026-08-19T09:59:00Z",
+      "details": "/p/progression-pass.html?id=313",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "temporary_sticker_set_pass.20260810",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "temporary_sticker_set_pass_points.20260810"
+      ],
+      "currency_id": "temporary_sticker_set_pass_points.20260810",
+      "visual_icon_id": "temporary_sticker_set_pass_points.20260810",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-groovefestpass/$HDSD/ic-currency-footballpass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-groovefestpass/HD/ic-currency-footballpass_c.png",
+      "hud_button_asset": "liberationpass_hud"
+    },
+    {
+      "key": "progression_pass:307",
+      "id": 307,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1786615200,
+      "end_ts": 1787219940,
+      "start_iso": "2026-08-13T10:00:00Z",
+      "end_iso": "2026-08-20T09:59:00Z",
+      "details": "/p/progression-pass.html?id=307",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260813",
+      "featured_dragons": [
+        {
+          "id": 2989,
+          "name": "High Five Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2989_dragon_highfive_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2989_dragon_highfive_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2713,
+          "name": "Apex Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2713_dragon_apex_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2713_dragon_apex_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2957,
+          "name": "Pixie Hydra Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2720,
+          "name": "Moonshade Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2720_dragon_moonshade_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2720_dragon_moonshade_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2963,
+          "name": "Protopillar Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2963_dragon_protopillar_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2963_dragon_protopillar_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260813"
+      ],
+      "currency_id": "arena_pass_points.20260813",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:312",
+      "id": 312,
+      "type": "progression_pass",
+      "variant": "dragon_mastery_pass",
+      "type_label": "Progression Pass",
+      "title": "MASTERY PASS",
+      "subtitle": "",
+      "start_ts": 1786615200,
+      "end_ts": 1789034340,
+      "start_iso": "2026-08-13T10:00:00Z",
+      "end_iso": "2026-09-10T09:59:00Z",
+      "details": "/p/progression-pass.html?id=312",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "dragon_mastery_pass.20260813",
+      "featured_dragons": [
+        {
+          "id": 3493,
+          "name": "Stained Moonveil Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3493_dragon_stainedmoonveil_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3493_dragon_stainedmoonveil_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "dragon_mastery_pass_points.20260813"
+      ],
+      "currency_id": "dragon_mastery_pass_points.20260813",
+      "visual_icon_id": "dragon_mastery_pass_points.20260813",
+      "icon_remote": "/mobile/ui/economy_system/dmp_points_c/$HDSD/ic-dmp-point_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/dmp_points_c/HD/ic-dmp-point_c.png",
+      "hud_button_asset": "dmp-event-hud"
+    },
+    {
+      "key": "progression_pass:308",
+      "id": 308,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1787220000,
+      "end_ts": 1787824740,
+      "start_iso": "2026-08-20T10:00:00Z",
+      "end_iso": "2026-08-27T09:59:00Z",
+      "details": "/p/progression-pass.html?id=308",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260820",
+      "featured_dragons": [
+        {
+          "id": 1844,
+          "name": "High Feral Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1844_dragon_highferal_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1844_dragon_highferal_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2270,
+          "name": "Eye of Chaos Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2270_dragon_eyeofchaos_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2270_dragon_eyeofchaos_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2311,
+          "name": "Thunderbolt Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2311_dragon_thunderbolt_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2311_dragon_thunderbolt_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2047,
+          "name": "Einar Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2047_dragon_einar_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2047_dragon_einar_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3352,
+          "name": "Eggspulsion Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260820"
+      ],
+      "currency_id": "arena_pass_points.20260820",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:315",
+      "id": 315,
+      "type": "progression_pass",
+      "variant": "pet_food_pass",
+      "type_label": "Progression Pass",
+      "title": "PET PASS",
+      "subtitle": "",
+      "start_ts": 1787220000,
+      "end_ts": 1788429540,
+      "start_iso": "2026-08-20T10:00:00Z",
+      "end_iso": "2026-09-03T09:59:00Z",
+      "details": "/p/progression-pass.html?id=315",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "pet_food_pass.20260820",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "pet_food_pass_points.20260820"
+      ],
+      "currency_id": "pet_food_pass_points.20260820",
+      "visual_icon_id": "pet_food_pass_points.20260820",
+      "icon_remote": "/mobile/ui/economy_system/ic_petspass_currency/$HDSD/ic_petspass_currency_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_petspass_currency/HD/ic_petspass_currency_c.png",
+      "hud_button_asset": "currency-pets-pass-fix"
+    },
+    {
+      "key": "progression_pass:311",
+      "id": 311,
+      "type": "progression_pass",
+      "variant": "season_pass",
+      "type_label": "Progression Pass",
+      "title": "BEACH PASS",
+      "subtitle": "",
+      "start_ts": 1787220000,
+      "end_ts": 1788429600,
+      "start_iso": "2026-08-20T10:00:00Z",
+      "end_iso": "2026-09-03T10:00:00Z",
+      "details": "/p/progression-pass.html?id=311",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "season_pass.20260820",
+      "featured_dragons": [
+        {
+          "id": 3502,
+          "name": "High Risen Sea Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3502_dragon_highrisensea_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3502_dragon_highrisensea_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "season_pass_points.20260820"
+      ],
+      "currency_id": "season_pass_points.20260820",
+      "visual_icon_id": "season_pass_points.20260820",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-beach-pass/$HDSD/ic-currency-beach-pass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-beach-pass/HD/ic-currency-beach-pass_c.png",
+      "hud_button_asset": "highrisenstar_pass_hud"
+    },
+    {
+      "key": "progression_pass:316",
+      "id": 316,
+      "type": "progression_pass",
+      "variant": "hatching_pass",
+      "type_label": "Progression Pass",
+      "title": "HATCH PASS",
+      "subtitle": "",
+      "start_ts": 1787565600,
+      "end_ts": 1788429600,
+      "start_iso": "2026-08-24T10:00:00Z",
+      "end_iso": "2026-09-03T10:00:00Z",
+      "details": "/p/progression-pass.html?id=316",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "hatching_pass.20260824",
+      "featured_dragons": [
+        {
+          "id": 2310,
+          "name": "Triumphant Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2310_dragon_triumphant_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2310_dragon_triumphant_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "hatching_pass_points.20260824"
+      ],
+      "currency_id": "hatching_pass_points.20260824",
+      "visual_icon_id": "hatching_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/$HDSD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/HD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "hud_button_asset": "hatchery-current-icon"
+    },
+    {
+      "key": "progression_pass:309",
+      "id": 309,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1787824800,
+      "end_ts": 1788429540,
+      "start_iso": "2026-08-27T10:00:00Z",
+      "end_iso": "2026-09-03T09:59:00Z",
+      "details": "/p/progression-pass.html?id=309",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260827",
+      "featured_dragons": [
+        {
+          "id": 2878,
+          "name": "High Anomaly Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2878_dragon_highanomaly_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2878_dragon_highanomaly_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2491,
+          "name": "Xolotl Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2725,
+          "name": "Polar General Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2725_dragon_polargeneral_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2725_dragon_polargeneral_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2696,
+          "name": "Shapeshifter Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2696_dragon_shapeshifting_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2696_dragon_shapeshifting_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 1623,
+          "name": "Fervor Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_34510_fervour_dragon_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_34510_fervour_dragon_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260827"
+      ],
+      "currency_id": "arena_pass_points.20260827",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:280",
+      "id": 280,
+      "type": "progression_pass",
+      "variant": "react_pass",
+      "type_label": "Progression Pass",
+      "title": "WELCOME BACK PASS",
+      "subtitle": "",
+      "start_ts": 1788185280,
+      "end_ts": 1788790080,
+      "start_iso": "2026-08-31T14:08:00Z",
+      "end_iso": "2026-09-07T14:08:00Z",
+      "details": "/p/progression-pass.html?id=280",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "react_pass.20260616_seg50",
+      "featured_dragons": [
+        {
+          "id": 3109,
+          "name": "High Redemption Norn Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3109_dragon_highredemptionnorn_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3109_dragon_highredemptionnorn_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2843,
+          "name": "Truthbender Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2843_dragon_truthbender_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2843_dragon_truthbender_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 2,
+      "currency_ids": [
+        "react_pass_points.20260616_seg50"
+      ],
+      "currency_id": "react_pass_points.20260616_seg50",
+      "visual_icon_id": "react_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/$HDSD/ic_iap_pass_currency_flower_bouquet_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/HD/ic_iap_pass_currency_flower_bouquet_c.png",
+      "hud_button_asset": "react-pass-hud",
+      "player_segment_ids": [
+        50
+      ],
+      "player_segmentation_type": "dynamic"
+    },
+    {
+      "key": "progression_pass:319",
+      "id": 319,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1788429600,
+      "end_ts": 1789034340,
+      "start_iso": "2026-09-03T10:00:00Z",
+      "end_iso": "2026-09-10T09:59:00Z",
+      "details": "/p/progression-pass.html?id=319",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260903",
+      "featured_dragons": [
+        {
+          "id": 3115,
+          "name": "High Ashwing Dragon",
+          "rarity": "H",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3115_dragon_highashwing_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3115_dragon_highashwing_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2799,
+          "name": "Dracarctic Predator Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2799_dragon_dracarticpredator_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2799_dragon_dracarticpredator_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2500,
+          "name": "Impervious Diamond Dragon",
+          "rarity": "M",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2500_dragon_imperviousdiamond_b_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2500_dragon_imperviousdiamond_b_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3323,
+          "name": "Antarcticlaw Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3323_dragon_antarcticlaw_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3323_dragon_antarcticlaw_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3060,
+          "name": "Abracadabra Dragon",
+          "rarity": "L",
+          "img_name": "",
+          "thumbnail": "",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3060_dragon_abracadabra_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3060_dragon_abracadabra_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260903"
+      ],
+      "currency_id": "arena_pass_points.20260903",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     },
     {
       "key": "divine_pass:119",
@@ -480278,7 +481597,7 @@
           "benefit_texts": {
             "orbs_habitat_title": "DIVINE ORBS HABITAT",
             "orbs_habitat_slot": "+1 extra Orbs slot",
-            "orbs_habitat_description": "Guaranteed Orbs of a dragon placed inside",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
             "event_booster_title": "EVENT BOOSTER",
             "event_booster_description": "Get boosts collecting event currencies!",
             "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
