@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - game_config.json
+      - side_events_config.json
       - localization/dragon_city_localization_baseline_en.json
       - extract_events.py
       - extract_event_collections.py
@@ -16,6 +17,7 @@ on:
       - extract_chests.py
       - extract_alliance_chest.py
       - extract_heroic_race.py
+      - extract_passes.py
       - legacy/heroic_races/**
       - heroic_race_archive_overrides.json
       - build_fog_assets.py
@@ -75,6 +77,9 @@ jobs:
       - name: Build chests.json and chest detail shards
         run: python extract_chests.py
 
+      - name: Build passes.json
+        run: python extract_passes.py
+
       - name: Build event_collections.json
         run: python extract_event_collections.py --localization localization/dragon_city_localization_baseline_en.json
 
@@ -87,7 +92,7 @@ jobs:
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json event_collections.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json
+          git add events.json event_collections.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json passes.json
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."
