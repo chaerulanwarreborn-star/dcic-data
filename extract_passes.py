@@ -118,17 +118,34 @@ THEME_RESOURCE_TYPES = {
 }
 
 GOAL_ICON_MAP = {
-    "FEED": "pass/ic-gl-feed.png",
-    "COLLECT_FOOD": "pass/ic-gl-collect-food.png",
-    "FOOD": "pass/ic-gl-collect-food.png",
+    # Specific action types first. These filenames mirror /icons/pass.
+    "WATCH_DRAGONTV_AD": "pass/ic-gl-dragontv.png",
+    "SPEND_GEMS_ON_WIZARDS_CAVE": "pass/ic-wizard-hollow.png",
+    "REACH_STAGE_ON_WIZARDS_CAVE": "pass/ic-wizard-hollow.png",
+    "START_WIZARDS_CAVE_TRY": "pass/ic-wizard-hollow.png",
+    "DRAGON_POWER_UP_UPGRADE": "pass/ic-goals-rankup.png",
+    "ACTIVATE_DRAGON_TOWER": "pass/ic-gl-tower.png",
+    "UPGRADE_HABITAT": "pass/ic-gl-habitat.png",
+    "LEVELUP_DRAGON": "pass/ic-gl-dragon-lvlup.png",
+    "FINISH_TRAINING": "pass/ic-gl-train.png",
+    "RECALL_DRAGON": "pass/ic-gl-recall.png",
+    "SUMMON_DRAGON": "pass/ic-gl-summon.png",
+    "COMBAT_QUEST": "pass/ic-gl-quests.png",
+    "COMBAT_LEAGUE": "pass/ic-gl-leagues.png",
     "COMBAT_ARENA": "pass/ic-gl-arenas.png",
-    "ARENA": "pass/ic-gl-arenas.png",
-    "LEAGUE": "pass/ic-gl-leagues.png",
+    "SPEND_EVENT_POINTS": "currency-icon/coin-mix.png",
+    "COLLECT_FOOD": "pass/ic-gl-collect-food.png",
+    "COLLECT_GOLD": "pass/ic-gl-collect-gold.png",
+    "HATCH_EGG": "pass/ic-gl-hatch.png",
     "BREED": "pass/ic-gl-breed.png",
-    "HATCH": "pass/ic-gl-hatch.png",
-    "WATCH": "pass/ic-gl-dragontv.png",
-    "VIDEO": "pass/ic-gl-dragontv.png",
-    "DRAGONTV": "pass/ic-gl-dragontv.png",
+    "FEED": "pass/ic-gl-feed.png",
+    # Text fallbacks for localized goals whose action type is more generic.
+    "HEROIC NODE": "pass/ic-gl-heroicrace.png",
+    "HEROIC RACE": "pass/ic-gl-heroicrace.png",
+    "EVENT POINT": "currency-icon/coin-mix.png",
+    "LEVELUP": "pass/ic-gl-dragon-lvlup.png",
+    "LEVEL UP": "pass/ic-gl-dragon-lvlup.png",
+    "LEAGUE": "pass/ic-gl-leagues.png",
     "QUEST": "pass/ic-gl-quests.png",
     "MAZE": "pass/ic-gl-maze.png",
     "GRID": "pass/ic-gl-grid.png",
@@ -140,14 +157,13 @@ GOAL_ICON_MAP = {
     "TRAIN": "pass/ic-gl-train.png",
     "RECALL": "pass/ic-gl-recall.png",
     "HABITAT": "pass/ic-gl-habitat.png",
-    "UPGRADE": "pass/ic-gl-up.png",
     "EMPOWER": "pass/ic-gl-empower.png",
-    "POWER_UP": "pass/ic-goals-rankup.png",
-    "RANK_UP": "pass/ic-goals-rankup.png",
+    "POWER UP": "pass/ic-goals-rankup.png",
+    "RANK UP": "pass/ic-goals-rankup.png",
     "RESCUE": "pass/ic-gl-rescue.png",
-    "HEROICRACE": "pass/ic-gl-heroicrace.png",
     "WIZARD": "pass/ic-wizard-hollow.png",
 }
+
 
 GOAL_LABEL_RULES = [
     ("COMBAT_ARENA", "Arena Battle"),
@@ -1079,6 +1095,45 @@ def resolve_goal_text(
     return " / ".join(labels)
 
 
+def goal_minor_symbols(actions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
+    """Return semantic element/rarity badges for the website.
+
+    The page resolves -0/-1 at render time so it follows the site's
+    Old Symbols setting instead of freezing one icon generation into JSON.
+    """
+    symbols: List[Dict[str, str]] = []
+    seen = set()
+
+    def add(kind: str, code: Any) -> None:
+        token = str(code or "").strip()
+        if not token:
+            return
+        key = (kind, token)
+        if key in seen:
+            return
+        seen.add(key)
+        symbols.append({"kind": kind, "code": token})
+
+    for action in actions:
+        rules = action.get("rules") if isinstance(action.get("rules"), dict) else {}
+        # Breed goals use parents_elements; most Feed/Hatch/Arena/Level goals
+        # use all_of_elements. Keep support for adjacent rule spellings too.
+        for rule_key in ("parents_elements", "all_of_elements", "any_of_elements", "elements"):
+            value = rules.get(rule_key)
+            if isinstance(value, list):
+                for code in value:
+                    add("element", code)
+            elif value:
+                add("element", value)
+        rarity = rules.get("rarity")
+        if rarity:
+            add("rarity", str(rarity).upper())
+
+    # Two element flags are useful for parent-pair breeding goals. A rarity
+    # plus one element also fits cleanly. Avoid turning a goal icon into a pile.
+    return symbols[:2]
+
+
 def build_goal(
     goal_id: Any,
     goal_by_id: Dict[int, Dict[str, Any]],
@@ -1100,6 +1155,8 @@ def build_goal(
     action_type = str(actions[0].get("type") or "") if actions else ""
     targets = [as_int(a.get("amount")) for a in actions if as_int(a.get("amount")) > 0]
     target = max(targets) if targets else 0
+    title = resolve_goal_text(goal, actions, localization)
+    minor_symbols = goal_minor_symbols(actions)
 
     reward = normalize_reward(
         goal.get("reward"),
@@ -1495,11 +1552,6 @@ def progression_passes(
     return out
 
 
-def keep_current_and_upcoming(passes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """No archive yet: remove passes that have already ended."""
-    now_ts = int(datetime.now(timezone.utc).timestamp())
-    return [row for row in passes if as_int(row.get("end_ts")) >= now_ts]
-
 
 def main() -> None:
     config = unwrap_config(load_json(CONFIG_PATH))
@@ -1508,8 +1560,10 @@ def main() -> None:
 
     passes = divine_passes(config, localization, dragons, skins, chests, items)
     passes += progression_passes(config, localization, dragons)
-    passes = keep_current_and_upcoming(passes)
 
+    # No separate archive UI yet, but passes.json must preserve every pass
+    # definition that still exists in side_events_config.json, including ended
+    # seasons. Homepage code already selects current/upcoming by timestamps.
     dedup: Dict[str, Dict[str, Any]] = {row["key"]: row for row in passes}
     passes = sorted(
         dedup.values(),
@@ -1517,10 +1571,11 @@ def main() -> None:
     )
 
     payload = {
-        "schema_version": 4,
+        "schema_version": 5,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "archive_enabled": False,
+        "config_scope": "all_passes_present_in_side_events_config",
         "pass_count": len(passes),
         "divine_pass_count": sum(1 for p in passes if p.get("type") == "divine_pass"),
         "progression_pass_count": sum(1 for p in passes if p.get("type") == "progression_pass"),
@@ -1532,7 +1587,7 @@ def main() -> None:
         f.write("\n")
 
     print(
-        f"Wrote {OUTPUT_PATH.name}: {len(passes)} active/upcoming passes "
+        f"Wrote {OUTPUT_PATH.name}: {len(passes)} configured passes "
         f"from {CONFIG_PATH.name}"
     )
 
