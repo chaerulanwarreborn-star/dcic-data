@@ -459,10 +459,37 @@ def dragon_record(
     img_name = re.sub(r"@2x(?:\.png)?$", "", img_name, flags=re.I)
     img_name = re.sub(r"\.png$", "", img_name, flags=re.I)
 
-    # Dragon Orbs always use the standard adult thumbnail (_3).
+    # Dragon Orbs / homepage featured dragons use the standard adult thumbnail (_3).
     thumbnail = str(row.get("thumbnail") or row.get("thumbnail_image") or "").strip()
     if not thumbnail and img_name:
         thumbnail = f"{DRAGON_THUMB_BASE}thumb_{img_name}_3.png"
+
+    # Some newer dragons can be absent/incomplete in dragons.json while the
+    # Battle/Progression Pass config still exposes a valid baby asset such as:
+    #   .../ui_3492_dragon_stainedvenomcrest_1@2x.png
+    # Derive the canonical asset stem and build the adult circular thumbnail:
+    #   .../HD/thumb_3492_dragon_stainedvenomcrest_3.png
+    #
+    # This keeps homepage pass cards consistent with Event Islands instead of
+    # falling back to the full-body baby image.
+    if not thumbnail:
+        baby_source = str(
+            row.get("baby_image")
+            or row.get("image_url")
+            or row.get("image")
+            or ""
+        ).strip()
+
+        match = re.search(
+            r"/ui_([^/?#]+?)_1(?:@2x)?\.png(?:[?#].*)?$",
+            baby_source,
+            flags=re.I,
+        )
+        if match:
+            derived_img_name = match.group(1)
+            if not img_name:
+                img_name = derived_img_name
+            thumbnail = f"{DRAGON_THUMB_BASE}thumb_{derived_img_name}_3.png"
 
     # A Dragon reward is the full-body BABY stage (_1), matching the existing
     # Event Collection renderer. Prefer extracted metadata, then the canonical
@@ -489,6 +516,20 @@ def dragon_record(
         baby_candidates.append(baby_image)
     if not baby_image and baby_candidates:
         baby_image = baby_candidates[0]
+
+    # Final thumbnail fallback from the resolved baby URL/candidates.
+    if not thumbnail:
+        thumb_source = baby_image or (baby_candidates[0] if baby_candidates else "")
+        match = re.search(
+            r"/ui_([^/?#]+?)_1(?:@2x)?\.png(?:[?#].*)?$",
+            str(thumb_source),
+            flags=re.I,
+        )
+        if match:
+            derived_img_name = match.group(1)
+            if not img_name:
+                img_name = derived_img_name
+            thumbnail = f"{DRAGON_THUMB_BASE}thumb_{derived_img_name}_3.png"
 
     record: Dict[str, Any] = {
         "id": dragon_id,
