@@ -1182,6 +1182,7 @@ def build_goal(
         "divine_points": reward_points(reward),
         "icon_url": goal_icon(action_type, resolved_title, actions),
         "reward": reward,
+        "minor_symbols": minor_symbols,
         "collectible_actions": [
             {
                 "id": as_int(a.get("id")),
