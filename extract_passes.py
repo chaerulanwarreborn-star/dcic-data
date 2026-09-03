@@ -276,6 +276,16 @@ def as_number(value: Any) -> Any:
     return number
 
 
+def elite_percent(value: Any) -> Any:
+    """Convert Elite fixed-point bonus values (e.g. 200000 -> 20%)."""
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return 0
+    result = number / 10000.0
+    return int(result) if result.is_integer() else result
+
+
 def parse_time(value: Any) -> int:
     if isinstance(value, (int, float)):
         return int(value)
@@ -1321,6 +1331,11 @@ def divine_passes(
         for row in section.get("parameters", [])
         if isinstance(row, dict) and str(row.get("name") or "").strip()
     }
+    elite_parameter_map = {
+        str(row.get("name") or ""): row.get("value")
+        for row in section.get("elite_pass", [])
+        if isinstance(row, dict) and str(row.get("name") or "").strip()
+    }
 
     out: List[Dict[str, Any]] = []
     for row in section.get("battle_pass", []):
@@ -1440,8 +1455,26 @@ def divine_passes(
         )
         booster_parameters = {
             key: value
-            for key, value in parameter_map.items()
-            if "BOOST" in key.upper() or "MULTIPLIER" in key.upper()
+            for key, value in elite_parameter_map.items()
+            if key.upper().startswith("ELITE_")
+            and key.upper() != "ELITE_TUTORIAL_ID"
+        }
+        event_booster = {
+            "coin_bonus_percent": elite_percent(
+                elite_parameter_map.get("ELITE_COIN_COLLECT_BONUS_MULT")
+            ),
+            "coin_bonus_chance": as_number(
+                elite_parameter_map.get("ELITE_COIN_COLLECT_BONUS_CHANCE", 0)
+            ),
+            "token_bonus_percent": elite_percent(
+                elite_parameter_map.get("ELITE_TOKEN_COLLECT_BONUS_MULT")
+            ),
+            "token_bonus_chance": as_number(
+                elite_parameter_map.get("ELITE_TOKEN_COLLECT_BONUS_CHANCE", 0)
+            ),
+            "heroic_spin_discount_seconds": as_int(
+                elite_parameter_map.get("ELITE_HEROIC_SPIN_BOOST_SECONDS_DISCOUNT")
+            ),
         }
 
         out.append({
@@ -1478,6 +1511,37 @@ def divine_passes(
                     "purchased_elite_extra_reward": purchased_elite_extra,
                     "purchased_premium_extra_reward": purchased_premium_extra,
                     "booster_parameters": booster_parameters,
+                    "event_booster": event_booster,
+                    "benefit_texts": {
+                        "orbs_habitat_title": loc_text(
+                            localization, "tid_elite_orbs_habitat_title", "DIVINE ORBS HABITAT"
+                        ),
+                        "orbs_habitat_slot": loc_text(
+                            localization, "tid_elite_orbs_habitat_one_slot", "+1 extra Orbs slot"
+                        ),
+                        "orbs_habitat_description": loc_text(
+                            localization,
+                            "tid_elite_orbs_habitat_inactive_desc",
+                            "Guaranteed Orbs of a dragon placed inside",
+                        ),
+                        "event_booster_title": loc_text(
+                            localization, "tid_elite_events_booster", "EVENT BOOSTER"
+                        ),
+                        "event_booster_description": loc_text(
+                            localization,
+                            "tid_elite_events_description",
+                            "Get boosts collecting event currencies!",
+                        ),
+                        "event_booster_info": loc_text(
+                            localization, "tid_elite_event_booster_info", ""
+                        ),
+                        "event_currency_label": loc_text(
+                            localization, "tid_elite_event_currencies", "Event Currency"
+                        ),
+                        "spin_booster_label": loc_text(
+                            localization, "tid_elite_spin_booster", "x2 Free Spins!"
+                        ),
+                    },
                 },
                 "asset": str(row.get("asset") or ""),
                 "sound_tag": str(row.get("sound_tag") or ""),
@@ -1490,6 +1554,7 @@ def divine_passes(
 
 def progression_passes(
     config: Dict[str, Any],
+    game_config: Dict[str, Any],
     localization: Dict[str, str],
     dragons: Dict[int, Dict[str, Any]],
 ) -> List[Dict[str, Any]]:
@@ -1497,7 +1562,11 @@ def progression_passes(
     if not isinstance(pm, dict):
         return []
 
-    unlock_rows = config.get("unlock_system", {}).get("unlocks", [])
+    # progression_milestones definitions live in side_events_config, but their
+    # schedule gates live in game_config.unlock_system.
+    unlock_rows = game_config.get("unlock_system", {}).get("unlocks", [])
+    if not unlock_rows:
+        unlock_rows = config.get("unlock_system", {}).get("unlocks", [])
     unlock_by_id = {
         str(row.get("id")): row
         for row in unlock_rows
@@ -1533,7 +1602,9 @@ def progression_passes(
         for row in pm.get("rewards", [])
         if isinstance(row, dict)
     }
-    exact_icons, wildcard_icons = economy_visual_icon_index(config)
+    exact_icons, wildcard_icons = economy_visual_icon_index(game_config)
+    if not exact_icons and not wildcard_icons:
+        exact_icons, wildcard_icons = economy_visual_icon_index(config)
 
     out: List[Dict[str, Any]] = []
     for row in pm.get("progression_milestones", []):
@@ -1640,11 +1711,12 @@ def progression_passes(
 
 def main() -> None:
     config = unwrap_config(load_json(CONFIG_PATH))
+    game_config = unwrap_config(load_optional_json(GAME_CONFIG_PATH))
     localization = normalize_localization(load_json(LOCALIZATION_PATH))
     dragons, skins, chests, items = support_indexes()
 
     passes = divine_passes(config, localization, dragons, skins, chests, items)
-    passes += progression_passes(config, localization, dragons)
+    passes += progression_passes(config, game_config, localization, dragons)
 
     # No separate archive UI yet, but passes.json must preserve every pass
     # definition that still exists in side_events_config.json, including ended
