@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-03T06:50:48.096992Z",
+  "generated_at": "2026-09-03T07:04:13.991337Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "pass_count": 2,
@@ -51,6 +51,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 25,
@@ -71,20 +73,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 8377
+                "id": 8377,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 8377,
                   "chest_id": 8377,
+                  "source_chest_id": 8377,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Lucky Legendary Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/300_chest_mardigras.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 8377
+                    "id": 8377,
+                    "type": "generic"
                   }
                 }
               ],
@@ -111,7 +128,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 3,
                   "values": [
@@ -147,20 +167,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40029
+                "id": 40029,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40029,
                   "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40029
+                    "id": 40029,
+                    "type": "generic"
                   }
                 }
               ],
@@ -181,6 +216,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 10,
@@ -207,20 +244,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40003
+                "id": 40003,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40003,
                   "chest_id": 40003,
+                  "source_chest_id": 40003,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Mythical Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40003
+                    "id": 40003,
+                    "type": "generic"
                   }
                 }
               ],
@@ -241,6 +293,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 50,
@@ -267,20 +321,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40011
+                "id": 40011,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40011,
                   "chest_id": 40011,
+                  "source_chest_id": 40011,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Heroic Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40011
+                    "id": 40011,
+                    "type": "generic"
                   }
                 }
               ],
@@ -301,6 +370,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "oph_token",
                   "name": "Divine Orbs Habitat Tokens",
                   "amount": 100,
@@ -330,6 +401,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "oph_token",
                   "name": "Divine Orbs Habitat Tokens",
                   "amount": 500,
@@ -360,6 +433,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.m",
                   "name": "Pet Food Pack",
                   "amount": 2,
@@ -383,6 +458,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.s",
                   "name": "Pet Food Pack",
                   "amount": 3,
@@ -409,20 +486,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40010
+                "id": 40010,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40010,
                   "chest_id": 40010,
+                  "source_chest_id": 40010,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Legendary Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_165_chest_legendaryorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40010
+                    "id": 40010,
+                    "type": "generic"
                   }
                 }
               ],
@@ -440,20 +532,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 17058
+                "id": 17058,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 17058,
                   "chest_id": 17058,
+                  "source_chest_id": 17058,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Treasure Key",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_silver.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 17058
+                    "id": 17058,
+                    "type": "generic"
                   }
                 }
               ],
@@ -480,6 +587,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.l",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -503,6 +612,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.s",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -529,20 +640,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 17689
+                "id": 17689,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 17689,
                   "chest_id": 17689,
+                  "source_chest_id": 17689,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Treasure Key",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_silver@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_silver.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 17689
+                    "id": 17689,
+                    "type": "generic"
                   }
                 }
               ],
@@ -563,6 +689,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 50,
@@ -595,10 +723,13 @@
               "items": [
                 {
                   "kind": "dragon",
+                  "type": "dragon_egg",
+                  "asset_kind": "dragon",
                   "id": 3492,
                   "dragon_id": 3492,
                   "name": "Stained Venomcrest Dragon",
                   "amount": 1,
+                  "img_name_mobile": "",
                   "image_url": "",
                   "popup": {
                     "kind": "dragon",
@@ -620,20 +751,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_162_chest_rareorb@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40014
+                "id": 40014,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40014,
                   "chest_id": 40014,
+                  "source_chest_id": 40014,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Rare Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_162_chest_rareorb@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_162_chest_rareorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_162_chest_rareorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/162_chest_rareorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/162_chest_rareorb.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40014
+                    "id": 40014,
+                    "type": "generic"
                   }
                 }
               ],
@@ -651,7 +797,7 @@
             "completion_score": 440,
             "premium_reward": {
               "reward_id": 9260,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 20,
               "kind": "resource",
               "image_url": "",
@@ -660,8 +806,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 20,
                   "rarity": "L",
                   "image_url": ""
@@ -696,6 +844,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.1",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -716,20 +866,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_345_chest_keys@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40005
+                "id": 40005,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40005,
                   "chest_id": 40005,
+                  "source_chest_id": 40005,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Key Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_345_chest_keys@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_345_chest_keys@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_345_chest_keys@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/345_chest_keys@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/345_chest_keys.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40005
+                    "id": 40005,
+                    "type": "generic"
                   }
                 }
               ],
@@ -753,20 +918,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40111
+                "id": 40111,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40111,
                   "chest_id": 40111,
+                  "source_chest_id": 40111,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Tremendous Token Trunk",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/342_chest_random_token_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40111
+                    "id": 40111,
+                    "type": "generic"
                   }
                 }
               ],
@@ -794,6 +974,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 200,
@@ -817,6 +999,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "trade_tickets",
                   "name": "Trade Tickets",
                   "amount": 1,
@@ -856,20 +1040,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40002
+                "id": 40002,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40002,
                   "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40002
+                    "id": 40002,
+                    "type": "generic"
                   }
                 }
               ],
@@ -887,20 +1086,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 1403
+                "id": 1403,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 1403,
                   "chest_id": 1403,
+                  "source_chest_id": 1403,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Mythical Treasure Key",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 1403
+                    "id": 1403,
+                    "type": "generic"
                   }
                 }
               ],
@@ -918,7 +1132,7 @@
             "completion_score": 640,
             "premium_reward": {
               "reward_id": 9261,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 25,
               "kind": "resource",
               "image_url": "",
@@ -927,8 +1141,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 25,
                   "rarity": "L",
                   "image_url": ""
@@ -953,20 +1169,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_493_chest_bp_food_small@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40028
+                "id": 40028,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40028,
                   "chest_id": 40028,
+                  "source_chest_id": 40028,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Free Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_493_chest_bp_food_small@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_493_chest_bp_food_small@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_493_chest_bp_food_small@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/493_chest_bp_food_small@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/493_chest_bp_food_small.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40028
+                    "id": 40028,
+                    "type": "generic"
                   }
                 }
               ],
@@ -993,6 +1224,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 45,
@@ -1026,10 +1259,14 @@
               "items": [
                 {
                   "kind": "dragon_orbs",
+                  "type": "dragon_orbs",
+                  "asset_kind": "dragon",
                   "id": 3492,
                   "dragon_id": 3492,
                   "name": "Stained Venomcrest Dragon Orbs",
                   "amount": 120,
+                  "dragon_rarity": "L",
+                  "img_name_mobile": "",
                   "image_url": "",
                   "popup": {
                     "kind": "dragon_orbs",
@@ -1056,20 +1293,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_164_chest_epicorb@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40016
+                "id": 40016,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40016,
                   "chest_id": 40016,
+                  "source_chest_id": 40016,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Epic Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_164_chest_epicorb@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_164_chest_epicorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_164_chest_epicorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/164_chest_epicorb@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/164_chest_epicorb.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40016
+                    "id": 40016,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1087,7 +1339,7 @@
             "completion_score": 760,
             "premium_reward": {
               "reward_id": 8351,
-              "name": "M Orbs",
+              "name": "M Joker Orbs",
               "amount": 20,
               "kind": "resource",
               "image_url": "",
@@ -1096,8 +1348,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "M Orbs",
+                  "name": "M Joker Orbs",
                   "amount": 20,
                   "rarity": "M",
                   "image_url": ""
@@ -1125,6 +1379,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 100,
@@ -1154,6 +1410,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.l",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1174,20 +1432,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40020
+                "id": 40020,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40020,
                   "chest_id": 40020,
+                  "source_chest_id": 40020,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Crate of 10 Gems",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/468_chest_bp_gems_10.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40020
+                    "id": 40020,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1205,7 +1478,7 @@
             "completion_score": 840,
             "premium_reward": {
               "reward_id": 8351,
-              "name": "M Orbs",
+              "name": "M Joker Orbs",
               "amount": 20,
               "kind": "resource",
               "image_url": "",
@@ -1214,8 +1487,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "M Orbs",
+                  "name": "M Joker Orbs",
                   "amount": 20,
                   "rarity": "M",
                   "image_url": ""
@@ -1250,6 +1525,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 1,
@@ -1273,6 +1550,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.m",
                   "name": "Pet Food Pack",
                   "amount": 2,
@@ -1302,6 +1581,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.4",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1323,7 +1604,7 @@
             "completion_score": 960,
             "premium_reward": {
               "reward_id": 9261,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 25,
               "kind": "resource",
               "image_url": "",
@@ -1332,8 +1613,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 25,
                   "rarity": "L",
                   "image_url": ""
@@ -1358,20 +1641,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 8377
+                "id": 8377,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 8377,
                   "chest_id": 8377,
+                  "source_chest_id": 8377,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Lucky Legendary Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/300_chest_mardigras@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/300_chest_mardigras.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 8377
+                    "id": 8377,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1389,7 +1687,7 @@
             "completion_score": 1000,
             "premium_reward": {
               "reward_id": 9265,
-              "name": "H Orbs",
+              "name": "H Joker Orbs",
               "amount": 15,
               "kind": "resource",
               "image_url": "",
@@ -1398,8 +1696,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "H Orbs",
+                  "name": "H Joker Orbs",
                   "amount": 15,
                   "rarity": "H",
                   "image_url": ""
@@ -1431,20 +1731,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 3923
+                "id": 3923,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 3923,
                   "chest_id": 3923,
+                  "source_chest_id": 3923,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Mythical Treasure Key",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 3923
+                    "id": 3923,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1456,7 +1771,7 @@
             },
             "free_reward": {
               "reward_id": 8353,
-              "name": "M Orbs",
+              "name": "M Joker Orbs",
               "amount": 10,
               "kind": "resource",
               "image_url": "",
@@ -1465,8 +1780,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "M Orbs",
+                  "name": "M Joker Orbs",
                   "amount": 10,
                   "rarity": "M",
                   "image_url": ""
@@ -1497,20 +1814,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40002
+                "id": 40002,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40002,
                   "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40002
+                    "id": 40002,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1541,10 +1873,14 @@
               "items": [
                 {
                   "kind": "dragon_orbs",
+                  "type": "dragon_orbs",
+                  "asset_kind": "dragon",
                   "id": 3492,
                   "dragon_id": 3492,
                   "name": "Stained Venomcrest Dragon Orbs",
                   "amount": 200,
+                  "dragon_rarity": "L",
+                  "img_name_mobile": "",
                   "image_url": "",
                   "popup": {
                     "kind": "dragon_orbs",
@@ -1574,6 +1910,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.m",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1603,7 +1941,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 3,
                   "values": [
@@ -1635,6 +1976,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 100,
@@ -1664,6 +2007,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.xl",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1687,6 +2032,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.2",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1713,20 +2060,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40029
+                "id": 40029,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40029,
                   "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40029
+                    "id": 40029,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1754,6 +2116,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.generic",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1777,6 +2141,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.l",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1806,6 +2172,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 2,
@@ -1827,7 +2195,7 @@
             "completion_score": 1360,
             "premium_reward": {
               "reward_id": 9266,
-              "name": "M Orbs",
+              "name": "M Joker Orbs",
               "amount": 50,
               "kind": "resource",
               "image_url": "",
@@ -1836,8 +2204,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "M Orbs",
+                  "name": "M Joker Orbs",
                   "amount": 50,
                   "rarity": "M",
                   "image_url": ""
@@ -1865,6 +2235,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 1,
@@ -1891,20 +2263,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40111
+                "id": 40111,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40111,
                   "chest_id": 40111,
+                  "source_chest_id": 40111,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Tremendous Token Trunk",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/342_chest_random_token_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/342_chest_random_token_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40111
+                    "id": 40111,
+                    "type": "generic"
                   }
                 }
               ],
@@ -1923,7 +2310,7 @@
             "completion_score": 1440,
             "premium_reward": {
               "reward_id": 9261,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 25,
               "kind": "resource",
               "image_url": "",
@@ -1932,8 +2319,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 25,
                   "rarity": "L",
                   "image_url": ""
@@ -1961,6 +2350,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.xl",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -1990,6 +2381,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 200,
@@ -2011,7 +2404,7 @@
             "completion_score": 1520,
             "premium_reward": {
               "reward_id": 9264,
-              "name": "H Orbs",
+              "name": "H Joker Orbs",
               "amount": 25,
               "kind": "resource",
               "image_url": "",
@@ -2020,8 +2413,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "H Orbs",
+                  "name": "H Joker Orbs",
                   "amount": 25,
                   "rarity": "H",
                   "image_url": ""
@@ -2049,6 +2444,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.3",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -2078,6 +2475,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.5",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -2101,6 +2500,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "gacha_event_tickets",
                   "name": "Event Tickets",
                   "amount": 200,
@@ -2127,20 +2528,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_mds@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 2659
+                "id": 2659,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 2659,
                   "chest_id": 2659,
+                  "source_chest_id": 2659,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Heroic Treasure Key",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_mds@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_mds@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_mds@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_mds.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 2659
+                    "id": 2659,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2161,6 +2577,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 1,
@@ -2187,20 +2605,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40011
+                "id": 40011,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40011,
                   "chest_id": 40011,
+                  "source_chest_id": 40011,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Heroic Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40011
+                    "id": 40011,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2228,6 +2661,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 50,
@@ -2248,20 +2683,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40020
+                "id": 40020,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40020,
                   "chest_id": 40020,
+                  "source_chest_id": 40020,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Crate of 10 Gems",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/468_chest_bp_gems_10@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/468_chest_bp_gems_10.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40020
+                    "id": 40020,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2285,20 +2735,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40011
+                "id": 40011,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40011,
                   "chest_id": 40011,
+                  "source_chest_id": 40011,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Heroic Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/466_chest_heroicorb_c.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40011
+                    "id": 40011,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2323,20 +2788,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40004
+                "id": 40004,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40004,
                   "chest_id": 40004,
+                  "source_chest_id": 40004,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "VIP Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40004
+                    "id": 40004,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2354,20 +2834,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40002
+                "id": 40002,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40002,
                   "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40002
+                    "id": 40002,
+                    "type": "generic"
                   }
                 }
               ],
@@ -2395,6 +2890,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "sticker_pack",
+                "resource": "sticker_pack",
                 "key": "album_pack.m",
                 "name": "Sticker Pack",
                 "amount": 1,
@@ -2418,6 +2915,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "sticker_pack",
+                "resource": "sticker_pack",
                 "key": "album_pack.xl",
                 "name": "Sticker Pack",
                 "amount": 1,
@@ -2438,20 +2937,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 12086
+              "id": 12086,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 12086,
                 "chest_id": 12086,
+                "source_chest_id": 12086,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Shiny Sticker Pack",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 12086
+                  "id": 12086,
+                  "type": "generic"
                 }
               }
             ],
@@ -2483,6 +2997,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 5,
@@ -2523,6 +3039,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2563,6 +3081,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2603,6 +3123,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2643,6 +3165,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2683,6 +3207,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2723,6 +3249,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2765,6 +3293,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -2807,6 +3337,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -2847,6 +3379,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -2892,6 +3426,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -2937,6 +3473,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -2977,6 +3515,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -3017,6 +3557,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 60,
@@ -3057,6 +3599,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 30,
@@ -3097,6 +3641,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 30,
@@ -3137,6 +3683,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -3181,6 +3729,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 40,
@@ -3225,6 +3775,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 80,
@@ -3269,6 +3821,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -3309,6 +3863,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -3353,6 +3909,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -3397,6 +3955,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -3441,6 +4001,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 60,
@@ -3481,6 +4043,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -3525,6 +4089,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -3571,6 +4137,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -3615,6 +4183,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -3660,6 +4230,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 40,
@@ -3704,6 +4276,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -3749,6 +4323,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -3793,6 +4369,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 120,
@@ -3833,6 +4411,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -3873,6 +4453,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -3913,6 +4495,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -3953,6 +4537,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 40,
@@ -3997,6 +4583,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -4037,6 +4625,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 80,
@@ -4079,6 +4669,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -4124,6 +4716,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -4169,6 +4763,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -4213,6 +4809,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 25,
@@ -4253,6 +4851,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -4293,6 +4893,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 80,
@@ -4333,6 +4935,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 60,
@@ -4375,6 +4979,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 30,
@@ -4419,6 +5025,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -4463,6 +5071,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 40,
@@ -4507,6 +5117,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -4547,6 +5159,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 100,
@@ -4591,6 +5205,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -4635,6 +5251,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -4680,6 +5298,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -4724,6 +5344,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 55,
@@ -4766,6 +5388,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -4811,6 +5435,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -4851,6 +5477,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 30,
@@ -4891,6 +5519,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 30,
@@ -4931,6 +5561,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 80,
@@ -4975,6 +5607,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -5010,20 +5644,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stained_bp_venomcrest@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 16844
+              "id": 16844,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 16844,
                 "chest_id": 16844,
+                "source_chest_id": 16844,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Skin Chest",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stained_bp_venomcrest@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stained_bp_venomcrest@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stained_bp_venomcrest@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stained_bp_venomcrest@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stained_bp_venomcrest.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 16844
+                  "id": 16844,
+                  "type": "generic"
                 }
               }
             ],
@@ -5044,6 +5693,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
                 "key": "prestige_points",
                 "name": "Prestige Points",
                 "amount": 2400,
@@ -5067,6 +5718,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
                 "key": "prestige_points",
                 "name": "Prestige Points",
                 "amount": 800,
@@ -5130,6 +5783,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.1",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -5153,6 +5808,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.s",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -5182,6 +5839,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 50,
@@ -5205,6 +5864,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Orbs",
                   "amount": 50,
@@ -5234,7 +5895,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 1,
                   "values": [
@@ -5262,6 +5926,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "oph_token",
                   "name": "Divine Orbs Habitat Tokens",
                   "amount": 50,
@@ -5288,20 +5954,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40029
+                "id": 40029,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40029,
                   "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40029
+                    "id": 40029,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5322,6 +6003,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 10,
@@ -5348,20 +6031,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40004
+                "id": 40004,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40004,
                   "chest_id": 40004,
+                  "source_chest_id": 40004,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "VIP Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40004
+                    "id": 40004,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5382,6 +6080,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Orbs",
                   "amount": 2,
@@ -5411,6 +6111,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "oph_token",
                   "name": "Divine Orbs Habitat Tokens",
                   "amount": 500,
@@ -5434,6 +6136,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "oph_token",
                   "name": "Divine Orbs Habitat Tokens",
                   "amount": 70,
@@ -5460,20 +6164,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40003
+                "id": 40003,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40003,
                   "chest_id": 40003,
+                  "source_chest_id": 40003,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Mythical Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40003
+                    "id": 40003,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5501,7 +6220,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 2,
                   "values": [
@@ -5528,20 +6250,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 10710
+                "id": 10710,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 10710,
                   "chest_id": 10710,
+                  "source_chest_id": 10710,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Snack Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 10710
+                    "id": 10710,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5565,20 +6302,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40029
+                "id": 40029,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40029,
                   "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40029
+                    "id": 40029,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5599,6 +6351,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.m",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -5628,6 +6382,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Orbs",
                   "amount": 30,
@@ -5658,7 +6414,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 2,
                   "values": [
@@ -5679,7 +6438,7 @@
             },
             "free_reward": {
               "reward_id": 1192010,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 25,
               "kind": "resource",
               "image_url": "",
@@ -5688,8 +6447,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 25,
                   "rarity": "L",
                   "image_url": ""
@@ -5720,20 +6481,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40002
+                "id": 40002,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40002,
                   "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40002
+                    "id": 40002,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5754,6 +6530,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Orbs",
                   "amount": 10,
@@ -5780,20 +6558,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40029
+                "id": 40029,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40029,
                   "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Premium Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40029
+                    "id": 40029,
+                    "type": "generic"
                   }
                 }
               ],
@@ -5824,10 +6617,13 @@
               "items": [
                 {
                   "kind": "dragon",
+                  "type": "dragon_egg",
+                  "asset_kind": "dragon",
                   "id": 3494,
                   "dragon_id": 3494,
                   "name": "High Stained Sharpfang",
                   "amount": 1,
+                  "img_name_mobile": "",
                   "image_url": "",
                   "popup": {
                     "kind": "dragon",
@@ -5852,6 +6648,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.l",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -5881,6 +6679,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.3",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -5911,6 +6711,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Orbs",
                   "amount": 30,
@@ -5925,7 +6727,7 @@
             },
             "free_reward": {
               "reward_id": 1192015,
-              "name": "L Orbs",
+              "name": "L Joker Orbs",
               "amount": 40,
               "kind": "resource",
               "image_url": "",
@@ -5934,8 +6736,10 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
                   "key": "rarity_seeds",
-                  "name": "L Orbs",
+                  "name": "L Joker Orbs",
                   "amount": 40,
                   "rarity": "L",
                   "image_url": ""
@@ -5966,20 +6770,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40002
+                "id": 40002,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40002,
                   "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Legendary Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40002
+                    "id": 40002,
+                    "type": "generic"
                   }
                 }
               ],
@@ -6000,6 +6819,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 1,
@@ -6029,7 +6850,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 2,
                   "values": [
@@ -6066,6 +6890,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.xl",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6089,6 +6915,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.xl",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6118,6 +6946,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 2,
@@ -6148,7 +6978,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 2,
                   "values": [
@@ -6178,6 +7011,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack.xl",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6207,6 +7042,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 50,
@@ -6230,6 +7067,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Orbs",
                   "amount": 50,
@@ -6256,20 +7095,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40003
+                "id": 40003,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40003,
                   "chest_id": 40003,
+                  "source_chest_id": 40003,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Mythical Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40003
+                    "id": 40003,
+                    "type": "generic"
                   }
                 }
               ],
@@ -6294,20 +7148,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 16592
+                "id": 16592,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 16592,
                   "chest_id": 16592,
+                  "source_chest_id": 16592,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "Joker Orbs Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/604_chest_joker_all_premium.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 16592
+                    "id": 16592,
+                    "type": "generic"
                   }
                 }
               ],
@@ -6328,6 +7197,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
                   "key": "c",
                   "name": "Gems",
                   "amount": 25,
@@ -6357,6 +7228,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.generic",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6380,6 +7253,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Orbs",
                   "amount": 10,
@@ -6409,7 +7284,10 @@
               "items": [
                 {
                   "kind": "building",
+                  "type": "building",
+                  "asset_kind": "building",
                   "id": 11995,
+                  "item_id": 11995,
                   "name": "Building #11995",
                   "amount": 2,
                   "values": [
@@ -6439,6 +7317,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
                   "key": "pet_food_pack.l",
                   "name": "Pet Food Pack",
                   "amount": 1,
@@ -6468,6 +7348,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "resource",
+                  "resource": "resource",
                   "key": "permanent_gacha.heroic",
                   "name": "Heroic Orbs",
                   "amount": 3,
@@ -6491,6 +7373,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.2",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6517,20 +7401,35 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
               "popup": {
                 "kind": "chest",
-                "id": 40004
+                "id": 40004,
+                "type": "generic"
               },
               "rarity": "",
               "items": [
                 {
                   "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
                   "id": 40004,
                   "chest_id": 40004,
+                  "source_chest_id": 40004,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
                   "name": "VIP Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
-                    "id": 40004
+                    "id": 40004,
+                    "type": "generic"
                   }
                 }
               ],
@@ -6558,6 +7457,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.5",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6581,6 +7482,8 @@
               "items": [
                 {
                   "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
                   "key": "album_pack_aces.4",
                   "name": "Sticker Pack",
                   "amount": 1,
@@ -6608,20 +7511,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 16552
+              "id": 16552,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 16552,
                 "chest_id": 16552,
+                "source_chest_id": 16552,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Medium Sticker Pack",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 16552
+                  "id": 16552,
+                  "type": "generic"
                 }
               }
             ],
@@ -6639,20 +7557,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 16554
+              "id": 16554,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 16554,
                 "chest_id": 16554,
+                "source_chest_id": 16554,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Extra Large Sticker Pack",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_xl@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 16554
+                  "id": 16554,
+                  "type": "generic"
                 }
               }
             ],
@@ -6670,20 +7603,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 12086
+              "id": 12086,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 12086,
                 "chest_id": 12086,
+                "source_chest_id": 12086,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Shiny Sticker Pack",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 12086
+                  "id": 12086,
+                  "type": "generic"
                 }
               }
             ],
@@ -6715,6 +7663,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -6755,6 +7705,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -6795,6 +7747,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -6835,6 +7789,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -6875,6 +7831,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -6917,6 +7875,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -6961,6 +7921,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -7001,6 +7963,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -7046,6 +8010,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -7091,6 +8057,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -7136,6 +8104,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -7178,6 +8148,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -7222,6 +8194,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -7264,6 +8238,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -7308,6 +8284,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -7350,6 +8328,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -7394,6 +8374,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -7439,6 +8421,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -7483,6 +8467,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -7528,6 +8514,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -7572,6 +8560,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -7616,6 +8606,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -7660,6 +8652,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 200,
@@ -7706,6 +8700,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 90,
@@ -7748,6 +8744,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -7792,6 +8790,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -7837,6 +8837,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 90,
@@ -7877,6 +8879,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -7921,6 +8925,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -7966,6 +8972,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -8010,6 +9018,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -8054,6 +9064,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 10,
@@ -8099,6 +9111,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 90,
@@ -8143,6 +9157,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 45,
@@ -8188,6 +9204,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 50,
@@ -8232,6 +9250,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 15,
@@ -8276,6 +9296,8 @@
                 "items": [
                   {
                     "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
                     "key": "pp",
                     "name": "Divine Points",
                     "amount": 20,
@@ -8316,20 +9338,35 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_stainedsharpfang@2x.png",
             "popup": {
               "kind": "chest",
-              "id": 17010
+              "id": 17010,
+              "type": "generic"
             },
             "rarity": "",
             "items": [
               {
                 "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
                 "id": 17010,
                 "chest_id": 17010,
+                "source_chest_id": 17010,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
                 "name": "Skin Chest",
                 "amount": 1,
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_stainedsharpfang@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_stainedsharpfang@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_elite_skin_high_stainedsharpfang@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_elite_skin_high_stainedsharpfang@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_elite_skin_high_stainedsharpfang.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
                 "popup": {
                   "kind": "chest",
-                  "id": 17010
+                  "id": 17010,
+                  "type": "generic"
                 }
               }
             ],
@@ -8350,6 +9387,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
                 "key": "prestige_points",
                 "name": "Prestige Points",
                 "amount": 4000,
@@ -8373,6 +9412,8 @@
             "items": [
               {
                 "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
                 "key": "prestige_points",
                 "name": "Prestige Points",
                 "amount": 2000,

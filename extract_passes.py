@@ -57,6 +57,16 @@ RESOURCE_ICONS = {
     "pp": DCIC_ICON_BASE + "pass/ic-pass-points-massive.png",
 }
 
+# Same public reward type names used by the site's shared DCICRewardUI.
+THEME_RESOURCE_TYPES = {
+    "c": "gems",
+    "g": "gold",
+    "f": "food",
+    "x": "xp",
+    "xp": "xp",
+    "pp": "divine_points",
+}
+
 GOAL_ICON_MAP = {
     "FEED": "pass/ic-gl-feed.png",
     "COMBAT_ARENA": "pass/ic-gl-arenas.png",
@@ -381,8 +391,11 @@ def normalize_reward(
 
     def add_resource(key: str, amount: Any, values: Any = None) -> None:
         label = RESOURCE_LABELS.get(key, humanize_key(key))
+        theme_type = THEME_RESOURCE_TYPES.get(key, "resource")
         item = {
             "kind": "resource",
+            "type": theme_type,
+            "resource": theme_type,
             "key": key,
             "name": label,
             "amount": as_number(amount),
@@ -405,10 +418,13 @@ def normalize_reward(
                     dragon = dragon_record(did, dragons, localization)
                     items.append({
                         "kind": "dragon",
+                        "type": "dragon_egg",
+                        "asset_kind": "dragon",
                         "id": did,
                         "dragon_id": did,
                         "name": dragon["name"],
                         "amount": 1,
+                        "img_name_mobile": dragon.get("img_name", ""),
                         "image_url": dragon.get("thumbnail", ""),
                         "popup": make_popup("dragon", did),
                     })
@@ -426,10 +442,14 @@ def normalize_reward(
                     dragon = dragon_record(did, dragons, localization)
                     items.append({
                         "kind": "dragon_orbs",
+                        "type": "dragon_orbs",
+                        "asset_kind": "dragon",
                         "id": did,
                         "dragon_id": did,
                         "name": f"{dragon['name']} Orbs",
                         "amount": amount,
+                        "dragon_rarity": dragon.get("rarity", ""),
+                        "img_name_mobile": dragon.get("img_name", ""),
                         "image_url": dragon.get("thumbnail", ""),
                         "popup": make_popup("dragon_orbs", did),
                     })
@@ -444,8 +464,10 @@ def normalize_reward(
                     amount = as_int(seed.get("amount"))
                     items.append({
                         "kind": "resource",
+                        "type": "joker_orbs",
+                        "resource": "joker_orbs",
                         "key": "rarity_seeds",
-                        "name": f"{rarity or 'Rarity'} Orbs",
+                        "name": f"{rarity or 'Rarity'} Joker Orbs",
                         "amount": amount,
                         "rarity": rarity,
                         "image_url": "",
@@ -459,14 +481,29 @@ def normalize_reward(
                     if cid <= 0:
                         continue
                     meta = chests.get(cid, {})
+                    chest_type = str(meta.get("type") or meta.get("chest_type") or "generic")
+                    chest_img = str(
+                        meta.get("source_chest_img_name")
+                        or meta.get("img_name")
+                        or meta.get("image_name")
+                        or ""
+                    ).strip()
+                    image_candidates = meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else []
                     items.append({
                         "kind": "chest",
+                        "type": "chest",
+                        "asset_kind": "chest",
                         "id": cid,
                         "chest_id": cid,
+                        "source_chest_id": cid,
+                        "source_chest_img_name": chest_img,
+                        "img_name": chest_img,
+                        "chest_type": chest_type,
                         "name": str(meta.get("name") or meta.get("title") or f"Chest #{cid}"),
                         "amount": 1,
                         "image_url": first_image(meta),
-                        "popup": make_popup("chest", cid),
+                        "image_candidates": image_candidates,
+                        "popup": {"kind": "chest", "id": cid, "type": chest_type},
                     })
                 continue
 
@@ -479,11 +516,14 @@ def normalize_reward(
                     meta = skins.get(sid, {})
                     items.append({
                         "kind": "skin",
+                        "type": "skin",
+                        "asset_kind": "skin",
                         "id": sid,
                         "skin_id": sid,
                         "name": str(meta.get("name") or meta.get("skin_name") or f"Skin #{sid}"),
                         "amount": 1,
                         "image_url": first_image(meta),
+                        "image_candidates": meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else [],
                         "popup": make_popup("skin", sid),
                     })
                 continue
@@ -497,7 +537,10 @@ def normalize_reward(
                     same = len(set(ids)) == 1
                     items.append({
                         "kind": "building",
+                        "type": "building",
+                        "asset_kind": "building",
                         "id": ids[0],
+                        "item_id": ids[0],
                         "name": f"Building #{ids[0]}" if same else "Buildings",
                         "amount": len(ids),
                         "values": ids,
@@ -510,6 +553,8 @@ def normalize_reward(
             if key.startswith("album_pack"):
                 items.append({
                     "kind": "resource",
+                    "type": "sticker_pack",
+                    "resource": "sticker_pack",
                     "key": key,
                     "name": "Sticker Pack",
                     "amount": as_number(value),
@@ -519,6 +564,8 @@ def normalize_reward(
             if key.startswith("pet_food_pack"):
                 items.append({
                     "kind": "resource",
+                    "type": "pet_food",
+                    "resource": "pet_food",
                     "key": key,
                     "name": "Pet Food Pack",
                     "amount": as_number(value),
