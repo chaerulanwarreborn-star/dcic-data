@@ -121,7 +121,7 @@ REWARD_TYPE_ICONS = {
     "building":ICON+"text-icons/gr-category-buildings.png","habitat":ICON+"text-icons/gr-category-habitats.png","decoration":ICON+"text-icons/gr-category-decos.png",
     "elemental_token":ICON+"tokens/gr-category-tokens.png","special_token":ICON+"tokens/ic-token-neutral.png","perk":ICON+"text-icons/perks-icon-S.png","rank_up_coin":ICON+"rank-up-coins/ic-rank-up-coin-heroic.png",
     "event_coin":ICON+"currency-icon/coin-mix.png","hollow_ticket":ICON+"currency-icon/ic_ic_hollow_crown_massive.png","puzzle_move":ICON+"currency-icon/coin-puzzle.png","flight_stamp":ICON+"currency-icon/coin-runner.png","keys":ICON+"text-icons/ic-key-massive.png","old_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","dragon_rescue_keys":ICON+"battleground-keys/battleground_12_key_1.png","power_tags":ICON+"battleground-keys/battleground_8_key_1.png",
-    "pet_food":ICON+"currency-icon/ic-pet-food-massive_c.png","progression_pass_tier":ICON+"currency-icon/ic-dmp-point-massive.png","treasure_key":ICON+"currency-icon/gachakey_gold_silver_mds.png",
+    "pet_food":ICON+"currency-icon/ic-pet-food-s2-massive.png","progression_pass_tier":ICON+"currency-icon/ic-dmp-point-massive.png","treasure_key":ICON+"currency-icon/gachakey_gold_silver_mds.png",
     "sticker_pack":ICON+"stickers/ic_stickers_pack_ace_generic_massive.png","missing_sticker":ICON+"stickers/sticker-not-owned-rarity-1.png","sticker_diamond":ICON+"stickers/ic-album-dust-massive_c.png",
     "chest":ICON+"text-icons/gold-chest.png","other":"",
 }
@@ -371,7 +371,7 @@ class Context:
                 out.append(row)
             return out
         if key=="pet_food":
-            out.append({"type":"pet_food","raw_type":key,"name":"Pet Food","amount":i(value),"image":ICON+"currency-icon/ic-pet-food-massive_c.png"}); return out
+            out.append({"type":"pet_food","raw_type":key,"name":"Pet Food","amount":i(value),"image":ICON+"currency-icon/ic-pet-food-s2-massive.png"}); return out
         if key.startswith("pet_food_pack."):
             size=key.split(".",1)[1].lower(); img=ICON+f"pet-food/ui_chest_pet_food_{size}.png"; out.append({"type":"pet_food","raw_type":key,"name":size.upper()+" Pet Food Pack","amount":i(value),"subtype":size,"image":img,"image_candidates":uniq([img,self.visual_icon(key,"massive")])}); return out
         if key.startswith("permanent_gacha."):
