@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T09:08:50.981151Z",
+  "generated_at": "2026-09-03T10:15:07.973078Z",
   "source_file": "game_config.json",
-  "event_count": 69,
+  "event_count": 70,
   "events": [
     {
       "key": "event_island:1",
@@ -2242,6 +2242,125 @@
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
+      "key": "maze_island:317",
+      "id": 317,
+      "type": "maze_island",
+      "variant": "maze_island",
+      "type_label": "Maze Island",
+      "title": "Tropical Retreat 2026 Maze Island",
+      "subtitle": "",
+      "start_ts": 1786615200,
+      "end_ts": 1787565600,
+      "start_iso": "2026-08-13T10:00:00Z",
+      "end_iso": "2026-08-24T10:00:00Z",
+      "guide": "/p/maze-island-guide.html?id=317",
+      "schedule_source": "game_config",
+      "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 3409,
+          "name": "Bandaged Dragon",
+          "rarity": "L",
+          "img_name": "3409_dragon_bandaged",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3409_dragon_bandaged_3.png"
+        },
+        {
+          "id": 3440,
+          "name": "Spring Sniper Dragon",
+          "rarity": "L",
+          "img_name": "3440_dragon_springsniper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3440_dragon_springsniper_3.png"
+        },
+        {
+          "id": 3410,
+          "name": "Plagued Pal Dragon",
+          "rarity": "L",
+          "img_name": "3410_dragon_plaguedpal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3410_dragon_plaguedpal_3.png"
+        },
+        {
+          "id": 3060,
+          "name": "Abracadabra Dragon",
+          "rarity": "L",
+          "img_name": "3060_dragon_abracadabra",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3060_dragon_abracadabra_3.png"
+        },
+        {
+          "id": 3048,
+          "name": "Estival Dragon",
+          "rarity": "L",
+          "img_name": "3048_dragon_estival",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3048_dragon_estival_3.png"
+        },
+        {
+          "id": 2582,
+          "name": "Mountain Ogre Dragon",
+          "rarity": "E",
+          "img_name": "2582_dragon_mountainogre",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2582_dragon_mountainogre_3.png"
+        },
+        {
+          "id": 2259,
+          "name": "Zombie Nature Dragon",
+          "rarity": "E",
+          "img_name": "2259_dragon_zombienature",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2259_dragon_zombienature_3.png"
+        },
+        {
+          "id": 2319,
+          "name": "Native Dragon",
+          "rarity": "E",
+          "img_name": "2319_dragon_native",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2319_dragon_native_3.png"
+        },
+        {
+          "id": 2339,
+          "name": "Chichen Itza Dragon",
+          "rarity": "E",
+          "img_name": "2339_dragon_chichenitza",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2339_dragon_chichenitza_3.png"
+        },
+        {
+          "id": 1409,
+          "name": "Dark Angel Dragon",
+          "rarity": "E",
+          "img_name": "1409_dragon_darkangel",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1409_dragon_darkangel_3.png"
+        },
+        {
+          "id": 1183,
+          "name": "Loki Dragon",
+          "rarity": "V",
+          "img_name": "1183_dragon_loki_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1183_dragon_loki_c_3.png"
+        },
+        {
+          "id": 1403,
+          "name": "Sad Dragon",
+          "rarity": "V",
+          "img_name": "1403_dragon_sad",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1403_dragon_sad_3.png"
+        },
+        {
+          "id": 1161,
+          "name": "Luminescent Dragon",
+          "rarity": "R",
+          "img_name": "1161_dragon_luminiscent_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png"
+        },
+        {
+          "id": 1091,
+          "name": "Two-Headed Dragon",
+          "rarity": "R",
+          "img_name": "1091_dragon_twoheaded_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1091_dragon_twoheaded_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 14,
+      "building_id": 10650,
+      "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
+    },
+    {
       "key": "heroic_race:315",
       "id": 315,
       "type": "heroic_race",
@@ -2364,25 +2483,25 @@
       "source_section": "maze_island",
       "featured_dragons": [
         {
-          "id": 1488,
-          "name": "Flesh Dragon",
+          "id": 1855,
+          "name": "Demon Viper Dragon",
           "rarity": "L",
-          "img_name": "1488_dragon_flesh",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1488_dragon_flesh_3.png"
+          "img_name": "1855_dragon_demonviper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1855_dragon_demonviper_3.png"
         },
         {
-          "id": 1479,
-          "name": "Imp Dragon",
+          "id": 2653,
+          "name": "Peacock Dragon",
           "rarity": "L",
-          "img_name": "1479_dragon_imp",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1479_dragon_imp_3.png"
+          "img_name": "2653_dragon_peacock",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2653_dragon_peacock_3.png"
         },
         {
-          "id": 1613,
-          "name": "Impassible Dragon",
+          "id": 1992,
+          "name": "Delicate Dragon",
           "rarity": "L",
-          "img_name": "1613_dragon_impassible_b",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1613_dragon_impassible_b_3.png"
+          "img_name": "1992_dragon_delicate",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1992_dragon_delicate_3.png"
         },
         {
           "id": 2508,
@@ -2496,7 +2615,6 @@
     }
   ],
   "warnings": [
-    "Skipped maze_island:317: incomplete schedule start=0, end=0. Child paths indicate end_ts=1787565359 (2026-08-24T09:55:59Z), but start is missing.",
     "Skipped event_island:37: incomplete schedule start=0, end=1.",
     "Skipped event_island:38: incomplete schedule start=0, end=1.",
     "Skipped event_island:39: incomplete schedule start=0, end=1.",
