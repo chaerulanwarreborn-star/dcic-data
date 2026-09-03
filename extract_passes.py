@@ -27,7 +27,8 @@ SKINS_PATH = ROOT / "skins.json"
 CHESTS_PATH = ROOT / "chests.json"
 OUTPUT_PATH = ROOT / "passes.json"
 
-DRAGON_THUMB_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
+DRAGON_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
+DRAGON_THUMB_BASE = DRAGON_BASE + "HD/"
 SOCIALPOINT_STATIC_BASE = "https://dcw-static-s1.socialpointgames.com/static/dragoncity"
 DCIC_ICON_BASE = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/"
 
@@ -36,6 +37,22 @@ PET_FOOD_ICON = DCIC_ICON_BASE + "currency-icon/ic-pet-food-s2-massive.png"
 
 RARITY_FILE = {"C": "c", "R": "r", "VR": "vr", "V": "vr", "E": "e", "L": "l", "M": "m", "H": "h"}
 RARITY_NAMES = {"C": "Common", "R": "Rare", "VR": "Very Rare", "V": "Very Rare", "E": "Epic", "L": "Legendary", "M": "Mythical", "H": "Heroic"}
+
+ELEMENT_CODE_ALIASES = {
+    "terra": "e", "earth": "e", "e": "e",
+    "flame": "f", "fire": "f", "f": "f",
+    "sea": "w", "water": "w", "w": "w",
+    "nature": "p", "plant": "p", "p": "p",
+    "electric": "el", "electricity": "el", "el": "el",
+    "ice": "i", "i": "i", "metal": "m", "m": "m",
+    "dark": "d", "d": "d", "light": "li", "li": "li",
+    "war": "wr", "wr": "wr", "pure": "pu", "pu": "pu",
+    "legend": "l", "legendary_element": "l", "l": "l",
+    "primal": "pr", "pr": "pr", "wind": "wd", "wd": "wd",
+    "beauty": "bt", "bt": "bt", "chaos": "ch", "ch": "ch",
+    "dream": "dr", "dr": "dr", "happy": "hp", "happiness": "hp", "hp": "hp",
+    "magic": "mg", "mg": "mg", "soul": "so", "so": "so", "time": "ti", "ti": "ti",
+}
 
 TOKEN_MAP = {
     "e_token": ("earth", "Terra Tokens"),
@@ -428,9 +445,40 @@ def dragon_record(
         or row.get("image_name")
         or ""
     ).strip()
-    thumbnail = first_image(row)
+    img_name = re.sub(r"^ui_", "", img_name, flags=re.I)
+    img_name = re.sub(r"@2x(?:\.png)?$", "", img_name, flags=re.I)
+    img_name = re.sub(r"\.png$", "", img_name, flags=re.I)
+
+    # Dragon Orbs always use the standard adult thumbnail (_3).
+    thumbnail = str(row.get("thumbnail") or row.get("thumbnail_image") or "").strip()
     if not thumbnail and img_name:
         thumbnail = f"{DRAGON_THUMB_BASE}thumb_{img_name}_3.png"
+
+    # A Dragon reward is the full-body BABY stage (_1), matching the existing
+    # Event Collection renderer. Prefer extracted metadata, then the canonical
+    # Socialpoint ui_<img>_1 asset path.
+    details = row.get("details") if isinstance(row.get("details"), dict) else {}
+    detail = row.get("detail") if isinstance(row.get("detail"), dict) else {}
+    images = details.get("images") if isinstance(details.get("images"), dict) else {}
+    if not images and isinstance(detail.get("images"), dict):
+        images = detail.get("images")
+    if not images and isinstance(row.get("images"), dict):
+        images = row.get("images")
+    baby_image = str(
+        row.get("baby_image")
+        or images.get("baby")
+        or ""
+    ).strip()
+    baby_candidates: List[str] = []
+    if img_name:
+        baby_candidates.extend([
+            f"{DRAGON_BASE}ui_{img_name}_1@2x.png",
+            f"{DRAGON_BASE}ui_{img_name}_1.png",
+        ])
+    if baby_image and baby_image not in baby_candidates:
+        baby_candidates.append(baby_image)
+    if not baby_image and baby_candidates:
+        baby_image = baby_candidates[0]
 
     record: Dict[str, Any] = {
         "id": dragon_id,
@@ -442,6 +490,8 @@ def dragon_record(
         "rarity": str(row.get("rarity") or row.get("dragon_rarity") or "").upper(),
         "img_name": img_name,
         "thumbnail": thumbnail,
+        "baby_image": baby_image,
+        "baby_image_candidates": baby_candidates,
     }
     if path:
         record["path"] = path
@@ -604,7 +654,10 @@ def normalize_reward(
                         "name": dragon["name"],
                         "amount": 1,
                         "img_name_mobile": dragon.get("img_name", ""),
-                        "image_url": dragon.get("thumbnail", ""),
+                        "dragon_baby_image": dragon.get("baby_image", ""),
+                        "baby_image_candidates": dragon.get("baby_image_candidates", []),
+                        "dragon_thumbnail": dragon.get("thumbnail", ""),
+                        "image_url": dragon.get("baby_image", ""),
                         "popup": make_popup("dragon", did),
                     })
                 continue
@@ -619,17 +672,25 @@ def normalize_reward(
                     if did <= 0:
                         continue
                     dragon = dragon_record(did, dragons, localization)
+                    rarity = str(dragon.get("rarity") or "").upper()
+                    rarity_token = RARITY_FILE.get(rarity, "")
                     reward_items.append({
                         "kind": "dragon_orbs",
                         "type": "dragon_orbs",
-                        "asset_kind": "dragon",
+                        "asset_kind": "dragon_orbs",
                         "id": did,
                         "dragon_id": did,
                         "name": f"{dragon['name']} Orbs",
                         "amount": amount,
-                        "dragon_rarity": dragon.get("rarity", ""),
+                        "dragon_rarity": rarity,
                         "img_name_mobile": dragon.get("img_name", ""),
+                        "dragon_thumbnail": dragon.get("thumbnail", ""),
+                        "thumbnail_candidates": [dragon.get("thumbnail", "")] if dragon.get("thumbnail") else [],
                         "image_url": dragon.get("thumbnail", ""),
+                        "orb_icon_url": (
+                            DCIC_ICON_BASE + f"tree-of-life/ic-seed-{rarity_token}-mid-shadow.png"
+                            if rarity_token else ""
+                        ),
                         "popup": make_popup("dragon_orbs", did),
                     })
                 continue
@@ -698,6 +759,10 @@ def normalize_reward(
                     if sid <= 0:
                         continue
                     meta = skins.get(sid, {})
+                    skin_thumb = str(meta.get("thumbnail") or "").strip()
+                    skin_image = str(meta.get("image") or meta.get("image_url") or "").strip()
+                    existing_candidates = meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else []
+                    thumb_candidates = [x for x in [skin_thumb] + existing_candidates + [skin_image] if isinstance(x, str) and x]
                     reward_items.append({
                         "kind": "skin",
                         "type": "skin",
@@ -706,8 +771,11 @@ def normalize_reward(
                         "skin_id": sid,
                         "name": str(meta.get("name") or meta.get("skin_name") or f"Skin #{sid}"),
                         "amount": 1,
-                        "image_url": first_image(meta),
-                        "image_candidates": meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else [],
+                        "thumbnail": skin_thumb,
+                        "skin_thumbnail": skin_thumb,
+                        "thumbnail_candidates": list(dict.fromkeys(thumb_candidates)),
+                        "image_url": skin_thumb or skin_image,
+                        "image_candidates": existing_candidates,
                         "popup": make_popup("skin", sid),
                     })
                 continue
@@ -1095,6 +1163,22 @@ def resolve_goal_text(
     return " / ".join(labels)
 
 
+def normalize_goal_element_code(value: Any) -> str:
+    raw = str(value or "").strip().lower().replace("-", "_").replace(" ", "_")
+    raw = re.sub(r"_(?:0|1)$", "", raw)
+    return ELEMENT_CODE_ALIASES.get(raw, raw)
+
+
+def normalize_goal_rarity_code(value: Any) -> str:
+    raw = re.sub(r"[\s_-]+", "", str(value or "").strip().upper())
+    return {
+        "COMMON": "C", "C": "C", "RARE": "R", "R": "R",
+        "VERYRARE": "V", "VR": "V", "V": "V", "EPIC": "E", "E": "E",
+        "LEGENDARY": "L", "L": "L", "MYTHICAL": "M", "M": "M",
+        "HEROIC": "H", "H": "H",
+    }.get(raw, raw)
+
+
 def goal_minor_symbols(actions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     """Return semantic element/rarity badges for the website.
 
@@ -1105,7 +1189,7 @@ def goal_minor_symbols(actions: List[Dict[str, Any]]) -> List[Dict[str, str]]:
     seen = set()
 
     def add(kind: str, code: Any) -> None:
-        token = str(code or "").strip()
+        token = normalize_goal_element_code(code) if kind == "element" else normalize_goal_rarity_code(code)
         if not token:
             return
         key = (kind, token)
