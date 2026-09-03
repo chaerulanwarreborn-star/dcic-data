@@ -1042,9 +1042,15 @@ def goal_label(action_type: str) -> str:
     return humanize_key(action_type or "Goal")
 
 
-def goal_icon(action_type: str) -> str:
-    upper = str(action_type or "").upper()
-    for token, rel in GOAL_ICON_MAP.items():
+def goal_icon(action_type: str, title: str = "", actions: Optional[List[Dict[str, Any]]] = None) -> str:
+    signal_parts = [str(action_type or ""), str(title or "")]
+    for action in actions or []:
+        signal_parts.append(str(action.get("type") or ""))
+        rules = action.get("rules") if isinstance(action.get("rules"), dict) else {}
+        signal_parts.append(json.dumps(rules, ensure_ascii=False))
+    upper = " ".join(signal_parts).upper()
+    # Longer/more specific tokens first.
+    for token, rel in sorted(GOAL_ICON_MAP.items(), key=lambda pair: len(pair[0]), reverse=True):
         if token in upper:
             return DCIC_ICON_BASE + rel
     return DCIC_ICON_BASE + "pass/ic-pass-points-massive.png"
@@ -1107,16 +1113,17 @@ def build_goal(
 
     eligibility = goal.get("eligibility") if isinstance(goal.get("eligibility"), dict) else {}
     week = as_int(eligibility.get("week"))
+    resolved_title = resolve_goal_text(goal, actions, localization)
 
     return {
         "id": gid,
-        "title": resolve_goal_text(goal, actions, localization),
-        "display_title": resolve_goal_text(goal, actions, localization),
+        "title": resolved_title,
+        "display_title": resolved_title,
         "week": week,
         "action_type": action_type,
         "target": target,
         "divine_points": reward_points(reward),
-        "icon_url": goal_icon(action_type),
+        "icon_url": goal_icon(action_type, resolved_title, actions),
         "reward": reward,
         "collectible_actions": [
             {
