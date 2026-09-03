@@ -20,7 +20,6 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "side_events_config.json"
-GAME_CONFIG_PATH = ROOT / "game_config.json"  # enrichment only; pass definitions still come from side_events_config.json
 LOCALIZATION_PATH = ROOT / "localization" / "dragon_city_localization_baseline_en.json"
 DRAGONS_PATH = ROOT / "dragons.json"
 SKINS_PATH = ROOT / "skins.json"
@@ -30,47 +29,6 @@ OUTPUT_PATH = ROOT / "passes.json"
 DRAGON_THUMB_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/"
 SOCIALPOINT_STATIC_BASE = "https://dcw-static-s1.socialpointgames.com/static/dragoncity"
 DCIC_ICON_BASE = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/"
-
-DRAGON_CITY_STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
-PET_FOOD_ICON = DCIC_ICON_BASE + "currency-icon/ic-pet-food-s2-massive.png"
-
-RARITY_FILE = {"C": "c", "R": "r", "VR": "vr", "V": "vr", "E": "e", "L": "l", "M": "m", "H": "h"}
-RARITY_NAMES = {"C": "Common", "R": "Rare", "VR": "Very Rare", "V": "Very Rare", "E": "Epic", "L": "Legendary", "M": "Mythical", "H": "Heroic"}
-
-TOKEN_MAP = {
-    "e_token": ("earth", "Terra Tokens"),
-    "f_token": ("fire", "Flame Tokens"),
-    "w_token": ("water", "Sea Tokens"),
-    "p_token": ("plant", "Nature Tokens"),
-    "el_token": ("electric", "Electric Tokens"),
-    "i_token": ("ice", "Ice Tokens"),
-    "m_token": ("metal", "Metal Tokens"),
-    "d_token": ("dark", "Dark Tokens"),
-    "li_token": ("light", "Light Tokens"),
-    "wr_token": ("war", "War Tokens"),
-    "pu_token": ("pure", "Pure Tokens"),
-    "l_token": ("legend", "Legend Tokens"),
-    "pr_token": ("primal", "Primal Tokens"),
-    "wd_token": ("wind", "Wind Tokens"),
-}
-SPECIAL_TOKEN_MAP = {
-    "n_token": ("neutral", "Rainbow Tokens"),
-    "kg_token": ("kindergarten", "Kindergarten Tokens"),
-    "oph_token": ("oph", "Divine Tokens"),
-}
-
-STICKER_PACK_FILES = {
-    "s": "ic_stickers_pack_s_massive.png",
-    "m": "ic_stickers_pack_m_massive.png",
-    "l": "ic_stickers_pack_l_massive.png",
-    "xl": "ic_stickers_pack_xl_massive.png",
-    "ace_1": "ic_stickers_pack_ace_1_massive.png",
-    "ace_2": "ic_stickers_pack_ace_2_massive.png",
-    "ace_3": "ic_stickers_pack_ace_3_massive.png",
-    "ace_4": "ic_stickers_pack_ace_4_massive.png",
-    "ace_5": "ic_stickers_pack_ace_5_massive.png",
-    "ace_generic": "ic_stickers_pack_ace_generic_massive.png",
-}
 
 RARITY_ORDER = {"H": 0, "M": 1, "L": 2, "E": 3, "V": 4, "R": 5, "C": 6}
 PATH_ORDER = {"platinum": 0, "golden": 1, "gold": 1, "premium": 1, "free": 2}
@@ -82,12 +40,12 @@ RESOURCE_LABELS = {
     "x": "XP",
     "xp": "XP",
     "pp": "Divine Points",
-    "oph_token": "Divine Tokens",
+    "oph_token": "Divine Orbs Habitat Tokens",
     "prestige_points": "Prestige Points",
-    "gacha_event_tickets": "Hollow Tickets",
-    "permanent_gacha.heroic": "Heroic Treasure Key",
-    "permanent_gacha.mythical": "Mythical Treasure Key",
-    "permanent_gacha.legendary": "Legendary Treasure Key",
+    "gacha_event_tickets": "Event Tickets",
+    "permanent_gacha.heroic": "Heroic Orbs",
+    "permanent_gacha.mythical": "Mythical Orbs",
+    "permanent_gacha.legendary": "Legendary Orbs",
 }
 
 RESOURCE_ICONS = {
@@ -97,24 +55,6 @@ RESOURCE_ICONS = {
     "x": DCIC_ICON_BASE + "resources/ic-experience-xp.png",
     "xp": DCIC_ICON_BASE + "resources/ic-experience-xp.png",
     "pp": DCIC_ICON_BASE + "pass/ic-pass-points-massive.png",
-    "gacha_event_tickets": DCIC_ICON_BASE + "currency-icon/ic_ic_hollow_crown_massive.png",
-    "keys": DCIC_ICON_BASE + "text-icons/ic-key-massive.png",
-    "pet_food": PET_FOOD_ICON,
-    "pet_food.s2": PET_FOOD_ICON,
-}
-
-# Same public reward type names used by the site's shared DCICRewardUI.
-THEME_RESOURCE_TYPES = {
-    "c": "gems",
-    "g": "gold",
-    "f": "food",
-    "x": "xp",
-    "xp": "xp",
-    "pp": "divine_points",
-    "gacha_event_tickets": "hollow_ticket",
-    "keys": "keys",
-    "pet_food": "pet_food",
-    "pet_food.s2": "pet_food",
 }
 
 GOAL_ICON_MAP = {
@@ -322,16 +262,10 @@ def id_index(rows: Iterable[Dict[str, Any]], id_keys: Tuple[str, ...] = ("id",))
     return out
 
 
-def support_indexes() -> Tuple[
-    Dict[int, Dict[str, Any]],
-    Dict[int, Dict[str, Any]],
-    Dict[int, Dict[str, Any]],
-    Dict[int, Dict[str, Any]],
-]:
+def support_indexes() -> Tuple[Dict[int, Dict[str, Any]], Dict[int, Dict[str, Any]], Dict[int, Dict[str, Any]]]:
     dragons_raw = load_optional_json(DRAGONS_PATH)
     skins_raw = load_optional_json(SKINS_PATH)
     chests_raw = load_optional_json(CHESTS_PATH)
-    game_config = unwrap_config(load_optional_json(GAME_CONFIG_PATH))
 
     dragons = id_index(
         obvious_collection(dragons_raw, ("dragons", "items", "rows")),
@@ -341,27 +275,11 @@ def support_indexes() -> Tuple[
         obvious_collection(skins_raw, ("skins", "items", "rows")),
         ("id", "skin_id"),
     )
-
-    # Battle Pass reward key "chest" refers to game_config/chests.chests, i.e.
-    # the Generic namespace. chests.json deliberately contains ID collisions
-    # across generic/alliance/warrior, so never index all namespaces by bare ID.
-    chest_rows = obvious_collection(chests_raw, ("chests", "items", "rows"))
-    generic_chest_rows = [
-        row for row in chest_rows
-        if str(row.get("type") or "").lower() == "generic"
-        or str(row.get("key") or "").lower().startswith("generic:")
-    ]
     chests = id_index(
-        generic_chest_rows,
+        obvious_collection(chests_raw, ("chests", "items", "rows")),
         ("id", "chest_id", "source_chest_id"),
     )
-
-    item_rows = game_config.get("items", []) if isinstance(game_config.get("items"), list) else []
-    items = id_index(
-        [row for row in item_rows if isinstance(row, dict)],
-        ("id",),
-    )
-    return dragons, skins, chests, items
+    return dragons, skins, chests
 
 
 def dragon_record(
@@ -446,61 +364,6 @@ def make_popup(kind: str, item_id: int) -> Dict[str, Any]:
     return {"kind": kind, "id": item_id}
 
 
-
-def item_image_candidates(item: Dict[str, Any]) -> List[str]:
-    raw = str(item.get("img_name_mobile") or item.get("img_name") or "").strip()
-    if not raw:
-        return []
-    raw = re.sub(r"^ui_", "", raw, flags=re.I)
-    raw = re.sub(r"@2x(?:\.png)?$", "", raw, flags=re.I)
-    raw = re.sub(r"\.png$", "", raw, flags=re.I)
-    group = str(item.get("group_type") or "").upper()
-
-    values: List[str] = []
-    if group in {"HABITAT", "ORB_HABITAT"}:
-        values.extend([
-            DRAGON_CITY_STATIC_BASE + f"mobile/ui/habitats/ui_{raw}@2x.png",
-            DRAGON_CITY_STATIC_BASE + f"mobile/ui/habitats/{raw}@2x.png",
-            DRAGON_CITY_STATIC_BASE + f"mobile/ui/habitats/{raw}.png",
-            DRAGON_CITY_STATIC_BASE + f"mobile/ui/habitats/HD/{raw}.png",
-        ])
-    values.extend([
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/decorations/ui_{raw}@2x.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/decorations/{raw}@2x.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/decorations/{raw}.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/decorations/HD/{raw}.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/buildings/ui_{raw}@2x.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/buildings/{raw}@2x.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/buildings/{raw}.png",
-        DRAGON_CITY_STATIC_BASE + f"mobile/ui/buildings/HD/{raw}.png",
-    ])
-    out: List[str] = []
-    seen = set()
-    for value in values:
-        if value and value not in seen:
-            seen.add(value)
-            out.append(value)
-    return out
-
-
-def sticker_pack_meta(key: str) -> Tuple[str, str]:
-    if key.startswith("album_pack_aces."):
-        suffix = key.split(".", 1)[1]
-        subtype = "ace_generic" if suffix == "generic" else f"ace_{suffix}"
-    elif key.startswith("album_pack."):
-        subtype = key.split(".", 1)[1]
-    else:
-        subtype = key.replace("album_pack_", "")
-    filename = STICKER_PACK_FILES.get(subtype, "ic_stickers_pack_ace_generic_massive.png")
-    if subtype.startswith("ace_"):
-        label = "Shiny Sticker Pack"
-    elif subtype:
-        label = f"{subtype.upper()} Sticker Pack"
-    else:
-        label = "Sticker Pack"
-    return label, DCIC_ICON_BASE + "stickers/" + filename
-
-
 def normalize_reward(
     reward_id: Any,
     reward_by_id: Dict[int, Dict[str, Any]],
@@ -508,23 +371,18 @@ def normalize_reward(
     skins: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
     localization: Dict[str, str],
-    items: Optional[Dict[int, Dict[str, Any]]] = None,
 ) -> Optional[Dict[str, Any]]:
     rid = as_int(reward_id)
     if rid <= 0:
         return None
     row = reward_by_id.get(rid, {})
     raw = row.get("reward") if isinstance(row.get("reward"), list) else []
-    reward_items: List[Dict[str, Any]] = []
-    game_items = items or {}
+    items: List[Dict[str, Any]] = []
 
     def add_resource(key: str, amount: Any, values: Any = None) -> None:
         label = RESOURCE_LABELS.get(key, humanize_key(key))
-        theme_type = THEME_RESOURCE_TYPES.get(key, "resource")
         item = {
             "kind": "resource",
-            "type": theme_type,
-            "resource": theme_type,
             "key": key,
             "name": label,
             "amount": as_number(amount),
@@ -532,7 +390,7 @@ def normalize_reward(
         }
         if values is not None:
             item["values"] = values
-        reward_items.append(item)
+        items.append(item)
 
     for entry in raw:
         if not isinstance(entry, dict):
@@ -545,15 +403,12 @@ def normalize_reward(
                     if did <= 0:
                         continue
                     dragon = dragon_record(did, dragons, localization)
-                    reward_items.append({
+                    items.append({
                         "kind": "dragon",
-                        "type": "dragon_egg",
-                        "asset_kind": "dragon",
                         "id": did,
                         "dragon_id": did,
                         "name": dragon["name"],
                         "amount": 1,
-                        "img_name_mobile": dragon.get("img_name", ""),
                         "image_url": dragon.get("thumbnail", ""),
                         "popup": make_popup("dragon", did),
                     })
@@ -569,16 +424,12 @@ def normalize_reward(
                     if did <= 0:
                         continue
                     dragon = dragon_record(did, dragons, localization)
-                    reward_items.append({
+                    items.append({
                         "kind": "dragon_orbs",
-                        "type": "dragon_orbs",
-                        "asset_kind": "dragon",
                         "id": did,
                         "dragon_id": did,
                         "name": f"{dragon['name']} Orbs",
                         "amount": amount,
-                        "dragon_rarity": dragon.get("rarity", ""),
-                        "img_name_mobile": dragon.get("img_name", ""),
                         "image_url": dragon.get("thumbnail", ""),
                         "popup": make_popup("dragon_orbs", did),
                     })
@@ -591,18 +442,13 @@ def normalize_reward(
                         continue
                     rarity = str(seed.get("rarity") or "").upper()
                     amount = as_int(seed.get("amount"))
-                    reward_items.append({
+                    items.append({
                         "kind": "resource",
-                        "type": "joker_orbs",
-                        "resource": "joker_orbs",
                         "key": "rarity_seeds",
-                        "name": f"{RARITY_NAMES.get(rarity, rarity or 'Rarity')} Joker Orbs",
+                        "name": f"{rarity or 'Rarity'} Orbs",
                         "amount": amount,
                         "rarity": rarity,
-                        "image_url": (
-                            DCIC_ICON_BASE + f"tree-of-life/ic-joker-{RARITY_FILE[rarity]}.png"
-                            if rarity in RARITY_FILE else DCIC_ICON_BASE + "tree-of-life/ic-joker-all.png"
-                        ),
+                        "image_url": "",
                     })
                 continue
 
@@ -613,31 +459,14 @@ def normalize_reward(
                     if cid <= 0:
                         continue
                     meta = chests.get(cid, {})
-                    chest_type = "generic"
-                    chest_img = str(
-                        meta.get("source_chest_img_name")
-                        or meta.get("img_name")
-                        or meta.get("image_name")
-                        or ""
-                    ).strip()
-                    image_candidates = meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else []
-                    reward_items.append({
+                    items.append({
                         "kind": "chest",
-                        "type": "chest",
-                        "asset_kind": "chest",
                         "id": cid,
                         "chest_id": cid,
-                        "source_chest_id": cid,
-                        "source_chest_img_name": chest_img,
-                        "img_name": chest_img,
-                        "chest_type": chest_type,
-                        "chest_key": str(meta.get("key") or f"generic:{cid}"),
-                        "detail_file": str(meta.get("detail_file") or ""),
                         "name": str(meta.get("name") or meta.get("title") or f"Chest #{cid}"),
                         "amount": 1,
                         "image_url": first_image(meta),
-                        "image_candidates": image_candidates,
-                        "popup": {"kind": "chest", "id": cid, "type": chest_type},
+                        "popup": make_popup("chest", cid),
                     })
                 continue
 
@@ -648,256 +477,52 @@ def normalize_reward(
                     if sid <= 0:
                         continue
                     meta = skins.get(sid, {})
-                    reward_items.append({
+                    items.append({
                         "kind": "skin",
-                        "type": "skin",
-                        "asset_kind": "skin",
                         "id": sid,
                         "skin_id": sid,
                         "name": str(meta.get("name") or meta.get("skin_name") or f"Skin #{sid}"),
                         "amount": 1,
                         "image_url": first_image(meta),
-                        "image_candidates": meta.get("image_candidates") if isinstance(meta.get("image_candidates"), list) else [],
                         "popup": make_popup("skin", sid),
                     })
                 continue
 
-            # "b" is the compact reward key for game items (often decorations).
-            if key in {"b", "buildings"}:
+            # "b" is the compact Dragon City reward key for building IDs.
+            # A scalar is one building; a repeated list means multiple copies.
+            if key == "b":
                 values = value if isinstance(value, list) else [value]
                 ids = [as_int(v) for v in values if as_int(v) > 0]
-                seen_ids: List[int] = []
-                for item_id in ids:
-                    if item_id not in seen_ids:
-                        seen_ids.append(item_id)
-                for item_id in seen_ids:
-                    meta = game_items.get(item_id, {})
-                    group = str(meta.get("group_type") or "").upper()
-                    item_type = (
-                        "habitat" if group in {"HABITAT", "ORB_HABITAT"}
-                        else "building" if group in {"BUILDING", "FARM", "BOOSTER", "GD_TOWER", "KINDERGARTEN"}
-                        else "decoration"
-                    )
-                    image_candidates = item_image_candidates(meta)
-                    name = loc_text(
-                        localization,
-                        f"tid_building_{item_id}_name",
-                        str(meta.get("name") or meta.get("description") or f"Item #{item_id}"),
-                    )
-                    reward_items.append({
-                        "kind": item_type,
-                        "type": item_type,
-                        "asset_kind": item_type,
-                        "id": item_id,
-                        "item_id": item_id,
-                        "group_type": group,
-                        "name": name,
-                        "amount": ids.count(item_id),
-                        "img_name_mobile": str(meta.get("img_name_mobile") or meta.get("img_name") or ""),
-                        "image_url": image_candidates[0] if image_candidates else DCIC_ICON_BASE + (
-                            "text-icons/gr-category-habitats.png" if item_type == "habitat"
-                            else "text-icons/gr-category-decos.png" if item_type == "decoration"
-                            else "text-icons/gr-category-buildings.png"
-                        ),
-                        "image_candidates": image_candidates,
+                if ids:
+                    same = len(set(ids)) == 1
+                    items.append({
+                        "kind": "building",
+                        "id": ids[0],
+                        "name": f"Building #{ids[0]}" if same else "Buildings",
+                        "amount": len(ids),
+                        "values": ids,
+                        "image_url": DCIC_ICON_BASE + "text-icons/gr-category-buildings.png",
                     })
                 continue
 
             # Keep the most common pack families readable even before a
             # dedicated popup exists for them.
             if key.startswith("album_pack"):
-                label, image = sticker_pack_meta(key)
-                reward_items.append({
+                items.append({
                     "kind": "resource",
-                    "type": "sticker_pack",
-                    "resource": "sticker_pack",
                     "key": key,
-                    "name": label,
+                    "name": "Sticker Pack",
                     "amount": as_number(value),
-                    "image_url": image,
-                    "image_candidates": [image],
+                    "image_url": DCIC_ICON_BASE + "stickers/ic_stickers_pack_ace_generic_massive.png",
                 })
                 continue
-
-            # A Pet Food Pack is a chest/basket-style pack; do not replace its
-            # artwork with the Pet Food currency icon.
-            if key.startswith("pet_food_pack."):
-                size = key.split(".", 1)[1].lower()
-                pack_image = DCIC_ICON_BASE + f"pet-food/ui_chest_pet_food_{size}.png"
-                reward_items.append({
+            if key.startswith("pet_food_pack"):
+                items.append({
                     "kind": "resource",
-                    "type": "pet_food",
-                    "resource": "pet_food",
                     "key": key,
-                    "name": f"{size.upper()} Pet Food Pack",
+                    "name": "Pet Food Pack",
                     "amount": as_number(value),
-                    "subtype": size,
-                    "image_url": pack_image,
-                    "image_candidates": [pack_image, PET_FOOD_ICON],
-                })
-                continue
-
-            if key in {"pet_food", "pet_food.s2"}:
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "pet_food",
-                    "resource": "pet_food",
-                    "key": key,
-                    "name": "Pet Food",
-                    "amount": as_number(value),
-                    "image_url": PET_FOOD_ICON,
-                    "image_candidates": [PET_FOOD_ICON],
-                })
-                continue
-
-            if key.startswith("permanent_gacha."):
-                tier = key.split(".", 1)[1].lower()
-                key_file = {"legendary": "silver", "mythical": "gold", "heroic": "mds"}.get(tier, tier)
-                image = DCIC_ICON_BASE + f"currency-icon/ic-gachakey-{key_file}-special.png"
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "treasure_key",
-                    "resource": "treasure_key",
-                    "key": key,
-                    "name": f"{tier.title()} Treasure Key",
-                    "amount": as_number(value),
-                    "subtype": tier,
-                    "image_url": image,
-                    "image_candidates": [image],
-                })
-                continue
-
-            if key == "trade_tickets":
-                rows = value if isinstance(value, list) else []
-                for ticket in rows:
-                    if not isinstance(ticket, dict):
-                        continue
-                    rarity = str(ticket.get("rarity") or "").upper()
-                    token = RARITY_FILE.get(rarity, "")
-                    image = (
-                        DCIC_ICON_BASE + f"tree-of-life/ic-trade-orb-big-{token}.png"
-                        if token else DCIC_ICON_BASE + "tree-of-life/ic-trade-orb-mid-generic.png"
-                    )
-                    reward_items.append({
-                        "kind": "resource",
-                        "type": "trade_essence",
-                        "resource": "trade_essence",
-                        "key": key,
-                        "name": f"{RARITY_NAMES.get(rarity, rarity or 'Rarity')} Trade Essences",
-                        "amount": as_int(ticket.get("amount")),
-                        "rarity": rarity,
-                        "image_url": image,
-                        "image_candidates": [image],
-                    })
-                continue
-
-            if key in TOKEN_MAP:
-                token, label = TOKEN_MAP[key]
-                image = DCIC_ICON_BASE + f"tokens/ic-token-{token}.png"
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "elemental_token",
-                    "resource": "elemental_token",
-                    "key": key,
-                    "name": label,
-                    "amount": as_number(value),
-                    "token": token,
-                    "image_url": image,
-                    "image_candidates": [image, DCIC_ICON_BASE + f"tokens/ic-token-{token}-0.png"],
-                })
-                continue
-
-            if key in SPECIAL_TOKEN_MAP:
-                token, label = SPECIAL_TOKEN_MAP[key]
-                image = DCIC_ICON_BASE + f"tokens/ic-token-{token}.png"
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "special_token",
-                    "resource": "special_token",
-                    "key": key,
-                    "name": label,
-                    "amount": as_number(value),
-                    "token": token,
-                    "image_url": image,
-                    "image_candidates": [image],
-                })
-                continue
-
-            if key.startswith("rank_up_coin."):
-                rarity = key.split(".", 1)[1].lower()
-                file_name = {
-                    "common": "common",
-                    "rare": "rare",
-                    "very_rare": "veryrare",
-                    "veryrare": "veryrare",
-                    "epic": "epic",
-                    "legendary": "legendary",
-                    "mythical": "mythical",
-                    "heroic": "heroic",
-                }.get(rarity, rarity)
-                image = DCIC_ICON_BASE + f"rank-up-coins/ic-rank-up-coin-{file_name}.png"
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "rank_up_coin",
-                    "resource": "rank_up_coin",
-                    "key": key,
-                    "name": rarity.replace("_", " ").title() + " Rank Up Coin",
-                    "amount": as_number(value),
-                    "rarity": rarity,
-                    "image_url": image,
-                    "image_candidates": [image],
-                })
-                continue
-
-            if key.startswith("not_owned_sticker_rarity"):
-                match = re.search(r"(?:ace_)?(\d+)$", key)
-                rarity = as_int(match.group(1)) if match else 0
-                shiny = "ace_" in key
-                filename = ("sticker-ace-not-owned-rarity-" if shiny else "sticker-not-owned-rarity-") + str(rarity) + ".png"
-                image = DCIC_ICON_BASE + "stickers/" + filename
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "missing_sticker",
-                    "resource": "missing_sticker",
-                    "key": key,
-                    "name": ("Shiny " if shiny else "") + f"Missing Sticker Rarity {rarity}",
-                    "amount": as_number(value),
-                    "rarity": rarity,
-                    "image_url": image,
-                    "image_candidates": [image],
-                })
-                continue
-
-            if key.startswith("album_dust.") or key.startswith("album_ace_dust."):
-                shiny = key.startswith("album_ace_dust.")
-                image = DCIC_ICON_BASE + (
-                    "stickers/ic-album-dust-aces-massive_c.png"
-                    if shiny else "stickers/ic-album-dust-massive_c.png"
-                )
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "sticker_diamond",
-                    "resource": "sticker_diamond",
-                    "key": key,
-                    "name": "Shiny Diamond" if shiny else "Diamond",
-                    "amount": as_number(value),
-                    "shiny": shiny,
-                    "image_url": image,
-                    "image_candidates": [image],
-                })
-                continue
-
-            if key.startswith("dragon_mastery_pass_tickets"):
-                image = DCIC_ICON_BASE + "currency-icon/ic-dmp-point-massive.png"
-                reward_items.append({
-                    "kind": "resource",
-                    "type": "progression_pass_tier",
-                    "resource": "progression_pass_tier",
-                    "key": key,
-                    "name": "Mastery Tickets",
-                    "amount": as_number(value),
-                    "image_url": image,
-                    "image_candidates": [image],
+                    "image_url": DCIC_ICON_BASE + "currency-icon/ic-pet-food-massive_c.png",
                 })
                 continue
 
@@ -915,10 +540,10 @@ def normalize_reward(
 
             add_resource(key, value)
 
-    first = reward_items[0] if reward_items else {}
+    first = items[0] if items else {}
     label = str(first.get("name") or f"Reward #{rid}")
-    if len(reward_items) > 1:
-        label += f" +{len(reward_items) - 1}"
+    if len(items) > 1:
+        label += f" +{len(items) - 1}"
 
     return {
         "reward_id": rid,
@@ -928,7 +553,7 @@ def normalize_reward(
         "image_url": first.get("image_url", "") if first else "",
         "popup": first.get("popup", {}) if first else {},
         "rarity": first.get("rarity", "") if first else "",
-        "items": reward_items,
+        "items": items,
         "raw": raw,
     }
 
@@ -1048,7 +673,6 @@ def build_goal(
     skins: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
     localization: Dict[str, str],
-    items: Optional[Dict[int, Dict[str, Any]]] = None,
 ) -> Optional[Dict[str, Any]]:
     gid = as_int(goal_id)
     goal = goal_by_id.get(gid)
@@ -1068,7 +692,6 @@ def build_goal(
         skins,
         chests,
         localization,
-        items,
     )
 
     eligibility = goal.get("eligibility") if isinstance(goal.get("eligibility"), dict) else {}
@@ -1101,7 +724,6 @@ def divine_passes(
     dragons: Dict[int, Dict[str, Any]],
     skins: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
-    items: Optional[Dict[int, Dict[str, Any]]] = None,
 ) -> List[Dict[str, Any]]:
     section = config.get("battle_pass", {})
     if not isinstance(section, dict):
@@ -1158,11 +780,11 @@ def divine_passes(
                 continue
             premium = normalize_reward(
                 node.get("premium_reward"),
-                reward_by_id, dragons, skins, chests, localization, items,
+                reward_by_id, dragons, skins, chests, localization,
             )
             free = normalize_reward(
                 node.get("free_reward"),
-                reward_by_id, dragons, skins, chests, localization, items,
+                reward_by_id, dragons, skins, chests, localization,
             )
             if premium:
                 premium_dragon_ids.extend(extract_egg_ids(premium.get("raw")))
@@ -1182,7 +804,7 @@ def divine_passes(
         if main_reward_node in node_by_id:
             main_reward = normalize_reward(
                 node_by_id[main_reward_node].get("premium_reward"),
-                reward_by_id, dragons, skins, chests, localization, items,
+                reward_by_id, dragons, skins, chests, localization,
             )
             if main_reward:
                 main_dragon_ids = extract_egg_ids(main_reward.get("raw"))
@@ -1201,15 +823,15 @@ def divine_passes(
                 "iteration_score": as_int(extra_node.get("iteration_score")),
                 "free_reward": normalize_reward(
                     extra_node.get("free_reward"),
-                    reward_by_id, dragons, skins, chests, localization, items,
+                    reward_by_id, dragons, skins, chests, localization,
                 ),
                 "premium_reward": normalize_reward(
                     extra_node.get("premium_reward"),
-                    reward_by_id, dragons, skins, chests, localization, items,
+                    reward_by_id, dragons, skins, chests, localization,
                 ),
                 "elite_reward": normalize_reward(
                     extra_node.get("elite_reward"),
-                    reward_by_id, dragons, skins, chests, localization, items,
+                    reward_by_id, dragons, skins, chests, localization,
                 ),
             }
 
@@ -1217,7 +839,7 @@ def divine_passes(
         for goal_id in row.get("daily_goals", []) or []:
             goal = build_goal(
                 goal_id, goal_by_id, action_by_id, reward_by_id,
-                dragons, skins, chests, localization, items,
+                dragons, skins, chests, localization,
             )
             if goal:
                 daily_goals.append(goal)
@@ -1227,7 +849,7 @@ def divine_passes(
         for goal_id in row.get("weekly_goals", []) or []:
             goal = build_goal(
                 goal_id, goal_by_id, action_by_id, reward_by_id,
-                dragons, skins, chests, localization, items,
+                dragons, skins, chests, localization,
             )
             if not goal:
                 continue
@@ -1244,15 +866,15 @@ def divine_passes(
 
         elite_extra = normalize_reward(
             row.get("elite_extra_reward"),
-            reward_by_id, dragons, skins, chests, localization, items,
+            reward_by_id, dragons, skins, chests, localization,
         )
         purchased_elite_extra = normalize_reward(
             row.get("purchased_elite_extra_reward"),
-            reward_by_id, dragons, skins, chests, localization, items,
+            reward_by_id, dragons, skins, chests, localization,
         )
         purchased_premium_extra = normalize_reward(
             row.get("purchased_premium_extra_reward"),
-            reward_by_id, dragons, skins, chests, localization, items,
+            reward_by_id, dragons, skins, chests, localization,
         )
         booster_parameters = {
             key: value
@@ -1462,9 +1084,9 @@ def keep_current_and_upcoming(passes: List[Dict[str, Any]]) -> List[Dict[str, An
 def main() -> None:
     config = unwrap_config(load_json(CONFIG_PATH))
     localization = normalize_localization(load_json(LOCALIZATION_PATH))
-    dragons, skins, chests, items = support_indexes()
+    dragons, skins, chests = support_indexes()
 
-    passes = divine_passes(config, localization, dragons, skins, chests, items)
+    passes = divine_passes(config, localization, dragons, skins, chests)
     passes += progression_passes(config, localization, dragons)
     passes = keep_current_and_upcoming(passes)
 
@@ -1475,7 +1097,7 @@ def main() -> None:
     )
 
     payload = {
-        "schema_version": 4,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
         "archive_enabled": False,
