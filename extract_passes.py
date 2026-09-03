@@ -1554,7 +1554,6 @@ def divine_passes(
 
 def progression_passes(
     config: Dict[str, Any],
-    game_config: Dict[str, Any],
     localization: Dict[str, str],
     dragons: Dict[int, Dict[str, Any]],
 ) -> List[Dict[str, Any]]:
@@ -1562,11 +1561,9 @@ def progression_passes(
     if not isinstance(pm, dict):
         return []
 
-    # progression_milestones definitions live in side_events_config, but their
-    # schedule gates live in game_config.unlock_system.
-    unlock_rows = game_config.get("unlock_system", {}).get("unlocks", [])
-    if not unlock_rows:
-        unlock_rows = config.get("unlock_system", {}).get("unlocks", [])
+    # side_events_config contains the full unlock_system root copied from
+    # game_config, so Progression Pass scheduling can be resolved here.
+    unlock_rows = config.get("unlock_system", {}).get("unlocks", [])
     unlock_by_id = {
         str(row.get("id")): row
         for row in unlock_rows
@@ -1602,9 +1599,9 @@ def progression_passes(
         for row in pm.get("rewards", [])
         if isinstance(row, dict)
     }
-    exact_icons, wildcard_icons = economy_visual_icon_index(game_config)
-    if not exact_icons and not wildcard_icons:
-        exact_icons, wildcard_icons = economy_visual_icon_index(config)
+    # side_events_config contains the full economy_system root copied from
+    # game_config; visual_icon is used here for Progression Pass currencies.
+    exact_icons, wildcard_icons = economy_visual_icon_index(config)
 
     out: List[Dict[str, Any]] = []
     for row in pm.get("progression_milestones", []):
@@ -1711,12 +1708,11 @@ def progression_passes(
 
 def main() -> None:
     config = unwrap_config(load_json(CONFIG_PATH))
-    game_config = unwrap_config(load_optional_json(GAME_CONFIG_PATH))
     localization = normalize_localization(load_json(LOCALIZATION_PATH))
     dragons, skins, chests, items = support_indexes()
 
     passes = divine_passes(config, localization, dragons, skins, chests, items)
-    passes += progression_passes(config, game_config, localization, dragons)
+    passes += progression_passes(config, localization, dragons)
 
     # No separate archive UI yet, but passes.json must preserve every pass
     # definition that still exists in side_events_config.json, including ended
