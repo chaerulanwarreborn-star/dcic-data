@@ -20,6 +20,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 ASSET_ICON_BASE = "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/"
 DRAGON_ASSET_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
+STATIC_ASSET_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 
 RARITY_NAMES = {
     "C": "Common",
@@ -283,6 +284,80 @@ def chest_info(chest_id: int, chest_by_id: Dict[int, Dict[str, Any]]) -> Dict[st
     }
 
 
+def clean_asset_name(value: Any) -> str:
+    s = str(value or "").strip()
+    s = re.sub(r"^ui_", "", s, flags=re.I)
+    s = re.sub(r"@2x(?:\.png)?$", "", s, flags=re.I)
+    s = re.sub(r"\.png$", "", s, flags=re.I)
+    return s
+
+
+def item_image_candidates(item_row: Dict[str, Any]) -> List[str]:
+    """Return the same decoration/building candidate chain used by DCIC pages."""
+    raw = clean_asset_name(item_row.get("img_name_mobile") or item_row.get("img_name"))
+    if not raw:
+        return []
+    return unique_strings([
+        STATIC_ASSET_BASE + f"mobile/ui/decorations/ui_{raw}@2x.png",
+        STATIC_ASSET_BASE + f"mobile/ui/decorations/{raw}@2x.png",
+        STATIC_ASSET_BASE + f"mobile/ui/decorations/{raw}.png",
+        STATIC_ASSET_BASE + f"mobile/ui/decorations/HD/{raw}.png",
+        STATIC_ASSET_BASE + f"mobile/ui/buildings/ui_{raw}@2x.png",
+        STATIC_ASSET_BASE + f"mobile/ui/buildings/{raw}@2x.png",
+        STATIC_ASSET_BASE + f"mobile/ui/buildings/{raw}.png",
+        STATIC_ASSET_BASE + f"mobile/ui/buildings/HD/{raw}.png",
+    ])
+
+
+def normalize_requirement(
+    collectible_id: int,
+    collectible_by_id: Dict[int, Dict[str, Any]],
+    item_by_id: Dict[int, Dict[str, Any]],
+    loc: Dict[str, str],
+) -> Optional[Dict[str, Any]]:
+    row = collectible_by_id.get(collectible_id) or {}
+    if not row:
+        return None
+
+    collectible_type = str(row.get("collectible_type") or "").upper()
+    amount = row.get("amount")
+    item_id = first_number(row.get("item_id"))
+    out: Dict[str, Any] = {
+        "collectible_id": collectible_id,
+        "collectible_type": collectible_type or None,
+        "amount": amount,
+    }
+
+    # Current Event Collections use ITEM collectibles. Preserve unknown types
+    # without dropping their amount so the frontend can still display them.
+    if collectible_type == "ITEM" and item_id:
+        item = item_by_id.get(item_id) or {}
+        raw_name = item.get("name") or item.get("description") or f"Item {item_id}"
+        name = loc_text(loc, raw_name, str(raw_name))
+        img_name = item.get("img_name")
+        img_name_mobile = item.get("img_name_mobile") or img_name
+        candidates = item_image_candidates(item)
+        out.update({
+            "item_id": item_id,
+            "kind": "item",
+            "asset_kind": "item",
+            "name": name,
+            "item_name": name,
+            "img_name": img_name,
+            "img_name_mobile": img_name_mobile,
+            "image_url": candidates[0] if candidates else None,
+            "image_candidates": candidates,
+        })
+    else:
+        out.update({
+            "kind": collectible_type.lower() if collectible_type else "collectible",
+            "asset_kind": collectible_type.lower() if collectible_type else "collectible",
+            "name": collectible_type.replace("_", " ").title() if collectible_type else f"Collectible {collectible_id}",
+        })
+
+    return out
+
+
 def reward_base(raw_type: str, name: str, amount: Any = None) -> Dict[str, Any]:
     out: Dict[str, Any] = {"type": raw_type, "resource": raw_type, "name": name}
     if amount is not None:
@@ -423,6 +498,8 @@ def build_collection(
     challenge: Dict[str, Any],
     goal_by_id: Dict[int, Dict[str, Any]],
     reward_by_id: Dict[int, Dict[str, Any]],
+    collectible_by_id: Dict[int, Dict[str, Any]],
+    item_by_id: Dict[int, Dict[str, Any]],
     loc: Dict[str, str],
     dragon_by_id: Dict[int, Dict[str, Any]],
     chest_by_id: Dict[int, Dict[str, Any]],
@@ -445,6 +522,12 @@ def build_collection(
         reward_row = reward_by_id.get(reward_id) or {}
         title = loc_text(loc, goal.get("title_tid"), f"Milestone {position}")
         reward_items = normalize_reward_row(reward_row, dragon_by_id, chest_by_id)
+        collectible_ids = [first_number(x) for x in (goal.get("collectibles") or []) if first_number(x)]
+        requirements = [
+            req
+            for collectible_id in collectible_ids
+            if (req := normalize_requirement(collectible_id, collectible_by_id, item_by_id, loc))
+        ]
         milestone_rows.append({
             "index": position,
             "id": goal_id,
@@ -452,7 +535,9 @@ def build_collection(
             "title_tid": goal.get("title_tid"),
             "reward_id": reward_id,
             "claim_limit": goal.get("claim_limit"),
-            "collectible_ids": [first_number(x) for x in (goal.get("collectibles") or []) if first_number(x)],
+            "collectible_ids": collectible_ids,
+            "requirements": requirements,
+            "requirement": requirements[0] if requirements else None,
             "rewards": reward_items,
         })
 
@@ -507,12 +592,19 @@ def main() -> None:
     challenges = [x for x in (liveops.get("challenges") or []) if isinstance(x, dict)]
     goals = [x for x in (liveops.get("goals") or []) if isinstance(x, dict)]
     rewards = [x for x in (liveops.get("rewards") or []) if isinstance(x, dict)]
+    collectibles = [x for x in (liveops.get("collectibles") or []) if isinstance(x, dict)]
+    items = [x for x in (config.get("items") or []) if isinstance(x, dict)]
     goal_by_id = {first_number(x.get("id")): x for x in goals if first_number(x.get("id"))}
     reward_by_id = {first_number(x.get("id")): x for x in rewards if first_number(x.get("id"))}
+    collectible_by_id = {first_number(x.get("id")): x for x in collectibles if first_number(x.get("id"))}
+    item_by_id = {first_number(x.get("id")): x for x in items if first_number(x.get("id"))}
 
     collections: List[Dict[str, Any]] = []
     for challenge in challenges:
-        row = build_collection(challenge, goal_by_id, reward_by_id, loc, dragon_by_id, chest_by_id)
+        row = build_collection(
+            challenge, goal_by_id, reward_by_id, collectible_by_id, item_by_id,
+            loc, dragon_by_id, chest_by_id
+        )
         if row:
             collections.append(row)
     collections.sort(key=lambda x: (x["start_ts"], x["id"]))
@@ -525,6 +617,8 @@ def main() -> None:
             "time_zone": "UTC",
             "enriched_with_dragons": bool(dragon_by_id),
             "enriched_with_chests": bool(chest_by_id),
+            "enriched_with_requirements": bool(collectible_by_id),
+            "enriched_with_items": bool(item_by_id),
         },
         "collections": collections,
     }
