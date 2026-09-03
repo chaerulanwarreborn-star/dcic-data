@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-28T09:00:28.463199Z",
+  "generated_at": "2026-09-03T02:15:18.618851Z",
   "source_file": "game_config.json",
-  "pass_count": 114,
+  "pass_count": 116,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -3308,6 +3308,53 @@
       "hud_button_asset": "currency-arena-pass"
     },
     {
+      "key": "progression_pass:280",
+      "id": 280,
+      "type": "progression_pass",
+      "variant": "react_pass",
+      "type_label": "Progression Pass",
+      "title": "WELCOME BACK PASS",
+      "subtitle": "",
+      "start_ts": 1788185280,
+      "end_ts": 1788790080,
+      "start_iso": "2026-08-31T14:08:00Z",
+      "end_iso": "2026-09-07T14:08:00Z",
+      "details": "/p/progression-pass.html?id=280",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "react_pass.20260616_seg50",
+      "featured_dragons": [
+        {
+          "id": 3109,
+          "name": "High Redemption Norn Dragon",
+          "rarity": "H",
+          "img_name": "3109_dragon_highredemptionnorn",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3109_dragon_highredemptionnorn_3.png",
+          "path": "golden"
+        },
+        {
+          "id": 2843,
+          "name": "Truthbender Dragon",
+          "rarity": "L",
+          "img_name": "2843_dragon_truthbender",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2843_dragon_truthbender_3.png",
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 2,
+      "currency_ids": [
+        "react_pass_points.20260616_seg50"
+      ],
+      "currency_id": "react_pass_points.20260616_seg50",
+      "visual_icon_id": "react_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/$HDSD/ic_iap_pass_currency_flower_bouquet_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/HD/ic_iap_pass_currency_flower_bouquet_c.png",
+      "hud_button_asset": "react-pass-hud",
+      "player_segment_ids": [
+        50
+      ],
+      "player_segmentation_type": "dynamic"
+    },
+    {
       "key": "progression_pass:319",
       "id": 319,
       "type": "progression_pass",
@@ -3403,6 +3450,32 @@
         81
       ],
       "player_segmentation_type": "dynamic"
+    },
+    {
+      "key": "divine_pass:119",
+      "id": 119,
+      "type": "divine_pass",
+      "variant": "divine_pass",
+      "type_label": "Divine Pass",
+      "title": "DIVINE PASS: THE STAINED",
+      "subtitle": "Second Heroic Stained Arrival!",
+      "start_ts": 1788429600,
+      "end_ts": 1789632000,
+      "start_iso": "2026-09-03T10:00:00Z",
+      "end_iso": "2026-09-17T08:00:00Z",
+      "details": "/p/divine-pass.html?id=119",
+      "source_section": "battle_pass.battle_pass",
+      "featured_dragons": [
+        {
+          "id": 3494,
+          "name": "High Stained Sharpfang",
+          "rarity": "H",
+          "img_name": "3494_dragon_highstainedsharpfang",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
+          "path": "premium"
+        }
+      ],
+      "featured_dragon_count": 1
     }
   ]
 }
