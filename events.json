@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T16:35:33.302151Z",
+  "generated_at": "2026-09-04T15:58:22.805438Z",
   "source_file": "game_config.json",
-  "event_count": 70,
+  "event_count": 74,
   "events": [
     {
       "key": "event_island:1",
@@ -2612,6 +2612,231 @@
       "featured_dragon_count": 5,
       "building_id": 11593,
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
+    },
+    {
+      "key": "tower_island:321",
+      "id": 321,
+      "type": "tower_island",
+      "variant": "tower_island",
+      "type_label": "Tower Island",
+      "title": "Norsegods Tower Island",
+      "subtitle": "",
+      "start_ts": 1789034400,
+      "end_ts": 1789293600,
+      "start_iso": "2026-09-10T10:00:00Z",
+      "end_iso": "2026-09-13T10:00:00Z",
+      "guide": "/p/tower-island-guide.html?id=321",
+      "schedule_source": "game_config",
+      "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3295,
+          "name": "Prismatic Partner Dragon",
+          "rarity": "L",
+          "img_name": "3295_dragon_prismaticpartner",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png"
+        },
+        {
+          "id": 2653,
+          "name": "Peacock Dragon",
+          "rarity": "L",
+          "img_name": "2653_dragon_peacock",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2653_dragon_peacock_3.png"
+        },
+        {
+          "id": 2432,
+          "name": "Icetrek Dragon",
+          "rarity": "E",
+          "img_name": "2432_dragon_icetrek",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png"
+        },
+        {
+          "id": 2705,
+          "name": "Illumidepth Dragon",
+          "rarity": "V",
+          "img_name": "2705_dragon_illumidepth",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png"
+        },
+        {
+          "id": 2026,
+          "name": "Verglas Dragon",
+          "rarity": "R",
+          "img_name": "2026_dragon_verglas",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 10177,
+      "asset_zip": "/mobile/ui/tower_islands/ti_norsegods_b.zip"
+    },
+    {
+      "key": "heroic_race:319",
+      "id": 319,
+      "type": "heroic_race",
+      "variant": "heroic_race",
+      "type_label": "Heroic Race",
+      "title": "High Jotunn Heroic Race",
+      "subtitle": "",
+      "start_ts": 1789034400,
+      "end_ts": 1789984800,
+      "start_iso": "2026-09-10T10:00:00Z",
+      "end_iso": "2026-09-21T10:00:00Z",
+      "guide": "/p/heroic-race-guide.html?id=319",
+      "schedule_source": "game_config",
+      "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 3503,
+          "name": "High Jotunn Dragon",
+          "rarity": "H",
+          "img_name": "3503_dragon_highjotunn",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3503_dragon_highjotunn_3.png"
+        },
+        {
+          "id": 3277,
+          "name": "Screaming Traitor Dragon",
+          "rarity": "L",
+          "img_name": "3277_dragon_screamingtraitor",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png"
+        },
+        {
+          "id": 2283,
+          "name": "Abnormal Dragon",
+          "rarity": "E",
+          "img_name": "2283_dragon_abnormal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png"
+        },
+        {
+          "id": 1713,
+          "name": "Slugabed Dragon",
+          "rarity": "V",
+          "img_name": "1713_dragon_slugabed",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1713_dragon_slugabed_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
+      "building_id": 837,
+      "featured_dragon_id": 3503,
+      "asset_zip": "/mobile/ui/heroicraces_islands/hr_clashofthenorth.zip"
+    },
+    {
+      "key": "maze_island:321",
+      "id": 321,
+      "type": "maze_island",
+      "variant": "maze_island",
+      "type_label": "Maze Island",
+      "title": "Flight of the North - Maze Island 2026",
+      "subtitle": "",
+      "start_ts": 1789293600,
+      "end_ts": 1789639200,
+      "start_iso": "2026-09-13T10:00:00Z",
+      "end_iso": "2026-09-17T10:00:00Z",
+      "guide": "/p/maze-island-guide.html?id=321",
+      "schedule_source": "game_config",
+      "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 2987,
+          "name": "Scorpiate Dragon",
+          "rarity": "L",
+          "img_name": "2987_dragon_scorpiate",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2987_dragon_scorpiate_3.png"
+        },
+        {
+          "id": 3302,
+          "name": "Rule Breaker Dragon",
+          "rarity": "L",
+          "img_name": "3302_dragon_rulebreaker",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png"
+        },
+        {
+          "id": 3358,
+          "name": "Unkindness Dragon",
+          "rarity": "L",
+          "img_name": "3358_dragon_unkindness",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3358_dragon_unkindness_3.png"
+        },
+        {
+          "id": 2356,
+          "name": "Ice Knight Dragon",
+          "rarity": "E",
+          "img_name": "2356_dragon_iceknight",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2356_dragon_iceknight_3.png"
+        },
+        {
+          "id": 2431,
+          "name": "Snowdrift Dragon",
+          "rarity": "V",
+          "img_name": "2431_dragon_snowdrift",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2431_dragon_snowdrift_3.png"
+        },
+        {
+          "id": 1510,
+          "name": "Ifrit Dragon",
+          "rarity": "R",
+          "img_name": "1510_dragon_ifrit",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1510_dragon_ifrit_3.png"
+        }
+      ],
+      "featured_dragon_count": 6,
+      "building_id": 10444,
+      "asset_zip": "/mobile/ui/maze_islands/mi_dragonmysteries.zip"
+    },
+    {
+      "key": "fog_island:321",
+      "id": 321,
+      "type": "fog_island",
+      "variant": "fog_island",
+      "type_label": "Fog Island",
+      "title": "Divination Mapbg Ragnarok Fog Island",
+      "subtitle": "",
+      "start_ts": 1789639200,
+      "end_ts": 1789984800,
+      "start_iso": "2026-09-17T10:00:00Z",
+      "end_iso": "2026-09-21T10:00:00Z",
+      "guide": "/p/fog-island-guide.html?id=321",
+      "schedule_source": "game_config",
+      "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 2696,
+          "name": "Shapeshifter Dragon",
+          "rarity": "L",
+          "img_name": "2696_dragon_shapeshifting",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2696_dragon_shapeshifting_3.png"
+        },
+        {
+          "id": 2058,
+          "name": "Crested Fae Dragon",
+          "rarity": "E",
+          "img_name": "2058_dragon_crestedfae",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2058_dragon_crestedfae_3.png"
+        },
+        {
+          "id": 2668,
+          "name": "Underground Dragon",
+          "rarity": "V",
+          "img_name": "2668_dragon_underground",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2668_dragon_underground_3.png"
+        },
+        {
+          "id": 1783,
+          "name": "Freezox Dragon",
+          "rarity": "R",
+          "img_name": "1783_dragon_freezox",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1783_dragon_freezox_3.png"
+        },
+        {
+          "id": 1023,
+          "name": "Cool Fire Dragon",
+          "rarity": "C",
+          "img_name": "1023_dragon_cool_fire_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1023_dragon_cool_fire_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 453,
+      "asset_zip": "/mobile/ui/fog_islands/fi_divination_mapbg_ragnarok_island.zip"
     }
   ],
   "warnings": [

@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-03T16:35:58.820980Z",
+  "generated_at": "2026-09-04T15:58:43.376425Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 115,
+  "pass_count": 116,
   "divine_pass_count": 90,
-  "progression_pass_count": 25,
+  "progression_pass_count": 26,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -481813,6 +481813,32 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:320",
+      "id": 320,
+      "type": "progression_pass",
+      "variant": "heroic_race_pass",
+      "type_label": "Progression Pass",
+      "title": "RACE PASS",
+      "subtitle": "",
+      "start_ts": 1789034400,
+      "end_ts": 1789984800,
+      "start_iso": "2026-09-10T10:00:00Z",
+      "end_iso": "2026-09-21T10:00:00Z",
+      "details": "/p/progression-pass.html?id=320",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "heroic_race_pass.20260910",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "heroic_race_pass_points.20260910"
+      ],
+      "currency_id": "heroic_race_pass_points.20260910",
+      "visual_icon_id": "heroic_race_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-racepass/$HDSD/ic-racepass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-racepass/HD/ic-racepass.png",
+      "hud_button_asset": "progression-hr-pass-hud"
     }
   ]
 }
