@@ -2,17 +2,18 @@
   "maze_island:320": {
     "start_ts": 1787738400,
     "end_ts": 1788429600,
-    "note": "game_config has availability 0/0 for Maze Island 320. Start was supplied from the current event schedule screenshot; end matches the timed child paths in game_config. Remove this override if you want strict config-only output."
-  }
-},
-{
-  "grid_island:11593": {
+    "note": "game_config has availability 0/0 for Maze Island 320. Start was supplied manually."
+  },
+
+  "grid_island:318": {
     "title": "CLASH OF THE NORTH GRID ISLAND"
   },
-  "tower_island:10177": {
+
+  "tower_island:321": {
     "title": "FLIGHT OF THE NORTH TOWER ISLAND"
   },
-  "heroic_race:837": {
+
+  "heroic_race:319": {
     "title": "FLIGHT OF THE NORTH HEROIC RACE: HIGH JOTUNN"
   }
 }
