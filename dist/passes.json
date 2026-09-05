@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-05T15:46:06.208263Z",
+  "generated_at": "2026-09-05T17:25:49.842599Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
@@ -105379,36 +105379,36 @@
           "enabled": true,
           "orbs_producing_habitat_id": 10306,
           "elite_extra_reward": {
-            "reward_id": 8001,
-            "name": "High Queen Joadycea Dragon Orbs",
+            "reward_id": 0,
+            "name": "High Voodoo Vampire Dragon Orbs",
             "amount": 300,
             "kind": "dragon_orbs",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
             "popup": {
               "kind": "dragon_orbs",
-              "id": 2679
+              "id": 2788
             },
-            "rarity": "",
+            "rarity": "H",
             "items": [
               {
                 "kind": "dragon_orbs",
                 "type": "dragon_orbs",
                 "asset_kind": "dragon_orbs",
-                "id": 2679,
-                "dragon_id": 2679,
-                "name": "High Queen Joadycea Dragon Orbs",
+                "id": 2788,
+                "dragon_id": 2788,
+                "name": "High Voodoo Vampire Dragon Orbs",
                 "amount": 300,
                 "dragon_rarity": "H",
-                "img_name_mobile": "2679_dragon_queenjoadycea",
-                "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png",
+                "img_name_mobile": "2788_dragon_highvoodoovampire",
+                "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
                 "thumbnail_candidates": [
-                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png"
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png"
                 ],
-                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
                 "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
                 "popup": {
                   "kind": "dragon_orbs",
-                  "id": 2679
+                  "id": 2788
                 }
               }
             ],
@@ -105416,7 +105416,7 @@
               {
                 "seeds": [
                   {
-                    "id": 2679,
+                    "id": 2788,
                     "amount": 300
                   }
                 ]
