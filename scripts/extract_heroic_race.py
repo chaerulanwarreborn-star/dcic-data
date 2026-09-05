@@ -30,6 +30,16 @@ OUTPUT_PATH = DIST_DIR / "heroic_race.json"
 LEGACY_DIR = REPO_ROOT / "legacy" / "heroic_races"
 OVERRIDES_PATH = OVERRIDES_DIR / "heroic_race_archive_overrides.json"
 
+
+def _rel(path: Path) -> str:
+    """Friendly path for messages/metadata. Works for paths under either
+    dcic-data (dist/overrides/localization/legacy) or the sibling the-void
+    repo (raw configs), falling back to the absolute path otherwise."""
+    try:
+        return str(path.relative_to(REPO_ROOT.parent))
+    except ValueError:
+        return str(path)
+
 STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 DRAGON_BASE = STATIC_BASE + "mobile/ui/dragons/HD/"
 CHEST_BASE = STATIC_BASE + "mobile/ui/chests/"
@@ -91,7 +101,7 @@ TOKEN_INFO = {
 
 def load_json(path: Path) -> Any:
     if not path.exists():
-        raise SystemExit(f"Missing required file: {path.relative_to(ROOT)}")
+        raise SystemExit(f"Missing required file: {_rel(path)}")
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -1339,8 +1349,8 @@ def main() -> None:
         "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
-        "localization_file": str(LOCALIZATION_PATH.relative_to(ROOT)).replace("\\", "/"),
-        "legacy_directory": str(LEGACY_DIR.relative_to(ROOT)).replace("\\", "/"),
+        "localization_file": str(_rel(LOCALIZATION_PATH)).replace("\\", "/"),
+        "legacy_directory": str(_rel(LEGACY_DIR)).replace("\\", "/"),
         "archive_overrides_file": OVERRIDES_PATH.name,
         "island_count": len(islands_out),
         "historical_island_count": historical_count,

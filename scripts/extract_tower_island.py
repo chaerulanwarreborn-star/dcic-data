@@ -25,6 +25,16 @@ CONFIG_PATH = RAW_DIR / "game_config.json"
 LOCALIZATION_PATH = LOCALIZATION_DIR / "dragon_city_localization_baseline_en.json"
 OUTPUT_PATH = DIST_DIR / "tower_island.json"
 
+
+def _rel(path: Path) -> str:
+    """Friendly path for messages/metadata. Works for paths under either
+    dcic-data (dist/overrides/localization/legacy) or the sibling the-void
+    repo (raw configs), falling back to the absolute path otherwise."""
+    try:
+        return str(path.relative_to(REPO_ROOT.parent))
+    except ValueError:
+        return str(path)
+
 STATIC_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
 DRAGON_BASE = STATIC_BASE + "mobile/ui/dragons/HD/"
 CHEST_BASE = STATIC_BASE + "mobile/ui/chests/"
@@ -63,7 +73,7 @@ OTHER_SPECIAL_CHEST_NAMES = {
 
 def load_json(path: Path) -> Any:
     if not path.exists():
-        raise SystemExit(f"Missing required file: {path.relative_to(ROOT)}")
+        raise SystemExit(f"Missing required file: {_rel(path)}")
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -470,7 +480,7 @@ def main() -> None:
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "source_file": CONFIG_PATH.name,
-        "localization_file": str(LOCALIZATION_PATH.relative_to(ROOT)).replace("\\", "/"),
+        "localization_file": str(_rel(LOCALIZATION_PATH)).replace("\\", "/"),
         "display_text_source": "localization",
         "island_count": len(islands_out),
         "islands": islands_out,
@@ -479,7 +489,7 @@ def main() -> None:
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(f"Wrote {OUTPUT_PATH.name}: {len(islands_out)} Tower Island map(s)")
-    print(f"Display names/descriptions: {LOCALIZATION_PATH.relative_to(ROOT)}")
+    print(f"Display names/descriptions: {_rel(LOCALIZATION_PATH)}")
 
 
 if __name__ == "__main__":
