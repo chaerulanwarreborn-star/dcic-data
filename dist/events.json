@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T15:20:15.911739Z",
+  "generated_at": "2026-09-05T15:23:39.351983Z",
   "source_file": "game_config.json",
   "event_count": 74,
   "events": [
@@ -2797,7 +2797,7 @@
       "type": "maze_island",
       "variant": "maze_island",
       "type_label": "Maze Island",
-      "title": "Flight of the North - Maze Island 2026",
+      "title": "FLIGHT OF THE NORTH MAZE ISLAND",
       "subtitle": "",
       "start_ts": 1789293600,
       "end_ts": 1789639200,
@@ -2861,7 +2861,7 @@
       "type": "fog_island",
       "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Divination Mapbg Ragnarok Fog Island",
+      "title": "FLIGHT OF THE NORTH FOG ISLAND",
       "subtitle": "",
       "start_ts": 1789639200,
       "end_ts": 1789984800,
