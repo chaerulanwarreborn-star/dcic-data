@@ -19,19 +19,25 @@ on:
 permissions:
   contents: write
 
+defaults:
+  run:
+    working-directory: dcic-data
+
 jobs:
   build-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout dcic-data
         uses: actions/checkout@v4
+        with:
+          path: dcic-data
 
       # ------------------------------------------------------------------
       # Raw game-data captures (game_config.json, arena_config.json,
       # side_events_config.json) now live in the private "the-void" repo.
-      # This checks it out as a sibling folder so RAW_DIR's default
-      # (REPO_ROOT.parent / "the-void") resolves correctly with zero
-      # extra configuration in the scripts themselves.
+      # Both repos are checked out as explicit siblings under the job's
+      # workspace root (workspace/dcic-data and workspace/the-void), which
+      # matches RAW_DIR's default in the scripts (REPO_ROOT.parent / "the-void").
       #
       # SETUP NEEDED (one-time, before this step will work):
       #   1. Create the "the-void" repo (private) and push game_config.json,
