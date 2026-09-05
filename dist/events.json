@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T15:23:39.351983Z",
+  "generated_at": "2026-09-05T15:45:43.929963Z",
   "source_file": "game_config.json",
   "event_count": 74,
   "events": [
@@ -2680,7 +2680,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11593,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_11593_norsegods_island@2x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/ui_11593_norsegods_island%402x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     },
     {
