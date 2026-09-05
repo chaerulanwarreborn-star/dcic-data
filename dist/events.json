@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-05T05:03:53.209991Z",
+  "generated_at": "2026-09-05T14:49:27.572951Z",
   "source_file": "game_config.json",
   "event_count": 74,
   "events": [
@@ -21,7 +21,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:33",
@@ -40,7 +41,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 869
+      "building_id": 869,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0862_losttemple_island@2x.png"
     },
     {
       "key": "event_island:2",
@@ -59,7 +61,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:3",
@@ -78,7 +81,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:4",
@@ -97,7 +101,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:5",
@@ -116,7 +121,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:6",
@@ -135,7 +141,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:7",
@@ -154,7 +161,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:8",
@@ -173,7 +181,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:9",
@@ -192,7 +201,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:10",
@@ -211,7 +221,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:11",
@@ -230,7 +241,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:12",
@@ -249,7 +261,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:13",
@@ -268,7 +281,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 430
+      "building_id": 430,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0430_legendsofdeus_island_b@2x.png"
     },
     {
       "key": "event_island:14",
@@ -287,7 +301,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 502
+      "building_id": 502,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0502_halloween_island_b@2x.png"
     },
     {
       "key": "event_island:15",
@@ -306,7 +321,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:16",
@@ -325,7 +341,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:17",
@@ -344,7 +361,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:18",
@@ -363,7 +381,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:19",
@@ -382,7 +401,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:20",
@@ -401,7 +421,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:21",
@@ -420,7 +441,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:22",
@@ -439,7 +461,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 540
+      "building_id": 540,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0540_relicoflife_island_b@2x.png"
     },
     {
       "key": "event_island:23",
@@ -458,7 +481,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 601
+      "building_id": 601,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0601_treeoflife_building_b@2x.png"
     },
     {
       "key": "event_island:24",
@@ -477,7 +501,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 602
+      "building_id": 602,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0602_treeoflife_building_b@2x.png"
     },
     {
       "key": "event_island:25",
@@ -496,7 +521,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 603
+      "building_id": 603,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0603_treeoflife_building_b@2x.png"
     },
     {
       "key": "event_island:26",
@@ -515,7 +541,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 629
+      "building_id": 629,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0629_easter_island_b@2x.png"
     },
     {
       "key": "event_island:27",
@@ -534,7 +561,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 629
+      "building_id": 629,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0629_easter_island_b@2x.png"
     },
     {
       "key": "event_island:28",
@@ -553,7 +581,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 821
+      "building_id": 821,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0821_dragonverserace_island_b@2x.png"
     },
     {
       "key": "event_island:29",
@@ -572,7 +601,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 821
+      "building_id": 821,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0821_dragonverserace_island_b@2x.png"
     },
     {
       "key": "event_island:30",
@@ -591,7 +621,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 821
+      "building_id": 821,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0821_dragonverserace_island_b@2x.png"
     },
     {
       "key": "event_island:31",
@@ -610,7 +641,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 821
+      "building_id": 821,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0821_dragonverserace_island_b@2x.png"
     },
     {
       "key": "event_island:32",
@@ -629,7 +661,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 845
+      "building_id": 845,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0825_berrygarden_island_b@2x.png"
     },
     {
       "key": "event_island:34",
@@ -648,7 +681,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 901
+      "building_id": 901,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0472_blizzardmini_island_b@2x.png"
     },
     {
       "key": "event_island:35",
@@ -667,7 +701,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 903
+      "building_id": 903,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0903_backtoschool2019_island_b@2x.png"
     },
     {
       "key": "event_island:36",
@@ -686,7 +721,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 936
+      "building_id": 936,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0932_heroic_island_underworld@2x.png"
     },
     {
       "key": "event_island:40",
@@ -705,7 +741,8 @@
       "source_section": "event_island",
       "featured_dragons": [],
       "featured_dragon_count": 0,
-      "building_id": 991
+      "building_id": 991,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0955_wind_island@2x.png"
     },
     {
       "key": "puzzle_island:120",
@@ -747,6 +784,7 @@
       ],
       "featured_dragon_count": 3,
       "building_id": 10089,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10089_berrygarden_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/puzzle_islands/tropical_puzzle_island_b.zip"
     },
     {
@@ -789,6 +827,7 @@
       ],
       "featured_dragon_count": 3,
       "building_id": 10604,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10202_blackmagic_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/puzzle_islands/halloween_puzzle_island.zip"
     },
     {
@@ -845,6 +884,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10177,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10177_glacial_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_norsegods_b.zip"
     },
     {
@@ -901,6 +941,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10212,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10223_arctic_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_arctic.zip"
     },
     {
@@ -957,6 +998,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 753,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_island_fae_queen_castle_b@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_upupandaway.zip"
     },
     {
@@ -1013,6 +1055,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10127,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10124_ruinedtower_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -1069,6 +1112,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 977,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0858_divination_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_brightest_mirror.zip"
     },
     {
@@ -1125,6 +1169,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10566,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10300_spring_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_stpatrick.zip"
     },
     {
@@ -1181,6 +1226,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 976,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0976_wildanimals_island@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     },
     {
@@ -1237,6 +1283,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 836,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0836_chocolatetower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -1293,6 +1340,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 921,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0921_easter2019_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019_b.zip"
     },
     {
@@ -1349,6 +1397,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10127,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10124_ruinedtower_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -1405,6 +1454,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10566,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10300_spring_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_stpatrick_b.zip"
     },
     {
@@ -1461,6 +1511,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10108,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10108_5_de_mayo_island@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_5_de_mayo_b.zip"
     },
     {
@@ -1517,6 +1568,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 751,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0751_ruinedtower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -1573,6 +1625,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10460,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10083_divination_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_brightest_mirror.zip"
     },
     {
@@ -1629,6 +1682,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 751,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0751_ruinedtower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -1685,6 +1739,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 977,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0858_divination_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_divination_mapbg_ragnarok_island.zip"
     },
     {
@@ -1741,6 +1796,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10941,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10194_seavsterra_island_b@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_seaside_break.zip"
     },
     {
@@ -1797,6 +1853,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 578,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0578_watchtower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
     {
@@ -1853,6 +1910,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11151,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0908_abyssal_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_abyss.zip"
     },
     {
@@ -1909,6 +1967,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 578,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0578_watchtower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
     {
@@ -1965,6 +2024,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 921,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0921_easter2019_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019.zip"
     },
     {
@@ -2021,6 +2081,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11986,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_music_fest_island@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_musicfest.zip"
     },
     {
@@ -2077,6 +2138,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 578,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0578_watchtower_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_wooden_tower_c.zip"
     },
     {
@@ -2126,6 +2188,7 @@
       ],
       "featured_dragon_count": 4,
       "building_id": 837,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
       "featured_dragon_id": 3499,
       "asset_zip": "/mobile/ui/heroicraces_islands/hr_medievalholidays.zip"
     },
@@ -2183,6 +2246,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 912,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0904_lighthouse_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_statue_of_dc.zip"
     },
     {
@@ -2239,6 +2303,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 101941,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10194_seavsterra_island_b@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_energysource_c.zip"
     },
     {
@@ -2358,6 +2423,7 @@
       ],
       "featured_dragon_count": 14,
       "building_id": 10650,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10195_seavsterra_secondary_island_b@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
     },
     {
@@ -2407,6 +2473,7 @@
       ],
       "featured_dragon_count": 4,
       "building_id": 11127,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
       "featured_dragon_id": 2143,
       "asset_zip": "/mobile/ui/heroicraces_islands/mr_108_mythical_gelbarrier.zip"
     },
@@ -2464,6 +2531,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 930,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0370_summer_island_b_2@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_catacombs_d.zip"
     },
     {
@@ -2555,6 +2623,7 @@
       ],
       "featured_dragon_count": 10,
       "building_id": 11087,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0370_summer_island_b_2@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_mystery_in_paradise.zip"
     },
     {
@@ -2611,6 +2680,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11593,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_11593_norsegods_island@2x.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     },
     {
@@ -2667,6 +2737,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 10177,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10177_glacial_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_norsegods_b.zip"
     },
     {
@@ -2716,6 +2787,7 @@
       ],
       "featured_dragon_count": 4,
       "building_id": 837,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
       "featured_dragon_id": 3503,
       "asset_zip": "/mobile/ui/heroicraces_islands/hr_clashofthenorth.zip"
     },
@@ -2780,6 +2852,7 @@
       ],
       "featured_dragon_count": 6,
       "building_id": 10444,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10033_arctic_island_b@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_dragonmysteries.zip"
     },
     {
@@ -2836,6 +2909,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 453,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0453_ragnarok_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_divination_mapbg_ragnarok_island.zip"
     }
   ],
