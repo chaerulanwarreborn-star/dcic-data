@@ -4,6 +4,7 @@
 Source of truth:
 - Divine Pass: side_events_config.json -> battle_pass
 - Progression Passes: side_events_config.json -> progression_milestones
+- Historical corrections: overrides/pass_history_overrides.json
 
 The output intentionally remains a single passes.json file.  It contains the
 small homepage fields plus the Divine Pass detail payload used by
@@ -32,6 +33,7 @@ DRAGONS_PATH = DIST_DIR / "dragons.json"
 SKINS_PATH = DIST_DIR / "skins.json"
 CHESTS_PATH = DIST_DIR / "chests.json"
 OUTPUT_PATH = DIST_DIR / "passes.json"
+PASS_HISTORY_OVERRIDES_PATH = REPO_ROOT / "overrides" / "pass_history_overrides.json"
 
 DRAGON_BASE = "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/"
 DRAGON_THUMB_BASE = DRAGON_BASE + "HD/"
@@ -1108,6 +1110,59 @@ def normalize_reward(
     }
 
 
+def historical_dragon_orbs_reward(
+    dragon_id: Any,
+    amount: Any,
+    dragons: Dict[int, Dict[str, Any]],
+    localization: Dict[str, str],
+) -> Optional[Dict[str, Any]]:
+    """Build a normalized Dragon Orbs reward from a historical override.
+
+    This is intentionally separate from battle_pass.rewards because some old
+    Elite Pass fields in the current config were backfilled with newer values.
+    """
+    did = as_int(dragon_id)
+    qty = as_int(amount)
+    if did <= 0 or qty <= 0:
+        return None
+
+    dragon = dragon_record(did, dragons, localization)
+    rarity = str(dragon.get("rarity") or "").upper()
+    rarity_token = RARITY_FILE.get(rarity, "")
+    name = f"{dragon['name']} Orbs"
+    popup = make_popup("dragon_orbs", did)
+    item = {
+        "kind": "dragon_orbs",
+        "type": "dragon_orbs",
+        "asset_kind": "dragon_orbs",
+        "id": did,
+        "dragon_id": did,
+        "name": name,
+        "amount": qty,
+        "dragon_rarity": rarity,
+        "img_name_mobile": dragon.get("img_name", ""),
+        "dragon_thumbnail": dragon.get("thumbnail", ""),
+        "thumbnail_candidates": [dragon.get("thumbnail", "")] if dragon.get("thumbnail") else [],
+        "image_url": dragon.get("thumbnail", ""),
+        "orb_icon_url": (
+            DCIC_ICON_BASE + f"tree-of-life/ic-seed-{rarity_token}-mid-shadow.png"
+            if rarity_token else ""
+        ),
+        "popup": popup,
+    }
+    return {
+        "reward_id": 0,
+        "name": name,
+        "amount": qty,
+        "kind": "dragon_orbs",
+        "image_url": dragon.get("thumbnail", ""),
+        "popup": popup,
+        "rarity": rarity,
+        "items": [item],
+        "raw": [{"seeds": [{"id": did, "amount": qty}]}],
+    }
+
+
 def reward_points(reward: Optional[Dict[str, Any]]) -> int:
     if not reward:
         return 0
@@ -1343,6 +1398,7 @@ def divine_passes(
     skins: Dict[int, Dict[str, Any]],
     chests: Dict[int, Dict[str, Any]],
     items: Optional[Dict[int, Dict[str, Any]]] = None,
+    historical_overrides: Optional[Dict[str, Any]] = None,
 ) -> List[Dict[str, Any]]:
     section = config.get("battle_pass", {})
     if not isinstance(section, dict):
@@ -1383,6 +1439,11 @@ def divine_passes(
         for row in section.get("elite_pass", [])
         if isinstance(row, dict) and str(row.get("name") or "").strip()
     }
+
+    override_root = historical_overrides if isinstance(historical_overrides, dict) else {}
+    divine_override_map = override_root.get("divine_passes", {})
+    if not isinstance(divine_override_map, dict):
+        divine_override_map = {}
 
     out: List[Dict[str, Any]] = []
     for row in section.get("battle_pass", []):
@@ -1492,6 +1553,30 @@ def divine_passes(
             row.get("elite_extra_reward"),
             reward_by_id, dragons, skins, chests, localization, items,
         )
+
+        # Apply only explicitly documented historical corrections. The current
+        # config contains backfilled Elite fields on older Divine Passes, so an
+        # override can replace a known-wrong reward without rewriting the rest
+        # of the season data.
+        pass_override = divine_override_map.get(str(pass_id), {})
+        if isinstance(pass_override, dict):
+            elite_reward_override = pass_override.get("elite_extra_reward")
+            if isinstance(elite_reward_override, dict):
+                override_type = str(
+                    elite_reward_override.get("type")
+                    or elite_reward_override.get("kind")
+                    or ""
+                ).lower()
+                if override_type == "dragon_orbs":
+                    overridden_reward = historical_dragon_orbs_reward(
+                        elite_reward_override.get("dragon_id"),
+                        elite_reward_override.get("amount"),
+                        dragons,
+                        localization,
+                    )
+                    if overridden_reward:
+                        elite_extra = overridden_reward
+
         purchased_elite_extra = normalize_reward(
             row.get("purchased_elite_extra_reward"),
             reward_by_id, dragons, skins, chests, localization, items,
@@ -1755,9 +1840,12 @@ def progression_passes(
 def main() -> None:
     config = unwrap_config(load_json(CONFIG_PATH))
     localization = normalize_localization(load_json(LOCALIZATION_PATH))
+    historical_overrides = load_optional_json(PASS_HISTORY_OVERRIDES_PATH)
     dragons, skins, chests, items = support_indexes()
 
-    passes = divine_passes(config, localization, dragons, skins, chests, items)
+    passes = divine_passes(
+        config, localization, dragons, skins, chests, items, historical_overrides
+    )
     passes += progression_passes(config, localization, dragons)
 
     # No separate archive UI yet, but passes.json must preserve every pass
