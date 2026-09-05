@@ -101,6 +101,43 @@ def item_index(config: Dict[str, Any]) -> Dict[int, Dict[str, Any]]:
     return result
 
 
+HEROIC_RACE_GENERIC_ISLAND_URL = (
+    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/"
+    "main/items/buildings/0837_heroic_island_generic.png"
+)
+
+
+def building_image_url(event_type: str, building_id: int, items: Dict[int, Dict[str, Any]]) -> str:
+    """Resolve the background island/building artwork for an event card.
+
+    Heroic Race and Mythical Race events (event_type == "heroic_race") always
+    use the shared generic island artwork, since their actual in-game
+    buildings vary and don't have a single representative asset.
+
+    Otherwise: look up building_id in the items index, skip it if the match
+    is a DRAGON-type item (wrong id collision) rather than a building, and
+    read img_name_mobile to build the official static asset URL. Returns ""
+    if no usable image can be resolved (caller can fall back to nothing, or
+    a manual override can be supplied via event_overrides.json).
+    """
+    if event_type == "heroic_race":
+        return HEROIC_RACE_GENERIC_ISLAND_URL
+    if building_id <= 0:
+        return ""
+    item = items.get(building_id)
+    if not item:
+        return ""
+    if str(item.get("group_type", "")).strip().upper() == "DRAGON":
+        return ""
+    img_name = str(item.get("img_name_mobile") or "").strip()
+    if not img_name:
+        return ""
+    return (
+        "https://dci-static-s1.socialpointgames.com/static/dragoncity/"
+        f"mobile/ui/buildings/ui_{img_name}@2x.png"
+    )
+
+
 def timestamps(row: Dict[str, Any]) -> Tuple[int, int]:
     if "start_ts" in row or "end_ts" in row:
         return as_int(row.get("start_ts")), as_int(row.get("end_ts"))
@@ -392,6 +429,8 @@ def build_events(
                 variant = race_variant(row_label)
 
             title = make_title(event_type, row_label, row, items, localization)
+            if override.get("title"):
+                title = str(override.get("title"))
             featured = sort_featured(featured_dragon_ids(config, event_type, row), items, localization)
             event: Dict[str, Any] = {
                 "key": key,
@@ -415,6 +454,13 @@ def build_events(
 
             if row.get("building_id") is not None:
                 event["building_id"] = as_int(row.get("building_id"))
+
+            building_image = str(override.get("building_image_url") or "").strip()
+            if not building_image:
+                building_image = building_image_url(event_type, as_int(row.get("building_id")), items)
+            if building_image:
+                event["building_image"] = building_image
+
             if row.get("dragon_race_id") is not None:
                 event["featured_dragon_id"] = as_int(row.get("dragon_race_id"))
             if row.get("zip_file"):
