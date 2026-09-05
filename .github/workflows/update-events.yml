@@ -5,32 +5,16 @@ on:
     branches:
       - main
     paths:
-      - game_config.json
-      - side_events_config.json
+      - scripts/**
+      - overrides/**
       - localization/dragon_city_localization_baseline_en.json
-      - extract_events.py
-      - extract_event_collections.py
-      - extract_fog_island.py
-      - extract_grid_island.py
-      - extract_tower_island.py
-      - extract_maze_island.py
-      - extract_chests.py
-      - extract_alliance_chest.py
-      - extract_heroic_race.py
-      - extract_passes.py
       - legacy/heroic_races/**
-      - heroic_race_archive_overrides.json
-      - build_fog_assets.py
-      - extract_dragons.py
-      - extract_skins.py
-      - skin_image_overrides.json
-      - skill_description_overrides.json
-      - arena_config.json
-      - extract_arena_seasons.py
-      - arena_overrides.json
-      - event_overrides.json
       - .github/workflows/update-events.yml
   workflow_dispatch:
+    # Also run this manually (Actions tab -> Build DCIC data -> Run workflow)
+    # whenever game_config.json / arena_config.json / side_events_config.json
+    # change in the-void repo, since a push there can no longer trigger this
+    # workflow directly (different repo). See the raw-data checkout step below.
 
 permissions:
   contents: write
@@ -39,8 +23,30 @@ jobs:
   build-data:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout dcic-data
         uses: actions/checkout@v4
+
+      # ------------------------------------------------------------------
+      # Raw game-data captures (game_config.json, arena_config.json,
+      # side_events_config.json) now live in the private "the-void" repo.
+      # This checks it out as a sibling folder so RAW_DIR's default
+      # (REPO_ROOT.parent / "the-void") resolves correctly with zero
+      # extra configuration in the scripts themselves.
+      #
+      # SETUP NEEDED (one-time, before this step will work):
+      #   1. Create the "the-void" repo (private) and push game_config.json,
+      #      arena_config.json, side_events_config.json to it.
+      #   2. Create a fine-grained Personal Access Token with read-only
+      #      access to just that repo's contents.
+      #   3. In dcic-data -> Settings -> Secrets and variables -> Actions,
+      #      add it as a repository secret named THE_VOID_TOKEN.
+      # ------------------------------------------------------------------
+      - name: Checkout the-void (raw game-data captures)
+        uses: actions/checkout@v4
+        with:
+          repository: chaerulanwarreborn-star/the-void
+          token: ${{ secrets.THE_VOID_TOKEN }}
+          path: the-void
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -48,51 +54,51 @@ jobs:
           python-version: '3.12'
 
       - name: Build events.json
-        run: python extract_events.py
+        run: python scripts/extract_events.py
 
       - name: Build fog_island.json
-        run: python extract_fog_island.py
+        run: python scripts/extract_fog_island.py
 
       - name: Build Fog Island image cache
-        run: python build_fog_assets.py
+        run: python scripts/build_fog_assets.py
 
       - name: Build grid_island.json
-        run: python extract_grid_island.py
+        run: python scripts/extract_grid_island.py
 
       - name: Build tower_island.json
-        run: python extract_tower_island.py
+        run: python scripts/extract_tower_island.py
 
       - name: Build maze_island.json
-        run: python extract_maze_island.py
+        run: python scripts/extract_maze_island.py
 
       - name: Build heroic_race.json
-        run: python extract_heroic_race.py
+        run: python scripts/extract_heroic_race.py
 
       - name: Build dragons.json
-        run: python extract_dragons.py
+        run: python scripts/extract_dragons.py
 
       - name: Build skins.json
-        run: python extract_skins.py
+        run: python scripts/extract_skins.py
 
       - name: Build chests.json and chest detail shards
-        run: python extract_chests.py
+        run: python scripts/extract_chests.py
 
       - name: Build passes.json
-        run: python extract_passes.py
+        run: python scripts/extract_passes.py
 
       - name: Build event_collections.json
-        run: python extract_event_collections.py --localization localization/dragon_city_localization_baseline_en.json
+        run: python scripts/extract_event_collections.py
 
       - name: Build alliance_chest.json
-        run: python extract_alliance_chest.py --localization localization/dragon_city_localization_baseline_en.json
+        run: python scripts/extract_alliance_chest.py
 
       - name: Build arena_seasons.json
-        run: python extract_arena_seasons.py
+        run: python scripts/extract_arena_seasons.py
 
       - name: Commit generated data when changed
         shell: bash
         run: |
-          git add events.json event_collections.json fog_island.json fog_assets.json grid_island.json tower_island.json maze_island.json heroic_race.json dragons.json skins.json arena_seasons.json chests.json chest-details alliance_chest.json passes.json
+          git add dist/ chest-details
 
           if git diff --cached --quiet; then
             echo "Generated data is already up to date."

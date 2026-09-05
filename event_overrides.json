@@ -1,7 +1,0 @@
-{
-  "maze_island:320": {
-    "start_ts": 1787738400,
-    "end_ts": 1788429600,
-    "note": "game_config has availability 0/0 for Maze Island 320. Start was supplied from the current event schedule screenshot; end matches the timed child paths in game_config. Remove this override if you want strict config-only output."
-  }
-}
