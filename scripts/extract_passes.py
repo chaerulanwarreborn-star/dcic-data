@@ -1163,6 +1163,179 @@ def historical_dragon_orbs_reward(
     }
 
 
+
+def historical_rule_applies(pass_id: int, rule: Dict[str, Any]) -> bool:
+    """Return whether a historical reward rule applies to this Divine Pass."""
+    if not isinstance(rule, dict):
+        return False
+
+    explicit_ids = rule.get("pass_ids")
+    if isinstance(explicit_ids, list):
+        allowed = {as_int(value) for value in explicit_ids if as_int(value) > 0}
+        if pass_id not in allowed:
+            return False
+
+    from_pass_id = as_int(rule.get("from_pass_id"))
+    if from_pass_id > 0 and pass_id < from_pass_id:
+        return False
+
+    through_pass_id = as_int(rule.get("through_pass_id"))
+    if through_pass_id > 0 and pass_id > through_pass_id:
+        return False
+
+    excluded_ids = rule.get("exclude_pass_ids")
+    if isinstance(excluded_ids, list):
+        excluded = {as_int(value) for value in excluded_ids if as_int(value) > 0}
+        if pass_id in excluded:
+            return False
+
+    return True
+
+
+def historical_special_token_reward(
+    source_reward_id: int,
+    spec: Dict[str, Any],
+) -> Optional[Dict[str, Any]]:
+    """Build a normalized historical special-token reward."""
+    key = str(spec.get("key") or "").strip()
+    amount = as_int(spec.get("amount"))
+    if not key or amount <= 0:
+        return None
+
+    token, default_label = SPECIAL_TOKEN_MAP.get(key, (slug(key), humanize_key(key)))
+    name = str(spec.get("name") or default_label)
+    image = str(spec.get("image_url") or "").strip()
+    if not image:
+        image = DCIC_ICON_BASE + f"tokens/ic-token-{token}.png"
+
+    item = {
+        "kind": "resource",
+        "type": "special_token",
+        "resource": "special_token",
+        "key": key,
+        "name": name,
+        "amount": amount,
+        "token": token,
+        "image_url": image,
+        "image_candidates": [image] if image else [],
+    }
+    return {
+        "reward_id": source_reward_id,
+        "name": name,
+        "amount": amount,
+        "kind": "resource",
+        "image_url": image,
+        "popup": {},
+        "rarity": "",
+        "items": [item],
+        "raw": [{key: amount}],
+    }
+
+
+def historical_chest_reward(
+    source_reward_id: int,
+    spec: Dict[str, Any],
+    chests: Dict[int, Dict[str, Any]],
+) -> Optional[Dict[str, Any]]:
+    """Build a normalized historical Generic chest reward."""
+    chest_id = as_int(spec.get("chest_id"))
+    if chest_id <= 0:
+        return None
+
+    meta = chests.get(chest_id, {})
+    source_img_name = str(
+        spec.get("source_chest_img_name")
+        or meta.get("source_chest_img_name")
+        or meta.get("img_name")
+        or meta.get("image_name")
+        or ""
+    ).strip()
+
+    image_candidates: List[str] = []
+    if isinstance(spec.get("image_candidates"), list):
+        image_candidates.extend(
+            str(value) for value in spec.get("image_candidates", [])
+            if isinstance(value, str) and value
+        )
+    if isinstance(meta.get("image_candidates"), list):
+        image_candidates.extend(
+            str(value) for value in meta.get("image_candidates", [])
+            if isinstance(value, str) and value
+        )
+    image_candidates = list(dict.fromkeys(image_candidates))
+
+    image_url = str(spec.get("image_url") or "").strip() or first_image(meta)
+    name = str(
+        spec.get("name")
+        or meta.get("name")
+        or meta.get("title")
+        or f"Chest #{chest_id}"
+    )
+
+    item = {
+        "kind": "chest",
+        "type": "chest",
+        "asset_kind": "chest",
+        "id": chest_id,
+        "chest_id": chest_id,
+        "source_chest_id": chest_id,
+        "source_chest_img_name": source_img_name,
+        "img_name": source_img_name,
+        "chest_type": "generic",
+        "chest_key": str(meta.get("key") or f"generic:{chest_id}"),
+        "detail_file": str(meta.get("detail_file") or ""),
+        "name": name,
+        "amount": 1,
+        "image_url": image_url,
+        "image_candidates": image_candidates,
+        "popup": {"kind": "chest", "id": chest_id, "type": "generic"},
+    }
+    return {
+        "reward_id": source_reward_id,
+        "name": name,
+        "amount": 1,
+        "kind": "chest",
+        "image_url": image_url,
+        "popup": item["popup"],
+        "rarity": "",
+        "items": [item],
+        "raw": [{"chest": chest_id}],
+    }
+
+
+def apply_historical_reward_override(
+    pass_id: int,
+    reward: Optional[Dict[str, Any]],
+    historical_reward_rules: Dict[str, Any],
+    chests: Dict[int, Dict[str, Any]],
+) -> Optional[Dict[str, Any]]:
+    """Apply pass-aware corrections for reward IDs reused by newer configs."""
+    if not reward or not isinstance(historical_reward_rules, dict):
+        return reward
+
+    reward_id = as_int(reward.get("reward_id"))
+    if reward_id <= 0:
+        return reward
+
+    rule = historical_reward_rules.get(str(reward_id))
+    if not isinstance(rule, dict) or not historical_rule_applies(pass_id, rule):
+        return reward
+
+    spec = rule.get("replace_with")
+    if not isinstance(spec, dict):
+        return reward
+
+    replacement_type = str(spec.get("type") or spec.get("kind") or "").lower()
+    replacement: Optional[Dict[str, Any]] = None
+
+    if replacement_type in {"special_token", "resource"} and str(spec.get("key") or ""):
+        replacement = historical_special_token_reward(reward_id, spec)
+    elif replacement_type == "chest":
+        replacement = historical_chest_reward(reward_id, spec, chests)
+
+    return replacement or reward
+
+
 def reward_points(reward: Optional[Dict[str, Any]]) -> int:
     if not reward:
         return 0
@@ -1445,6 +1618,10 @@ def divine_passes(
     if not isinstance(divine_override_map, dict):
         divine_override_map = {}
 
+    historical_reward_rules = override_root.get("historical_reward_rules", {})
+    if not isinstance(historical_reward_rules, dict):
+        historical_reward_rules = {}
+
     out: List[Dict[str, Any]] = []
     for row in section.get("battle_pass", []):
         if not isinstance(row, dict):
@@ -1467,9 +1644,15 @@ def divine_passes(
                 node.get("premium_reward"),
                 reward_by_id, dragons, skins, chests, localization, items,
             )
+            premium = apply_historical_reward_override(
+                pass_id, premium, historical_reward_rules, chests,
+            )
             free = normalize_reward(
                 node.get("free_reward"),
                 reward_by_id, dragons, skins, chests, localization, items,
+            )
+            free = apply_historical_reward_override(
+                pass_id, free, historical_reward_rules, chests,
             )
             if premium:
                 premium_dragon_ids.extend(extract_egg_ids(premium.get("raw")))
