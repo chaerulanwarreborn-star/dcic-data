@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-06T11:44:40.040053Z",
+  "generated_at": "2026-09-07T10:05:20.916843Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 116,
+  "pass_count": 119,
   "divine_pass_count": 90,
-  "progression_pass_count": 26,
+  "progression_pass_count": 29,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -492970,6 +492970,93 @@
       }
     },
     {
+      "key": "progression_pass:321",
+      "id": 321,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1789034400,
+      "end_ts": 1789639140,
+      "start_iso": "2026-09-10T10:00:00Z",
+      "end_iso": "2026-09-17T09:59:00Z",
+      "details": "/p/progression-pass.html?id=321",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260910",
+      "featured_dragons": [
+        {
+          "id": 2292,
+          "name": "High Relentless Dragon",
+          "rarity": "H",
+          "img_name": "2292_dragon_highrelentless",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2292_dragon_highrelentless_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2292_dragon_highrelentless_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2292_dragon_highrelentless_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3014,
+          "name": "Koala Dragon",
+          "rarity": "M",
+          "img_name": "3014_dragon_koala",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3014_dragon_koala_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3014_dragon_koala_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3014_dragon_koala_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2146,
+          "name": "Whimsical Dragon",
+          "rarity": "M",
+          "img_name": "2146_dragon_whimsical",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2146_dragon_whimsical_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2146_dragon_whimsical_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2146_dragon_whimsical_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3116,
+          "name": "Overgrowth Dragon",
+          "rarity": "L",
+          "img_name": "3116_dragon_overgrowth",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3116_dragon_overgrowth_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3116_dragon_overgrowth_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3116_dragon_overgrowth_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3297,
+          "name": "Fearless Dragon",
+          "rarity": "L",
+          "img_name": "3297_dragon_fearless",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3297_dragon_fearless_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3297_dragon_fearless_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3297_dragon_fearless_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260910"
+      ],
+      "currency_id": "arena_pass_points.20260910",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
       "key": "progression_pass:320",
       "id": 320,
       "type": "progression_pass",
@@ -492994,6 +493081,132 @@
       "icon_remote": "/mobile/ui/economy_system/ic-racepass/$HDSD/ic-racepass.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-racepass/HD/ic-racepass.png",
       "hud_button_asset": "progression-hr-pass-hud"
+    },
+    {
+      "key": "progression_pass:317",
+      "id": 317,
+      "type": "progression_pass",
+      "variant": "tree_of_life_pass",
+      "type_label": "Progression Pass",
+      "title": "TREE OF LIFE PASS",
+      "subtitle": "",
+      "start_ts": 1789034400,
+      "end_ts": 1790244000,
+      "start_iso": "2026-09-10T10:00:00Z",
+      "end_iso": "2026-09-24T10:00:00Z",
+      "details": "/p/progression-pass.html?id=317",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "tree_of_life_pass.20260910",
+      "featured_dragons": [
+        {
+          "id": 3465,
+          "name": "Racing Drake Dragon",
+          "rarity": "M",
+          "img_name": "3465_dragon_racingdrake",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3465_dragon_racingdrake_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3465_dragon_racingdrake_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3465_dragon_racingdrake_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "currency_ids": [
+        "tree_of_life_pass_points.20260910"
+      ],
+      "currency_id": "tree_of_life_pass_points.20260910",
+      "visual_icon_id": "tree_of_life_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-summonpass-s1/$HDSD/ic-summonpass-s1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-summonpass-s1/HD/ic-summonpass-s1.png",
+      "hud_button_asset": "dmp-collectors_hunt-hud"
+    },
+    {
+      "key": "progression_pass:322",
+      "id": 322,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1789639200,
+      "end_ts": 1790243940,
+      "start_iso": "2026-09-17T10:00:00Z",
+      "end_iso": "2026-09-24T09:59:00Z",
+      "details": "/p/progression-pass.html?id=322",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260917",
+      "featured_dragons": [
+        {
+          "id": 2136,
+          "name": "High Eternal Dragon",
+          "rarity": "H",
+          "img_name": "2136_dragon_higheternal_fixed",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2136_dragon_higheternal_fixed_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2136_dragon_higheternal_fixed_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2136_dragon_higheternal_fixed_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2640,
+          "name": "Red Dragon",
+          "rarity": "M",
+          "img_name": "2640_dragon_red",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2640_dragon_red_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2234,
+          "name": "Chibi-Churl Dragon",
+          "rarity": "M",
+          "img_name": "2234_dragon_chibichurl",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2234_dragon_chibichurl_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2234_dragon_chibichurl_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2234_dragon_chibichurl_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2755,
+          "name": "Incendiary Dragon",
+          "rarity": "L",
+          "img_name": "2755_dragon_incendiary",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2755_dragon_incendiary_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2755_dragon_incendiary_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2755_dragon_incendiary_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2981,
+          "name": "Scoville Dragon",
+          "rarity": "L",
+          "img_name": "2981_dragon_scoville",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2981_dragon_scoville_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2981_dragon_scoville_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2981_dragon_scoville_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260917"
+      ],
+      "currency_id": "arena_pass_points.20260917",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
     }
   ]
 }
