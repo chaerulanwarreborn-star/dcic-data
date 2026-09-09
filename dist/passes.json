@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-09T10:09:14.467019Z",
+  "generated_at": "2026-09-09T11:31:15.790358Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 118,
+  "pass_count": 119,
   "divine_pass_count": 90,
-  "progression_pass_count": 28,
+  "progression_pass_count": 29,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -488271,7 +488271,7 @@
       "visual_icon_id": "temporary_sticker_set_pass_points.20260810",
       "icon_remote": "/mobile/ui/economy_system/ic-currency-groovefestpass/$HDSD/ic-currency-footballpass_c.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-groovefestpass/HD/ic-currency-footballpass_c.png",
-      "hud_button_asset": "liberationpass_hud"
+      "hud_button_asset": "viking_pass_hud"
     },
     {
       "key": "progression_pass:307",
@@ -493152,6 +493152,32 @@
       "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
       "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:324",
+      "id": 324,
+      "type": "progression_pass",
+      "variant": "temporary_sticker_set_pass",
+      "type_label": "Progression Pass",
+      "title": "Viking Set Pass",
+      "subtitle": "",
+      "start_ts": 1789984800,
+      "end_ts": 1790762340,
+      "start_iso": "2026-09-21T10:00:00Z",
+      "end_iso": "2026-09-30T09:59:00Z",
+      "details": "/p/progression-pass.html?id=324",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "temporary_sticker_set_pass.20260921",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "temporary_sticker_set_pass_points.20260921"
+      ],
+      "currency_id": "temporary_sticker_set_pass_points.20260921",
+      "visual_icon_id": "temporary_sticker_set_pass_points.20260921",
+      "icon_remote": "/mobile/ui/economy_system/ic-currency-clashofthenorthpass/$HDSD/ic-currency-clashofthenorthpass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-clashofthenorthpass/HD/ic-currency-clashofthenorthpass_c.png",
+      "hud_button_asset": "viking_pass_hud"
     }
   ]
 }

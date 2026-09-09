@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-09T10:08:54.412069Z",
+  "generated_at": "2026-09-09T11:30:47.558969Z",
   "source_file": "game_config.json",
   "event_count": 74,
   "events": [
@@ -2733,9 +2733,16 @@
           "rarity": "R",
           "img_name": "2026_dragon_verglas",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png"
+        },
+        {
+          "id": 1086,
+          "name": "Bat Dragon",
+          "rarity": "R",
+          "img_name": "1086_dragon_bat_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png"
         }
       ],
-      "featured_dragon_count": 5,
+      "featured_dragon_count": 6,
       "building_id": 10177,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10177_glacial_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/tower_islands/ti_norsegods_b.zip"

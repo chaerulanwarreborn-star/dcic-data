@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-09T10:09:06.410423Z",
+  "generated_at": "2026-09-09T11:31:05.594141Z",
   "source_file": "game_config.json",
   "localization_file": "the-void/localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -93180,7 +93180,7 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_12564_chest_runeaxe@2x.png",
             "localization_name_key": "tid_chest_12564_name",
             "localization_description_key": "tid_chest_12564_desc",
-            "tile_count": 8
+            "tile_count": 7
           },
           {
             "id": 16551,
@@ -93211,6 +93211,36 @@
             "localization_name_key": "tid_chest_name_petfood_s",
             "localization_description_key": "tid_chest_description_petfood_s",
             "tile_count": 2
+          },
+          {
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Legendary Treasure Key",
+            "description": "Contains Mythical and Legendary Treasure Keys.",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "localization_name_key": "tid_chest_name_l",
+            "localization_description_key": "tid_chest_desc_MnL_HRpass",
+            "tile_count": 6
+          },
+          {
+            "id": 3747,
+            "chest_id": 3747,
+            "source_chest_id": 3747,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Treasure Key",
+            "description": "Contains a Mythical Treasure Key.",
+            "img_name": "chest_gachakey_gold",
+            "source_chest_img_name": "chest_gachakey_gold",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "localization_name_key": "tid_chest_name_M_HRTower_paid",
+            "localization_description_key": "tid_chest_desc_M_HRTower_paid",
+            "tile_count": 1
           },
           {
             "id": 16552,
@@ -93393,6 +93423,21 @@
             "tile_count": 1
           },
           {
+            "id": 18127,
+            "chest_id": 18127,
+            "source_chest_id": 18127,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Mythical Treasure Key",
+            "description": "Contains a Mythical Treasure Key.",
+            "img_name": "chest_gachakey_gold",
+            "source_chest_img_name": "chest_gachakey_gold",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "localization_name_key": "tid_chest_name_M_HRTower_paid",
+            "localization_description_key": "tid_chest_desc_M_HRTower_paid",
+            "tile_count": 1
+          },
+          {
             "id": 16852,
             "chest_id": 16852,
             "source_chest_id": 16852,
@@ -93422,7 +93467,7 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6715_251_chest_gems@2x.png",
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
-            "tile_count": 11
+            "tile_count": 10
           },
           {
             "id": 9239,
@@ -94894,29 +94939,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 6704,
-              "chest_id": 6704,
-              "source_chest_id": 6704,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Bamboo Chest",
-              "img_name": "100_bamboo_chest",
-              "source_chest_img_name": "100_bamboo_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6704_100_bamboo_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6704,
-            "chest_id": 6704,
-            "source_chest_id": 6704,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Bamboo Chest",
-            "img_name": "100_bamboo_chest",
-            "source_chest_img_name": "100_bamboo_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6704_100_bamboo_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -94985,29 +95030,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 6705,
-              "chest_id": 6705,
-              "source_chest_id": 6705,
+              "id": 3747,
+              "chest_id": 3747,
+              "source_chest_id": 3747,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Wood Chest",
-              "img_name": "101_wood_chest",
-              "source_chest_img_name": "101_wood_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6705_101_wood_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Mythical Treasure Key",
+              "img_name": "chest_gachakey_gold",
+              "source_chest_img_name": "chest_gachakey_gold",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6705,
-            "chest_id": 6705,
-            "source_chest_id": 6705,
+            "id": 3747,
+            "chest_id": 3747,
+            "source_chest_id": 3747,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Wood Chest",
-            "img_name": "101_wood_chest",
-            "source_chest_img_name": "101_wood_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6705_101_wood_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Mythical Treasure Key",
+            "img_name": "chest_gachakey_gold",
+            "source_chest_img_name": "chest_gachakey_gold",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -95160,28 +95205,28 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 12564,
-              "chest_id": 12564,
-              "source_chest_id": 12564,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Rune Axe",
-              "img_name": "chest_runeaxe",
-              "source_chest_img_name": "chest_runeaxe",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_12564_chest_runeaxe@2x.png",
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
               "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 12564,
-            "chest_id": 12564,
-            "source_chest_id": 12564,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Rune Axe",
-            "img_name": "chest_runeaxe",
-            "source_chest_img_name": "chest_runeaxe",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_12564_chest_runeaxe@2x.png",
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
             "summary_classification": "event_item"
           }
         },
@@ -97018,29 +97063,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 6705,
-              "chest_id": 6705,
-              "source_chest_id": 6705,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Wood Chest",
-              "img_name": "101_wood_chest",
-              "source_chest_img_name": "101_wood_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6705_101_wood_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6705,
-            "chest_id": 6705,
-            "source_chest_id": 6705,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Wood Chest",
-            "img_name": "101_wood_chest",
-            "source_chest_img_name": "101_wood_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6705_101_wood_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -98209,29 +98254,29 @@
           "wall": "V",
           "rewards": [
             {
-              "id": 6715,
-              "chest_id": 6715,
-              "source_chest_id": 6715,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Diamond Chest",
-              "img_name": "251_chest_gems",
-              "source_chest_img_name": "251_chest_gems",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6715_251_chest_gems@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6715,
-            "chest_id": 6715,
-            "source_chest_id": 6715,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Diamond Chest",
-            "img_name": "251_chest_gems",
-            "source_chest_img_name": "251_chest_gems",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6715_251_chest_gems@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -100463,29 +100508,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 6707,
-              "chest_id": 6707,
-              "source_chest_id": 6707,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Silver Chest",
-              "img_name": "103_silver_chest",
-              "source_chest_img_name": "103_silver_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6707_103_silver_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6707,
-            "chest_id": 6707,
-            "source_chest_id": 6707,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Silver Chest",
-            "img_name": "103_silver_chest",
-            "source_chest_img_name": "103_silver_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6707_103_silver_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -101274,29 +101319,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 6708,
-              "chest_id": 6708,
-              "source_chest_id": 6708,
+              "id": 19741,
+              "chest_id": 19741,
+              "source_chest_id": 19741,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Gold Chest",
-              "img_name": "104_gold_chest",
-              "source_chest_img_name": "104_gold_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Legendary Treasure Key",
+              "img_name": "chest_gachakey_silver",
+              "source_chest_img_name": "chest_gachakey_silver",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6708,
-            "chest_id": 6708,
-            "source_chest_id": 6708,
+            "id": 19741,
+            "chest_id": 19741,
+            "source_chest_id": 19741,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Gold Chest",
-            "img_name": "104_gold_chest",
-            "source_chest_img_name": "104_gold_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Legendary Treasure Key",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
@@ -102199,29 +102244,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 6708,
-              "chest_id": 6708,
-              "source_chest_id": 6708,
+              "id": 18127,
+              "chest_id": 18127,
+              "source_chest_id": 18127,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Gold Chest",
-              "img_name": "104_gold_chest",
-              "source_chest_img_name": "104_gold_chest",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
-              "summary_classification": "excluded_generic_chest"
+              "name": "Mythical Treasure Key",
+              "img_name": "chest_gachakey_gold",
+              "source_chest_img_name": "chest_gachakey_gold",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+              "summary_classification": "event_item"
             }
           ],
           "reward": {
-            "id": 6708,
-            "chest_id": 6708,
-            "source_chest_id": 6708,
+            "id": 18127,
+            "chest_id": 18127,
+            "source_chest_id": 18127,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Gold Chest",
-            "img_name": "104_gold_chest",
-            "source_chest_img_name": "104_gold_chest",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
-            "summary_classification": "excluded_generic_chest"
+            "name": "Mythical Treasure Key",
+            "img_name": "chest_gachakey_gold",
+            "source_chest_img_name": "chest_gachakey_gold",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "summary_classification": "event_item"
           }
         },
         {
