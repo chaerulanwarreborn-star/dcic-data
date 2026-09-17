@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-16T09:31:15.727088Z",
+  "generated_at": "2026-09-17T10:12:37.521256Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 122,
+  "pass_count": 126,
   "divine_pass_count": 91,
-  "progression_pass_count": 31,
+  "progression_pass_count": 35,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -499359,6 +499359,297 @@
       "icon_remote": "/mobile/ui/economy_system/ic-currency-clashofthenorthpass/$HDSD/ic-currency-clashofthenorthpass_c.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-clashofthenorthpass/HD/ic-currency-clashofthenorthpass_c.png",
       "hud_button_asset": "viking_pass_hud"
+    },
+    {
+      "key": "progression_pass:325",
+      "id": 325,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1790244000,
+      "end_ts": 1790848740,
+      "start_iso": "2026-09-24T10:00:00Z",
+      "end_iso": "2026-10-01T09:59:00Z",
+      "details": "/p/progression-pass.html?id=325",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20260924",
+      "featured_dragons": [
+        {
+          "id": 3087,
+          "name": "High Seismic Dragon",
+          "rarity": "H",
+          "img_name": "3087_dragon_highseismic",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3087_dragon_highseismic_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3087_dragon_highseismic_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3087_dragon_highseismic_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2924,
+          "name": "Chaos Reign Dragon",
+          "rarity": "M",
+          "img_name": "2924_dragon_chaosreign",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2924_dragon_chaosreign_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2924_dragon_chaosreign_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2924_dragon_chaosreign_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3215,
+          "name": "Stargazer Dragon",
+          "rarity": "M",
+          "img_name": "3215_dragon_stargazer",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3215_dragon_stargazer_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3215_dragon_stargazer_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3215_dragon_stargazer_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3347,
+          "name": "Kukulkan Dragon",
+          "rarity": "L",
+          "img_name": "3347_dragon_kukulkan",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3347_dragon_kukulkan_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3347_dragon_kukulkan_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3347_dragon_kukulkan_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3363,
+          "name": "Forest Tyrant Dragon",
+          "rarity": "L",
+          "img_name": "3363_dragon_foresttyrant",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3363_dragon_foresttyrant_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3363_dragon_foresttyrant_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3363_dragon_foresttyrant_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20260924"
+      ],
+      "currency_id": "arena_pass_points.20260924",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:323",
+      "id": 323,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1790848800,
+      "end_ts": 1791453540,
+      "start_iso": "2026-10-01T10:00:00Z",
+      "end_iso": "2026-10-08T09:59:00Z",
+      "details": "/p/progression-pass.html?id=323",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20261001",
+      "featured_dragons": [
+        {
+          "id": 3232,
+          "name": "High Hallows Dragon",
+          "rarity": "H",
+          "img_name": "3232_dragon_highhallows",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3232_dragon_highhallows_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3232_dragon_highhallows_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3232_dragon_highhallows_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2562,
+          "name": "Osiris God Dragon",
+          "rarity": "M",
+          "img_name": "2562_dragon_osirisgod",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2562_dragon_osirisgod_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3234,
+          "name": "Haunted Professor Dragon",
+          "rarity": "M",
+          "img_name": "3234_dragon_hauntedprofessor",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3234_dragon_hauntedprofessor_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3234_dragon_hauntedprofessor_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3234_dragon_hauntedprofessor_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3250,
+          "name": "Unknown Dragon",
+          "rarity": "L",
+          "img_name": "3250_dragon_unknown",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3250_dragon_unknown_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3250_dragon_unknown_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3250_dragon_unknown_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3206,
+          "name": "Ecosystem Dragon",
+          "rarity": "L",
+          "img_name": "3206_dragon_ecosystem",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3206_dragon_ecosystem_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3206_dragon_ecosystem_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3206_dragon_ecosystem_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20261001"
+      ],
+      "currency_id": "arena_pass_points.20261001",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:326",
+      "id": 326,
+      "type": "progression_pass",
+      "variant": "arena_pass",
+      "type_label": "Progression Pass",
+      "title": "ARENA PASS",
+      "subtitle": "",
+      "start_ts": 1791453600,
+      "end_ts": 1792058340,
+      "start_iso": "2026-10-08T10:00:00Z",
+      "end_iso": "2026-10-15T09:59:00Z",
+      "details": "/p/progression-pass.html?id=326",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "arena_pass.20261008",
+      "featured_dragons": [
+        {
+          "id": 2932,
+          "name": "High Treasure Dragon",
+          "rarity": "H",
+          "img_name": "2932_dragon_hightreasure",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 3218,
+          "name": "Reanimation Dragon",
+          "rarity": "M",
+          "img_name": "3218_dragon_reanimation",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png"
+          ],
+          "path": "platinum"
+        },
+        {
+          "id": 2875,
+          "name": "Jewelem Dragon",
+          "rarity": "M",
+          "img_name": "2875_dragon_jewelem",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2875_dragon_jewelem_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 2966,
+          "name": "Evozoid Dragon",
+          "rarity": "L",
+          "img_name": "2966_dragon_evozoid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2966_dragon_evozoid_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png"
+          ],
+          "path": "golden"
+        },
+        {
+          "id": 3032,
+          "name": "Puebla Dragon",
+          "rarity": "L",
+          "img_name": "3032_dragon_puebla",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3032_dragon_puebla_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png"
+          ],
+          "path": "golden"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "currency_ids": [
+        "arena_pass_points.20261008"
+      ],
+      "currency_id": "arena_pass_points.20261008",
+      "visual_icon_id": "arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
+      "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:328",
+      "id": 328,
+      "type": "progression_pass",
+      "variant": "master_arena_pass",
+      "type_label": "Progression Pass",
+      "title": "LEGENDS PASS",
+      "subtitle": "",
+      "start_ts": 1791453600,
+      "end_ts": 1792058400,
+      "start_iso": "2026-10-08T10:00:00Z",
+      "end_iso": "2026-10-15T10:00:00Z",
+      "details": "/p/progression-pass.html?id=328",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "master_arena_pass.20261008_seg81",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "master_arena_pass_points.20261008_seg81"
+      ],
+      "currency_id": "master_arena_pass_points.20261008_seg81",
+      "visual_icon_id": "master_arena_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_master_arenas_pass/$HDSD/ic_iap_pass_currency_master_arenas_pass_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_master_arenas_pass/HD/ic_iap_pass_currency_master_arenas_pass_c.png",
+      "hud_button_asset": "currency-arena-pass",
+      "player_segment_ids": [
+        81
+      ],
+      "player_segmentation_type": "dynamic"
     }
   ]
 }
