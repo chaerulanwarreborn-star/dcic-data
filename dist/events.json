@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-16T13:31:01.129304Z",
+  "generated_at": "2026-09-17T10:12:09.684219Z",
   "source_file": "game_config.json",
-  "event_count": 73,
+  "event_count": 74,
   "events": [
     {
       "key": "event_island:1",
@@ -2799,10 +2799,68 @@
       "building_id": 453,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0453_ragnarok_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_divination_mapbg_ragnarok_island.zip"
+    },
+    {
+      "key": "tower_island:322",
+      "id": 322,
+      "type": "tower_island",
+      "variant": "tower_island",
+      "type_label": "Tower Island",
+      "title": "Energysource Tower Island",
+      "subtitle": "",
+      "start_ts": 1789984800,
+      "end_ts": 1790244000,
+      "start_iso": "2026-09-21T10:00:00Z",
+      "end_iso": "2026-09-24T10:00:00Z",
+      "guide": "/p/tower-island-guide.html?id=322",
+      "schedule_source": "game_config",
+      "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 3186,
+          "name": "Geckobolt Dragon",
+          "rarity": "L",
+          "img_name": "3186_dragon_geckobolt",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png"
+        },
+        {
+          "id": 2707,
+          "name": "Exploranaut Dragon",
+          "rarity": "L",
+          "img_name": "2707_dragon_exploranaut",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2707_dragon_exploranaut_3.png"
+        },
+        {
+          "id": 2564,
+          "name": "Forest Servant Dragon (M)",
+          "rarity": "E",
+          "img_name": "2564_dragon_kingforestservant",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png"
+        },
+        {
+          "id": 1425,
+          "name": "AirBoss Dragon",
+          "rarity": "V",
+          "img_name": "1425_dragon_airboss",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png"
+        },
+        {
+          "id": 1161,
+          "name": "Luminescent Dragon",
+          "rarity": "R",
+          "img_name": "1161_dragon_luminiscent_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 864,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0864_weathermachine_island_c@2x.png",
+      "asset_zip": "/mobile/ui/tower_islands/ti_energysource.zip"
     }
   ],
   "warnings": [
     "Skipped maze_island:317: incomplete schedule start=0, end=0. Child paths indicate end_ts=1787565359 (2026-08-24T09:55:59Z), but start is missing.",
+    "Skipped maze_island:322: incomplete schedule start=0, end=0. Child paths indicate end_ts=1791194399 (2026-10-05T09:59:59Z), but start is missing.",
     "Skipped event_island:37: incomplete schedule start=0, end=1.",
     "Skipped event_island:38: incomplete schedule start=0, end=1.",
     "Skipped event_island:39: incomplete schedule start=0, end=1.",
