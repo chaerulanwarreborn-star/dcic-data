@@ -1,6 +1,6 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-17T10:12:37.521256Z",
+  "generated_at": "2026-09-18T10:02:10.010731Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
@@ -467069,56 +467069,8 @@
               }
             ]
           },
-          "purchased_elite_extra_reward": {
-            "reward_id": 19,
-            "name": "Prestige Points",
-            "amount": 2400,
-            "kind": "resource",
-            "image_url": "",
-            "popup": {},
-            "rarity": "",
-            "items": [
-              {
-                "kind": "resource",
-                "type": "resource",
-                "resource": "resource",
-                "key": "prestige_points",
-                "name": "Prestige Points",
-                "amount": 2400,
-                "image_url": ""
-              }
-            ],
-            "raw": [
-              {
-                "prestige_points": 2400
-              }
-            ]
-          },
-          "purchased_premium_extra_reward": {
-            "reward_id": 18,
-            "name": "Prestige Points",
-            "amount": 800,
-            "kind": "resource",
-            "image_url": "",
-            "popup": {},
-            "rarity": "",
-            "items": [
-              {
-                "kind": "resource",
-                "type": "resource",
-                "resource": "resource",
-                "key": "prestige_points",
-                "name": "Prestige Points",
-                "amount": 800,
-                "image_url": ""
-              }
-            ],
-            "raw": [
-              {
-                "prestige_points": 800
-              }
-            ]
-          },
+          "purchased_elite_extra_reward": null,
+          "purchased_premium_extra_reward": null,
           "booster_parameters": {
             "ELITE_COIN_COLLECT_BONUS_MULT": 200000,
             "ELITE_COIN_COLLECT_BONUS_CHANCE": 1,
@@ -477159,56 +477111,8 @@
               }
             ]
           },
-          "purchased_elite_extra_reward": {
-            "reward_id": 19,
-            "name": "Prestige Points",
-            "amount": 2400,
-            "kind": "resource",
-            "image_url": "",
-            "popup": {},
-            "rarity": "",
-            "items": [
-              {
-                "kind": "resource",
-                "type": "resource",
-                "resource": "resource",
-                "key": "prestige_points",
-                "name": "Prestige Points",
-                "amount": 2400,
-                "image_url": ""
-              }
-            ],
-            "raw": [
-              {
-                "prestige_points": 2400
-              }
-            ]
-          },
-          "purchased_premium_extra_reward": {
-            "reward_id": 18,
-            "name": "Prestige Points",
-            "amount": 800,
-            "kind": "resource",
-            "image_url": "",
-            "popup": {},
-            "rarity": "",
-            "items": [
-              {
-                "kind": "resource",
-                "type": "resource",
-                "resource": "resource",
-                "key": "prestige_points",
-                "name": "Prestige Points",
-                "amount": 800,
-                "image_url": ""
-              }
-            ],
-            "raw": [
-              {
-                "prestige_points": 800
-              }
-            ]
-          },
+          "purchased_elite_extra_reward": null,
+          "purchased_premium_extra_reward": null,
           "booster_parameters": {
             "ELITE_COIN_COLLECT_BONUS_MULT": 200000,
             "ELITE_COIN_COLLECT_BONUS_CHANCE": 1,
