@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-19T06:12:47.738457Z",
+  "generated_at": "2026-09-19T16:23:21.408846Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 126,
+  "pass_count": 125,
   "divine_pass_count": 91,
-  "progression_pass_count": 35,
+  "progression_pass_count": 34,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -492999,61 +492999,6 @@
       "icon_remote": "/mobile/ui/economy_system/ic-summonpass-s1/$HDSD/ic-summonpass-s1.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-summonpass-s1/HD/ic-summonpass-s1.png",
       "hud_button_asset": "dmp-collectors_hunt-hud"
-    },
-    {
-      "key": "progression_pass:280",
-      "id": 280,
-      "type": "progression_pass",
-      "variant": "react_pass",
-      "type_label": "Progression Pass",
-      "title": "WELCOME BACK PASS",
-      "subtitle": "",
-      "start_ts": 1789206180,
-      "end_ts": 1789810980,
-      "start_iso": "2026-09-12T09:43:00Z",
-      "end_iso": "2026-09-19T09:43:00Z",
-      "details": "/p/progression-pass.html?id=280",
-      "source_section": "progression_milestones.progression_milestones",
-      "unlock_system_availability": "react_pass.20260616_seg50",
-      "featured_dragons": [
-        {
-          "id": 3109,
-          "name": "High Redemption Norn Dragon",
-          "rarity": "H",
-          "img_name": "3109_dragon_highredemptionnorn",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3109_dragon_highredemptionnorn_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3109_dragon_highredemptionnorn_1@2x.png",
-          "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3109_dragon_highredemptionnorn_1@2x.png"
-          ],
-          "path": "golden"
-        },
-        {
-          "id": 2843,
-          "name": "Truthbender Dragon",
-          "rarity": "L",
-          "img_name": "2843_dragon_truthbender",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2843_dragon_truthbender_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2843_dragon_truthbender_1@2x.png",
-          "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2843_dragon_truthbender_1@2x.png"
-          ],
-          "path": "free"
-        }
-      ],
-      "featured_dragon_count": 2,
-      "currency_ids": [
-        "react_pass_points.20260616_seg50"
-      ],
-      "currency_id": "react_pass_points.20260616_seg50",
-      "visual_icon_id": "react_pass_points.*",
-      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/$HDSD/ic_iap_pass_currency_flower_bouquet_c.png",
-      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_flower_bouquet/HD/ic_iap_pass_currency_flower_bouquet_c.png",
-      "hud_button_asset": "react-pass-hud",
-      "player_segment_ids": [
-        50
-      ],
-      "player_segmentation_type": "dynamic"
     },
     {
       "key": "progression_pass:322",
