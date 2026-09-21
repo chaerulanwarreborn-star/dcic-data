@@ -1,12 +1,12 @@
 {
   "schema_version": 5,
-  "generated_at": "2026-09-21T10:05:45.358981Z",
+  "generated_at": "2026-09-21T10:56:55.170146Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "config_scope": "all_passes_present_in_side_events_config",
-  "pass_count": 126,
+  "pass_count": 127,
   "divine_pass_count": 91,
-  "progression_pass_count": 35,
+  "progression_pass_count": 36,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -499421,6 +499421,32 @@
       "icon_remote": "/mobile/ui/economy_system/ic-arenapass/$HDSD/ic-arenapass.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-arenapass/HD/ic-arenapass.png",
       "hud_button_asset": "currency-arena-pass"
+    },
+    {
+      "key": "progression_pass:330",
+      "id": 330,
+      "type": "progression_pass",
+      "variant": "pet_food_pass",
+      "type_label": "Progression Pass",
+      "title": "PET PASS",
+      "subtitle": "",
+      "start_ts": 1790848800,
+      "end_ts": 1792058340,
+      "start_iso": "2026-10-01T10:00:00Z",
+      "end_iso": "2026-10-15T09:59:00Z",
+      "details": "/p/progression-pass.html?id=330",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "pet_food_pass.20261001",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "currency_ids": [
+        "pet_food_pass_points.20261001"
+      ],
+      "currency_id": "pet_food_pass_points.20261001",
+      "visual_icon_id": "pet_food_pass_points.20261001",
+      "icon_remote": "/mobile/ui/economy_system/ic_petspass_currency/$HDSD/ic_petspass_currency_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_petspass_currency/HD/ic_petspass_currency_c.png",
+      "hud_button_asset": "currency-pets-pass-fix"
     },
     {
       "key": "progression_pass:326",
