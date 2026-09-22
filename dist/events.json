@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-20T08:45:26.515751Z",
+  "generated_at": "2026-09-22T10:36:44.471544Z",
   "source_file": "game_config.json",
-  "event_count": 76,
+  "event_count": 77,
   "events": [
     {
       "key": "event_island:1",
@@ -3095,6 +3095,57 @@
       "building_id": 11606,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_11606_academytrials_island@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_dragon_academy.zip"
+    },
+    {
+      "key": "heroic_race:320",
+      "id": 320,
+      "type": "heroic_race",
+      "variant": "mythical_race",
+      "type_label": "Mythical Race",
+      "title": "Porpoise Mythical Race",
+      "subtitle": "",
+      "start_ts": 1790848800,
+      "end_ts": 1791799140,
+      "start_iso": "2026-10-01T10:00:00Z",
+      "end_iso": "2026-10-12T09:59:00Z",
+      "guide": "/p/heroic-race-guide.html?id=320",
+      "schedule_source": "game_config",
+      "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 3008,
+          "name": "Porpoise Dragon",
+          "rarity": "M",
+          "img_name": "3008_dragon_porpoise",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3008_dragon_porpoise_3.png"
+        },
+        {
+          "id": 3019,
+          "name": "Eggsile Dragon",
+          "rarity": "L",
+          "img_name": "3019_dragon_eggsile",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3019_dragon_eggsile_3.png"
+        },
+        {
+          "id": 2550,
+          "name": "Magmatricity Dragon",
+          "rarity": "L",
+          "img_name": "2550_dragon_magmatricity",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2550_dragon_magmatricity_3.png"
+        },
+        {
+          "id": 2160,
+          "name": "Zephyrus Dragon",
+          "rarity": "E",
+          "img_name": "2160_dragon_zephyrus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2160_dragon_zephyrus_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
+      "building_id": 11088,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
+      "featured_dragon_id": 3008,
+      "asset_zip": "/mobile/ui/heroicraces_islands/mr_109_mythical_porpoise.zip"
     }
   ],
   "warnings": [
