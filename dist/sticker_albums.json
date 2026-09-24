@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T07:19:12Z",
+  "generated_at": "2026-09-24T08:44:11Z",
   "album_count": 4,
   "set_count": 41,
   "sticker_count": 417,
@@ -114,16 +114,22 @@
             {
               "kind": "perk",
               "id": 3,
-              "name": "Perk 3",
+              "name": "Damage Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             },
             {
               "kind": "perk",
               "id": 2,
-              "name": "Perk 2",
+              "name": "Health Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             }
           ],
           "stickers": [
@@ -504,9 +510,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "trade_essence",
@@ -884,9 +893,12 @@
             {
               "kind": "perk",
               "id": 5,
-              "name": "Perk 5",
+              "name": "Reaper Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-reaper-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "joker_orbs",
@@ -1093,16 +1105,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -1307,9 +1325,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -1716,16 +1737,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -2357,9 +2384,12 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "chest",
@@ -2583,16 +2613,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -2856,16 +2892,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -3372,16 +3414,22 @@
             {
               "kind": "perk",
               "id": 3,
-              "name": "Perk 3",
+              "name": "Damage Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             },
             {
               "kind": "perk",
               "id": 2,
-              "name": "Perk 2",
+              "name": "Health Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             }
           ],
           "stickers": [
@@ -3517,16 +3565,22 @@
             {
               "kind": "perk",
               "id": 3,
-              "name": "Perk 3",
+              "name": "Damage Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             },
             {
               "kind": "perk",
               "id": 2,
-              "name": "Perk 2",
+              "name": "Health Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             }
           ],
           "stickers": [
@@ -3907,9 +3961,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "trade_essence",
@@ -4287,9 +4344,12 @@
             {
               "kind": "perk",
               "id": 5,
-              "name": "Perk 5",
+              "name": "Reaper Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-reaper-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "joker_orbs",
@@ -4496,16 +4556,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -4710,9 +4776,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -5119,16 +5188,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -5760,9 +5835,12 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "chest",
@@ -5956,7 +6034,7 @@
               "kind": "resource",
               "type": "currency",
               "key": "album14.sticker.140002",
-              "name": "album14.sticker.140002",
+              "name": "April Showers Dragon",
               "amount": 1,
               "image_url": ""
             }
@@ -6198,7 +6276,7 @@
               "kind": "resource",
               "type": "currency",
               "key": "album14.sticker.140003",
-              "name": "album14.sticker.140003",
+              "name": "High Risen Nature Dragon",
               "amount": 1,
               "image_url": ""
             }
@@ -6432,16 +6510,22 @@
             {
               "kind": "perk",
               "id": 3,
-              "name": "Perk 3",
+              "name": "Damage Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             },
             {
               "kind": "perk",
               "id": 2,
-              "name": "Perk 2",
+              "name": "Health Perk",
               "amount": 5,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
             }
           ],
           "stickers": [
@@ -6882,9 +6966,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "trade_essence",
@@ -7341,9 +7428,12 @@
             {
               "kind": "perk",
               "id": 5,
-              "name": "Perk 5",
+              "name": "Reaper Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-reaper-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -7561,16 +7651,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 2,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -7805,9 +7901,12 @@
             {
               "kind": "perk",
               "id": 4,
-              "name": "Perk 4",
+              "name": "Phoenix Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -8274,16 +8373,22 @@
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 4,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -9005,9 +9110,12 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "chest",
@@ -9261,16 +9369,22 @@
             {
               "kind": "perk",
               "id": 8,
-              "name": "Perk 8",
+              "name": "Advanced Damage Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             },
             {
               "kind": "perk",
               "id": 7,
-              "name": "Perk 7",
+              "name": "Advanced Health Perk",
               "amount": 3,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/perks/ic-combat-perk.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
             }
           ],
           "stickers": [
@@ -9701,9 +9815,13 @@
     {
       "id": 1,
       "size": "s",
+      "economy_system_id": "album_pack.s",
+      "aliases": [
+        "pack"
+      ],
       "name": "Small",
       "stickers_amount": 3,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_s/HD/ic_stickers_pack_s.png",
       "possible_rewards_1": {
         "total_rewards": 78,
         "rewards_drawn": 1,
@@ -15809,9 +15927,13 @@
     {
       "id": 2,
       "size": "m",
+      "economy_system_id": "album_pack.m",
+      "aliases": [
+        "pack"
+      ],
       "name": "Medium",
       "stickers_amount": 4,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_m_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
       "possible_rewards_1": {
         "total_rewards": 66,
         "rewards_drawn": 1,
@@ -21725,9 +21847,13 @@
     {
       "id": 3,
       "size": "l",
+      "economy_system_id": "album_pack.l",
+      "aliases": [
+        "pack"
+      ],
       "name": "Large",
       "stickers_amount": 5,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_l_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_l/HD/ic_stickers_pack_l.png",
       "possible_rewards_1": {
         "total_rewards": 48,
         "rewards_drawn": 1,
@@ -27353,9 +27479,14 @@
     {
       "id": 4,
       "size": "xl",
+      "economy_system_id": "album_pack.xl",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Extra Large",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_xl_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_xl/HD/ic_stickers_pack_xl.png",
       "possible_rewards_1": {
         "total_rewards": 30,
         "rewards_drawn": 1,
@@ -32693,9 +32824,14 @@
     {
       "id": 9,
       "size": "ace_x5",
+      "economy_system_id": "album_pack_aces.5",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Shiny XXL",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_5_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_5/HD/ic_stickers_pack_ace_5.png",
       "possible_rewards_1": {
         "total_rewards": 12,
         "rewards_drawn": 1,
@@ -37745,9 +37881,14 @@
     {
       "id": 5,
       "size": "ace_x1",
+      "economy_system_id": "album_pack_aces.1",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Shiny Small",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_1_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_1/HD/ic_stickers_pack_ace_1.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -42829,9 +42970,14 @@
     {
       "id": 6,
       "size": "ace_x2",
+      "economy_system_id": "album_pack_aces.2",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Shiny Medium",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_2_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_2/HD/ic_stickers_pack_ace_2.png",
       "possible_rewards_1": {
         "total_rewards": 12,
         "rewards_drawn": 1,
@@ -47881,9 +48027,14 @@
     {
       "id": 7,
       "size": "ace_x3",
+      "economy_system_id": "album_pack_aces.3",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Shiny Large",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_3_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_3/HD/ic_stickers_pack_ace_3.png",
       "possible_rewards_1": {
         "total_rewards": 12,
         "rewards_drawn": 1,
@@ -52933,9 +53084,14 @@
     {
       "id": 8,
       "size": "ace_x4",
+      "economy_system_id": "album_pack_aces.4",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Shiny Extra Large",
       "stickers_amount": 6,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_4_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_4/HD/ic_stickers_pack_ace_4.png",
       "possible_rewards_1": {
         "total_rewards": 12,
         "rewards_drawn": 1,
@@ -57985,9 +58141,13 @@
     {
       "id": 10,
       "size": "m",
+      "economy_system_id": "album_pack_tutorial.tutorial",
+      "aliases": [
+        "pack"
+      ],
       "name": "M Sticker Pack",
       "stickers_amount": 3,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_m_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
       "possible_rewards_1": {
         "total_rewards": 66,
         "rewards_drawn": 1,
@@ -63901,9 +64061,13 @@
     {
       "id": 11,
       "size": "m",
+      "economy_system_id": "album_pack_tutorial.tutorial",
+      "aliases": [
+        "pack"
+      ],
       "name": "M Sticker Pack",
       "stickers_amount": 3,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_m_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
       "possible_rewards_1": {
         "total_rewards": 66,
         "rewards_drawn": 1,
@@ -69817,9 +69981,14 @@
     {
       "id": 12,
       "size": "ace_no-rarity",
+      "economy_system_id": "album_pack_aces.generic",
+      "aliases": [
+        "pack",
+        "premium"
+      ],
       "name": "Random Shiny",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_generic/HD/ic_stickers_pack_ace_generic.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 0,
@@ -70875,9 +71044,13 @@
     {
       "id": 13,
       "size": "temp",
+      "economy_system_id": "album_pack.temp",
+      "aliases": [
+        "pack"
+      ],
       "name": "temp album pack tech test",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -70911,9 +71084,13 @@
     {
       "id": 14,
       "size": "s",
+      "economy_system_id": "album_pack.s",
+      "aliases": [
+        "pack"
+      ],
       "name": "Small",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_s/HD/ic_stickers_pack_s.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 0,
@@ -75761,9 +75938,13 @@
     {
       "id": 15,
       "size": "blackfriday",
+      "economy_system_id": "album_pack.black_friday",
+      "aliases": [
+        "pack"
+      ],
       "name": "Featured Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryblackfriday_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryblackfriday/HD/ic_stickers_pack_temporaryblackfriday.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -75797,9 +75978,13 @@
     {
       "id": 16,
       "size": "newyear",
+      "economy_system_id": "album_pack.newyear",
+      "aliases": [
+        "pack"
+      ],
       "name": "Featured Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporarynewyear_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporarynewyear/HD/ic_stickers_pack_temporarynewyear.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -75833,9 +76018,13 @@
     {
       "id": 17,
       "size": "temp",
+      "economy_system_id": "album_pack.plasma",
+      "aliases": [
+        "pack"
+      ],
       "name": "Temp Sticker Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -75869,9 +76058,13 @@
     {
       "id": 18,
       "size": "saintvalentine",
+      "economy_system_id": "album_pack.valentine",
+      "aliases": [
+        "pack"
+      ],
       "name": "Saintvalentine Sticker Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_saintvalentine_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_saintvalentine/HD/ic_stickers_pack_saintvalentine.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -75905,9 +76098,13 @@
     {
       "id": 19,
       "size": "temp",
+      "economy_system_id": "album_pack.offseason",
+      "aliases": [
+        "pack"
+      ],
       "name": "Featured Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -76393,9 +76590,13 @@
     {
       "id": 20,
       "size": "plungersprize",
+      "economy_system_id": "album_pack.plunger",
+      "aliases": [
+        "pack"
+      ],
       "name": "Featured Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_plungersprize_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_plungersprize/HD/ic_stickers_pack_plungersprize.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -76429,9 +76630,13 @@
     {
       "id": 21,
       "size": "temp",
+      "economy_system_id": "album_pack.offseason_floppy",
+      "aliases": [
+        "pack"
+      ],
       "name": "Lazy Days",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -76917,9 +77122,13 @@
     {
       "id": 22,
       "size": "temp",
+      "economy_system_id": "album_pack.offseason_cinco",
+      "aliases": [
+        "pack"
+      ],
       "name": "Cinco De Mayo",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -77405,9 +77614,13 @@
     {
       "id": 23,
       "size": "anniversary14",
+      "economy_system_id": "album_pack.sweet-surprise",
+      "aliases": [
+        "pack"
+      ],
       "name": "Featured Pack",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_sweetsurprise/HD/ic_stickers_pack_sweetsurprise.png",
       "possible_rewards_1": {
         "total_rewards": 0,
         "rewards_drawn": 1,
@@ -77441,9 +77654,13 @@
     {
       "id": 24,
       "size": "temp",
+      "economy_system_id": "album_pack.togetherness",
+      "aliases": [
+        "pack"
+      ],
       "name": "Togetherness",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_temporaryalbum_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_temporaryalbum/HD/ic_stickers_pack_temporaryalbum.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -77929,9 +78146,13 @@
     {
       "id": 25,
       "size": "liberation",
+      "economy_system_id": "album_pack.liberation",
+      "aliases": [
+        "pack"
+      ],
       "name": "Liberation",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_liberation_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_liberation_b/HD/ic_stickers_pack_liberation.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -78417,9 +78638,13 @@
     {
       "id": 26,
       "size": "groovefest",
+      "economy_system_id": "album_pack.groovefest",
+      "aliases": [
+        "pack"
+      ],
       "name": "Groove Fest",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_groovefest_massive.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_groovefest/HD/ic_stickers_pack_groovefest.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
@@ -78905,9 +79130,13 @@
     {
       "id": 1401,
       "size": "vikings",
+      "economy_system_id": "album_pack.vikingcollection",
+      "aliases": [
+        "pack"
+      ],
       "name": "Vikings Set",
       "stickers_amount": 1,
-      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_vikings/HD/ic_stickers_pack_vikings.png",
       "possible_rewards_1": {
         "total_rewards": 14,
         "rewards_drawn": 1,
