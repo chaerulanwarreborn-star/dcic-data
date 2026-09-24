@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:38:09Z",
+  "generated_at": "2026-09-24T14:02:21Z",
   "count": 10,
   "challenges": [
     {
@@ -20,14 +20,19 @@
           "rewards": [
             {
               "id": 2223,
-              "name": "Millium Dragon",
+              "name": "Millium Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2223
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -43,6 +48,11 @@
               "name": "Millium Orbs",
               "rarity": "E",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2223
@@ -61,6 +71,11 @@
               "name": "Millium Orbs",
               "rarity": "E",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2223
@@ -79,6 +94,11 @@
               "name": "Millium Orbs",
               "rarity": "E",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2223
@@ -97,6 +117,11 @@
               "name": "Millium Orbs",
               "rarity": "E",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2223_dragon_sahasra_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2223
@@ -126,14 +151,19 @@
           "rewards": [
             {
               "id": 1622,
-              "name": "Supernova Dragon",
+              "name": "Supernova Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34460_supernova_dragon_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_34460_supernova_dragon_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_34460_supernova_dragon_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_34460_supernova_dragon_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34460_supernova_dragon_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1622
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -164,6 +194,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9445,
@@ -182,6 +219,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9446,
@@ -200,6 +244,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9447,
@@ -218,6 +269,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9448,
@@ -236,6 +294,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9449,
@@ -254,6 +319,13 @@
               "name": "Gift Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/412_chest_community_super_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9450,
@@ -282,14 +354,19 @@
           "rewards": [
             {
               "id": 1982,
-              "name": "Malice Striker Dragon",
+              "name": "Malice Striker Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1982_dragon_malicestriker_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1982_dragon_malicestriker_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1982_dragon_malicestriker_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1982_dragon_malicestriker_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1982_dragon_malicestriker_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1982
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -306,6 +383,13 @@
               "name": "Black Friday Coin x5",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_268_chest_black_friday_coin_x5@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_268_chest_black_friday_coin_x5@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_268_chest_black_friday_coin_x5@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/268_chest_black_friday_coin_x5@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/268_chest_black_friday_coin_x5.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9460,
@@ -324,6 +408,13 @@
               "name": "Black Friday Coin x10",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_270_chest_black_friday_coin_x10@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_270_chest_black_friday_coin_x10@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_270_chest_black_friday_coin_x10@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/270_chest_black_friday_coin_x10@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/270_chest_black_friday_coin_x10.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9459,
@@ -342,6 +433,13 @@
               "name": "Black Voodoo Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_541_chest_black_voodoo@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_541_chest_black_voodoo@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_541_chest_black_voodoo@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/541_chest_black_voodoo@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/541_chest_black_voodoo.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 9458,
@@ -374,6 +472,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_657_chest_bf22_premiumx1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_657_chest_bf22_premiumx1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_657_chest_bf22_premiumx1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/657_chest_bf22_premiumx1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/657_chest_bf22_premiumx1.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16060,
@@ -388,14 +493,19 @@
           "rewards": [
             {
               "id": 1898,
-              "name": "Yin Dragon",
+              "name": "Yin Egg",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1898_dragon_yin_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1898_dragon_yin_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1898_dragon_yin_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1898_dragon_yin_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1898_dragon_yin_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1898
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -412,6 +522,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_656_chest_bf22_basic_x1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_656_chest_bf22_basic_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_656_chest_bf22_basic_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/656_chest_bf22_basic_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/656_chest_bf22_basic_x1.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16056,
@@ -430,6 +547,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13047,
@@ -448,6 +572,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13048,
@@ -466,6 +597,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13049,
@@ -484,6 +622,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13050,
@@ -502,6 +647,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13051,
@@ -520,6 +672,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/367_chest_grabbag.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13052,
@@ -548,14 +707,19 @@
           "rewards": [
             {
               "id": 1783,
-              "name": "Freezox Dragon",
+              "name": "Freezox Egg",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1783_dragon_freezox_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1783_dragon_freezox_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1783_dragon_freezox_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1783_dragon_freezox_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1783_dragon_freezox_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1783
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -572,6 +736,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13085,
@@ -590,6 +761,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/410_chest_community_common.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13086,
@@ -608,6 +786,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13087,
@@ -626,6 +811,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13088,
@@ -644,6 +836,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/411_chest_community_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13089,
@@ -662,6 +861,13 @@
               "name": "Collection Chest",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/412_chest_community_super_rare@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/412_chest_community_super_rare.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 13090,
@@ -690,14 +896,19 @@
           "rewards": [
             {
               "id": 1931,
-              "name": "Fire&Ice Dragon",
+              "name": "Fire&Ice Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1931_dragon_fireice_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1931_dragon_fireice_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1931_dragon_fireice_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1931_dragon_fireice_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1931_dragon_fireice_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1931
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -713,6 +924,11 @@
               "name": "Fae-Fatal Orbs",
               "rarity": "M",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2689
@@ -731,6 +947,11 @@
               "name": "Fae-Fatal Orbs",
               "rarity": "M",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2689
@@ -749,6 +970,11 @@
               "name": "Fae-Fatal Orbs",
               "rarity": "M",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2689
@@ -767,6 +993,11 @@
               "name": "Fae-Fatal Orbs",
               "rarity": "M",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2689
@@ -785,6 +1016,11 @@
               "name": "Fae-Fatal Orbs",
               "rarity": "M",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2689_dragon_faefatal_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2689
@@ -814,14 +1050,19 @@
           "rewards": [
             {
               "id": 2220,
-              "name": "Home Dragon",
+              "name": "Home Egg",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2220_dragon_home_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2220_dragon_home_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2220_dragon_home_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2220_dragon_home_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2220_dragon_home_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2220
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -837,6 +1078,11 @@
               "name": "Mr. Beast Orbs",
               "rarity": "L",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2188
@@ -855,6 +1101,11 @@
               "name": "Mr. Beast Orbs",
               "rarity": "L",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2188
@@ -873,6 +1124,11 @@
               "name": "Mr. Beast Orbs",
               "rarity": "L",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2188
@@ -891,6 +1147,11 @@
               "name": "Mr. Beast Orbs",
               "rarity": "L",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2188
@@ -909,6 +1170,11 @@
               "name": "Mr. Beast Orbs",
               "rarity": "L",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2188_dragon_mrbeast_b_1@2x.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2188
@@ -938,14 +1204,19 @@
           "rewards": [
             {
               "id": 2198,
-              "name": "Cupcake Dragon",
+              "name": "Cupcake Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2198_dragon_cupcake_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2198_dragon_cupcake_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2198_dragon_cupcake_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2198_dragon_cupcake_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2198_dragon_cupcake_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2198
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -962,6 +1233,13 @@
               "name": "Snack Box",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_349_chest_tomato_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 10710,
@@ -980,6 +1258,13 @@
               "name": "Valentine’s Chocolates",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_chocolatesvalentine2025_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x1.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 15906,
@@ -1011,6 +1296,13 @@
               "name": "Valentine’s Chocolates",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x2@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_chocolatesvalentine2025_x2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x2.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 15907,
@@ -1025,14 +1317,19 @@
           "rewards": [
             {
               "id": 1446,
-              "name": "Red Rose Dragon",
+              "name": "Red Rose Egg",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1446_dragon_redrose_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1446_dragon_redrose_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1446_dragon_redrose_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1446_dragon_redrose_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1446_dragon_redrose_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1446
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -1047,6 +1344,13 @@
               "name": "Valentine’s Chocolates",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x3@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_chocolatesvalentine2025_x3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_chocolatesvalentine2025_x3.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 15908,
@@ -1087,14 +1391,19 @@
           "rewards": [
             {
               "id": 1442,
-              "name": "Bride Dragon",
+              "name": "Bride Egg",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1442_dragon_bride_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1442_dragon_bride_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1442_dragon_bride_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 1442
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -1119,14 +1428,19 @@
           "rewards": [
             {
               "id": 2197,
-              "name": "Love Potion Dragon",
+              "name": "Love Potion Egg",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2197_dragon_lovepotion_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2197_dragon_lovepotion_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2197_dragon_lovepotion_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2197_dragon_lovepotion_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2197_dragon_lovepotion_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2197
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -1143,6 +1457,13 @@
               "name": "Small Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16551,
@@ -1161,6 +1482,13 @@
               "name": "Medium Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16552,
@@ -1179,6 +1507,13 @@
               "name": "Large Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16553,
@@ -1197,6 +1532,13 @@
               "name": "Extra Large Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16554,
@@ -1215,6 +1557,13 @@
               "name": "Small Shiny Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_1.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16556,
@@ -1233,6 +1582,13 @@
               "name": "Medium Shiny Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16557,
@@ -1261,14 +1617,19 @@
           "rewards": [
             {
               "id": 2460,
-              "name": "Green Meadows Dragon",
+              "name": "Green Meadows Egg",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2460_dragon_greenmeadows_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2460_dragon_greenmeadows_0@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2460_dragon_greenmeadows_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2460_dragon_greenmeadows_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2460_dragon_greenmeadows_3.png"
+              ],
               "popup": {
                 "kind": "dragon",
                 "id": 2460
               },
-              "kind": "dragon",
+              "kind": "egg",
               "amount": 1
             }
           ]
@@ -1285,6 +1646,13 @@
               "name": "Small Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16551,
@@ -1303,6 +1671,13 @@
               "name": "Medium Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16552,
@@ -1321,6 +1696,13 @@
               "name": "Large Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16553,
@@ -1339,6 +1721,13 @@
               "name": "Extra Large Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16554,
@@ -1357,6 +1746,13 @@
               "name": "Small Shiny Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_1.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16556,
@@ -1375,6 +1771,13 @@
               "name": "Medium Shiny Sticker Pack",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
               "popup": {
                 "kind": "chest",
                 "id": 16557,

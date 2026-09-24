@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:38:09Z",
+  "generated_at": "2026-09-24T14:02:22Z",
   "count": 2,
   "islands": [
     {
@@ -18,6 +18,11 @@
           "name": "Eggspulsion Dragon",
           "rarity": "L",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 3352
@@ -28,6 +33,11 @@
           "name": "Red Crested Dragon",
           "rarity": "L",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 2838
@@ -38,6 +48,11 @@
           "name": "Peevish Dragon",
           "rarity": "E",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 1691
@@ -64,6 +79,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -97,6 +119,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -144,6 +173,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -163,6 +199,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -196,6 +239,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -243,6 +293,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -262,6 +319,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -295,6 +359,13 @@
                   "name": "Banquet Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10713,
@@ -314,6 +385,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -347,6 +425,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -366,6 +451,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -385,6 +477,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -414,6 +513,13 @@
                   "name": "Light Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/396_chest_light.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 5030,
@@ -433,6 +539,13 @@
                   "name": "Dark Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/397_chest_dark.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 5029,
@@ -452,6 +565,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -471,6 +591,13 @@
                   "name": "Flame Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/117_fire_chest.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10830,
@@ -490,6 +617,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -509,6 +643,13 @@
                   "name": "Primal Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/383_chest_primal.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 11220,
@@ -528,6 +669,13 @@
                   "name": "Celebration Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/362_chest_8th_anniversary_color.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10850,
@@ -547,6 +695,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -566,6 +721,13 @@
                   "name": "Black Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/265_chest_black_friday_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 3175,
@@ -585,6 +747,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -604,6 +773,13 @@
                   "name": "Celebration Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/354_chest_8th_anniversary.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10860,
@@ -637,6 +813,13 @@
                   "name": "Titan Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/149_chest_minibreedingragnarok_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 9261,
@@ -656,6 +839,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -681,14 +871,19 @@
               "rewards": [
                 {
                   "id": 1321,
-                  "name": "Easter Dragon",
+                  "name": "Easter Egg",
                   "rarity": "R",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 1321
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -700,14 +895,19 @@
               "rewards": [
                 {
                   "id": 1451,
-                  "name": "Clay Dragon",
+                  "name": "Clay Egg",
                   "rarity": "V",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1451_dragon_clay_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1451_dragon_clay_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 1451
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -719,14 +919,19 @@
               "rewards": [
                 {
                   "id": 1691,
-                  "name": "Peevish Dragon",
+                  "name": "Peevish Egg",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 1691
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -738,14 +943,19 @@
               "rewards": [
                 {
                   "id": 2838,
-                  "name": "Red Crested Dragon",
+                  "name": "Red Crested Egg",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2838
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -757,14 +967,19 @@
               "rewards": [
                 {
                   "id": 3352,
-                  "name": "Eggspulsion Dragon",
+                  "name": "Eggspulsion Egg",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 3352
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -779,6 +994,11 @@
                   "name": "Red Crested Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2838
@@ -798,6 +1018,11 @@
                   "name": "Eggspulsion Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 3352
@@ -831,6 +1056,11 @@
                   "name": "Red Crested Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2838
@@ -850,6 +1080,11 @@
                   "name": "Eggspulsion Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 3352
@@ -870,6 +1105,13 @@
                   "name": "Titan Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/353_chest_titan_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10790,
@@ -889,6 +1131,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -907,6 +1156,11 @@
                   "name": "Red Crested Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2838
@@ -926,6 +1180,11 @@
                   "name": "Eggspulsion Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 3352
@@ -946,6 +1205,13 @@
                   "name": "Heroic Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/228_chest_heroic_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 3057,
@@ -965,6 +1231,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -983,6 +1256,11 @@
                   "name": "Red Crested Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2838
@@ -1002,6 +1280,11 @@
                   "name": "Eggspulsion Orbs",
                   "rarity": "L",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 3352
@@ -1942,6 +2225,11 @@
           "name": "Pyramid Dragon",
           "rarity": "E",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 2340
@@ -1952,6 +2240,11 @@
           "name": "Prowling Dragon",
           "rarity": "E",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 2322
@@ -1962,6 +2255,11 @@
           "name": "Abnormal Dragon",
           "rarity": "E",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_1@2x.png"
+          ],
           "popup": {
             "kind": "dragon",
             "id": 2283
@@ -1988,6 +2286,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2021,6 +2326,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -2068,6 +2380,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -2087,6 +2406,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2120,6 +2446,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -2167,6 +2500,13 @@
                   "name": "Dinner Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10712,
@@ -2186,6 +2526,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2219,6 +2566,13 @@
                   "name": "Banquet Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10713,
@@ -2288,6 +2642,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2335,6 +2696,13 @@
                   "name": "Light Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/396_chest_light@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/396_chest_light.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 5030,
@@ -2354,6 +2722,13 @@
                   "name": "Dark Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/397_chest_dark@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/397_chest_dark.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 5029,
@@ -2373,6 +2748,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2392,6 +2774,13 @@
                   "name": "Flame Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/117_fire_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/117_fire_chest.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10830,
@@ -2411,6 +2800,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2430,6 +2826,13 @@
                   "name": "Primal Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/383_chest_primal@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/383_chest_primal.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 11220,
@@ -2449,6 +2852,13 @@
                   "name": "Celebration Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/362_chest_8th_anniversary_color@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/362_chest_8th_anniversary_color.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10850,
@@ -2468,6 +2878,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2487,6 +2904,13 @@
                   "name": "Black Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/265_chest_black_friday_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/265_chest_black_friday_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 3175,
@@ -2524,6 +2948,13 @@
                   "name": "Celebration Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/354_chest_8th_anniversary@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/354_chest_8th_anniversary.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10860,
@@ -2561,6 +2992,13 @@
                   "name": "Titan Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/149_chest_minibreedingragnarok_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/149_chest_minibreedingragnarok_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 9261,
@@ -2604,14 +3042,19 @@
               "rewards": [
                 {
                   "id": 2340,
-                  "name": "Pyramid Dragon",
+                  "name": "Pyramid Egg",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2340
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -2623,14 +3066,19 @@
               "rewards": [
                 {
                   "id": 2322,
-                  "name": "Prowling Dragon",
+                  "name": "Prowling Egg",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2322
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -2642,14 +3090,19 @@
               "rewards": [
                 {
                   "id": 2283,
-                  "name": "Abnormal Dragon",
+                  "name": "Abnormal Egg",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_0@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png"
+                  ],
                   "popup": {
                     "kind": "dragon",
                     "id": 2283
                   },
-                  "kind": "dragon",
+                  "kind": "egg",
                   "amount": 1
                 }
               ]
@@ -2748,7 +3201,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_generic",
-                  "name": "Ace Sticker Pack",
+                  "name": "Random Shiny",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
                   "popup": {
@@ -2766,7 +3219,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_generic",
-                  "name": "Ace Sticker Pack",
+                  "name": "Random Shiny",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
                   "popup": {
@@ -2787,6 +3240,13 @@
                   "name": "Titan Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/353_chest_titan_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/353_chest_titan_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10790,
@@ -2806,6 +3266,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2822,7 +3289,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_1",
-                  "name": "Ace 1 Sticker Pack",
+                  "name": "Shiny 1",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_1_not_owned@2x.png",
                   "popup": {
@@ -2840,7 +3307,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_1",
-                  "name": "Ace 1 Sticker Pack",
+                  "name": "Shiny 1",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_1_not_owned@2x.png",
                   "popup": {
@@ -2861,6 +3328,13 @@
                   "name": "Heroic Egg Chest",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/228_chest_heroic_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/228_chest_heroic_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 3057,
@@ -2880,6 +3354,13 @@
                   "name": "Mystery Food Box",
                   "amount": 1,
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/350_chest_tomato_mistery_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
                     "kind": "chest",
                     "id": 10714,
@@ -2896,7 +3377,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_2",
-                  "name": "Ace 2 Sticker Pack",
+                  "name": "Shiny 2",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_2_not_owned@2x.png",
                   "popup": {
@@ -2914,7 +3395,7 @@
                 {
                   "kind": "sticker_pack",
                   "size": "ace_2",
-                  "name": "Ace 2 Sticker Pack",
+                  "name": "Shiny 2",
                   "amount": 1,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_2_not_owned@2x.png",
                   "popup": {
