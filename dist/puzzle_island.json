@@ -1,0 +1,3843 @@
+{
+  "generated_at": "2026-09-23T18:57:39Z",
+  "count": 2,
+  "islands": [
+    {
+      "id": 120,
+      "status": "past",
+      "start_ts": 1591956000,
+      "end_ts": 1592387999,
+      "start_iso": "2020-06-12T10:00:00Z",
+      "end_iso": "2020-06-17T09:59:59Z",
+      "moves_per_board": 30,
+      "free_moves_amount": 3,
+      "free_moves_period_seconds": 10800,
+      "featured_dragons": [
+        {
+          "id": 3352,
+          "name": "Eggspulsion Dragon",
+          "rarity": "L",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 3352
+          }
+        },
+        {
+          "id": 2838,
+          "name": "Red Crested Dragon",
+          "rarity": "L",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 2838
+          }
+        },
+        {
+          "id": 1691,
+          "name": "Peevish Dragon",
+          "rarity": "E",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 1691
+          }
+        }
+      ],
+      "reward_lanes": [
+        {
+          "lane": "top",
+          "symbols": [
+            "orange",
+            "purple"
+          ],
+          "goal_modifier": 30,
+          "rewards": [
+            {
+              "id": 12001,
+              "required_pieces": 15,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12002,
+              "required_pieces": 25,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "E",
+                  "name": "Epic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-e.png"
+                }
+              ]
+            },
+            {
+              "id": 12003,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12004,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "E",
+                  "name": "Epic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-e.png"
+                }
+              ]
+            },
+            {
+              "id": 12005,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12006,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12007,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12008,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12009,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12010,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 3,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12011,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12012,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12013,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12014,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12015,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10713,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10713,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12016,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12017,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "H",
+                  "name": "Heroic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png"
+                }
+              ]
+            },
+            {
+              "id": 12018,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12019,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12020,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lane": "middle",
+          "symbols": [
+            "yellow",
+            "green"
+          ],
+          "goal_modifier": 20,
+          "rewards": [
+            {
+              "id": 12021,
+              "required_pieces": 55,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 5030,
+                  "name": "Light Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 5030,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12022,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 5029,
+                  "name": "Dark Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 5029,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12023,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12024,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10830,
+                  "name": "Flame Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10830,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12025,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12026,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 11220,
+                  "name": "Primal Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 11220,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12027,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10850,
+                  "name": "Celebration Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10850,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12028,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12029,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 3175,
+                  "name": "Black Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 3175,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12030,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12031,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10860,
+                  "name": "Celebration Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10860,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12032,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 10,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12033,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 9261,
+                  "name": "Titan Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 9261,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12034,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lane": "bottom",
+          "symbols": [
+            "red",
+            "blue"
+          ],
+          "goal_modifier": 10,
+          "rewards": [
+            {
+              "id": 12035,
+              "required_pieces": 70,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 1321,
+                  "name": "Easter Dragon",
+                  "rarity": "R",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 1321
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12036,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 1451,
+                  "name": "Clay Dragon",
+                  "rarity": "V",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1451_dragon_clay_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 1451
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12037,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 1691,
+                  "name": "Peevish Dragon",
+                  "rarity": "E",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 1691
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12038,
+              "required_pieces": 300,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2838,
+                  "name": "Red Crested Dragon",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2838
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12039,
+              "required_pieces": 420,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 3352,
+                  "name": "Eggspulsion Dragon",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3352
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12040,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2838,
+                  "name": "Red Crested Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2838
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 40
+                }
+              ]
+            },
+            {
+              "id": 12041,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 3352,
+                  "name": "Eggspulsion Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3352
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 40
+                }
+              ]
+            },
+            {
+              "id": 12042,
+              "required_pieces": 180,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 10,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12043,
+              "required_pieces": 180,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2838,
+                  "name": "Red Crested Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2838
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 80
+                }
+              ]
+            },
+            {
+              "id": 12044,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 3352,
+                  "name": "Eggspulsion Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3352
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 80
+                }
+              ]
+            },
+            {
+              "id": 12045,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10790,
+                  "name": "Titan Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10790,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12046,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12047,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2838,
+                  "name": "Red Crested Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2838
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 80
+                }
+              ]
+            },
+            {
+              "id": 12048,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 3352,
+                  "name": "Eggspulsion Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3352
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 80
+                }
+              ]
+            },
+            {
+              "id": 12049,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 3057,
+                  "name": "Heroic Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 3057,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12050,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12051,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2838,
+                  "name": "Red Crested Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2838
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 120
+                }
+              ]
+            },
+            {
+              "id": 12052,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 3352,
+                  "name": "Eggspulsion Orbs",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3352
+                  },
+                  "kind": "dragon_orbs",
+                  "amount": 120
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mission_queues": [
+        {
+          "queue": 1,
+          "missions": [
+            {
+              "id": 868,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 50000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 869,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 20000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 870,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 871,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 75000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 872,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 30000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 873,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 874,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 60000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 875,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 25000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 876,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 877,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 90000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 878,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 35000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 879,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 880,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 100000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 881,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 45000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 882,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 883,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 150000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 884,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 55000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 885,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 886,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 120000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 887,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 50000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 888,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 889,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 180000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 890,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 60000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 891,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 892,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 200000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 893,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 65000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 894,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 895,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 250000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 896,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 80000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 897,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 898,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 300000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 899,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 100000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 900,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 4,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            }
+          ]
+        },
+        {
+          "queue": 2,
+          "missions": [
+            {
+              "id": 901,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 4000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 902,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 903,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 904,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 10000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 905,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 906,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 907,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 8000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 908,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 909,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 910,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 20000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 911,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 912,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 913,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 15000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 914,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 915,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 916,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 40000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 917,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 918,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 919,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 100000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 920,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 921,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 922,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 150000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 923,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 924,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 925,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 200000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 926,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 927,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            }
+          ]
+        },
+        {
+          "queue": 3,
+          "missions": [
+            {
+              "id": 928,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "el"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 929,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "el"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 930,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "w",
+                "pr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 931,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "w",
+                "pr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 932,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "d",
+                "i"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 933,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "d",
+                "i"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 934,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "m",
+                "d"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 935,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "m",
+                "d"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 936,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 3,
+              "specific": [
+                "wr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 937,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 3,
+              "specific": [
+                "wr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 938,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "el",
+                "p"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 939,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "el",
+                "p"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 940,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "e",
+                "wr"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 941,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "e",
+                "wr"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            }
+          ]
+        },
+        {
+          "queue": 4,
+          "missions": [
+            {
+              "id": 62,
+              "activity_type": "PVP_ARENAS",
+              "moves": 8,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 63,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 9,
+              "required_amount": 3,
+              "specific": [
+                "pu",
+                "d"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 64,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 9,
+              "required_amount": 3,
+              "specific": [
+                "pu",
+                "el"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 65,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 8,
+              "required_amount": 480000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 66,
+              "activity_type": "PVP_ARENAS",
+              "moves": 8,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 67,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 13,
+              "required_amount": 2,
+              "specific": [
+                "e",
+                "p"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 68,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 13,
+              "required_amount": 2,
+              "specific": [
+                "e",
+                "p"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 69,
+              "activity_type": "LEAGUES",
+              "moves": 11,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            }
+          ]
+        }
+      ],
+      "zip_file": "/mobile/ui/puzzle_islands/tropical_puzzle_island_b.zip"
+    },
+    {
+      "id": 121,
+      "status": "past",
+      "start_ts": 1761138000,
+      "end_ts": 1761487140,
+      "start_iso": "2025-10-22T13:00:00Z",
+      "end_iso": "2025-10-26T13:59:00Z",
+      "moves_per_board": 30,
+      "free_moves_amount": 3,
+      "free_moves_period_seconds": 10800,
+      "featured_dragons": [
+        {
+          "id": 2340,
+          "name": "Pyramid Dragon",
+          "rarity": "E",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 2340
+          }
+        },
+        {
+          "id": 2322,
+          "name": "Prowling Dragon",
+          "rarity": "E",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 2322
+          }
+        },
+        {
+          "id": 2283,
+          "name": "Abnormal Dragon",
+          "rarity": "E",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+          "popup": {
+            "kind": "dragon",
+            "id": 2283
+          }
+        }
+      ],
+      "reward_lanes": [
+        {
+          "lane": "top",
+          "symbols": [
+            "orange",
+            "purple"
+          ],
+          "goal_modifier": 30,
+          "rewards": [
+            {
+              "id": 12101,
+              "required_pieces": 15,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12102,
+              "required_pieces": 25,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "E",
+                  "name": "Epic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-e.png"
+                }
+              ]
+            },
+            {
+              "id": 12103,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12104,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "E",
+                  "name": "Epic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-e.png"
+                }
+              ]
+            },
+            {
+              "id": 12105,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12106,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12107,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12108,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12109,
+              "required_pieces": 45,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12110,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 3,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12111,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12112,
+              "required_pieces": 60,
+              "colors": 1,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10712,
+                  "name": "Dinner Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10712,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12113,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12114,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12115,
+              "required_pieces": 40,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10713,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10713,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12116,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12117,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "H",
+                  "name": "Heroic Joker Orbs",
+                  "amount": 5,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png"
+                }
+              ]
+            },
+            {
+              "id": 12118,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12119,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12120,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lane": "middle",
+          "symbols": [
+            "yellow",
+            "green"
+          ],
+          "goal_modifier": 20,
+          "rewards": [
+            {
+              "id": 12121,
+              "required_pieces": 55,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 5030,
+                  "name": "Light Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_396_chest_light@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 5030,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12122,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 5029,
+                  "name": "Dark Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_397_chest_dark@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 5029,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12123,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12124,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10830,
+                  "name": "Flame Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_117_fire_chest@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10830,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12125,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12126,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 11220,
+                  "name": "Primal Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_383_chest_primal@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 11220,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12127,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10850,
+                  "name": "Celebration Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_362_chest_8th_anniversary_color@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10850,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12128,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12129,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 3175,
+                  "name": "Black Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_265_chest_black_friday_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 3175,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12130,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12131,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10860,
+                  "name": "Celebration Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_354_chest_8th_anniversary@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10860,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12132,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "m",
+                  "name": "M Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_m_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "m"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12133,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 9261,
+                  "name": "Titan Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_149_chest_minibreedingragnarok_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 9261,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12134,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "l",
+                  "name": "L Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_l_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "l"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "lane": "bottom",
+          "symbols": [
+            "red",
+            "blue"
+          ],
+          "goal_modifier": 10,
+          "rewards": [
+            {
+              "id": 12135,
+              "required_pieces": 70,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2340,
+                  "name": "Pyramid Dragon",
+                  "rarity": "E",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2340
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12136,
+              "required_pieces": 120,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2322,
+                  "name": "Prowling Dragon",
+                  "rarity": "E",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2322
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12137,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "id": 2283,
+                  "name": "Abnormal Dragon",
+                  "rarity": "E",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2283
+                  },
+                  "kind": "dragon",
+                  "amount": 1
+                }
+              ]
+            },
+            {
+              "id": 12138,
+              "required_pieces": 300,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12139,
+              "required_pieces": 420,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "s"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12140,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "l",
+                  "name": "L Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_l_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "l"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12141,
+              "required_pieces": 150,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "l",
+                  "name": "L Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_l_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "l"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12142,
+              "required_pieces": 180,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "joker_orbs",
+                  "rarity": "L",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 10,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ]
+            },
+            {
+              "id": 12143,
+              "required_pieces": 180,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_generic",
+                  "name": "Ace Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12144,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_generic",
+                  "name": "Ace Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12145,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10790,
+                  "name": "Titan Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_353_chest_titan_egg@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10790,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12146,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12147,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_1",
+                  "name": "Ace 1 Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_1_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_1"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12148,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_1",
+                  "name": "Ace 1 Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_1_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_1"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12149,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 3057,
+                  "name": "Heroic Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_228_chest_heroic_egg_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 3057,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12150,
+              "required_pieces": 75,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 10714,
+                  "name": "Mystery Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_350_chest_tomato_mistery_b@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10714,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12151,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_2",
+                  "name": "Ace 2 Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_2_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_2"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 12152,
+              "required_pieces": 225,
+              "colors": 2,
+              "rewards": [
+                {
+                  "kind": "sticker_pack",
+                  "size": "ace_2",
+                  "name": "Ace 2 Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_ace_2_not_owned@2x.png",
+                  "popup": {
+                    "kind": "sticker_pack",
+                    "id": "ace_2"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "mission_queues": [
+        {
+          "queue": 1,
+          "missions": [
+            {
+              "id": 868,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 50000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 869,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 20000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 870,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 871,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 75000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 872,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 30000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 873,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 874,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 60000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 875,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 25000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 876,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 877,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 90000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 878,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 35000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 879,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 880,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 100000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 881,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 45000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 882,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 883,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 150000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 884,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 55000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 885,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 886,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 120000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 887,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 50000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 888,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 889,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 180000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 890,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 60000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 891,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 892,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 200000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 893,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 65000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 894,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 895,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 250000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 896,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 80000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 897,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 3,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 898,
+              "activity_type": "COLLECT_GOLD",
+              "moves": 3,
+              "required_amount": 300000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 899,
+              "activity_type": "FEED_DRAGON",
+              "moves": 3,
+              "required_amount": 100000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            },
+            {
+              "id": 900,
+              "activity_type": "TOURNAMENT_MATCH",
+              "moves": 3,
+              "required_amount": 4,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 3
+              }
+            }
+          ]
+        },
+        {
+          "queue": 2,
+          "missions": [
+            {
+              "id": 901,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 4000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 902,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 903,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 1,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 904,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 10000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 905,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 906,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 907,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 8000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 908,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 909,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 2,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 910,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 20000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 911,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 912,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 913,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 15000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 914,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 915,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 916,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 40000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 917,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 918,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 919,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 100000,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 920,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 921,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 4,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 922,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 150000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 923,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 924,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 925,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 6,
+              "required_amount": 200000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 926,
+              "activity_type": "LEAGUES",
+              "moves": 6,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 927,
+              "activity_type": "PVP_ARENAS",
+              "moves": 6,
+              "required_amount": 5,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 5
+              }
+            }
+          ]
+        },
+        {
+          "queue": 3,
+          "missions": [
+            {
+              "id": 928,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "el"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 929,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "el"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 930,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "w",
+                "pr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 931,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 1,
+              "specific": [
+                "w",
+                "pr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 932,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "d",
+                "i"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 933,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "d",
+                "i"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 934,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "m",
+                "d"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 935,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 2,
+              "specific": [
+                "m",
+                "d"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 936,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 12,
+              "required_amount": 3,
+              "specific": [
+                "wr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 937,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 12,
+              "required_amount": 3,
+              "specific": [
+                "wr"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 938,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "el",
+                "p"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 939,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "el",
+                "p"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 940,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "e",
+                "wr"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            },
+            {
+              "id": 941,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 11,
+              "required_amount": 3,
+              "specific": [
+                "e",
+                "wr"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 6
+              }
+            }
+          ]
+        },
+        {
+          "queue": 4,
+          "missions": [
+            {
+              "id": 62,
+              "activity_type": "PVP_ARENAS",
+              "moves": 8,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 63,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 9,
+              "required_amount": 3,
+              "specific": [
+                "pu",
+                "d"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 64,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 9,
+              "required_amount": 3,
+              "specific": [
+                "pu",
+                "el"
+              ],
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 65,
+              "activity_type": "COLLECT_FOOD",
+              "moves": 8,
+              "required_amount": 480000,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 66,
+              "activity_type": "PVP_ARENAS",
+              "moves": 8,
+              "required_amount": 6,
+              "loopable": 1,
+              "skip_cost": {
+                "c": 4
+              }
+            },
+            {
+              "id": 67,
+              "activity_type": "BREED_ELEMENTS",
+              "moves": 13,
+              "required_amount": 2,
+              "specific": [
+                "e",
+                "p"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 68,
+              "activity_type": "HATCH_ELEMENTS",
+              "moves": 13,
+              "required_amount": 2,
+              "specific": [
+                "e",
+                "p"
+              ],
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            },
+            {
+              "id": 69,
+              "activity_type": "LEAGUES",
+              "moves": 11,
+              "required_amount": 3,
+              "loopable": 0,
+              "skip_cost": {
+                "c": 5
+              }
+            }
+          ]
+        }
+      ],
+      "zip_file": "/mobile/ui/puzzle_islands/halloween_puzzle_island.zip"
+    }
+  ]
+}

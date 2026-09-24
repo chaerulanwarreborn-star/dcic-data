@@ -1,0 +1,1389 @@
+{
+  "generated_at": "2026-09-23T18:57:37Z",
+  "count": 10,
+  "challenges": [
+    {
+      "id": 2,
+      "title": "1000th Dragon Challenge",
+      "description": "Breed your dragons with Nature and Electric elements to get points. Get 1 point for each breeding.",
+      "status": "past",
+      "start_ts": 1547031600,
+      "end_ts": 1547290800,
+      "start_iso": "2019-01-09T11:00:00Z",
+      "end_iso": "2019-01-12T11:00:00Z",
+      "global_goal": 5000000,
+      "minimum_contribution": 6,
+      "global_rewards": [
+        {
+          "id": 1,
+          "goal": 5000000,
+          "rewards": [
+            {
+              "id": 2223,
+              "name": "Millium Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2223
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 1,
+          "goal": 12,
+          "rewards": [
+            {
+              "id": 2223,
+              "name": "Millium Orbs",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2223
+              },
+              "kind": "dragon_orbs",
+              "amount": 100
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "goal": 25,
+          "rewards": [
+            {
+              "id": 2223,
+              "name": "Millium Orbs",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2223
+              },
+              "kind": "dragon_orbs",
+              "amount": 120
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "goal": 50,
+          "rewards": [
+            {
+              "id": 2223,
+              "name": "Millium Orbs",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2223
+              },
+              "kind": "dragon_orbs",
+              "amount": 320
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "goal": 125,
+          "rewards": [
+            {
+              "id": 2223,
+              "name": "Millium Orbs",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2223_dragon_sahasra_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2223
+              },
+              "kind": "dragon_orbs",
+              "amount": 640
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "BEAST CHALLENGE",
+      "description": "Join Mr. Beast in this Global Challenge by breeding eggs using an Electric parent and a Flame parent.\\nGet 1 point for each breeding!",
+      "status": "past",
+      "start_ts": 1630404000,
+      "end_ts": 1633082400,
+      "start_iso": "2021-08-31T10:00:00Z",
+      "end_iso": "2021-10-01T10:00:00Z",
+      "global_goal": 50000000,
+      "minimum_contribution": 5,
+      "global_rewards": [
+        {
+          "id": 2,
+          "goal": 50000000,
+          "rewards": [
+            {
+              "id": 1622,
+              "name": "Supernova Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34460_supernova_dragon_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1622
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 5,
+          "goal": 10,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "food",
+              "key": "f",
+              "name": "Food",
+              "amount": 75000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "goal": 20,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9445,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9445,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9446,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9446,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "goal": 40,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9447,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9447,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "goal": 50,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9448,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9448,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "goal": 60,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9449,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9449,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "goal": 70,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9450,
+              "name": "Gift Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9450,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GLOBAL CHALLENGE",
+      "description": "Join the Black Friday Global Challenge and get 1 point for each breeding! The Light and Dark elements must be included in either of the parents.",
+      "status": "past",
+      "start_ts": 1637233200,
+      "end_ts": 1638442800,
+      "start_iso": "2021-11-18T11:00:00Z",
+      "end_iso": "2021-12-02T11:00:00Z",
+      "global_goal": 25000000,
+      "minimum_contribution": 5,
+      "global_rewards": [
+        {
+          "id": 3,
+          "goal": 25000000,
+          "rewards": [
+            {
+              "id": 1982,
+              "name": "Malice Striker Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1982_dragon_malicestriker_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1982
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 12,
+          "goal": 15,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9460,
+              "name": "Black Friday Coin x5",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_268_chest_black_friday_coin_x5@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9460,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9459,
+              "name": "Black Friday Coin x10",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_270_chest_black_friday_coin_x10@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9459,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "goal": 45,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 9458,
+              "name": "Black Voodoo Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_541_chest_black_voodoo@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 9458,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GLOBAL CHALLENGE",
+      "description": "Join the Black Friday Global Challenge and get 1 point for each breeding! The Light and Dark elements must be included in either of the parents.",
+      "status": "past",
+      "start_ts": 1668682800,
+      "end_ts": 1669287600,
+      "start_iso": "2022-11-17T11:00:00Z",
+      "end_iso": "2022-11-24T11:00:00Z",
+      "global_goal": 20000000,
+      "minimum_contribution": 5,
+      "global_rewards": [
+        {
+          "id": 4,
+          "goal": 10000000,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16060,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_657_chest_bf22_premiumx1@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16060,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "goal": 20000000,
+          "rewards": [
+            {
+              "id": 1898,
+              "name": "Yin Dragon",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1898_dragon_yin_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1898
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 15,
+          "goal": 5,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16056,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_656_chest_bf22_basic_x1@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16056,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "goal": 10,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13047,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13047,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "goal": 15,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13048,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13048,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "goal": 20,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13049,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13049,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "goal": 25,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13050,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13050,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13051,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13051,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "goal": 35,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13052,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_367_chest_grabbag@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13052,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "STOKES CHALLENGE",
+      "description": "Join the Stokes Twins Global Challenge and get 1 point for each breeding! The Flame and Terra elements must be included in either of the parents.",
+      "status": "upcoming",
+      "start_ts": 1922310000,
+      "end_ts": 1922396400,
+      "start_iso": "2030-11-30T23:00:00Z",
+      "end_iso": "2030-12-01T23:00:00Z",
+      "global_goal": 3000000,
+      "minimum_contribution": 5,
+      "global_rewards": [
+        {
+          "id": 6,
+          "goal": 3000000,
+          "rewards": [
+            {
+              "id": 1783,
+              "name": "Freezox Dragon",
+              "rarity": "R",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1783_dragon_freezox_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1783
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 22,
+          "goal": 5,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13085,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13085,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "goal": 10,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13086,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_410_chest_community_common@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13086,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "goal": 20,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13087,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13087,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "goal": 25,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13088,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13088,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13089,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_411_chest_community_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13089,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "goal": 40,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 13090,
+              "name": "Collection Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_412_chest_community_super_rare@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 13090,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "FIRE & ICE CHALLENGE",
+      "description": "Join other Dragon Masters in this Global Challenge and get 1 point for each breeding! The Flame and Ice elements must be included in either of the parents.",
+      "status": "past",
+      "start_ts": 1685613600,
+      "end_ts": 1686218400,
+      "start_iso": "2023-06-01T10:00:00Z",
+      "end_iso": "2023-06-08T10:00:00Z",
+      "global_goal": 8400000,
+      "minimum_contribution": 7,
+      "global_rewards": [
+        {
+          "id": 7,
+          "goal": 8400000,
+          "rewards": [
+            {
+              "id": 1931,
+              "name": "Fire&Ice Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1931_dragon_fireice_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1931
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 28,
+          "goal": 7,
+          "rewards": [
+            {
+              "id": 2689,
+              "name": "Fae-Fatal Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2689
+              },
+              "kind": "dragon_orbs",
+              "amount": 20
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "goal": 14,
+          "rewards": [
+            {
+              "id": 2689,
+              "name": "Fae-Fatal Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2689
+              },
+              "kind": "dragon_orbs",
+              "amount": 40
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "goal": 21,
+          "rewards": [
+            {
+              "id": 2689,
+              "name": "Fae-Fatal Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2689
+              },
+              "kind": "dragon_orbs",
+              "amount": 80
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "goal": 28,
+          "rewards": [
+            {
+              "id": 2689,
+              "name": "Fae-Fatal Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2689
+              },
+              "kind": "dragon_orbs",
+              "amount": 140
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "goal": 35,
+          "rewards": [
+            {
+              "id": 2689,
+              "name": "Fae-Fatal Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2689_dragon_faefatal_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2689
+              },
+              "kind": "dragon_orbs",
+              "amount": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "    PHILANTHROPY WEEK",
+      "description": "Beast Philanthropy Challenge: Get 1 point for each breeding using a Light parent & a Pure parent!\\nFor every 50k global points, Dragon City will donate $100 to build shelters in LATAM!",
+      "status": "past",
+      "start_ts": 1705834800,
+      "end_ts": 1706439600,
+      "start_iso": "2024-01-21T11:00:00Z",
+      "end_iso": "2024-01-28T11:00:00Z",
+      "global_goal": 10000000,
+      "minimum_contribution": 7,
+      "global_rewards": [
+        {
+          "id": 8,
+          "goal": 10000000,
+          "rewards": [
+            {
+              "id": 2220,
+              "name": "Home Dragon",
+              "rarity": "V",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2220_dragon_home_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2220
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 33,
+          "goal": 7,
+          "rewards": [
+            {
+              "id": 2188,
+              "name": "Mr. Beast Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2188
+              },
+              "kind": "dragon_orbs",
+              "amount": 5
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "goal": 14,
+          "rewards": [
+            {
+              "id": 2188,
+              "name": "Mr. Beast Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2188
+              },
+              "kind": "dragon_orbs",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "goal": 21,
+          "rewards": [
+            {
+              "id": 2188,
+              "name": "Mr. Beast Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2188
+              },
+              "kind": "dragon_orbs",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "goal": 28,
+          "rewards": [
+            {
+              "id": 2188,
+              "name": "Mr. Beast Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2188
+              },
+              "kind": "dragon_orbs",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "goal": 35,
+          "rewards": [
+            {
+              "id": 2188,
+              "name": "Mr. Beast Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2188_dragon_mrbeast_b_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2188
+              },
+              "kind": "dragon_orbs",
+              "amount": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "LOVE CHALLENGE",
+      "description": "Join the Valentine's Global Challenge and get 1 point for each breeding! The Flame and Ice elements must be included in either of the parents.",
+      "status": "past",
+      "start_ts": 1738926000,
+      "end_ts": 1739790000,
+      "start_iso": "2025-02-07T11:00:00Z",
+      "end_iso": "2025-02-17T11:00:00Z",
+      "global_goal": 5000000,
+      "minimum_contribution": 6,
+      "global_rewards": [
+        {
+          "id": 9,
+          "goal": 10000000,
+          "rewards": [
+            {
+              "id": 2198,
+              "name": "Cupcake Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2198_dragon_cupcake_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2198
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 38,
+          "goal": 1,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 10710,
+              "name": "Snack Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 10710,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "goal": 3,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 15906,
+              "name": "Valentine’s Chocolates",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x1@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 15906,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "goal": 5,
+          "rewards": [
+            {
+              "kind": "trade_essence",
+              "rarity": "L",
+              "name": "Legendary Trade Essences",
+              "amount": 10,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png"
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "goal": 15,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 15907,
+              "name": "Valentine’s Chocolates",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x2@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 15907,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "goal": 20,
+          "rewards": [
+            {
+              "id": 1446,
+              "name": "Red Rose Dragon",
+              "rarity": "R",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1446_dragon_redrose_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1446
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "goal": 25,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 15908,
+              "name": "Valentine’s Chocolates",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_chocolatesvalentine2025_x3@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 15908,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "trade_essence",
+              "rarity": "L",
+              "name": "Legendary Trade Essences",
+              "amount": 10,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "goal": 35,
+          "rewards": [
+            {
+              "kind": "joker_orbs",
+              "rarity": "L",
+              "name": "Legendary Joker Orbs",
+              "amount": 5,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "goal": 40,
+          "rewards": [
+            {
+              "id": 1442,
+              "name": "Bride Dragon",
+              "rarity": "R",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 1442
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "LOVE CHALLENGE",
+      "description": "Each breeding gives 1 point (Flame + Ice required). Rewards don’t accumulate—you receive only the final milestone reward.",
+      "status": "past",
+      "start_ts": 1770116400,
+      "end_ts": 1770634800,
+      "start_iso": "2026-02-03T11:00:00Z",
+      "end_iso": "2026-02-09T11:00:00Z",
+      "global_goal": 10000000,
+      "minimum_contribution": 6,
+      "global_rewards": [
+        {
+          "id": 10,
+          "goal": 10000000,
+          "rewards": [
+            {
+              "id": 2197,
+              "name": "Love Potion Dragon",
+              "rarity": "V",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2197_dragon_lovepotion_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2197
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 47,
+          "goal": 12,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16551,
+              "name": "Small Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16551,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "goal": 18,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16552,
+              "name": "Medium Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16552,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "goal": 24,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16553,
+              "name": "Large Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16553,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16554,
+              "name": "Extra Large Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16554,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "goal": 36,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16556,
+              "name": "Small Shiny Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16556,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "goal": 42,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16557,
+              "name": "Medium Shiny Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16557,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Global Challenge",
+      "description": "Each breeding gives 1 point (Nature + Beauty required). Rewards don’t accumulate—you receive only the final milestone reward.",
+      "status": "past",
+      "start_ts": 1775037600,
+      "end_ts": 1775556000,
+      "start_iso": "2026-04-01T10:00:00Z",
+      "end_iso": "2026-04-07T10:00:00Z",
+      "global_goal": 12345678,
+      "minimum_contribution": 6,
+      "global_rewards": [
+        {
+          "id": 11,
+          "goal": 12345678,
+          "rewards": [
+            {
+              "id": 2460,
+              "name": "Green Meadows Dragon",
+              "rarity": "E",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2460_dragon_greenmeadows_3.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 2460
+              },
+              "kind": "dragon",
+              "amount": 1
+            }
+          ]
+        }
+      ],
+      "individual_rewards": [
+        {
+          "id": 53,
+          "goal": 12,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16551,
+              "name": "Small Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16551,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "goal": 18,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16552,
+              "name": "Medium Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16552,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "goal": 24,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16553,
+              "name": "Large Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16553,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "goal": 30,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16554,
+              "name": "Extra Large Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16554,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "goal": 36,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16556,
+              "name": "Small Shiny Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_1@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16556,
+                "type": "generic"
+              }
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "goal": 42,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 16557,
+              "name": "Medium Shiny Sticker Pack",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16557,
+                "type": "generic"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

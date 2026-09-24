@@ -1,0 +1,1070 @@
+{
+  "generated_at": "2026-09-23T18:57:47Z",
+  "count": 76,
+  "dragons": [
+    {
+      "id": 2831,
+      "name": "Ascended Bravery Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2831_dragon_ascendedbravery_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "li",
+        "f",
+        "i"
+      ]
+    },
+    {
+      "id": 2910,
+      "name": "Ascended Cosmos Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2910_dragon_ascendedcosmos_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "i",
+        "w",
+        "li"
+      ]
+    },
+    {
+      "id": 2909,
+      "name": "Ascended Deity Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2909_dragon_ascendeddeity_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "l",
+        "li",
+        "wr",
+        "wd"
+      ]
+    },
+    {
+      "id": 2907,
+      "name": "Ascended Divine Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2907_dragon_ascendeddivine_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "li",
+        "w",
+        "pu",
+        "el"
+      ]
+    },
+    {
+      "id": 2911,
+      "name": "Ascended Oracle Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2911_dragon_ascendedoracle_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "li",
+        "el",
+        "p"
+      ]
+    },
+    {
+      "id": 2797,
+      "name": "Ascended Praetor Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2797_dragon_ascendedpraetor_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "f",
+        "d",
+        "el",
+        "w"
+      ]
+    },
+    {
+      "id": 2849,
+      "name": "Ascended Retributor Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2849_dragon_ascendedretributor_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "e",
+        "f",
+        "d",
+        "el"
+      ]
+    },
+    {
+      "id": 2814,
+      "name": "Ascended Sage Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2814_dragon_ascendedsage_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "p",
+        "m",
+        "li",
+        "wr"
+      ]
+    },
+    {
+      "id": 2927,
+      "name": "Dual Parliament Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2927_dragon_parliament_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "wd",
+        "ti",
+        "l",
+        "i"
+      ]
+    },
+    {
+      "id": 2941,
+      "name": "Dual Perception Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2941_dragon_perception_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "ti",
+        "wd",
+        "pr",
+        "f"
+      ]
+    },
+    {
+      "id": 2605,
+      "name": "High Occult Titan Dragon",
+      "rarity": "H",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2605_dragon_highocculttitan_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "el",
+        "m",
+        "wr"
+      ]
+    },
+    {
+      "id": 2483,
+      "name": "Negative Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2483_dragon_negative_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "el",
+        "m",
+        "p"
+      ]
+    },
+    {
+      "id": 2482,
+      "name": "Positive Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "el",
+        "m",
+        "e"
+      ]
+    },
+    {
+      "id": 2968,
+      "name": "Redemption Brutality Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2968_dragon_redemptionbrutality_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "pr",
+        "ti",
+        "m",
+        "wr"
+      ]
+    },
+    {
+      "id": 2997,
+      "name": "Redemption Doom Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2997_dragon_redemptiondoom_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "ti",
+        "w",
+        "m",
+        "f"
+      ]
+    },
+    {
+      "id": 2983,
+      "name": "Redemption Wrath Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2983_dragon_redemptionwrath_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "dr",
+        "wr",
+        "m",
+        "w"
+      ]
+    },
+    {
+      "id": 2954,
+      "name": "Redemption Wulf Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2954_dragon_redemptionwulf_3.png",
+      "food_per_min": 80,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "m",
+        "ch",
+        "wd"
+      ]
+    },
+    {
+      "id": 2837,
+      "name": "Ambition Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2837_dragon_ambitionkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "so",
+        "d",
+        "li",
+        "p"
+      ]
+    },
+    {
+      "id": 2572,
+      "name": "Bio-Augmented Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2572_dragon_bioaugmentedvampire_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "wr",
+        "el",
+        "pr"
+      ]
+    },
+    {
+      "id": 2644,
+      "name": "Blood God Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2644_dragon_bloodgod_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "d",
+        "l",
+        "i"
+      ]
+    },
+    {
+      "id": 2984,
+      "name": "Carol Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2984_dragon_carol_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "l",
+        "pr",
+        "i"
+      ]
+    },
+    {
+      "id": 2768,
+      "name": "Corrupted Chaos Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "f",
+        "d",
+        "pu"
+      ]
+    },
+    {
+      "id": 2678,
+      "name": "Corrupted Electric Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2678_dragon_corruptedelectric_b_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "el",
+        "w",
+        "m",
+        "wd"
+      ]
+    },
+    {
+      "id": 2716,
+      "name": "Corrupted Flame Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2716_dragon_corruptedflame_b_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "f",
+        "d",
+        "wr",
+        "pr"
+      ]
+    },
+    {
+      "id": 2709,
+      "name": "Corrupted Ice Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2709_dragon_corruptedices_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "d",
+        "m",
+        "pu"
+      ]
+    },
+    {
+      "id": 2717,
+      "name": "Corrupted Legend Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2717_dragon_corruptedlegend_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "l",
+        "e",
+        "pr",
+        "w"
+      ]
+    },
+    {
+      "id": 2750,
+      "name": "Corrupted Metal Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2750_dragon_corruptedmetal_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "m",
+        "el",
+        "e",
+        "l"
+      ]
+    },
+    {
+      "id": 2661,
+      "name": "Corrupted Nature Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2661_dragon_corruptednature_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "p",
+        "e",
+        "l",
+        "pr"
+      ]
+    },
+    {
+      "id": 2767,
+      "name": "Corrupted Primal Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2767_dragon_corruptedprimal_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "pr",
+        "wr",
+        "p",
+        "i"
+      ]
+    },
+    {
+      "id": 2728,
+      "name": "Corrupted Sea Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2728_dragon_corruptedwater_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "w",
+        "p",
+        "pu",
+        "li"
+      ]
+    },
+    {
+      "id": 2698,
+      "name": "Corrupted War Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2698_dragon_corruptedwar_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "d",
+        "i",
+        "pu"
+      ]
+    },
+    {
+      "id": 2785,
+      "name": "Courageous Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2785_dragon_courageouskarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "li",
+        "l",
+        "p"
+      ]
+    },
+    {
+      "id": 2969,
+      "name": "Daryl Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2969_dragon_daryl_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "so",
+        "p",
+        "i",
+        "pr"
+      ]
+    },
+    {
+      "id": 2871,
+      "name": "Determination Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2871_dragon_determinationkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "m",
+        "pu",
+        "e",
+        "el"
+      ]
+    },
+    {
+      "id": 2906,
+      "name": "Endurance Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2906_dragon_endurancekarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "li",
+        "m",
+        "pu"
+      ]
+    },
+    {
+      "id": 2522,
+      "name": "Envious Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2522_dragon_envy_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "el",
+        "m",
+        "wr",
+        "l"
+      ]
+    },
+    {
+      "id": 2819,
+      "name": "Focus Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2819_dragon_focuskarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "el",
+        "e",
+        "wr",
+        "pu"
+      ]
+    },
+    {
+      "id": 2905,
+      "name": "Fragmented Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2905_dragon_fragmentedkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "m",
+        "wd",
+        "d"
+      ]
+    },
+    {
+      "id": 2521,
+      "name": "Gluttonous Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2521_dragon_gluttony_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "e",
+        "p",
+        "pr"
+      ]
+    },
+    {
+      "id": 2802,
+      "name": "Grace Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2802_dragon_gracekarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "wd",
+        "li",
+        "f"
+      ]
+    },
+    {
+      "id": 2629,
+      "name": "Greedy Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2629_dragon_greed_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "m",
+        "i",
+        "d",
+        "pu"
+      ]
+    },
+    {
+      "id": 2888,
+      "name": "Healing Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2888_dragon_healingkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "p",
+        "li",
+        "w",
+        "f"
+      ]
+    },
+    {
+      "id": 2607,
+      "name": "Hexed Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2607_dragon_hexedvampire_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "d",
+        "f",
+        "wr"
+      ]
+    },
+    {
+      "id": 2901,
+      "name": "High Corrupted Time Dragon",
+      "rarity": "H",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2901_dragon_highcorruptedtime_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ti",
+        "wd",
+        "m",
+        "ch"
+      ]
+    },
+    {
+      "id": 3011,
+      "name": "High Master Karma Dragon",
+      "rarity": "H",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3011_dragon_highmasterkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "wd",
+        "pr",
+        "i"
+      ]
+    },
+    {
+      "id": 3109,
+      "name": "High Redemption Norn Dragon",
+      "rarity": "H",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3109_dragon_highredemptionnorn_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "dr",
+        "i",
+        "ch",
+        "wd"
+      ]
+    },
+    {
+      "id": 2788,
+      "name": "High Voodoo Vampire Dragon",
+      "rarity": "H",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "mg",
+        "d",
+        "li",
+        "f"
+      ]
+    },
+    {
+      "id": 2836,
+      "name": "Kung Flow Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2836_dragon_kungflowkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "w",
+        "el",
+        "d",
+        "wd"
+      ]
+    },
+    {
+      "id": 2998,
+      "name": "Maggie Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2998_dragon_maggie_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "bt",
+        "ti",
+        "f",
+        "p"
+      ]
+    },
+    {
+      "id": 2970,
+      "name": "Michonne Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2970_dragon_michonne_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "mg",
+        "w",
+        "ti",
+        "m"
+      ]
+    },
+    {
+      "id": 3447,
+      "name": "Morrowshade Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3447_dragon_ghostofthepast_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ti",
+        "li",
+        "pu",
+        "i"
+      ]
+    },
+    {
+      "id": 3012,
+      "name": "Negan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3012_dragon_negan_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "hp",
+        "d",
+        "w",
+        "f"
+      ]
+    },
+    {
+      "id": 3436,
+      "name": "Plushie Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3436_dragon_plushie_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "hp",
+        "e",
+        "li"
+      ]
+    },
+    {
+      "id": 2513,
+      "name": "Prideful Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2513_dragon_pride_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "w",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 2832,
+      "name": "Redemption Blade Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2832_dragon_redemptionblade_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "l",
+        "wr",
+        "li",
+        "d"
+      ]
+    },
+    {
+      "id": 2890,
+      "name": "Redemption Conquest Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2890_dragon_redemptionconquest_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "d",
+        "pu",
+        "el"
+      ]
+    },
+    {
+      "id": 2926,
+      "name": "Redemption Looter Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2926_dragon_redemptionlooter_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "p",
+        "m",
+        "pu",
+        "el"
+      ]
+    },
+    {
+      "id": 2940,
+      "name": "Redemption Malice Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2940_dragon_redemptionmalice_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "f",
+        "so",
+        "m"
+      ]
+    },
+    {
+      "id": 2854,
+      "name": "Revival Karma Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2854_dragon_revivalkarma_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "f",
+        "d",
+        "li",
+        "w"
+      ]
+    },
+    {
+      "id": 2955,
+      "name": "Rick Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2955_dragon_rick_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "dr",
+        "pr",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": 2523,
+      "name": "Sinful Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2523_dragon_rulerofsins_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "ch",
+        "wd",
+        "f",
+        "d"
+      ]
+    },
+    {
+      "id": 2612,
+      "name": "Usurper Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2612_dragon_usurpervampire_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "l",
+        "w",
+        "f",
+        "el"
+      ]
+    },
+    {
+      "id": 2514,
+      "name": "Wrathful Vampire Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2514_dragon_wrath_3.png",
+      "food_per_min": 60,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "f",
+        "el",
+        "pr"
+      ]
+    },
+    {
+      "id": 2463,
+      "name": "Dark Titan Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2463_dragon_darktitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "d",
+        "wr",
+        "i",
+        "m"
+      ]
+    },
+    {
+      "id": 2739,
+      "name": "Electric Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2739_dragon_electrictitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "el",
+        "m",
+        "f",
+        "w"
+      ]
+    },
+    {
+      "id": 2736,
+      "name": "Flame Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2736_dragon_firetitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "f",
+        "el",
+        "e",
+        "m"
+      ]
+    },
+    {
+      "id": 2737,
+      "name": "Ice Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2737_dragon_icetitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "i",
+        "e",
+        "d",
+        "p"
+      ]
+    },
+    {
+      "id": 2379,
+      "name": "Light Titan Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2379_dragon_lighttitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "li",
+        "el",
+        "f",
+        "p"
+      ]
+    },
+    {
+      "id": 2462,
+      "name": "Metal Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2462_dragon_metaltitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "m",
+        "wr",
+        "el",
+        "e"
+      ]
+    },
+    {
+      "id": 2738,
+      "name": "Nature Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2738_dragon_naturetitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "p",
+        "w",
+        "li",
+        "i"
+      ]
+    },
+    {
+      "id": 2381,
+      "name": "Primal Titan Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2381_dragon_primaltitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "pr",
+        "e",
+        "f",
+        "p"
+      ]
+    },
+    {
+      "id": 2740,
+      "name": "Pure Titan Dragon",
+      "rarity": "M",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2740_dragon_puretitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "pu",
+        "l",
+        "wr",
+        "li"
+      ]
+    },
+    {
+      "id": 2487,
+      "name": "Sea Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2487_dragon_seatitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "w",
+        "i",
+        "li",
+        "p"
+      ]
+    },
+    {
+      "id": 2488,
+      "name": "Terra Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2488_dragon_earthtitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "e",
+        "wr",
+        "d",
+        "m"
+      ]
+    },
+    {
+      "id": 2380,
+      "name": "War Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2380_dragon_wartitan_b_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "wr",
+        "f",
+        "m",
+        "d"
+      ]
+    },
+    {
+      "id": 2484,
+      "name": "Wind Titan Dragon",
+      "rarity": "L",
+      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2484_dragon_windtitan_3.png",
+      "food_per_min": 20,
+      "collect_interval": 21600,
+      "elements": [
+        "wd",
+        "el",
+        "wr",
+        "i"
+      ]
+    }
+  ]
+}
