@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-22T10:36:44.471544Z",
+  "generated_at": "2026-09-24T07:01:42.805280Z",
   "source_file": "game_config.json",
   "event_count": 77,
   "events": [
@@ -482,7 +482,7 @@
       "featured_dragons": [],
       "featured_dragon_count": 0,
       "building_id": 601,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0601_treeoflife_building_b@2x.png"
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/ui_0601_treeoflife_building@2x.png"
     },
     {
       "key": "event_island:24",
@@ -502,7 +502,7 @@
       "featured_dragons": [],
       "featured_dragon_count": 0,
       "building_id": 602,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0602_treeoflife_building_b@2x.png"
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/ui_0602_treeoflife_building@2x.png"
     },
     {
       "key": "event_island:25",
@@ -522,7 +522,7 @@
       "featured_dragons": [],
       "featured_dragon_count": 0,
       "building_id": 603,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0603_treeoflife_building_b@2x.png"
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/ui_0603_treeoflife_building@2x.png"
     },
     {
       "key": "event_island:26",
@@ -1340,7 +1340,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 921,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0921_easter2019_island@2x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/easter2019_island.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019_b.zip"
     },
     {
@@ -2024,7 +2024,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 921,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0921_easter2019_island@2x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/easter2019_island.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_easter2019.zip"
     },
     {
@@ -2081,7 +2081,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11986,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_music_fest_island@2x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/music_fest_island.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_musicfest.zip"
     },
     {
@@ -2680,7 +2680,7 @@
       ],
       "featured_dragon_count": 5,
       "building_id": 11593,
-      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/ui_11593_norsegods_island%402x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/norsegods_island.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_norse_gods.zip"
     },
     {
@@ -3093,7 +3093,7 @@
       ],
       "featured_dragon_count": 14,
       "building_id": 11606,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_11606_academytrials_island@2x.png",
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/academytrials_island.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_dragon_academy.zip"
     },
     {
