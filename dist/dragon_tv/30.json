@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:20Z",
+  "generated_at": "2026-09-24T17:14:25Z",
   "collections": [
     {
       "id": 3006,
@@ -42884,13 +42884,14 @@
               "rewards": [
                 {
                   "id": 2637,
-                  "name": "Purple Egg",
+                  "name": "Purple Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2637_dragon_purple_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2637_dragon_purple_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2637_dragon_purple_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

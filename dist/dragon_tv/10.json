@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:24Z",
   "collections": [
     {
       "id": 3018,
@@ -44125,13 +44125,14 @@
               "rewards": [
                 {
                   "id": 2601,
-                  "name": "Coven Egg",
+                  "name": "Coven Dragon",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2601_dragon_coven_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

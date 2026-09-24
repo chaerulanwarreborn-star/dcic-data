@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:24Z",
   "collections": [
     {
       "id": 4024,
@@ -42351,13 +42351,14 @@
               "rewards": [
                 {
                   "id": 2003,
-                  "name": "Scorer-T Egg",
+                  "name": "Scorer-T Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2003_dragon_scorert_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2003_dragon_scorert_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2003_dragon_scorert_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -44665,13 +44666,14 @@
               "rewards": [
                 {
                   "id": 3356,
-                  "name": "Chihua-ha-ha Egg",
+                  "name": "Chihua-ha-ha Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3356_dragon_chihuahaha_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3356_dragon_chihuahaha_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3356_dragon_chihuahaha_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

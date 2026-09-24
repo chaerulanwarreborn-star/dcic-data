@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:23Z",
   "collections": [
     {
       "id": 3011,
@@ -46397,13 +46397,14 @@
               "rewards": [
                 {
                   "id": 2640,
-                  "name": "Red Egg",
+                  "name": "Red Dragon",
                   "rarity": "M",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2640_dragon_red_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2640_dragon_red_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2640_dragon_red_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

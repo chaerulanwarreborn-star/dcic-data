@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:23Z",
   "collections": [
     {
       "id": 3010,
@@ -2504,13 +2504,14 @@
               "rewards": [
                 {
                   "id": 1044,
-                  "name": "Poo Egg",
+                  "name": "Poo Dragon",
                   "rarity": "R",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1044_dragon_shit_b_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1044_dragon_shit_b_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1044_dragon_shit_b_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

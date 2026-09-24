@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:24Z",
   "collections": [
     {
       "id": 3015,
@@ -46554,13 +46554,14 @@
               "rewards": [
                 {
                   "id": 1665,
-                  "name": "Third Birthday Dragon  Egg",
+                  "name": "Third Birthday Dragon ",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1665_dragon_thirdbirthday_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1665_dragon_thirdbirthday_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1665_dragon_thirdbirthday_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

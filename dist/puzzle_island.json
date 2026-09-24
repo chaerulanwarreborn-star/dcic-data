@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:22Z",
+  "generated_at": "2026-09-24T17:14:28Z",
   "count": 2,
   "islands": [
     {
@@ -871,13 +871,14 @@
               "rewards": [
                 {
                   "id": 1321,
-                  "name": "Easter Egg",
+                  "name": "Easter Dragon",
                   "rarity": "R",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1321_dragon_easter_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -895,13 +896,14 @@
               "rewards": [
                 {
                   "id": 1451,
-                  "name": "Clay Egg",
+                  "name": "Clay Dragon",
                   "rarity": "V",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1451_dragon_clay_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1451_dragon_clay_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1451_dragon_clay_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -919,13 +921,14 @@
               "rewards": [
                 {
                   "id": 1691,
-                  "name": "Peevish Egg",
+                  "name": "Peevish Dragon",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1691_dragon_grumpy_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1691_dragon_grumpy_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -943,13 +946,14 @@
               "rewards": [
                 {
                   "id": 2838,
-                  "name": "Red Crested Egg",
+                  "name": "Red Crested Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2838_dragon_redcrested_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2838_dragon_redcrested_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -967,13 +971,14 @@
               "rewards": [
                 {
                   "id": 3352,
-                  "name": "Eggspulsion Egg",
+                  "name": "Eggspulsion Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3352_dragon_eggspulsion_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3352_dragon_eggspulsion_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -3042,13 +3047,14 @@
               "rewards": [
                 {
                   "id": 2340,
-                  "name": "Pyramid Egg",
+                  "name": "Pyramid Dragon",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2340_dragon_pyramid_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2340_dragon_pyramid_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -3066,13 +3072,14 @@
               "rewards": [
                 {
                   "id": 2322,
-                  "name": "Prowling Egg",
+                  "name": "Prowling Dragon",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2322_dragon_prowling_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -3090,13 +3097,14 @@
               "rewards": [
                 {
                   "id": 2283,
-                  "name": "Abnormal Egg",
+                  "name": "Abnormal Dragon",
                   "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2283_dragon_abnormal_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2283_dragon_abnormal_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:02:19Z",
+  "generated_at": "2026-09-24T17:14:24Z",
   "collections": [
     {
       "id": 3013,
@@ -44731,13 +44731,14 @@
               "rewards": [
                 {
                   "id": 3395,
-                  "name": "Spellcaster Egg",
+                  "name": "Spellcaster Dragon",
                   "rarity": "L",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_0@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_0@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3395_dragon_spellcaster_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3395_dragon_spellcaster_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3395_dragon_spellcaster_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

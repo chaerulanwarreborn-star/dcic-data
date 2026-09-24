@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T14:02:15Z",
+  "generated_at": "2026-09-24T17:14:19Z",
   "quest_count": 158,
   "permanent_count": 45,
   "event_count": 113,
@@ -158,13 +158,14 @@
           "rewards": [
             {
               "id": 1087,
-              "name": "Aztec Egg",
+              "name": "Aztec Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1087_dragon_aztec_b_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1087_dragon_aztec_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1087_dragon_aztec_b_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -946,13 +947,14 @@
             },
             {
               "id": 2397,
-              "name": "Flame Knight Egg",
+              "name": "Flame Knight Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2397_dragon_fireknight_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2397_dragon_fireknight_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2397_dragon_fireknight_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -1750,13 +1752,14 @@
             },
             {
               "id": 2212,
-              "name": "Maki Egg",
+              "name": "Maki Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2212_dragon_maki_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2212_dragon_maki_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2212_dragon_maki_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -2653,13 +2656,14 @@
             },
             {
               "id": 2267,
-              "name": "Starhunter Egg",
+              "name": "Starhunter Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2267_dragon_starhunter_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2267_dragon_starhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2267_dragon_starhunter_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -3567,13 +3571,14 @@
             },
             {
               "id": 2232,
-              "name": "Chibi-Chum Egg",
+              "name": "Chibi-Chum Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2232_dragon_chibichum_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2232_dragon_chibichum_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2232_dragon_chibichum_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -4551,13 +4556,14 @@
             },
             {
               "id": 2370,
-              "name": "Blaze Egg",
+              "name": "Blaze Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2370_dragon_blaze_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2370_dragon_blaze_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2370_dragon_blaze_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -5559,13 +5565,14 @@
             },
             {
               "id": 1967,
-              "name": "Neo-Akimori Dragon  Egg",
+              "name": "Neo-Akimori Dragon ",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1967_dragon_neoakimori_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1967_dragon_neoakimori_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1967_dragon_neoakimori_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -6547,13 +6554,14 @@
             },
             {
               "id": 1195,
-              "name": "Black Knight Egg",
+              "name": "Black Knight Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1195_dragon_blackknight_d_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1195_dragon_blackknight_d_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1195_dragon_blackknight_d_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -7551,13 +7559,14 @@
             },
             {
               "id": 1273,
-              "name": "Twister Egg",
+              "name": "Twister Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1273_dragon_twister_b_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1273_dragon_twister_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1273_dragon_twister_b_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -8541,13 +8550,14 @@
             },
             {
               "id": 1130,
-              "name": "Lava Egg",
+              "name": "Lava Dragon",
               "rarity": "R",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1130_dragon_lava_d_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1130_dragon_lava_d_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1130_dragon_lava_d_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -9698,13 +9708,14 @@
             },
             {
               "id": 1471,
-              "name": "Box Egg",
+              "name": "Box Dragon",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1471_dragon_box_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1471_dragon_box_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1471_dragon_box_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -10686,13 +10697,14 @@
             },
             {
               "id": 1453,
-              "name": "Twin Egg",
+              "name": "Twin Dragon",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1453_dragon_twin_b_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1453_dragon_twin_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1453_dragon_twin_b_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -11687,13 +11699,14 @@
             },
             {
               "id": 1192,
-              "name": "Saturn Egg",
+              "name": "Saturn Dragon",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1192_dragon_saturn_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1192_dragon_saturn_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1192_dragon_saturn_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -12688,13 +12701,14 @@
             },
             {
               "id": 1378,
-              "name": "Genie Egg",
+              "name": "Genie Dragon",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1378_dragon_ginie_b_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1378_dragon_ginie_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1378_dragon_ginie_b_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -13690,13 +13704,14 @@
             },
             {
               "id": 1183,
-              "name": "Loki Egg",
+              "name": "Loki Dragon",
               "rarity": "V",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1183_dragon_loki_c_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1183_dragon_loki_c_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1183_dragon_loki_c_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -14694,13 +14709,14 @@
             },
             {
               "id": 1382,
-              "name": "Albino Egg",
+              "name": "Albino Dragon",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1382_dragon_albino_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1382_dragon_albino_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1382_dragon_albino_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -15711,13 +15727,14 @@
             },
             {
               "id": 1296,
-              "name": "Sunset Egg",
+              "name": "Sunset Dragon",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1296_dragon_sunset_c_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1296_dragon_sunset_c_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1296_dragon_sunset_c_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -16713,13 +16730,14 @@
             },
             {
               "id": 1612,
-              "name": "Sky Queen Egg",
+              "name": "Sky Queen Dragon",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1612_dragon_skyqueen_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1612_dragon_skyqueen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1612_dragon_skyqueen_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -17700,13 +17718,14 @@
             },
             {
               "id": 1577,
-              "name": "Boreal Egg",
+              "name": "Boreal Dragon",
               "rarity": "E",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1577_boreal_dragon_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1577_boreal_dragon_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1577_boreal_dragon_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -18688,13 +18707,14 @@
             },
             {
               "id": 1336,
-              "name": "Kaiju Egg",
+              "name": "Kaiju Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1336_dragon_godzilla_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1336_dragon_godzilla_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1336_dragon_godzilla_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -19917,13 +19937,14 @@
             },
             {
               "id": 1569,
-              "name": "Obscure Egg",
+              "name": "Obscure Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1569_obscure_dragon_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1569_obscure_dragon_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1569_obscure_dragon_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -21045,13 +21066,14 @@
             },
             {
               "id": 1546,
-              "name": "Molluck Egg",
+              "name": "Molluck Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1546_dragon_molluck_b_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1546_dragon_molluck_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1546_dragon_molluck_b_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -21963,13 +21985,14 @@
             },
             {
               "id": 1544,
-              "name": "Dragotron Egg",
+              "name": "Dragotron Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1544_dragotron_dragon_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1544_dragotron_dragon_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1544_dragotron_dragon_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -23364,13 +23387,14 @@
             },
             {
               "id": 1333,
-              "name": "Felidae Egg",
+              "name": "Felidae Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1333_dragon_felidae_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1333_dragon_felidae_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1333_dragon_felidae_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -24486,13 +24510,14 @@
             },
             {
               "id": 1514,
-              "name": "Rockfire Egg",
+              "name": "Rockfire Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1514_dragon_rockfire_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1514_dragon_rockfire_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1514_dragon_rockfire_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -25705,13 +25730,14 @@
             },
             {
               "id": 1533,
-              "name": "Infamous Egg",
+              "name": "Infamous Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1533_dragon_tremendous_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1533_dragon_tremendous_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1533_dragon_tremendous_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -27219,13 +27245,14 @@
             },
             {
               "id": 1992,
-              "name": "Delicate Egg",
+              "name": "Delicate Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1992_dragon_delicate_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1992_dragon_delicate_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1992_dragon_delicate_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -28283,13 +28310,14 @@
             },
             {
               "id": 2008,
-              "name": "Petrified Egg",
+              "name": "Petrified Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2008_dragon_petrified_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2008_dragon_petrified_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2008_dragon_petrified_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -29337,13 +29365,14 @@
             },
             {
               "id": 2009,
-              "name": "Magician Egg",
+              "name": "Magician Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2009_dragon_magician_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2009_dragon_magician_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2009_dragon_magician_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -30402,13 +30431,14 @@
             },
             {
               "id": 1985,
-              "name": "Two-Colored Egg",
+              "name": "Two-Colored Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1985_dragon_twocolored_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1985_dragon_twocolored_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1985_dragon_twocolored_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -31456,13 +31486,14 @@
             },
             {
               "id": 1986,
-              "name": "Blossom Egg",
+              "name": "Blossom Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1986_dragon_blossom_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1986_dragon_blossom_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1986_dragon_blossom_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -32521,13 +32552,14 @@
             },
             {
               "id": 1772,
-              "name": "Hi-Tech Egg",
+              "name": "Hi-Tech Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1772_dragon_hitech_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1772_dragon_hitech_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1772_dragon_hitech_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -33575,13 +33607,14 @@
             },
             {
               "id": 2012,
-              "name": "Acrylic Egg",
+              "name": "Acrylic Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2012_dragon_acrylic_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2012_dragon_acrylic_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2012_dragon_acrylic_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -34584,13 +34617,14 @@
           "rewards": [
             {
               "id": 2947,
-              "name": "Scraveton Egg",
+              "name": "Scraveton Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2947_dragon_scraveton_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2947_dragon_scraveton_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2947_dragon_scraveton_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -35590,13 +35624,14 @@
           "rewards": [
             {
               "id": 3107,
-              "name": "Duo-Dance Egg",
+              "name": "Duo-Dance Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3107_dragon_duodance_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3107_dragon_duodance_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3107_dragon_duodance_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -36596,13 +36631,14 @@
           "rewards": [
             {
               "id": 2695,
-              "name": "Dragon Clone III Egg",
+              "name": "Dragon Clone III",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2695_dragon_clone3_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2695_dragon_clone3_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2695_dragon_clone3_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -37602,13 +37638,14 @@
           "rewards": [
             {
               "id": 3076,
-              "name": "El Tiro Titanium Egg",
+              "name": "El Tiro Titanium Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3076_dragon_eltirotitanium_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3076_dragon_eltirotitanium_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3076_dragon_eltirotitanium_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -38608,13 +38645,14 @@
           "rewards": [
             {
               "id": 2820,
-              "name": "Assassin Egg",
+              "name": "Assassin Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2820_dragon_assassin_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2820_dragon_assassin_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2820_dragon_assassin_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -39614,13 +39652,14 @@
           "rewards": [
             {
               "id": 3104,
-              "name": "Duo-Delight Egg",
+              "name": "Duo-Delight Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3104_dragon_duodelight_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3104_dragon_duodelight_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3104_dragon_duodelight_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -40620,13 +40659,14 @@
           "rewards": [
             {
               "id": 3068,
-              "name": "Incinerate Eternal Egg",
+              "name": "Incinerate Eternal Dragon",
               "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_0@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_0@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3068_dragon_incinerateeternal_3.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3068_dragon_incinerateeternal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3068_dragon_incinerateeternal_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
