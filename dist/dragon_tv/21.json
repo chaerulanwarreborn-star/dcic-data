@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:57:32Z",
+  "generated_at": "2026-09-24T11:38:05Z",
   "collections": [
     {
       "id": 4021,
@@ -35470,9 +35470,9 @@
                 {
                   "kind": "sticker_pack",
                   "size": "valentine",
-                  "name": "Valentine Sticker Pack",
+                  "name": "Featured Pack",
                   "amount": 1,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_saintvalentine/HD/ic_stickers_pack_saintvalentine.png",
                   "popup": {
                     "kind": "sticker_pack",
                     "id": "valentine"
@@ -38975,9 +38975,9 @@
                 {
                   "kind": "sticker_pack",
                   "size": "vikingcollection",
-                  "name": "Vikingcollection Sticker Pack",
+                  "name": "Vikings Set",
                   "amount": 1,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ui_basic_chest_stickerpack_s_not_owned@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_vikings/HD/ic_stickers_pack_vikings.png",
                   "popup": {
                     "kind": "sticker_pack",
                     "id": "vikingcollection"
