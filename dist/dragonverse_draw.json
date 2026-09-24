@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-24T08:44:12Z",
+  "generated_at": "2026-09-24T10:13:07Z",
   "event_count": 183,
   "events": [
     {
@@ -82718,7 +82718,7 @@
       "end_ts": 1790243940,
       "start_iso": "2026-09-23T10:00:00Z",
       "end_iso": "2026-09-24T09:59:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -83684,7 +83684,7 @@
       "end_ts": 1790330340,
       "start_iso": "2026-09-24T10:00:00Z",
       "end_iso": "2026-09-25T09:59:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
@@ -84813,39 +84813,6 @@
         },
         {
           "position": 5,
-          "reward_weight_id": 224,
-          "reward_id": 188,
-          "weight_id": 5,
-          "weight": 30,
-          "ui_style": "MIDD_VALUE",
-          "reward": {
-            "kind": "pet_food_basket",
-            "size": "l",
-            "name": "L Pet Food Basket",
-            "amount": 1,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
-            "popup": {
-              "kind": "pet_food_basket",
-              "id": "l"
-            }
-          },
-          "items": [
-            {
-              "kind": "pet_food_basket",
-              "size": "l",
-              "name": "L Pet Food Basket",
-              "amount": 1,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
-              "popup": {
-                "kind": "pet_food_basket",
-                "id": "l"
-              }
-            }
-          ],
-          "probability": 3.0
-        },
-        {
-          "position": 6,
           "reward_weight_id": 311,
           "reward_id": 272,
           "weight_id": 6,
@@ -84880,7 +84847,7 @@
           "probability": 1.0
         },
         {
-          "position": 7,
+          "position": 6,
           "reward_weight_id": 312,
           "reward_id": 273,
           "weight_id": 7,
@@ -84915,7 +84882,7 @@
           "probability": 1.5
         },
         {
-          "position": 8,
+          "position": 7,
           "reward_weight_id": 310,
           "reward_id": 271,
           "weight_id": 5,
@@ -84945,6 +84912,39 @@
               },
               "kind": "dragon_orbs",
               "amount": 120
+            }
+          ],
+          "probability": 3.0
+        },
+        {
+          "position": 8,
+          "reward_weight_id": 224,
+          "reward_id": 188,
+          "weight_id": 5,
+          "weight": 30,
+          "ui_style": "MIDD_VALUE",
+          "reward": {
+            "kind": "pet_food_basket",
+            "size": "l",
+            "name": "L Pet Food Basket",
+            "amount": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+            "popup": {
+              "kind": "pet_food_basket",
+              "id": "l"
+            }
+          },
+          "items": [
+            {
+              "kind": "pet_food_basket",
+              "size": "l",
+              "name": "L Pet Food Basket",
+              "amount": 1,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+              "popup": {
+                "kind": "pet_food_basket",
+                "id": "l"
+              }
             }
           ],
           "probability": 3.0
@@ -87805,39 +87805,6 @@
         },
         {
           "position": 5,
-          "reward_weight_id": 224,
-          "reward_id": 188,
-          "weight_id": 5,
-          "weight": 30,
-          "ui_style": "MIDD_VALUE",
-          "reward": {
-            "kind": "pet_food_basket",
-            "size": "l",
-            "name": "L Pet Food Basket",
-            "amount": 1,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
-            "popup": {
-              "kind": "pet_food_basket",
-              "id": "l"
-            }
-          },
-          "items": [
-            {
-              "kind": "pet_food_basket",
-              "size": "l",
-              "name": "L Pet Food Basket",
-              "amount": 1,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
-              "popup": {
-                "kind": "pet_food_basket",
-                "id": "l"
-              }
-            }
-          ],
-          "probability": 3.0
-        },
-        {
-          "position": 6,
           "reward_weight_id": 314,
           "reward_id": 275,
           "weight_id": 6,
@@ -87872,7 +87839,7 @@
           "probability": 1.0
         },
         {
-          "position": 7,
+          "position": 6,
           "reward_weight_id": 315,
           "reward_id": 276,
           "weight_id": 7,
@@ -87907,7 +87874,7 @@
           "probability": 1.5
         },
         {
-          "position": 8,
+          "position": 7,
           "reward_weight_id": 313,
           "reward_id": 274,
           "weight_id": 5,
@@ -87937,6 +87904,39 @@
               },
               "kind": "dragon_orbs",
               "amount": 120
+            }
+          ],
+          "probability": 3.0
+        },
+        {
+          "position": 8,
+          "reward_weight_id": 224,
+          "reward_id": 188,
+          "weight_id": 5,
+          "weight": 30,
+          "ui_style": "MIDD_VALUE",
+          "reward": {
+            "kind": "pet_food_basket",
+            "size": "l",
+            "name": "L Pet Food Basket",
+            "amount": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+            "popup": {
+              "kind": "pet_food_basket",
+              "id": "l"
+            }
+          },
+          "items": [
+            {
+              "kind": "pet_food_basket",
+              "size": "l",
+              "name": "L Pet Food Basket",
+              "amount": 1,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+              "popup": {
+                "kind": "pet_food_basket",
+                "id": "l"
+              }
             }
           ],
           "probability": 3.0

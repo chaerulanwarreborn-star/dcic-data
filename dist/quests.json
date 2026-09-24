@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T08:44:10Z",
+  "generated_at": "2026-09-24T10:13:05Z",
   "quest_count": 158,
   "permanent_count": 45,
   "event_count": 113,
@@ -179451,7 +179451,7 @@
       "end_ts": 1790244000,
       "start_iso": "2026-09-21T10:00:00Z",
       "end_iso": "2026-09-24T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 11,
       "stages": [
         {
@@ -180757,7 +180757,7 @@
       "end_ts": 1790244000,
       "start_iso": "2026-09-21T10:00:00Z",
       "end_iso": "2026-09-24T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 11,
       "stages": [
         {
@@ -184274,7 +184274,7 @@
       "end_ts": 1790244000,
       "start_iso": "2026-09-21T10:00:00Z",
       "end_iso": "2026-09-24T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -184890,7 +184890,7 @@
       "end_ts": 1791194400,
       "start_iso": "2026-09-24T10:00:00Z",
       "end_iso": "2026-10-05T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 10,
       "stages": [
         {
@@ -185506,7 +185506,7 @@
       "end_ts": 1792663200,
       "start_iso": "2026-09-24T10:00:00Z",
       "end_iso": "2026-10-22T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 7,
       "stages": [
         {
@@ -186053,9 +186053,9 @@
             {
               "kind": "skin",
               "id": 3415,
-              "name": "Skin 3415",
+              "name": "Poisoned Petal",
               "amount": 1,
-              "image_url": "",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3496_dragon_stainedbelladone_skin1_3.png",
               "popup": {
                 "kind": "skin",
                 "id": 3415
