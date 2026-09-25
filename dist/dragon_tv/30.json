@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T08:00:44Z",
+  "generated_at": "2026-09-25T09:10:40Z",
   "collections": [
     {
       "id": 3006,
@@ -46083,7 +46083,19 @@
             {
               "position": 20,
               "reward_id": 945,
-              "rewards": []
+              "rewards": [
+                {
+                  "kind": "item",
+                  "id": 11970,
+                  "name": "School Hatching",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11970_deco_schoolhatching@2x.png",
+                  "popup": {
+                    "kind": "item",
+                    "id": 11970
+                  }
+                }
+              ]
             }
           ]
         },

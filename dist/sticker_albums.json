@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-25T08:00:40Z",
+  "generated_at": "2026-09-25T09:10:34Z",
   "album_count": 4,
   "set_count": 41,
   "sticker_count": 417,
@@ -11442,7 +11442,7 @@
             {
               "id": 140120,
               "name": "NightBloom",
-              "description": "By simply owning this Skin, the poison applied by your dragon has more damage and will spread to other dragons when the affected dragon is knocked out.",
+              "description": "By simply owning this Skin, the poison applied by your dragon deals more damage and spreads to all enemy dragons immediately.",
               "rarity": "rarity_ace_5",
               "rarity_name": "Rarity Ace 5",
               "rarity_type": "ace",
