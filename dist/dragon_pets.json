@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:14:25Z",
+  "generated_at": "2026-09-25T08:00:45Z",
   "pets": [
     {
       "id": 1,
@@ -15186,6 +15186,2822 @@
       }
     }
   ],
+  "basket_variants": {
+    "s": [
+      {
+        "chest_id": 21001,
+        "gatcha_id": 21001,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21001,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21002,
+        "gatcha_id": 21002,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21002,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21003,
+        "gatcha_id": 21003,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21003,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21004,
+        "gatcha_id": 21004,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21004,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21005,
+        "gatcha_id": 21005,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21005,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21006,
+        "gatcha_id": 21006,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21006,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21007,
+        "gatcha_id": 21007,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21007,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21008,
+        "gatcha_id": 21008,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21008,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21009,
+        "gatcha_id": 21009,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21009,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21010,
+        "gatcha_id": 21010,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21010,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21011,
+        "gatcha_id": 21011,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21011,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21012,
+        "gatcha_id": 21012,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21012,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21013,
+        "gatcha_id": 21013,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21013,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21014,
+        "gatcha_id": 21014,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21014,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21015,
+        "gatcha_id": 21015,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21015,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21016,
+        "gatcha_id": 21016,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21016,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21017,
+        "gatcha_id": 21017,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21017,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21018,
+        "gatcha_id": 21018,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21018,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21019,
+        "gatcha_id": 21019,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21019,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21020,
+        "gatcha_id": 21020,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21020,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21021,
+        "gatcha_id": 21021,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21021,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21022,
+        "gatcha_id": 21022,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21022,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21023,
+        "gatcha_id": 21023,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21023,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21024,
+        "gatcha_id": 21024,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21024,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21025,
+        "gatcha_id": 21025,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21025,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21026,
+        "gatcha_id": 21026,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 1. L60D $0-5 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21026,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21027,
+        "gatcha_id": 21027,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 2. L60D $5-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21027,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21028,
+        "gatcha_id": 21028,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 3. L60D $25-50 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21028,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21029,
+        "gatcha_id": 21029,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $50-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21029,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21030,
+        "gatcha_id": 21030,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 5. L60D $100+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21030,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21091,
+        "gatcha_id": 21091,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21091,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21092,
+        "gatcha_id": 21092,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21092,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21093,
+        "gatcha_id": 21093,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21093,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21094,
+        "gatcha_id": 21094,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21094,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21095,
+        "gatcha_id": 21095,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21095,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21096,
+        "gatcha_id": 21096,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21096,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21097,
+        "gatcha_id": 21097,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21097,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21098,
+        "gatcha_id": 21098,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21098,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21099,
+        "gatcha_id": 21099,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21099,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21100,
+        "gatcha_id": 21100,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21100,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21101,
+        "gatcha_id": 21101,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21101,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21102,
+        "gatcha_id": 21102,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21102,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21103,
+        "gatcha_id": 21103,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21103,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21104,
+        "gatcha_id": 21104,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21104,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21105,
+        "gatcha_id": 21105,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21105,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21106,
+        "gatcha_id": 21106,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21106,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21107,
+        "gatcha_id": 21107,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-200 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21107,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21108,
+        "gatcha_id": 21108,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $200+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21108,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21145,
+        "gatcha_id": 21145,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21145,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21146,
+        "gatcha_id": 21146,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21146,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21147,
+        "gatcha_id": 21147,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21147,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21148,
+        "gatcha_id": 21148,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21148,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21149,
+        "gatcha_id": 21149,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21149,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21150,
+        "gatcha_id": 21150,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21150,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21151,
+        "gatcha_id": 21151,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21151,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21152,
+        "gatcha_id": 21152,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21152,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21153,
+        "gatcha_id": 21153,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21153,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21154,
+        "gatcha_id": 21154,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21154,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21155,
+        "gatcha_id": 21155,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21155,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21156,
+        "gatcha_id": 21156,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21156,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21157,
+        "gatcha_id": 21157,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21157,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21158,
+        "gatcha_id": 21158,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21158,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21159,
+        "gatcha_id": 21159,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21159,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21160,
+        "gatcha_id": 21160,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21160,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21161,
+        "gatcha_id": 21161,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 7. L60D $100-175 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21161,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21162,
+        "gatcha_id": 21162,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 8. L60D $175+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21162,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21199,
+        "gatcha_id": 21199,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21199,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21200,
+        "gatcha_id": 21200,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21200,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21201,
+        "gatcha_id": 21201,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21201,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21202,
+        "gatcha_id": 21202,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21202,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21203,
+        "gatcha_id": 21203,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21203,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21204,
+        "gatcha_id": 21204,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21204,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21217,
+        "gatcha_id": 21217,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21217,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21218,
+        "gatcha_id": 21218,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21218,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21219,
+        "gatcha_id": 21219,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21219,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21220,
+        "gatcha_id": 21220,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21220,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21221,
+        "gatcha_id": 21221,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21221,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21222,
+        "gatcha_id": 21222,
+        "name": "Small Pet Food Basket",
+        "variant_note": "Pet Food / S / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_s.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21222,
+          "type": "generic"
+        }
+      }
+    ],
+    "m": [
+      {
+        "chest_id": 21031,
+        "gatcha_id": 21031,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21031,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21032,
+        "gatcha_id": 21032,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21032,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21033,
+        "gatcha_id": 21033,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21033,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21034,
+        "gatcha_id": 21034,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21034,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21035,
+        "gatcha_id": 21035,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21035,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21036,
+        "gatcha_id": 21036,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21036,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21037,
+        "gatcha_id": 21037,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21037,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21038,
+        "gatcha_id": 21038,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21038,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21039,
+        "gatcha_id": 21039,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21039,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21040,
+        "gatcha_id": 21040,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21040,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21041,
+        "gatcha_id": 21041,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21041,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21042,
+        "gatcha_id": 21042,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21042,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21043,
+        "gatcha_id": 21043,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21043,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21044,
+        "gatcha_id": 21044,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21044,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21045,
+        "gatcha_id": 21045,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21045,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21046,
+        "gatcha_id": 21046,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21046,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21047,
+        "gatcha_id": 21047,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21047,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21048,
+        "gatcha_id": 21048,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21048,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21049,
+        "gatcha_id": 21049,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21049,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21050,
+        "gatcha_id": 21050,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21050,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21051,
+        "gatcha_id": 21051,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21051,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21052,
+        "gatcha_id": 21052,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21052,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21053,
+        "gatcha_id": 21053,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21053,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21054,
+        "gatcha_id": 21054,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21054,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21055,
+        "gatcha_id": 21055,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21055,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21056,
+        "gatcha_id": 21056,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 1. L60D $0-5 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21056,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21057,
+        "gatcha_id": 21057,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 2. L60D $5-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21057,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21058,
+        "gatcha_id": 21058,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 3. L60D $25-50 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21058,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21059,
+        "gatcha_id": 21059,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $50-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21059,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21060,
+        "gatcha_id": 21060,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 5. L60D $100+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21060,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21109,
+        "gatcha_id": 21109,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21109,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21110,
+        "gatcha_id": 21110,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21110,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21111,
+        "gatcha_id": 21111,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21111,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21112,
+        "gatcha_id": 21112,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21112,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21113,
+        "gatcha_id": 21113,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21113,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21114,
+        "gatcha_id": 21114,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21114,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21115,
+        "gatcha_id": 21115,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21115,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21116,
+        "gatcha_id": 21116,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21116,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21117,
+        "gatcha_id": 21117,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21117,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21118,
+        "gatcha_id": 21118,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21118,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21119,
+        "gatcha_id": 21119,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21119,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21120,
+        "gatcha_id": 21120,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21120,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21121,
+        "gatcha_id": 21121,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21121,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21122,
+        "gatcha_id": 21122,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21122,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21123,
+        "gatcha_id": 21123,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21123,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21124,
+        "gatcha_id": 21124,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21124,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21125,
+        "gatcha_id": 21125,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-200 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21125,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21126,
+        "gatcha_id": 21126,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $200+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21126,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21163,
+        "gatcha_id": 21163,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21163,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21164,
+        "gatcha_id": 21164,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21164,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21165,
+        "gatcha_id": 21165,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21165,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21166,
+        "gatcha_id": 21166,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21166,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21167,
+        "gatcha_id": 21167,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21167,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21168,
+        "gatcha_id": 21168,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21168,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21169,
+        "gatcha_id": 21169,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21169,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21170,
+        "gatcha_id": 21170,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21170,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21171,
+        "gatcha_id": 21171,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21171,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21172,
+        "gatcha_id": 21172,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21172,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21173,
+        "gatcha_id": 21173,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21173,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21174,
+        "gatcha_id": 21174,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21174,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21175,
+        "gatcha_id": 21175,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21175,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21176,
+        "gatcha_id": 21176,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21176,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21177,
+        "gatcha_id": 21177,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21177,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21178,
+        "gatcha_id": 21178,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21178,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21179,
+        "gatcha_id": 21179,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 7. L60D $100-175 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21179,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21180,
+        "gatcha_id": 21180,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 8. L60D $175+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21180,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21205,
+        "gatcha_id": 21205,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21205,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21206,
+        "gatcha_id": 21206,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21206,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21207,
+        "gatcha_id": 21207,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21207,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21208,
+        "gatcha_id": 21208,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21208,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21209,
+        "gatcha_id": 21209,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21209,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21210,
+        "gatcha_id": 21210,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21210,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21223,
+        "gatcha_id": 21223,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21223,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21224,
+        "gatcha_id": 21224,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21224,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21225,
+        "gatcha_id": 21225,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21225,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21226,
+        "gatcha_id": 21226,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21226,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21227,
+        "gatcha_id": 21227,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21227,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21228,
+        "gatcha_id": 21228,
+        "name": "Medium Pet Food Basket",
+        "variant_note": "Pet Food / M / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_m.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21228,
+          "type": "generic"
+        }
+      }
+    ],
+    "l": [
+      {
+        "chest_id": 21061,
+        "gatcha_id": 21061,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21061,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21062,
+        "gatcha_id": 21062,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21062,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21063,
+        "gatcha_id": 21063,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21063,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21064,
+        "gatcha_id": 21064,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21064,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21065,
+        "gatcha_id": 21065,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21065,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21066,
+        "gatcha_id": 21066,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21066,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21067,
+        "gatcha_id": 21067,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21067,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21068,
+        "gatcha_id": 21068,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21068,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21069,
+        "gatcha_id": 21069,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21069,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21070,
+        "gatcha_id": 21070,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21070,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21071,
+        "gatcha_id": 21071,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21071,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21072,
+        "gatcha_id": 21072,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21072,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21073,
+        "gatcha_id": 21073,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21073,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21074,
+        "gatcha_id": 21074,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21074,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21075,
+        "gatcha_id": 21075,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21075,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21076,
+        "gatcha_id": 21076,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21076,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21077,
+        "gatcha_id": 21077,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21077,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21078,
+        "gatcha_id": 21078,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21078,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21079,
+        "gatcha_id": 21079,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21079,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21080,
+        "gatcha_id": 21080,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21080,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21081,
+        "gatcha_id": 21081,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21081,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21082,
+        "gatcha_id": 21082,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21082,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21083,
+        "gatcha_id": 21083,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21083,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21084,
+        "gatcha_id": 21084,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21084,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21085,
+        "gatcha_id": 21085,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21085,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21086,
+        "gatcha_id": 21086,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 1. L60D $0-5 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21086,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21087,
+        "gatcha_id": 21087,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 2. L60D $5-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21087,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21088,
+        "gatcha_id": 21088,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 3. L60D $25-50 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21088,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21089,
+        "gatcha_id": 21089,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $50-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21089,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21090,
+        "gatcha_id": 21090,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 5. L60D $100+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21090,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21127,
+        "gatcha_id": 21127,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21127,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21128,
+        "gatcha_id": 21128,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21128,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21129,
+        "gatcha_id": 21129,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21129,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21130,
+        "gatcha_id": 21130,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21130,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21131,
+        "gatcha_id": 21131,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21131,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21132,
+        "gatcha_id": 21132,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21132,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21133,
+        "gatcha_id": 21133,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21133,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21134,
+        "gatcha_id": 21134,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21134,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21135,
+        "gatcha_id": 21135,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21135,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21136,
+        "gatcha_id": 21136,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21136,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21137,
+        "gatcha_id": 21137,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21137,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21138,
+        "gatcha_id": 21138,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21138,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21139,
+        "gatcha_id": 21139,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21139,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21140,
+        "gatcha_id": 21140,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21140,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21141,
+        "gatcha_id": 21141,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21141,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21142,
+        "gatcha_id": 21142,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21142,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21143,
+        "gatcha_id": 21143,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-200 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21143,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21144,
+        "gatcha_id": 21144,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $200+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21144,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21181,
+        "gatcha_id": 21181,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21181,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21182,
+        "gatcha_id": 21182,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21182,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21183,
+        "gatcha_id": 21183,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21183,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21184,
+        "gatcha_id": 21184,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21184,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21185,
+        "gatcha_id": 21185,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21185,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21186,
+        "gatcha_id": 21186,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21186,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21187,
+        "gatcha_id": 21187,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21187,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21188,
+        "gatcha_id": 21188,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21188,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21189,
+        "gatcha_id": 21189,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21189,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21190,
+        "gatcha_id": 21190,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21190,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21191,
+        "gatcha_id": 21191,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21191,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21192,
+        "gatcha_id": 21192,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21192,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21193,
+        "gatcha_id": 21193,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21193,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21194,
+        "gatcha_id": 21194,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21194,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21195,
+        "gatcha_id": 21195,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21195,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21196,
+        "gatcha_id": 21196,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 6. L60D $0-25 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21196,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21197,
+        "gatcha_id": 21197,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 7. L60D $100-175 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21197,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21198,
+        "gatcha_id": 21198,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 8. L60D $175+ / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21198,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21211,
+        "gatcha_id": 21211,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21211,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21212,
+        "gatcha_id": 21212,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21212,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21213,
+        "gatcha_id": 21213,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21213,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21214,
+        "gatcha_id": 21214,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21214,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21215,
+        "gatcha_id": 21215,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21215,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21216,
+        "gatcha_id": 21216,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21216,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21229,
+        "gatcha_id": 21229,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 80%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21229,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21230,
+        "gatcha_id": 21230,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 60%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21230,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21231,
+        "gatcha_id": 21231,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 40%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21231,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21232,
+        "gatcha_id": 21232,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 20%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21232,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21233,
+        "gatcha_id": 21233,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 10%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21233,
+          "type": "generic"
+        }
+      },
+      {
+        "chest_id": 21234,
+        "gatcha_id": 21234,
+        "name": "Large Pet Food Basket",
+        "variant_note": "Pet Food / L / 4. L60D $25-100 / 0%",
+        "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+        "popup": {
+          "kind": "chest",
+          "id": 21234,
+          "type": "generic"
+        }
+      }
+    ]
+  },
   "battle_bonus": [
     {
       "id": 1
