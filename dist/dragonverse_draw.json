@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-25T09:10:36Z",
+  "generated_at": "2026-09-28T09:38:55Z",
   "event_count": 183,
   "events": [
     {
@@ -92652,7 +92652,7 @@
       "end_ts": 1790503200,
       "start_iso": "2026-09-23T10:00:00Z",
       "end_iso": "2026-09-27T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -93136,7 +93136,7 @@
       "end_ts": 1790330340,
       "start_iso": "2026-09-24T10:00:00Z",
       "end_iso": "2026-09-25T09:59:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -93702,7 +93702,7 @@
       "end_ts": 1790416740,
       "start_iso": "2026-09-25T10:00:00Z",
       "end_iso": "2026-09-26T09:59:00Z",
-      "status": "upcoming",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -94268,7 +94268,7 @@
       "end_ts": 1790589600,
       "start_iso": "2026-09-25T10:00:00Z",
       "end_iso": "2026-09-28T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
@@ -94882,7 +94882,7 @@
       "end_ts": 1790503140,
       "start_iso": "2026-09-26T10:00:00Z",
       "end_iso": "2026-09-27T09:59:00Z",
-      "status": "upcoming",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -95448,7 +95448,7 @@
       "end_ts": 1790589540,
       "start_iso": "2026-09-27T10:00:00Z",
       "end_iso": "2026-09-28T09:59:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
