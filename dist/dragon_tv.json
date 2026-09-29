@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T11:38:06Z",
+  "generated_at": "2026-09-29T12:07:15Z",
   "count": 2487,
   "detail_shards": 32,
   "collections": [
@@ -39463,7 +39463,7 @@
     {
       "id": 2385,
       "time_pool_id": 2385,
-      "status": "current",
+      "status": "past",
       "start_ts": 1790244000,
       "end_ts": 1790330400,
       "start_iso": "2026-09-24T10:00:00Z",
@@ -39479,7 +39479,7 @@
     {
       "id": 2386,
       "time_pool_id": 2386,
-      "status": "upcoming",
+      "status": "past",
       "start_ts": 1790330400,
       "end_ts": 1790416800,
       "start_iso": "2026-09-25T10:00:00Z",
@@ -39495,7 +39495,7 @@
     {
       "id": 2387,
       "time_pool_id": 2387,
-      "status": "upcoming",
+      "status": "past",
       "start_ts": 1790416800,
       "end_ts": 1790503200,
       "start_iso": "2026-09-26T10:00:00Z",
@@ -39511,7 +39511,7 @@
     {
       "id": 2388,
       "time_pool_id": 2388,
-      "status": "upcoming",
+      "status": "past",
       "start_ts": 1790503200,
       "end_ts": 1790589600,
       "start_iso": "2026-09-27T10:00:00Z",
@@ -39527,7 +39527,7 @@
     {
       "id": 2389,
       "time_pool_id": 2389,
-      "status": "upcoming",
+      "status": "past",
       "start_ts": 1790589600,
       "end_ts": 1790676000,
       "start_iso": "2026-09-28T10:00:00Z",
@@ -39543,7 +39543,7 @@
     {
       "id": 2390,
       "time_pool_id": 2390,
-      "status": "upcoming",
+      "status": "current",
       "start_ts": 1790676000,
       "end_ts": 1790762400,
       "start_iso": "2026-09-29T10:00:00Z",

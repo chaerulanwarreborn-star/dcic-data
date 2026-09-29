@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T11:38:11Z",
-  "count": 2028,
+  "generated_at": "2026-09-29T12:07:21Z",
+  "count": 2057,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -8368,6 +8368,202 @@
       "family": "collectors_hunt_boost_token"
     },
     {
+      "key": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent",
+      "name": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent",
+      "name": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w1_1_2_years_hvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent",
+      "name": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w2_1_2_years_mvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent",
+      "name": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w2_1_2_years_mvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent",
+      "name": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w3_1_2_years_lvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent",
+      "name": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w3_1_2_years_lvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w4_3_years_hvip_100_orbs_recurrent",
+      "name": "dda_offer_w4_3_years_hvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_hvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w4_3_years_hvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w4_3_years_hvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_hvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w4_3_years_hvip_160_orbs_recurrent",
+      "name": "dda_offer_w4_3_years_hvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_hvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w4_3_years_hvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w4_3_years_hvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_hvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w4_3_years_mvip_100_orbs_recurrent",
+      "name": "dda_offer_w4_3_years_mvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_mvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w4_3_years_mvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w4_3_years_mvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_mvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w4_3_years_mvip_160_orbs_recurrent",
+      "name": "dda_offer_w4_3_years_mvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_mvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w4_3_years_mvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w4_3_years_mvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w4_3_years_mvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w5_3_years_hvip_100_orbs_recurrent",
+      "name": "dda_offer_w5_3_years_hvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w5_3_years_hvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w5_3_years_hvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w5_3_years_hvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w5_3_years_hvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w5_3_years_hvip_160_orbs_recurrent",
+      "name": "dda_offer_w5_3_years_hvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w5_3_years_hvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w5_3_years_hvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w5_3_years_hvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w5_3_years_hvip_160_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent",
+      "name": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent_fb",
+      "name": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w6_1_2_years_hvip_100_orbs_recurrent_fb"
+    },
+    {
+      "key": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent",
+      "name": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent"
+    },
+    {
+      "key": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent_fb",
+      "name": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent_fb",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_offer_w6_1_2_years_hvip_160_orbs_recurrent_fb"
+    },
+    {
       "key": "dmp_points.*",
       "name": "dmp_points.*",
       "type": "currency",
@@ -9105,6 +9301,13 @@
     {
       "key": "hatching_pass_points.20260824",
       "name": "hatching_pass_points.20260824",
+      "type": "currency",
+      "image_url": "",
+      "family": "hatching_pass"
+    },
+    {
+      "key": "hatching_pass_points.20261005",
+      "name": "hatching_pass_points.20261005",
       "type": "currency",
       "image_url": "",
       "family": "hatching_pass"
