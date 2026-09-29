@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T16:31:47Z",
-  "count": 2056,
+  "generated_at": "2026-09-29T12:07:21Z",
+  "count": 2057,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -9301,6 +9301,13 @@
     {
       "key": "hatching_pass_points.20260824",
       "name": "hatching_pass_points.20260824",
+      "type": "currency",
+      "image_url": "",
+      "family": "hatching_pass"
+    },
+    {
+      "key": "hatching_pass_points.20261005",
+      "name": "hatching_pass_points.20261005",
       "type": "currency",
       "image_url": "",
       "family": "hatching_pass"
