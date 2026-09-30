@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:39:45Z",
+  "generated_at": "2026-09-30T08:47:18Z",
   "count": 582,
   "linked_count": 301,
   "skills": [
@@ -29674,8 +29674,8 @@
     },
     {
       "id": 568,
-      "name": "Fatal Strike",
-      "description": "Deals damage with a chance to trigger a critical hit, dealing massively increased damage.",
+      "name": "Fatal Strike+",
+      "description": "Learned by acquiring the Surge Skin! the Deals damage with a chance to trigger a critical hit, dealing massively increased damage. Now improved! ",
       "cooldown": 2,
       "effects": [
         {
@@ -29705,8 +29705,8 @@
     },
     {
       "id": 569,
-      "name": "Phantom Veil",
-      "description": "Grants a chance to dodge incoming attacks. When an attack is successfully dodged, the next strike deals increased damage.",
+      "name": "Phantom Veil+",
+      "description": "Learned by acquiring the Surge Skin. Grants a chance to dodge incoming attacks. When an attack is successfully dodged, the next strike deals increased damage. Now Improved!",
       "cooldown": 0,
       "effects": [
         {
