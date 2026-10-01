@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:39:57Z",
+  "generated_at": "2026-10-01T10:10:34Z",
   "rarities": [
     {
       "rarity": "C",
@@ -27,14 +27,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "C",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "C"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -63,14 +64,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "R",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "R"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -99,14 +101,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "V",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "V"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -135,14 +138,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "E",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "E"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -171,14 +175,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "L",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "L"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -207,14 +212,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "M",
         "max_rarity_seeds_per_grade": [
-          120,
-          200,
-          320,
-          560,
-          800
-        ],
-        "rarity": "M"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     },
     {
@@ -243,14 +249,15 @@
         "master_points_boost": 200000
       },
       "seed_caps": {
+        "rarity": "H",
         "max_rarity_seeds_per_grade": [
-          200,
-          350,
-          550,
-          800,
-          1100
-        ],
-        "rarity": "H"
+          25,
+          50,
+          80,
+          170,
+          240,
+          360
+        ]
       }
     }
   ],
