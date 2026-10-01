@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-30T08:47:09Z",
+  "generated_at": "2026-10-01T06:51:09Z",
   "quest_count": 160,
   "permanent_count": 45,
   "event_count": 115,
@@ -231055,7 +231055,7 @@
       "end_ts": 1790762400,
       "start_iso": "2026-09-21T10:00:00Z",
       "end_iso": "2026-09-30T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 20,
       "stages": [
         {

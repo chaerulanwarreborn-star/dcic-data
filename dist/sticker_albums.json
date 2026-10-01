@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-09-30T08:47:10Z",
+  "generated_at": "2026-10-01T06:51:10Z",
   "album_count": 4,
   "set_count": 41,
   "sticker_count": 417,
@@ -11475,7 +11475,7 @@
           "asset_stickers": "album12_set_m",
           "start_ts": 1789984800,
           "end_ts": 1790762400,
-          "status": "current",
+          "status": "past",
           "reward": [
             {
               "id": 3498,
