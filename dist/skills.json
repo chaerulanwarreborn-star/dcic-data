@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:09:00Z",
+  "generated_at": "2026-10-02T11:37:23Z",
   "count": 582,
   "linked_count": 301,
   "skills": [
@@ -26151,7 +26151,7 @@
       "element_names": [
         "Time"
       ],
-      "usage_count": 2,
+      "usage_count": 4,
       "linked_dragons": [
         {
           "dragon_id": 3494,
@@ -26169,6 +26169,28 @@
           "dragon_name": "High Stained Sharpfang",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
+          "attack_id": 1503,
+          "attack_name": "Venom Fang",
+          "move_type": "trained",
+          "element": "ti",
+          "ui_damage": 2400
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mind Break",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1503,
+          "attack_name": "Venom Fang",
+          "move_type": "basic",
+          "element": "ti",
+          "ui_damage": 2400
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mind Break",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
           "attack_id": 1503,
           "attack_name": "Venom Fang",
           "move_type": "trained",
@@ -26344,7 +26366,7 @@
       "element_names": [
         "Dark"
       ],
-      "usage_count": 2,
+      "usage_count": 4,
       "linked_dragons": [
         {
           "dragon_id": 3494,
@@ -26362,6 +26384,28 @@
           "dragon_name": "High Stained Sharpfang",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
+          "attack_id": 1505,
+          "attack_name": "Fatal Strike",
+          "move_type": "trained",
+          "element": "d",
+          "ui_damage": 2350
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mind Break",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1505,
+          "attack_name": "Fatal Strike",
+          "move_type": "basic",
+          "element": "d",
+          "ui_damage": 2350
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mind Break",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
           "attack_id": 1505,
           "attack_name": "Fatal Strike",
           "move_type": "trained",
@@ -26399,13 +26443,23 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 1,
+      "usage_count": 2,
       "linked_dragons": [
         {
           "dragon_id": 3494,
           "dragon_name": "High Stained Sharpfang",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
+          "attack_id": 0,
+          "attack_name": "Bloodthirst",
+          "move_type": "passive",
+          "element": ""
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mind Break",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
           "attack_id": 0,
           "attack_name": "Bloodthirst",
           "move_type": "passive",
