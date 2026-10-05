@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-04T09:01:54Z",
+  "generated_at": "2026-10-05T10:14:33Z",
   "album_count": 4,
   "set_count": 41,
   "sticker_count": 417,
@@ -74,25 +74,6 @@
           "popup": {
             "kind": "skin",
             "id": 3316
-          }
-        },
-        {
-          "kind": "chest",
-          "id": 18642,
-          "name": "Blue Dawn Sigil",
-          "amount": 1,
-          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dawnsigil_x6@2x.png",
-          "image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dawnsigil_x6.png",
-            "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-          ],
-          "popup": {
-            "kind": "chest",
-            "id": 18642,
-            "type": "generic"
           }
         }
       ],
@@ -4318,25 +4299,6 @@
           "popup": {
             "kind": "skin",
             "id": 3316
-          }
-        },
-        {
-          "kind": "chest",
-          "id": 18642,
-          "name": "Blue Dawn Sigil",
-          "amount": 1,
-          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dawnsigil_x6@2x.png",
-          "image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dawnsigil_x6@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dawnsigil_x6.png",
-            "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-          ],
-          "popup": {
-            "kind": "chest",
-            "id": 18642,
-            "type": "generic"
           }
         }
       ],
