@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T10:14:42Z",
+  "generated_at": "2026-10-06T14:20:59Z",
   "element_combinations": [
     {
       "id": 1,
@@ -40,7 +40,7 @@
               "id": 1397
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -58,7 +58,7 @@
               "id": 2189
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -137,7 +137,7 @@
               "id": 1977
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -155,7 +155,7 @@
               "id": 1771
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -252,7 +252,7 @@
               "id": 1693
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -270,7 +270,7 @@
               "id": 2181
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -367,7 +367,7 @@
               "id": 1922
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -385,7 +385,7 @@
               "id": 2189
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -464,7 +464,7 @@
               "id": 2399
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -482,7 +482,7 @@
               "id": 2091
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -579,7 +579,7 @@
               "id": 2254
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -597,7 +597,7 @@
               "id": 1924
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -676,7 +676,7 @@
               "id": 1781
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -694,7 +694,7 @@
               "id": 2583
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -809,7 +809,7 @@
               "id": 1652
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -827,7 +827,7 @@
               "id": 2228
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -888,7 +888,7 @@
               "id": 2456
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -906,7 +906,7 @@
               "id": 2407
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -967,7 +967,7 @@
               "id": 1759
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -985,7 +985,7 @@
               "id": 2475
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1046,7 +1046,7 @@
               "id": 1652
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1064,7 +1064,7 @@
               "id": 2118
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1125,7 +1125,7 @@
               "id": 1922
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1143,7 +1143,7 @@
               "id": 1902
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1204,7 +1204,7 @@
               "id": 2322
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1222,7 +1222,7 @@
               "id": 2022
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1319,7 +1319,7 @@
               "id": 1922
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1337,7 +1337,7 @@
               "id": 2189
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1416,7 +1416,7 @@
               "id": 1397
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1434,7 +1434,7 @@
               "id": 2181
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1495,7 +1495,7 @@
               "id": 1693
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1513,7 +1513,7 @@
               "id": 1771
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1574,7 +1574,7 @@
               "id": 1977
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1592,7 +1592,7 @@
               "id": 2091
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1689,7 +1689,7 @@
               "id": 2322
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1707,7 +1707,7 @@
               "id": 1771
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1804,7 +1804,7 @@
               "id": 2399
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1822,7 +1822,7 @@
               "id": 2118
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1901,7 +1901,7 @@
               "id": 1958
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -1919,7 +1919,7 @@
               "id": 2537
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -1998,7 +1998,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2016,7 +2016,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2131,7 +2131,7 @@
               "id": 1491
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2149,7 +2149,7 @@
               "id": 1954
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2246,7 +2246,7 @@
               "id": 2081
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2264,7 +2264,7 @@
               "id": 2537
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2343,7 +2343,7 @@
               "id": 1931
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2361,7 +2361,7 @@
               "id": 2599
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2458,7 +2458,7 @@
               "id": 1816
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2476,7 +2476,7 @@
               "id": 2518
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2555,7 +2555,7 @@
               "id": 1958
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2573,7 +2573,7 @@
               "id": 1748
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2634,7 +2634,7 @@
               "id": 2532
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2652,7 +2652,7 @@
               "id": 2407
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2713,7 +2713,7 @@
               "id": 1977
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2731,7 +2731,7 @@
               "id": 2537
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2792,7 +2792,7 @@
               "id": 1899
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2810,7 +2810,7 @@
               "id": 1771
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2871,7 +2871,7 @@
               "id": 2103
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2889,7 +2889,7 @@
               "id": 2518
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -2950,7 +2950,7 @@
               "id": 2021
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -2968,7 +2968,7 @@
               "id": 2312
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3083,7 +3083,7 @@
               "id": 1491
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3101,7 +3101,7 @@
               "id": 1748
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3162,7 +3162,7 @@
               "id": 1491
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3180,7 +3180,7 @@
               "id": 2537
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3259,7 +3259,7 @@
               "id": 1958
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3277,7 +3277,7 @@
               "id": 2518
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3338,7 +3338,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3356,7 +3356,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3435,7 +3435,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3453,7 +3453,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3532,7 +3532,7 @@
               "id": 1899
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3550,7 +3550,7 @@
               "id": 2518
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3611,7 +3611,7 @@
               "id": 1669
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3629,7 +3629,7 @@
               "id": 2276
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3726,7 +3726,7 @@
               "id": 1693
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3744,7 +3744,7 @@
               "id": 2475
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3823,7 +3823,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3841,7 +3841,7 @@
               "id": 2215
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -3938,7 +3938,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -3956,7 +3956,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4035,7 +4035,7 @@
               "id": 2148
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4053,7 +4053,7 @@
               "id": 1954
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4150,7 +4150,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4168,7 +4168,7 @@
               "id": 1751
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4247,7 +4247,7 @@
               "id": 2457
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4265,7 +4265,7 @@
               "id": 2304
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4326,7 +4326,7 @@
               "id": 1997
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4344,7 +4344,7 @@
               "id": 2386
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4441,7 +4441,7 @@
               "id": 1361
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4459,7 +4459,7 @@
               "id": 1683
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4520,7 +4520,7 @@
               "id": 1840
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4538,7 +4538,7 @@
               "id": 2273
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4599,7 +4599,7 @@
               "id": 2508
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4617,7 +4617,7 @@
               "id": 2048
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4714,7 +4714,7 @@
               "id": 2457
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4732,7 +4732,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4811,7 +4811,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4829,7 +4829,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -4926,7 +4926,7 @@
               "id": 2148
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -4944,7 +4944,7 @@
               "id": 2386
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5023,7 +5023,7 @@
               "id": 1997
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5041,7 +5041,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5138,7 +5138,7 @@
               "id": 2103
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5156,7 +5156,7 @@
               "id": 2276
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5235,7 +5235,7 @@
               "id": 1840
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5253,7 +5253,7 @@
               "id": 2215
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5314,7 +5314,7 @@
               "id": 1879
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5332,7 +5332,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5411,7 +5411,7 @@
               "id": 1957
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5429,7 +5429,7 @@
               "id": 1900
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5508,7 +5508,7 @@
               "id": 1526
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5526,7 +5526,7 @@
               "id": 2158
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5605,7 +5605,7 @@
               "id": 2226
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5623,7 +5623,7 @@
               "id": 1954
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5702,7 +5702,7 @@
               "id": 2322
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5720,7 +5720,7 @@
               "id": 1751
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5781,7 +5781,7 @@
               "id": 2545
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5799,7 +5799,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5896,7 +5896,7 @@
               "id": 1933
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5914,7 +5914,7 @@
               "id": 2189
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -5975,7 +5975,7 @@
               "id": 2249
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -5993,7 +5993,7 @@
               "id": 2097
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6054,7 +6054,7 @@
               "id": 1397
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6072,7 +6072,7 @@
               "id": 1871
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6133,7 +6133,7 @@
               "id": 2035
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6151,7 +6151,7 @@
               "id": 2048
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6212,7 +6212,7 @@
               "id": 2148
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6230,7 +6230,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6345,7 +6345,7 @@
               "id": 2457
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6363,7 +6363,7 @@
               "id": 2475
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6460,7 +6460,7 @@
               "id": 1879
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6478,7 +6478,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6575,7 +6575,7 @@
               "id": 1933
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6593,7 +6593,7 @@
               "id": 2158
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6672,7 +6672,7 @@
               "id": 2249
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6690,7 +6690,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6769,7 +6769,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6787,7 +6787,7 @@
               "id": 2097
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6848,7 +6848,7 @@
               "id": 1666
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6866,7 +6866,7 @@
               "id": 1943
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -6945,7 +6945,7 @@
               "id": 1821
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -6963,7 +6963,7 @@
               "id": 2091
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7042,7 +7042,7 @@
               "id": 2287
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7060,7 +7060,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7121,7 +7121,7 @@
               "id": 1662
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7139,7 +7139,7 @@
               "id": 2120
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7200,7 +7200,7 @@
               "id": 2545
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7218,7 +7218,7 @@
               "id": 2304
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7315,7 +7315,7 @@
               "id": 1821
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7333,7 +7333,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7394,7 +7394,7 @@
               "id": 1485
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7412,7 +7412,7 @@
               "id": 1943
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7473,7 +7473,7 @@
               "id": 1474
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7491,7 +7491,7 @@
               "id": 2221
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7552,7 +7552,7 @@
               "id": 2510
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7570,7 +7570,7 @@
               "id": 2312
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7631,7 +7631,7 @@
               "id": 2081
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7649,7 +7649,7 @@
               "id": 1943
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7746,7 +7746,7 @@
               "id": 1821
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7764,7 +7764,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7843,7 +7843,7 @@
               "id": 2287
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7861,7 +7861,7 @@
               "id": 2386
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -7958,7 +7958,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -7976,7 +7976,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8055,7 +8055,7 @@
               "id": 1666
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8073,7 +8073,7 @@
               "id": 1943
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8134,7 +8134,7 @@
               "id": 2287
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8152,7 +8152,7 @@
               "id": 2215
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8213,7 +8213,7 @@
               "id": 1626
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8231,7 +8231,7 @@
               "id": 1576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8346,7 +8346,7 @@
               "id": 2356
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8364,7 +8364,7 @@
               "id": 1823
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8443,7 +8443,7 @@
               "id": 1837
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8461,7 +8461,7 @@
               "id": 2120
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8540,7 +8540,7 @@
               "id": 1360
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8558,7 +8558,7 @@
               "id": 2544
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8637,7 +8637,7 @@
               "id": 1821
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8655,7 +8655,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8716,7 +8716,7 @@
               "id": 2254
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8734,7 +8734,7 @@
               "id": 1927
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8795,7 +8795,7 @@
               "id": 2198
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8813,7 +8813,7 @@
               "id": 2262
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8874,7 +8874,7 @@
               "id": 1915
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8892,7 +8892,7 @@
               "id": 2430
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -8971,7 +8971,7 @@
               "id": 1626
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -8989,7 +8989,7 @@
               "id": 1924
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9068,7 +9068,7 @@
               "id": 1626
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9086,7 +9086,7 @@
               "id": 1576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9183,7 +9183,7 @@
               "id": 1626
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9201,7 +9201,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9280,7 +9280,7 @@
               "id": 2254
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9298,7 +9298,7 @@
               "id": 2120
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9359,7 +9359,7 @@
               "id": 2356
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9377,7 +9377,7 @@
               "id": 1576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9456,7 +9456,7 @@
               "id": 2356
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9474,7 +9474,7 @@
               "id": 1576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9535,7 +9535,7 @@
               "id": 2415
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9553,7 +9553,7 @@
               "id": 1927
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9614,7 +9614,7 @@
               "id": 1872
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9632,7 +9632,7 @@
               "id": 1751
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9693,7 +9693,7 @@
               "id": 2303
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9711,7 +9711,7 @@
               "id": 2452
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9790,7 +9790,7 @@
               "id": 1759
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9808,7 +9808,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9887,7 +9887,7 @@
               "id": 2415
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9905,7 +9905,7 @@
               "id": 2452
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -9966,7 +9966,7 @@
               "id": 2226
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -9984,7 +9984,7 @@
               "id": 2004
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10045,7 +10045,7 @@
               "id": 2035
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10063,7 +10063,7 @@
               "id": 2086
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10142,7 +10142,7 @@
               "id": 1485
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10160,7 +10160,7 @@
               "id": 2215
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10257,7 +10257,7 @@
               "id": 2035
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10275,7 +10275,7 @@
               "id": 1823
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10336,7 +10336,7 @@
               "id": 2148
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10354,7 +10354,7 @@
               "id": 2221
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10433,7 +10433,7 @@
               "id": 2103
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10451,7 +10451,7 @@
               "id": 2221
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10566,7 +10566,7 @@
               "id": 1759
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10584,7 +10584,7 @@
               "id": 1823
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10645,7 +10645,7 @@
               "id": 1872
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10663,7 +10663,7 @@
               "id": 1927
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10724,7 +10724,7 @@
               "id": 1825
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10742,7 +10742,7 @@
               "id": 1652
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10821,7 +10821,7 @@
               "id": 2529
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10839,7 +10839,7 @@
               "id": 2544
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -10936,7 +10936,7 @@
               "id": 2242
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -10954,7 +10954,7 @@
               "id": 1829
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11015,7 +11015,7 @@
               "id": 1652
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11033,7 +11033,7 @@
               "id": 2228
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11094,7 +11094,7 @@
               "id": 1863
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11112,7 +11112,7 @@
               "id": 1902
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11173,7 +11173,7 @@
               "id": 2156
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11191,7 +11191,7 @@
               "id": 2186
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11270,7 +11270,7 @@
               "id": 1662
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11288,7 +11288,7 @@
               "id": 2120
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11367,7 +11367,7 @@
               "id": 2156
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11385,7 +11385,7 @@
               "id": 2228
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11482,7 +11482,7 @@
               "id": 1899
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11500,7 +11500,7 @@
               "id": 2228
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11579,7 +11579,7 @@
               "id": 1825
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11597,7 +11597,7 @@
               "id": 2262
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11676,7 +11676,7 @@
               "id": 1837
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11694,7 +11694,7 @@
               "id": 2228
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11755,7 +11755,7 @@
               "id": 1767
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11773,7 +11773,7 @@
               "id": 2186
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11834,7 +11834,7 @@
               "id": 2303
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11852,7 +11852,7 @@
               "id": 2452
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11913,7 +11913,7 @@
               "id": 2508
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -11931,7 +11931,7 @@
               "id": 2544
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -11992,7 +11992,7 @@
               "id": 2457
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12010,7 +12010,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12071,7 +12071,7 @@
               "id": 2303
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12089,7 +12089,7 @@
               "id": 2544
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12150,7 +12150,7 @@
               "id": 2303
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12168,7 +12168,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12229,7 +12229,7 @@
               "id": 2508
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12247,7 +12247,7 @@
               "id": 2304
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12308,7 +12308,7 @@
               "id": 2545
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12326,7 +12326,7 @@
               "id": 2452
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12387,7 +12387,7 @@
               "id": 2303
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12405,7 +12405,7 @@
               "id": 2544
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12466,7 +12466,7 @@
               "id": 1437
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12484,7 +12484,7 @@
               "id": 1578
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12563,7 +12563,7 @@
               "id": 2545
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12581,7 +12581,7 @@
               "id": 2452
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12660,7 +12660,7 @@
               "id": 1948
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12678,7 +12678,7 @@
               "id": 2449
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12757,7 +12757,7 @@
               "id": 1474
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12775,7 +12775,7 @@
               "id": 2179
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12836,7 +12836,7 @@
               "id": 2510
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12854,7 +12854,7 @@
               "id": 2312
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -12933,7 +12933,7 @@
               "id": 2081
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -12951,7 +12951,7 @@
               "id": 2179
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13012,7 +13012,7 @@
               "id": 1759
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13030,7 +13030,7 @@
               "id": 2215
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13091,7 +13091,7 @@
               "id": 2457
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13109,7 +13109,7 @@
               "id": 2449
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13170,7 +13170,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13188,7 +13188,7 @@
               "id": 2312
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13267,7 +13267,7 @@
               "id": 2532
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13285,7 +13285,7 @@
               "id": 2449
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13364,7 +13364,7 @@
               "id": 2532
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13382,7 +13382,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13443,7 +13443,7 @@
               "id": 1211
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13461,7 +13461,7 @@
               "id": 1760
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13540,7 +13540,7 @@
               "id": 2529
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13558,7 +13558,7 @@
               "id": 2407
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13619,7 +13619,7 @@
               "id": 1191
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13637,7 +13637,7 @@
               "id": 1623
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13698,7 +13698,7 @@
               "id": 2102
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13716,7 +13716,7 @@
               "id": 2022
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13777,7 +13777,7 @@
               "id": 2249
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13795,7 +13795,7 @@
               "id": 1927
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13856,7 +13856,7 @@
               "id": 2529
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13874,7 +13874,7 @@
               "id": 2097
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -13935,7 +13935,7 @@
               "id": 1899
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -13953,7 +13953,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14032,7 +14032,7 @@
               "id": 1485
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14050,7 +14050,7 @@
               "id": 2097
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14111,7 +14111,7 @@
               "id": 1211
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14129,7 +14129,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14190,7 +14190,7 @@
               "id": 1662
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14208,7 +14208,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14269,7 +14269,7 @@
               "id": 1664
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14287,7 +14287,7 @@
               "id": 1735
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14348,7 +14348,7 @@
               "id": 1687
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14366,7 +14366,7 @@
               "id": 2333
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14427,7 +14427,7 @@
               "id": 2510
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14445,7 +14445,7 @@
               "id": 2509
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14506,7 +14506,7 @@
               "id": 1474
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14524,7 +14524,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14585,7 +14585,7 @@
               "id": 2226
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14603,7 +14603,7 @@
               "id": 1902
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14664,7 +14664,7 @@
               "id": 1840
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14682,7 +14682,7 @@
               "id": 1735
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14743,7 +14743,7 @@
               "id": 1997
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14761,7 +14761,7 @@
               "id": 1735
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14822,7 +14822,7 @@
               "id": 2103
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14840,7 +14840,7 @@
               "id": 1902
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14901,7 +14901,7 @@
               "id": 2148
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14919,7 +14919,7 @@
               "id": 2221
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -14980,7 +14980,7 @@
               "id": 1041
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -14998,7 +14998,7 @@
               "id": 1834
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15077,7 +15077,7 @@
               "id": 1052
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15095,7 +15095,7 @@
               "id": 2118
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15174,7 +15174,7 @@
               "id": 1053
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15192,7 +15192,7 @@
               "id": 2043
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15271,7 +15271,7 @@
               "id": 1054
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15289,7 +15289,7 @@
               "id": 1976
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15368,7 +15368,7 @@
               "id": 1169
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15386,7 +15386,7 @@
               "id": 2181
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15465,7 +15465,7 @@
               "id": 1170
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15483,7 +15483,7 @@
               "id": 1881
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15562,7 +15562,7 @@
               "id": 1572
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15580,7 +15580,7 @@
               "id": 1924
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15641,7 +15641,7 @@
               "id": 1462
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15659,7 +15659,7 @@
               "id": 1940
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15738,7 +15738,7 @@
               "id": 1631
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15756,7 +15756,7 @@
               "id": 1936
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15817,7 +15817,7 @@
               "id": 1628
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15835,7 +15835,7 @@
               "id": 1881
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -15914,7 +15914,7 @@
               "id": 2196
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -15932,7 +15932,7 @@
               "id": 1817
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16011,7 +16011,7 @@
               "id": 1731
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16029,7 +16029,7 @@
               "id": 1909
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16090,7 +16090,7 @@
               "id": 1609
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16108,7 +16108,7 @@
               "id": 2013
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16169,7 +16169,7 @@
               "id": 1512
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16187,7 +16187,7 @@
               "id": 2304
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16248,7 +16248,7 @@
               "id": 1586
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16266,7 +16266,7 @@
               "id": 1940
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16327,7 +16327,7 @@
               "id": 1754
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16345,7 +16345,7 @@
               "id": 1976
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16406,7 +16406,7 @@
               "id": 1775
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16424,7 +16424,7 @@
               "id": 2043
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16485,7 +16485,7 @@
               "id": 1784
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16503,7 +16503,7 @@
               "id": 2158
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16564,7 +16564,7 @@
               "id": 1802
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16582,7 +16582,7 @@
               "id": 2158
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16643,7 +16643,7 @@
               "id": 1810
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16661,7 +16661,7 @@
               "id": 1936
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16740,7 +16740,7 @@
               "id": 1915
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16758,7 +16758,7 @@
               "id": 2312
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16819,7 +16819,7 @@
               "id": 2021
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16837,7 +16837,7 @@
               "id": 2048
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16898,7 +16898,7 @@
               "id": 2510
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16916,7 +16916,7 @@
               "id": 2022
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -16977,7 +16977,7 @@
               "id": 2021
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -16995,7 +16995,7 @@
               "id": 2022
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17056,7 +17056,7 @@
               "id": 2035
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17074,7 +17074,7 @@
               "id": 2048
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17135,7 +17135,7 @@
               "id": 1915
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17153,7 +17153,7 @@
               "id": 2048
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17214,7 +17214,7 @@
               "id": 2510
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17232,7 +17232,7 @@
               "id": 2022
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17293,7 +17293,7 @@
               "id": 1977
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17311,7 +17311,7 @@
               "id": 2189
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17372,7 +17372,7 @@
               "id": 2322
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17390,7 +17390,7 @@
               "id": 2181
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17451,7 +17451,7 @@
               "id": 2249
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17469,7 +17469,7 @@
               "id": 1771
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17530,7 +17530,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17548,7 +17548,7 @@
               "id": 2091
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17609,7 +17609,7 @@
               "id": 1925
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17627,7 +17627,7 @@
               "id": 1817
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17688,7 +17688,7 @@
               "id": 1899
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17706,7 +17706,7 @@
               "id": 2537
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17767,7 +17767,7 @@
               "id": 1997
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17785,7 +17785,7 @@
               "id": 2518
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17846,7 +17846,7 @@
               "id": 2103
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17864,7 +17864,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -17925,7 +17925,7 @@
               "id": 1840
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -17943,7 +17943,7 @@
               "id": 2433
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18004,7 +18004,7 @@
               "id": 1879
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18022,7 +18022,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18083,7 +18083,7 @@
               "id": 2399
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18101,7 +18101,7 @@
               "id": 2386
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18162,7 +18162,7 @@
               "id": 2399
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18180,7 +18180,7 @@
               "id": 1703
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18241,7 +18241,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18259,7 +18259,7 @@
               "id": 2112
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18320,7 +18320,7 @@
               "id": 2287
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18338,7 +18338,7 @@
               "id": 2475
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18399,7 +18399,7 @@
               "id": 1963
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18417,7 +18417,7 @@
               "id": 2445
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18478,7 +18478,7 @@
               "id": 1666
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18496,7 +18496,7 @@
               "id": 2158
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18557,7 +18557,7 @@
               "id": 2287
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18575,7 +18575,7 @@
               "id": 1817
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18636,7 +18636,7 @@
               "id": 1626
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18654,7 +18654,7 @@
               "id": 2117
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18715,7 +18715,7 @@
               "id": 2254
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18733,7 +18733,7 @@
               "id": 2386
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18794,7 +18794,7 @@
               "id": 2399
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18812,7 +18812,7 @@
               "id": 1924
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18873,7 +18873,7 @@
               "id": 1437
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -18891,7 +18891,7 @@
               "id": 1576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -18988,7 +18988,7 @@
               "id": 2141
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19006,7 +19006,7 @@
               "id": 2683
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19103,7 +19103,7 @@
               "id": 2530
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19121,7 +19121,7 @@
               "id": 2624
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19218,7 +19218,7 @@
               "id": 2714
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19236,7 +19236,7 @@
               "id": 2769
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19333,7 +19333,7 @@
               "id": 2320
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19351,7 +19351,7 @@
               "id": 2676
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19448,7 +19448,7 @@
               "id": 2473
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19466,7 +19466,7 @@
               "id": 2576
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19563,7 +19563,7 @@
               "id": 2472
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19581,7 +19581,7 @@
               "id": 2811
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19678,7 +19678,7 @@
               "id": 2631
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19696,7 +19696,7 @@
               "id": 2503
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19793,7 +19793,7 @@
               "id": 2177
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19811,7 +19811,7 @@
               "id": 2791
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -19908,7 +19908,7 @@
               "id": 2272
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -19926,7 +19926,7 @@
               "id": 2064
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20023,7 +20023,7 @@
               "id": 1930
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20041,7 +20041,7 @@
               "id": 2590
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20138,7 +20138,7 @@
               "id": 2719
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20156,7 +20156,7 @@
               "id": 2845
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20253,7 +20253,7 @@
               "id": 1994
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20271,7 +20271,7 @@
               "id": 2589
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20368,7 +20368,7 @@
               "id": 2794
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20386,7 +20386,7 @@
               "id": 2680
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20483,7 +20483,7 @@
               "id": 2760
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20501,7 +20501,7 @@
               "id": 2538
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20598,7 +20598,7 @@
               "id": 2176
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20616,7 +20616,7 @@
               "id": 2793
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20713,7 +20713,7 @@
               "id": 2561
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20731,7 +20731,7 @@
               "id": 2552
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20828,7 +20828,7 @@
               "id": 2119
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20846,7 +20846,7 @@
               "id": 2494
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -20943,7 +20943,7 @@
               "id": 2497
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -20961,7 +20961,7 @@
               "id": 2696
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -21058,7 +21058,7 @@
               "id": 2406
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -21076,7 +21076,7 @@
               "id": 2557
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -21173,7 +21173,7 @@
               "id": 2743
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -21191,7 +21191,7 @@
               "id": 2748
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     },
@@ -21288,7 +21288,7 @@
               "id": 2526
             }
           },
-          "empower_threshold": 1200000
+          "empower_threshold": 1.2
         },
         {
           "dragon": {
@@ -21306,7 +21306,7 @@
               "id": 2598
             }
           },
-          "empower_threshold": 1510000
+          "empower_threshold": 1.51
         }
       ]
     }
@@ -21315,80 +21315,80 @@
     {
       "id": 1,
       "rarity": "C",
-      "boost_0": 450000,
-      "boost_1": 500000,
-      "boost_2": 550000,
-      "boost_3": 600000,
-      "boost_4": 650000,
-      "boost_5": 700000,
-      "boost_6": 750000
+      "boost_0": 0.45,
+      "boost_1": 0.5,
+      "boost_2": 0.55,
+      "boost_3": 0.6,
+      "boost_4": 0.65,
+      "boost_5": 0.7,
+      "boost_6": 0.75
     },
     {
       "id": 2,
       "rarity": "R",
-      "boost_0": 480000,
-      "boost_1": 530000,
-      "boost_2": 590000,
-      "boost_3": 640000,
-      "boost_4": 700000,
-      "boost_5": 750000,
-      "boost_6": 800000
+      "boost_0": 0.48,
+      "boost_1": 0.53,
+      "boost_2": 0.59,
+      "boost_3": 0.64,
+      "boost_4": 0.7,
+      "boost_5": 0.75,
+      "boost_6": 0.8
     },
     {
       "id": 3,
       "rarity": "V",
-      "boost_0": 510000,
-      "boost_1": 570000,
-      "boost_2": 630000,
-      "boost_3": 680000,
-      "boost_4": 740000,
-      "boost_5": 800000,
-      "boost_6": 850000
+      "boost_0": 0.51,
+      "boost_1": 0.57,
+      "boost_2": 0.63,
+      "boost_3": 0.68,
+      "boost_4": 0.74,
+      "boost_5": 0.8,
+      "boost_6": 0.85
     },
     {
       "id": 4,
       "rarity": "E",
-      "boost_0": 540000,
-      "boost_1": 600000,
-      "boost_2": 660000,
-      "boost_3": 730000,
-      "boost_4": 790000,
-      "boost_5": 850000,
-      "boost_6": 910000
+      "boost_0": 0.54,
+      "boost_1": 0.6,
+      "boost_2": 0.66,
+      "boost_3": 0.73,
+      "boost_4": 0.79,
+      "boost_5": 0.85,
+      "boost_6": 0.91
     },
     {
       "id": 5,
       "rarity": "L",
-      "boost_0": 560000,
-      "boost_1": 650000,
-      "boost_2": 740000,
-      "boost_3": 820000,
-      "boost_4": 910000,
+      "boost_0": 0.56,
+      "boost_1": 0.65,
+      "boost_2": 0.74,
+      "boost_3": 0.82,
+      "boost_4": 0.91,
       "boost_5": 1,
-      "boost_6": 1100000
+      "boost_6": 1.1
     },
     {
       "id": 6,
       "rarity": "M",
       "category": 10,
-      "boost_0": 580000,
-      "boost_1": 700000,
-      "boost_2": 830000,
-      "boost_3": 950000,
-      "boost_4": 1080000,
-      "boost_5": 1200000,
-      "boost_6": 1320000
+      "boost_0": 0.58,
+      "boost_1": 0.7,
+      "boost_2": 0.83,
+      "boost_3": 0.95,
+      "boost_4": 1.08,
+      "boost_5": 1.2,
+      "boost_6": 1.32
     },
     {
       "id": 7,
       "rarity": "H",
-      "boost_0": 590000,
-      "boost_1": 750000,
-      "boost_2": 910000,
-      "boost_3": 1080000,
-      "boost_4": 1240000,
-      "boost_5": 1400000,
-      "boost_6": 1560000
+      "boost_0": 0.59,
+      "boost_1": 0.75,
+      "boost_2": 0.91,
+      "boost_3": 1.08,
+      "boost_4": 1.24,
+      "boost_5": 1.4,
+      "boost_6": 1.56
     }
   ],
   "soulmates": [
@@ -21439,7 +21439,7 @@
           "id": 1012
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -21489,7 +21489,7 @@
           "id": 1482
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -21539,7 +21539,7 @@
           "id": 1390
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -21589,7 +21589,7 @@
           "id": 2044
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -21639,7 +21639,7 @@
           "id": 1016
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -21689,7 +21689,7 @@
           "id": 1342
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -21739,7 +21739,7 @@
           "id": 1425
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -21789,7 +21789,7 @@
           "id": 2700
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -21839,7 +21839,7 @@
           "id": 1005
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -21889,7 +21889,7 @@
           "id": 1270
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -21939,7 +21939,7 @@
           "id": 1797
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -21989,7 +21989,7 @@
           "id": 3186
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -22039,7 +22039,7 @@
           "id": 1010
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -22089,7 +22089,7 @@
           "id": 1265
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -22139,7 +22139,7 @@
           "id": 1289
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -22189,7 +22189,7 @@
           "id": 2467
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -22239,7 +22239,7 @@
           "id": 1043
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -22289,7 +22289,7 @@
           "id": 1413
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -22339,7 +22339,7 @@
           "id": 1198
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -22389,7 +22389,7 @@
           "id": 2353
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -22439,7 +22439,7 @@
           "id": 1013
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -22489,7 +22489,7 @@
           "id": 1263
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -22539,7 +22539,7 @@
           "id": 1196
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -22589,7 +22589,7 @@
           "id": 1988
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -22639,7 +22639,7 @@
           "id": 1018
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -22689,7 +22689,7 @@
           "id": 1362
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -22739,7 +22739,7 @@
           "id": 1989
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 20
     },
     {
@@ -22789,7 +22789,7 @@
           "id": 1398
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -22839,7 +22839,7 @@
           "id": 1300
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -22889,7 +22889,7 @@
           "id": 1214
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -22939,7 +22939,7 @@
           "id": 2145
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -22989,7 +22989,7 @@
           "id": 2609
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -23039,7 +23039,7 @@
           "id": 1045
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -23089,7 +23089,7 @@
           "id": 2279
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -23139,7 +23139,7 @@
           "id": 2564
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -23189,7 +23189,7 @@
           "id": 2623
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -23239,7 +23239,7 @@
           "id": 1014
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -23289,7 +23289,7 @@
           "id": 1672
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -23339,7 +23339,7 @@
           "id": 1658
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -23389,7 +23389,7 @@
           "id": 2633
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -23439,7 +23439,7 @@
           "id": 1001
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -23489,7 +23489,7 @@
           "id": 1515
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -23539,7 +23539,7 @@
           "id": 1302
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -23589,7 +23589,7 @@
           "id": 1952
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -23639,7 +23639,7 @@
           "id": 1015
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -23689,7 +23689,7 @@
           "id": 1088
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -23739,7 +23739,7 @@
           "id": 1120
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -23789,7 +23789,7 @@
           "id": 2704
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -23839,7 +23839,7 @@
           "id": 1023
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -23889,7 +23889,7 @@
           "id": 1132
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -23939,7 +23939,7 @@
           "id": 1513
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -23989,7 +23989,7 @@
           "id": 1785
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -24039,7 +24039,7 @@
           "id": 1024
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -24089,7 +24089,7 @@
           "id": 2257
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -24139,7 +24139,7 @@
           "id": 1531
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -24189,7 +24189,7 @@
           "id": 2173
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -24239,7 +24239,7 @@
           "id": 1042
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -24289,7 +24289,7 @@
           "id": 1640
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -24339,7 +24339,7 @@
           "id": 2161
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -24389,7 +24389,7 @@
           "id": 2193
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -24439,7 +24439,7 @@
           "id": 1223
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -24489,7 +24489,7 @@
           "id": 1201
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -24539,7 +24539,7 @@
           "id": 2167
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -24589,7 +24589,7 @@
           "id": 2610
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -24639,7 +24639,7 @@
           "id": 1092
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -24689,7 +24689,7 @@
           "id": 1451
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -24739,7 +24739,7 @@
           "id": 1873
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -24789,7 +24789,7 @@
           "id": 2203
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -24839,7 +24839,7 @@
           "id": 1046
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -24889,7 +24889,7 @@
           "id": 1116
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -24939,7 +24939,7 @@
           "id": 1123
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -24989,7 +24989,7 @@
           "id": 1981
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -25039,7 +25039,7 @@
           "id": 1017
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -25089,7 +25089,7 @@
           "id": 1756
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -25139,7 +25139,7 @@
           "id": 1702
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -25189,7 +25189,7 @@
           "id": 3007
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -25239,7 +25239,7 @@
           "id": 1004
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -25289,7 +25289,7 @@
           "id": 1384
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -25339,7 +25339,7 @@
           "id": 2069
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -25389,7 +25389,7 @@
           "id": 1998
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -25439,7 +25439,7 @@
           "id": 1019
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -25489,7 +25489,7 @@
           "id": 1109
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -25539,7 +25539,7 @@
           "id": 2454
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -25589,7 +25589,7 @@
           "id": 3085
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -25639,7 +25639,7 @@
           "id": 1002
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -25689,7 +25689,7 @@
           "id": 1115
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -25739,7 +25739,7 @@
           "id": 1224
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -25789,7 +25789,7 @@
           "id": 2144
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -25839,7 +25839,7 @@
           "id": 1007
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -25889,7 +25889,7 @@
           "id": 1468
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -25939,7 +25939,7 @@
           "id": 2451
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -25989,7 +25989,7 @@
           "id": 1878
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -26039,7 +26039,7 @@
           "id": 1320
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -26089,7 +26089,7 @@
           "id": 1421
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -26139,7 +26139,7 @@
           "id": 1549
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -26189,7 +26189,7 @@
           "id": 2058
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -26239,7 +26239,7 @@
           "id": 1690
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -26289,7 +26289,7 @@
           "id": 1097
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -26339,7 +26339,7 @@
           "id": 1387
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -26389,7 +26389,7 @@
           "id": 2096
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -26439,7 +26439,7 @@
           "id": 1112
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -26489,7 +26489,7 @@
           "id": 1215
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -26539,7 +26539,7 @@
           "id": 1704
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -26589,7 +26589,7 @@
           "id": 1946
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -26639,7 +26639,7 @@
           "id": 1055
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -26689,7 +26689,7 @@
           "id": 1304
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -26739,7 +26739,7 @@
           "id": 2722
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -26789,7 +26789,7 @@
           "id": 2917
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 30
     },
     {
@@ -26839,7 +26839,7 @@
           "id": 1003
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -26889,7 +26889,7 @@
           "id": 1179
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -26939,7 +26939,7 @@
           "id": 1205
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -26989,7 +26989,7 @@
           "id": 2993
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -27039,7 +27039,7 @@
           "id": 1008
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -27089,7 +27089,7 @@
           "id": 1268
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -27139,7 +27139,7 @@
           "id": 2398
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 20
     },
     {
@@ -27189,7 +27189,7 @@
           "id": 1473
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -27239,7 +27239,7 @@
           "id": 1009
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -27289,7 +27289,7 @@
           "id": 1232
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -27339,7 +27339,7 @@
           "id": 1951
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -27389,7 +27389,7 @@
           "id": 2259
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -27439,7 +27439,7 @@
           "id": 1028
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -27489,7 +27489,7 @@
           "id": 1532
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -27539,7 +27539,7 @@
           "id": 2109
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -27589,7 +27589,7 @@
           "id": 1627
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -27639,7 +27639,7 @@
           "id": 1269
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -27689,7 +27689,7 @@
           "id": 1371
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -27739,7 +27739,7 @@
           "id": 1585
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -27789,7 +27789,7 @@
           "id": 1667
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -27839,7 +27839,7 @@
           "id": 1021
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -27889,7 +27889,7 @@
           "id": 1523
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -27939,7 +27939,7 @@
           "id": 1363
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 20
     },
     {
@@ -27989,7 +27989,7 @@
           "id": 2432
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -28039,7 +28039,7 @@
           "id": 1085
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -28089,7 +28089,7 @@
           "id": 1692
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -28139,7 +28139,7 @@
           "id": 1768
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -28189,7 +28189,7 @@
           "id": 3182
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -28239,7 +28239,7 @@
           "id": 1029
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -28289,7 +28289,7 @@
           "id": 1680
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -28339,7 +28339,7 @@
           "id": 1636
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -28389,7 +28389,7 @@
           "id": 2701
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -28439,7 +28439,7 @@
           "id": 1141
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -28489,7 +28489,7 @@
           "id": 1134
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -28539,7 +28539,7 @@
           "id": 1368
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -28589,7 +28589,7 @@
           "id": 2229
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -28639,7 +28639,7 @@
           "id": 1063
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -28689,7 +28689,7 @@
           "id": 2632
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -28739,7 +28739,7 @@
           "id": 1660
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -28789,7 +28789,7 @@
           "id": 2040
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -28839,7 +28839,7 @@
           "id": 1032
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -28889,7 +28889,7 @@
           "id": 1127
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -28939,7 +28939,7 @@
           "id": 1733
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -28989,7 +28989,7 @@
           "id": 2261
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -29039,7 +29039,7 @@
           "id": 1203
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -29089,7 +29089,7 @@
           "id": 1619
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -29139,7 +29139,7 @@
           "id": 1233
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -29189,7 +29189,7 @@
           "id": 2711
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -29239,7 +29239,7 @@
           "id": 1323
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -29289,7 +29289,7 @@
           "id": 1133
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -29339,7 +29339,7 @@
           "id": 1742
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -29389,7 +29389,7 @@
           "id": 1222
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -29439,7 +29439,7 @@
           "id": 1095
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -29489,7 +29489,7 @@
           "id": 2182
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -29539,7 +29539,7 @@
           "id": 1901
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -29589,7 +29589,7 @@
           "id": 2162
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -29639,7 +29639,7 @@
           "id": 1022
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -29689,7 +29689,7 @@
           "id": 1293
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -29739,7 +29739,7 @@
           "id": 1720
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -29789,7 +29789,7 @@
           "id": 1461
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -29839,7 +29839,7 @@
           "id": 1124
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -29889,7 +29889,7 @@
           "id": 1862
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -29939,7 +29939,7 @@
           "id": 1945
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -29989,7 +29989,7 @@
           "id": 2127
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -30039,7 +30039,7 @@
           "id": 1528
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -30089,7 +30089,7 @@
           "id": 1706
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -30139,7 +30139,7 @@
           "id": 2733
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -30189,7 +30189,7 @@
           "id": 2759
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -30239,7 +30239,7 @@
           "id": 1025
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -30289,7 +30289,7 @@
           "id": 1618
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -30339,7 +30339,7 @@
           "id": 1679
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -30389,7 +30389,7 @@
           "id": 2468
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -30439,7 +30439,7 @@
           "id": 1297
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -30489,7 +30489,7 @@
           "id": 1267
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -30539,7 +30539,7 @@
           "id": 1525
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -30589,7 +30589,7 @@
           "id": 1955
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -30639,7 +30639,7 @@
           "id": 1110
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -30689,7 +30689,7 @@
           "id": 1023
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -30739,7 +30739,7 @@
           "id": 2053
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -30789,7 +30789,7 @@
           "id": 2987
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -30839,7 +30839,7 @@
           "id": 1049
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -30889,7 +30889,7 @@
           "id": 1682
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -30939,7 +30939,7 @@
           "id": 1199
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -30989,7 +30989,7 @@
           "id": 1380
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -31039,7 +31039,7 @@
           "id": 1150
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -31089,7 +31089,7 @@
           "id": 1937
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -31139,7 +31139,7 @@
           "id": 2414
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -31189,7 +31189,7 @@
           "id": 1700
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -31239,7 +31239,7 @@
           "id": 1048
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -31289,7 +31289,7 @@
           "id": 1370
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -31339,7 +31339,7 @@
           "id": 1695
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -31389,7 +31389,7 @@
           "id": 3213
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -31439,7 +31439,7 @@
           "id": 1177
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -31489,7 +31489,7 @@
           "id": 1301
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -31539,7 +31539,7 @@
           "id": 2006
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -31589,7 +31589,7 @@
           "id": 2666
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -31639,7 +31639,7 @@
           "id": 1204
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -31689,7 +31689,7 @@
           "id": 1736
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -31739,7 +31739,7 @@
           "id": 1483
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -31789,7 +31789,7 @@
           "id": 2659
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -31839,7 +31839,7 @@
           "id": 1050
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -31889,7 +31889,7 @@
           "id": 1538
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -31939,7 +31939,7 @@
           "id": 1621
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 20
     },
     {
@@ -31989,7 +31989,7 @@
           "id": 1574
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -32039,7 +32039,7 @@
           "id": 1006
         }
       },
-      "chance": 400000,
+      "chance": 0.4,
       "level_parents": 0
     },
     {
@@ -32089,7 +32089,7 @@
           "id": 1721
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -32139,7 +32139,7 @@
           "id": 1833
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -32189,7 +32189,7 @@
           "id": 1919
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -32239,7 +32239,7 @@
           "id": 1389
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -32289,7 +32289,7 @@
           "id": 1918
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -32339,7 +32339,7 @@
           "id": 2157
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -32389,7 +32389,7 @@
           "id": 2582
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -32439,7 +32439,7 @@
           "id": 1126
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -32489,7 +32489,7 @@
           "id": 1723
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -32539,7 +32539,7 @@
           "id": 1827
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -32589,7 +32589,7 @@
           "id": 2238
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -32639,7 +32639,7 @@
           "id": 1762
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -32689,7 +32689,7 @@
           "id": 1996
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -32739,7 +32739,7 @@
           "id": 1959
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -32789,7 +32789,7 @@
           "id": 2170
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -32839,7 +32839,7 @@
           "id": 1107
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -32889,7 +32889,7 @@
           "id": 1439
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -32939,7 +32939,7 @@
           "id": 2705
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -32989,7 +32989,7 @@
           "id": 2060
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -33039,7 +33039,7 @@
           "id": 1083
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -33089,7 +33089,7 @@
           "id": 1136
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -33139,7 +33139,7 @@
           "id": 1880
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -33189,7 +33189,7 @@
           "id": 2237
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -33239,7 +33239,7 @@
           "id": 1070
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -33289,7 +33289,7 @@
           "id": 1285
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -33339,7 +33339,7 @@
           "id": 1851
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -33389,7 +33389,7 @@
           "id": 1709
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -33439,7 +33439,7 @@
           "id": 1086
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -33489,7 +33489,7 @@
           "id": 1202
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -33539,7 +33539,7 @@
           "id": 2105
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -33589,7 +33589,7 @@
           "id": 2065
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 30
     },
     {
@@ -33639,7 +33639,7 @@
           "id": 1047
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -33689,7 +33689,7 @@
           "id": 1635
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -33739,7 +33739,7 @@
           "id": 1711
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -33789,7 +33789,7 @@
           "id": 2817
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -33839,7 +33839,7 @@
           "id": 1472
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -33889,7 +33889,7 @@
           "id": 2417
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -33939,7 +33939,7 @@
           "id": 1388
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -33989,7 +33989,7 @@
           "id": 1987
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -34039,7 +34039,7 @@
           "id": 1051
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -34089,7 +34089,7 @@
           "id": 1486
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -34139,7 +34139,7 @@
           "id": 1962
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -34189,7 +34189,7 @@
           "id": 2071
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -34239,7 +34239,7 @@
           "id": 1189
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -34289,7 +34289,7 @@
           "id": 1732
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -34339,7 +34339,7 @@
           "id": 1809
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -34389,7 +34389,7 @@
           "id": 1556
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -34439,7 +34439,7 @@
           "id": 1187
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -34489,7 +34489,7 @@
           "id": 1961
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -34539,7 +34539,7 @@
           "id": 1960
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -34589,7 +34589,7 @@
           "id": 2455
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -34639,7 +34639,7 @@
           "id": 1160
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -34689,7 +34689,7 @@
           "id": 1916
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -34739,7 +34739,7 @@
           "id": 1475
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -34789,7 +34789,7 @@
           "id": 1566
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -34839,7 +34839,7 @@
           "id": 1161
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -34889,7 +34889,7 @@
           "id": 1424
         }
       },
-      "chance": 300000,
+      "chance": 0.3,
       "level_parents": 0
     },
     {
@@ -34939,7 +34939,7 @@
           "id": 2265
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -34989,7 +34989,7 @@
           "id": 2392
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -35039,7 +35039,7 @@
           "id": 1162
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -35089,7 +35089,7 @@
           "id": 2665
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -35139,7 +35139,7 @@
           "id": 1555
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -35189,7 +35189,7 @@
           "id": 2626
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -35239,7 +35239,7 @@
           "id": 1159
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 0
     },
     {
@@ -35289,7 +35289,7 @@
           "id": 1516
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -35339,7 +35339,7 @@
           "id": 1622
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -35389,7 +35389,7 @@
           "id": 1966
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -35439,7 +35439,7 @@
           "id": 1185
         }
       },
-      "chance": 350000,
+      "chance": 0.35,
       "level_parents": 0
     },
     {
@@ -35489,7 +35489,7 @@
           "id": 1554
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -35539,7 +35539,7 @@
           "id": 1839
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 20
     },
     {
@@ -35589,7 +35589,7 @@
           "id": 2439
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -35639,7 +35639,7 @@
           "id": 1186
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -35689,7 +35689,7 @@
           "id": 1799
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 0
     },
     {
@@ -35739,7 +35739,7 @@
           "id": 1793
         }
       },
-      "chance": 200000,
+      "chance": 0.2,
       "level_parents": 20
     },
     {
@@ -35789,7 +35789,7 @@
           "id": 2440
         }
       },
-      "chance": 100000,
+      "chance": 0.1,
       "level_parents": 30
     },
     {
@@ -35839,7 +35839,7 @@
           "id": 3405
         }
       },
-      "chance": 1000,
+      "chance": 0.001,
       "level_parents": 70
     },
     {
@@ -35889,7 +35889,7 @@
           "id": 3422
         }
       },
-      "chance": 1000,
+      "chance": 0.001,
       "level_parents": 70
     },
     {
@@ -35939,7 +35939,7 @@
           "id": 3425
         }
       },
-      "chance": 1000,
+      "chance": 0.001,
       "level_parents": 70
     }
   ],
@@ -41814,7 +41814,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 1300000
+        "multiplier": 1.3
       },
       {
         "id": 3,
@@ -41834,7 +41834,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 1660000
+        "multiplier": 1.66
       },
       {
         "id": 4,
@@ -41855,7 +41855,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 2080000
+        "multiplier": 2.08
       },
       {
         "id": 5,
@@ -41877,7 +41877,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 2520000
+        "multiplier": 2.52
       },
       {
         "id": 6,
@@ -41900,7 +41900,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 2920000
+        "multiplier": 2.92
       },
       {
         "id": 7,
@@ -41924,7 +41924,7 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 3210000
+        "multiplier": 3.21
       },
       {
         "id": 8,
@@ -41949,16 +41949,16 @@
           10
         ],
         "num_steps": 15,
-        "multiplier": 3370000
+        "multiplier": 3.37
       }
     ],
     "general_config": {
       "SHOW_AT_LEVEL": 1,
       "ACTIVATE_AT_LEVEL": 25,
-      "PERCENT_OF_ACCUMULATED_GOLD": 1200000,
+      "PERCENT_OF_ACCUMULATED_GOLD": 1.2,
       "GOLD_FACTOR_LEVEL": 24,
-      "GOLD_EXPONENT": 2600000,
-      "GOLD_MULTIPLIER": 200000,
+      "GOLD_EXPONENT": 2.6,
+      "GOLD_MULTIPLIER": 0.2,
       "GOLD_COEFICIENT": 1000,
       "GOLD_DIVISOR": 50,
       "INACTIVE_BUILDING": 175,

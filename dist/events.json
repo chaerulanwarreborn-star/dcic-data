@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T10:14:05.658218Z",
+  "generated_at": "2026-10-06T14:20:32.092783Z",
   "source_file": "game_config.json",
-  "event_count": 79,
+  "event_count": 80,
   "events": [
     {
       "key": "event_island:1",
@@ -3295,6 +3295,63 @@
       "building_id": 10660,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10610_waroftheroses_island@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_norsegods.zip"
+    },
+    {
+      "key": "grid_island:319",
+      "id": 319,
+      "type": "grid_island",
+      "variant": "grid_island",
+      "type_label": "Grid Island",
+      "title": "Magical Autumn Forest Grid Island",
+      "subtitle": "",
+      "start_ts": 1792058400,
+      "end_ts": 1792663140,
+      "start_iso": "2026-10-15T10:00:00Z",
+      "end_iso": "2026-10-22T09:59:00Z",
+      "guide": "/p/grid-island-guide.html?id=319",
+      "schedule_source": "game_config",
+      "source_section": "grid_island",
+      "featured_dragons": [
+        {
+          "id": 3275,
+          "name": "Cheating Breeze Dragon",
+          "rarity": "L",
+          "img_name": "3275_dragon_cheatingbreeze",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3275_dragon_cheatingbreeze_3.png"
+        },
+        {
+          "id": 2631,
+          "name": "Solar Dragon",
+          "rarity": "L",
+          "img_name": "2631_dragon_solar",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2631_dragon_solar_3.png"
+        },
+        {
+          "id": 2460,
+          "name": "Green Meadows Dragon",
+          "rarity": "E",
+          "img_name": "2460_dragon_greenmeadows",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2460_dragon_greenmeadows_3.png"
+        },
+        {
+          "id": 2639,
+          "name": "Blue Dragon",
+          "rarity": "V",
+          "img_name": "2639_dragon_blue_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2639_dragon_blue_b_3.png"
+        },
+        {
+          "id": 1617,
+          "name": "Forestry Dragon",
+          "rarity": "R",
+          "img_name": "34470_forestal_dragon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34470_forestal_dragon_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 10921,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/magical_autumn_forest_island.png",
+      "asset_zip": "/mobile/ui/grid_islands/gi_magical_autumn_forest.zip"
     }
   ],
   "warnings": [

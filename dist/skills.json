@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T10:14:40Z",
-  "count": 582,
-  "linked_count": 301,
+  "generated_at": "2026-10-06T14:21:01Z",
+  "count": 590,
+  "linked_count": 303,
   "skills": [
     {
       "id": 1,
@@ -16,7 +16,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -77,7 +77,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -139,9 +139,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 900000,
-            "percentRemovedLife": 200000,
-            "selfDmgMultiplier": 700000,
+            "multiplier": 0.9,
+            "percentRemovedLife": 0.2,
+            "selfDmgMultiplier": 0.7,
             "waitTime": 500
           }
         }
@@ -189,9 +189,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 940000,
-            "percentRemovedLife": 200000,
-            "selfDmgMultiplier": 700000,
+            "multiplier": 0.94,
+            "percentRemovedLife": 0.2,
+            "selfDmgMultiplier": 0.7,
             "waitTime": 500
           }
         }
@@ -251,14 +251,14 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         },
         {
           "id": 7,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 600000,
+          "hit_chance": 0.6,
           "parameters": {}
         }
       ],
@@ -318,14 +318,14 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         },
         {
           "id": 8,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 600000,
+          "hit_chance": 0.6,
           "parameters": {}
         }
       ],
@@ -397,8 +397,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 780000,
-            "lifeSteal": 400000,
+            "multiplier": 0.78,
+            "lifeSteal": 0.4,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -447,8 +447,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 780000,
-            "lifeSteal": 400000,
+            "multiplier": 0.78,
+            "lifeSteal": 0.4,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -509,7 +509,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         },
         {
@@ -567,7 +567,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         },
         {
@@ -637,7 +637,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "waitTime": 500
           }
         }
@@ -685,7 +685,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1080000,
+            "multiplier": 1.08,
             "waitTime": 500
           }
         }
@@ -742,10 +742,10 @@
           "id": 17,
           "type": "DAMAGE",
           "target": "ENEMY_TEAM",
-          "hit_chance": 400000,
+          "hit_chance": 0.4,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1100000
+            "multiplier": 1.1
           }
         }
       ],
@@ -789,10 +789,10 @@
           "id": 18,
           "type": "DAMAGE",
           "target": "ENEMY_TEAM",
-          "hit_chance": 400000,
+          "hit_chance": 0.4,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1080000
+            "multiplier": 1.08
           }
         }
       ],
@@ -1059,7 +1059,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "waitTime": 500
           }
         }
@@ -1228,7 +1228,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "waitTime": 500
           }
         }
@@ -1287,7 +1287,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1100,
-            "multiplier": 1080000
+            "multiplier": 1.08
           }
         }
       ],
@@ -1357,7 +1357,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1110000
+            "multiplier": 1.11
           }
         }
       ],
@@ -1427,7 +1427,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1180000
+            "multiplier": 1.18
           }
         }
       ],
@@ -1471,10 +1471,10 @@
           "id": 26,
           "type": "HEAL",
           "target": "ALLY_TEAM",
-          "hit_chance": 400000,
+          "hit_chance": 0.4,
           "parameters": {
             "damage": 1100,
-            "multiplier": 1280000,
+            "multiplier": 1.28,
             "waitTime": 500
           }
         }
@@ -1530,10 +1530,10 @@
           "id": 27,
           "type": "HEAL",
           "target": "ALLY_TEAM",
-          "hit_chance": 400000,
+          "hit_chance": 0.4,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1280000,
+            "multiplier": 1.28,
             "waitTime": 500
           }
         }
@@ -1603,7 +1603,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1200,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "launchableSkills": [
               1,
               3,
@@ -1676,7 +1676,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "launchableSkills": [
               2,
               4,
@@ -1780,11 +1780,11 @@
           "id": 30,
           "type": "LIFE_STEAL",
           "target": "ENEMY_TEAM",
-          "hit_chance": 800000,
+          "hit_chance": 0.8,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1100000,
-            "lifeSteal": 300000,
+            "multiplier": 1.1,
+            "lifeSteal": 0.3,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -1830,11 +1830,11 @@
           "id": 31,
           "type": "LIFE_STEAL",
           "target": "ENEMY_TEAM",
-          "hit_chance": 800000,
+          "hit_chance": 0.8,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1100000,
-            "lifeSteal": 300000,
+            "multiplier": 1.1,
+            "lifeSteal": 0.3,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -1880,10 +1880,10 @@
           "id": 32,
           "type": "MULTIPLE_HITS",
           "target": "ENEMY_TEAM",
-          "hit_chance": 700000,
+          "hit_chance": 0.7,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "minHits": 3,
             "maxHits": 3,
             "waitTime": 400
@@ -1896,7 +1896,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 200000,
+            "multiplier": 0.2,
             "waitTime": 500
           }
         }
@@ -1954,10 +1954,10 @@
           "id": 33,
           "type": "MULTIPLE_HITS",
           "target": "ENEMY_TEAM",
-          "hit_chance": 700000,
+          "hit_chance": 0.7,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "minHits": 3,
             "maxHits": 3,
             "waitTime": 400
@@ -1970,7 +1970,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 300000,
+            "multiplier": 0.3,
             "waitTime": 500
           }
         }
@@ -2029,10 +2029,10 @@
           "id": 34,
           "type": "MULTIPLE_HITS",
           "target": "ENEMY_TEAM",
-          "hit_chance": 700000,
+          "hit_chance": 0.7,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "minHits": 3,
             "maxHits": 3,
             "waitTime": 400
@@ -2045,7 +2045,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 250000,
+            "multiplier": 0.25,
             "waitTime": 500
           }
         }
@@ -2477,8 +2477,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000,
-            "percentRemovedLife": 250000,
+            "multiplier": 1.3,
+            "percentRemovedLife": 0.25,
             "selfDmgMultiplier": 1,
             "waitTime": 500
           }
@@ -2743,7 +2743,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1250000
+            "multiplier": 1.25
           }
         }
       ],
@@ -2802,7 +2802,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2100000,
+            "multiplier": 2.1,
             "minHits": 5,
             "maxHits": 5,
             "waitTime": 500
@@ -2834,7 +2834,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2100000,
+            "multiplier": 2.1,
             "minHits": 3,
             "maxHits": 4,
             "waitTime": 500
@@ -2896,7 +2896,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2100000,
+            "multiplier": 2.1,
             "minHits": 3,
             "maxHits": 4,
             "waitTime": 500
@@ -3144,7 +3144,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         }
       ],
@@ -3272,7 +3272,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -3333,7 +3333,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "launchableSkills": [
               233,
               235,
@@ -3400,7 +3400,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2100000,
+            "multiplier": 2.1,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 500
@@ -3471,7 +3471,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -3532,7 +3532,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "waitTime": 500
           }
         }
@@ -3592,7 +3592,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1100,
-            "multiplier": 1280000,
+            "multiplier": 1.28,
             "waitTime": 500
           }
         },
@@ -3603,7 +3603,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1150000
+            "multiplier": 1.15
           }
         }
       ],
@@ -3664,8 +3664,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000,
-            "lifeSteal": 750000,
+            "multiplier": 1.3,
+            "lifeSteal": 0.75,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -3966,8 +3966,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2500000,
-            "percentRemovedLife": 650000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.65,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -4110,7 +4110,7 @@
           "id": 72,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 250000,
+          "hit_chance": 0.25,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
@@ -4294,7 +4294,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "launchableSkills": [
               233,
               241,
@@ -4490,7 +4490,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 800000
+            "healPercent": 0.8
           }
         }
       ],
@@ -4632,7 +4632,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "launchableSkills": [
               249,
               241,
@@ -4984,7 +4984,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         }
       ],
@@ -5165,8 +5165,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -5299,8 +5299,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3000,
-            "multiplier": 1500000,
-            "percentRemovedLife": 200000,
+            "multiplier": 1.5,
+            "percentRemovedLife": 0.2,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -5479,7 +5479,7 @@
           "id": 90,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 660000,
+          "hit_chance": 0.66,
           "parameters": {}
         },
         {
@@ -5611,7 +5611,7 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 1,
-            "lifeSteal": 750000,
+            "lifeSteal": 0.75,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -5731,7 +5731,7 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "percentRemainingLife": 150000,
+            "percentRemainingLife": 0.15,
             "attackId": 308,
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
@@ -6027,7 +6027,7 @@
           "parameters": {
             "damage": 1800,
             "multiplier": 1,
-            "percentRemovedLife": 600000,
+            "percentRemovedLife": 0.6,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -6102,7 +6102,7 @@
           "parameters": {
             "damage": 2500,
             "multiplier": 2,
-            "percentRemovedLife": 300000,
+            "percentRemovedLife": 0.3,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -6195,7 +6195,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -6208,7 +6208,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -6342,8 +6342,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1600,
-            "multiplier": 2500000,
-            "percentRemovedLife": 500000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.5,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -6375,7 +6375,7 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 1,
-            "percentRemovedLife": 400000,
+            "percentRemovedLife": 0.4,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -6436,8 +6436,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 2500000,
-            "percentRemovedLife": 300000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.3,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -6468,7 +6468,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1100,
-            "multiplier": 1280000,
+            "multiplier": 1.28,
             "waitTime": 500
           }
         }
@@ -6599,7 +6599,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -6630,7 +6630,7 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "percentRemainingLife": 150000,
+            "percentRemainingLife": 0.15,
             "attackId": 401,
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
@@ -6711,7 +6711,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -6845,7 +6845,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           }
@@ -6938,7 +6938,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -6951,7 +6951,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -7042,7 +7042,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "minHits": 9,
             "maxHits": 11,
             "waitTime": 250
@@ -7101,7 +7101,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "multiplier": 800000,
+            "multiplier": 0.8,
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           }
@@ -7144,7 +7144,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -7186,7 +7186,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -7379,7 +7379,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 500,
-            "multiplier": 500000
+            "multiplier": 0.5
           }
         }
       ],
@@ -7440,7 +7440,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -7503,7 +7503,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -7556,7 +7556,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 500,
-            "multiplier": 500000
+            "multiplier": 0.5
           }
         }
       ],
@@ -7617,7 +7617,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -7688,7 +7688,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -7854,7 +7854,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -7917,7 +7917,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "waitTime": 400
           }
         }
@@ -7988,7 +7988,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1300,
-            "multiplier": 500000
+            "multiplier": 0.5
           }
         }
       ],
@@ -8074,7 +8074,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -8179,8 +8179,8 @@
           "parameters": {
             "damage": 2300,
             "multiplier": 1,
-            "percentRemovedLife": 200000,
-            "selfDmgMultiplier": 700000,
+            "percentRemovedLife": 0.2,
+            "selfDmgMultiplier": 0.7,
             "waitTime": 500
           }
         }
@@ -8241,7 +8241,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -8294,7 +8294,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 600000
+            "multiplier": 0.6
           }
         }
       ],
@@ -8356,7 +8356,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -8398,7 +8398,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -8409,7 +8409,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1250000
+            "multiplier": 1.25
           }
         }
       ],
@@ -8470,7 +8470,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "waitTime": 500,
             "max_kills": 2
           }
@@ -8603,7 +8603,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 600000
+            "multiplier": 0.6
           }
         }
       ],
@@ -8724,7 +8724,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 900000
+            "multiplier": 0.9
           }
         },
         {
@@ -8796,7 +8796,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -8928,7 +8928,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -8990,7 +8990,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "waitTime": 400
           }
         }
@@ -9050,7 +9050,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "waitTime": 500,
             "max_kills": 2
           }
@@ -9092,7 +9092,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 600000
+            "multiplier": 0.6
           }
         },
         {
@@ -9164,7 +9164,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -9226,7 +9226,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 600000
+            "multiplier": 0.6
           }
         },
         {
@@ -9298,7 +9298,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "waitTime": 400
           }
         }
@@ -9411,7 +9411,7 @@
           "parameters": {
             "damage": 3000,
             "multiplier": 1,
-            "percentRemovedLife": 400000,
+            "percentRemovedLife": 0.4,
             "selfDmgMultiplier": 2,
             "waitTime": 500
           }
@@ -9442,7 +9442,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2700,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -9485,7 +9485,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         }
       ],
@@ -9515,8 +9515,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 250000,
-            "bonusDamagePercentage": 1150000,
+            "benchDragonsDamagePercentage": 0.25,
+            "bonusDamagePercentage": 1.15,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -9560,7 +9560,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -9622,7 +9622,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -9754,7 +9754,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 900000
+            "multiplier": 0.9
           }
         },
         {
@@ -9796,7 +9796,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -9838,7 +9838,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -9870,7 +9870,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1750000,
+            "multiplier": 1.75,
             "waitTime": 500
           }
         },
@@ -9881,7 +9881,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1750000
+            "multiplier": 1.75
           }
         }
       ],
@@ -9944,7 +9944,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -9986,7 +9986,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -10077,8 +10077,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 250000,
-            "bonusDamagePercentage": 1150000,
+            "benchDragonsDamagePercentage": 0.25,
+            "bonusDamagePercentage": 1.15,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -10122,7 +10122,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "waitTime": 500
           }
         },
@@ -10133,7 +10133,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -10182,7 +10182,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "waitTime": 500
           }
         },
@@ -10193,7 +10193,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -10253,7 +10253,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -10314,7 +10314,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -10344,7 +10344,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3250,
-            "multiplier": 2400000,
+            "multiplier": 2.4,
             "waitTime": 400
           }
         }
@@ -10434,7 +10434,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -10445,7 +10445,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -10506,7 +10506,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2800,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "waitTime": 500
           }
         },
@@ -10517,7 +10517,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2800,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -10559,7 +10559,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1900000
+            "multiplier": 1.9
           }
         }
       ],
@@ -10620,7 +10620,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -10670,7 +10670,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -10719,8 +10719,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 250000,
-            "bonusDamagePercentage": 1150000,
+            "benchDragonsDamagePercentage": 0.25,
+            "bonusDamagePercentage": 1.15,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -10763,8 +10763,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -10879,7 +10879,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3100,
-            "multiplier": 2300000,
+            "multiplier": 2.3,
             "waitTime": 500,
             "max_kills": 2
           }
@@ -10928,7 +10928,7 @@
           "id": 225,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 850000,
+          "hit_chance": 0.85,
           "parameters": {}
         }
       ],
@@ -10989,14 +10989,14 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3500,
-            "multiplier": 2500000
+            "multiplier": 2.5
           }
         },
         {
           "id": 225,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 850000,
+          "hit_chance": 0.85,
           "parameters": {}
         }
       ],
@@ -11038,7 +11038,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -11099,7 +11099,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -11129,7 +11129,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -11142,7 +11142,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -11203,8 +11203,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -11258,7 +11258,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3150,
-            "multiplier": 1900000,
+            "multiplier": 1.9,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -11271,7 +11271,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -11303,7 +11303,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -11311,7 +11311,7 @@
           "id": 237,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 600000,
+          "hit_chance": 0.6,
           "parameters": {}
         }
       ],
@@ -11369,7 +11369,7 @@
           "id": 238,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 700000,
+          "hit_chance": 0.7,
           "parameters": {}
         },
         {
@@ -11410,7 +11410,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2700,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -11442,7 +11442,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -11453,7 +11453,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 400
           }
         }
@@ -11514,8 +11514,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 250000,
-            "bonusDamagePercentage": 1150000,
+            "benchDragonsDamagePercentage": 0.25,
+            "bonusDamagePercentage": 1.15,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -11558,8 +11558,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -11653,8 +11653,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 250000,
-            "bonusDamagePercentage": 1150000,
+            "benchDragonsDamagePercentage": 0.25,
+            "bonusDamagePercentage": 1.15,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -11697,8 +11697,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -11742,7 +11742,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1300,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -11814,7 +11814,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -11845,7 +11845,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1400,
-            "multiplier": 1900000,
+            "multiplier": 1.9,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -11893,7 +11893,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -11923,7 +11923,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1400,
-            "multiplier": 1900000,
+            "multiplier": 1.9,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -11971,7 +11971,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -12042,7 +12042,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 900,
-            "multiplier": 980000
+            "multiplier": 0.98
           }
         }
       ],
@@ -12102,7 +12102,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 500
@@ -12233,7 +12233,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 400
@@ -12294,7 +12294,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 400
@@ -12346,7 +12346,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1650,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -12389,7 +12389,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1650,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -12423,7 +12423,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -12472,7 +12472,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -12521,7 +12521,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -12553,7 +12553,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -12625,7 +12625,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2200000,
+            "multiplier": 2.2,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -12657,9 +12657,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2700,
-            "multiplier": 1500000,
-            "percentRemovedLife": 200000,
-            "selfDmgMultiplier": 500000,
+            "multiplier": 1.5,
+            "percentRemovedLife": 0.2,
+            "selfDmgMultiplier": 0.5,
             "waitTime": 500
           }
         }
@@ -12689,7 +12689,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2300000,
+            "multiplier": 2.3,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -12721,7 +12721,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2300000,
+            "multiplier": 2.3,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -12753,7 +12753,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 400
           }
         }
@@ -12783,7 +12783,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -12836,7 +12836,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         }
       ],
@@ -12867,7 +12867,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "waitTime": 500
           }
         }
@@ -12927,7 +12927,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -12969,7 +12969,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -12999,7 +12999,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2750,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -13041,7 +13041,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -13083,7 +13083,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 400
           }
         }
@@ -13113,7 +13113,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "waitTime": 400
           }
         }
@@ -13144,7 +13144,7 @@
           "parameters": {
             "damage": 3000,
             "multiplier": 1,
-            "percentRemovedLife": 400000,
+            "percentRemovedLife": 0.4,
             "selfDmgMultiplier": 2,
             "waitTime": 500
           }
@@ -13174,8 +13174,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -13207,8 +13207,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 300000,
-            "bonusDamagePercentage": 1100000,
+            "benchDragonsDamagePercentage": 0.3,
+            "bonusDamagePercentage": 1.1,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -13261,8 +13261,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 360000,
-            "bonusDamagePercentage": 1300000,
+            "benchDragonsDamagePercentage": 0.36,
+            "bonusDamagePercentage": 1.3,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -13295,8 +13295,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3000,
-            "multiplier": 1500000,
-            "percentRemovedLife": 100000,
+            "multiplier": 1.5,
+            "percentRemovedLife": 0.1,
             "selfDmgMultiplier": 1,
             "waitTime": 400
           }
@@ -13345,7 +13345,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 3450,
-            "multiplier": 1750000
+            "multiplier": 1.75
           }
         }
       ],
@@ -13384,7 +13384,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1300000,
+            "multiplier": 1.3,
             "waitTime": 500
           }
         },
@@ -13392,7 +13392,7 @@
           "id": 294,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 500000,
+          "hit_chance": 0.5,
           "parameters": {}
         }
       ],
@@ -13453,7 +13453,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -13461,7 +13461,7 @@
           "id": 300,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 900000,
+          "hit_chance": 0.9,
           "parameters": {}
         }
       ],
@@ -13512,7 +13512,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000
+            "multiplier": 1.2
           }
         },
         {
@@ -13522,7 +13522,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -13530,7 +13530,7 @@
           "id": 300,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 900000,
+          "hit_chance": 0.9,
           "parameters": {}
         }
       ],
@@ -13563,7 +13563,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1350,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -13620,7 +13620,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1600000
+            "multiplier": 1.6
           }
         },
         {
@@ -13677,7 +13677,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -13724,7 +13724,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -13783,7 +13783,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1700000
+            "multiplier": 1.7
           }
         }
       ],
@@ -13844,7 +13844,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1850,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -13893,7 +13893,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 500000
+            "healPercent": 0.5
           }
         }
       ],
@@ -13922,7 +13922,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -13954,7 +13954,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -13996,7 +13996,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "waitTime": 500
           }
         },
@@ -14007,7 +14007,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -14079,7 +14079,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1750,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -14209,7 +14209,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "waitTime": 500
           }
         }
@@ -14269,7 +14269,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "minHits": 5,
             "maxHits": 5,
             "waitTime": 500
@@ -14331,7 +14331,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -14415,7 +14415,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         }
       ],
@@ -14487,7 +14487,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -14558,7 +14558,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -14646,7 +14646,7 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "percentRemainingLife": 250000,
+            "percentRemainingLife": 0.25,
             "attackId": 401,
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
@@ -14678,7 +14678,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -14748,7 +14748,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -14790,7 +14790,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -14850,7 +14850,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -14919,7 +14919,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -14989,7 +14989,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -14999,7 +14999,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "waitTime": 500
           }
         }
@@ -15061,7 +15061,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -15091,7 +15091,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2700,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "lifeSteal": 1,
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -15124,7 +15124,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 700000,
+            "damage_multiplier": 0.7,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -15166,7 +15166,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1550,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -15249,7 +15249,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -15310,7 +15310,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -15372,7 +15372,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -15441,7 +15441,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -15513,7 +15513,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -15573,7 +15573,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -15614,7 +15614,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 500000,
+            "percentageValue": 0.5,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
@@ -15656,7 +15656,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 500000,
+            "percentageValue": 0.5,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -15670,7 +15670,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -15731,7 +15731,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -15790,7 +15790,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -15823,7 +15823,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1600000
+            "multiplier": 1.6
           }
         }
       ],
@@ -15851,7 +15851,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 500000,
+            "percentageValue": 0.5,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -15865,7 +15865,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1600000
+            "multiplier": 1.6
           }
         }
       ],
@@ -15896,7 +15896,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "minHits": 4,
             "maxHits": 6,
             "waitTime": 500
@@ -15928,7 +15928,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -15958,7 +15958,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -15967,7 +15967,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16032,7 +16032,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1750,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -16041,7 +16041,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 250000,
+            "percentageValue": 0.25,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16106,7 +16106,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "waitTime": 500
           }
         }
@@ -16166,7 +16166,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -16225,7 +16225,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 350000,
+            "percentageValue": 0.35,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16268,7 +16268,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 300000,
+            "percentageValue": 0.3,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16282,7 +16282,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1650,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -16343,7 +16343,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1600,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -16353,7 +16353,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -16415,7 +16415,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1650,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -16424,7 +16424,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 350000,
+            "percentageValue": 0.35,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16459,7 +16459,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1600,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -16469,7 +16469,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -16500,7 +16500,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16514,7 +16514,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -16575,7 +16575,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -16642,7 +16642,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -16656,7 +16656,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -16717,7 +16717,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -16779,7 +16779,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -16839,7 +16839,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -16871,8 +16871,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -16903,7 +16903,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -16916,7 +16916,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -17041,7 +17041,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -17138,7 +17138,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -17180,7 +17180,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -17248,7 +17248,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -17348,8 +17348,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -17410,7 +17410,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -17507,7 +17507,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         },
         {
@@ -17517,8 +17517,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -17551,7 +17551,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         }
       ],
@@ -17657,8 +17657,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -18759,7 +18759,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 800000
+            "healPercent": 0.8
           }
         }
       ],
@@ -18798,7 +18798,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 800000
+            "healPercent": 0.8
           }
         }
       ],
@@ -18834,7 +18834,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 2100000,
+            "multiplier": 2.1,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 500
@@ -18868,7 +18868,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -18900,7 +18900,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -18961,7 +18961,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2050,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -19023,7 +19023,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -19054,7 +19054,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2050,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -19125,7 +19125,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -19197,7 +19197,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -19228,7 +19228,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -19357,7 +19357,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -19478,7 +19478,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -19505,7 +19505,7 @@
           "id": 467,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 250000,
+          "hit_chance": 0.25,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
@@ -19538,8 +19538,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -19601,7 +19601,7 @@
           "parameters": {
             "damage": 2200,
             "multiplier": 3,
-            "percentRemovedLife": 200000,
+            "percentRemovedLife": 0.2,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -19632,7 +19632,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -19664,7 +19664,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -19677,7 +19677,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -19709,9 +19709,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1900000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 1.9,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -19800,9 +19800,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 2700000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 2.7,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -19872,7 +19872,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -19934,7 +19934,7 @@
           "parameters": {
             "type": "decrease_attack",
             "overrideModifiers": [
-              600000
+              0.6
             ],
             "activeTurns": 5
           }
@@ -19966,8 +19966,8 @@
           "parameters": {
             "damage": 1900,
             "multiplier": 100,
-            "shieldMultiplier": 500000,
-            "armorMultiplier": 2500000,
+            "shieldMultiplier": 0.5,
+            "armorMultiplier": 2.5,
             "vfx": "testVfx",
             "carryDamage": true,
             "avoidSkills": [
@@ -20009,7 +20009,7 @@
           "parameters": {
             "type": "decrease_attack",
             "overrideModifiers": [
-              600000
+              0.6
             ],
             "activeTurns": 3
           }
@@ -20051,7 +20051,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2350,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -20082,7 +20082,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -20095,7 +20095,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -20157,9 +20157,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1900000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 1.9,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -20248,9 +20248,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1900000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 1.9,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -20309,7 +20309,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         },
@@ -20320,7 +20320,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -20402,8 +20402,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 3,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -20493,8 +20493,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 3,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -20536,7 +20536,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -20597,7 +20597,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -20628,7 +20628,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -20689,7 +20689,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2640,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -20719,8 +20719,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 400000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.4,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -20754,8 +20754,8 @@
           "parameters": {
             "damage": 2100,
             "multiplier": 2,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -20844,7 +20844,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -20914,9 +20914,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 2500000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 2.5,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -20975,7 +20975,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -20988,7 +20988,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -21050,7 +21050,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -21063,7 +21063,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2850,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -21106,7 +21106,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -21167,7 +21167,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -21229,7 +21229,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -21239,7 +21239,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -21300,7 +21300,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -21314,7 +21314,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1500,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -21375,7 +21375,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -21435,7 +21435,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -21507,7 +21507,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 3,
             "maxHits": 5,
             "waitTime": 500
@@ -21552,7 +21552,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -21646,7 +21646,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -21678,7 +21678,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -21741,8 +21741,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 2,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -21832,8 +21832,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 2,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -21893,8 +21893,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 2,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -21946,8 +21946,8 @@
           "parameters": {
             "damage": 2000,
             "multiplier": 2,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": false,
             "avoidSkills": [
               "VENGEFUL",
@@ -21987,7 +21987,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -22049,7 +22049,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         },
@@ -22060,7 +22060,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "waitTime": 500
           }
         }
@@ -22161,7 +22161,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -22170,7 +22170,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -22204,7 +22204,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 250000,
+            "percentageValue": 0.25,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
@@ -22329,9 +22329,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 1.8,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -22391,7 +22391,7 @@
           "parameters": {
             "type": "decrease_attack",
             "overrideModifiers": [
-              600000
+              0.6
             ],
             "activeTurns": 4
           }
@@ -22422,7 +22422,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -22519,7 +22519,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -22528,7 +22528,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 500000,
+            "percentageValue": 0.5,
             "activeTurns": 3,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -22593,7 +22593,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         },
@@ -22722,7 +22722,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 700000
+            "healPercent": 0.7
           }
         }
       ],
@@ -22750,7 +22750,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 500000
+            "healPercent": 0.5
           }
         }
       ],
@@ -22801,7 +22801,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "waitTime": 500
           }
         }
@@ -22833,7 +22833,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 500
@@ -22846,7 +22846,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -22908,7 +22908,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -22968,7 +22968,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -23030,8 +23030,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
-            "lifeSteal": 1200000,
+            "multiplier": 1.4,
+            "lifeSteal": 1.2,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           }
@@ -23140,7 +23140,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -23198,7 +23198,7 @@
           "id": 556,
           "type": "EXTRA_TURN",
           "target": "NONE",
-          "hit_chance": 500000,
+          "hit_chance": 0.5,
           "parameters": {}
         },
         {
@@ -23208,7 +23208,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -23269,7 +23269,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -23435,7 +23435,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         },
@@ -23514,7 +23514,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2450,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -23575,7 +23575,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2050,
-            "multiplier": 800000,
+            "multiplier": 0.8,
             "waitTime": 500
           }
         },
@@ -23586,7 +23586,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2050,
-            "multiplier": 1100000
+            "multiplier": 1.1
           }
         }
       ],
@@ -23647,7 +23647,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         },
         {
@@ -23730,7 +23730,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 900000
+            "multiplier": 0.9
           }
         }
       ],
@@ -23772,7 +23772,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2450,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -23803,7 +23803,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -23916,7 +23916,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1600000
+            "multiplier": 1.6
           }
         },
         {
@@ -24058,7 +24058,7 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "percentRemainingLife": 150000,
+            "percentRemainingLife": 0.15,
             "attackId": 1462,
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
@@ -24101,7 +24101,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 4,
             "maxHits": 6,
             "waitTime": 500
@@ -24176,7 +24176,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2600000,
+            "multiplier": 2.6,
             "minHits": 5,
             "maxHits": 6,
             "waitTime": 500
@@ -24189,7 +24189,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 2800000,
+            "multiplier": 2.8,
             "waitTime": 500
           }
         }
@@ -24221,7 +24221,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -24387,8 +24387,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2250,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -24449,7 +24449,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -24557,7 +24557,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -24629,7 +24629,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -24659,7 +24659,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 250000,
+            "percentageValue": 0.25,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
@@ -24691,7 +24691,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 2200000
+            "multiplier": 2.2
           }
         },
         {
@@ -24782,7 +24782,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1850000,
+            "multiplier": 1.85,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -24816,7 +24816,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 900000,
+            "tickMultiplier": 0.9,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -24855,7 +24855,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 900000,
+            "tickMultiplier": 0.9,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -24938,7 +24938,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2450,
-            "multiplier": 800000
+            "multiplier": 0.8
           }
         }
       ],
@@ -24999,8 +24999,8 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "benchDragonsDamagePercentage": 400000,
-            "bonusDamagePercentage": 1250000,
+            "benchDragonsDamagePercentage": 0.4,
+            "bonusDamagePercentage": 1.25,
             "maxBenchTargets": 2,
             "benchTargetMode": "sequential",
             "fg_vfx_screen_effectname": "megacrit_speedlines",
@@ -25063,7 +25063,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25126,7 +25126,7 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "percentRemainingLife": 330000,
+            "percentRemainingLife": 0.33,
             "attackId": 401,
             "extraDamagePercentage": 15,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
@@ -25158,7 +25158,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 600000
+            "multiplier": 0.6
           }
         },
         {
@@ -25229,7 +25229,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 250000
+            "healPercent": 0.25
           }
         }
       ],
@@ -25269,7 +25269,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -25289,7 +25289,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 250000,
+            "percentageValue": 0.25,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
@@ -25355,7 +25355,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1850000,
+            "multiplier": 1.85,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25408,7 +25408,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 750000,
+            "tickMultiplier": 0.75,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -25447,7 +25447,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 750000,
+            "tickMultiplier": 0.75,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -25508,7 +25508,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25541,7 +25541,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25624,7 +25624,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -25693,7 +25693,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1600000,
+            "multiplier": 1.6,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -25706,7 +25706,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2200000,
+            "multiplier": 2.2,
             "waitTime": 500
           }
         }
@@ -25768,7 +25768,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1950,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25851,7 +25851,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2150,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -25904,7 +25904,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 820000,
+            "tickMultiplier": 0.82,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -25943,7 +25943,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 820000,
+            "tickMultiplier": 0.82,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -26004,9 +26004,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 2500000,
-            "percentRemovedLife": 200000,
-            "selfDmgMultiplier": 700000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.2,
+            "selfDmgMultiplier": 0.7,
             "waitTime": 500
           }
         }
@@ -26063,11 +26063,11 @@
           "id": 745,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 250000,
+          "hit_chance": 0.25,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
-            "damageMultiplier": 2150000
+            "damageMultiplier": 2.15
           }
         }
       ],
@@ -26107,7 +26107,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -26151,7 +26151,7 @@
       "element_names": [
         "Time"
       ],
-      "usage_count": 4,
+      "usage_count": 2,
       "linked_dragons": [
         {
           "dragon_id": 3494,
@@ -26174,28 +26174,6 @@
           "move_type": "trained",
           "element": "ti",
           "ui_damage": 2400
-        },
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mind Break",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
-          "attack_id": 1503,
-          "attack_name": "Venom Fang",
-          "move_type": "basic",
-          "element": "ti",
-          "ui_damage": 2400
-        },
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mind Break",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
-          "attack_id": 1503,
-          "attack_name": "Venom Fang",
-          "move_type": "trained",
-          "element": "ti",
-          "ui_damage": 2400
         }
       ]
     },
@@ -26212,7 +26190,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2550,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -26266,7 +26244,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 910000,
+            "tickMultiplier": 0.91,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -26305,7 +26283,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 950000,
+            "tickMultiplier": 0.95,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -26344,7 +26322,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2150,
-            "multiplier": 1900000,
+            "multiplier": 1.9,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -26366,7 +26344,7 @@
       "element_names": [
         "Dark"
       ],
-      "usage_count": 4,
+      "usage_count": 2,
       "linked_dragons": [
         {
           "dragon_id": 3494,
@@ -26384,28 +26362,6 @@
           "dragon_name": "High Stained Sharpfang",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
-          "attack_id": 1505,
-          "attack_name": "Fatal Strike",
-          "move_type": "trained",
-          "element": "d",
-          "ui_damage": 2350
-        },
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mind Break",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
-          "attack_id": 1505,
-          "attack_name": "Fatal Strike",
-          "move_type": "basic",
-          "element": "d",
-          "ui_damage": 2350
-        },
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mind Break",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
           "attack_id": 1505,
           "attack_name": "Fatal Strike",
           "move_type": "trained",
@@ -26428,7 +26384,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 500000,
+            "damage_multiplier": 0.5,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -26443,23 +26399,13 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 2,
+      "usage_count": 1,
       "linked_dragons": [
         {
           "dragon_id": 3494,
           "dragon_name": "High Stained Sharpfang",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3494_dragon_highstainedsharpfang_3.png",
-          "attack_id": 0,
-          "attack_name": "Bloodthirst",
-          "move_type": "passive",
-          "element": ""
-        },
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mind Break",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
           "attack_id": 0,
           "attack_name": "Bloodthirst",
           "move_type": "passive",
@@ -26480,7 +26426,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2050,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -26563,7 +26509,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2350,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -26617,7 +26563,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 790000,
+            "tickMultiplier": 0.79,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -26656,7 +26602,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 950000,
+            "tickMultiplier": 0.95,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -26774,9 +26720,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 2200000,
-            "shieldMultiplier": 700000,
-            "armorMultiplier": 1500000,
+            "multiplier": 2.2,
+            "shieldMultiplier": 0.7,
+            "armorMultiplier": 1.5,
             "carryDamage": true,
             "avoidSkills": [
               "VENGEFUL",
@@ -26848,7 +26794,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1700,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         },
         {
@@ -26857,7 +26803,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 400000,
+            "percentageValue": 0.4,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -26892,7 +26838,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -26924,7 +26870,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -26956,7 +26902,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -26988,7 +26934,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -27018,7 +26964,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27050,7 +26996,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27082,7 +27028,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27114,7 +27060,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -27144,7 +27090,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27176,7 +27122,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         },
@@ -27187,7 +27133,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "minHits": 3,
             "maxHits": 6,
             "waitTime": 500
@@ -27221,7 +27167,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27272,7 +27218,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -27306,7 +27252,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27338,7 +27284,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27370,7 +27316,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27413,7 +27359,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -27444,7 +27390,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27476,7 +27422,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27508,7 +27454,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27579,7 +27525,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27611,7 +27557,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27643,7 +27589,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27675,7 +27621,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "baseModifier": 1,
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
@@ -27707,7 +27653,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27739,7 +27685,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27771,7 +27717,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27850,7 +27796,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27882,7 +27828,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27914,7 +27860,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -27946,7 +27892,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -27959,7 +27905,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -27991,7 +27937,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28023,7 +27969,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28055,7 +28001,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28087,8 +28033,8 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2500000,
-            "percentRemovedLife": 350000,
+            "multiplier": 2.5,
+            "percentRemovedLife": 0.35,
             "selfDmgMultiplier": 0,
             "waitTime": 400
           }
@@ -28119,7 +28065,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28151,7 +28097,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28183,7 +28129,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28226,7 +28172,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 700000
+            "multiplier": 0.7
           }
         }
       ],
@@ -28257,7 +28203,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28289,7 +28235,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28321,7 +28267,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28353,7 +28299,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28385,7 +28331,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28417,7 +28363,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28449,7 +28395,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28481,7 +28427,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28513,7 +28459,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28545,7 +28491,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28577,7 +28523,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28620,7 +28566,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -28651,7 +28597,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28683,7 +28629,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28715,7 +28661,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28747,7 +28693,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -28814,7 +28760,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28846,7 +28792,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28878,7 +28824,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28910,7 +28856,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -28942,7 +28888,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -28974,7 +28920,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29006,7 +28952,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29038,7 +28984,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -29069,7 +29015,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29101,7 +29047,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29133,7 +29079,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29204,7 +29150,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29236,7 +29182,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29268,7 +29214,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29311,7 +29257,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2100,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -29342,7 +29288,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29374,7 +29320,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29406,7 +29352,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29438,7 +29384,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 2500000,
+            "multiplier": 2.5,
             "minHits": 6,
             "maxHits": 6,
             "waitTime": 500
@@ -29451,7 +29397,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "waitTime": 500
           }
         }
@@ -29483,7 +29429,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29515,7 +29461,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29547,7 +29493,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29579,7 +29525,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29611,7 +29557,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29643,7 +29589,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29675,7 +29621,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29707,7 +29653,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1000,
-            "multiplier": 1680000,
+            "multiplier": 1.68,
             "minHits": 1,
             "maxHits": 5,
             "waitTime": 500
@@ -29739,7 +29685,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2300000,
+            "multiplier": 2.3,
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           }
@@ -29767,11 +29713,11 @@
           "id": 833,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 300000,
+          "hit_chance": 0.3,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
-            "damageMultiplier": 2350000
+            "damageMultiplier": 2.35
           }
         }
       ],
@@ -29800,7 +29746,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2300,
-            "multiplier": 1400000,
+            "multiplier": 1.4,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -29832,7 +29778,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -29915,7 +29861,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 1700000,
+            "multiplier": 1.7,
             "dodgeSkills": [
               "VENGEFUL",
               "EVASION"
@@ -29969,7 +29915,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 910000,
+            "tickMultiplier": 0.91,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -30008,7 +29954,7 @@
           "hit_chance": 1,
           "parameters": {
             "mode": "Damage",
-            "tickMultiplier": 950000,
+            "tickMultiplier": 0.95,
             "activeTurns": 3,
             "bypassList": [
               "BUNKER",
@@ -30047,7 +29993,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1800000,
+            "multiplier": 1.8,
             "lifeSteal": 1,
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -30162,6 +30108,390 @@
         "ATTACK_TAG_MODIFIER"
       ],
       "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 578,
+      "name": "Wild fireworks",
+      "description": "Deals damage with a 50% chance of a Critical Hit",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 566,
+          "type": "ACTIVATE_AURA",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "auraIds": [
+              34
+            ]
+          }
+        },
+        {
+          "id": 843,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2450,
+            "multiplier": 0.8
+          }
+        }
+      ],
+      "effect_types": [
+        "ACTIVATE_AURA",
+        "DAMAGE"
+      ],
+      "targets": [
+        "ENEMY",
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 579,
+      "name": "Mind Break",
+      "description": "Deals damage and Mindbreaks the enemy. Mindbroken dragons have a chance to misdirect their skills for a few turns.",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 846,
+          "type": "CARRY_DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 2.2,
+            "effect_tid": "tid_skill_description_250_battlefield"
+          }
+        },
+        {
+          "id": 844,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              124
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "addRandomly": false,
+            "dragonAnimation": "special1",
+            "vfx": "mindbreak_skill_hit",
+            "giveToDragons": "any",
+            "vfxAttachedToTarget": "true"
+          }
+        }
+      ],
+      "effect_types": [
+        "CARRY_DAMAGE",
+        "GIVE_PASSIVE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "dr"
+      ],
+      "element_names": [
+        "Dream"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mindbreak",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1611,
+          "attack_name": "Mind Break",
+          "move_type": "basic",
+          "element": "dr",
+          "ui_damage": 2100
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mindbreak",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1611,
+          "attack_name": "Mind Break",
+          "move_type": "trained",
+          "element": "dr",
+          "ui_damage": 2100
+        }
+      ]
+    },
+    {
+      "id": 580,
+      "name": "Mind Broken",
+      "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 845,
+          "type": "MINDBREAK",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "calloutTid": "tid_minbreak",
+            "duration": 4,
+            "missTid": "tid_miss",
+            "procChance": 0.35,
+            "vfx": "mindbreak_skill_apply"
+          }
+        }
+      ],
+      "effect_types": [
+        "MINDBREAK"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 581,
+      "name": "Hypnotic Surge",
+      "description": "Deals massive damage that cannot miss. Has a chance to grant an extra turn.",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 847,
+          "type": "HOMING_ATTACK",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2500,
+            "multiplier": 2.4,
+            "dodgeSkills": [
+              "VENGEFUL",
+              "EVASION"
+            ]
+          }
+        },
+        {
+          "id": 848,
+          "type": "EXTRA_TURN",
+          "target": "NONE",
+          "hit_chance": 0.4,
+          "parameters": {}
+        }
+      ],
+      "effect_types": [
+        "EXTRA_TURN",
+        "HOMING_ATTACK"
+      ],
+      "targets": [
+        "ENEMY",
+        "NONE"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "d"
+      ],
+      "element_names": [
+        "Dark"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mindbreak",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1613,
+          "attack_name": "Hypnotic Surge",
+          "move_type": "basic",
+          "element": "d",
+          "ui_damage": 2000
+        },
+        {
+          "dragon_id": 3510,
+          "dragon_name": "High Hypno Mindbreak",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "attack_id": 1613,
+          "attack_name": "Hypnotic Surge",
+          "move_type": "trained",
+          "element": "d",
+          "ui_damage": 2000
+        }
+      ]
+    },
+    {
+      "id": 582,
+      "name": "Brain Drain",
+      "description": "When this dragon defeats an enemy, all allies restore a portion of their health.",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 849,
+          "type": "HEAL",
+          "target": "ALLY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2500,
+            "multiplier": 2.9,
+            "waitTime": 300
+          }
+        }
+      ],
+      "effect_types": [
+        "HEAL"
+      ],
+      "targets": [
+        "ALLY_TEAM"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 583,
+      "name": "Mind Broken",
+      "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 850,
+          "type": "MINDBREAK",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "calloutTid": "tid_minbreak",
+            "duration": 4,
+            "missTid": "tid_miss",
+            "procChance": 0.45,
+            "vfx": "mindbreak_skill_apply"
+          }
+        }
+      ],
+      "effect_types": [
+        "MINDBREAK"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 584,
+      "name": "Mind Break +",
+      "description": "Deals damage and Mindbreaks the enemy. Mindbroken dragons have a chance to misdirect their skills for a few turns.Now Improved!",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 851,
+          "type": "CARRY_DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2100,
+            "multiplier": 2.5,
+            "effect_tid": "tid_skill_description_250_battlefield"
+          }
+        },
+        {
+          "id": 852,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              126
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "addRandomly": false,
+            "dragonAnimation": "special1",
+            "vfx": "mindbreak_skill_hit",
+            "giveToDragons": "any",
+            "vfxAttachedToTarget": "true"
+          }
+        }
+      ],
+      "effect_types": [
+        "CARRY_DAMAGE",
+        "GIVE_PASSIVE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 585,
+      "name": "Extra Armor",
+      "description": "Deals Damage and applies 50% of Armor to user",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 853,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 1700,
+            "multiplier": 1.4
+          }
+        },
+        {
+          "id": 854,
+          "type": "ARMOR",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "percentageValue": 0.5,
+            "activeTurns": 2,
+            "dragonLife": "receiver",
+            "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
+            "effectName": "tid_skill_armor_effect_name"
+          }
+        }
+      ],
+      "effect_types": [
+        "ARMOR",
+        "DAMAGE"
+      ],
+      "targets": [
+        "ENEMY",
         "SELF"
       ],
       "move_types": [],
@@ -30288,7 +30618,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1100000,
+            "multiplier": 1.1,
             "lifeSteal": 1,
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
@@ -30350,7 +30680,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2400,
-            "multiplier": 1500000
+            "multiplier": 1.5
           }
         },
         {
@@ -30389,7 +30719,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 880000,
+            "damage_multiplier": 0.88,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -30420,7 +30750,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 700,
-            "multiplier": 1250000,
+            "multiplier": 1.25,
             "waitTime": 500
           }
         },
@@ -30431,7 +30761,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1500000,
+            "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         }
@@ -30462,7 +30792,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "multiplier": 1200000,
+            "multiplier": 1.2,
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           }
@@ -30490,7 +30820,7 @@
           "id": 72,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 250000,
+          "hit_chance": 0.25,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
@@ -30580,7 +30910,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1900,
-            "multiplier": 1300000
+            "multiplier": 1.3
           }
         },
         {
@@ -30699,7 +31029,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 1800,
-            "multiplier": 1400000
+            "multiplier": 1.4
           }
         }
       ],
@@ -30782,7 +31112,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2500,
-            "multiplier": 1800000
+            "multiplier": 1.8
           }
         }
       ],
@@ -30810,11 +31140,11 @@
           "id": 721,
           "type": "VENGEFUL",
           "target": "NONE",
-          "hit_chance": 330000,
+          "hit_chance": 0.33,
           "parameters": {
             "damage": 0,
             "multiplier": 0,
-            "damageMultiplier": 2150000
+            "damageMultiplier": 2.15
           }
         }
       ],
@@ -30844,7 +31174,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 880000,
+            "damage_multiplier": 0.88,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }
@@ -30895,7 +31225,7 @@
           "target": "ALLY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "healPercent": 700000
+            "healPercent": 0.7
           }
         }
       ],
@@ -30935,9 +31265,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2100000,
-            "shieldMultiplier": 500000,
-            "armorMultiplier": 2500000,
+            "multiplier": 2.1,
+            "shieldMultiplier": 0.5,
+            "armorMultiplier": 2.5,
             "vfx": "testVfx",
             "carryDamage": true,
             "avoidSkills": [
@@ -31087,9 +31417,9 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2600,
-            "multiplier": 2400000,
-            "shieldMultiplier": 600000,
-            "armorMultiplier": 3100000,
+            "multiplier": 2.4,
+            "shieldMultiplier": 0.6,
+            "armorMultiplier": 3.1,
             "vfx": "testVfx",
             "carryDamage": true,
             "avoidSkills": [
@@ -31150,7 +31480,7 @@
           "parameters": {
             "bg_vfx_node_name": "bg_berserk_vortex",
             "fg_vfx_node_name": "fg_berserk_vortex",
-            "damage_multiplier": 950000,
+            "damage_multiplier": 0.95,
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           }

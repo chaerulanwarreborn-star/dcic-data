@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T10:14:41Z",
-  "count": 2057,
+  "generated_at": "2026-10-06T14:21:00Z",
+  "count": 2061,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -8095,6 +8095,20 @@
       "family": "arena_pass"
     },
     {
+      "key": "arena_pass_points.20261015",
+      "name": "arena_pass_points.20261015",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261022",
+      "name": "arena_pass_points.20261022",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
       "key": "arena_pass_points.s1",
       "name": "arena_pass_points.s1",
       "type": "currency",
@@ -9581,6 +9595,13 @@
     {
       "key": "master_arena_pass_points.20261008_seg81",
       "name": "master_arena_pass_points.20261008_seg81",
+      "type": "currency",
+      "image_url": "",
+      "family": "master_arena_pass"
+    },
+    {
+      "key": "master_arena_pass_points.20261015_seg81",
+      "name": "master_arena_pass_points.20261015_seg81",
       "type": "currency",
       "image_url": "",
       "family": "master_arena_pass"
@@ -14376,6 +14397,13 @@
     {
       "key": "tree_of_life_pass_points.20260910",
       "name": "tree_of_life_pass_points.20260910",
+      "type": "currency",
+      "image_url": "",
+      "family": "tree_of_life_pass"
+    },
+    {
+      "key": "tree_of_life_pass_points.20261022",
+      "name": "tree_of_life_pass_points.20261022",
       "type": "currency",
       "image_url": "",
       "family": "tree_of_life_pass"
