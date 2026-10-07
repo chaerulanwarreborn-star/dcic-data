@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-07T08:09:21Z",
-  "count": 590,
-  "linked_count": 303,
+  "generated_at": "2026-10-07T08:24:21Z",
+  "count": 597,
+  "linked_count": 307,
   "skills": [
     {
       "id": 1,
@@ -30224,7 +30224,7 @@
           "attack_name": "Mind Break",
           "move_type": "basic",
           "element": "dr",
-          "ui_damage": 2100
+          "ui_damage": 2350
         },
         {
           "dragon_id": 3510,
@@ -30235,13 +30235,13 @@
           "attack_name": "Mind Break",
           "move_type": "trained",
           "element": "dr",
-          "ui_damage": 2100
+          "ui_damage": 2350
         }
       ]
     },
     {
       "id": 580,
-      "name": "Mind Broken",
+      "name": "Skill 580",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "cooldown": 0,
       "effects": [
@@ -30312,10 +30312,10 @@
         "trained"
       ],
       "elements": [
-        "d"
+        "pr"
       ],
       "element_names": [
-        "Dark"
+        "Primal"
       ],
       "usage_count": 2,
       "linked_dragons": [
@@ -30327,8 +30327,8 @@
           "attack_id": 1613,
           "attack_name": "Hypnotic Surge",
           "move_type": "basic",
-          "element": "d",
-          "ui_damage": 2000
+          "element": "pr",
+          "ui_damage": 2350
         },
         {
           "dragon_id": 3510,
@@ -30338,8 +30338,8 @@
           "attack_id": 1613,
           "attack_name": "Hypnotic Surge",
           "move_type": "trained",
-          "element": "d",
-          "ui_damage": 2000
+          "element": "pr",
+          "ui_damage": 2350
         }
       ]
     },
@@ -30375,7 +30375,7 @@
     },
     {
       "id": 583,
-      "name": "Mind Broken",
+      "name": "Skill 583",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "cooldown": 0,
       "effects": [
@@ -30493,6 +30493,36 @@
       "targets": [
         "ENEMY",
         "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 586,
+      "name": "Brain Drain +",
+      "description": "When this dragon defeats an enemy, all allies restore a portion of their health. Now improved,",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 855,
+          "type": "HEAL",
+          "target": "ALLY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 3000,
+            "multiplier": 3.5,
+            "waitTime": 300
+          }
+        }
+      ],
+      "effect_types": [
+        "HEAL"
+      ],
+      "targets": [
+        "ALLY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -31474,6 +31504,334 @@
       "effects": [
         {
           "id": 34775,
+          "type": "CHANGE_STATS_ON_KILL",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "bg_vfx_node_name": "bg_berserk_vortex",
+            "fg_vfx_node_name": "fg_berserk_vortex",
+            "damage_multiplier": 0.95,
+            "max_kills": 2,
+            "tid_damage_multiplier": "DAMAGE INCREASED!!!"
+          }
+        }
+      ],
+      "effect_types": [
+        "CHANGE_STATS_ON_KILL"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 34781,
+      "name": "PLACEHOLDER",
+      "description": "PLACEHOLDER",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 34781,
+          "type": "CHANGE_STATS_ON_KILL",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "bg_vfx_node_name": "bg_berserk_vortex",
+            "fg_vfx_node_name": "fg_berserk_vortex",
+            "damage_multiplier": 0.88,
+            "max_kills": 2,
+            "tid_damage_multiplier": "DAMAGE INCREASED!!!"
+          }
+        }
+      ],
+      "effect_types": [
+        "CHANGE_STATS_ON_KILL"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 0,
+          "attack_name": "PLACEHOLDER",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
+    },
+    {
+      "id": 34782,
+      "name": "COMING SOON",
+      "description": "This skill will be revealed on October 29th",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 34782,
+          "type": "REINCARNATION",
+          "target": "ALLY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "healPercent": 0.7
+          }
+        }
+      ],
+      "effect_types": [
+        "REINCARNATION"
+      ],
+      "targets": [
+        "ALLY_TEAM"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 0,
+          "attack_name": "COMING SOON",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
+    },
+    {
+      "id": 34783,
+      "name": "COMING SOON",
+      "description": "This skill will be revealed on November 26th",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 34786,
+          "type": "OVERDRIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2200,
+            "multiplier": 2.1,
+            "shieldMultiplier": 0.5,
+            "armorMultiplier": 2.5,
+            "vfx": "testVfx",
+            "carryDamage": true,
+            "avoidSkills": [
+              "VENGEFUL",
+              "EVASION",
+              "SHIELD"
+            ],
+            "destroySkills": [
+              "SHIELD",
+              "BUNKER"
+            ],
+            "element": "e"
+          }
+        },
+        {
+          "id": 34787,
+          "type": "GIVE_PASSIVE",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              82
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "vfx": "",
+            "addRandomly": false
+          }
+        }
+      ],
+      "effect_types": [
+        "GIVE_PASSIVE",
+        "OVERDRIVE"
+      ],
+      "targets": [
+        "ENEMY",
+        "SELF"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "pr"
+      ],
+      "element_names": [
+        "Primal"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 347801,
+          "attack_name": "COMING SOON",
+          "move_type": "basic",
+          "element": "pr",
+          "ui_damage": 2800
+        },
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 347801,
+          "attack_name": "COMING SOON",
+          "move_type": "trained",
+          "element": "pr",
+          "ui_damage": 2800
+        }
+      ]
+    },
+    {
+      "id": 34784,
+      "name": "COMING SOON",
+      "description": "This skill will be revealed on December 10th",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 34784,
+          "type": "HEAL",
+          "target": "ALLY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2200,
+            "multiplier": 3,
+            "waitTime": 500
+          }
+        }
+      ],
+      "effect_types": [
+        "HEAL"
+      ],
+      "targets": [
+        "ALLY_TEAM"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "ph"
+      ],
+      "element_names": [
+        "PH"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 347802,
+          "attack_name": "COMING SOON",
+          "move_type": "basic",
+          "element": "ph",
+          "ui_damage": 2700
+        },
+        {
+          "dragon_id": 3478,
+          "dragon_name": "PLACEHOLDER",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "attack_id": 347802,
+          "attack_name": "COMING SOON",
+          "move_type": "trained",
+          "element": "ph",
+          "ui_damage": 2700
+        }
+      ]
+    },
+    {
+      "id": 34785,
+      "name": "COMING SOON",
+      "description": "This skill will be revealed on December 10th",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 34788,
+          "type": "OVERDRIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2600,
+            "multiplier": 2.4,
+            "shieldMultiplier": 0.6,
+            "armorMultiplier": 3.1,
+            "vfx": "testVfx",
+            "carryDamage": true,
+            "avoidSkills": [
+              "VENGEFUL",
+              "EVASION",
+              "SHIELD"
+            ],
+            "destroySkills": [
+              "SHIELD",
+              "BUNKER"
+            ],
+            "element": "e"
+          }
+        },
+        {
+          "id": 34789,
+          "type": "GIVE_PASSIVE",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              82
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "vfx": "",
+            "addRandomly": false
+          }
+        }
+      ],
+      "effect_types": [
+        "GIVE_PASSIVE",
+        "OVERDRIVE"
+      ],
+      "targets": [
+        "ENEMY",
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 34786,
+      "name": "COMING SOON",
+      "description": "This skill will be revealed on December 10th",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 34785,
           "type": "CHANGE_STATS_ON_KILL",
           "target": "SELF",
           "hit_chance": 1,
