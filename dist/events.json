@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T05:41:41.494796Z",
+  "generated_at": "2026-10-08T05:48:48.842105Z",
   "source_file": "game_config.json",
   "event_count": 80,
   "events": [
@@ -3309,7 +3309,7 @@
       "type": "grid_island",
       "variant": "grid_island",
       "type_label": "Grid Island",
-      "title": "Magical Autumn Forest Grid Island",
+      "title": "MAGICAL FOREST GRID ISLAND",
       "subtitle": "",
       "start_ts": 1792058400,
       "end_ts": 1792663140,
@@ -3356,6 +3356,7 @@
         }
       ],
       "featured_dragon_count": 5,
+      "event_season": "MAGICAL FOREST",
       "building_id": 10921,
       "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/magical_autumn_forest_island.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_magical_autumn_forest.zip"
@@ -3366,7 +3367,6 @@
     "Skipped event_island:38: incomplete schedule start=0, end=1.",
     "Skipped event_island:39: incomplete schedule start=0, end=1.",
     "Skipped event_island:41: incomplete schedule start=0, end=1.",
-    "Skipped event_island:42: incomplete schedule start=0, end=1.",
-    "Season MAGICAL FOREST: grid_island:323 does not exist in game_config."
+    "Skipped event_island:42: incomplete schedule start=0, end=1."
   ]
 }
