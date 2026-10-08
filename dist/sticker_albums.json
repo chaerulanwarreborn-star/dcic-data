@@ -1,9 +1,9 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-08T14:22:02Z",
-  "album_count": 4,
-  "set_count": 41,
-  "sticker_count": 417,
+  "generated_at": "2026-10-08T15:32:45Z",
+  "album_count": 5,
+  "set_count": 53,
+  "sticker_count": 537,
   "pack_count": 27,
   "pack_context_album_id": 14,
   "albums": [
@@ -8161,9 +8161,9 @@
       "name": "The Deepstained",
       "description": "The Deepstained",
       "start_ts": 1788429600,
-      "end_ts": 1792058400,
+      "end_ts": 1792058340,
       "start_iso": "2026-09-03T10:00:00Z",
-      "end_iso": "2026-10-15T10:00:00Z",
+      "end_iso": "2026-10-15T09:59:00Z",
       "status": "current",
       "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/bg-full-album-11.png",
       "completed_image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/bg-full-album-11-completed.png",
@@ -8275,7 +8275,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_a.png",
           "asset_stickers": "album12_set_a",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -8522,7 +8522,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_b.png",
           "asset_stickers": "album12_set_b",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -8784,7 +8784,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_c.png",
           "asset_stickers": "album12_set_c",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -9028,7 +9028,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_d.png",
           "asset_stickers": "album12_set_d",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -9269,7 +9269,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_e.png",
           "asset_stickers": "album12_set_e",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -9530,7 +9530,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_f.png",
           "asset_stickers": "album12_set_f",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -9784,7 +9784,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_g.png",
           "asset_stickers": "album12_set_g",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -10056,7 +10056,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_h.png",
           "asset_stickers": "album12_set_h",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -10314,7 +10314,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_i.png",
           "asset_stickers": "album12_set_i",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -10595,7 +10595,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_j.png",
           "asset_stickers": "album12_set_j",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -10866,7 +10866,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_k.png",
           "asset_stickers": "album12_set_k",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -11154,7 +11154,7 @@
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_12_set_l_b.png",
           "asset_stickers": "album12_set_l",
           "start_ts": 1788429600,
-          "end_ts": 1792058400,
+          "end_ts": 1792058340,
           "status": "current",
           "reward": [
             {
@@ -11988,6 +11988,3408 @@
         }
       ],
       "rubber_banding": 1401
+    },
+    {
+      "id": 15,
+      "name": "Mind Breakers Album",
+      "description": "Mind Breakers Album",
+      "start_ts": 1792058400,
+      "end_ts": 1795687140,
+      "start_iso": "2026-10-15T10:00:00Z",
+      "end_iso": "2026-11-26T09:59:00Z",
+      "status": "upcoming",
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/bg-full-album-13.png",
+      "completed_image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/bg-full-album-13-completed.png",
+      "reward_background_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_reward_background/HD/bg-album-rewards-13.png",
+      "main_reward": [
+        {
+          "id": 3510,
+          "name": "High Hypno Mindbreak Orbs",
+          "rarity": "H",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3510_dragon_highhypnomindbreak_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3510_dragon_highhypnomindbreak_1@2x.png"
+          ],
+          "popup": {
+            "kind": "dragon",
+            "id": 3510
+          },
+          "kind": "dragon_orbs",
+          "amount": 1080
+        },
+        {
+          "kind": "skin",
+          "id": 3115,
+          "name": "Screaming Skill Skin",
+          "amount": 1,
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_skin1_3.png",
+          "popup": {
+            "kind": "skin",
+            "id": 3115
+          }
+        },
+        {
+          "kind": "skin",
+          "id": 3113,
+          "name": "Gale Skill Skin",
+          "amount": 1,
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_skin1_3.png",
+          "popup": {
+            "kind": "skin",
+            "id": 3113
+          }
+        },
+        {
+          "id": 3264,
+          "name": "Gale the Strategist Orbs",
+          "rarity": "M",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_3.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_3.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_3@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_1@2x.png"
+          ],
+          "popup": {
+            "kind": "dragon",
+            "id": 3264
+          },
+          "kind": "dragon_orbs",
+          "amount": 1080
+        }
+      ],
+      "special_reward": [
+        {
+          "kind": "skin",
+          "id": 3420,
+          "name": "Shadow Gaze Skill Skin",
+          "amount": 1,
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_skin2_3.png",
+          "popup": {
+            "kind": "skin",
+            "id": 3420
+          }
+        }
+      ],
+      "periods": [
+        "week1",
+        "week2",
+        "week3",
+        "week4",
+        "week5",
+        "week6"
+      ],
+      "active_period_index": 0,
+      "sets": [
+        {
+          "id": 15001,
+          "name": "Ember & Ash",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_a.png",
+          "asset_stickers": "album13_set_a",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "kind": "perk",
+              "id": 3,
+              "name": "Damage Perk",
+              "amount": 5,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
+            },
+            {
+              "kind": "perk",
+              "id": 2,
+              "name": "Health Perk",
+              "amount": 5,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150001,
+              "name": "Doom Forger Dragon",
+              "description": "The clanging of the Doom Forger Dragon's tools is enough to know your unfortunate fate is being forged... His fiery magic ensures the Marked Ones cannot escape their destiny, for the flames of their impending doom are licking at their souls.",
+              "rarity": "rarity_ace_1",
+              "rarity_name": "Rarity Ace 1",
+              "rarity_type": "ace",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150002,
+              "name": "Doom Forger Dragon",
+              "description": "The clanging of the Doom Forger Dragon's tools is enough to know your unfortunate fate is being forged... His fiery magic ensures the Marked Ones cannot escape their destiny, for the flames of their impending doom are licking at their souls.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150003,
+              "name": "Aged Advisor Dragon",
+              "description": "The High Shadow Dragon's right-hand counselor, the Aged Advisor Dragon, is the real brains behind the Council... He's pulling the necessary strings to ensure their reign never ends, but courageous Dragon Masters are starting to figure it out.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150004,
+              "name": "Aged Advisor Dragon",
+              "description": "The High Shadow Dragon's right-hand counselor, the Aged Advisor Dragon, is the real brains behind the Council... He's pulling the necessary strings to ensure their reign never ends, but courageous Dragon Masters are starting to figure it out.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150005,
+              "name": "Asteroid Dragon",
+              "description": "Unluckily located at the exact point of impact, the Asteroid Dragon was minding its own business when suddenly the huge meteor hit... But out from the explosion rose a mighty beast forged by extreme pressure and heat. It's a shame it can't feel anymore.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150006,
+              "name": "Asteroid Dragon",
+              "description": "Unluckily located at the exact point of impact, the Asteroid Dragon was minding its own business when suddenly the huge meteor hit... But out from the explosion rose a mighty beast forged by extreme pressure and heat. It's a shame it can't feel anymore.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150007,
+              "name": "Wretched Dragon",
+              "description": "The Wretched Dragon almost feels sorry for the two sparring families of the Hanshock and Gretackle dragons, but then he'll let out a maniacal laugh and remember that he's the one behind it all. Their wretched fate lies in his hands.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150008,
+              "name": "Wretched Dragon",
+              "description": "The Wretched Dragon almost feels sorry for the two sparring families of the Hanshock and Gretackle dragons, but then he'll let out a maniacal laugh and remember that he's the one behind it all. Their wretched fate lies in his hands.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150009,
+              "name": "Duo-Decade Dragon",
+              "description": "Dynamic Duos unite! Master of the Flame element, the Duo-Decade Dragon represents 10 years since the first double-element dragon was created – the Double Flame Dragon! If there's someone ready to save the world, it's him!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 10.0
+            },
+            {
+              "id": 150010,
+              "name": "Duo-Decade Dragon",
+              "description": "Dynamic Duos unite! Master of the Flame element, the Duo-Decade Dragon represents 10 years since the first double-element dragon was created – the Double Flame Dragon! If there's someone ready to save the world, it's him!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 10.0
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15002,
+          "name": "The Cursed Hoard",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_b.png",
+          "asset_stickers": "album13_set_b",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3507,
+              "name": "Witch Hunter Dragon",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_3@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3507
+              },
+              "kind": "egg",
+              "amount": 1
+            },
+            {
+              "id": 3507,
+              "name": "Witch Hunter Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3507
+              },
+              "kind": "dragon_orbs",
+              "amount": 120
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150011,
+              "name": "Hel Dragon",
+              "description": "A Norse Goddess of death, the Hel Dragon watches over the land of the afterlife, especially of those who left this world peacefully rather than in battle. Half her body is made of bones, and half is made of flesh. Her beauty is unique yet frightening.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150012,
+              "name": "Hel Dragon",
+              "description": "A Norse Goddess of death, the Hel Dragon watches over the land of the afterlife, especially of those who left this world peacefully rather than in battle. Half her body is made of bones, and half is made of flesh. Her beauty is unique yet frightening.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150013,
+              "name": "Hel Dragon",
+              "description": "A Norse Goddess of death, the Hel Dragon watches over the land of the afterlife, especially of those who left this world peacefully rather than in battle. Half her body is made of bones, and half is made of flesh. Her beauty is unique yet frightening.",
+              "rarity": "rarity_ace_1",
+              "rarity_name": "Rarity Ace 1",
+              "rarity_type": "ace",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-1.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150014,
+              "name": "Anti-Father Dragon",
+              "description": "Thief of joy, corrupter of kindness, and bleeder of happiness, the Anti-Father Dragon ensures that any signs of life around him are as cold as his icy environment. Those who do attempt to bring the light to him often leave feeling empty and hopeless.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150015,
+              "name": "Phantom Extractor Dragon",
+              "description": "The Extractors: They feed off the souls of their enemies. The Phantom Extractor Dragon uses its ghostly claws to phase through a foe's body, tightly gripping onto any remaining life force they have. Once their soul has been extracted and absorbed, a lifeless shell remains.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.142248
+            },
+            {
+              "id": 150016,
+              "name": "Phaun Dragon",
+              "description": "Dragon City’s 10th Birthday collectible: The Phaun Dragon is a Tower Guardian who’s traveled all around the world and seen some of the rarest dragons. She’ll bless your breedings in the hope of discovering another rare species!",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.142248
+            },
+            {
+              "id": 150017,
+              "name": "Ascended Retributor Dragon",
+              "description": "The Ascended dragons aren't ones to give out unnecessary punishment, but for those who do try to enter the Ascended Realm unlawfully can fear retribution from the merciless Ascended Retributor Dragon.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.142248
+            },
+            {
+              "id": 150018,
+              "name": "High Bloody Moon Dragon",
+              "description": "Designed by a talented Dragon Master, the High Bloody Moon Dragon is here for one reason only: The Blood Eclipse. During this time, he comes out of the shadows to steal your shiny things...or he might just take you instead!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150019,
+              "name": "Crownix Dragon",
+              "description": "Thief of the night and long-time follower of the Blood Eclipse, the Crownix Dragon is a cunning scavenger. It trails the High Bloody Moon Dragon taking any valuables the beast drops and leaves behind–Let someone else do the work for you!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 14.224751
+            },
+            {
+              "id": 150020,
+              "name": "High Hollow Crown Dragon",
+              "description": "No throne could contain it. No army could stop it. The High Hollow Crown Dragon descended on Dragon City like a verdict, its dark armor crackling with power that bends the rules of battle. What it silences, stays silent. What it strikes, stays down.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 14.224751
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15003,
+          "name": "Harvest of Legends",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_c.png",
+          "asset_stickers": "album13_set_c",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "kind": "perk",
+              "id": 4,
+              "name": "Phoenix Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "kind": "trade_essence",
+              "rarity": "L",
+              "name": "Legendary Trade Essences",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png"
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150021,
+              "name": "Astro Graviton Dragon",
+              "description": "Legends say that where the Astro Graviton Dragon walks, the mountains bow and the stars tremble. He is the silent architect of the cosmos, weaving invisible chains that can pin a titan to the earth or crush a fortress into a pebble.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150022,
+              "name": "Zero-G Reaper Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150023,
+              "name": "Mythmarvel Dragon",
+              "description": "The Mythmarvelous Dragon's shadow has a shadow, and it has a name. Mythmarvel arrived to Dragon City with one sinister purpose: to corrupt the Mythical rarity and bend its boundless power to his will! While his twin spreads wonder across the Islands, he lurks in the darkness, twisting Mythical energy into something far more dangerous and far more magnificent.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150024,
+              "name": "Shadowforged Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage and receive boosted life points.",
+              "rarity": "rarity_ace_1",
+              "rarity_name": "Rarity Ace 1",
+              "rarity_type": "ace",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-1.png",
+              "probability": 32.57329
+            },
+            {
+              "id": 150025,
+              "name": "Robird Dragon",
+              "description": "Rising like a phoenix isn't so difficult when you get a version upgrade! The Robird Dragon uses its mecha advancements to fly through battlefields full of flames, it just needs to keep its technology away from the High Cybernetic Dragon.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 32.57329
+            },
+            {
+              "id": 150026,
+              "name": "Mecha Mace Dragon",
+              "description": "Known by humble dragon-folk as the evil shadow knight who lives beyond the horizon, the Mecha Mace Dragon has declared war on his Mecha comrades. Who or what could he want?",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 32.57329
+            },
+            {
+              "id": 150027,
+              "name": "Techno Barbarian Dragon",
+              "description": "Half dragon, half cyborg, the Techno Barbarian Dragon isn't only known for her epic violet hair... She also led her techno people to victory in the Gear Wars, but that's a story for another day.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150028,
+              "name": "Mechano Dragon",
+              "description": "Made from the most advanced technology in the Milky Way, the Mechano Dragon's robotic suit gives him extendable limbs with immense crushing power. For him, traveling through rough terrains is a piece of cake. Dragon and machine have become one!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150029,
+              "name": "Racing Drake Dragon",
+              "description": "When we talk about speed, we must take this prodigy of aerodynamics into account. The Racing Drake Dragon is a racing enthusiast, and after dozens of victories, he is ready to become the king of speed.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.325733
+            },
+            {
+              "id": 150030,
+              "name": "High Horsepower Dragon",
+              "description": "With his pulling power equating to that of a 1000 dragons, the High Horsepower Dragon was originally involved in moving Islands and building Cities...that was until he received a mecha upgrade. Now he takes to the skies dragging planets away from black holes!",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.325733
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15004,
+          "name": "Titans Ryse",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_d.png",
+          "asset_stickers": "album13_set_d",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "kind": "trade_essence",
+              "rarity": "M",
+              "name": "Mythical Trade Essences",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png"
+            },
+            {
+              "kind": "trade_essence",
+              "rarity": "H",
+              "name": "Heroic Trade Essences",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-h.png"
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150031,
+              "name": "Dark Titan Dragon",
+              "description": "The malevolent member of the titan deities that once protected Dragon City. The Dark Titan Dragon deserted the Titan army and has never been seen since. Never let the light go out, for this Titan is no longer here to protect.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 8.667389
+            },
+            {
+              "id": 150032,
+              "name": "Primal Titan Dragon",
+              "description": "The prehistoric member of the titan deities that once protected Dragon City. The Primal Titan Dragon is somewhat feared by its titan comrades due to its primeval hunting techniques. It shows no mercy.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 8.667389
+            },
+            {
+              "id": 150033,
+              "name": "Sea Titan Dragon",
+              "description": "The marine member of the titan deities that once protected Dragon City. The Sea Titan Dragon brought torrential rain to the lands, creating large bodies of water for all aquatic life to come.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 8.667389
+            },
+            {
+              "id": 150034,
+              "name": "Metal Titan Dragon",
+              "description": "The unbreakable member of the titan deities that once protected Dragon City, the Metal Titan Dragon has grown an exterior harder than diamond. Nothing can penetrate this beast, nor budge it from its iron stance.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 8.667389
+            },
+            {
+              "id": 150035,
+              "name": "Pure Titan Dragon",
+              "description": "The leader of the titan deities that once protected Dragon City, the Pure Titan Dragon is ready to assemble once more this quintet of godly powers. Even the strongest of enemies live in fear of this titanic beast.",
+              "rarity": "rarity_ace_1",
+              "rarity_name": "Rarity Ace 1",
+              "rarity_type": "ace",
+              "diamonds": 1,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-1.png",
+              "probability": 21.668472
+            },
+            {
+              "id": 150036,
+              "name": "High Occult Titan Dragon",
+              "description": "Doors are locked, blinds are shut, and candles are blown out when this dragon comes to town... A master of the dark arts, the High Occult Titan Dragon relishes in his unique status of being both a Heroic and Titan dragon, for he is the occult.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.108342
+            },
+            {
+              "id": 150037,
+              "name": "Wind Titan Dragon",
+              "description": "The tempestuous member of the titan deities that once protected Dragon City, the Wind Titan Dragon can control all forms of weather, even on a molecular level. By simply reducing oxygen levels, its foes are doomed.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.108342
+            },
+            {
+              "id": 150038,
+              "name": "Flame Titan Dragon",
+              "description": "The fiery member of the titan deities that once protected Dragon City, the Flame Titan Dragon lies dormant underground, absorbing energy from the islands' magma. When called into action, it unleashes this energy and ravages the dark forces with waves of lava.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 0.108342
+            },
+            {
+              "id": 150039,
+              "name": "Nature Titan Dragon",
+              "description": "The earthy member of the titan deities that once protected Dragon City, the Nature Titan Dragon is telepathically connected to all of the flora in Dragon City, therefore able to protect young dragons from afar. Its stance is solid.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 21.668472
+            },
+            {
+              "id": 150040,
+              "name": "War Titan Dragon",
+              "description": "The anti-hero of the titan deities that once protected Dragon City. The Pure Titan Dragon doesn't approve of its battle methods, but the War Titan Dragon gets the job done, protecting Dragon City, even if there are casualties along the way.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 21.668472
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15005,
+          "name": "Spooky Army",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_e.png",
+          "asset_stickers": "album13_set_e",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3507,
+              "name": "Witch Hunter Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3507
+              },
+              "kind": "dragon_orbs",
+              "amount": 200
+            },
+            {
+              "kind": "joker_orbs",
+              "rarity": "L",
+              "name": "Legendary Joker Orbs",
+              "amount": 40,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+            },
+            {
+              "kind": "perk",
+              "id": 5,
+              "name": "Reaper Perk",
+              "amount": 4,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-reaper-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150041,
+              "name": "Bone Skill Skin",
+              "description": "By simply owning this Skin, your dragon's passive Doommark skill will apply 2 Doommarks upon joining battle, and his active Doom Dance skill will have a reduced cooldown of 2 turns.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 8.290155
+            },
+            {
+              "id": 150042,
+              "name": "Battalion Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 20%.",
+              "rarity": "rarity_ace_1",
+              "rarity_name": "Rarity Ace 1",
+              "rarity_type": "ace",
+              "diamonds": 1,
+              "weight_id": "album15_w_100_10k_10k_9k_8k_8k",
+              "weight_vector": [
+                100,
+                10000,
+                10000,
+                9000,
+                8000,
+                8000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-1.png",
+              "probability": 0.207254
+            },
+            {
+              "id": 150043,
+              "name": "Drummer Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 20.725389
+            },
+            {
+              "id": 150044,
+              "name": "Possessed Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 20%.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 20.725389
+            },
+            {
+              "id": 150045,
+              "name": "Mean Spirited Dragon",
+              "description": "The Mean Spirited Dragon experiences joy over the misfortune of others... Its crooked smile never fades when it sees someone having a bad day. It even spies on unevenly matched battles just to see lower-level dragons getting defeated!",
+              "rarity": "rarity_ace_2",
+              "rarity_name": "Rarity Ace 2",
+              "rarity_type": "ace",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-2.png",
+              "probability": 20.725389
+            },
+            {
+              "id": 150046,
+              "name": "Viced Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_9k_8k_8k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                9000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 20.725389
+            },
+            {
+              "id": 150047,
+              "name": "Instinctus the Strategist Dragon",
+              "description": "The Strategists: Their critical strategies pinpoint your weaknesses. A Strategist named Instinctus, there's a lot to discuss. His Primal instincts come from the heart, that's what sets him apart. Once you're enticed by his friendly allure, he'll destroy what makes you so Pure.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 8.290155
+            },
+            {
+              "id": 150048,
+              "name": "Ruby Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for his Severance skill & Dark attack and have a reduced skill cooldown of only 2 turns. Please restart your game for this to take effect.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 0.103627
+            },
+            {
+              "id": 150049,
+              "name": "Haunted Knight Dragon",
+              "description": "Sam & Colby's spooky exploration took a twisted turn and their Haunted Dragon has become possessed by a medieval spirit... Add the Haunted Knight Dragon to your team for some much-needed protection from ghoulish dangers.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 0.103627
+            },
+            {
+              "id": 150050,
+              "name": "Skeleton Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 0.103627
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15006,
+          "name": "Titans Wrath",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_f.png",
+          "asset_stickers": "album13_set_f",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "kind": "rank_up_coin",
+              "rarity": "legendary",
+              "name": "Legendary Rank Up Coin",
+              "amount": 200,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-legendary.png"
+            },
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "kind": "perk",
+              "id": 7,
+              "name": "Advanced Health Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150051,
+              "name": "Dark Titan Dragon",
+              "description": "The malevolent member of the titan deities that once protected Dragon City. The Dark Titan Dragon deserted the Titan army and has never been seen since. Never let the light go out, for this Titan is no longer here to protect.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 9.501188
+            },
+            {
+              "id": 150052,
+              "name": "Primal Titan Dragon",
+              "description": "The prehistoric member of the titan deities that once protected Dragon City. The Primal Titan Dragon is somewhat feared by its titan comrades due to its primeval hunting techniques. It shows no mercy.",
+              "rarity": "rarity_1",
+              "rarity_name": "Rarity 1",
+              "rarity_type": "normal",
+              "diamonds": 1,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-1.png",
+              "probability": 9.501188
+            },
+            {
+              "id": 150053,
+              "name": "Sea Titan Dragon",
+              "description": "The marine member of the titan deities that once protected Dragon City. The Sea Titan Dragon brought torrential rain to the lands, creating large bodies of water for all aquatic life to come.",
+              "rarity": "rarity_ace_2",
+              "rarity_name": "Rarity Ace 2",
+              "rarity_type": "ace",
+              "diamonds": 2,
+              "weight_id": "album15_w_8k_8k_8k_8k_8k_10k",
+              "weight_vector": [
+                8000,
+                8000,
+                8000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 8000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-2.png",
+              "probability": 19.002375
+            },
+            {
+              "id": 150054,
+              "name": "Metal Titan Dragon",
+              "description": "The unbreakable member of the titan deities that once protected Dragon City, the Metal Titan Dragon has grown an exterior harder than diamond. Nothing can penetrate this beast, nor budge it from its iron stance.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 9.501188
+            },
+            {
+              "id": 150055,
+              "name": "Pure Titan Dragon",
+              "description": "The leader of the titan deities that once protected Dragon City, the Pure Titan Dragon is ready to assemble once more this quintet of godly powers. Even the strongest of enemies live in fear of this titanic beast.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 9.501188
+            },
+            {
+              "id": 150056,
+              "name": "High Occult Titan Dragon",
+              "description": "Doors are locked, blinds are shut, and candles are blown out when this dragon comes to town... A master of the dark arts, the High Occult Titan Dragon relishes in his unique status of being both a Heroic and Titan dragon, for he is the occult.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 9.501188
+            },
+            {
+              "id": 150057,
+              "name": "Wind Titan Dragon",
+              "description": "The tempestuous member of the titan deities that once protected Dragon City, the Wind Titan Dragon can control all forms of weather, even on a molecular level. By simply reducing oxygen levels, its foes are doomed.",
+              "rarity": "rarity_ace_3",
+              "rarity_name": "Rarity Ace 3",
+              "rarity_type": "ace",
+              "diamonds": 3,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-3.png",
+              "probability": 23.752969
+            },
+            {
+              "id": 150058,
+              "name": "Flame Titan Dragon",
+              "description": "The fiery member of the titan deities that once protected Dragon City, the Flame Titan Dragon lies dormant underground, absorbing energy from the islands' magma. When called into action, it unleashes this energy and ravages the dark forces with waves of lava.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 0.118765
+            },
+            {
+              "id": 150059,
+              "name": "Nature Titan Dragon",
+              "description": "The earthy member of the titan deities that once protected Dragon City, the Nature Titan Dragon is telepathically connected to all of the flora in Dragon City, therefore able to protect young dragons from afar. Its stance is solid.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_50_4k_10k_10k_10k_9k",
+              "weight_vector": [
+                50,
+                4000,
+                10000,
+                10000,
+                10000,
+                9000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 0.118765
+            },
+            {
+              "id": 150060,
+              "name": "War Titan Dragon",
+              "description": "The anti-hero of the titan deities that once protected Dragon City. The Pure Titan Dragon doesn't approve of its battle methods, but the War Titan Dragon gets the job done, protecting Dragon City, even if there are casualties along the way.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.501188
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15007,
+          "name": "Mecha Assemble",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_g.png",
+          "asset_stickers": "album13_set_g",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3277,
+              "name": "Screaming Traitor Dragon",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_3@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3277
+              },
+              "kind": "egg",
+              "amount": 1
+            },
+            {
+              "id": 3277,
+              "name": "Screaming Traitor Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3277
+              },
+              "kind": "dragon_orbs",
+              "amount": 120
+            },
+            {
+              "kind": "perk",
+              "id": 4,
+              "name": "Phoenix Perk",
+              "amount": 3,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150061,
+              "name": "High Blackfall Dragon",
+              "description": "The forgotten piece of the Blackvoid-Cybervolt saga, the High Blackfall Dragon only chooses to reappear in autumn time. Although its presence can turn vegetation black, its mecha powers are necessary when facing the Black Friday beasts.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150062,
+              "name": "High Blackvoid Dragon",
+              "description": "With both the power and technology to drag whole planets across the galaxy, the High Blackvoid Dragon is able to feed the Void. Once life has reached its gravitational pull, the Void consumes all, and the Blackvoid Beast waits for its regurgitated reward.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150063,
+              "name": "High Cybervolt Dragon",
+              "description": "Protector of planets and mortal enemy of the High Blackvoid Dragon, the High Cybervolt Dragon is here to put a stop to the Void's greedy destruction. Once the hole has closed, life should be free from its all-consuming forces.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150064,
+              "name": "High Blackfall Dragon",
+              "description": "The forgotten piece of the Blackvoid-Cybervolt saga, the High Blackfall Dragon only chooses to reappear in autumn time. Although its presence can turn vegetation black, its mecha powers are necessary when facing the Black Friday beasts.",
+              "rarity": "rarity_ace_2",
+              "rarity_name": "Rarity Ace 2",
+              "rarity_type": "ace",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-2.png",
+              "probability": 21.734406
+            },
+            {
+              "id": 150065,
+              "name": "High Cybervolt Dragon",
+              "description": "Protector of planets and mortal enemy of the High Blackvoid Dragon, the High Cybervolt Dragon is here to put a stop to the Void's greedy destruction. Once the hole has closed, life should be free from its all-consuming forces.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150066,
+              "name": "Cyber Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted for its Cyber Extraction skill. Please restart your game for this to take effect.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150067,
+              "name": "Energized Dragon",
+              "description": "Bursting with galactic energy, this hyperactive mecha-warrior is your friendliest companion when traveling across dimensions! The Energized Dragon zooms around the ever-growing void, protecting you from the dark within.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150068,
+              "name": "Mecha Upgrade",
+              "description": "Useful protection when fighting in the Black Friday mecha wars.",
+              "rarity": "rarity_ace_3",
+              "rarity_name": "Rarity Ace 3",
+              "rarity_type": "ace",
+              "diamonds": 3,
+              "weight_id": "album15_w_8k_8k_8k_8k_8k_10k",
+              "weight_vector": [
+                8000,
+                8000,
+                8000,
+                8000,
+                8000,
+                10000
+              ],
+              "weight": 8000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-3.png",
+              "probability": 17.387524
+            },
+            {
+              "id": 150069,
+              "name": "Quantum Phasing Dragon",
+              "description": "Quantum Quintet: Their accuracy is fatal. Is the Quantum Phasing Dragon inherently evil? No. But is it easily influenced? Yes. Its 'never-miss' ability could be useful for a certain fanged group; not even the Karma Collective can dodge such quantum strikes...",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 8.693762
+            },
+            {
+              "id": 150070,
+              "name": "Ion-Surge Skill Skin",
+              "description": "By simply owning this Skin, your dragon's Astro Overdrive will damage all enemy team.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.021734
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15008,
+          "name": "Spikes Dynasty",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_h.png",
+          "asset_stickers": "album13_set_h",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3277,
+              "name": "Screaming Traitor Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3277
+              },
+              "kind": "dragon_orbs",
+              "amount": 200
+            },
+            {
+              "kind": "joker_orbs",
+              "rarity": "M",
+              "name": "Mythical Joker Orbs",
+              "amount": 40,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png"
+            },
+            {
+              "kind": "rank_up_coin",
+              "rarity": "legendary",
+              "name": "Legendary Rank Up Coin",
+              "amount": 300,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-legendary.png"
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150071,
+              "name": "High Spiked Rhinodillo Dragon",
+              "description": "The Spikes: Their Impaling Shelter both protects and damages. With spikes, claws, horns, and armor plates, the High Spiked Rhinodillo Dragon is the perfect offense-defense beast. Its spikes can be sold for a high price on the black market and are often used to forge unbreakable swords.",
+              "rarity": "rarity_2",
+              "rarity_name": "Rarity 2",
+              "rarity_type": "normal",
+              "diamonds": 2,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-2.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150072,
+              "name": "Azure Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Impaling Inferno skill and Ice attack. Please restart your game for this to take effect.",
+              "rarity": "rarity_ace_2",
+              "rarity_name": "Rarity Ace 2",
+              "rarity_type": "ace",
+              "diamonds": 2,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-2.png",
+              "probability": 22.716947
+            },
+            {
+              "id": 150073,
+              "name": "Amber Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Spiked Pit skill and War attack. Please restart your game for this to take effect.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150074,
+              "name": "Spiked Claws Dragon",
+              "description": "The Spikes: Their Impaling Shelter both protects and damages. The Spiked Claws Dragon is one creature you should definitely watch out for at the beach... Buried in the sand with its protruding spikes, one misplaced footstep could be your painful ending.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150075,
+              "name": "Clawed Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Impaling Outrage and Claw Cutter skills. Please restart your game for this to take effect.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150076,
+              "name": "Spiked Quills Dragon",
+              "description": "The Spikes: Their Impaling Shelter both protects and damages. The Spiked Quills Dragon might look cute at first, but she's the spikiest and most dangerous of all her Spiked family. If you manage to dodge her trail of quills, you'll find a spiky bundle of pain racing towards you.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150077,
+              "name": "Quilled Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Impaling Outrage and Rolling Quills skills. Please restart your game for this to take effect.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 9.086779
+            },
+            {
+              "id": 150078,
+              "name": "Spiked Leatherback Dragon",
+              "description": "The Spikes: Their Impaling Shelter both protects and damages. The Spiked Leatherback Dragon has never really taken the role of 'prey' – its thick hide, spiked back, and low center of gravity make it tricky to even get close to this beast. It knocks down towering threats with ease.",
+              "rarity": "rarity_ace_3",
+              "rarity_name": "Rarity Ace 3",
+              "rarity_type": "ace",
+              "diamonds": 3,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-3.png",
+              "probability": 22.716947
+            },
+            {
+              "id": 150079,
+              "name": "Leatherback Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Impaling Outrage skill and Light attack.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.022717
+            },
+            {
+              "id": 150080,
+              "name": "Pegasus Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for its Impaling Outrage and Pegasus Puncture skills. Please restart your game for this to take effect.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.022717
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15009,
+          "name": "Crimson Skies",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_i.png",
+          "asset_stickers": "album13_set_i",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3264,
+              "name": "Gale the Strategist Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3264
+              },
+              "kind": "dragon_orbs",
+              "amount": 120
+            },
+            {
+              "id": 3507,
+              "name": "Witch Hunter Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3507_dragon_witchhunter_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3507
+              },
+              "kind": "dragon_orbs",
+              "amount": 320
+            },
+            {
+              "kind": "perk",
+              "id": 7,
+              "name": "Advanced Health Perk",
+              "amount": 4,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 4,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150081,
+              "name": "Duo-Demolish Dragon",
+              "description": "The last remaining tribute from the Chaos District, the Duo-Demolish Dragon has seen war and destruction tear through his home, but now he's ready to make his family proud. If he can win the Royale, just maybe he'll secure a good life for them.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 10.775862
+            },
+            {
+              "id": 150082,
+              "name": "Reindare Dragon",
+              "description": "Once a friendly stag among Snowglobia's reindeer herd, the Reindare dragon has been overcome by the same darkness that is plaguing this picturesque town. Have a chocolate carrot on hand in case he dares to charge!",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 10.775862
+            },
+            {
+              "id": 150083,
+              "name": "Quantum Ghost Dragon",
+              "description": "Quantum Quintet: Their accuracy is fatal. A ghost of the dragon it once used to be, the Quantum Ghost Dragon barely remembers its past life. Its deathly apparition will appear in front of Karma dragons before unleashing a fatal blow.",
+              "rarity": "rarity_ace_3",
+              "rarity_name": "Rarity Ace 3",
+              "rarity_type": "ace",
+              "diamonds": 3,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-3.png",
+              "probability": 26.939655
+            },
+            {
+              "id": 150084,
+              "name": "Quantum Ghost Dragon",
+              "description": "Quantum Quintet: Their accuracy is fatal. A ghost of the dragon it once used to be, the Quantum Ghost Dragon barely remembers its past life. Its deathly apparition will appear in front of Karma dragons before unleashing a fatal blow.",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 10.775862
+            },
+            {
+              "id": 150085,
+              "name": "Phoenix Eternal Dragon",
+              "description": "The Eternals: They inflict a brutal finishing move onto their foe. Eternally blessed for having already survived an ancient Eternal Day, the Phoenix Eternal Dragon was powerfully reborn. Unlike the other 99 survivors, this beast came back as an Eternal itself!",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 10.775862
+            },
+            {
+              "id": 150086,
+              "name": "Sharp Poise Dragon",
+              "description": "The Sharp Poise Dragon is looking sharp in more ways than one! Her slick designs look tempting to touch, but her fans know that the last thing you should do is give her a hug, unless your goal is to be paper going through a shredder...",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_4k_10k_10k_10k_9k_10k",
+              "weight_vector": [
+                4000,
+                10000,
+                10000,
+                10000,
+                9000,
+                10000
+              ],
+              "weight": 4000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 10.775862
+            },
+            {
+              "id": 150087,
+              "name": "4eva Dragon",
+              "description": "A fallen angel that has developed an unhealthy obsession with its Dragon Master... The 4eva Dragon will forever be close by. Its burning passion for attention has created a Valentine's nightmare. Did you check your closet today?",
+              "rarity": "rarity_ace_4",
+              "rarity_name": "Rarity Ace 4",
+              "rarity_type": "ace",
+              "diamonds": 4,
+              "weight_id": "album15_w_7k_7k_7k_7k_7k_10k",
+              "weight_vector": [
+                7000,
+                7000,
+                7000,
+                7000,
+                7000,
+                10000
+              ],
+              "weight": 7000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-4.png",
+              "probability": 18.857759
+            },
+            {
+              "id": 150088,
+              "name": "Arcana Chariot Dragon",
+              "description": "Age of Arcana: They drain the life from all foes at once. Number 7, better known as the Arcana Chariot Dragon, is ready to charge into battle and overcome any obstacles, mental or physical, that stand in its way. Let it take you on a ride of ultimate willpower!",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.02694
+            },
+            {
+              "id": 150089,
+              "name": "High Master Karma Dragon",
+              "description": "As the war rages on between Occult and Voodoo powers, it's time to see some real heroism at the top of the food chain! The High Master Karma Dragon demonstrates the poise behind the Karma Collective, but is it ready for a wave of time-bending corruption?",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.02694
+            },
+            {
+              "id": 150090,
+              "name": "Redemption Conquest Dragon",
+              "description": "Redemption Ring: when they fall in battle, they heal their allies. The Redemption Conquest Dragon used to be an almighty leader, but his tyrant rule caused harm to thousands. Will he redeem himself by leading for the many, not the few?",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_100_100_500_500_500_10k",
+              "weight_vector": [
+                100,
+                100,
+                500,
+                500,
+                500,
+                10000
+              ],
+              "weight": 100,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.269397
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15010,
+          "name": "All seeings",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_j.png",
+          "asset_stickers": "album13_set_j",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "kind": "skin",
+              "id": 3422,
+              "name": "Skin 3422",
+              "amount": 1,
+              "image_url": "",
+              "popup": {
+                "kind": "skin",
+                "id": 3422
+              }
+            },
+            {
+              "kind": "joker_orbs",
+              "rarity": "H",
+              "name": "Heroic Joker Orbs",
+              "amount": 40,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png"
+            },
+            {
+              "kind": "rank_up_coin",
+              "rarity": "legendary",
+              "name": "Legendary Rank Up Coin",
+              "amount": 500,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-legendary.png"
+            },
+            {
+              "kind": "chest",
+              "id": 10713,
+              "name": "Banquet Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10713,
+                "type": "generic"
+              }
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150091,
+              "name": "Revival Karma Dragon",
+              "description": "The Revival Karma Dragon is the only Karma dragon to have been defeated by a Corrupted foe... Does this make him weak? Quite the contrary. Having stared danger in the eyes, he came back stronger than ever, rising like a phoenix!",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150092,
+              "name": "Broodby Dragon",
+              "description": "Dragon City’s 10th Birthday collectible: The Broodby Dragon is a Tower Guardian whose warm and magic touch can make dragon eggs hatch much faster than usual. We don’t know how she does it–best not to question the ‘Egg Whisperer’!",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150093,
+              "name": "Crawlizoid Dragon",
+              "description": "An important dragon species known for its iconic jump from sea to land, the Crawlizoid Dragon really showed evolution who's boss! Its amphibious nature means it can hunt easily while looking fabulous with both wet and dry fur!",
+              "rarity": "rarity_3",
+              "rarity_name": "Rarity 3",
+              "rarity_type": "normal",
+              "diamonds": 3,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-3.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150094,
+              "name": "All-Seeing Father Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%. Please restart your game for this to take effect.",
+              "rarity": "rarity_ace_4",
+              "rarity_name": "Rarity Ace 4",
+              "rarity_type": "ace",
+              "diamonds": 4,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-4.png",
+              "probability": 31.191516
+            },
+            {
+              "id": 150095,
+              "name": "Grace Karma Dragon",
+              "description": "Being a member of the Karma Collective is not an easy job, but the Grace Karma Dragon does it with...well, grace! With personal vendettas against her Corrupted foes, she is fighting for more than just peace; she wants justice!",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150096,
+              "name": "Ambition Karma Dragon",
+              "description": "The Ambition Karma Dragon, or 'Amber' as the Karma Collective calls her, won't stop until she defeats the Corrupted leader herself. Is she capable of this alone? Well, she does have a few dark tricks up her sleeve...",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_50_100_100_500_500_10k",
+              "weight_vector": [
+                50,
+                100,
+                100,
+                500,
+                500,
+                10000
+              ],
+              "weight": 50,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 0.155958
+            },
+            {
+              "id": 150097,
+              "name": "Kung Flow Karma Dragon",
+              "description": "By channeling his inner emotions, the Kung Flow Karma Dragon is able to deliver precise and devastating blows to his Corrupted enemies! This expert in martial arts never misses a target.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150098,
+              "name": "Determination Karma Dragon",
+              "description": "Once the Determination Karma Dragon has laid her eyes on an enemy, there is no changing her mind. Her determination instills fear in the Corrupted because they know that she won't stop until they're vanquished.",
+              "rarity": "rarity_ace_5",
+              "rarity_name": "Rarity Ace 5",
+              "rarity_type": "ace",
+              "diamonds": 5,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-5.png",
+              "probability": 31.191516
+            },
+            {
+              "id": 150099,
+              "name": "Courageous Karma Dragon",
+              "description": "Living in a world full of deadly Vampire and Corrupted dragons can be scary, that's why the Courageous Karma Dragon is here to fight back. As a member of the Karma Collective, he can absorb attacks and deal double the damage!",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 6.238303
+            },
+            {
+              "id": 150100,
+              "name": "Healing Karma Dragon",
+              "description": "Acting as the healer of the Karma Collective, the Healing Karma Dragon will tend to her group's wounds caused by their Corrupted foes. However, make no mistake, she can also harm as much as she heals...",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.031192
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15011,
+          "name": "Rift Breakers",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_k.png",
+          "asset_stickers": "album13_set_k",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3264,
+              "name": "Gale the Strategist Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3264_dragon_galethestrategist_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3264_dragon_galethestrategist_3@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3264
+              },
+              "kind": "egg",
+              "amount": 1
+            },
+            {
+              "id": 3277,
+              "name": "Screaming Traitor Orbs",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3277_dragon_screamingtraitor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3277_dragon_screamingtraitor_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3277
+              },
+              "kind": "dragon_orbs",
+              "amount": 320
+            },
+            {
+              "kind": "rank_up_coin",
+              "rarity": "mythical",
+              "name": "Mythical Rank Up Coin",
+              "amount": 500,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-mythical.png"
+            },
+            {
+              "kind": "chest",
+              "id": 10713,
+              "name": "Banquet Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10713,
+                "type": "generic"
+              }
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150101,
+              "name": "Redemption Wrath Dragon",
+              "description": "Redemption Ring: they hit all foes even if it hurts themselves. The Redemption Wrath Dragon has always been coaxed into doing terrible things by the insidious golden skulls he bears on each arm. Will he ever gain control and cease his wrath of pain?",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 7.98722
+            },
+            {
+              "id": 150102,
+              "name": "Redemption Doom Dragon",
+              "description": "Redemption Ring: they hit all foes even if it hurts themselves. Can't quite shake that sense of impending doom? The Redemption Doom Dragon must be close. Unlike his family, he is not looking to redeem himself or atone for his sins. He is Doom. He has no shame.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 7.98722
+            },
+            {
+              "id": 150103,
+              "name": "Redemption Brutality Dragon",
+              "description": "Redemption Ring: they hit all foes even if it hurts themselves. The Redemption Brutality Dragon wants to distance himself from the brutal battles that gave him his once-respected name. Is he capable of offering a caring hand with a hand that hurt so many?",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 7.98722
+            },
+            {
+              "id": 150104,
+              "name": "Redemption Wulf Dragon",
+              "description": "Redemption Ring: they hit all foes even if it hurts themselves. The Redemption Wulf Dragon would often give in to her savage animalistic tendencies, raiding one village after another. Will she be able to cage the beast that lies within?",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 7.98722
+            },
+            {
+              "id": 150105,
+              "name": "Redemption Malice Dragon",
+              "description": "Redemption Ring: when they fall in battle, they heal their allies. The Redemption Malice Dragon, a former prison chief, rarely cared about 'evidence'; everyone was guilty in her eyes. Now that she has returned, will she bring justice to the truly innocent?",
+              "rarity": "rarity_ace_4",
+              "rarity_name": "Rarity Ace 4",
+              "rarity_type": "ace",
+              "diamonds": 4,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-4.png",
+              "probability": 39.936102
+            },
+            {
+              "id": 150106,
+              "name": "Redemption Conquest Dragon",
+              "description": "Redemption Ring: when they fall in battle, they heal their allies. The Redemption Conquest Dragon used to be an almighty leader, but his tyrant rule caused harm to thousands. Will he redeem himself by leading for the many, not the few?",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_10_50_100_100_10k",
+              "weight_vector": [
+                10,
+                10,
+                50,
+                100,
+                100,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.039936
+            },
+            {
+              "id": 150107,
+              "name": "Redemption Blade Dragon",
+              "description": "Redemption Ring: when they fall in battle, they heal their allies. The Redemption Blade Dragon has risen from the dead to make amends for the atrocities his group committed all those years ago. Is he capable of innocently wielding his blade?",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.039936
+            },
+            {
+              "id": 150108,
+              "name": "Risen Skill Skin",
+              "description": "By simply owning this Skin, your dragon will deal boosted damage for her Ice, Chaos & Wind attacks! Please restart your game for this to take effect.",
+              "rarity": "rarity_ace_5",
+              "rarity_name": "Rarity Ace 5",
+              "rarity_type": "ace",
+              "diamonds": 5,
+              "weight_id": "album15_w_7k_7k_7k_7k_7k_10k",
+              "weight_vector": [
+                7000,
+                7000,
+                7000,
+                7000,
+                7000,
+                10000
+              ],
+              "weight": 7000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-5.png",
+              "probability": 27.955272
+            },
+            {
+              "id": 150109,
+              "name": "Redemption Brutality Dragon",
+              "description": "Redemption Ring: they hit all foes even if it hurts themselves. The Redemption Brutality Dragon wants to distance himself from the brutal battles that gave him his once-respected name. Is he capable of offering a caring hand with a hand that hurt so many?",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_50_100_100_500_10k",
+              "weight_vector": [
+                10,
+                50,
+                100,
+                100,
+                500,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.039936
+            },
+            {
+              "id": 150110,
+              "name": "Redemption Looter Dragon",
+              "description": "Redemption Ring: when they fall in battle, they heal their allies. The Redemption Looter Dragon is here to prove her honesty; she didn't discriminate between rich and poor, she stole from everyone. Will she give back all she so carelessly took?",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.039936
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        },
+        {
+          "id": 15012,
+          "name": "Hypno Family",
+          "lifetime": "permanent",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_13_set_l.png",
+          "asset_stickers": "album13_set_l",
+          "start_ts": 1792058400,
+          "end_ts": 1795687140,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3510,
+              "name": "High Hypno Mindbreak Orbs",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3510_dragon_highhypnomindbreak_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3510_dragon_highhypnomindbreak_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3510
+              },
+              "kind": "dragon_orbs",
+              "amount": 120
+            },
+            {
+              "kind": "rank_up_coin",
+              "rarity": "heroic",
+              "name": "Heroic Rank Up Coin",
+              "amount": 500,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-heroic.png"
+            },
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 3,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "kind": "chest",
+              "id": 10713,
+              "name": "Banquet Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10713,
+                "type": "generic"
+              }
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150111,
+              "name": "High Hypno Mindbreak",
+              "description": "Born in the darkest corners of the Dragon Realm, Mindbreak has wandered the shadows for centuries, collecting the broken thoughts of fallen warriors.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 4.997501
+            },
+            {
+              "id": 150112,
+              "name": "Hypno Siren",
+              "description": "No one knows when Hypno Siren first appeared in the Dragon Realm. Those who have faced it speak of seeing their greatest fears reflected in its many eyes — just before their own allies turned against them.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 4.997501
+            },
+            {
+              "id": 150113,
+              "name": "Hypno Whisperer",
+              "description": "No one ever sees Hypno Whisperer coming. By the time you notice it beside you, it has already begun. One word. That is all it ever needs. One word, and your mind belongs to someone else.",
+              "rarity": "rarity_4",
+              "rarity_name": "Rarity 4",
+              "rarity_type": "normal",
+              "diamonds": 4,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-4.png",
+              "probability": 4.997501
+            },
+            {
+              "id": 150114,
+              "name": "Gilded Gaze Skill Skin",
+              "description": "By simply owning this Skin, your dragon's Mind break and Brain Drain skill is improved.",
+              "rarity": "rarity_ace_4",
+              "rarity_name": "Rarity Ace 4",
+              "rarity_type": "ace",
+              "diamonds": 4,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-4.png",
+              "probability": 24.987506
+            },
+            {
+              "id": 150115,
+              "name": "Shadow Gaze Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_2k_4k_10k_10k_10k",
+              "weight_vector": [
+                10,
+                2000,
+                4000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.024988
+            },
+            {
+              "id": 150116,
+              "name": "Nightmare Lure",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 20%.",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 4.997501
+            },
+            {
+              "id": 150117,
+              "name": "Scorched Enchantress",
+              "description": "Coming Soon !",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_10_10_50_100_100_10k",
+              "weight_vector": [
+                10,
+                10,
+                50,
+                100,
+                100,
+                10000
+              ],
+              "weight": 10,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 0.024988
+            },
+            {
+              "id": 150118,
+              "name": "Hypno Whisperer",
+              "description": "No one ever sees Hypno Whisperer coming. By the time you notice it beside you, it has already begun. One word. That is all it ever needs. One word, and your mind belongs to someone else.",
+              "rarity": "rarity_5",
+              "rarity_name": "Rarity 5",
+              "rarity_type": "normal",
+              "diamonds": 5,
+              "weight_id": "album15_w_2k_4k_10k_10k_10k_10k",
+              "weight_vector": [
+                2000,
+                4000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 2000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-not-owned-rarity-5.png",
+              "probability": 4.997501
+            },
+            {
+              "id": 150119,
+              "name": "Blazing Psyche",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 20%.",
+              "rarity": "rarity_ace_5",
+              "rarity_name": "Rarity Ace 5",
+              "rarity_type": "ace",
+              "diamonds": 5,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-5.png",
+              "probability": 24.987506
+            },
+            {
+              "id": 150120,
+              "name": "Deep Reverie",
+              "description": "Coming Soon !",
+              "rarity": "rarity_ace_5",
+              "rarity_name": "Rarity Ace 5",
+              "rarity_type": "ace",
+              "diamonds": 5,
+              "weight_id": "album15_w_10k_10k_10k_10k_10k_10k",
+              "weight_vector": [
+                10000,
+                10000,
+                10000,
+                10000,
+                10000,
+                10000
+              ],
+              "weight": 10000,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/sticker-ace-not-owned-rarity-5.png",
+              "probability": 24.987506
+            }
+          ],
+          "sticker_count": 10,
+          "pack_deeplink": [],
+          "rubber_banding": null
+        }
+      ],
+      "temporary_sets": [],
+      "shop": [
+        {
+          "id": 1501,
+          "cost": [
+            {
+              "kind": "resource",
+              "type": "album_dust",
+              "key": "album_dust",
+              "name": "Sticker Diamond",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic-album-dust-massive_c.png"
+            }
+          ],
+          "reward": [
+            {
+              "kind": "chest",
+              "id": 11737,
+              "name": "Small Gumball Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_s@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_duplicate_machine_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_s@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_s.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 11737,
+                "type": "generic"
+              }
+            }
+          ],
+          "purchase_limit": 0,
+          "cooldown": "12h"
+        },
+        {
+          "id": 1502,
+          "cost": [
+            {
+              "kind": "resource",
+              "type": "album_dust",
+              "key": "album_dust",
+              "name": "Sticker Diamond",
+              "amount": 100,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic-album-dust-massive_c.png"
+            }
+          ],
+          "reward": [
+            {
+              "kind": "chest",
+              "id": 9765,
+              "name": "Medium Gumball Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_m@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_duplicate_machine_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_m.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 9765,
+                "type": "generic"
+              }
+            }
+          ],
+          "purchase_limit": 0,
+          "cooldown": "12h"
+        },
+        {
+          "id": 1503,
+          "cost": [
+            {
+              "kind": "resource",
+              "type": "album_dust",
+              "key": "album_dust",
+              "name": "Sticker Diamond",
+              "amount": 300,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic-album-dust-massive_c.png"
+            }
+          ],
+          "reward": [
+            {
+              "kind": "chest",
+              "id": 19670,
+              "name": "Large Gumball Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_duplicate_machine_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 19670,
+                "type": "generic"
+              }
+            }
+          ],
+          "purchase_limit": 0,
+          "cooldown": "12h"
+        },
+        {
+          "id": 1504,
+          "cost": [
+            {
+              "kind": "resource",
+              "type": "album_ace_dust",
+              "key": "album_ace_dust",
+              "name": "Ace Sticker Diamond",
+              "amount": 30,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic-album-dust-massive_c.png"
+            }
+          ],
+          "reward": [
+            {
+              "kind": "chest",
+              "id": 7634,
+              "name": "Shiny Gumball Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_ace@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_ace@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_duplicate_machine_ace@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_ace@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_ace.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 7634,
+                "type": "generic"
+              }
+            }
+          ],
+          "purchase_limit": 0,
+          "cooldown": "12h"
+        }
+      ],
+      "rubber_banding": 1501
     }
   ],
   "packs": [
@@ -12010,9 +15412,9 @@
       "summary": "Contains 3 Stickers, at least 1 2-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -17364,9 +20766,9 @@
       "summary": "Contains 4 Stickers, at least 1 3-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -22550,9 +25952,9 @@
       "summary": "Contains 5 Stickers, at least 1 4-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -27485,9 +30887,9 @@
       "summary": "Contains 6 Stickers, at least 1 5-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -32170,9 +35572,9 @@
       "summary": "Contains 6 Stickers, at least 1 5-Diamond Shiny Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -36603,9 +40005,9 @@
       "summary": "Contains 6 Stickers, at least 1 1-Diamond Shiny Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -40649,9 +44051,9 @@
       "summary": "Contains 6 Stickers, at least 1 2-Diamond Shiny Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -45082,9 +48484,9 @@
       "summary": "Contains 6 Stickers, at least 1 3-Diamond Shiny Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -49515,9 +52917,9 @@
       "summary": "Contains 6 Stickers, at least 1 4-Diamond Shiny Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -53946,9 +57348,9 @@
       "summary": "Contains 3 Stickers, at least 1 3-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -59133,9 +62535,9 @@
       "summary": "Contains 3 Stickers, at least 1 3-Diamond Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -64322,9 +67724,9 @@
       "summary": "Contains 1 Shiny Sticker",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -65298,9 +68700,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -65353,9 +68755,9 @@
       "summary": "Contains 1 Sticker",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69606,9 +73008,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69661,9 +73063,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69717,9 +73119,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69773,9 +73175,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69829,9 +73231,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69885,9 +73287,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69941,9 +73343,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -69997,9 +73399,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -70053,9 +73455,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -70109,9 +73511,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -70164,9 +73566,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -70219,9 +73621,9 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond temporal Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1788429600,
-      "availability_end_ts": 1792058400,
+      "availability_end_ts": 1792058340,
       "context_periods": [
         "week1",
         "week2",
@@ -70275,7 +73677,7 @@
       "summary": "Contains 1 Sticker, at least 1 1-Diamond Vikings Set Sticker Guaranteed",
       "context_album_id": 14,
       "context_start_ts": 1788429600,
-      "context_end_ts": 1792058400,
+      "context_end_ts": 1792058340,
       "availability_start_ts": 1789984800,
       "availability_end_ts": 1790762400,
       "context_periods": [
