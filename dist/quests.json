@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-08T15:32:52Z",
+  "generated_at": "2026-10-09T16:30:14Z",
   "quest_count": 167,
   "permanent_count": 45,
   "event_count": 122,
@@ -242361,7 +242361,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-09T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 10,
       "stages": [
         {
@@ -243166,7 +243166,7 @@
       "end_ts": 1791540000,
       "start_iso": "2026-10-05T10:00:00Z",
       "end_iso": "2026-10-09T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
