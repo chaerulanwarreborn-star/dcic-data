@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:01:19Z",
+  "generated_at": "2026-10-12T06:41:39Z",
   "count": 597,
   "linked_count": 307,
   "skills": [
@@ -31530,8 +31530,8 @@
     },
     {
       "id": 34781,
-      "name": "PLACEHOLDER",
-      "description": "PLACEHOLDER",
+      "name": "Dusk Mantle",
+      "description": "Instantly gains armor at the start of battle.",
       "cooldown": 0,
       "effects": [
         {
@@ -31561,11 +31561,11 @@
       "linked_dragons": [
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 0,
-          "attack_name": "PLACEHOLDER",
+          "attack_name": "Dusk Mantle",
           "move_type": "passive",
           "element": ""
         }
@@ -31600,7 +31600,7 @@
       "linked_dragons": [
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 0,
@@ -31680,7 +31680,7 @@
       "linked_dragons": [
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 347801,
@@ -31691,7 +31691,7 @@
         },
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 347801,
@@ -31740,7 +31740,7 @@
       "linked_dragons": [
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 347802,
@@ -31751,7 +31751,7 @@
         },
         {
           "dragon_id": 3478,
-          "dragon_name": "PLACEHOLDER",
+          "dragon_name": "Apex of Dusk",
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
           "attack_id": 347802,
