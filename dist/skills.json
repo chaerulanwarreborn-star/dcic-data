@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:51:12Z",
+  "generated_at": "2026-10-13T12:56:16Z",
   "count": 597,
   "linked_count": 307,
   "skills": [
@@ -30514,7 +30514,8 @@
           "parameters": {
             "damage": 3000,
             "multiplier": 3.5,
-            "waitTime": 300
+            "waitTime": 300,
+            "max_kills": 2
           }
         }
       ],
@@ -31563,7 +31564,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 0,
           "attack_name": "Dusk Mantle",
           "move_type": "passive",
@@ -31602,7 +31603,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 0,
           "attack_name": "COMING SOON",
           "move_type": "passive",
@@ -31682,7 +31683,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 347801,
           "attack_name": "COMING SOON",
           "move_type": "basic",
@@ -31693,7 +31694,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 347801,
           "attack_name": "COMING SOON",
           "move_type": "trained",
@@ -31742,7 +31743,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 347802,
           "attack_name": "COMING SOON",
           "move_type": "basic",
@@ -31753,7 +31754,7 @@
           "dragon_id": 3478,
           "dragon_name": "Apex of Dusk",
           "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal1_3.png",
           "attack_id": 347802,
           "attack_name": "COMING SOON",
           "move_type": "trained",
