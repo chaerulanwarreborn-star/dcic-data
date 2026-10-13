@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T12:56:16Z",
-  "count": 597,
+  "generated_at": "2026-10-13T19:00:01Z",
+  "count": 598,
   "linked_count": 307,
   "skills": [
     {
@@ -26803,7 +26803,7 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "percentageValue": 0.4,
+            "percentageValue": 0.25,
             "activeTurns": 2,
             "dragonLife": "receiver",
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -26827,29 +26827,26 @@
     },
     {
       "id": 484,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 767,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -26929,18 +26926,19 @@
       "effects": [
         {
           "id": 769,
-          "type": "CARRY_DAMAGE",
+          "type": "CRIT_ATTACK",
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
             "damage": 2000,
-            "multiplier": 1.7,
-            "effect_tid": "tid_skill_description_250_battlefield"
+            "multiplier": 1.4,
+            "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+            "effectName": "tid_crit_effect_name"
           }
         }
       ],
       "effect_types": [
-        "CARRY_DAMAGE"
+        "CRIT_ATTACK"
       ],
       "targets": [
         "ENEMY"
@@ -26953,29 +26951,26 @@
     },
     {
       "id": 488,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 771,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27079,29 +27074,26 @@
     },
     {
       "id": 492,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 774,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27241,29 +27233,26 @@
     },
     {
       "id": 496,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 777,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27379,29 +27368,26 @@
     },
     {
       "id": 500,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 781,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27514,29 +27500,26 @@
     },
     {
       "id": 504,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 785,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27642,29 +27625,26 @@
     },
     {
       "id": 508,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 788,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27785,29 +27765,26 @@
     },
     {
       "id": 512,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 791,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -27926,29 +27903,26 @@
     },
     {
       "id": 516,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 795,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -28054,29 +28028,26 @@
     },
     {
       "id": 520,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 799,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -28192,29 +28163,26 @@
     },
     {
       "id": 524,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 803,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -28586,29 +28554,26 @@
     },
     {
       "id": 536,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 807,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -28749,29 +28714,26 @@
     },
     {
       "id": 540,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 812,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -28877,29 +28839,26 @@
     },
     {
       "id": 544,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 816,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -29004,29 +28963,26 @@
     },
     {
       "id": 548,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 818,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -29139,29 +29095,26 @@
     },
     {
       "id": 552,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 821,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -29277,29 +29230,26 @@
     },
     {
       "id": 556,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 825,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -29418,29 +29368,26 @@
     },
     {
       "id": 560,
-      "name": "Rock Throw",
-      "description": "Hits 1 to 5 times",
+      "name": "No Remorse",
+      "description": "Damages all opponents but the user is hurt",
       "cooldown": 3,
       "effects": [
         {
-          "id": 1,
-          "type": "MULTIPLE_HITS",
-          "target": "ENEMY",
+          "id": 829,
+          "type": "DAMAGE",
+          "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1000,
-            "multiplier": 1.68,
-            "minHits": 1,
-            "maxHits": 5,
-            "waitTime": 500
+            "damage": 2200,
+            "multiplier": 2
           }
         }
       ],
       "effect_types": [
-        "MULTIPLE_HITS"
+        "DAMAGE"
       ],
       "targets": [
-        "ENEMY"
+        "ENEMY_TEAM"
       ],
       "move_types": [],
       "elements": [],
@@ -31847,6 +31794,36 @@
       ],
       "effect_types": [
         "CHANGE_STATS_ON_KILL"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 100000,
+      "name": "multilife_tid",
+      "description": "multilife_tid",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 100000,
+          "type": "MULTI_LIFE",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "lives": 5,
+            "health_multiplier": 1.1,
+            "attack_multiplier": 1.1
+          }
+        }
+      ],
+      "effect_types": [
+        "MULTI_LIFE"
       ],
       "targets": [
         "SELF"
