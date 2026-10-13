@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-13T00:12:17Z",
+  "generated_at": "2026-10-13T01:13:20Z",
   "quest_count": 167,
   "permanent_count": 45,
   "event_count": 122,
@@ -20945,7 +20945,7 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_0000_dragon_placeholder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_1@2x.png"
               ],
@@ -167570,7 +167570,7 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1395_flying_chest_3@2x.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/1395_flying_chest/ui_1395_flying_chest_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_1@2x.png"
               ],
@@ -178910,9 +178910,9 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
               "image_candidates": [
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -193566,9 +193566,9 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
               "image_candidates": [
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -211052,7 +211052,7 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1145_dragon_test_war_3@2x.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/1145_dragon_test_war/ui_1145_dragon_test_war_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_1@2x.png"
               ],
@@ -234437,7 +234437,7 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1020_dragon_fire_d_3.png",
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_1145_dragon_test_war_3@2x.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/1145_dragon_test_war/ui_1145_dragon_test_war_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_3@2x.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1020_dragon_fire_d_1@2x.png"
               ],
@@ -255157,9 +255157,9 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
               "image_candidates": [
-                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
