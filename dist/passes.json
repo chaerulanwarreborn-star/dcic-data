@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-13T01:36:12.822491Z",
+  "generated_at": "2026-10-13T08:51:00.173846Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -651246,10 +651246,10 @@
                 ],
                 "reward": {
                   "reward_id": 333019,
-                  "name": "Skin #3421",
+                  "name": "Firecracker Skill Skin",
                   "amount": 1,
                   "kind": "skin",
-                  "image_url": "",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3483_dragon_sparkler_skin1_3.png",
                   "popup": {
                     "kind": "skin",
                     "id": 3421
@@ -651262,12 +651262,15 @@
                       "asset_kind": "skin",
                       "id": 3421,
                       "skin_id": 3421,
-                      "name": "Skin #3421",
+                      "name": "Firecracker Skill Skin",
                       "amount": 1,
-                      "thumbnail": "",
-                      "skin_thumbnail": "",
-                      "thumbnail_candidates": [],
-                      "image_url": "",
+                      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3483_dragon_sparkler_skin1_3.png",
+                      "skin_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3483_dragon_sparkler_skin1_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3483_dragon_sparkler_skin1_3.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3483_dragon_sparkler_skin1_3@2x.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3483_dragon_sparkler_skin1_3.png",
                       "image_candidates": [],
                       "popup": {
                         "kind": "skin",
