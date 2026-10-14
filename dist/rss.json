@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T11:12:40Z",
-  "count": 2184,
+  "generated_at": "2026-10-14T11:17:48Z",
+  "count": 2190,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -9241,6 +9241,48 @@
       "type": "currency",
       "image_url": "",
       "family": "collectors_hunt_boost_token"
+    },
+    {
+      "key": "dda_dvd_heroic_120orbs_6m",
+      "name": "dda_dvd_heroic_120orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_heroic_120orbs_6m"
+    },
+    {
+      "key": "dda_dvd_heroic_200orbs_6m",
+      "name": "dda_dvd_heroic_200orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_heroic_200orbs_6m"
+    },
+    {
+      "key": "dda_dvd_legendary_120orbs_6m",
+      "name": "dda_dvd_legendary_120orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_legendary_120orbs_6m"
+    },
+    {
+      "key": "dda_dvd_legendary_200orbs_6m",
+      "name": "dda_dvd_legendary_200orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_legendary_200orbs_6m"
+    },
+    {
+      "key": "dda_dvd_mythical_120orbs_6m",
+      "name": "dda_dvd_mythical_120orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_mythical_120orbs_6m"
+    },
+    {
+      "key": "dda_dvd_mythical_200orbs_6m",
+      "name": "dda_dvd_mythical_200orbs_6m",
+      "type": "currency",
+      "image_url": "",
+      "family": "dda_dvd_mythical_200orbs_6m"
     },
     {
       "key": "dda_offer_w1_1_2_years_hvip_100_orbs_recurrent",

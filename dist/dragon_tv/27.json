@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:12:32Z",
+  "generated_at": "2026-10-14T11:17:42Z",
   "collections": [
     {
       "id": 3003,
@@ -48029,13 +48029,13 @@
               "rewards": [
                 {
                   "kind": "item",
-                  "id": 11935,
-                  "name": "Tropical Hatching",
+                  "id": 11970,
+                  "name": "School Hatching",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11935_deco_tropicalhatching@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11970_deco_schoolhatching@2x.png",
                   "popup": {
                     "kind": "item",
-                    "id": 11935
+                    "id": 11970
                   }
                 }
               ]
@@ -48113,13 +48113,13 @@
               "rewards": [
                 {
                   "kind": "item",
-                  "id": 11935,
-                  "name": "Tropical Hatching",
+                  "id": 11970,
+                  "name": "School Hatching",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11935_deco_tropicalhatching@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11970_deco_schoolhatching@2x.png",
                   "popup": {
                     "kind": "item",
-                    "id": 11935
+                    "id": 11970
                   }
                 }
               ]
