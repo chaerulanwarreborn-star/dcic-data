@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-14T09:48:16Z",
+  "generated_at": "2026-10-14T10:16:27Z",
   "event_count": 183,
   "events": [
     {
@@ -98732,7 +98732,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-14T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
@@ -99194,7 +99194,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-14T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
