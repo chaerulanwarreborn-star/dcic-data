@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T03:07:53Z",
+  "generated_at": "2026-10-15T10:28:10Z",
   "quest_count": 175,
   "permanent_count": 45,
   "event_count": 130,
@@ -218621,9 +218621,9 @@
       "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-bp-high-stained-sharpfang-3494.png",
       "background_asset": "tournament_backgrounds/gr-dragon-tournament-bp-high-stained-sharpfang-3494.png",
       "start_ts": 1788429600,
-      "end_ts": 1792058400,
+      "end_ts": 1793358000,
       "start_iso": "2026-09-03T10:00:00Z",
-      "end_iso": "2026-10-15T10:00:00Z",
+      "end_iso": "2026-10-30T11:00:00Z",
       "status": "current",
       "stage_count": 60,
       "stages": [
@@ -231267,7 +231267,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-09-13T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 22,
       "stages": [
         {
@@ -237015,7 +237015,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-09-17T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 7,
       "stages": [
         {
@@ -242361,7 +242361,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-09T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -243971,7 +243971,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-03T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 15,
       "stages": [
         {
@@ -245575,7 +245575,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-01T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 20,
       "stages": [
         {
@@ -247681,7 +247681,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-08T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -250099,7 +250099,7 @@
       "end_ts": 1793271600,
       "start_iso": "2026-10-15T10:00:00Z",
       "end_iso": "2026-10-29T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 15,
       "stages": [
         {
@@ -254911,10 +254911,10 @@
       "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-bp-high-mind-break-3510.png",
       "background_asset": "tournament_backgrounds/gr-dragon-tournament-bp-high-mind-break-3510.png",
       "start_ts": 1792058400,
-      "end_ts": 1795690800,
+      "end_ts": 1797505200,
       "start_iso": "2026-10-15T10:00:00Z",
-      "end_iso": "2026-11-26T11:00:00Z",
-      "status": "upcoming",
+      "end_iso": "2026-12-17T11:00:00Z",
+      "status": "current",
       "stage_count": 60,
       "stages": [
         {
@@ -261135,7 +261135,7 @@
       "end_ts": 1792663200,
       "start_iso": "2026-10-15T10:00:00Z",
       "end_iso": "2026-10-22T10:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 9,
       "stages": [
         {

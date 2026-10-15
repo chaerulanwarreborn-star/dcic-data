@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T03:07:58Z",
+  "generated_at": "2026-10-15T10:28:14Z",
   "count": 598,
   "linked_count": 307,
   "skills": [
@@ -30199,9 +30199,9 @@
           "hit_chance": 1,
           "parameters": {
             "calloutTid": "tid_minbreak",
-            "duration": 4,
+            "duration": 2,
             "missTid": "tid_miss",
-            "procChance": 0.35,
+            "procChance": 0.25,
             "vfx": "mindbreak_skill_apply"
           }
         }

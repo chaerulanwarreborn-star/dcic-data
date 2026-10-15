@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T03:07:29.319727Z",
+  "generated_at": "2026-10-15T10:27:38.862765Z",
   "source_file": "game_config.json",
   "localization_file": "the-void/localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -273,21 +273,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 10
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -1318,29 +1303,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -2703,29 +2688,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -4771,29 +4756,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -5336,29 +5321,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -6147,29 +6132,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -7179,29 +7164,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -8502,29 +8487,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -9492,21 +9477,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 10
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -10537,29 +10507,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -11922,29 +11892,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -13990,29 +13960,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -14555,29 +14525,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -15366,29 +15336,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -16398,29 +16368,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -17721,29 +17691,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -18756,21 +18726,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 11
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -19801,29 +19756,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -21186,29 +21141,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -23254,29 +23209,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -23819,29 +23774,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -24630,29 +24585,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -25662,29 +25617,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -26985,29 +26940,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -28005,21 +27960,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 11
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -29050,29 +28990,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -30435,29 +30375,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -32503,29 +32443,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -33068,29 +33008,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -33879,29 +33819,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -34911,29 +34851,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -36234,29 +36174,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -37406,21 +37346,6 @@
             "tile_count": 11
           },
           {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
-          },
-          {
             "id": 14543,
             "chest_id": 14543,
             "source_chest_id": 14543,
@@ -38449,29 +38374,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -39834,29 +39759,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -41902,29 +41827,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -42467,29 +42392,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -43278,29 +43203,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -44310,29 +44235,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -45633,29 +45558,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -46668,21 +46593,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 11
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -47713,29 +47623,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -49098,29 +49008,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -51166,29 +51076,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -51731,29 +51641,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -52542,29 +52452,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -53574,29 +53484,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -54897,29 +54807,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -56054,21 +55964,6 @@
             "tile_count": 11
           },
           {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
-          },
-          {
             "id": 14543,
             "chest_id": 14543,
             "source_chest_id": 14543,
@@ -57097,29 +56992,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -58482,29 +58377,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -60550,29 +60445,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -61115,29 +61010,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -61926,29 +61821,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -62958,29 +62853,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -64281,29 +64176,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -65301,21 +65196,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 11
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -66346,29 +66226,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -67731,29 +67611,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -69799,29 +69679,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -70364,29 +70244,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -71175,29 +71055,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -72207,29 +72087,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -73530,29 +73410,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -74777,21 +74657,6 @@
             "tile_count": 11
           },
           {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
-          },
-          {
             "id": 14543,
             "chest_id": 14543,
             "source_chest_id": 14543,
@@ -75820,29 +75685,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -77205,29 +77070,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -79273,29 +79138,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -79838,29 +79703,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -80649,29 +80514,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -81681,29 +81546,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -83004,29 +82869,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -84116,21 +83981,6 @@
             "tile_count": 11
           },
           {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
-          },
-          {
             "id": 14543,
             "chest_id": 14543,
             "source_chest_id": 14543,
@@ -85159,29 +85009,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -86544,29 +86394,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -88612,29 +88462,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -89177,29 +89027,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -89988,29 +89838,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -91020,29 +90870,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -92343,29 +92193,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -93470,21 +93320,6 @@
             "tile_count": 10
           },
           {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
-          },
-          {
             "id": 14543,
             "chest_id": 14543,
             "source_chest_id": 14543,
@@ -94513,29 +94348,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -95898,29 +95733,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -97966,29 +97801,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -98531,29 +98366,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -99342,29 +99177,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -100374,29 +100209,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -101697,29 +101532,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -102716,21 +102551,6 @@
             "localization_name_key": "tid_chest_name_6",
             "localization_description_key": "tid_chest_foodgems_description",
             "tile_count": 11
-          },
-          {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 7
           },
           {
             "id": 14543,
@@ -103761,29 +103581,29 @@
           "highlight": 1,
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -105146,29 +104966,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -107214,29 +107034,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -107779,29 +107599,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -108590,29 +108410,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -109622,29 +109442,29 @@
           "wall": "H",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -110945,29 +110765,29 @@
           "wall": "H+V",
           "rewards": [
             {
-              "id": 9239,
-              "chest_id": 9239,
-              "source_chest_id": 9239,
+              "id": 6708,
+              "chest_id": 6708,
+              "source_chest_id": 6708,
               "kind": "chest",
               "asset_kind": "chest",
-              "name": "Key Chest",
-              "img_name": "345_chest_keys",
-              "source_chest_img_name": "345_chest_keys",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-              "summary_classification": "other_special_chest"
+              "name": "Gold Chest",
+              "img_name": "104_gold_chest",
+              "source_chest_img_name": "104_gold_chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+              "summary_classification": "excluded_generic_chest"
             }
           ],
           "reward": {
-            "id": 9239,
-            "chest_id": 9239,
-            "source_chest_id": 9239,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_9239_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {

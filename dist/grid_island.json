@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T03:07:28.618511Z",
+  "generated_at": "2026-10-15T10:27:37.819354Z",
   "source_file": "game_config.json",
   "localization_file": "the-void/localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -539,24 +539,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -1041,20 +1023,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -1083,22 +1065,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -2089,20 +2071,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -2985,22 +2967,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -3985,22 +3967,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -4054,20 +4036,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -4801,20 +4783,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -5507,22 +5489,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -5683,22 +5665,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -5882,22 +5864,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -6697,24 +6679,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -7201,20 +7165,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -7243,22 +7207,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -8251,20 +8215,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 1,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -9155,22 +9119,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -10155,22 +10119,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -10224,20 +10188,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -10971,20 +10935,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -11689,22 +11653,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -11865,22 +11829,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -12068,22 +12032,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -12904,24 +12868,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -13404,20 +13350,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -13446,22 +13392,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -14446,20 +14392,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 1,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -15338,22 +15284,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -16330,22 +16276,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -16399,20 +16345,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -17142,20 +17088,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -17848,22 +17794,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -18024,22 +17970,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -18223,22 +18169,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -19041,24 +18987,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -19541,20 +19469,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -19583,22 +19511,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -20583,20 +20511,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 1,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -21475,22 +21403,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -22467,22 +22395,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -22536,20 +22464,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -23279,20 +23207,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -23985,22 +23913,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -24161,22 +24089,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -24360,22 +24288,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -25175,24 +25103,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -25679,20 +25589,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -25721,22 +25631,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -26729,20 +26639,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 1,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -27633,22 +27543,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -28633,22 +28543,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -28702,20 +28612,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -29449,20 +29359,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -30167,22 +30077,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -30343,22 +30253,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -30546,22 +30456,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -31364,24 +31274,6 @@
             ]
           },
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 10,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 8377,
             "chest_id": 8377,
             "source_chest_id": 8377,
@@ -31864,20 +31756,20 @@
           "x": 3,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 100,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -31906,22 +31798,22 @@
           "x": 4,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 120,
           "highlight": 0,
           "wall": "H+V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -32906,20 +32798,20 @@
           "x": 16,
           "y": 1,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 275,
           "highlight": 1,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -33798,22 +33690,22 @@
           "x": 26,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 500,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -34790,22 +34682,22 @@
           "x": 36,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -34859,20 +34751,20 @@
           "x": 36,
           "y": 5,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 525,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -35602,20 +35494,20 @@
           "x": 45,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -36308,22 +36200,22 @@
           "x": 52,
           "y": 4,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 550,
           "highlight": 0,
           "wall": "H",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -36484,22 +36376,22 @@
           "x": 54,
           "y": 3,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -36683,22 +36575,22 @@
           "x": 56,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 600,
           "highlight": 0,
           "wall": "V",
           "wall_suffix": "rock",
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {
@@ -37483,24 +37375,6 @@
         ],
         "other_special_chests": [
           {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
-            "kind": "chest",
-            "asset_kind": "chest",
-            "name": "Key Chest",
-            "description": "Contains those all-important Keys for the Missing Dragon Rescue!",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "localization_name_key": "tid_chest_name_345",
-            "localization_description_key": "tid_chest_desc_345",
-            "tile_count": 1,
-            "source_chest_ids": [
-              8450
-            ]
-          },
-          {
             "id": 9413,
             "chest_id": 9413,
             "source_chest_id": 9413,
@@ -37770,20 +37644,20 @@
           "x": 1,
           "y": 2,
           "type": "CHEST",
-          "type_id": 8450,
+          "type_id": 6708,
           "claim_cost": 20,
           "highlight": 0,
           "reward": {
-            "id": 8450,
-            "chest_id": 8450,
-            "source_chest_id": 8450,
+            "id": 6708,
+            "chest_id": 6708,
+            "source_chest_id": 6708,
             "kind": "chest",
             "asset_kind": "chest",
-            "name": "Key Chest",
-            "img_name": "345_chest_keys",
-            "source_chest_img_name": "345_chest_keys",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_8450_345_chest_keys@2x.png",
-            "summary_classification": "other_special_chest"
+            "name": "Gold Chest",
+            "img_name": "104_gold_chest",
+            "source_chest_img_name": "104_gold_chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_6708_104_gold_chest@2x.png",
+            "summary_classification": "excluded_generic_chest"
           }
         },
         {

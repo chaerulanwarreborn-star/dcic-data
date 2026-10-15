@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-15T03:07:40Z",
+  "generated_at": "2026-10-15T10:27:59Z",
   "event_count": 192,
   "events": [
     {
@@ -664,20 +664,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -1272,20 +1272,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -1838,20 +1838,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -2404,20 +2404,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -2970,20 +2970,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -3536,20 +3536,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -4102,20 +4102,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -4668,20 +4668,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -5234,20 +5234,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -5800,20 +5800,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -6366,20 +6366,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -6974,20 +6974,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -7566,20 +7566,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -8158,20 +8158,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -8764,20 +8764,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 1.4002
@@ -9344,20 +9344,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 2.6374
@@ -10528,20 +10528,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.3333
@@ -12274,20 +12274,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -21104,20 +21104,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -22234,20 +22234,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -24750,20 +24750,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -25354,20 +25354,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -25958,20 +25958,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -27088,20 +27088,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -27692,20 +27692,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -28296,20 +28296,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -29426,20 +29426,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -30030,20 +30030,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -30596,20 +30596,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -31162,20 +31162,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -31766,20 +31766,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -32332,20 +32332,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -32898,20 +32898,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -33926,20 +33926,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -34492,20 +34492,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -35096,20 +35096,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -36586,20 +36586,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -37678,20 +37678,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -38282,20 +38282,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -39412,20 +39412,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -39978,20 +39978,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -40544,20 +40544,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -41110,20 +41110,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -41676,20 +41676,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -42280,20 +42280,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -42846,20 +42846,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -43412,20 +43412,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -43978,20 +43978,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.1282
@@ -44544,20 +44544,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.5934
@@ -45620,20 +45620,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -48130,20 +48130,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -48696,20 +48696,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -49262,20 +49262,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -49828,20 +49828,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -50394,20 +50394,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -51008,20 +51008,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -51574,20 +51574,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -52140,20 +52140,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.6075
@@ -52706,20 +52706,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 5.1282
@@ -53272,20 +53272,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.5934
@@ -54348,20 +54348,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -55472,20 +55472,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -57982,20 +57982,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -59106,20 +59106,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -60230,20 +60230,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -62740,20 +62740,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -63864,20 +63864,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -64988,20 +64988,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -67498,20 +67498,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -68622,20 +68622,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -69746,20 +69746,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -72256,20 +72256,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -77090,20 +77090,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -85634,20 +85634,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -95034,20 +95034,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -96642,20 +96642,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -97766,20 +97766,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -98270,7 +98270,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-12T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -98732,7 +98732,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-14T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -99194,7 +99194,7 @@
       "end_ts": 1792058400,
       "start_iso": "2026-10-14T10:00:00Z",
       "end_iso": "2026-10-15T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -100276,20 +100276,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -101344,20 +101344,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
@@ -102412,20 +102412,20 @@
           "ui_style": "LOW_VALUE",
           "reward": {
             "kind": "resource",
-            "type": "keys",
-            "key": "keys",
-            "name": "Keys",
-            "amount": 15,
-            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+            "type": "gold",
+            "key": "g",
+            "name": "Gold",
+            "amount": 15000,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
           },
           "items": [
             {
               "kind": "resource",
-              "type": "keys",
-              "key": "keys",
-              "name": "Keys",
-              "amount": 15,
-              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/text-icons/ic-key-massive.png"
+              "type": "gold",
+              "key": "g",
+              "name": "Gold",
+              "amount": 15000,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gold.png"
             }
           ],
           "probability": 6.0
