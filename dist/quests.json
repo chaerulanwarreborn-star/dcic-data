@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T10:47:23Z",
-  "quest_count": 175,
+  "generated_at": "2026-10-15T12:01:31Z",
+  "quest_count": 177,
   "permanent_count": 45,
-  "event_count": 130,
-  "stage_count": 2674,
+  "event_count": 132,
+  "stage_count": 2694,
   "quests": [
     {
       "id": 138,
@@ -268001,16 +268001,18 @@
               "star_requirement": null
             },
             {
-              "id": 9999,
-              "name": "Placeholder VIP",
+              "id": 3333,
+              "name": "Dust Cloud Dragon",
               "rarity": "M",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3333_dragon_dustcloud_3.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3333_dragon_dustcloud_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3333_dragon_dustcloud_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3333_dragon_dustcloud_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
-                "id": 9999
+                "id": 3333
               },
               "level": 47,
               "star_requirement": null
@@ -281936,6 +281938,1590 @@
                 12055,
                 12055
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10890,
+      "name": "Witchy Mischief",
+      "category": "event",
+      "category_label": "Time-Limited Quest",
+      "order": 10890,
+      "difficulty": "normal",
+      "min_level": 7,
+      "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-maze-collection-witchy-mischief-tower.png",
+      "background_asset": "tournament_backgrounds/gr-dragon-tournament-maze-collection-witchy-mischief-tower.png",
+      "start_ts": 1793617200,
+      "end_ts": 1793876400,
+      "start_iso": "2026-11-02T11:00:00Z",
+      "end_iso": "2026-11-05T11:00:00Z",
+      "status": "upcoming",
+      "stage_count": 10,
+      "stages": [
+        {
+          "stage": 1,
+          "match_id": 10890001,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3397,
+              "name": "High Risen Terra Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3397_dragon_highrisenterra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3397_dragon_highrisenterra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3397_dragon_highrisenterra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3397_dragon_highrisenterra_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3397
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 3172,
+              "name": "Wretched Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3172_dragon_wretchedfate_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3172_dragon_wretchedfate_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3172_dragon_wretchedfate_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3172_dragon_wretchedfate_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3172
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 2927,
+              "name": "Dual Parliament Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2927_dragon_parliament_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2927_dragon_parliament_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2927_dragon_parliament_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2927_dragon_parliament_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2927
+              },
+              "level": 12,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 21600,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 25,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 25
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "match_id": 10890002,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3406,
+              "name": "Villainess Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3406_dragon_villainess_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3406_dragon_villainess_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3406_dragon_villainess_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3406_dragon_villainess_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3406
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 3336,
+              "name": "Viced Silencer Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3336_dragon_vicedsilencerdragon_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3336_dragon_vicedsilencerdragon_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3336_dragon_vicedsilencerdragon_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3336_dragon_vicedsilencerdragon_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3336
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 3212,
+              "name": "High Sparkle Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3212_dragon_highsparkle_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3212_dragon_highsparkle_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3212_dragon_highsparkle_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3212_dragon_highsparkle_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3212
+              },
+              "level": 12,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 21600,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 25,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 25
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "match_id": 10890003,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2782,
+              "name": "Lake Guardian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2782_dragon_lakeguardian_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2782_dragon_lakeguardian_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2782_dragon_lakeguardian_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2782_dragon_lakeguardian_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2782
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2841,
+              "name": "Evil Witch Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2841_dragon_evilwitch_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2841_dragon_evilwitch_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2841_dragon_evilwitch_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2841_dragon_evilwitch_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2841
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 3458,
+              "name": "Astro Meteoro Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3458_dragon_astrometeoro_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3458_dragon_astrometeoro_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3458_dragon_astrometeoro_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3458_dragon_astrometeoro_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3458
+              },
+              "level": 14,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 5,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "permanent_gacha.legendary": 5
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "match_id": 10890004,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2491,
+              "name": "Xolotl Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2491
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2553,
+              "name": "High Earthen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2553
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2788,
+              "name": "High Voodoo Vampire Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2788_dragon_highvoodoovampire_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2788_dragon_highvoodoovampire_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2788_dragon_highvoodoovampire_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2788
+              },
+              "level": 14,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 5,
+          "match_id": 10890005,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2718,
+              "name": "High Moon Empress Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2718_dragon_moonempress_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2718_dragon_moonempress_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2718_dragon_moonempress_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2718_dragon_moonempress_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2718
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 2965,
+              "name": "Metamorphosis Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2965_dragon_metamorphosis_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2965_dragon_metamorphosis_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2965_dragon_metamorphosis_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2965_dragon_metamorphosis_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2965
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 3456,
+              "name": "High Astro Supernova Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3456_dragon_highastrosupernova_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3456_dragon_highastrosupernova_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3456_dragon_highastrosupernova_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3456_dragon_highastrosupernova_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3456
+              },
+              "level": 15,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 100,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 100
+            }
+          ]
+        },
+        {
+          "stage": 6,
+          "match_id": 10890006,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3256,
+              "name": "Leaderbliss Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3256_dragon_leaderbliss_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3256_dragon_leaderbliss_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3256_dragon_leaderbliss_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3256_dragon_leaderbliss_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3256
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 3322,
+              "name": "High Zero Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3322_dragon_highzero_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3322_dragon_highzero_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3322_dragon_highzero_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3322_dragon_highzero_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3322
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 2789,
+              "name": "Bounty Hunter Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2789_dragon_bountyhunter_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2789_dragon_bountyhunter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2789_dragon_bountyhunter_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2789_dragon_bountyhunter_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2789
+              },
+              "level": 15,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 7,
+          "match_id": 10890007,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3289,
+              "name": "Kringle Kingdom Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3289_dragon_kingdom_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3289_dragon_kingdom_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3289_dragon_kingdom_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3289_dragon_kingdom_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3289
+              },
+              "level": 16,
+              "star_requirement": null
+            },
+            {
+              "id": 3087,
+              "name": "High Seismic Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3087_dragon_highseismic_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3087_dragon_highseismic_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3087_dragon_highseismic_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3087_dragon_highseismic_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3087
+              },
+              "level": 16,
+              "star_requirement": null
+            },
+            {
+              "id": 2608,
+              "name": "High White Queen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2608_dragon_whitequeen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2608_dragon_whitequeen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2608_dragon_whitequeen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2608_dragon_whitequeen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2608
+              },
+              "level": 16,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 8,
+          "match_id": 10890008,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3145,
+              "name": "High Arcana Judgement Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3145_dragon_higharcanajudgement_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3145_dragon_higharcanajudgement_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3145_dragon_higharcanajudgement_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3145_dragon_higharcanajudgement_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3145
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2441,
+              "name": "Candy Heart Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2441_dragon_candyheartdragon_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2441_dragon_candyheartdragon_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2441_dragon_candyheartdragon_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2441_dragon_candyheartdragon_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2441
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3168,
+              "name": "High Quantum Wormhole Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3168_dragon_highwormholequantum_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3168_dragon_highwormholequantum_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3168_dragon_highwormholequantum_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3168_dragon_highwormholequantum_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3168
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "sticker_pack",
+              "size": "m",
+              "name": "Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "m"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "album_pack.m": 1
+            }
+          ]
+        },
+        {
+          "stage": 9,
+          "match_id": 10890009,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3126,
+              "name": "Snowglobe Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3126_dragon_snowglobe_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3126_dragon_snowglobe_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3126_dragon_snowglobe_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3126_dragon_snowglobe_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3126
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2213,
+              "name": "Onigiri Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2213_dragon_onigiri_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2213_dragon_onigiri_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2213_dragon_onigiri_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2213_dragon_onigiri_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2213
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3181,
+              "name": "Bijou Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3181_dragon_bijou_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3181_dragon_bijou_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3181_dragon_bijou_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3181_dragon_bijou_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3181
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 100,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 100
+            }
+          ]
+        },
+        {
+          "stage": 10,
+          "match_id": 10890010,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3203,
+              "name": "Pollination Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3203_dragon_pollination_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3203_dragon_pollination_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3203_dragon_pollination_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3203_dragon_pollination_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3203
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3081,
+              "name": "High Ascended Supreme Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3081_dragon_highascendedsupreme_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3081_dragon_highascendedsupreme_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3081_dragon_highascendedsupreme_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3081_dragon_highascendedsupreme_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3081
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2669,
+              "name": "Crevasse Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2669
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 36000,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "permanent_gacha.legendary": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10891,
+      "name": "Witchy Mischief",
+      "category": "event",
+      "category_label": "Time-Limited Quest",
+      "order": 10891,
+      "difficulty": "normal",
+      "min_level": 7,
+      "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-maze-collection-witchy-mischief-maze.png",
+      "background_asset": "tournament_backgrounds/gr-dragon-tournament-maze-collection-witchy-mischief-maze.png",
+      "start_ts": 1793876400,
+      "end_ts": 1794826800,
+      "start_iso": "2026-11-05T11:00:00Z",
+      "end_iso": "2026-11-16T11:00:00Z",
+      "status": "upcoming",
+      "stage_count": 10,
+      "stages": [
+        {
+          "stage": 1,
+          "match_id": 10891001,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3227,
+              "name": "High Venomfang Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3227_dragon_highvenomfang_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3227_dragon_highvenomfang_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3227_dragon_highvenomfang_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3227_dragon_highvenomfang_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3227
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 2885,
+              "name": "Time Patrol Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2885
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 1758,
+              "name": "High Comet Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1758_dragon_highcomet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1758_dragon_highcomet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1758_dragon_highcomet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1758_dragon_highcomet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1758
+              },
+              "level": 12,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 21600,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 25,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 25
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "match_id": 10891002,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2553,
+              "name": "High Earthen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2553
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 3170,
+              "name": "Seabed Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3170_dragon_seabed_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3170_dragon_seabed_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3170_dragon_seabed_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3170_dragon_seabed_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3170
+              },
+              "level": 12,
+              "star_requirement": null
+            },
+            {
+              "id": 3232,
+              "name": "High Hallows Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3232_dragon_highhallows_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3232_dragon_highhallows_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3232_dragon_highhallows_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3232_dragon_highhallows_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3232
+              },
+              "level": 12,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 21600,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 25,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 25
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "match_id": 10891003,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 1774,
+              "name": "High Spirits Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1774_dragon_spirits_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1774_dragon_spirits_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1774_dragon_spirits_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1774_dragon_spirits_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1774
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2943,
+              "name": "Lanternfinder Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2943_dragon_lanternfinder_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2943_dragon_lanternfinder_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2943_dragon_lanternfinder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2943_dragon_lanternfinder_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2943
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2819,
+              "name": "Focus Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2819_dragon_focuskarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2819_dragon_focuskarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2819_dragon_focuskarma_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2819_dragon_focuskarma_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2819
+              },
+              "level": 14,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 5,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "permanent_gacha.legendary": 5
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "match_id": 10891004,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3287,
+              "name": "High Blackvoid Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3287_dragon_highblackvoid_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3287_dragon_highblackvoid_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3287_dragon_highblackvoid_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3287_dragon_highblackvoid_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3287
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 2098,
+              "name": "Barbarian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2098
+              },
+              "level": 14,
+              "star_requirement": null
+            },
+            {
+              "id": 3283,
+              "name": "High Anarchaos Evader Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3283_dragon_highanarchaosevader_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3283_dragon_highanarchaosevader_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3283_dragon_highanarchaosevader_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3283_dragon_highanarchaosevader_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3283
+              },
+              "level": 14,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 5,
+          "match_id": 10891005,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2491,
+              "name": "Xolotl Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2491
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 3045,
+              "name": "High Destiny Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3045_dragon_highdestiny_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3045_dragon_highdestiny_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3045_dragon_highdestiny_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3045_dragon_highdestiny_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3045
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 1999,
+              "name": "High Zephyr Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1999_dragon_highzephyr_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1999_dragon_highzephyr_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1999_dragon_highzephyr_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1999_dragon_highzephyr_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1999
+              },
+              "level": 15,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 6,
+          "match_id": 10891006,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3438,
+              "name": "High Risen Ice Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3438_dragon_high_risen_ice_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3438_dragon_high_risen_ice_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3438_dragon_high_risen_ice_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3438_dragon_high_risen_ice_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3438
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 3106,
+              "name": "Downfall Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3106_dragon_downfall_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3106_dragon_downfall_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3106_dragon_downfall_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3106_dragon_downfall_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3106
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 2423,
+              "name": "High Virago Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2423_dragon_highvirago_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2423_dragon_highvirago_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2423_dragon_highvirago_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2423_dragon_highvirago_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2423
+              },
+              "level": 15,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 7,
+          "match_id": 10891007,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3366,
+              "name": "High Fungus Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3366_dragon_highfungus_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3366_dragon_highfungus_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3366_dragon_highfungus_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3366_dragon_highfungus_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3366
+              },
+              "level": 16,
+              "star_requirement": null
+            },
+            {
+              "id": 3322,
+              "name": "High Zero Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3322_dragon_highzero_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3322_dragon_highzero_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3322_dragon_highzero_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3322_dragon_highzero_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3322
+              },
+              "level": 16,
+              "star_requirement": null
+            },
+            {
+              "id": 3357,
+              "name": "High Thirteen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3357_dragon_highthirteen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3357_dragon_highthirteen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3357_dragon_highthirteen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3357_dragon_highthirteen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3357
+              },
+              "level": 16,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 8,
+          "match_id": 10891008,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3000,
+              "name": "Guardian Angel Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3000_dragon_guardianangel_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3000_dragon_guardianangel_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3000
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3324,
+              "name": "Azure Cold Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3324_dragon_azurecold_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3324_dragon_azurecold_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3324_dragon_azurecold_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3324_dragon_azurecold_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3324
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2901,
+              "name": "High Corrupted Time Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2901_dragon_highcorruptedtime_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2901_dragon_highcorruptedtime_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2901_dragon_highcorruptedtime_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2901_dragon_highcorruptedtime_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2901
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "sticker_pack",
+              "size": "m",
+              "name": "Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "m"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "album_pack.m": 1
+            }
+          ]
+        },
+        {
+          "stage": 9,
+          "match_id": 10891009,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2937,
+              "name": "Tentacularian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2937
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2411,
+              "name": "High Frozen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2411_dragon_highfrozen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2411_dragon_highfrozen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2411_dragon_highfrozen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2411_dragon_highfrozen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2411
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3331,
+              "name": "High Shadow Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3331_dragon_highshadow_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3331_dragon_highshadow_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3331_dragon_highshadow_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3331_dragon_highshadow_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3331
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 28800,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "event_points",
+              "key": "ep",
+              "name": "Event Points",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "ep": 50
+            }
+          ]
+        },
+        {
+          "stage": 10,
+          "match_id": 10891010,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2562,
+              "name": "Osiris God Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2562_dragon_osirisgod_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2562_dragon_osirisgod_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2562
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 2101,
+              "name": "High Reverie Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2101_dragon_highreverie_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2101_dragon_highreverie_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2101_dragon_highreverie_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2101_dragon_highreverie_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2101
+              },
+              "level": 18,
+              "star_requirement": null
+            },
+            {
+              "id": 3406,
+              "name": "Villainess Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3406_dragon_villainess_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3406_dragon_villainess_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3406_dragon_villainess_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3406_dragon_villainess_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3406
+              },
+              "level": 18,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 36000,
+          "speedup_cost_hour": 5,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "permanent_gacha.legendary": 10
             }
           ]
         }

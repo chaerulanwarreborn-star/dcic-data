@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T10:46:54.770579Z",
+  "generated_at": "2026-10-15T12:01:03.005254Z",
   "source_file": "game_config.json",
-  "event_count": 80,
+  "event_count": 82,
   "events": [
     {
       "key": "event_island:1",
@@ -3360,6 +3360,183 @@
       "building_id": 10921,
       "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/magical_autumn_forest_island.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_magical_autumn_forest.zip"
+    },
+    {
+      "key": "tower_island:323",
+      "id": 323,
+      "type": "tower_island",
+      "variant": "tower_island",
+      "type_label": "Tower Island",
+      "title": "Halloween Tower Island",
+      "subtitle": "",
+      "start_ts": 1793617200,
+      "end_ts": 1793876400,
+      "start_iso": "2026-11-02T11:00:00Z",
+      "end_iso": "2026-11-05T11:00:00Z",
+      "guide": "/p/tower-island-guide.html?id=323",
+      "schedule_source": "game_config",
+      "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 2979,
+          "name": "Cactispine Dragon",
+          "rarity": "L",
+          "img_name": "2979_dragon_cactispine",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png"
+        },
+        {
+          "id": 3009,
+          "name": "Pufferfish Dragon",
+          "rarity": "L",
+          "img_name": "3009_dragon_pufferfish",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3009_dragon_pufferfish_3.png"
+        },
+        {
+          "id": 1781,
+          "name": "Voltaix Dragon",
+          "rarity": "E",
+          "img_name": "1781_dragon_voltaix",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png"
+        },
+        {
+          "id": 2673,
+          "name": "Elder Mountain Dragon",
+          "rarity": "V",
+          "img_name": "2673_dragon_eldermountain",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png"
+        },
+        {
+          "id": 2183,
+          "name": "Oil Paint Dragon",
+          "rarity": "R",
+          "img_name": "2183_dragon_oilpaint",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2183_dragon_oilpaint_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 10645,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10645_darklibrary_island@2x.png",
+      "asset_zip": "/mobile/ui/tower_islands/ti_halloween.zip"
+    },
+    {
+      "key": "maze_island:324",
+      "id": 324,
+      "type": "maze_island",
+      "variant": "maze_island",
+      "type_label": "Maze Island",
+      "title": "Witchy Mischief - Maze Island 2026",
+      "subtitle": "",
+      "start_ts": 1793876400,
+      "end_ts": 1794826800,
+      "start_iso": "2026-11-05T11:00:00Z",
+      "end_iso": "2026-11-16T11:00:00Z",
+      "guide": "/p/maze-island-guide.html?id=324",
+      "schedule_source": "game_config",
+      "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 2988,
+          "name": "Anaconductor Dragon",
+          "rarity": "L",
+          "img_name": "2988_dragon_anaconductor",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2988_dragon_anaconductor_3.png"
+        },
+        {
+          "id": 2990,
+          "name": "Gatekeeper Dragon",
+          "rarity": "L",
+          "img_name": "2990_dragon_gatekeeper",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2990_dragon_gatekeeper_3.png"
+        },
+        {
+          "id": 2993,
+          "name": "Tree of Life Dragon",
+          "rarity": "L",
+          "img_name": "2993_dragon_treeoflife",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2993_dragon_treeoflife_3.png"
+        },
+        {
+          "id": 3001,
+          "name": "Seraphim Dragon",
+          "rarity": "L",
+          "img_name": "3001_dragon_seraphim",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3001_dragon_seraphim_3.png"
+        },
+        {
+          "id": 3015,
+          "name": "Devil Dragon",
+          "rarity": "L",
+          "img_name": "3015_dragon_devil",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3015_dragon_devil_3.png"
+        },
+        {
+          "id": 2196,
+          "name": "Mad Scientist Dragon",
+          "rarity": "E",
+          "img_name": "2196_dragon_madscientist",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2196_dragon_madscientist_3.png"
+        },
+        {
+          "id": 2227,
+          "name": "Katera Dragon",
+          "rarity": "E",
+          "img_name": "2227_dragon_katera",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2227_dragon_katera_3.png"
+        },
+        {
+          "id": 2248,
+          "name": "Double Primal Dragon",
+          "rarity": "E",
+          "img_name": "2248_dragon_doubleprimal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2248_dragon_doubleprimal_3.png"
+        },
+        {
+          "id": 2242,
+          "name": "Lunar Eclipse Dragon",
+          "rarity": "E",
+          "img_name": "2242_dragon_lunareclipse",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2242_dragon_lunareclipse_3.png"
+        },
+        {
+          "id": 2322,
+          "name": "Prowling Dragon",
+          "rarity": "E",
+          "img_name": "2322_dragon_prowling",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2322_dragon_prowling_3.png"
+        },
+        {
+          "id": 2203,
+          "name": "Vibrant Dragon",
+          "rarity": "V",
+          "img_name": "2203_dragon_vibrant",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2203_dragon_vibrant_3.png"
+        },
+        {
+          "id": 2444,
+          "name": "Tri-Feather Dragon",
+          "rarity": "V",
+          "img_name": "2444_dragon_feather_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2444_dragon_feather_b_3.png"
+        },
+        {
+          "id": 1523,
+          "name": "Crest Dragon",
+          "rarity": "R",
+          "img_name": "1523_dragon_crest_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1523_dragon_crest_b_3.png"
+        },
+        {
+          "id": 1070,
+          "name": "Dark Fire Dragon",
+          "rarity": "R",
+          "img_name": "1070_dragon_darkfire_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1070_dragon_darkfire_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 14,
+      "building_id": 10203,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10203_hallomuertos_secondary_island@2x.png",
+      "asset_zip": "/mobile/ui/maze_islands/mi_halloween25.zip"
     }
   ],
   "warnings": [
