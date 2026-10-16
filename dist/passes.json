@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-16T01:34:33.344695Z",
+  "generated_at": "2026-10-16T09:06:19.354423Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -637249,62 +637249,62 @@
       "unlock_system_availability": "arena_pass.20261015",
       "featured_dragons": [
         {
-          "id": 3218,
-          "name": "Reanimation Dragon",
+          "id": 3098,
+          "name": "Mecha Mace Dragon",
           "rarity": "M",
-          "img_name": "3218_dragon_reanimation",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+          "img_name": "3098_dragon_mechamace",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png"
           ],
           "path": "platinum"
         },
         {
-          "id": 2932,
-          "name": "High Treasure Dragon",
+          "id": 1739,
+          "name": "High Tidal Dragon",
           "rarity": "H",
-          "img_name": "2932_dragon_hightreasure",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+          "img_name": "1739_dragon_hightidal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png"
           ],
           "path": "platinum"
         },
         {
-          "id": 2966,
-          "name": "Evozoid Dragon",
+          "id": 2879,
+          "name": "Phaun Dragon",
           "rarity": "L",
-          "img_name": "2966_dragon_evozoid",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2966_dragon_evozoid_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png",
+          "img_name": "2879_dragon_phaun",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2879_dragon_phaun_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png"
           ],
           "path": "golden"
         },
         {
-          "id": 3032,
-          "name": "Puebla Dragon",
+          "id": 3361,
+          "name": "Nyxmare Dragon",
           "rarity": "L",
-          "img_name": "3032_dragon_puebla",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3032_dragon_puebla_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png",
+          "img_name": "3361_dragon_nyxmare",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3361_dragon_nyxmare_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png"
           ],
           "path": "golden"
         },
         {
-          "id": 2875,
-          "name": "Jewelem Dragon",
+          "id": 2325,
+          "name": "Hollowtress Dragon",
           "rarity": "M",
-          "img_name": "2875_dragon_jewelem",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2875_dragon_jewelem_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png",
+          "img_name": "2325_dragon_hollowtress",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2325_dragon_hollowtress_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png"
           ],
           "path": "golden"
         }
@@ -637314,20 +637314,20 @@
         "kind": "dragon",
         "type": "dragon_egg",
         "asset_kind": "dragon",
-        "id": 2932,
-        "dragon_id": 2932,
-        "name": "High Treasure Dragon",
+        "id": 1739,
+        "dragon_id": 1739,
+        "name": "High Tidal Dragon",
         "amount": 1,
-        "img_name_mobile": "2932_dragon_hightreasure",
-        "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+        "img_name_mobile": "1739_dragon_hightidal",
+        "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
         "baby_image_candidates": [
-          "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png"
+          "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png"
         ],
-        "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
-        "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+        "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
+        "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
         "popup": {
           "kind": "dragon",
-          "id": 2932
+          "id": 1739
         },
         "rarity": "H",
         "frame_shape": "round"
@@ -637480,13 +637480,13 @@
                 ],
                 "reward": {
                   "reward_id": 334009,
-                  "name": "Reanimation Dragon",
+                  "name": "Mecha Mace Dragon",
                   "amount": 1,
                   "kind": "dragon",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png",
                   "popup": {
                     "kind": "dragon",
-                    "id": 3218
+                    "id": 3098
                   },
                   "rarity": "",
                   "items": [
@@ -637494,26 +637494,26 @@
                       "kind": "dragon",
                       "type": "dragon_egg",
                       "asset_kind": "dragon",
-                      "id": 3218,
-                      "dragon_id": 3218,
-                      "name": "Reanimation Dragon",
+                      "id": 3098,
+                      "dragon_id": 3098,
+                      "name": "Mecha Mace Dragon",
                       "amount": 1,
-                      "img_name_mobile": "3218_dragon_reanimation",
-                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+                      "img_name_mobile": "3098_dragon_mechamace",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png",
                       "baby_image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png"
                       ],
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3218_dragon_reanimation_1@2x.png",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png",
                       "popup": {
                         "kind": "dragon",
-                        "id": 3218
+                        "id": 3098
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "egg": 3218
+                      "egg": 3098
                     }
                   ]
                 },
@@ -637646,13 +637646,13 @@
                 ],
                 "reward": {
                   "reward_id": 334019,
-                  "name": "Reanimation Dragon Orbs",
+                  "name": "Mecha Mace Dragon Orbs",
                   "amount": 100,
                   "kind": "dragon_orbs",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                   "popup": {
                     "kind": "dragon_orbs",
-                    "id": 3218
+                    "id": 3098
                   },
                   "rarity": "",
                   "items": [
@@ -637660,21 +637660,21 @@
                       "kind": "dragon_orbs",
                       "type": "dragon_orbs",
                       "asset_kind": "dragon_orbs",
-                      "id": 3218,
-                      "dragon_id": 3218,
-                      "name": "Reanimation Dragon Orbs",
+                      "id": 3098,
+                      "dragon_id": 3098,
+                      "name": "Mecha Mace Dragon Orbs",
                       "amount": 100,
                       "dragon_rarity": "M",
-                      "img_name_mobile": "3218_dragon_reanimation",
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                      "img_name_mobile": "3098_dragon_mechamace",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                       "thumbnail_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png"
                       ],
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                       "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
                       "popup": {
                         "kind": "dragon_orbs",
-                        "id": 3218
+                        "id": 3098
                       }
                     }
                   ],
@@ -637682,8 +637682,8 @@
                     {
                       "seeds": [
                         {
-                          "id": 3218,
-                          "amount": 100
+                          "amount": 100,
+                          "id": 3098
                         }
                       ]
                     }
@@ -637708,13 +637708,13 @@
                 ],
                 "reward": {
                   "reward_id": 334023,
-                  "name": "Reanimation Dragon Orbs",
+                  "name": "Mecha Mace Dragon Orbs",
                   "amount": 120,
                   "kind": "dragon_orbs",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                   "popup": {
                     "kind": "dragon_orbs",
-                    "id": 3218
+                    "id": 3098
                   },
                   "rarity": "",
                   "items": [
@@ -637722,21 +637722,21 @@
                       "kind": "dragon_orbs",
                       "type": "dragon_orbs",
                       "asset_kind": "dragon_orbs",
-                      "id": 3218,
-                      "dragon_id": 3218,
-                      "name": "Reanimation Dragon Orbs",
+                      "id": 3098,
+                      "dragon_id": 3098,
+                      "name": "Mecha Mace Dragon Orbs",
                       "amount": 120,
                       "dragon_rarity": "M",
-                      "img_name_mobile": "3218_dragon_reanimation",
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                      "img_name_mobile": "3098_dragon_mechamace",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                       "thumbnail_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png"
                       ],
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3218_dragon_reanimation_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
                       "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
                       "popup": {
                         "kind": "dragon_orbs",
-                        "id": 3218
+                        "id": 3098
                       }
                     }
                   ],
@@ -637744,8 +637744,8 @@
                     {
                       "seeds": [
                         {
-                          "id": 3218,
-                          "amount": 120
+                          "amount": 120,
+                          "id": 3098
                         }
                       ]
                     }
@@ -637770,13 +637770,13 @@
                 ],
                 "reward": {
                   "reward_id": 334027,
-                  "name": "High Treasure Dragon Orbs",
+                  "name": "High Tidal Dragon Orbs",
                   "amount": 50,
                   "kind": "dragon_orbs",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                   "popup": {
                     "kind": "dragon_orbs",
-                    "id": 2932
+                    "id": 1739
                   },
                   "rarity": "",
                   "items": [
@@ -637784,21 +637784,21 @@
                       "kind": "dragon_orbs",
                       "type": "dragon_orbs",
                       "asset_kind": "dragon_orbs",
-                      "id": 2932,
-                      "dragon_id": 2932,
-                      "name": "High Treasure Dragon Orbs",
+                      "id": 1739,
+                      "dragon_id": 1739,
+                      "name": "High Tidal Dragon Orbs",
                       "amount": 50,
                       "dragon_rarity": "H",
-                      "img_name_mobile": "2932_dragon_hightreasure",
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                      "img_name_mobile": "1739_dragon_hightidal",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                       "thumbnail_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png"
                       ],
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                       "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
                       "popup": {
                         "kind": "dragon_orbs",
-                        "id": 2932
+                        "id": 1739
                       }
                     }
                   ],
@@ -637806,8 +637806,8 @@
                     {
                       "seeds": [
                         {
-                          "id": 2932,
-                          "amount": 50
+                          "amount": 50,
+                          "id": 1739
                         }
                       ]
                     }
@@ -637832,13 +637832,13 @@
                 ],
                 "reward": {
                   "reward_id": 334031,
-                  "name": "High Treasure Dragon Orbs",
+                  "name": "High Tidal Dragon Orbs",
                   "amount": 70,
                   "kind": "dragon_orbs",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                   "popup": {
                     "kind": "dragon_orbs",
-                    "id": 2932
+                    "id": 1739
                   },
                   "rarity": "",
                   "items": [
@@ -637846,21 +637846,21 @@
                       "kind": "dragon_orbs",
                       "type": "dragon_orbs",
                       "asset_kind": "dragon_orbs",
-                      "id": 2932,
-                      "dragon_id": 2932,
-                      "name": "High Treasure Dragon Orbs",
+                      "id": 1739,
+                      "dragon_id": 1739,
+                      "name": "High Tidal Dragon Orbs",
                       "amount": 70,
                       "dragon_rarity": "H",
-                      "img_name_mobile": "2932_dragon_hightreasure",
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                      "img_name_mobile": "1739_dragon_hightidal",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                       "thumbnail_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png"
                       ],
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
                       "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
                       "popup": {
                         "kind": "dragon_orbs",
-                        "id": 2932
+                        "id": 1739
                       }
                     }
                   ],
@@ -637868,8 +637868,8 @@
                     {
                       "seeds": [
                         {
-                          "id": 2932,
-                          "amount": 70
+                          "amount": 70,
+                          "id": 1739
                         }
                       ]
                     }
@@ -637894,13 +637894,13 @@
                 ],
                 "reward": {
                   "reward_id": 334035,
-                  "name": "High Treasure Dragon",
+                  "name": "High Tidal Dragon",
                   "amount": 1,
                   "kind": "dragon",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
                   "popup": {
                     "kind": "dragon",
-                    "id": 2932
+                    "id": 1739
                   },
                   "rarity": "",
                   "items": [
@@ -637908,26 +637908,26 @@
                       "kind": "dragon",
                       "type": "dragon_egg",
                       "asset_kind": "dragon",
-                      "id": 2932,
-                      "dragon_id": 2932,
-                      "name": "High Treasure Dragon",
+                      "id": 1739,
+                      "dragon_id": 1739,
+                      "name": "High Tidal Dragon",
                       "amount": 1,
-                      "img_name_mobile": "2932_dragon_hightreasure",
-                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+                      "img_name_mobile": "1739_dragon_hightidal",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
                       "baby_image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png"
                       ],
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2932_dragon_hightreasure_3.png",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2932_dragon_hightreasure_1@2x.png",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1739_dragon_hightidal_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1739_dragon_hightidal_1@2x.png",
                       "popup": {
                         "kind": "dragon",
-                        "id": 2932
+                        "id": 1739
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "egg": 2932
+                      "egg": 1739
                     }
                   ]
                 },
@@ -638024,13 +638024,13 @@
                 ],
                 "reward": {
                   "reward_id": 334007,
-                  "name": "Evozoid Dragon",
+                  "name": "Phaun Dragon",
                   "amount": 1,
                   "kind": "dragon",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png",
                   "popup": {
                     "kind": "dragon",
-                    "id": 2966
+                    "id": 2879
                   },
                   "rarity": "",
                   "items": [
@@ -638038,26 +638038,26 @@
                       "kind": "dragon",
                       "type": "dragon_egg",
                       "asset_kind": "dragon",
-                      "id": 2966,
-                      "dragon_id": 2966,
-                      "name": "Evozoid Dragon",
+                      "id": 2879,
+                      "dragon_id": 2879,
+                      "name": "Phaun Dragon",
                       "amount": 1,
-                      "img_name_mobile": "2966_dragon_evozoid",
-                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png",
+                      "img_name_mobile": "2879_dragon_phaun",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png",
                       "baby_image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png"
                       ],
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2966_dragon_evozoid_3.png",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2966_dragon_evozoid_1@2x.png",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2879_dragon_phaun_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2879_dragon_phaun_1@2x.png",
                       "popup": {
                         "kind": "dragon",
-                        "id": 2966
+                        "id": 2879
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "egg": 2966
+                      "egg": 2879
                     }
                   ]
                 },
@@ -638191,13 +638191,13 @@
                 ],
                 "reward": {
                   "reward_id": 334021,
-                  "name": "Puebla Dragon",
+                  "name": "Nyxmare Dragon",
                   "amount": 1,
                   "kind": "dragon",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png",
                   "popup": {
                     "kind": "dragon",
-                    "id": 3032
+                    "id": 3361
                   },
                   "rarity": "",
                   "items": [
@@ -638205,26 +638205,26 @@
                       "kind": "dragon",
                       "type": "dragon_egg",
                       "asset_kind": "dragon",
-                      "id": 3032,
-                      "dragon_id": 3032,
-                      "name": "Puebla Dragon",
+                      "id": 3361,
+                      "dragon_id": 3361,
+                      "name": "Nyxmare Dragon",
                       "amount": 1,
-                      "img_name_mobile": "3032_dragon_puebla",
-                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png",
+                      "img_name_mobile": "3361_dragon_nyxmare",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png",
                       "baby_image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png"
                       ],
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3032_dragon_puebla_3.png",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3032_dragon_puebla_1@2x.png",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3361_dragon_nyxmare_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3361_dragon_nyxmare_1@2x.png",
                       "popup": {
                         "kind": "dragon",
-                        "id": 3032
+                        "id": 3361
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "egg": 3032
+                      "egg": 3361
                     }
                   ]
                 },
@@ -638402,13 +638402,13 @@
                 ],
                 "reward": {
                   "reward_id": 334037,
-                  "name": "Jewelem Dragon",
+                  "name": "Hollowtress Dragon",
                   "amount": 1,
                   "kind": "dragon",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png",
                   "popup": {
                     "kind": "dragon",
-                    "id": 2875
+                    "id": 2325
                   },
                   "rarity": "",
                   "items": [
@@ -638416,26 +638416,26 @@
                       "kind": "dragon",
                       "type": "dragon_egg",
                       "asset_kind": "dragon",
-                      "id": 2875,
-                      "dragon_id": 2875,
-                      "name": "Jewelem Dragon",
+                      "id": 2325,
+                      "dragon_id": 2325,
+                      "name": "Hollowtress Dragon",
                       "amount": 1,
-                      "img_name_mobile": "2875_dragon_jewelem",
-                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png",
+                      "img_name_mobile": "2325_dragon_hollowtress",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png",
                       "baby_image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png"
                       ],
-                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2875_dragon_jewelem_3.png",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2875_dragon_jewelem_1@2x.png",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2325_dragon_hollowtress_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2325_dragon_hollowtress_1@2x.png",
                       "popup": {
                         "kind": "dragon",
-                        "id": 2875
+                        "id": 2325
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "egg": 2875
+                      "egg": 2325
                     }
                   ]
                 },
