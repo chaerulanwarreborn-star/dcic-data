@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T01:13:55Z",
+  "generated_at": "2026-10-16T01:35:05Z",
   "quest_count": 177,
   "permanent_count": 45,
   "event_count": 132,
@@ -103419,8 +103419,8 @@
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3169_dragon_miracle_3.png",
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3169_dragon_miracle_3.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3169_dragon_miracle_3@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3169_dragon_miracle_1@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3169_dragon_miracle_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3169_dragon_miracle_b_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -178910,9 +178910,10 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -193566,9 +193567,10 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -255157,9 +255159,10 @@
               "id": 9999,
               "name": "Placeholder VIP",
               "rarity": "M",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2191_dragon_default_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_0000_dragon_placeholder_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
