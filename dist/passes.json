@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-16T00:50:05.885444Z",
+  "generated_at": "2026-10-16T01:13:24.881350Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -4780,11 +4780,11 @@
           "id": 2482,
           "name": "Positive Dragon",
           "rarity": "L",
-          "img_name": "2482_dragon_positive",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+          "img_name": "2482_dragon_positive_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_b_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png"
           ],
           "path": "premium"
         }
@@ -5587,7 +5587,7 @@
               "name": "Positive Dragon",
               "amount": 1,
               "kind": "dragon",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
               "popup": {
                 "kind": "dragon",
                 "id": 2482
@@ -5602,13 +5602,13 @@
                   "dragon_id": 2482,
                   "name": "Positive Dragon",
                   "amount": 1,
-                  "img_name_mobile": "2482_dragon_positive",
-                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+                  "img_name_mobile": "2482_dragon_positive_b",
+                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
                   "baby_image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png"
                   ],
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_3.png",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_b_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
                   "popup": {
                     "kind": "dragon",
                     "id": 2482
@@ -10417,11 +10417,11 @@
           "id": 2482,
           "name": "Positive Dragon",
           "rarity": "L",
-          "img_name": "2482_dragon_positive",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+          "img_name": "2482_dragon_positive_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_b_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png"
           ],
           "path": "premium"
         }
@@ -11538,7 +11538,7 @@
               "name": "Positive Dragon",
               "amount": 1,
               "kind": "dragon",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
               "popup": {
                 "kind": "dragon",
                 "id": 2482
@@ -11553,13 +11553,13 @@
                   "dragon_id": 2482,
                   "name": "Positive Dragon",
                   "amount": 1,
-                  "img_name_mobile": "2482_dragon_positive",
-                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+                  "img_name_mobile": "2482_dragon_positive_b",
+                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
                   "baby_image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png"
                   ],
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_3.png",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_1@2x.png",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2482_dragon_positive_b_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2482_dragon_positive_b_1@2x.png",
                   "popup": {
                     "kind": "dragon",
                     "id": 2482
@@ -310329,11 +310329,11 @@
           "id": 3278,
           "name": "Skeletal Extractor Dragon",
           "rarity": "L",
-          "img_name": "3278_dragon_skeletalextractor",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png",
+          "img_name": "3278_dragon_skeletalextractor_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png"
           ],
           "path": "premium"
         }
@@ -311072,7 +311072,7 @@
               "name": "Skeletal Extractor Dragon",
               "amount": 1,
               "kind": "dragon",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png",
               "popup": {
                 "kind": "dragon",
                 "id": 3278
@@ -311087,13 +311087,13 @@
                   "dragon_id": 3278,
                   "name": "Skeletal Extractor Dragon",
                   "amount": 1,
-                  "img_name_mobile": "3278_dragon_skeletalextractor",
-                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png",
+                  "img_name_mobile": "3278_dragon_skeletalextractor_b",
+                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png",
                   "baby_image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png"
                   ],
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_1@2x.png",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3278_dragon_skeletalextractor_b_1@2x.png",
                   "popup": {
                     "kind": "dragon",
                     "id": 3278
@@ -311691,7 +311691,7 @@
               "name": "Skeletal Extractor Dragon Orbs",
               "amount": 120,
               "kind": "dragon_orbs",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
               "popup": {
                 "kind": "dragon_orbs",
                 "id": 3278
@@ -311707,12 +311707,12 @@
                   "name": "Skeletal Extractor Dragon Orbs",
                   "amount": 120,
                   "dragon_rarity": "L",
-                  "img_name_mobile": "3278_dragon_skeletalextractor",
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+                  "img_name_mobile": "3278_dragon_skeletalextractor_b",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
                   "thumbnail_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png"
                   ],
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
                   "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-l-mid-shadow.png",
                   "popup": {
                     "kind": "dragon_orbs",
@@ -312439,7 +312439,7 @@
               "name": "Skeletal Extractor Dragon Orbs",
               "amount": 200,
               "kind": "dragon_orbs",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
               "popup": {
                 "kind": "dragon_orbs",
                 "id": 3278
@@ -312455,12 +312455,12 @@
                   "name": "Skeletal Extractor Dragon Orbs",
                   "amount": 200,
                   "dragon_rarity": "L",
-                  "img_name_mobile": "3278_dragon_skeletalextractor",
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+                  "img_name_mobile": "3278_dragon_skeletalextractor_b",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
                   "thumbnail_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png"
                   ],
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3278_dragon_skeletalextractor_b_3.png",
                   "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-l-mid-shadow.png",
                   "popup": {
                     "kind": "dragon_orbs",
@@ -348953,11 +348953,11 @@
           "id": 3245,
           "name": "Serpent Extractor Dragon",
           "rarity": "L",
-          "img_name": "3245_dragon_serpentextractor",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
-          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png",
+          "img_name": "3245_dragon_serpentextractor_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png",
           "baby_image_candidates": [
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png"
           ],
           "path": "premium"
         }
@@ -349715,7 +349715,7 @@
               "name": "Serpent Extractor Dragon",
               "amount": 1,
               "kind": "dragon",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png",
               "popup": {
                 "kind": "dragon",
                 "id": 3245
@@ -349730,13 +349730,13 @@
                   "dragon_id": 3245,
                   "name": "Serpent Extractor Dragon",
                   "amount": 1,
-                  "img_name_mobile": "3245_dragon_serpentextractor",
-                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png",
+                  "img_name_mobile": "3245_dragon_serpentextractor_b",
+                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png",
                   "baby_image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png"
                   ],
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_1@2x.png",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3245_dragon_serpentextractor_b_1@2x.png",
                   "popup": {
                     "kind": "dragon",
                     "id": 3245
@@ -350308,7 +350308,7 @@
               "name": "Serpent Extractor Dragon Orbs",
               "amount": 120,
               "kind": "dragon_orbs",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
               "popup": {
                 "kind": "dragon_orbs",
                 "id": 3245
@@ -350324,12 +350324,12 @@
                   "name": "Serpent Extractor Dragon Orbs",
                   "amount": 120,
                   "dragon_rarity": "L",
-                  "img_name_mobile": "3245_dragon_serpentextractor",
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+                  "img_name_mobile": "3245_dragon_serpentextractor_b",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
                   "thumbnail_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png"
                   ],
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
                   "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-l-mid-shadow.png",
                   "popup": {
                     "kind": "dragon_orbs",
@@ -351056,7 +351056,7 @@
               "name": "Serpent Extractor Dragon Orbs",
               "amount": 200,
               "kind": "dragon_orbs",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
               "popup": {
                 "kind": "dragon_orbs",
                 "id": 3245
@@ -351072,12 +351072,12 @@
                   "name": "Serpent Extractor Dragon Orbs",
                   "amount": 200,
                   "dragon_rarity": "L",
-                  "img_name_mobile": "3245_dragon_serpentextractor",
-                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+                  "img_name_mobile": "3245_dragon_serpentextractor_b",
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
                   "thumbnail_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png"
                   ],
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3245_dragon_serpentextractor_b_3.png",
                   "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-l-mid-shadow.png",
                   "popup": {
                     "kind": "dragon_orbs",
