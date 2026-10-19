@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-19T08:35:54Z",
-  "count": 598,
-  "linked_count": 308,
+  "generated_at": "2026-10-19T10:47:01Z",
+  "count": 599,
+  "linked_count": 310,
   "skills": [
     {
       "id": 1,
@@ -22313,8 +22313,19 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 0,
-      "linked_dragons": []
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3506,
+          "dragon_name": "High Calavera Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+          "attack_id": 0,
+          "attack_name": "Doommark",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
     },
     {
       "id": 404,
@@ -30488,6 +30499,75 @@
       "element_names": [],
       "usage_count": 0,
       "linked_dragons": []
+    },
+    {
+      "id": 587,
+      "name": "Silence",
+      "description": "Prevents opponents from using skills",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 400,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 1
+          }
+        },
+        {
+          "id": 619,
+          "type": "SILENCE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "vfx": "silenced_shield_3"
+          }
+        }
+      ],
+      "effect_types": [
+        "DAMAGE",
+        "SILENCE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "bt"
+      ],
+      "element_names": [
+        "Beauty"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3506,
+          "dragon_name": "High Calavera Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+          "attack_id": 1619,
+          "attack_name": "Silence",
+          "move_type": "basic",
+          "element": "bt",
+          "ui_damage": 2050
+        },
+        {
+          "dragon_id": 3506,
+          "dragon_name": "High Calavera Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+          "attack_id": 1619,
+          "attack_name": "Silence",
+          "move_type": "trained",
+          "element": "bt",
+          "ui_damage": 2050
+        }
+      ]
     },
     {
       "id": 921,

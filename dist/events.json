@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-19T08:35:17.444214Z",
+  "generated_at": "2026-10-19T10:46:25.506744Z",
   "source_file": "game_config.json",
-  "event_count": 82,
+  "event_count": 86,
   "events": [
     {
       "key": "event_island:1",
@@ -3360,6 +3360,235 @@
       "building_id": 10921,
       "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/islands/magical_autumn_forest_island.png",
       "asset_zip": "/mobile/ui/grid_islands/gi_magical_autumn_forest.zip"
+    },
+    {
+      "key": "tower_island:324",
+      "id": 324,
+      "type": "tower_island",
+      "variant": "tower_island",
+      "type_label": "Tower Island",
+      "title": "Halloween Tower Island",
+      "subtitle": "",
+      "start_ts": 1792663200,
+      "end_ts": 1792925940,
+      "start_iso": "2026-10-22T10:00:00Z",
+      "end_iso": "2026-10-25T10:59:00Z",
+      "guide": "/p/tower-island-guide.html?id=324",
+      "schedule_source": "game_config",
+      "source_section": "tower_island",
+      "featured_dragons": [
+        {
+          "id": 1541,
+          "name": "Sentence Dragon",
+          "rarity": "L",
+          "img_name": "1541_dragon_sentence",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png"
+        },
+        {
+          "id": 3409,
+          "name": "Bandaged Dragon",
+          "rarity": "L",
+          "img_name": "3409_dragon_bandaged",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3409_dragon_bandaged_3.png"
+        },
+        {
+          "id": 1357,
+          "name": "Zodiac Scorpio Dragon",
+          "rarity": "E",
+          "img_name": "1357_dragon_scorpio",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png"
+        },
+        {
+          "id": 1190,
+          "name": "Tesla Dragon",
+          "rarity": "V",
+          "img_name": "1190_dragon_tesla_c",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png"
+        },
+        {
+          "id": 1086,
+          "name": "Bat Dragon",
+          "rarity": "R",
+          "img_name": "1086_dragon_bat_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 12109,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10645_darklibrary_island@2x.png",
+      "asset_zip": "/mobile/ui/tower_islands/ti_halloween.zip"
+    },
+    {
+      "key": "heroic_race:322",
+      "id": 322,
+      "type": "heroic_race",
+      "variant": "heroic_race",
+      "type_label": "Heroic Race",
+      "title": "High Archwitch Heroic Race",
+      "subtitle": "",
+      "start_ts": 1792663200,
+      "end_ts": 1793617140,
+      "start_iso": "2026-10-22T10:00:00Z",
+      "end_iso": "2026-11-02T10:59:00Z",
+      "guide": "/p/heroic-race-guide.html?id=322",
+      "schedule_source": "game_config",
+      "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 3505,
+          "name": "High Archwitch Dragon",
+          "rarity": "H",
+          "img_name": "3505_dragon_higharchwitch",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3505_dragon_higharchwitch_3.png"
+        },
+        {
+          "id": 3208,
+          "name": "Asteroid Dragon",
+          "rarity": "L",
+          "img_name": "3208_dragon_asteroid",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3208_dragon_asteroid_3.png"
+        },
+        {
+          "id": 2207,
+          "name": "Overshadow Dragon",
+          "rarity": "E",
+          "img_name": "2207_dragon_overshadow",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2207_dragon_overshadow_3.png"
+        },
+        {
+          "id": 1643,
+          "name": "Intraterrestrial Dragon",
+          "rarity": "V",
+          "img_name": "1643_dragon_intraterrestrial",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1643_dragon_intraterrestrial_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
+      "building_id": 837,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
+      "featured_dragon_id": 3505,
+      "asset_zip": "/mobile/ui/heroicraces_islands/hr_halloween26.zip"
+    },
+    {
+      "key": "maze_island:325",
+      "id": 325,
+      "type": "maze_island",
+      "variant": "maze_island",
+      "type_label": "Maze Island",
+      "title": "Flying Broomsticks Maze Island",
+      "subtitle": "",
+      "start_ts": 1792926000,
+      "end_ts": 1793271540,
+      "start_iso": "2026-10-25T11:00:00Z",
+      "end_iso": "2026-10-29T10:59:00Z",
+      "guide": "/p/maze-island-guide.html?id=325",
+      "schedule_source": "game_config",
+      "source_section": "maze_island",
+      "featured_dragons": [
+        {
+          "id": 2667,
+          "name": "Abominable Dragon",
+          "rarity": "L",
+          "img_name": "2667_dragon_abominable",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2667_dragon_abominable_3.png"
+        },
+        {
+          "id": 3002,
+          "name": "4eva Dragon",
+          "rarity": "L",
+          "img_name": "3002_dragon_4eva",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3002_dragon_4eva_3.png"
+        },
+        {
+          "id": 3407,
+          "name": "Abomination Dragon",
+          "rarity": "L",
+          "img_name": "3407_dragon_abomination",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3407_dragon_abomination_3.png"
+        },
+        {
+          "id": 2156,
+          "name": "Catacombs Dragon",
+          "rarity": "E",
+          "img_name": "2156_dragon_catacombs",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2156_dragon_catacombs_3.png"
+        },
+        {
+          "id": 1981,
+          "name": "Swamp Dragon",
+          "rarity": "V",
+          "img_name": "1981_dragon_swamp",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1981_dragon_swamp_3.png"
+        },
+        {
+          "id": 1949,
+          "name": "Shadow Dragon",
+          "rarity": "R",
+          "img_name": "1949_dragon_shadow",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1949_dragon_shadow_3.png"
+        }
+      ],
+      "featured_dragon_count": 6,
+      "building_id": 70214,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10211_halloween_2020_island@2x.png",
+      "asset_zip": "/mobile/ui/maze_islands/mi_halloween25.zip"
+    },
+    {
+      "key": "fog_island:323",
+      "id": 323,
+      "type": "fog_island",
+      "variant": "fog_island",
+      "type_label": "Fog Island",
+      "title": "Catacombs Fog Island",
+      "subtitle": "",
+      "start_ts": 1793271600,
+      "end_ts": 1793617140,
+      "start_iso": "2026-10-29T11:00:00Z",
+      "end_iso": "2026-11-02T10:59:00Z",
+      "guide": "/p/fog-island-guide.html?id=323",
+      "schedule_source": "game_config",
+      "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 3121,
+          "name": "Reindare Dragon",
+          "rarity": "L",
+          "img_name": "3121_dragon_reindare",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3121_dragon_reindare_3.png"
+        },
+        {
+          "id": 1621,
+          "name": "Voodoo Witcher Dragon",
+          "rarity": "E",
+          "img_name": "34330_voodoo_dragon",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_34330_voodoo_dragon_3.png"
+        },
+        {
+          "id": 1734,
+          "name": "Alien Pet Dragon",
+          "rarity": "V",
+          "img_name": "1734_dragon_alienpet",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1734_dragon_alienpet_3.png"
+        },
+        {
+          "id": 1152,
+          "name": "Bone Dragon",
+          "rarity": "R",
+          "img_name": "1152_dragon_boned_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1152_dragon_boned_b_3.png"
+        },
+        {
+          "id": 1094,
+          "name": "Evil Pumpkin Dragon",
+          "rarity": "C",
+          "img_name": "1094_dragon_pumpkin_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1094_dragon_pumpkin_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 10945,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10721_assassination_island_b@2x.png",
+      "asset_zip": "/mobile/ui/fog_islands/fi_catacombs_d.zip"
     },
     {
       "key": "tower_island:323",

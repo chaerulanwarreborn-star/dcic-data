@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-19T08:35:36Z",
+  "generated_at": "2026-10-19T10:46:42Z",
   "event_count": 192,
   "events": [
     {
@@ -99656,7 +99656,7 @@
       "end_ts": 1792404000,
       "start_iso": "2026-10-16T10:00:00Z",
       "end_iso": "2026-10-19T10:00:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {

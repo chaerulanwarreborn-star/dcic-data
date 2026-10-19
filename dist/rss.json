@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T08:35:53Z",
-  "count": 2190,
+  "generated_at": "2026-10-19T10:47:00Z",
+  "count": 2195,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -8970,6 +8970,27 @@
       "family": "arena_pass"
     },
     {
+      "key": "arena_pass_points.20261029",
+      "name": "arena_pass_points.20261029",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261105",
+      "name": "arena_pass_points.20261105",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261112",
+      "name": "arena_pass_points.20261112",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
       "key": "arena_pass_points.s1",
       "name": "arena_pass_points.s1",
       "type": "currency",
@@ -10328,6 +10349,13 @@
       "family": "heroic_race_pass"
     },
     {
+      "key": "heroic_race_pass_points.20261022",
+      "name": "heroic_race_pass_points.20261022",
+      "type": "currency",
+      "image_url": "",
+      "family": "heroic_race_pass"
+    },
+    {
       "key": "heroic_race_pass_points.s1",
       "name": "heroic_race_pass_points.s1",
       "type": "currency",
@@ -10918,6 +10946,13 @@
     {
       "key": "pet_food_pass_points.20261001",
       "name": "pet_food_pass_points.20261001",
+      "type": "currency",
+      "image_url": "",
+      "family": "pet_food_pass"
+    },
+    {
+      "key": "pet_food_pass_points.20261112",
+      "name": "pet_food_pass_points.20261112",
       "type": "currency",
       "image_url": "",
       "family": "pet_food_pass"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T08:35:44Z",
+  "generated_at": "2026-10-19T10:46:50Z",
   "collections": [
     {
       "id": 3021,
@@ -47045,7 +47045,27 @@
             {
               "position": 19,
               "reward_id": 957,
-              "rewards": []
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 4866,
+                  "name": "Witch Broomstick",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_witchbroomstick@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_witchbroomstick@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_witchbroomstick@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_witchbroomstick@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_witchbroomstick.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 4866,
+                    "type": "generic"
+                  }
+                }
+              ]
             },
             {
               "position": 20,
