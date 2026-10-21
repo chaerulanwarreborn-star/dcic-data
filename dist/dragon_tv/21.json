@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:02:43Z",
+  "generated_at": "2026-10-21T08:34:09Z",
   "collections": [
     {
       "id": 4021,
@@ -44160,31 +44160,6 @@
             },
             {
               "position": 19,
-              "reward_id": 442,
-              "rewards": [
-                {
-                  "kind": "chest",
-                  "id": 12189,
-                  "name": "VIP Portal",
-                  "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                  "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b.png",
-                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-                  ],
-                  "popup": {
-                    "kind": "chest",
-                    "id": 12189,
-                    "type": "generic"
-                  }
-                }
-              ]
-            },
-            {
-              "position": 20,
               "reward_id": 880,
               "rewards": [
                 {
@@ -44207,6 +44182,11 @@
                   }
                 }
               ]
+            },
+            {
+              "position": 20,
+              "reward_id": 960,
+              "rewards": []
             }
           ]
         },

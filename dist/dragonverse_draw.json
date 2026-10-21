@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-20T10:02:35Z",
+  "generated_at": "2026-10-21T08:34:03Z",
   "event_count": 192,
   "events": [
     {
@@ -100715,7 +100715,7 @@
       "ui_config_id": 79,
       "news_asset": "news_royaldraw_generic",
       "bundle_name": "dragonverse-draw-royal",
-      "show_event_button_reward_id": 333
+      "show_event_button_reward_id": 344
     },
     {
       "id": 218,
@@ -101783,7 +101783,7 @@
       "ui_config_id": 80,
       "news_asset": "news_royaldraw_generic",
       "bundle_name": "dragonverse-draw-royal",
-      "show_event_button_reward_id": 336
+      "show_event_button_reward_id": 347
     },
     {
       "id": 220,
@@ -102851,7 +102851,7 @@
       "ui_config_id": 81,
       "news_asset": "news_royaldraw_generic",
       "bundle_name": "dragonverse-draw-royal",
-      "show_event_button_reward_id": 339
+      "show_event_button_reward_id": 350
     },
     {
       "id": 222,

@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-20T10:02:47Z",
-  "quest_count": 183,
+  "generated_at": "2026-10-21T08:34:12Z",
+  "quest_count": 184,
   "permanent_count": 45,
-  "event_count": 138,
-  "stage_count": 2768,
+  "event_count": 139,
+  "stage_count": 2788,
   "quests": [
     {
       "id": 138,
@@ -283525,6 +283525,2184 @@
           "raw_reward": [
             {
               "permanent_gacha.legendary": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10892,
+      "name": "False Prophet Quest",
+      "category": "event",
+      "category_label": "Time-Limited Quest",
+      "order": 10892,
+      "difficulty": "normal",
+      "min_level": 7,
+      "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-dragon-false-prophet-skin-1.png",
+      "background_asset": "tournament_backgrounds/gr-dragon-tournament-dragon-false-prophet-skin-1.png",
+      "start_ts": 1792576800,
+      "end_ts": 1793790000,
+      "start_iso": "2026-10-21T10:00:00Z",
+      "end_iso": "2026-11-04T11:00:00Z",
+      "status": "upcoming",
+      "stage_count": 20,
+      "stages": [
+        {
+          "stage": 1,
+          "match_id": 10892001,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 15,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2513,
+              "name": "Prideful Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2513_dragon_pride_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2513_dragon_pride_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2513_dragon_pride_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2513_dragon_pride_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2513
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 2980,
+              "name": "Polipurge Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2980_dragon_polipurge_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2980_dragon_polipurge_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2980_dragon_polipurge_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2980_dragon_polipurge_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2980
+              },
+              "level": 15,
+              "star_requirement": null
+            },
+            {
+              "id": 2514,
+              "name": "Wrathful Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2514_dragon_wrath_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2514_dragon_wrath_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2514_dragon_wrath_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2514_dragon_wrath_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2514
+              },
+              "level": 15,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 15,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 10711,
+              "name": "Lunch Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_348_chest_tomato_m@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_348_chest_tomato_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_348_chest_tomato_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/348_chest_tomato_m@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/348_chest_tomato_m.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10711,
+                "type": "generic"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "chest": 10711
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "match_id": 10892002,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 17,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2802,
+              "name": "Grace Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2802_dragon_gracekarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2802_dragon_gracekarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2802_dragon_gracekarma_c_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2802_dragon_gracekarma_c_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2802
+              },
+              "level": 17,
+              "star_requirement": null
+            },
+            {
+              "id": 2137,
+              "name": "Durian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2137_dragon_durian_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2137_dragon_durian_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2137_dragon_durian_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2137_dragon_durian_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2137
+              },
+              "level": 17,
+              "star_requirement": null
+            },
+            {
+              "id": 2854,
+              "name": "Revival Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2854_dragon_revivalkarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2854_dragon_revivalkarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2854_dragon_revivalkarma_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2854_dragon_revivalkarma_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2854
+              },
+              "level": 17,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 17,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 15
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "match_id": 10892003,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 19,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2819,
+              "name": "Focus Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2819_dragon_focuskarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2819_dragon_focuskarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2819_dragon_focuskarma_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2819_dragon_focuskarma_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2819
+              },
+              "level": 19,
+              "star_requirement": null
+            },
+            {
+              "id": 2603,
+              "name": "Elixir Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2603_dragon_elixir_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2603_dragon_elixir_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2603_dragon_elixir_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2603_dragon_elixir_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2603
+              },
+              "level": 19,
+              "star_requirement": null
+            },
+            {
+              "id": 2937,
+              "name": "Tentacularian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2937
+              },
+              "level": 19,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 19,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "rank_up_coin",
+              "rarity": "mythical",
+              "name": "Mythical Rank Up Coin",
+              "amount": 8,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-mythical.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "rank_up_coin.mythical": 8
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "match_id": 10892004,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 21,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2461,
+              "name": "New Dawn Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2461_dragon_newdawn_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2461_dragon_newdawn_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2461_dragon_newdawn_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2461_dragon_newdawn_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2461
+              },
+              "level": 21,
+              "star_requirement": null
+            },
+            {
+              "id": 2885,
+              "name": "Time Patrol Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2885
+              },
+              "level": 21,
+              "star_requirement": null
+            },
+            {
+              "id": 2447,
+              "name": "Celebration Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2447
+              },
+              "level": 21,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 21,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 20
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 5,
+          "match_id": 10892005,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 24,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2481,
+              "name": "Jupiter God Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2481_dragon_jupitergod_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2481_dragon_jupitergod_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2481_dragon_jupitergod_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2481_dragon_jupitergod_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2481
+              },
+              "level": 24,
+              "star_requirement": null
+            },
+            {
+              "id": 2447,
+              "name": "Celebration Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2447
+              },
+              "level": 24,
+              "star_requirement": null
+            },
+            {
+              "id": 2657,
+              "name": "Pyromaniac Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2657
+              },
+              "level": 24,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 24,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "sticker_pack",
+              "size": "m",
+              "name": "Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "m"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "album_pack.m": 1
+            }
+          ]
+        },
+        {
+          "stage": 6,
+          "match_id": 10892006,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 26,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2816,
+              "name": "Reptileader Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2816_dragon_reptileader_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2816_dragon_reptileader_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2816_dragon_reptileader_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2816_dragon_reptileader_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2816
+              },
+              "level": 26,
+              "star_requirement": null
+            },
+            {
+              "id": 2937,
+              "name": "Tentacularian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2937_dragon_tentacularian_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2937_dragon_tentacularian_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2937
+              },
+              "level": 26,
+              "star_requirement": null
+            },
+            {
+              "id": 3381,
+              "name": "High Cloaked Critical Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3381_dragon_highcloakedcritical_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3381_dragon_highcloakedcritical_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3381_dragon_highcloakedcritical_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3381_dragon_highcloakedcritical_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3381
+              },
+              "level": 26,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 26,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 25
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 7,
+          "match_id": 10892007,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 28,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2747,
+              "name": "Night Terror Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2747_dragon_nightterror_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2747_dragon_nightterror_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2747
+              },
+              "level": 28,
+              "star_requirement": null
+            },
+            {
+              "id": 2219,
+              "name": "Ice Hockey Dragon ",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2219_dragon_icehockey_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2219_dragon_icehockey_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2219_dragon_icehockey_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2219_dragon_icehockey_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2219
+              },
+              "level": 28,
+              "star_requirement": null
+            },
+            {
+              "id": 2282,
+              "name": "Future Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2282_dragon_future_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2282_dragon_future_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2282_dragon_future_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2282_dragon_future_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2282
+              },
+              "level": 28,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 28,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 10712,
+              "name": "Dinner Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10712,
+                "type": "generic"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "chest": 10712
+            }
+          ]
+        },
+        {
+          "stage": 8,
+          "match_id": 10892008,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 30,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3010,
+              "name": "Rainbow Onesie Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3010_dragon_rainbowonesie_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3010_dragon_rainbowonesie_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3010_dragon_rainbowonesie_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3010_dragon_rainbowonesie_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3010
+              },
+              "level": 30,
+              "star_requirement": null
+            },
+            {
+              "id": 2491,
+              "name": "Xolotl Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2491
+              },
+              "level": 30,
+              "star_requirement": null
+            },
+            {
+              "id": 2597,
+              "name": "Beast Mode Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2597_dragon_beastmode_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2597_dragon_beastmode_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2597_dragon_beastmode_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2597_dragon_beastmode_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2597
+              },
+              "level": 30,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 30,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 30
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 30
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 9,
+          "match_id": 10892009,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 32,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2513,
+              "name": "Prideful Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2513_dragon_pride_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2513_dragon_pride_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2513_dragon_pride_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2513_dragon_pride_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2513
+              },
+              "level": 32,
+              "star_requirement": null
+            },
+            {
+              "id": 2902,
+              "name": "Warose Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2902_dragon_warose_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2902_dragon_warose_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2902_dragon_warose_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2902_dragon_warose_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2902
+              },
+              "level": 32,
+              "star_requirement": null
+            },
+            {
+              "id": 2858,
+              "name": "Deputroll Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2858_dragon_deputroll_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2858_dragon_deputroll_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2858_dragon_deputroll_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2858_dragon_deputroll_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2858
+              },
+              "level": 32,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 32,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "rank_up_coin",
+              "rarity": "mythical",
+              "name": "Mythical Rank Up Coin",
+              "amount": 20,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-mythical.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "rank_up_coin.mythical": 20
+            }
+          ]
+        },
+        {
+          "stage": 10,
+          "match_id": 10892010,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 34,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2572,
+              "name": "Bio-Augmented Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2572_dragon_bioaugmentedvampire_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2572_dragon_bioaugmentedvampire_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2572_dragon_bioaugmentedvampire_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2572_dragon_bioaugmentedvampire_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2572
+              },
+              "level": 34,
+              "star_requirement": null
+            },
+            {
+              "id": 2657,
+              "name": "Pyromaniac Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2657
+              },
+              "level": 34,
+              "star_requirement": null
+            },
+            {
+              "id": 2551,
+              "name": "Trench Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2551_dragon_trench_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2551_dragon_trench_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2551_dragon_trench_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2551_dragon_trench_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2551
+              },
+              "level": 34,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 34,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 35
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 35
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 11,
+          "match_id": 10892011,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 37,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3066,
+              "name": "KallMeKris Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3066_dragon_kallmekris_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3066_dragon_kallmekris_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3066_dragon_kallmekris_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3066_dragon_kallmekris_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3066
+              },
+              "level": 37,
+              "star_requirement": null
+            },
+            {
+              "id": 2902,
+              "name": "Warose Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2902_dragon_warose_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2902_dragon_warose_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2902_dragon_warose_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2902_dragon_warose_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2902
+              },
+              "level": 37,
+              "star_requirement": null
+            },
+            {
+              "id": 2562,
+              "name": "Osiris God Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2562_dragon_osirisgod_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2562_dragon_osirisgod_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2562_dragon_osirisgod_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2562
+              },
+              "level": 37,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 37,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "sticker_pack",
+              "size": "l",
+              "name": "Large",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_l/HD/ic_stickers_pack_l.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "l"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "album_pack.l": 1
+            }
+          ]
+        },
+        {
+          "stage": 12,
+          "match_id": 10892012,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 39,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2972,
+              "name": "Heartstopper Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2972_dragon_heartstopper_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2972_dragon_heartstopper_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2972_dragon_heartstopper_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2972_dragon_heartstopper_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2972
+              },
+              "level": 39,
+              "star_requirement": null
+            },
+            {
+              "id": 2905,
+              "name": "Fragmented Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2905_dragon_fragmentedkarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2905_dragon_fragmentedkarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2905_dragon_fragmentedkarma_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2905_dragon_fragmentedkarma_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2905
+              },
+              "level": 39,
+              "star_requirement": null
+            },
+            {
+              "id": 3314,
+              "name": "High Tidings Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3314_dragon_hightidings_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3314_dragon_hightidings_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3314_dragon_hightidings_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3314_dragon_hightidings_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3314
+              },
+              "level": 39,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 39,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 40
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 40
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 13,
+          "match_id": 10892013,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 41,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2669,
+              "name": "Crevasse Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2669
+              },
+              "level": 41,
+              "star_requirement": null
+            },
+            {
+              "id": 2652,
+              "name": "Professor Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2652_dragon_professor_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2652_dragon_professor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2652_dragon_professor_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2652_dragon_professor_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2652
+              },
+              "level": 41,
+              "star_requirement": null
+            },
+            {
+              "id": 2730,
+              "name": "Vision Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2730_dragon_vision_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2730_dragon_vision_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2730_dragon_vision_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2730_dragon_vision_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2730
+              },
+              "level": 41,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 41,
+          "star_requirement": 1,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 10712,
+              "name": "Dinner Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10712,
+                "type": "generic"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "chest": 10712
+            }
+          ]
+        },
+        {
+          "stage": 14,
+          "match_id": 10892014,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 43,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2713,
+              "name": "Apex Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2713_dragon_apex_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2713_dragon_apex_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2713_dragon_apex_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2713_dragon_apex_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2713
+              },
+              "level": 43,
+              "star_requirement": null
+            },
+            {
+              "id": 2754,
+              "name": "Master Dean Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2754_dragon_masterdean_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2754_dragon_masterdean_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2754_dragon_masterdean_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2754_dragon_masterdean_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2754
+              },
+              "level": 43,
+              "star_requirement": null
+            },
+            {
+              "id": 2159,
+              "name": "Far West Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2159_dragon_farwest_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2159_dragon_farwest_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2159_dragon_farwest_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2159_dragon_farwest_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2159
+              },
+              "level": 43,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 43,
+          "star_requirement": 1,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 45
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 15,
+          "match_id": 10892015,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 45,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2606,
+              "name": "Ragnarök Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2606_dragon_ragnarok_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2606_dragon_ragnarok_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2606_dragon_ragnarok_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2606_dragon_ragnarok_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2606
+              },
+              "level": 45,
+              "star_requirement": null
+            },
+            {
+              "id": 2669,
+              "name": "Crevasse Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2669_dragon_crevasse_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2669_dragon_crevasse_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2669
+              },
+              "level": 45,
+              "star_requirement": null
+            },
+            {
+              "id": 2447,
+              "name": "Celebration Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2447_dragon_celebration_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2447_dragon_celebration_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2447
+              },
+              "level": 45,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 45,
+          "star_requirement": 1,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "rank_up_coin",
+              "rarity": "mythical",
+              "name": "Mythical Rank Up Coin",
+              "amount": 35,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/rank-up-coins/ic-rank-up-coin-mythical.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "rank_up_coin.mythical": 35
+            }
+          ]
+        },
+        {
+          "stage": 16,
+          "match_id": 10892016,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 47,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3064,
+              "name": "Toxiberry Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3064_dragon_toxiberry_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3064_dragon_toxiberry_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3064_dragon_toxiberry_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3064_dragon_toxiberry_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3064
+              },
+              "level": 47,
+              "star_requirement": null
+            },
+            {
+              "id": 2785,
+              "name": "Courageous Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2785_dragon_courageouskarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2785_dragon_courageouskarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2785_dragon_courageouskarma_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2785_dragon_courageouskarma_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2785
+              },
+              "level": 47,
+              "star_requirement": null
+            },
+            {
+              "id": 2972,
+              "name": "Heartstopper Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2972_dragon_heartstopper_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2972_dragon_heartstopper_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2972_dragon_heartstopper_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2972_dragon_heartstopper_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2972
+              },
+              "level": 47,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 47,
+          "star_requirement": 2,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 50
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 17,
+          "match_id": 10892017,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 50,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2523,
+              "name": "Sinful Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2523_dragon_rulerofsins_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2523_dragon_rulerofsins_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2523_dragon_rulerofsins_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2523_dragon_rulerofsins_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2523
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 2957,
+              "name": "Pixie Hydra Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2957_dragon_pixiehydra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2957_dragon_pixiehydra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2957
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 2491,
+              "name": "Xolotl Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2491_dragon_xolotl_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2491_dragon_xolotl_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2491
+              },
+              "level": 50,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 50,
+          "star_requirement": 2,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "sticker_pack",
+              "size": "l",
+              "name": "Large",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_l/HD/ic_stickers_pack_l.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "l"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "album_pack.l": 1
+            }
+          ]
+        },
+        {
+          "stage": 18,
+          "match_id": 10892018,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 52,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2470,
+              "name": "BlazeFrost Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2470_dragon_blazefrost_c_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2470_dragon_blazefrost_c_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2470_dragon_blazefrost_c_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2470_dragon_blazefrost_c_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2470
+              },
+              "level": 52,
+              "star_requirement": null
+            },
+            {
+              "id": 2957,
+              "name": "Pixie Hydra Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2957_dragon_pixiehydra_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2957_dragon_pixiehydra_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2957_dragon_pixiehydra_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2957
+              },
+              "level": 52,
+              "star_requirement": null
+            },
+            {
+              "id": 3456,
+              "name": "High Astro Supernova Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3456_dragon_highastrosupernova_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3456_dragon_highastrosupernova_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3456_dragon_highastrosupernova_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3456_dragon_highastrosupernova_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3456
+              },
+              "level": 52,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 52,
+          "star_requirement": 3,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "id": 3448,
+              "name": "False Prophet Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3448
+              },
+              "kind": "dragon_orbs",
+              "amount": 60
+            }
+          ],
+          "raw_reward": [
+            {
+              "seeds": [
+                {
+                  "id": 3448,
+                  "amount": 60
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "stage": 19,
+          "match_id": 10892019,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 54,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2567,
+              "name": "Forest God Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2567_dragon_hiddenforestspirit_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2567_dragon_hiddenforestspirit_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2567_dragon_hiddenforestspirit_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2567_dragon_hiddenforestspirit_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2567
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2310,
+              "name": "Triumphant Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2310_dragon_triumphant_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2310_dragon_triumphant_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2310_dragon_triumphant_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2310_dragon_triumphant_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2310
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3072,
+              "name": "Enchantress Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3072_dragon_enchantress_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3072_dragon_enchantress_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3072_dragon_enchantress_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3072_dragon_enchantress_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3072
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 54,
+          "star_requirement": 3,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "chest",
+              "id": 10713,
+              "name": "Banquet Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10713,
+                "type": "generic"
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "chest": 10713
+            }
+          ]
+        },
+        {
+          "stage": 20,
+          "match_id": 10892020,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 56,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3448,
+                "name": "False Prophet Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3448_dragon_falseprophet_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3448
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 2098,
+              "name": "Barbarian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2098
+              },
+              "level": 56,
+              "star_requirement": null
+            },
+            {
+              "id": 3419,
+              "name": "Herald Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3419_dragon_theherald_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3419_dragon_theherald_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3419_dragon_theherald_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3419_dragon_theherald_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3419
+              },
+              "level": 56,
+              "star_requirement": null
+            },
+            {
+              "id": 2324,
+              "name": "Stellartress Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2324_dragon_stellartress_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2324_dragon_stellartress_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2324_dragon_stellartress_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2324_dragon_stellartress_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2324
+              },
+              "level": 56,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 56,
+          "star_requirement": 4,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "skin",
+              "id": 3336,
+              "name": "Aurelian Deceiver Skin",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3448_dragon_falseprophet_skin1_3.png",
+              "popup": {
+                "kind": "skin",
+                "id": 3336
+              }
+            }
+          ],
+          "raw_reward": [
+            {
+              "skin": 3336
             }
           ]
         }
