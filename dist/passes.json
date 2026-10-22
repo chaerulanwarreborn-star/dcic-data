@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-22T09:42:01.781847Z",
+  "generated_at": "2026-10-22T10:06:32.790109Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -638467,13 +638467,13 @@
                 ],
                 "reward": {
                   "reward_id": 334000,
-                  "name": "Medium Sticker Pack",
+                  "name": "Large Sticker Pack",
                   "amount": 1,
                   "kind": "chest",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
                   "popup": {
                     "kind": "chest",
-                    "id": 16552,
+                    "id": 16553,
                     "type": "generic"
                   },
                   "rarity": "",
@@ -638482,34 +638482,34 @@
                       "kind": "chest",
                       "type": "chest",
                       "asset_kind": "chest",
-                      "id": 16552,
-                      "chest_id": 16552,
-                      "source_chest_id": 16552,
+                      "id": 16553,
+                      "chest_id": 16553,
+                      "source_chest_id": 16553,
                       "source_chest_img_name": "",
                       "img_name": "",
                       "chest_type": "generic",
-                      "chest_key": "generic:16552",
-                      "detail_file": "generic/40.json",
-                      "name": "Medium Sticker Pack",
+                      "chest_key": "generic:16553",
+                      "detail_file": "generic/41.json",
+                      "name": "Large Sticker Pack",
                       "amount": 1,
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
                       "image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
                         "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                       ],
                       "popup": {
                         "kind": "chest",
-                        "id": 16552,
+                        "id": 16553,
                         "type": "generic"
                       }
                     }
                   ],
                   "raw": [
                     {
-                      "chest": 16552
+                      "chest": 16553
                     }
                   ]
                 },

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T09:42:44Z",
+  "generated_at": "2026-10-22T10:07:15Z",
   "count": 599,
-  "linked_count": 310,
+  "linked_count": 309,
   "skills": [
     {
       "id": 1,
@@ -30210,9 +30210,9 @@
           "hit_chance": 1,
           "parameters": {
             "calloutTid": "tid_minbreak",
-            "duration": 3,
+            "duration": 4,
             "missTid": "tid_miss",
-            "procChance": 0.25,
+            "procChance": 0.35,
             "vfx": "mindbreak_skill_apply"
           }
         }
@@ -30328,19 +30328,8 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 1,
-      "linked_dragons": [
-        {
-          "dragon_id": 3510,
-          "dragon_name": "High Hypno Mindbreak",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3510_dragon_highhypnomindbreak_3.png",
-          "attack_id": 0,
-          "attack_name": "Brain Drain",
-          "move_type": "passive",
-          "element": ""
-        }
-      ]
+      "usage_count": 0,
+      "linked_dragons": []
     },
     {
       "id": 583,
