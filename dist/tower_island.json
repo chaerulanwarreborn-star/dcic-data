@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T13:52:00.778685Z",
+  "generated_at": "2026-10-22T17:18:16.158073Z",
   "source_file": "game_config.json",
   "localization_file": "the-void/localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -48,6 +48,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1187_dragon_photon_d_3.png",
             "localization_name_key": "tid_unit_1187_name",
             "localization_description_key": "tid_unit_1187_description",
+            "attributes": [
+              "li",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 1,
             "num_pieces": 3,
@@ -67,6 +75,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png",
             "localization_name_key": "tid_unit_2656_name",
             "localization_description_key": "tid_unit_2656_description",
+            "attributes": [
+              "m",
+              "li",
+              "wd"
+            ],
+            "elements": [
+              "m",
+              "li",
+              "wd"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 2,
             "num_pieces": 4,
@@ -86,6 +104,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
             "localization_name_key": "tid_unit_2115_name",
             "localization_description_key": "tid_unit_2115_description",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -105,6 +133,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png",
             "localization_name_key": "tid_unit_2749_name",
             "localization_description_key": "tid_unit_2749_description",
+            "attributes": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 3,
             "num_pieces": 4,
@@ -124,6 +164,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3135_dragon_hanshock_3.png",
             "localization_name_key": "tid_unit_3135_name",
             "localization_description_key": "tid_unit_3135_description",
+            "attributes": [
+              "el",
+              "m",
+              "pr",
+              "hp"
+            ],
+            "elements": [
+              "el",
+              "m",
+              "pr",
+              "hp"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -928,6 +980,14 @@
             "rarity": 5,
             "img_name_mobile": "1187_dragon_photon_d",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1187_dragon_photon_d_3.png",
+            "attributes": [
+              "li",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 1,
             "num_pieces": 3,
@@ -1632,6 +1692,14 @@
             "rarity": 5,
             "img_name_mobile": "1187_dragon_photon_d",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1187_dragon_photon_d_3.png",
+            "attributes": [
+              "li",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 1,
             "num_pieces": 3,
@@ -1656,6 +1724,14 @@
             "rarity": 5,
             "img_name_mobile": "1187_dragon_photon_d",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1187_dragon_photon_d_3.png",
+            "attributes": [
+              "li",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 1,
             "num_pieces": 3,
@@ -1816,6 +1892,16 @@
             "rarity": 2,
             "img_name_mobile": "2656_dragon_projectile",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png",
+            "attributes": [
+              "m",
+              "li",
+              "wd"
+            ],
+            "elements": [
+              "m",
+              "li",
+              "wd"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 2,
             "num_pieces": 4,
@@ -2150,6 +2236,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -2375,6 +2471,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -2753,6 +2859,16 @@
             "rarity": 2,
             "img_name_mobile": "2656_dragon_projectile",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png",
+            "attributes": [
+              "m",
+              "li",
+              "wd"
+            ],
+            "elements": [
+              "m",
+              "li",
+              "wd"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 2,
             "num_pieces": 4,
@@ -3206,6 +3322,16 @@
             "rarity": 2,
             "img_name_mobile": "2656_dragon_projectile",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png",
+            "attributes": [
+              "m",
+              "li",
+              "wd"
+            ],
+            "elements": [
+              "m",
+              "li",
+              "wd"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 2,
             "num_pieces": 4,
@@ -3264,6 +3390,16 @@
             "rarity": 2,
             "img_name_mobile": "2656_dragon_projectile",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2656_dragon_projectile_3.png",
+            "attributes": [
+              "m",
+              "li",
+              "wd"
+            ],
+            "elements": [
+              "m",
+              "li",
+              "wd"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 2,
             "num_pieces": 4,
@@ -4145,6 +4281,18 @@
             "rarity": 2,
             "img_name_mobile": "2749_dragon_fundy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png",
+            "attributes": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 3,
             "num_pieces": 4,
@@ -4339,6 +4487,18 @@
             "rarity": 2,
             "img_name_mobile": "2749_dragon_fundy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png",
+            "attributes": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 3,
             "num_pieces": 4,
@@ -5945,6 +6105,18 @@
             "rarity": 2,
             "img_name_mobile": "2749_dragon_fundy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png",
+            "attributes": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 3,
             "num_pieces": 4,
@@ -6003,6 +6175,18 @@
             "rarity": 2,
             "img_name_mobile": "2749_dragon_fundy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2749_dragon_fundy_3.png",
+            "attributes": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "d",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 3,
             "num_pieces": 4,
@@ -6371,6 +6555,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -6462,6 +6656,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -7950,6 +8154,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -8016,6 +8230,16 @@
             "rarity": 1,
             "img_name_mobile": "2115_dragon_paperscut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2115_dragon_paperscut_3.png",
+            "attributes": [
+              "w",
+              "p",
+              "li"
+            ],
+            "elements": [
+              "w",
+              "p",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 4,
             "num_pieces": 6,
@@ -9136,6 +9360,18 @@
             "rarity": 2,
             "img_name_mobile": "3135_dragon_hanshock",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3135_dragon_hanshock_3.png",
+            "attributes": [
+              "el",
+              "m",
+              "pr",
+              "hp"
+            ],
+            "elements": [
+              "el",
+              "m",
+              "pr",
+              "hp"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -9262,6 +9498,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1177_dragon_hammer_b_3.png",
             "localization_name_key": "tid_unit_1177_name",
             "localization_description_key": "tid_unit_1177_description",
+            "attributes": [
+              "m",
+              "w"
+            ],
+            "elements": [
+              "m",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901177,
             "num_pieces": 3,
@@ -9281,6 +9525,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png",
             "localization_name_key": "tid_unit_1218_name",
             "localization_description_key": "tid_unit_1218_description",
+            "attributes": [
+              "e",
+              "m",
+              "wr"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901218,
             "num_pieces": 4,
@@ -9300,6 +9554,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
             "localization_name_key": "tid_unit_2503_name",
             "localization_description_key": "tid_unit_2503_description",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -9319,6 +9585,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png",
             "localization_name_key": "tid_unit_2857_name",
             "localization_description_key": "tid_unit_2857_description",
+            "attributes": [
+              "p",
+              "e",
+              "el"
+            ],
+            "elements": [
+              "p",
+              "e",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902857,
             "num_pieces": 4,
@@ -9338,6 +9614,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3173_dragon_moxie_3.png",
             "localization_name_key": "tid_unit_3173_name",
             "localization_description_key": "tid_unit_3173_description",
+            "attributes": [
+              "pu",
+              "bt",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "pu",
+              "bt",
+              "el",
+              "p"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -10157,6 +10445,14 @@
             "rarity": 4,
             "img_name_mobile": "1177_dragon_hammer_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1177_dragon_hammer_b_3.png",
+            "attributes": [
+              "m",
+              "w"
+            ],
+            "elements": [
+              "m",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901177,
             "num_pieces": 3,
@@ -10861,6 +11157,14 @@
             "rarity": 4,
             "img_name_mobile": "1177_dragon_hammer_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1177_dragon_hammer_b_3.png",
+            "attributes": [
+              "m",
+              "w"
+            ],
+            "elements": [
+              "m",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901177,
             "num_pieces": 3,
@@ -10885,6 +11189,14 @@
             "rarity": 4,
             "img_name_mobile": "1177_dragon_hammer_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1177_dragon_hammer_b_3.png",
+            "attributes": [
+              "m",
+              "w"
+            ],
+            "elements": [
+              "m",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901177,
             "num_pieces": 3,
@@ -11045,6 +11357,16 @@
             "rarity": 5,
             "img_name_mobile": "1218_dragon_strong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "wr"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901218,
             "num_pieces": 4,
@@ -11379,6 +11701,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -11604,6 +11938,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -11982,6 +12328,16 @@
             "rarity": 5,
             "img_name_mobile": "1218_dragon_strong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "wr"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901218,
             "num_pieces": 4,
@@ -12435,6 +12791,16 @@
             "rarity": 5,
             "img_name_mobile": "1218_dragon_strong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "wr"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901218,
             "num_pieces": 4,
@@ -12493,6 +12859,16 @@
             "rarity": 5,
             "img_name_mobile": "1218_dragon_strong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1218_dragon_strong_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "wr"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 901218,
             "num_pieces": 4,
@@ -13374,6 +13750,16 @@
             "rarity": 1,
             "img_name_mobile": "2857_dragon_trickytrunk",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png",
+            "attributes": [
+              "p",
+              "e",
+              "el"
+            ],
+            "elements": [
+              "p",
+              "e",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902857,
             "num_pieces": 4,
@@ -13568,6 +13954,16 @@
             "rarity": 1,
             "img_name_mobile": "2857_dragon_trickytrunk",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png",
+            "attributes": [
+              "p",
+              "e",
+              "el"
+            ],
+            "elements": [
+              "p",
+              "e",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902857,
             "num_pieces": 4,
@@ -15174,6 +15570,16 @@
             "rarity": 1,
             "img_name_mobile": "2857_dragon_trickytrunk",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png",
+            "attributes": [
+              "p",
+              "e",
+              "el"
+            ],
+            "elements": [
+              "p",
+              "e",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902857,
             "num_pieces": 4,
@@ -15232,6 +15638,16 @@
             "rarity": 1,
             "img_name_mobile": "2857_dragon_trickytrunk",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2857_dragon_trickytrunk_3.png",
+            "attributes": [
+              "p",
+              "e",
+              "el"
+            ],
+            "elements": [
+              "p",
+              "e",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902857,
             "num_pieces": 4,
@@ -15600,6 +16016,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -15691,6 +16119,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -17179,6 +17619,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -17245,6 +17697,18 @@
             "rarity": 2,
             "img_name_mobile": "2503_dragon_stormmagi_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2503_dragon_stormmagi_b_3.png",
+            "attributes": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
+            "elements": [
+              "mg",
+              "wd",
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 902503,
             "num_pieces": 6,
@@ -18365,6 +18829,18 @@
             "rarity": 3,
             "img_name_mobile": "3173_dragon_moxie",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3173_dragon_moxie_3.png",
+            "attributes": [
+              "pu",
+              "bt",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "pu",
+              "bt",
+              "el",
+              "p"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -18491,6 +18967,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
             "localization_name_key": "tid_unit_1321_name",
             "localization_description_key": "tid_unit_1321_description",
+            "attributes": [
+              "e",
+              "li",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "li",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92321,
             "num_pieces": 3,
@@ -18510,6 +18996,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png",
             "localization_name_key": "tid_unit_2069_name",
             "localization_description_key": "tid_unit_2069_description",
+            "attributes": [
+              "f",
+              "w",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "w",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92069,
             "num_pieces": 4,
@@ -18529,6 +19025,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
             "localization_name_key": "tid_unit_3351_name",
             "localization_description_key": "tid_unit_3351_description",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -18548,6 +19056,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png",
             "localization_name_key": "tid_unit_2144_name",
             "localization_description_key": "tid_unit_2144_description",
+            "attributes": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
+            "elements": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92144,
             "num_pieces": 4,
@@ -18567,6 +19087,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3029_dragon_silhouette_3.png",
             "localization_name_key": "tid_unit_3029_name",
             "localization_description_key": "tid_unit_3029_description",
+            "attributes": [
+              "li",
+              "f",
+              "el",
+              "hp"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "el",
+              "hp"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -19431,6 +19963,16 @@
             "rarity": 5,
             "img_name_mobile": "1321_dragon_easter",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+            "attributes": [
+              "e",
+              "li",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "li",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92321,
             "num_pieces": 3,
@@ -20135,6 +20677,16 @@
             "rarity": 5,
             "img_name_mobile": "1321_dragon_easter",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+            "attributes": [
+              "e",
+              "li",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "li",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92321,
             "num_pieces": 3,
@@ -20159,6 +20711,16 @@
             "rarity": 5,
             "img_name_mobile": "1321_dragon_easter",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1321_dragon_easter_3.png",
+            "attributes": [
+              "e",
+              "li",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "li",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92321,
             "num_pieces": 3,
@@ -20319,6 +20881,16 @@
             "rarity": 1,
             "img_name_mobile": "2069_dragon_cottoncandy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png",
+            "attributes": [
+              "f",
+              "w",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "w",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92069,
             "num_pieces": 4,
@@ -20653,6 +21225,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -20878,6 +21462,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -21256,6 +21852,16 @@
             "rarity": 1,
             "img_name_mobile": "2069_dragon_cottoncandy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png",
+            "attributes": [
+              "f",
+              "w",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "w",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92069,
             "num_pieces": 4,
@@ -21709,6 +22315,16 @@
             "rarity": 1,
             "img_name_mobile": "2069_dragon_cottoncandy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png",
+            "attributes": [
+              "f",
+              "w",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "w",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92069,
             "num_pieces": 4,
@@ -21767,6 +22383,16 @@
             "rarity": 1,
             "img_name_mobile": "2069_dragon_cottoncandy",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2069_dragon_cottoncandy_3.png",
+            "attributes": [
+              "f",
+              "w",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "w",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92069,
             "num_pieces": 4,
@@ -22648,6 +23274,18 @@
             "rarity": 1,
             "img_name_mobile": "2144_dragon_furfur",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png",
+            "attributes": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
+            "elements": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92144,
             "num_pieces": 4,
@@ -22842,6 +23480,18 @@
             "rarity": 1,
             "img_name_mobile": "2144_dragon_furfur",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png",
+            "attributes": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
+            "elements": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92144,
             "num_pieces": 4,
@@ -24448,6 +25098,18 @@
             "rarity": 1,
             "img_name_mobile": "2144_dragon_furfur",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png",
+            "attributes": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
+            "elements": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92144,
             "num_pieces": 4,
@@ -24506,6 +25168,18 @@
             "rarity": 1,
             "img_name_mobile": "2144_dragon_furfur",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2144_dragon_furfur_3.png",
+            "attributes": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
+            "elements": [
+              "p",
+              "li",
+              "w",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92144,
             "num_pieces": 4,
@@ -24874,6 +25548,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -24965,6 +25651,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -26453,6 +27151,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -26519,6 +27229,18 @@
             "rarity": 4,
             "img_name_mobile": "3351_dragon_jealousegg",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3351_dragon_jealousegg_3.png",
+            "attributes": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
+            "elements": [
+              "pu",
+              "l",
+              "e",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 92351,
             "num_pieces": 6,
@@ -27639,6 +28361,18 @@
             "rarity": 2,
             "img_name_mobile": "3029_dragon_silhouette",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3029_dragon_silhouette_3.png",
+            "attributes": [
+              "li",
+              "f",
+              "el",
+              "hp"
+            ],
+            "elements": [
+              "li",
+              "f",
+              "el",
+              "hp"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -27765,6 +28499,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
             "localization_name_key": "tid_unit_1442_name",
             "localization_description_key": "tid_unit_1442_description",
+            "attributes": [
+              "bt",
+              "hp"
+            ],
+            "elements": [
+              "bt",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93442,
             "num_pieces": 3,
@@ -27784,6 +28526,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
             "localization_name_key": "tid_unit_2235_name",
             "localization_description_key": "tid_unit_2235_description",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93235,
             "num_pieces": 4,
@@ -27803,6 +28555,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
             "localization_name_key": "tid_unit_2685_name",
             "localization_description_key": "tid_unit_2685_description",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -27822,6 +28586,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png",
             "localization_name_key": "tid_unit_2240_name",
             "localization_description_key": "tid_unit_2240_description",
+            "attributes": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93240,
             "num_pieces": 4,
@@ -27841,6 +28617,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2544_dragon_northwind_3.png",
             "localization_name_key": "tid_unit_2544_name",
             "localization_description_key": "tid_unit_2544_description",
+            "attributes": [
+              "wd",
+              "d",
+              "i",
+              "pr"
+            ],
+            "elements": [
+              "wd",
+              "d",
+              "i",
+              "pr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -28690,6 +29478,14 @@
             "rarity": 3,
             "img_name_mobile": "1442_dragon_bride",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
+            "attributes": [
+              "bt",
+              "hp"
+            ],
+            "elements": [
+              "bt",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93442,
             "num_pieces": 3,
@@ -29394,6 +30190,14 @@
             "rarity": 3,
             "img_name_mobile": "1442_dragon_bride",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
+            "attributes": [
+              "bt",
+              "hp"
+            ],
+            "elements": [
+              "bt",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93442,
             "num_pieces": 3,
@@ -29418,6 +30222,14 @@
             "rarity": 3,
             "img_name_mobile": "1442_dragon_bride",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1442_dragon_bride_3.png",
+            "attributes": [
+              "bt",
+              "hp"
+            ],
+            "elements": [
+              "bt",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93442,
             "num_pieces": 3,
@@ -29578,6 +30390,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93235,
             "num_pieces": 4,
@@ -29912,6 +30734,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -30137,6 +30971,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -30515,6 +31361,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93235,
             "num_pieces": 4,
@@ -30968,6 +31824,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93235,
             "num_pieces": 4,
@@ -31026,6 +31892,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93235,
             "num_pieces": 4,
@@ -31907,6 +32783,18 @@
             "rarity": 2,
             "img_name_mobile": "2240_dragon_pythoness",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93240,
             "num_pieces": 4,
@@ -32101,6 +32989,18 @@
             "rarity": 2,
             "img_name_mobile": "2240_dragon_pythoness",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93240,
             "num_pieces": 4,
@@ -33707,6 +34607,18 @@
             "rarity": 2,
             "img_name_mobile": "2240_dragon_pythoness",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93240,
             "num_pieces": 4,
@@ -33765,6 +34677,18 @@
             "rarity": 2,
             "img_name_mobile": "2240_dragon_pythoness",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2240_dragon_pythoness_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "e",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93240,
             "num_pieces": 4,
@@ -34133,6 +35057,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -34224,6 +35160,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -35712,6 +36660,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -35778,6 +36738,18 @@
             "rarity": 2,
             "img_name_mobile": "2685_dragon_faeflora",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2685_dragon_faeflora_3.png",
+            "attributes": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
+            "elements": [
+              "p",
+              "wd",
+              "li",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 93685,
             "num_pieces": 6,
@@ -36898,6 +37870,18 @@
             "rarity": 2,
             "img_name_mobile": "2544_dragon_northwind",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2544_dragon_northwind_3.png",
+            "attributes": [
+              "wd",
+              "d",
+              "i",
+              "pr"
+            ],
+            "elements": [
+              "wd",
+              "d",
+              "i",
+              "pr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -37024,6 +38008,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1194_dragon_whiteknight_c_3.png",
             "localization_name_key": "tid_unit_1194_name",
             "localization_description_key": "tid_unit_1194_description",
+            "attributes": [
+              "li",
+              "e"
+            ],
+            "elements": [
+              "li",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94194,
             "num_pieces": 3,
@@ -37043,6 +38035,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png",
             "localization_name_key": "tid_unit_1984_name",
             "localization_description_key": "tid_unit_1984_description",
+            "attributes": [
+              "e",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94984,
             "num_pieces": 4,
@@ -37062,6 +38064,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
             "localization_name_key": "tid_unit_3075_name",
             "localization_description_key": "tid_unit_3075_description",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -37081,6 +38095,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png",
             "localization_name_key": "tid_unit_2268_name",
             "localization_description_key": "tid_unit_2268_description",
+            "attributes": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94268,
             "num_pieces": 4,
@@ -37100,6 +38126,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2280_dragon_happiness_3.png",
             "localization_name_key": "tid_unit_2280_name",
             "localization_description_key": "tid_unit_2280_description",
+            "attributes": [
+              "hp",
+              "l",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "hp",
+              "l",
+              "li",
+              "wr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -38099,6 +39137,14 @@
             "rarity": 5,
             "img_name_mobile": "1194_dragon_whiteknight_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1194_dragon_whiteknight_c_3.png",
+            "attributes": [
+              "li",
+              "e"
+            ],
+            "elements": [
+              "li",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94194,
             "num_pieces": 3,
@@ -38803,6 +39849,14 @@
             "rarity": 5,
             "img_name_mobile": "1194_dragon_whiteknight_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1194_dragon_whiteknight_c_3.png",
+            "attributes": [
+              "li",
+              "e"
+            ],
+            "elements": [
+              "li",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94194,
             "num_pieces": 3,
@@ -38827,6 +39881,14 @@
             "rarity": 5,
             "img_name_mobile": "1194_dragon_whiteknight_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1194_dragon_whiteknight_c_3.png",
+            "attributes": [
+              "li",
+              "e"
+            ],
+            "elements": [
+              "li",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94194,
             "num_pieces": 3,
@@ -38987,6 +40049,16 @@
             "rarity": 3,
             "img_name_mobile": "1984_dragon_copper",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94984,
             "num_pieces": 4,
@@ -39321,6 +40393,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -39546,6 +40630,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -39924,6 +41020,16 @@
             "rarity": 3,
             "img_name_mobile": "1984_dragon_copper",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94984,
             "num_pieces": 4,
@@ -40377,6 +41483,16 @@
             "rarity": 3,
             "img_name_mobile": "1984_dragon_copper",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94984,
             "num_pieces": 4,
@@ -40435,6 +41551,16 @@
             "rarity": 3,
             "img_name_mobile": "1984_dragon_copper",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1984_dragon_copper_3.png",
+            "attributes": [
+              "e",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "e",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94984,
             "num_pieces": 4,
@@ -41316,6 +42442,18 @@
             "rarity": 2,
             "img_name_mobile": "2268_dragon_stardust",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png",
+            "attributes": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94268,
             "num_pieces": 4,
@@ -41510,6 +42648,18 @@
             "rarity": 2,
             "img_name_mobile": "2268_dragon_stardust",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png",
+            "attributes": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94268,
             "num_pieces": 4,
@@ -43116,6 +44266,18 @@
             "rarity": 2,
             "img_name_mobile": "2268_dragon_stardust",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png",
+            "attributes": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94268,
             "num_pieces": 4,
@@ -43174,6 +44336,18 @@
             "rarity": 2,
             "img_name_mobile": "2268_dragon_stardust",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2268_dragon_stardust_3.png",
+            "attributes": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "m",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94268,
             "num_pieces": 4,
@@ -43542,6 +44716,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -43633,6 +44819,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -45121,6 +46319,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -45187,6 +46397,18 @@
             "rarity": 3,
             "img_name_mobile": "3075_dragon_odysseus",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3075_dragon_odysseus_3.png",
+            "attributes": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
+            "elements": [
+              "dr",
+              "wr",
+              "e",
+              "hp"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 94075,
             "num_pieces": 6,
@@ -46307,6 +47529,18 @@
             "rarity": 4,
             "img_name_mobile": "2280_dragon_happiness",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2280_dragon_happiness_3.png",
+            "attributes": [
+              "hp",
+              "l",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "hp",
+              "l",
+              "li",
+              "wr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -46433,6 +47667,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png",
             "localization_name_key": "tid_unit_1916_name",
             "localization_description_key": "tid_unit_1916_description",
+            "attributes": [
+              "li",
+              "w",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "w",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95916,
             "num_pieces": 3,
@@ -46452,6 +47696,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png",
             "localization_name_key": "tid_unit_2524_name",
             "localization_description_key": "tid_unit_2524_description",
+            "attributes": [
+              "wr",
+              "li",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "li",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95524,
             "num_pieces": 4,
@@ -46471,6 +47725,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
             "localization_name_key": "tid_unit_2942_name",
             "localization_description_key": "tid_unit_2942_description",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -46490,6 +47756,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png",
             "localization_name_key": "tid_unit_2711_name",
             "localization_description_key": "tid_unit_2711_description",
+            "attributes": [
+              "el",
+              "li",
+              "w"
+            ],
+            "elements": [
+              "el",
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95711,
             "num_pieces": 4,
@@ -46509,6 +47785,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3296_dragon_embracing_3.png",
             "localization_name_key": "tid_unit_3296_name",
             "localization_description_key": "tid_unit_3296_description",
+            "attributes": [
+              "li",
+              "pu",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "pu",
+              "p",
+              "w"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -47373,6 +48661,16 @@
             "rarity": 3,
             "img_name_mobile": "1916_dragon_wandering",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png",
+            "attributes": [
+              "li",
+              "w",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "w",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95916,
             "num_pieces": 3,
@@ -48077,6 +49375,16 @@
             "rarity": 3,
             "img_name_mobile": "1916_dragon_wandering",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png",
+            "attributes": [
+              "li",
+              "w",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "w",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95916,
             "num_pieces": 3,
@@ -48101,6 +49409,16 @@
             "rarity": 3,
             "img_name_mobile": "1916_dragon_wandering",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1916_dragon_wandering_3.png",
+            "attributes": [
+              "li",
+              "w",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "w",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95916,
             "num_pieces": 3,
@@ -48261,6 +49579,16 @@
             "rarity": 2,
             "img_name_mobile": "2524_dragon_aegis_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png",
+            "attributes": [
+              "wr",
+              "li",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "li",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95524,
             "num_pieces": 4,
@@ -48595,6 +49923,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -48820,6 +50160,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -49198,6 +50550,16 @@
             "rarity": 2,
             "img_name_mobile": "2524_dragon_aegis_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png",
+            "attributes": [
+              "wr",
+              "li",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "li",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95524,
             "num_pieces": 4,
@@ -49651,6 +51013,16 @@
             "rarity": 2,
             "img_name_mobile": "2524_dragon_aegis_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png",
+            "attributes": [
+              "wr",
+              "li",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "li",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95524,
             "num_pieces": 4,
@@ -49709,6 +51081,16 @@
             "rarity": 2,
             "img_name_mobile": "2524_dragon_aegis_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2524_dragon_aegis_b_3.png",
+            "attributes": [
+              "wr",
+              "li",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "li",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95524,
             "num_pieces": 4,
@@ -50590,6 +51972,16 @@
             "rarity": 1,
             "img_name_mobile": "2711_dragon_omnivicious",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png",
+            "attributes": [
+              "el",
+              "li",
+              "w"
+            ],
+            "elements": [
+              "el",
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95711,
             "num_pieces": 4,
@@ -50784,6 +52176,16 @@
             "rarity": 1,
             "img_name_mobile": "2711_dragon_omnivicious",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png",
+            "attributes": [
+              "el",
+              "li",
+              "w"
+            ],
+            "elements": [
+              "el",
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95711,
             "num_pieces": 4,
@@ -52390,6 +53792,16 @@
             "rarity": 1,
             "img_name_mobile": "2711_dragon_omnivicious",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png",
+            "attributes": [
+              "el",
+              "li",
+              "w"
+            ],
+            "elements": [
+              "el",
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95711,
             "num_pieces": 4,
@@ -52448,6 +53860,16 @@
             "rarity": 1,
             "img_name_mobile": "2711_dragon_omnivicious",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2711_dragon_omnivicious_3.png",
+            "attributes": [
+              "el",
+              "li",
+              "w"
+            ],
+            "elements": [
+              "el",
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95711,
             "num_pieces": 4,
@@ -52816,6 +54238,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -52907,6 +54341,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -54395,6 +55841,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -54461,6 +55919,18 @@
             "rarity": 2,
             "img_name_mobile": "2942_dragon_lustre",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2942_dragon_lustre_3.png",
+            "attributes": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
+            "elements": [
+              "dr",
+              "p",
+              "li",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 95942,
             "num_pieces": 6,
@@ -55581,6 +57051,18 @@
             "rarity": 2,
             "img_name_mobile": "3296_dragon_embracing",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3296_dragon_embracing_3.png",
+            "attributes": [
+              "li",
+              "pu",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "pu",
+              "p",
+              "w"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -55707,6 +57189,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1323_dragon_lightbeam_3.png",
             "localization_name_key": "tid_unit_1323_name",
             "localization_description_key": "tid_unit_1323_description",
+            "attributes": [
+              "el",
+              "li"
+            ],
+            "elements": [
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309323,
             "num_pieces": 3,
@@ -55726,6 +57216,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png",
             "localization_name_key": "tid_unit_1814_name",
             "localization_description_key": "tid_unit_1814_description",
+            "attributes": [
+              "li",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309814,
             "num_pieces": 4,
@@ -55745,6 +57245,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
             "localization_name_key": "tid_unit_2794_name",
             "localization_description_key": "tid_unit_2794_description",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -55764,6 +57276,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png",
             "localization_name_key": "tid_unit_1755_name",
             "localization_description_key": "tid_unit_1755_description",
+            "attributes": [
+              "d",
+              "wr",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "wr",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309755,
             "num_pieces": 4,
@@ -55783,6 +57305,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png",
             "localization_name_key": "tid_unit_2793_name",
             "localization_description_key": "tid_unit_2793_description",
+            "attributes": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
+            "elements": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -56767,6 +58301,14 @@
             "rarity": 4,
             "img_name_mobile": "1323_dragon_lightbeam",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1323_dragon_lightbeam_3.png",
+            "attributes": [
+              "el",
+              "li"
+            ],
+            "elements": [
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309323,
             "num_pieces": 3,
@@ -57471,6 +59013,14 @@
             "rarity": 4,
             "img_name_mobile": "1323_dragon_lightbeam",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1323_dragon_lightbeam_3.png",
+            "attributes": [
+              "el",
+              "li"
+            ],
+            "elements": [
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309323,
             "num_pieces": 3,
@@ -57495,6 +59045,14 @@
             "rarity": 4,
             "img_name_mobile": "1323_dragon_lightbeam",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1323_dragon_lightbeam_3.png",
+            "attributes": [
+              "el",
+              "li"
+            ],
+            "elements": [
+              "el",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309323,
             "num_pieces": 3,
@@ -57655,6 +59213,16 @@
             "rarity": 4,
             "img_name_mobile": "1814_dragon_wingspan",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309814,
             "num_pieces": 4,
@@ -57989,6 +59557,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -58214,6 +59794,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -58592,6 +60184,16 @@
             "rarity": 4,
             "img_name_mobile": "1814_dragon_wingspan",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309814,
             "num_pieces": 4,
@@ -59045,6 +60647,16 @@
             "rarity": 4,
             "img_name_mobile": "1814_dragon_wingspan",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309814,
             "num_pieces": 4,
@@ -59103,6 +60715,16 @@
             "rarity": 4,
             "img_name_mobile": "1814_dragon_wingspan",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1814_dragon_wingspan_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309814,
             "num_pieces": 4,
@@ -59984,6 +61606,16 @@
             "rarity": 6,
             "img_name_mobile": "1755_dragon_scarecrow",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png",
+            "attributes": [
+              "d",
+              "wr",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "wr",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309755,
             "num_pieces": 4,
@@ -60178,6 +61810,16 @@
             "rarity": 6,
             "img_name_mobile": "1755_dragon_scarecrow",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png",
+            "attributes": [
+              "d",
+              "wr",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "wr",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309755,
             "num_pieces": 4,
@@ -61784,6 +63426,16 @@
             "rarity": 6,
             "img_name_mobile": "1755_dragon_scarecrow",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png",
+            "attributes": [
+              "d",
+              "wr",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "wr",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309755,
             "num_pieces": 4,
@@ -61842,6 +63494,16 @@
             "rarity": 6,
             "img_name_mobile": "1755_dragon_scarecrow",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1755_dragon_scarecrow_3.png",
+            "attributes": [
+              "d",
+              "wr",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "wr",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309755,
             "num_pieces": 4,
@@ -62210,6 +63872,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -62301,6 +63975,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -63789,6 +65475,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -63855,6 +65553,18 @@
             "rarity": 2,
             "img_name_mobile": "2794_dragon_robohound",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2794_dragon_robohound_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "li"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 309794,
             "num_pieces": 6,
@@ -64975,6 +66685,18 @@
             "rarity": 2,
             "img_name_mobile": "2793_dragon_roboravager",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png",
+            "attributes": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
+            "elements": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -65101,6 +66823,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1293_dragon_bighat_3.png",
             "localization_name_key": "tid_unit_1293_name",
             "localization_description_key": "tid_unit_1293_description",
+            "attributes": [
+              "el",
+              "i"
+            ],
+            "elements": [
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312293,
             "num_pieces": 3,
@@ -65120,6 +66850,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png",
             "localization_name_key": "tid_unit_2114_name",
             "localization_description_key": "tid_unit_2114_description",
+            "attributes": [
+              "i",
+              "d",
+              "e"
+            ],
+            "elements": [
+              "i",
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312114,
             "num_pieces": 4,
@@ -65139,6 +66879,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
             "localization_name_key": "tid_unit_2748_name",
             "localization_description_key": "tid_unit_2748_description",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -65158,6 +66910,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png",
             "localization_name_key": "tid_unit_1821_name",
             "localization_description_key": "tid_unit_1821_description",
+            "attributes": [
+              "li",
+              "el",
+              "i"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312821,
             "num_pieces": 4,
@@ -65177,6 +66939,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3080_dragon_dragon_3.png",
             "localization_name_key": "tid_unit_3080_name",
             "localization_description_key": "tid_unit_3080_description",
+            "attributes": [
+              "hp",
+              "bt",
+              "i",
+              "f"
+            ],
+            "elements": [
+              "hp",
+              "bt",
+              "i",
+              "f"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -66026,6 +67800,14 @@
             "rarity": 4,
             "img_name_mobile": "1293_dragon_bighat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1293_dragon_bighat_3.png",
+            "attributes": [
+              "el",
+              "i"
+            ],
+            "elements": [
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312293,
             "num_pieces": 3,
@@ -66730,6 +68512,14 @@
             "rarity": 4,
             "img_name_mobile": "1293_dragon_bighat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1293_dragon_bighat_3.png",
+            "attributes": [
+              "el",
+              "i"
+            ],
+            "elements": [
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312293,
             "num_pieces": 3,
@@ -66754,6 +68544,14 @@
             "rarity": 4,
             "img_name_mobile": "1293_dragon_bighat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1293_dragon_bighat_3.png",
+            "attributes": [
+              "el",
+              "i"
+            ],
+            "elements": [
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312293,
             "num_pieces": 3,
@@ -66914,6 +68712,16 @@
             "rarity": 1,
             "img_name_mobile": "2114_dragon_dimensional",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png",
+            "attributes": [
+              "i",
+              "d",
+              "e"
+            ],
+            "elements": [
+              "i",
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312114,
             "num_pieces": 4,
@@ -67248,6 +69056,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -67473,6 +69293,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -67851,6 +69683,16 @@
             "rarity": 1,
             "img_name_mobile": "2114_dragon_dimensional",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png",
+            "attributes": [
+              "i",
+              "d",
+              "e"
+            ],
+            "elements": [
+              "i",
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312114,
             "num_pieces": 4,
@@ -68304,6 +70146,16 @@
             "rarity": 1,
             "img_name_mobile": "2114_dragon_dimensional",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png",
+            "attributes": [
+              "i",
+              "d",
+              "e"
+            ],
+            "elements": [
+              "i",
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312114,
             "num_pieces": 4,
@@ -68362,6 +70214,16 @@
             "rarity": 1,
             "img_name_mobile": "2114_dragon_dimensional",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2114_dragon_dimensional_3.png",
+            "attributes": [
+              "i",
+              "d",
+              "e"
+            ],
+            "elements": [
+              "i",
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312114,
             "num_pieces": 4,
@@ -69243,6 +71105,16 @@
             "rarity": 5,
             "img_name_mobile": "1821_dragon_atomic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "i"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312821,
             "num_pieces": 4,
@@ -69437,6 +71309,16 @@
             "rarity": 5,
             "img_name_mobile": "1821_dragon_atomic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "i"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312821,
             "num_pieces": 4,
@@ -71043,6 +72925,16 @@
             "rarity": 5,
             "img_name_mobile": "1821_dragon_atomic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "i"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312821,
             "num_pieces": 4,
@@ -71101,6 +72993,16 @@
             "rarity": 5,
             "img_name_mobile": "1821_dragon_atomic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1821_dragon_atomic_3.png",
+            "attributes": [
+              "li",
+              "el",
+              "i"
+            ],
+            "elements": [
+              "li",
+              "el",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312821,
             "num_pieces": 4,
@@ -71469,6 +73371,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -71560,6 +73474,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -73048,6 +74974,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -73114,6 +75052,18 @@
             "rarity": 4,
             "img_name_mobile": "2748_dragon_sweetdream",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2748_dragon_sweetdream_3.png",
+            "attributes": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
+            "elements": [
+              "dr",
+              "f",
+              "l",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 312748,
             "num_pieces": 6,
@@ -74234,6 +76184,18 @@
             "rarity": 3,
             "img_name_mobile": "3080_dragon_dragon",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3080_dragon_dragon_3.png",
+            "attributes": [
+              "hp",
+              "bt",
+              "i",
+              "f"
+            ],
+            "elements": [
+              "hp",
+              "bt",
+              "i",
+              "f"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -74360,6 +76322,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1813_dragon_headstrong_3.png",
             "localization_name_key": "tid_unit_1813_name",
             "localization_description_key": "tid_unit_1813_description",
+            "attributes": [
+              "wr",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319813,
             "num_pieces": 3,
@@ -74379,6 +76349,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png",
             "localization_name_key": "tid_unit_1642_name",
             "localization_description_key": "tid_unit_1642_description",
+            "attributes": [
+              "d",
+              "f",
+              "el"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319642,
             "num_pieces": 4,
@@ -74398,6 +76378,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
             "localization_name_key": "tid_unit_2549_name",
             "localization_description_key": "tid_unit_2549_description",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -74417,6 +76409,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png",
             "localization_name_key": "tid_unit_3302_name",
             "localization_description_key": "tid_unit_3302_description",
+            "attributes": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
+            "elements": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319302,
             "num_pieces": 4,
@@ -74436,6 +76440,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png",
             "localization_name_key": "tid_unit_2793_name",
             "localization_description_key": "tid_unit_2793_description",
+            "attributes": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
+            "elements": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -75510,6 +77526,14 @@
             "rarity": 3,
             "img_name_mobile": "1813_dragon_headstrong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1813_dragon_headstrong_3.png",
+            "attributes": [
+              "wr",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319813,
             "num_pieces": 3,
@@ -76214,6 +78238,14 @@
             "rarity": 3,
             "img_name_mobile": "1813_dragon_headstrong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1813_dragon_headstrong_3.png",
+            "attributes": [
+              "wr",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319813,
             "num_pieces": 3,
@@ -76238,6 +78270,14 @@
             "rarity": 3,
             "img_name_mobile": "1813_dragon_headstrong",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1813_dragon_headstrong_3.png",
+            "attributes": [
+              "wr",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319813,
             "num_pieces": 3,
@@ -76398,6 +78438,16 @@
             "rarity": 5,
             "img_name_mobile": "1642_dragon_tiamat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "el"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319642,
             "num_pieces": 4,
@@ -76732,6 +78782,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -76957,6 +79019,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -77335,6 +79409,16 @@
             "rarity": 5,
             "img_name_mobile": "1642_dragon_tiamat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "el"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319642,
             "num_pieces": 4,
@@ -77788,6 +79872,16 @@
             "rarity": 5,
             "img_name_mobile": "1642_dragon_tiamat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "el"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319642,
             "num_pieces": 4,
@@ -77846,6 +79940,16 @@
             "rarity": 5,
             "img_name_mobile": "1642_dragon_tiamat",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1642_dragon_tiamat_3.png",
+            "attributes": [
+              "d",
+              "f",
+              "el"
+            ],
+            "elements": [
+              "d",
+              "f",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319642,
             "num_pieces": 4,
@@ -78727,6 +80831,18 @@
             "rarity": 4,
             "img_name_mobile": "3302_dragon_rulebreaker",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png",
+            "attributes": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
+            "elements": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319302,
             "num_pieces": 4,
@@ -78921,6 +81037,18 @@
             "rarity": 4,
             "img_name_mobile": "3302_dragon_rulebreaker",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png",
+            "attributes": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
+            "elements": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319302,
             "num_pieces": 4,
@@ -80527,6 +82655,18 @@
             "rarity": 4,
             "img_name_mobile": "3302_dragon_rulebreaker",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png",
+            "attributes": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
+            "elements": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319302,
             "num_pieces": 4,
@@ -80585,6 +82725,18 @@
             "rarity": 4,
             "img_name_mobile": "3302_dragon_rulebreaker",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3302_dragon_rulebreaker_3.png",
+            "attributes": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
+            "elements": [
+              "l",
+              "wr",
+              "d",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319302,
             "num_pieces": 4,
@@ -80953,6 +83105,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -81044,6 +83208,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -82532,6 +84708,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -82598,6 +84786,18 @@
             "rarity": 2,
             "img_name_mobile": "2549_dragon_pyroclastic",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2549_dragon_pyroclastic_3.png",
+            "attributes": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
+            "elements": [
+              "f",
+              "li",
+              "wd",
+              "d"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 319549,
             "num_pieces": 6,
@@ -83718,6 +85918,18 @@
             "rarity": 2,
             "img_name_mobile": "2793_dragon_roboravager",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2793_dragon_roboravager_3.png",
+            "attributes": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
+            "elements": [
+              "pr",
+              "d",
+              "f",
+              "m"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -83844,6 +86056,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1988_dragon_fortune_3.png",
             "localization_name_key": "tid_unit_1988_name",
             "localization_description_key": "tid_unit_1988_description",
+            "attributes": [
+              "e",
+              "d",
+              "pu"
+            ],
+            "elements": [
+              "e",
+              "d",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320004,
             "num_pieces": 3,
@@ -83863,6 +86085,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
             "localization_name_key": "tid_unit_2235_name",
             "localization_description_key": "tid_unit_2235_description",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320001,
             "num_pieces": 4,
@@ -83882,6 +86114,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
             "localization_name_key": "tid_unit_3411_name",
             "localization_description_key": "tid_unit_3411_description",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -83901,6 +86145,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
             "localization_name_key": "tid_unit_2601_name",
             "localization_description_key": "tid_unit_2601_description",
+            "attributes": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320003,
             "num_pieces": 4,
@@ -83920,6 +86176,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2729_dragon_queensvillain_3.png",
             "localization_name_key": "tid_unit_2729_name",
             "localization_description_key": "tid_unit_2729_description",
+            "attributes": [
+              "f",
+              "d",
+              "m",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "d",
+              "m",
+              "e"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -84859,6 +87127,16 @@
             "rarity": 2,
             "img_name_mobile": "1988_dragon_fortune",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1988_dragon_fortune_3.png",
+            "attributes": [
+              "e",
+              "d",
+              "pu"
+            ],
+            "elements": [
+              "e",
+              "d",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320004,
             "num_pieces": 3,
@@ -85563,6 +87841,16 @@
             "rarity": 2,
             "img_name_mobile": "1988_dragon_fortune",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1988_dragon_fortune_3.png",
+            "attributes": [
+              "e",
+              "d",
+              "pu"
+            ],
+            "elements": [
+              "e",
+              "d",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320004,
             "num_pieces": 3,
@@ -85587,6 +87875,16 @@
             "rarity": 2,
             "img_name_mobile": "1988_dragon_fortune",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1988_dragon_fortune_3.png",
+            "attributes": [
+              "e",
+              "d",
+              "pu"
+            ],
+            "elements": [
+              "e",
+              "d",
+              "pu"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320004,
             "num_pieces": 3,
@@ -85747,6 +88045,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320001,
             "num_pieces": 4,
@@ -86081,6 +88389,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -86306,6 +88626,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -86684,6 +89016,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320001,
             "num_pieces": 4,
@@ -87137,6 +89479,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320001,
             "num_pieces": 4,
@@ -87195,6 +89547,16 @@
             "rarity": 2,
             "img_name_mobile": "2235_dragon_chibichief",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2235_dragon_chibichief_3.png",
+            "attributes": [
+              "d",
+              "e",
+              "wr"
+            ],
+            "elements": [
+              "d",
+              "e",
+              "wr"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320001,
             "num_pieces": 4,
@@ -88076,6 +90438,18 @@
             "rarity": 1,
             "img_name_mobile": "2601_dragon_coven",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320003,
             "num_pieces": 4,
@@ -88270,6 +90644,18 @@
             "rarity": 1,
             "img_name_mobile": "2601_dragon_coven",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320003,
             "num_pieces": 4,
@@ -89876,6 +92262,18 @@
             "rarity": 1,
             "img_name_mobile": "2601_dragon_coven",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320003,
             "num_pieces": 4,
@@ -89934,6 +92332,18 @@
             "rarity": 1,
             "img_name_mobile": "2601_dragon_coven",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2601_dragon_coven_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "m",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320003,
             "num_pieces": 4,
@@ -90302,6 +92712,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -90393,6 +92815,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -91881,6 +94315,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -91947,6 +94393,18 @@
             "rarity": 2,
             "img_name_mobile": "3411_dragon_lifetimeliar",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3411_dragon_lifetimeliar_3.png",
+            "attributes": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
+            "elements": [
+              "wr",
+              "pr",
+              "p",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 320002,
             "num_pieces": 6,
@@ -93067,6 +95525,18 @@
             "rarity": 2,
             "img_name_mobile": "2729_dragon_queensvillain",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2729_dragon_queensvillain_3.png",
+            "attributes": [
+              "f",
+              "d",
+              "m",
+              "e"
+            ],
+            "elements": [
+              "f",
+              "d",
+              "m",
+              "e"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -93193,6 +95663,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png",
             "localization_name_key": "tid_unit_2026_name",
             "localization_description_key": "tid_unit_2026_description",
+            "attributes": [
+              "pr",
+              "i"
+            ],
+            "elements": [
+              "pr",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321026,
             "num_pieces": 3,
@@ -93212,6 +95690,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png",
             "localization_name_key": "tid_unit_2705_name",
             "localization_description_key": "tid_unit_2705_description",
+            "attributes": [
+              "d",
+              "i",
+              "w"
+            ],
+            "elements": [
+              "d",
+              "i",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321705,
             "num_pieces": 4,
@@ -93231,6 +95719,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
             "localization_name_key": "tid_unit_3295_name",
             "localization_description_key": "tid_unit_3295_description",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -93250,6 +95750,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png",
             "localization_name_key": "tid_unit_2432_name",
             "localization_description_key": "tid_unit_2432_description",
+            "attributes": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321432,
             "num_pieces": 4,
@@ -93269,6 +95781,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2653_dragon_peacock_3.png",
             "localization_name_key": "tid_unit_2653_name",
             "localization_description_key": "tid_unit_2653_description",
+            "attributes": [
+              "wd",
+              "p",
+              "w",
+              "pr"
+            ],
+            "elements": [
+              "wd",
+              "p",
+              "w",
+              "pr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -94223,6 +96747,14 @@
             "rarity": 3,
             "img_name_mobile": "2026_dragon_verglas",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png",
+            "attributes": [
+              "pr",
+              "i"
+            ],
+            "elements": [
+              "pr",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321026,
             "num_pieces": 3,
@@ -94927,6 +97459,14 @@
             "rarity": 3,
             "img_name_mobile": "2026_dragon_verglas",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png",
+            "attributes": [
+              "pr",
+              "i"
+            ],
+            "elements": [
+              "pr",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321026,
             "num_pieces": 3,
@@ -94951,6 +97491,14 @@
             "rarity": 3,
             "img_name_mobile": "2026_dragon_verglas",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2026_dragon_verglas_3.png",
+            "attributes": [
+              "pr",
+              "i"
+            ],
+            "elements": [
+              "pr",
+              "i"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321026,
             "num_pieces": 3,
@@ -95111,6 +97659,16 @@
             "rarity": 2,
             "img_name_mobile": "2705_dragon_illumidepth",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png",
+            "attributes": [
+              "d",
+              "i",
+              "w"
+            ],
+            "elements": [
+              "d",
+              "i",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321705,
             "num_pieces": 4,
@@ -95445,6 +98003,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -95670,6 +98240,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -96048,6 +98630,16 @@
             "rarity": 2,
             "img_name_mobile": "2705_dragon_illumidepth",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png",
+            "attributes": [
+              "d",
+              "i",
+              "w"
+            ],
+            "elements": [
+              "d",
+              "i",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321705,
             "num_pieces": 4,
@@ -96501,6 +99093,16 @@
             "rarity": 2,
             "img_name_mobile": "2705_dragon_illumidepth",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png",
+            "attributes": [
+              "d",
+              "i",
+              "w"
+            ],
+            "elements": [
+              "d",
+              "i",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321705,
             "num_pieces": 4,
@@ -96559,6 +99161,16 @@
             "rarity": 2,
             "img_name_mobile": "2705_dragon_illumidepth",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2705_dragon_illumidepth_3.png",
+            "attributes": [
+              "d",
+              "i",
+              "w"
+            ],
+            "elements": [
+              "d",
+              "i",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321705,
             "num_pieces": 4,
@@ -97440,6 +100052,18 @@
             "rarity": 1,
             "img_name_mobile": "2432_dragon_icetrek",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321432,
             "num_pieces": 4,
@@ -97634,6 +100258,18 @@
             "rarity": 1,
             "img_name_mobile": "2432_dragon_icetrek",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321432,
             "num_pieces": 4,
@@ -99240,6 +101876,18 @@
             "rarity": 1,
             "img_name_mobile": "2432_dragon_icetrek",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321432,
             "num_pieces": 4,
@@ -99298,6 +101946,18 @@
             "rarity": 1,
             "img_name_mobile": "2432_dragon_icetrek",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2432_dragon_icetrek_3.png",
+            "attributes": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
+            "elements": [
+              "i",
+              "e",
+              "el",
+              "m"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321432,
             "num_pieces": 4,
@@ -99666,6 +102326,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -99757,6 +102429,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -101245,6 +103929,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -101311,6 +104007,18 @@
             "rarity": 2,
             "img_name_mobile": "3295_dragon_prismaticpartner",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3295_dragon_prismaticpartner_3.png",
+            "attributes": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
+            "elements": [
+              "pu",
+              "li",
+              "f",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 321295,
             "num_pieces": 6,
@@ -102430,6 +105138,18 @@
             "rarity": 2,
             "img_name_mobile": "2653_dragon_peacock",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2653_dragon_peacock_3.png",
+            "attributes": [
+              "wd",
+              "p",
+              "w",
+              "pr"
+            ],
+            "elements": [
+              "wd",
+              "p",
+              "w",
+              "pr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -102556,6 +105276,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png",
             "localization_name_key": "tid_unit_1161_name",
             "localization_description_key": "tid_unit_1161_description",
+            "attributes": [
+              "li",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322161,
             "num_pieces": 3,
@@ -102575,6 +105303,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png",
             "localization_name_key": "tid_unit_1425_name",
             "localization_description_key": "tid_unit_1425_description",
+            "attributes": [
+              "e",
+              "p",
+              "el"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322425,
             "num_pieces": 4,
@@ -102594,6 +105332,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
             "localization_name_key": "tid_unit_3186_name",
             "localization_description_key": "tid_unit_3186_description",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -102613,6 +105363,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png",
             "localization_name_key": "tid_unit_2564_name",
             "localization_description_key": "tid_unit_2564_description",
+            "attributes": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
+            "elements": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322564,
             "num_pieces": 4,
@@ -102632,6 +105394,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2707_dragon_exploranaut_3.png",
             "localization_name_key": "tid_unit_2707_name",
             "localization_description_key": "tid_unit_2707_description",
+            "attributes": [
+              "li",
+              "m",
+              "w",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "m",
+              "w",
+              "el"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -103481,6 +106255,14 @@
             "rarity": 5,
             "img_name_mobile": "1161_dragon_luminiscent_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png",
+            "attributes": [
+              "li",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322161,
             "num_pieces": 3,
@@ -104185,6 +106967,14 @@
             "rarity": 5,
             "img_name_mobile": "1161_dragon_luminiscent_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png",
+            "attributes": [
+              "li",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322161,
             "num_pieces": 3,
@@ -104209,6 +106999,14 @@
             "rarity": 5,
             "img_name_mobile": "1161_dragon_luminiscent_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1161_dragon_luminiscent_c_3.png",
+            "attributes": [
+              "li",
+              "w"
+            ],
+            "elements": [
+              "li",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322161,
             "num_pieces": 3,
@@ -104369,6 +107167,16 @@
             "rarity": 5,
             "img_name_mobile": "1425_dragon_airboss",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "el"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322425,
             "num_pieces": 4,
@@ -104703,6 +107511,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -104928,6 +107748,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -105306,6 +108138,16 @@
             "rarity": 5,
             "img_name_mobile": "1425_dragon_airboss",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "el"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322425,
             "num_pieces": 4,
@@ -105759,6 +108601,16 @@
             "rarity": 5,
             "img_name_mobile": "1425_dragon_airboss",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "el"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322425,
             "num_pieces": 4,
@@ -105817,6 +108669,16 @@
             "rarity": 5,
             "img_name_mobile": "1425_dragon_airboss",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1425_dragon_airboss_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "el"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322425,
             "num_pieces": 4,
@@ -106698,6 +109560,18 @@
             "rarity": 1,
             "img_name_mobile": "2564_dragon_kingforestservant",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png",
+            "attributes": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
+            "elements": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322564,
             "num_pieces": 4,
@@ -106892,6 +109766,18 @@
             "rarity": 1,
             "img_name_mobile": "2564_dragon_kingforestservant",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png",
+            "attributes": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
+            "elements": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322564,
             "num_pieces": 4,
@@ -108498,6 +111384,18 @@
             "rarity": 1,
             "img_name_mobile": "2564_dragon_kingforestservant",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png",
+            "attributes": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
+            "elements": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322564,
             "num_pieces": 4,
@@ -108556,6 +111454,18 @@
             "rarity": 1,
             "img_name_mobile": "2564_dragon_kingforestservant",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2564_dragon_kingforestservant_3.png",
+            "attributes": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
+            "elements": [
+              "w",
+              "e",
+              "f",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322564,
             "num_pieces": 4,
@@ -108924,6 +111834,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -109015,6 +111937,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -110503,6 +113437,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -110569,6 +113515,18 @@
             "rarity": 2,
             "img_name_mobile": "3186_dragon_geckobolt",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3186_dragon_geckobolt_3.png",
+            "attributes": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
+            "elements": [
+              "e",
+              "hp",
+              "el",
+              "p"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 322186,
             "num_pieces": 6,
@@ -111689,6 +114647,18 @@
             "rarity": 2,
             "img_name_mobile": "2707_dragon_exploranaut",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2707_dragon_exploranaut_3.png",
+            "attributes": [
+              "li",
+              "m",
+              "w",
+              "el"
+            ],
+            "elements": [
+              "li",
+              "m",
+              "w",
+              "el"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -111815,6 +114785,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png",
             "localization_name_key": "tid_unit_1086_name",
             "localization_description_key": "tid_unit_1086_description",
+            "attributes": [
+              "d",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324086,
             "num_pieces": 3,
@@ -111834,6 +114812,14 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png",
             "localization_name_key": "tid_unit_1190_name",
             "localization_description_key": "tid_unit_1190_description",
+            "attributes": [
+              "wr",
+              "el"
+            ],
+            "elements": [
+              "wr",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324190,
             "num_pieces": 4,
@@ -111853,6 +114839,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
             "localization_name_key": "tid_unit_1541_name",
             "localization_description_key": "tid_unit_1541_description",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -111872,6 +114870,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png",
             "localization_name_key": "tid_unit_1357_name",
             "localization_description_key": "tid_unit_1357_description",
+            "attributes": [
+              "w",
+              "li",
+              "el"
+            ],
+            "elements": [
+              "w",
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324357,
             "num_pieces": 4,
@@ -111891,6 +114899,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3409_dragon_bandaged_3.png",
             "localization_name_key": "tid_unit_3409_name",
             "localization_description_key": "tid_unit_3409_description",
+            "attributes": [
+              "ti",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "ti",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -112860,6 +115880,14 @@
             "rarity": 5,
             "img_name_mobile": "1086_dragon_bat_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png",
+            "attributes": [
+              "d",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324086,
             "num_pieces": 3,
@@ -113564,6 +116592,14 @@
             "rarity": 5,
             "img_name_mobile": "1086_dragon_bat_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png",
+            "attributes": [
+              "d",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324086,
             "num_pieces": 3,
@@ -113588,6 +116624,14 @@
             "rarity": 5,
             "img_name_mobile": "1086_dragon_bat_b",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1086_dragon_bat_b_3.png",
+            "attributes": [
+              "d",
+              "e"
+            ],
+            "elements": [
+              "d",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324086,
             "num_pieces": 3,
@@ -113748,6 +116792,14 @@
             "rarity": 6,
             "img_name_mobile": "1190_dragon_tesla_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png",
+            "attributes": [
+              "wr",
+              "el"
+            ],
+            "elements": [
+              "wr",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324190,
             "num_pieces": 4,
@@ -114082,6 +117134,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -114307,6 +117371,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -114685,6 +117761,14 @@
             "rarity": 6,
             "img_name_mobile": "1190_dragon_tesla_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png",
+            "attributes": [
+              "wr",
+              "el"
+            ],
+            "elements": [
+              "wr",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324190,
             "num_pieces": 4,
@@ -115138,6 +118222,14 @@
             "rarity": 6,
             "img_name_mobile": "1190_dragon_tesla_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png",
+            "attributes": [
+              "wr",
+              "el"
+            ],
+            "elements": [
+              "wr",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324190,
             "num_pieces": 4,
@@ -115196,6 +118288,14 @@
             "rarity": 6,
             "img_name_mobile": "1190_dragon_tesla_c",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1190_dragon_tesla_c_3.png",
+            "attributes": [
+              "wr",
+              "el"
+            ],
+            "elements": [
+              "wr",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324190,
             "num_pieces": 4,
@@ -116077,6 +119177,16 @@
             "rarity": 5,
             "img_name_mobile": "1357_dragon_scorpio",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png",
+            "attributes": [
+              "w",
+              "li",
+              "el"
+            ],
+            "elements": [
+              "w",
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324357,
             "num_pieces": 4,
@@ -116271,6 +119381,16 @@
             "rarity": 5,
             "img_name_mobile": "1357_dragon_scorpio",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png",
+            "attributes": [
+              "w",
+              "li",
+              "el"
+            ],
+            "elements": [
+              "w",
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324357,
             "num_pieces": 4,
@@ -117877,6 +120997,16 @@
             "rarity": 5,
             "img_name_mobile": "1357_dragon_scorpio",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png",
+            "attributes": [
+              "w",
+              "li",
+              "el"
+            ],
+            "elements": [
+              "w",
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324357,
             "num_pieces": 4,
@@ -117935,6 +121065,16 @@
             "rarity": 5,
             "img_name_mobile": "1357_dragon_scorpio",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1357_dragon_scorpio_3.png",
+            "attributes": [
+              "w",
+              "li",
+              "el"
+            ],
+            "elements": [
+              "w",
+              "li",
+              "el"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324357,
             "num_pieces": 4,
@@ -118303,6 +121443,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -118394,6 +121546,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -119882,6 +123046,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -119948,6 +123124,18 @@
             "rarity": 10,
             "img_name_mobile": "1541_dragon_sentence",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1541_dragon_sentence_3.png",
+            "attributes": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "d",
+              "m",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 324541,
             "num_pieces": 6,
@@ -121067,6 +124255,18 @@
             "rarity": 2,
             "img_name_mobile": "3409_dragon_bandaged",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3409_dragon_bandaged_3.png",
+            "attributes": [
+              "ti",
+              "d",
+              "el",
+              "wr"
+            ],
+            "elements": [
+              "ti",
+              "d",
+              "el",
+              "wr"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -121193,6 +124393,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2183_dragon_oilpaint_3.png",
             "localization_name_key": "tid_unit_2183_name",
             "localization_description_key": "tid_unit_2183_description",
+            "attributes": [
+              "wr",
+              "w",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "w",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323183,
             "num_pieces": 3,
@@ -121212,6 +124422,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png",
             "localization_name_key": "tid_unit_2673_name",
             "localization_description_key": "tid_unit_2673_description",
+            "attributes": [
+              "e",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323673,
             "num_pieces": 4,
@@ -121231,6 +124451,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
             "localization_name_key": "tid_unit_2979_name",
             "localization_description_key": "tid_unit_2979_description",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -121250,6 +124482,16 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png",
             "localization_name_key": "tid_unit_1781_name",
             "localization_description_key": "tid_unit_1781_description",
+            "attributes": [
+              "m",
+              "el",
+              "e"
+            ],
+            "elements": [
+              "m",
+              "el",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323781,
             "num_pieces": 4,
@@ -121269,6 +124511,18 @@
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3009_dragon_pufferfish_3.png",
             "localization_name_key": "tid_unit_3009_name",
             "localization_description_key": "tid_unit_3009_description",
+            "attributes": [
+              "wd",
+              "li",
+              "e",
+              "ch"
+            ],
+            "elements": [
+              "wd",
+              "li",
+              "e",
+              "ch"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
@@ -122163,6 +125417,16 @@
             "rarity": 1,
             "img_name_mobile": "2183_dragon_oilpaint",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2183_dragon_oilpaint_3.png",
+            "attributes": [
+              "wr",
+              "w",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "w",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323183,
             "num_pieces": 3,
@@ -122867,6 +126131,16 @@
             "rarity": 1,
             "img_name_mobile": "2183_dragon_oilpaint",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2183_dragon_oilpaint_3.png",
+            "attributes": [
+              "wr",
+              "w",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "w",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323183,
             "num_pieces": 3,
@@ -122891,6 +126165,16 @@
             "rarity": 1,
             "img_name_mobile": "2183_dragon_oilpaint",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2183_dragon_oilpaint_3.png",
+            "attributes": [
+              "wr",
+              "w",
+              "f"
+            ],
+            "elements": [
+              "wr",
+              "w",
+              "f"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323183,
             "num_pieces": 3,
@@ -123051,6 +126335,16 @@
             "rarity": 1,
             "img_name_mobile": "2673_dragon_eldermountain",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323673,
             "num_pieces": 4,
@@ -123486,6 +126780,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -123610,6 +126916,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -123988,6 +127306,16 @@
             "rarity": 1,
             "img_name_mobile": "2673_dragon_eldermountain",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323673,
             "num_pieces": 4,
@@ -124441,6 +127769,16 @@
             "rarity": 1,
             "img_name_mobile": "2673_dragon_eldermountain",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323673,
             "num_pieces": 4,
@@ -124499,6 +127837,16 @@
             "rarity": 1,
             "img_name_mobile": "2673_dragon_eldermountain",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2673_dragon_eldermountain_3.png",
+            "attributes": [
+              "e",
+              "p",
+              "w"
+            ],
+            "elements": [
+              "e",
+              "p",
+              "w"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323673,
             "num_pieces": 4,
@@ -125380,6 +128728,16 @@
             "rarity": 6,
             "img_name_mobile": "1781_dragon_voltaix",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png",
+            "attributes": [
+              "m",
+              "el",
+              "e"
+            ],
+            "elements": [
+              "m",
+              "el",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323781,
             "num_pieces": 4,
@@ -125574,6 +128932,16 @@
             "rarity": 6,
             "img_name_mobile": "1781_dragon_voltaix",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png",
+            "attributes": [
+              "m",
+              "el",
+              "e"
+            ],
+            "elements": [
+              "m",
+              "el",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323781,
             "num_pieces": 4,
@@ -127180,6 +130548,16 @@
             "rarity": 6,
             "img_name_mobile": "1781_dragon_voltaix",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png",
+            "attributes": [
+              "m",
+              "el",
+              "e"
+            ],
+            "elements": [
+              "m",
+              "el",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323781,
             "num_pieces": 4,
@@ -127238,6 +130616,16 @@
             "rarity": 6,
             "img_name_mobile": "1781_dragon_voltaix",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1781_dragon_voltaix_3.png",
+            "attributes": [
+              "m",
+              "el",
+              "e"
+            ],
+            "elements": [
+              "m",
+              "el",
+              "e"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323781,
             "num_pieces": 4,
@@ -127606,6 +130994,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -127697,6 +131097,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -129185,6 +132597,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -129251,6 +132675,18 @@
             "rarity": 3,
             "img_name_mobile": "2979_dragon_cactispine",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2979_dragon_cactispine_3.png",
+            "attributes": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
+            "elements": [
+              "bt",
+              "p",
+              "pr",
+              "so"
+            ],
             "reward_type": "dragon_piece",
             "reward_config_id": 323979,
             "num_pieces": 6,
@@ -130371,6 +133807,18 @@
             "rarity": 3,
             "img_name_mobile": "3009_dragon_pufferfish",
             "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3009_dragon_pufferfish_3.png",
+            "attributes": [
+              "wd",
+              "li",
+              "e",
+              "ch"
+            ],
+            "elements": [
+              "wd",
+              "li",
+              "e",
+              "ch"
+            ],
             "reward_type": "egg",
             "num_pieces": 0,
             "is_final_dragon": true
