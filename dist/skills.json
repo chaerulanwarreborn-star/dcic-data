@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T17:18:51Z",
-  "count": 599,
-  "linked_count": 309,
+  "generated_at": "2026-10-23T11:42:58Z",
+  "count": 605,
+  "linked_count": 312,
   "skills": [
     {
       "id": 1,
@@ -22313,19 +22313,8 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 1,
-      "linked_dragons": [
-        {
-          "dragon_id": 3506,
-          "dragon_name": "High Calavera Dragon",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
-          "attack_id": 0,
-          "attack_name": "Doommark",
-          "move_type": "passive",
-          "element": ""
-        }
-      ]
+      "usage_count": 0,
+      "linked_dragons": []
     },
     {
       "id": 404,
@@ -30128,8 +30117,8 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "damage": 2000,
-            "multiplier": 2.2,
+            "damage": 1700,
+            "multiplier": 1.6,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         },
@@ -30166,12 +30155,16 @@
         "trained"
       ],
       "elements": [
-        "dr"
+        "dr",
+        "el",
+        "ti"
       ],
       "element_names": [
-        "Dream"
+        "Dream",
+        "Electric",
+        "Time"
       ],
-      "usage_count": 2,
+      "usage_count": 6,
       "linked_dragons": [
         {
           "dragon_id": 3510,
@@ -30194,6 +30187,50 @@
           "move_type": "trained",
           "element": "dr",
           "ui_damage": 2350
+        },
+        {
+          "dragon_id": 3511,
+          "dragon_name": "Hypno Siren",
+          "rarity": "L",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+          "attack_id": 1620,
+          "attack_name": "Mind Break",
+          "move_type": "basic",
+          "element": "el",
+          "ui_damage": 2100
+        },
+        {
+          "dragon_id": 3511,
+          "dragon_name": "Hypno Siren",
+          "rarity": "L",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+          "attack_id": 1620,
+          "attack_name": "Mind Break",
+          "move_type": "trained",
+          "element": "el",
+          "ui_damage": 2100
+        },
+        {
+          "dragon_id": 3512,
+          "dragon_name": "Hypno Whisperer",
+          "rarity": "M",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+          "attack_id": 1627,
+          "attack_name": "Mind Break",
+          "move_type": "basic",
+          "element": "ti",
+          "ui_damage": 2150
+        },
+        {
+          "dragon_id": 3512,
+          "dragon_name": "Hypno Whisperer",
+          "rarity": "M",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+          "attack_id": 1627,
+          "attack_name": "Mind Break",
+          "move_type": "trained",
+          "element": "ti",
+          "ui_damage": 2150
         }
       ]
     },
@@ -30491,7 +30528,7 @@
     },
     {
       "id": 587,
-      "name": "Silence",
+      "name": "Catrina's Seal",
       "description": "Prevents opponents from using skills",
       "cooldown": 2,
       "effects": [
@@ -30540,7 +30577,7 @@
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
           "attack_id": 1619,
-          "attack_name": "Silence",
+          "attack_name": "Catrina's Seal",
           "move_type": "basic",
           "element": "bt",
           "ui_damage": 2050
@@ -30551,12 +30588,310 @@
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
           "attack_id": 1619,
-          "attack_name": "Silence",
+          "attack_name": "Catrina's Seal",
           "move_type": "trained",
           "element": "bt",
           "ui_damage": 2050
         }
       ]
+    },
+    {
+      "id": 588,
+      "name": "Doommark",
+      "description": "Applies Doommark once the user is knocked out",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 856,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              77
+            ],
+            "numPassives": 2,
+            "passiveStacks": true,
+            "addRandomly": false,
+            "vfx": "doom-mark_skill",
+            "dragonAnimation": "special1"
+          }
+        }
+      ],
+      "effect_types": [
+        "GIVE_PASSIVE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3506,
+          "dragon_name": "High Calavera Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+          "attack_id": 0,
+          "attack_name": "Doommark",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "name": "Skill 589",
+      "description": "Skill Description Hypnosiren 2 Random Crit",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 857,
+          "type": "CRIT_ATTACK",
+          "target": "ENEMY_RANDOM_1",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2200,
+            "multiplier": 2.3,
+            "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+            "effectName": "tid_crit_effect_name"
+          }
+        }
+      ],
+      "effect_types": [
+        "CRIT_ATTACK"
+      ],
+      "targets": [
+        "ENEMY_RANDOM_1"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "so"
+      ],
+      "element_names": [
+        "Soul"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3511,
+          "dragon_name": "Hypno Siren",
+          "rarity": "L",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+          "attack_id": 1622,
+          "attack_name": "Hypno Siren Radnom Crit",
+          "move_type": "basic",
+          "element": "so",
+          "ui_damage": 2200
+        },
+        {
+          "dragon_id": 3511,
+          "dragon_name": "Hypno Siren",
+          "rarity": "L",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+          "attack_id": 1622,
+          "attack_name": "Hypno Siren Radnom Crit",
+          "move_type": "trained",
+          "element": "so",
+          "ui_damage": 2200
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "name": "Skill 590",
+      "description": "Skill Description Hypnowhisperer 2 Silenceall + Damage",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 340,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 1.5
+          }
+        },
+        {
+          "id": 341,
+          "type": "SILENCE",
+          "target": "ENEMY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "vfx": "silenced_shield_3"
+          }
+        }
+      ],
+      "effect_types": [
+        "DAMAGE",
+        "SILENCE"
+      ],
+      "targets": [
+        "ENEMY",
+        "ENEMY_TEAM"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "f"
+      ],
+      "element_names": [
+        "Flame"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3512,
+          "dragon_name": "Hypno Whisperer",
+          "rarity": "M",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+          "attack_id": 1629,
+          "attack_name": "Hypno whisperer Radnom Crit",
+          "move_type": "basic",
+          "element": "f",
+          "ui_damage": 2200
+        },
+        {
+          "dragon_id": 3512,
+          "dragon_name": "Hypno Whisperer",
+          "rarity": "M",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+          "attack_id": 1629,
+          "attack_name": "Hypno whisperer Radnom Crit",
+          "move_type": "trained",
+          "element": "f",
+          "ui_damage": 2200
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "name": "Skill 591",
+      "description": "Skill Description Hypnowhisperer Passive Exhaust",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 476,
+          "type": "ATTACK_TAG_MODIFIER",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "type": "decrease_attack",
+            "overrideModifiers": [
+              0.6
+            ],
+            "activeTurns": 3
+          }
+        }
+      ],
+      "effect_types": [
+        "ATTACK_TAG_MODIFIER"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 592,
+      "name": "Skill 592",
+      "description": "Skill Description Hypnowhisperer Passive Exhaust-Give",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 858,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              129
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "addRandomly": false,
+            "dragonAnimation": "special1",
+            "vfx": "void_skill",
+            "giveToDragons": "any",
+            "vfxAttachedToTarget": "true"
+          }
+        }
+      ],
+      "effect_types": [
+        "GIVE_PASSIVE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3512,
+          "dragon_name": "Hypno Whisperer",
+          "rarity": "M",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+          "attack_id": 0,
+          "attack_name": "Hypno Whisperer Exhaust on Ener Give",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
+    },
+    {
+      "id": 593,
+      "name": "[SKIN] tid_skill_name_hypnowhisperer_passive_silenceall + damage-give",
+      "description": "Skill Description Hypnowhisperer Passive Exhaust-Give",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 859,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              131
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "addRandomly": false,
+            "dragonAnimation": "special1",
+            "vfx": "void_skill",
+            "giveToDragons": "any",
+            "vfxAttachedToTarget": "true"
+          }
+        }
+      ],
+      "effect_types": [
+        "GIVE_PASSIVE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
     },
     {
       "id": 921,
@@ -31247,18 +31582,8 @@
       "move_types": [],
       "elements": [],
       "element_names": [],
-      "usage_count": 2,
+      "usage_count": 1,
       "linked_dragons": [
-        {
-          "dragon_id": 3477,
-          "dragon_name": "Apex of Day",
-          "rarity": "H",
-          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3477_dragon_apexofday_3.png",
-          "attack_id": 0,
-          "attack_name": "Solar Surge",
-          "move_type": "passive",
-          "element": ""
-        },
         {
           "dragon_id": 3477,
           "dragon_name": "Apex of Day",

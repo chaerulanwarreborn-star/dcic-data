@@ -1,10 +1,10 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-22T17:18:33Z",
+  "generated_at": "2026-10-23T11:42:41Z",
   "album_count": 5,
-  "set_count": 53,
-  "sticker_count": 537,
-  "pack_count": 27,
+  "set_count": 54,
+  "sticker_count": 551,
+  "pack_count": 28,
   "pack_context_album_id": 15,
   "albums": [
     {
@@ -15242,8 +15242,420 @@
           "rubber_banding": null
         }
       ],
-      "temporary_sets": [],
+      "temporary_sets": [
+        {
+          "id": 15013,
+          "name": "Dia de los Muertos Set",
+          "lifetime": "temporary",
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_diademuertos_set_a.png",
+          "asset_stickers": "temp_album_dia_de_muertos",
+          "start_ts": 1793617200,
+          "end_ts": 1794394800,
+          "status": "upcoming",
+          "reward": [
+            {
+              "id": 3506,
+              "name": "High Calavera Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_1@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_3@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3506
+              },
+              "kind": "egg",
+              "amount": 1
+            },
+            {
+              "kind": "joker_orbs",
+              "rarity": "H",
+              "name": "Heroic Joker Orbs",
+              "amount": 50,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png"
+            },
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 3,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "kind": "perk",
+              "id": 7,
+              "name": "Advanced Health Perk",
+              "amount": 3,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            },
+            {
+              "id": 3506,
+              "name": "High Calavera Orbs",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3506
+              },
+              "kind": "dragon_orbs",
+              "amount": 500
+            }
+          ],
+          "stickers": [
+            {
+              "id": 150121,
+              "name": "Spooky Habitat",
+              "description": "Spooky Habitat",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150122,
+              "name": "Calaverina Dragon",
+              "description": "The Calaverina Dragon can communicate with dragons across any universe and her services are highly requested. However, in order to do so, she must be dressed to the nines, and that can take a while. But when she’s finally finished she always looks amazing!",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150123,
+              "name": "Calaverina Dragon",
+              "description": "The Calaverina Dragon can communicate with dragons across any universe and her services are highly requested. However, in order to do so, she must be dressed to the nines, and that can take a while. But when she’s finally finished she always looks amazing!",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150124,
+              "name": "Calaverina Dragon",
+              "description": "The Calaverina Dragon can communicate with dragons across any universe and her services are highly requested. However, in order to do so, she must be dressed to the nines, and that can take a while. But when she’s finally finished she always looks amazing!",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150125,
+              "name": "Calaca Dragon",
+              "description": "The Calaca Dragon is the master of fright. This terrifying dragon creeps around Dragon City hiding in corners waiting for the chance to jump out when it’s least expected. If that doesn’t scare you, his attacks will.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150126,
+              "name": "Calaca Dragon",
+              "description": "The Calaca Dragon is the master of fright. This terrifying dragon creeps around Dragon City hiding in corners waiting for the chance to jump out when it’s least expected. If that doesn’t scare you, his attacks will.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150127,
+              "name": "Calaca Dragon",
+              "description": "The Calaca Dragon is the master of fright. This terrifying dragon creeps around Dragon City hiding in corners waiting for the chance to jump out when it’s least expected. If that doesn’t scare you, his attacks will.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150128,
+              "name": "High Hallows Dragon",
+              "description": "Once the October fog has settled, sharps cracks, whips, and creaks can be heard throughout the forest... The High Hallows Dragon arrived, and it's hungry! Once its roots have got hold of your ankle, your soul is ready to be feasted upon.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150129,
+              "name": "High Hallows Dragon",
+              "description": "Once the October fog has settled, sharps cracks, whips, and creaks can be heard throughout the forest... The High Hallows Dragon arrived, and it's hungry! Once its roots have got hold of your ankle, your soul is ready to be feasted upon.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150130,
+              "name": "High Hallows Dragon",
+              "description": "Once the October fog has settled, sharps cracks, whips, and creaks can be heard throughout the forest... The High Hallows Dragon arrived, and it's hungry! Once its roots have got hold of your ankle, your soul is ready to be feasted upon.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150131,
+              "name": "High Calavera Dragon",
+              "description": "Long before the Dragon Realm knew its first sunrise, High Calavera was already keeping watch. Adorned in the colors of remembrance and the markings of those who came before, it carries the memories of every dragon that has ever crossed into the beyond.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150132,
+              "name": "High Calavera Dragon",
+              "description": "Long before the Dragon Realm knew its first sunrise, High Calavera was already keeping watch. Adorned in the colors of remembrance and the markings of those who came before, it carries the memories of every dragon that has ever crossed into the beyond.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_20_20_0_0",
+              "weight_vector": [
+                0,
+                0,
+                20,
+                20,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150133,
+              "name": "High Calavera Dragon",
+              "description": "Long before the Dragon Realm knew its first sunrise, High Calavera was already keeping watch. Adorned in the colors of remembrance and the markings of those who came before, it carries the memories of every dragon that has ever crossed into the beyond.",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            },
+            {
+              "id": 150134,
+              "name": "Drago Catrina Skin",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 20%",
+              "rarity": "rarity_diademuertos",
+              "rarity_name": "temporal",
+              "rarity_type": "temporal",
+              "diamonds": 1,
+              "weight_id": "album15_w_0_0_100_100_0_0",
+              "weight_vector": [
+                0,
+                0,
+                100,
+                100,
+                0,
+                0
+              ],
+              "weight": 0,
+              "closed_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+              "probability": 0.0
+            }
+          ],
+          "sticker_count": 14,
+          "pack_deeplink": [
+            "album_pack.diademuertos"
+          ],
+          "rubber_banding": 1507
+        }
+      ],
       "shop": [
+        {
+          "id": 1505,
+          "cost": [
+            {
+              "kind": "resource",
+              "type": "album_dust",
+              "key": "album_dust.diademuertos",
+              "name": "Sticker Diamond",
+              "amount": 1,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_album-dust_diademuertos_massive.png"
+            }
+          ],
+          "reward": [
+            {
+              "kind": "chest",
+              "id": 19643,
+              "name": "Dia de los Muertos Chest",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_diademuertos@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_duplicate_machine_diademuertos@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_duplicate_machine_diademuertos@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_diademuertos@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/duplicate_machine_diademuertos.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 19643,
+                "type": "generic"
+              }
+            }
+          ],
+          "purchase_limit": 0,
+          "cooldown": "0h"
+        },
         {
           "id": 1501,
           "cost": [
@@ -73705,6 +74117,651 @@
           }
         ],
         "stickers": []
+      },
+      "possible_rewards_2": {
+        "total_rewards": 0,
+        "rewards_drawn": 0,
+        "rarity_groups": [],
+        "stickers": []
+      }
+    },
+    {
+      "id": 1501,
+      "size": "diademuertos",
+      "config_rarity": "diademuertos",
+      "economy_system_id": "album_pack.diademuertos",
+      "lookup_keys": [
+        "diademuertos",
+        "1501",
+        "album_pack.diademuertos"
+      ],
+      "aliases": [
+        "pack"
+      ],
+      "name": "Diademuertos Sticker Pack",
+      "stickers_amount": 1,
+      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-stickers-pack-diademuertos/HD/ic-stickers-pack-diademuertos_c.png",
+      "summary": "Contains 1 Sticker, at least 1 1-Diamond Dia de los Muertos Set Sticker Guaranteed",
+      "context_album_id": 15,
+      "context_start_ts": 1792058400,
+      "context_end_ts": 1795687140,
+      "availability_start_ts": 1793617200,
+      "availability_end_ts": 1794394800,
+      "context_periods": [
+        "week1",
+        "week2",
+        "week3",
+        "week4",
+        "week5",
+        "week6"
+      ],
+      "context_period_index": 1,
+      "period_seconds": 604800,
+      "probability_model": "live_album_period_v1",
+      "temporary_set_id": 15013,
+      "possible_rewards_1": {
+        "total_rewards": 14,
+        "rewards_drawn": 1,
+        "rarity_groups": [
+          {
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "drawn": 1,
+            "sticker_count": 14,
+            "stickers": [
+              {
+                "id": 150121,
+                "name": "Spooky Habitat",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150122,
+                "name": "Calaverina Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150123,
+                "name": "Calaverina Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150124,
+                "name": "Calaverina Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150125,
+                "name": "Calaca Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150126,
+                "name": "Calaca Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150127,
+                "name": "Calaca Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150128,
+                "name": "High Hallows Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150129,
+                "name": "High Hallows Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150130,
+                "name": "High Hallows Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150131,
+                "name": "High Calavera Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150132,
+                "name": "High Calavera Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_20_20_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  20,
+                  20,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150133,
+                "name": "High Calavera Dragon",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              },
+              {
+                "id": 150134,
+                "name": "Drago Catrina Skin",
+                "amount": 1,
+                "rarity": "rarity_diademuertos",
+                "rarity_name": "temporal",
+                "rarity_type": "temporal",
+                "diamonds": 1,
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+                "weight_id": "album15_w_0_0_100_100_0_0",
+                "weight_vector": [
+                  0,
+                  0,
+                  100,
+                  100,
+                  0,
+                  0
+                ],
+                "weight": 0,
+                "probability": 0.0
+              }
+            ]
+          }
+        ],
+        "stickers": [
+          {
+            "id": 150121,
+            "name": "Spooky Habitat",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150122,
+            "name": "Calaverina Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150123,
+            "name": "Calaverina Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150124,
+            "name": "Calaverina Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150125,
+            "name": "Calaca Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150126,
+            "name": "Calaca Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150127,
+            "name": "Calaca Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150128,
+            "name": "High Hallows Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150129,
+            "name": "High Hallows Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150130,
+            "name": "High Hallows Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150131,
+            "name": "High Calavera Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150132,
+            "name": "High Calavera Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_20_20_0_0",
+            "weight_vector": [
+              0,
+              0,
+              20,
+              20,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150133,
+            "name": "High Calavera Dragon",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          },
+          {
+            "id": 150134,
+            "name": "Drago Catrina Skin",
+            "amount": 1,
+            "rarity": "rarity_diademuertos",
+            "rarity_name": "temporal",
+            "rarity_type": "temporal",
+            "diamonds": 1,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/temporary_sticker_rarity_1.png",
+            "weight_id": "album15_w_0_0_100_100_0_0",
+            "weight_vector": [
+              0,
+              0,
+              100,
+              100,
+              0,
+              0
+            ],
+            "weight": 0,
+            "probability": 0.0
+          }
+        ]
       },
       "possible_rewards_2": {
         "total_rewards": 0,

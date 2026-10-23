@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T17:18:13.667890Z",
+  "generated_at": "2026-10-23T11:42:17.678884Z",
   "source_file": "game_config.json",
-  "event_count": 86,
+  "event_count": 87,
   "events": [
     {
       "key": "event_island:1",
@@ -3766,6 +3766,57 @@
       "building_id": 10203,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_10203_hallomuertos_secondary_island@2x.png",
       "asset_zip": "/mobile/ui/maze_islands/mi_halloween25.zip"
+    },
+    {
+      "key": "heroic_race:321",
+      "id": 321,
+      "type": "heroic_race",
+      "variant": "mythical_race",
+      "type_label": "Mythical Race",
+      "title": "Impervious Diamond Mythical Race",
+      "subtitle": "",
+      "start_ts": 1794481200,
+      "end_ts": 1795431600,
+      "start_iso": "2026-11-12T11:00:00Z",
+      "end_iso": "2026-11-23T11:00:00Z",
+      "guide": "/p/heroic-race-guide.html?id=321",
+      "schedule_source": "game_config",
+      "source_section": "heroic_races",
+      "featured_dragons": [
+        {
+          "id": 2500,
+          "name": "Impervious Diamond Dragon",
+          "rarity": "M",
+          "img_name": "2500_dragon_imperviousdiamond_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2500_dragon_imperviousdiamond_b_3.png"
+        },
+        {
+          "id": 2928,
+          "name": "Diamonds Dragon",
+          "rarity": "L",
+          "img_name": "2928_dragon_diamonds",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2928_dragon_diamonds_3.png"
+        },
+        {
+          "id": 3192,
+          "name": "Daffodrill Dragon",
+          "rarity": "L",
+          "img_name": "3192_dragon_daffodrill",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3192_dragon_daffodrill_3.png"
+        },
+        {
+          "id": 2457,
+          "name": "Hummingbird Dragon",
+          "rarity": "E",
+          "img_name": "2457_dragon_hummingbird_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2457_dragon_hummingbird_b_3.png"
+        }
+      ],
+      "featured_dragon_count": 4,
+      "building_id": 11088,
+      "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
+      "featured_dragon_id": 2500,
+      "asset_zip": "/mobile/ui/heroicraces_islands/mr_110_mythical_imperviousdiamond.zip"
     }
   ],
   "warnings": [
