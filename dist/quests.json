@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T11:42:52Z",
+  "generated_at": "2026-10-25T16:11:41Z",
   "quest_count": 187,
   "permanent_count": 45,
   "event_count": 142,
@@ -287326,7 +287326,7 @@
       "end_ts": 1793271600,
       "start_iso": "2026-10-25T11:00:00Z",
       "end_iso": "2026-10-29T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 10,
       "stages": [
         {
@@ -288151,7 +288151,7 @@
       "end_ts": 1792926000,
       "start_iso": "2026-10-22T10:00:00Z",
       "end_iso": "2026-10-25T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -289801,7 +289801,7 @@
       "end_ts": 1794481200,
       "start_iso": "2026-10-24T10:00:00Z",
       "end_iso": "2026-11-12T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 22,
       "stages": [
         {
@@ -297784,7 +297784,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -297894,7 +297894,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -298004,7 +298004,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -298114,7 +298114,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -298224,7 +298224,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -298334,7 +298334,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [
@@ -298444,7 +298444,7 @@
               "elements": [],
               "dragon": {
                 "id": 3511,
-                "name": "Hypno Siren",
+                "name": "Hypno Siren Dragon",
                 "rarity": "L",
                 "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
                 "image_candidates": [

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-23T11:42:49Z",
+  "generated_at": "2026-10-25T16:11:38Z",
   "count": 2529,
   "detail_shards": 32,
   "collections": [
@@ -39927,12 +39927,12 @@
     {
       "id": 2414,
       "time_pool_id": 2414,
-      "status": "current",
+      "status": "past",
       "start_ts": 1792749600,
       "end_ts": 1792836000,
       "start_iso": "2026-10-23T10:00:00Z",
       "end_iso": "2026-10-24T10:00:00Z",
-      "tooltip_icon_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragontvroulette/icons/HD/ic-dragon-tv-token-1000-gems-small.png",
+      "tooltip_icon_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragontvroulette/icons/HD/ic-dragon-tv-chest-witch-broomstick-small.png",
       "error_building_image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dtv-and-ads/dtv_error.png",
       "has_rewards": true,
       "tier_count": 3,
@@ -39943,7 +39943,7 @@
     {
       "id": 2415,
       "time_pool_id": 2415,
-      "status": "upcoming",
+      "status": "past",
       "start_ts": 1792836000,
       "end_ts": 1792922400,
       "start_iso": "2026-10-24T10:00:00Z",
@@ -39959,7 +39959,7 @@
     {
       "id": 2416,
       "time_pool_id": 2416,
-      "status": "upcoming",
+      "status": "current",
       "start_ts": 1792926000,
       "end_ts": 1793012400,
       "start_iso": "2026-10-25T11:00:00Z",
