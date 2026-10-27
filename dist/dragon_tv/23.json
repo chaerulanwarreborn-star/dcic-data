@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:09:33Z",
+  "generated_at": "2026-10-27T16:11:26Z",
   "collections": [
     {
       "id": 4023,
@@ -45478,31 +45478,6 @@
             },
             {
               "position": 19,
-              "reward_id": 442,
-              "rewards": [
-                {
-                  "kind": "chest",
-                  "id": 12189,
-                  "name": "VIP Portal",
-                  "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                  "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b.png",
-                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-                  ],
-                  "popup": {
-                    "kind": "chest",
-                    "id": 12189,
-                    "type": "generic"
-                  }
-                }
-              ]
-            },
-            {
-              "position": 20,
               "reward_id": 792,
               "rewards": [
                 {
@@ -45521,6 +45496,31 @@
                   "popup": {
                     "kind": "chest",
                     "id": 16552,
+                    "type": "generic"
+                  }
+                }
+              ]
+            },
+            {
+              "position": 20,
+              "reward_id": 960,
+              "rewards": [
+                {
+                  "kind": "chest",
+                  "id": 19470,
+                  "name": "Hallows Pumpkin",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_horrorhouse@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_horrorhouse.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 19470,
                     "type": "generic"
                   }
                 }

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T09:09:42Z",
-  "count": 2195,
+  "generated_at": "2026-10-27T16:11:35Z",
+  "count": 2213,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -1800,6 +1800,111 @@
       "type": "currency",
       "image_url": "",
       "family": "album15"
+    },
+    {
+      "key": "album15_diademuertos.sticker.*",
+      "name": "album15_diademuertos.sticker.*",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150121",
+      "name": "album15_diademuertos.sticker.150121",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150122",
+      "name": "album15_diademuertos.sticker.150122",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150123",
+      "name": "album15_diademuertos.sticker.150123",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150124",
+      "name": "album15_diademuertos.sticker.150124",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150125",
+      "name": "album15_diademuertos.sticker.150125",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150126",
+      "name": "album15_diademuertos.sticker.150126",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150127",
+      "name": "album15_diademuertos.sticker.150127",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150128",
+      "name": "album15_diademuertos.sticker.150128",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150129",
+      "name": "album15_diademuertos.sticker.150129",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150130",
+      "name": "album15_diademuertos.sticker.150130",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150131",
+      "name": "album15_diademuertos.sticker.150131",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150132",
+      "name": "album15_diademuertos.sticker.150132",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150133",
+      "name": "album15_diademuertos.sticker.150133",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
+    },
+    {
+      "key": "album15_diademuertos.sticker.150134",
+      "name": "album15_diademuertos.sticker.150134",
+      "type": "currency",
+      "image_url": "",
+      "family": "album15_diademuertos"
     },
     {
       "key": "album_1.sticker.*",
@@ -7654,6 +7759,13 @@
       "family": "album_dust"
     },
     {
+      "key": "album_dust.diademuertos",
+      "name": "album_dust.diademuertos",
+      "type": "currency",
+      "image_url": "",
+      "family": "album_dust"
+    },
+    {
       "key": "album_dust.groovefest",
       "name": "album_dust.groovefest",
       "type": "currency",
@@ -10683,6 +10795,13 @@
       "type": "currency",
       "image_url": "",
       "family": "not_owned_sticker_rarity_black_friday"
+    },
+    {
+      "key": "not_owned_sticker_rarity_diademuertos",
+      "name": "not_owned_sticker_rarity_diademuertos",
+      "type": "currency",
+      "image_url": "",
+      "family": "not_owned_sticker_rarity_diademuertos"
     },
     {
       "key": "not_owned_sticker_rarity_groovefest",
@@ -15272,6 +15391,13 @@
     {
       "key": "temporary_sticker_set_pass_points.20260921",
       "name": "temporary_sticker_set_pass_points.20260921",
+      "type": "currency",
+      "image_url": "",
+      "family": "temporary_sticker_set_pass"
+    },
+    {
+      "key": "temporary_sticker_set_pass_points.20261102",
+      "name": "temporary_sticker_set_pass_points.20261102",
       "type": "currency",
       "image_url": "",
       "family": "temporary_sticker_set_pass"

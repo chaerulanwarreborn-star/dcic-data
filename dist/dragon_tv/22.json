@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:09:33Z",
+  "generated_at": "2026-10-27T16:11:26Z",
   "collections": [
     {
       "id": 4022,
@@ -45491,31 +45491,6 @@
             },
             {
               "position": 19,
-              "reward_id": 442,
-              "rewards": [
-                {
-                  "kind": "chest",
-                  "id": 12189,
-                  "name": "VIP Portal",
-                  "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                  "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/452_chest_portal_b.png",
-                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-                  ],
-                  "popup": {
-                    "kind": "chest",
-                    "id": 12189,
-                    "type": "generic"
-                  }
-                }
-              ]
-            },
-            {
-              "position": 20,
               "reward_id": 847,
               "rewards": [
                 {
@@ -45528,6 +45503,30 @@
                     "kind": "pet_food_basket",
                     "id": "s"
                   }
+                }
+              ]
+            },
+            {
+              "position": 20,
+              "reward_id": 959,
+              "rewards": [
+                {
+                  "id": 2747,
+                  "name": "Night Terror Dragon",
+                  "rarity": "M",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_1@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2747_dragon_nightterror_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2747_dragon_nightterror_3@2x.png"
+                  ],
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 2747
+                  },
+                  "kind": "egg",
+                  "amount": 1
                 }
               ]
             }
@@ -45851,24 +45850,24 @@
             },
             {
               "position": 20,
-              "reward_id": 376,
+              "reward_id": 960,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11540,
-                  "name": "Dragon TV",
+                  "id": 19470,
+                  "name": "Hallows Pumpkin",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_horrorhouse@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_horrorhouse@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_horrorhouse.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11540,
+                    "id": 19470,
                     "type": "generic"
                   }
                 }

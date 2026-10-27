@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:09:32Z",
+  "generated_at": "2026-10-27T16:11:25Z",
   "collections": [
     {
       "id": 3021,
@@ -46757,13 +46757,13 @@
               "rewards": [
                 {
                   "kind": "item",
-                  "id": 11936,
-                  "name": "Visitor Pamphlet",
+                  "id": 12002,
+                  "name": "Spooky Cookies",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11936_deco_visitorspamphlet@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12002_deco_spookycookies@2x.png",
                   "popup": {
                     "kind": "item",
-                    "id": 11936
+                    "id": 12002
                   }
                 }
               ]
@@ -46805,13 +46805,13 @@
               "rewards": [
                 {
                   "kind": "item",
-                  "id": 11936,
-                  "name": "Visitor Pamphlet",
+                  "id": 12002,
+                  "name": "Spooky Cookies",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11936_deco_visitorspamphlet@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12002_deco_spookycookies@2x.png",
                   "popup": {
                     "kind": "item",
-                    "id": 11936
+                    "id": 12002
                   }
                 }
               ]
