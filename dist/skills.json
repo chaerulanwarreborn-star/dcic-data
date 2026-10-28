@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T07:06:31Z",
-  "count": 605,
+  "generated_at": "2026-10-28T09:51:09Z",
+  "count": 607,
   "linked_count": 312,
   "skills": [
     {
@@ -31196,6 +31196,80 @@
       ],
       "targets": [
         "ALLY_TEAM"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 5751,
+      "name": "Dark Harvest+",
+      "description": "Deals damage and drains the target's life force, restoring a portion of the damage dealt as health. Now improved,.",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 8411,
+          "type": "LIFE_STEAL",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2200,
+            "multiplier": 1.95,
+            "lifeSteal": 1,
+            "waitTime": 25,
+            "counterAttackEffectName": "plasma_skill_impact"
+          }
+        }
+      ],
+      "effect_types": [
+        "LIFE_STEAL"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 0,
+      "linked_dragons": []
+    },
+    {
+      "id": 5811,
+      "name": "Hypnotic Surge+",
+      "description": "Deals massive damage that cannot miss. Has a chance to grant an extra turn. Now improved.",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 847,
+          "type": "HOMING_ATTACK",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2500,
+            "multiplier": 2.4,
+            "dodgeSkills": [
+              "VENGEFUL",
+              "EVASION"
+            ]
+          }
+        },
+        {
+          "id": 8481,
+          "type": "EXTRA_TURN",
+          "target": "NONE",
+          "hit_chance": 0.6,
+          "parameters": {}
+        }
+      ],
+      "effect_types": [
+        "EXTRA_TURN",
+        "HOMING_ATTACK"
+      ],
+      "targets": [
+        "ENEMY",
+        "NONE"
       ],
       "move_types": [],
       "elements": [],

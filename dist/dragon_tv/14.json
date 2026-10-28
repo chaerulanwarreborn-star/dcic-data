@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:06:22Z",
+  "generated_at": "2026-10-28T09:50:59Z",
   "collections": [
     {
       "id": 3022,
@@ -48421,29 +48421,29 @@
           "rewards": [
             {
               "position": 1,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 2,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -48522,29 +48522,29 @@
             },
             {
               "position": 7,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 8,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -48578,24 +48578,24 @@
             },
             {
               "position": 11,
-              "reward_id": 286,
+              "reward_id": 285,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11352,
+                  "id": 11351,
                   "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11352,
+                    "id": 11351,
                     "type": "generic"
                   }
                 }
@@ -48631,29 +48631,29 @@
             },
             {
               "position": 14,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 15,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -48737,24 +48737,24 @@
             },
             {
               "position": 20,
-              "reward_id": 507,
+              "reward_id": 880,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 12279,
-                  "name": "Roulette Chest",
+                  "id": 16750,
+                  "name": "Collection Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_251_chest_gems@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_537_chest_generic_gacha_platinum@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_251_chest_gems@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_251_chest_gems@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/251_chest_gems@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/251_chest_gems.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_537_chest_generic_gacha_platinum@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_537_chest_generic_gacha_platinum@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/537_chest_generic_gacha_platinum@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/537_chest_generic_gacha_platinum.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 12279,
+                    "id": 16750,
                     "type": "generic"
                   }
                 }
@@ -48831,29 +48831,29 @@
             },
             {
               "position": 4,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 5,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -48887,29 +48887,29 @@
             },
             {
               "position": 8,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 9,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -48929,24 +48929,24 @@
             },
             {
               "position": 11,
-              "reward_id": 286,
+              "reward_id": 285,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11352,
+                  "id": 11351,
                   "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11352,
+                    "id": 11351,
                     "type": "generic"
                   }
                 }
@@ -48982,29 +48982,29 @@
             },
             {
               "position": 14,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
             {
               "position": 15,
-              "reward_id": 148,
+              "reward_id": 2,
               "rewards": [
                 {
                   "kind": "resource",
-                  "type": "event_points",
-                  "key": "ep",
-                  "name": "Event Points",
-                  "amount": 45,
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png"
+                  "type": "food",
+                  "key": "f",
+                  "name": "Food",
+                  "amount": 2000,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-food.png"
                 }
               ]
             },
@@ -49038,24 +49038,24 @@
             },
             {
               "position": 18,
-              "reward_id": 286,
+              "reward_id": 285,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11352,
+                  "id": 11351,
                   "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/259_chest_roulette_b.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/269_chest_food_chest.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11352,
+                    "id": 11351,
                     "type": "generic"
                   }
                 }
@@ -49088,24 +49088,24 @@
             },
             {
               "position": 20,
-              "reward_id": 376,
+              "reward_id": 321,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11540,
-                  "name": "Dragon TV",
+                  "id": 11444,
+                  "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11540,
+                    "id": 11444,
                     "type": "generic"
                   }
                 }

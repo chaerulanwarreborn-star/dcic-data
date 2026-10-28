@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:06:22Z",
+  "generated_at": "2026-10-28T09:50:59Z",
   "collections": [
     {
       "id": 3019,
@@ -52305,15 +52305,26 @@
             },
             {
               "position": 20,
-              "reward_id": 955,
+              "reward_id": 793,
               "rewards": [
                 {
-                  "kind": "resource",
-                  "type": "currency",
-                  "key": "permanent_gacha.mythical",
-                  "name": "Mythical Treasure Key",
-                  "amount": 5,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
+                  "kind": "chest",
+                  "id": 16553,
+                  "name": "Large Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16553,
+                    "type": "generic"
+                  }
                 }
               ]
             }
@@ -52637,24 +52648,24 @@
             },
             {
               "position": 20,
-              "reward_id": 321,
+              "reward_id": 334,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11444,
+                  "id": 11446,
                   "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_392_chest_random_titan_orbs_b@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_471_chest_orb_mythical@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_392_chest_random_titan_orbs_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_392_chest_random_titan_orbs_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/392_chest_random_titan_orbs_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/392_chest_random_titan_orbs_b.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11444,
+                    "id": 11446,
                     "type": "generic"
                   }
                 }
