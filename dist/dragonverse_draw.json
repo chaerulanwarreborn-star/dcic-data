@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-10-28T14:48:24Z",
+  "generated_at": "2026-10-28T16:11:05Z",
   "box_assets": {
     "regular": {
       "sq": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
@@ -103698,10 +103698,10 @@
     {
       "id": 216,
       "name": "Dragonverse Draw #216",
-      "start_ts": 1792144800,
-      "end_ts": 1792404000,
-      "start_iso": "2026-10-16T10:00:00Z",
-      "end_iso": "2026-10-19T10:00:00Z",
+      "start_ts": 1792148400,
+      "end_ts": 1792407600,
+      "start_iso": "2026-10-16T11:00:00Z",
+      "end_iso": "2026-10-19T11:00:00Z",
       "status": "past",
       "reward_count": 11,
       "rewards": [
@@ -104230,10 +104230,10 @@
     {
       "id": 217,
       "name": "Dragonverse Draw #217",
-      "start_ts": 1792749600,
-      "end_ts": 1793008800,
-      "start_iso": "2026-10-23T10:00:00Z",
-      "end_iso": "2026-10-26T10:00:00Z",
+      "start_ts": 1792753200,
+      "end_ts": 1793012400,
+      "start_iso": "2026-10-23T11:00:00Z",
+      "end_iso": "2026-10-26T11:00:00Z",
       "status": "past",
       "reward_count": 11,
       "rewards": [
@@ -104810,10 +104810,10 @@
     {
       "id": 218,
       "name": "Dragonverse Draw #218",
-      "start_ts": 1793354400,
-      "end_ts": 1793613600,
-      "start_iso": "2026-10-30T10:00:00Z",
-      "end_iso": "2026-11-02T10:00:00Z",
+      "start_ts": 1793358000,
+      "end_ts": 1793617200,
+      "start_iso": "2026-10-30T11:00:00Z",
+      "end_iso": "2026-11-02T11:00:00Z",
       "status": "upcoming",
       "reward_count": 11,
       "rewards": [
@@ -105922,10 +105922,10 @@
     {
       "id": 220,
       "name": "Dragonverse Draw #220",
-      "start_ts": 1794564000,
-      "end_ts": 1794823200,
-      "start_iso": "2026-11-13T10:00:00Z",
-      "end_iso": "2026-11-16T10:00:00Z",
+      "start_ts": 1794567600,
+      "end_ts": 1794826800,
+      "start_iso": "2026-11-13T11:00:00Z",
+      "end_iso": "2026-11-16T11:00:00Z",
       "status": "upcoming",
       "reward_count": 11,
       "rewards": [
@@ -107034,10 +107034,10 @@
     {
       "id": 222,
       "name": "Dragonverse Draw #222",
-      "start_ts": 1795428000,
-      "end_ts": 1795687200,
-      "start_iso": "2026-11-23T10:00:00Z",
-      "end_iso": "2026-11-26T10:00:00Z",
+      "start_ts": 1795431600,
+      "end_ts": 1795690800,
+      "start_iso": "2026-11-23T11:00:00Z",
+      "end_iso": "2026-11-26T11:00:00Z",
       "status": "upcoming",
       "reward_count": 11,
       "rewards": [
@@ -107518,10 +107518,10 @@
     {
       "id": 223,
       "name": "Dragonverse Draw #223",
-      "start_ts": 1795600800,
-      "end_ts": 1795687200,
-      "start_iso": "2026-11-25T10:00:00Z",
-      "end_iso": "2026-11-26T10:00:00Z",
+      "start_ts": 1795604400,
+      "end_ts": 1795690800,
+      "start_iso": "2026-11-25T11:00:00Z",
+      "end_iso": "2026-11-26T11:00:00Z",
       "status": "upcoming",
       "reward_count": 11,
       "rewards": [
@@ -108002,10 +108002,10 @@
     {
       "id": 224,
       "name": "Dragonverse Draw #224",
-      "start_ts": 1795600800,
-      "end_ts": 1795687200,
-      "start_iso": "2026-11-25T10:00:00Z",
-      "end_iso": "2026-11-26T10:00:00Z",
+      "start_ts": 1795604400,
+      "end_ts": 1795690800,
+      "start_iso": "2026-11-25T11:00:00Z",
+      "end_iso": "2026-11-26T11:00:00Z",
       "status": "upcoming",
       "reward_count": 11,
       "rewards": [
