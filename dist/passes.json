@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-27T16:10:59.786265Z",
+  "generated_at": "2026-10-28T16:10:50.361461Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -663180,7 +663180,7 @@
             "premium_reward": {
               "reward_id": 1240044,
               "name": "Mythical Treasure Key",
-              "amount": 300,
+              "amount": 75,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
               "popup": {},
@@ -663192,7 +663192,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Treasure Key",
-                  "amount": 300,
+                  "amount": 75,
                   "subtype": "mythical",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "image_candidates": [
@@ -663202,7 +663202,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.mythical": 300
+                  "permanent_gacha.mythical": 75
                 }
               ]
             },

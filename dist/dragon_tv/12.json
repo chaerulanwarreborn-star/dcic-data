@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:11:25Z",
+  "generated_at": "2026-10-28T16:11:14Z",
   "collections": [
     {
       "id": 3020,
@@ -48568,24 +48568,24 @@
             },
             {
               "position": 20,
-              "reward_id": 793,
+              "reward_id": 794,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 16553,
-                  "name": "Large Sticker Pack",
+                  "id": 16554,
+                  "name": "Extra Large Sticker Pack",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 16553,
+                    "id": 16554,
                     "type": "generic"
                   }
                 }
@@ -48911,24 +48911,24 @@
             },
             {
               "position": 20,
-              "reward_id": 334,
+              "reward_id": 364,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11446,
+                  "id": 11525,
                   "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_392_chest_random_titan_orbs_b@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_394_chest_random_heroic_orbs@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_392_chest_random_titan_orbs_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_392_chest_random_titan_orbs_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/392_chest_random_titan_orbs_b@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/392_chest_random_titan_orbs_b.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_394_chest_random_heroic_orbs@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_394_chest_random_heroic_orbs@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/394_chest_random_heroic_orbs@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/394_chest_random_heroic_orbs.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11446,
+                    "id": 11525,
                     "type": "generic"
                   }
                 }

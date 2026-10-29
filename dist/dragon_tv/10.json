@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:11:25Z",
+  "generated_at": "2026-10-28T16:11:14Z",
   "collections": [
     {
       "id": 3018,
@@ -51223,15 +51223,15 @@
             },
             {
               "position": 20,
-              "reward_id": 953,
+              "reward_id": 955,
               "rewards": [
                 {
                   "kind": "resource",
                   "type": "currency",
-                  "key": "permanent_gacha.legendary",
-                  "name": "Legendary Treasure Key",
-                  "amount": 10,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+                  "key": "permanent_gacha.mythical",
+                  "name": "Mythical Treasure Key",
+                  "amount": 5,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
                 }
               ]
             }
@@ -51555,24 +51555,24 @@
             },
             {
               "position": 20,
-              "reward_id": 376,
+              "reward_id": 321,
               "rewards": [
                 {
                   "kind": "chest",
-                  "id": 11540,
-                  "name": "Dragon TV",
+                  "id": 11444,
+                  "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/165_chest_legendaryorb.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/471_chest_orb_mythical.png",
                     "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
                   ],
                   "popup": {
                     "kind": "chest",
-                    "id": 11540,
+                    "id": 11444,
                     "type": "generic"
                   }
                 }
