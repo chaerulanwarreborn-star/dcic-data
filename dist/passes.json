@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-10-29T09:26:25.578785Z",
+  "generated_at": "2026-10-29T10:48:15.533824Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -657591,41 +657591,30 @@
                 ],
                 "reward": {
                   "reward_id": 337003,
-                  "name": "Soul Arena Booster",
-                  "amount": 1,
-                  "kind": "decoration",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_deco_energy_arena_soul_v1@2x.png",
+                  "name": "Legendary Treasure Key",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "popup": {},
                   "rarity": "",
                   "items": [
                     {
-                      "kind": "decoration",
-                      "type": "decoration",
-                      "asset_kind": "decoration",
-                      "id": 12099,
-                      "item_id": 12099,
-                      "group_type": "DECO",
-                      "name": "Soul Arena Booster",
-                      "amount": 1,
-                      "img_name_mobile": "deco_energy_arena_soul_v1",
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_deco_energy_arena_soul_v1@2x.png",
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 20,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                       "image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_deco_energy_arena_soul_v1@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/deco_energy_arena_soul_v1@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/deco_energy_arena_soul_v1.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/deco_energy_arena_soul_v1.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_deco_energy_arena_soul_v1@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/deco_energy_arena_soul_v1@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/deco_energy_arena_soul_v1.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/deco_energy_arena_soul_v1.png"
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
                       ]
                     }
                   ],
                   "raw": [
                     {
-                      "b": [
-                        12099
-                      ]
+                      "permanent_gacha.legendary": 20
                     }
                   ]
                 },
