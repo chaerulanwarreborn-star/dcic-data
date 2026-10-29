@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T10:48:48Z",
-  "count": 2213,
+  "generated_at": "2026-10-29T11:41:56Z",
+  "count": 2217,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -9978,6 +9978,13 @@
       "family": "dragon_mastery_pass"
     },
     {
+      "key": "dragon_mastery_pass_points.20261105",
+      "name": "dragon_mastery_pass_points.20261105",
+      "type": "currency",
+      "image_url": "",
+      "family": "dragon_mastery_pass"
+    },
+    {
       "key": "dragon_mastery_pass_points_tickets_free.*",
       "name": "dragon_mastery_pass_points_tickets_free.*",
       "type": "currency",
@@ -10048,6 +10055,13 @@
       "family": "dragon_mastery_pass_tickets_free"
     },
     {
+      "key": "dragon_mastery_pass_tickets_free.20261105",
+      "name": "dragon_mastery_pass_tickets_free.20261105",
+      "type": "currency",
+      "image_url": "",
+      "family": "dragon_mastery_pass_tickets_free"
+    },
+    {
       "key": "dragon_mastery_pass_tickets_premium",
       "name": "dragon_mastery_pass_tickets_premium",
       "type": "currency",
@@ -10099,6 +10113,13 @@
     {
       "key": "dragon_mastery_pass_tickets_premium.20260924",
       "name": "dragon_mastery_pass_tickets_premium.20260924",
+      "type": "currency",
+      "image_url": "",
+      "family": "dragon_mastery_pass_tickets_premium"
+    },
+    {
+      "key": "dragon_mastery_pass_tickets_premium.20261105",
+      "name": "dragon_mastery_pass_tickets_premium.20261105",
       "type": "currency",
       "image_url": "",
       "family": "dragon_mastery_pass_tickets_premium"
@@ -11317,6 +11338,13 @@
     {
       "key": "season_pass_points.20261001",
       "name": "season_pass_points.20261001",
+      "type": "currency",
+      "image_url": "",
+      "family": "season_pass"
+    },
+    {
+      "key": "season_pass_points.20261112",
+      "name": "season_pass_points.20261112",
       "type": "currency",
       "image_url": "",
       "family": "season_pass"

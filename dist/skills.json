@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T10:48:50Z",
-  "count": 607,
-  "linked_count": 312,
+  "generated_at": "2026-10-29T11:41:57Z",
+  "count": 609,
+  "linked_count": 314,
   "skills": [
     {
       "id": 1,
@@ -30892,6 +30892,108 @@
       "element_names": [],
       "usage_count": 0,
       "linked_dragons": []
+    },
+    {
+      "id": 594,
+      "name": "Metalfire",
+      "description": "Deals any remaining damage to another opponent",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 861,
+          "type": "CARRY_DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 1.5,
+            "effect_tid": "tid_skill_description_250_battlefield"
+          }
+        }
+      ],
+      "effect_types": [
+        "CARRY_DAMAGE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [
+        "basic",
+        "trained"
+      ],
+      "elements": [
+        "m"
+      ],
+      "element_names": [
+        "Metal"
+      ],
+      "usage_count": 2,
+      "linked_dragons": [
+        {
+          "dragon_id": 3509,
+          "dragon_name": "High Risen Metal Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3509_dragon_highrisenmetal_3.png",
+          "attack_id": 1634,
+          "attack_name": "Metalfire",
+          "move_type": "basic",
+          "element": "m",
+          "ui_damage": 2400
+        },
+        {
+          "dragon_id": 3509,
+          "dragon_name": "High Risen Metal Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3509_dragon_highrisenmetal_3.png",
+          "attack_id": 1634,
+          "attack_name": "Metalfire",
+          "move_type": "trained",
+          "element": "m",
+          "ui_damage": 2400
+        }
+      ]
+    },
+    {
+      "id": 595,
+      "name": "Armor",
+      "description": "Applies 30% of Armor to user",
+      "cooldown": 0,
+      "effects": [
+        {
+          "id": 860,
+          "type": "ARMOR",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "percentageValue": 0.3,
+            "dragonLife": "receiver",
+            "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
+            "effectName": "tid_skill_armor_effect_name"
+          }
+        }
+      ],
+      "effect_types": [
+        "ARMOR"
+      ],
+      "targets": [
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [],
+      "element_names": [],
+      "usage_count": 1,
+      "linked_dragons": [
+        {
+          "dragon_id": 3509,
+          "dragon_name": "High Risen Metal Dragon",
+          "rarity": "H",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3509_dragon_highrisenmetal_3.png",
+          "attack_id": 0,
+          "attack_name": "Armor",
+          "move_type": "passive",
+          "element": ""
+        }
+      ]
     },
     {
       "id": 921,
