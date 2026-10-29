@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:41:57Z",
+  "generated_at": "2026-10-29T13:39:14Z",
   "count": 609,
   "linked_count": 314,
   "skills": [
@@ -30643,8 +30643,8 @@
     },
     {
       "id": 589,
-      "name": "Skill 589",
-      "description": "Skill Description Hypnosiren 2 Random Crit",
+      "name": "Blind Strike",
+      "description": "Deals damage to a random enemy with a chance to trigger a critical hit.",
       "cooldown": 2,
       "effects": [
         {
@@ -30684,7 +30684,7 @@
           "rarity": "L",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
           "attack_id": 1622,
-          "attack_name": "Hypno Siren Radnom Crit",
+          "attack_name": "Blind Strike",
           "move_type": "basic",
           "element": "so",
           "ui_damage": 2200
@@ -30695,7 +30695,7 @@
           "rarity": "L",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
           "attack_id": 1622,
-          "attack_name": "Hypno Siren Radnom Crit",
+          "attack_name": "Blind Strike",
           "move_type": "trained",
           "element": "so",
           "ui_damage": 2200
@@ -30704,8 +30704,8 @@
     },
     {
       "id": 590,
-      "name": "Skill 590",
-      "description": "Skill Description Hypnowhisperer 2 Silenceall + Damage",
+      "name": "Hushed Verdict",
+      "description": "Deals damage to all enemies and silences them, preventing the use of active skills for a few turns.",
       "cooldown": 3,
       "effects": [
         {
@@ -30754,7 +30754,7 @@
           "rarity": "M",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
           "attack_id": 1629,
-          "attack_name": "Hypno whisperer Radnom Crit",
+          "attack_name": "Hushed Verdict",
           "move_type": "basic",
           "element": "f",
           "ui_damage": 2200
@@ -30765,7 +30765,7 @@
           "rarity": "M",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
           "attack_id": 1629,
-          "attack_name": "Hypno whisperer Radnom Crit",
+          "attack_name": "Hushed Verdict",
           "move_type": "trained",
           "element": "f",
           "ui_damage": 2200
@@ -30806,8 +30806,8 @@
     },
     {
       "id": 592,
-      "name": "Skill 592",
-      "description": "Skill Description Hypnowhisperer Passive Exhaust-Give",
+      "name": "Draining Whisper",
+      "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "cooldown": 0,
       "effects": [
         {
@@ -30848,7 +30848,7 @@
           "rarity": "M",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
           "attack_id": 0,
-          "attack_name": "Hypno Whisperer Exhaust on Ener Give",
+          "attack_name": "Draining Whisper",
           "move_type": "passive",
           "element": ""
         }
@@ -30857,7 +30857,7 @@
     {
       "id": 593,
       "name": "[SKIN] tid_skill_name_hypnowhisperer_passive_silenceall + damage-give",
-      "description": "Skill Description Hypnowhisperer Passive Exhaust-Give",
+      "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "cooldown": 0,
       "effects": [
         {
