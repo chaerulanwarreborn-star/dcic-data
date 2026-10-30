@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-30T00:34:01.151257Z",
+  "generated_at": "2026-10-30T00:57:28.754759Z",
   "source_file": "game_config.json",
   "localization_file": "the-void/localization/dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -9,7 +9,7 @@
     {
       "id": 129,
       "name": "Upupandaway Grid Island",
-      "title": "Grid Island",
+      "title": "Upupandaway Grid Island",
       "start_ts": 1770289200,
       "end_ts": 1770893999,
       "start_iso": "2026-02-05T11:00:00Z",
@@ -6296,7 +6296,7 @@
     {
       "id": 130,
       "name": "Norse Gods Grid Island",
-      "title": "Grid Island",
+      "title": "Norse Gods Grid Island",
       "start_ts": 1773918000,
       "end_ts": 1774522800,
       "start_iso": "2026-03-19T11:00:00Z",
@@ -12464,7 +12464,7 @@
     {
       "id": 132,
       "name": "5 De Mayo Grid Island",
-      "title": "Grid Island",
+      "title": "5 De Mayo Grid Island",
       "start_ts": 1777543200,
       "end_ts": 1778148000,
       "start_iso": "2026-04-30T10:00:00Z",
@@ -18601,7 +18601,7 @@
     {
       "id": 307,
       "name": "Seaside Break Grid Island",
-      "title": "Grid Island",
+      "title": "Seaside Break Grid Island",
       "start_ts": 1781172000,
       "end_ts": 1781776740,
       "start_iso": "2026-06-11T10:00:00Z",
@@ -24720,7 +24720,7 @@
     {
       "id": 317,
       "name": "Musicfest Grid Island",
-      "title": "Grid Island",
+      "title": "Musicfest Grid Island",
       "start_ts": 1784800800,
       "end_ts": 1785405540,
       "start_iso": "2026-07-23T10:00:00Z",
@@ -30888,7 +30888,7 @@
     {
       "id": 318,
       "name": "Norse Gods Grid Island",
-      "title": "Grid Island",
+      "title": "Clash of the North Grid Island",
       "start_ts": 1788429600,
       "end_ts": 1789034400,
       "start_iso": "2026-09-03T10:00:00Z",
@@ -37007,7 +37007,7 @@
     {
       "id": 319,
       "name": "Magical Autumn Forest Grid Island",
-      "title": "Grid Island",
+      "title": "Magical Forest Grid Island",
       "start_ts": 1792058400,
       "end_ts": 1792663140,
       "start_iso": "2026-10-15T10:00:00Z",
