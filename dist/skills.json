@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:45:26Z",
+  "generated_at": "2026-10-30T15:37:53Z",
   "count": 609,
   "linked_count": 314,
   "skills": [
@@ -26838,7 +26838,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 3
           }
         }
       ],
@@ -26962,7 +26962,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -27085,7 +27085,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -27244,7 +27244,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -27379,7 +27379,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -27500,8 +27500,8 @@
     },
     {
       "id": 504,
-      "name": "No Remorse",
-      "description": "Damages all opponents but the user is hurt",
+      "name": "Rabid Hunt",
+      "description": "Deals damage while silencing opponents for 2 turns",
       "cooldown": 3,
       "effects": [
         {
@@ -27510,13 +27510,23 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 2200,
-            "multiplier": 2
+            "damage": 2000,
+            "multiplier": 1.5
+          }
+        },
+        {
+          "id": 786,
+          "type": "SILENCE",
+          "target": "ENEMY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "vfx": "silenced_shield_3"
           }
         }
       ],
       "effect_types": [
-        "DAMAGE"
+        "DAMAGE",
+        "SILENCE"
       ],
       "targets": [
         "ENEMY_TEAM"
@@ -27636,7 +27646,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 3
           }
         }
       ],
@@ -27744,8 +27754,8 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "damage": 2000,
-            "multiplier": 1
+            "damage": 2200,
+            "multiplier": 3
           }
         }
       ],
@@ -27765,25 +27775,43 @@
     },
     {
       "id": 512,
-      "name": "No Remorse",
-      "description": "Damages all opponents but the user is hurt",
+      "name": "Marked Ones",
+      "description": "Deals damage and applies 2 Doommarks",
       "cooldown": 3,
       "effects": [
         {
           "id": 791,
-          "type": "DAMAGE",
+          "type": "GIVE_PASSIVE",
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
+            "passiveIds": [
+              77
+            ],
+            "numPassives": 6,
+            "passiveStacks": true,
+            "addRandomly": true,
+            "vfx": "doom-mark_skill",
+            "dragonAnimation": "special1"
+          }
+        },
+        {
+          "id": 792,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 3
           }
         }
       ],
       "effect_types": [
-        "DAMAGE"
+        "DAMAGE",
+        "GIVE_PASSIVE"
       ],
       "targets": [
+        "ENEMY",
         "ENEMY_TEAM"
       ],
       "move_types": [],
@@ -27914,7 +27942,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -28039,7 +28067,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -28174,7 +28202,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -28565,7 +28593,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 3
           }
         }
       ],
@@ -28714,8 +28742,8 @@
     },
     {
       "id": 540,
-      "name": "No Remorse",
-      "description": "Damages all opponents but the user is hurt",
+      "name": "Void Drain",
+      "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
       "cooldown": 3,
       "effects": [
         {
@@ -28724,13 +28752,51 @@
           "target": "ENEMY_TEAM",
           "hit_chance": 1,
           "parameters": {
-            "damage": 2200,
-            "multiplier": 2
+            "damage": 1900,
+            "multiplier": 1.3
+          }
+        },
+        {
+          "id": 813,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              93
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 4,
+            "maxStacks": 1,
+            "addRandomly": true,
+            "vfx": "",
+            "giveToDragons": "any"
+          }
+        },
+        {
+          "id": 814,
+          "type": "GIVE_PASSIVE",
+          "target": "ENEMY_TEAM",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              94
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 4,
+            "maxStacks": 1,
+            "addRandomly": true,
+            "dragonAnimation": "special1",
+            "vfx": "void_skill",
+            "giveToDragons": "any"
           }
         }
       ],
       "effect_types": [
-        "DAMAGE"
+        "DAMAGE",
+        "GIVE_PASSIVE"
       ],
       "targets": [
         "ENEMY_TEAM"
@@ -28850,7 +28916,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -28974,7 +29040,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 3
           }
         }
       ],
@@ -29106,7 +29172,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -29241,7 +29307,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -29379,7 +29445,7 @@
           "hit_chance": 1,
           "parameters": {
             "damage": 2200,
-            "multiplier": 2
+            "multiplier": 2.7
           }
         }
       ],
@@ -30117,8 +30183,8 @@
           "target": "ENEMY",
           "hit_chance": 1,
           "parameters": {
-            "damage": 1700,
-            "multiplier": 1.6,
+            "damage": 2000,
+            "multiplier": 2.2,
             "effect_tid": "tid_skill_description_250_battlefield"
           }
         },
@@ -30246,11 +30312,11 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "calloutTid": "tid_minbreak",
-            "duration": 4,
+            "procChance": 0.25,
+            "duration": 3,
+            "vfx": "mindbreak_skill_apply",
             "missTid": "tid_miss",
-            "procChance": 0.35,
-            "vfx": "mindbreak_skill_apply"
+            "calloutTid": "tid_minbreak"
           }
         }
       ],
@@ -30380,11 +30446,11 @@
           "target": "SELF",
           "hit_chance": 1,
           "parameters": {
-            "calloutTid": "tid_minbreak",
-            "duration": 4,
+            "procChance": 0.35,
+            "duration": 3,
+            "vfx": "mindbreak_skill_apply",
             "missTid": "tid_miss",
-            "procChance": 0.45,
-            "vfx": "mindbreak_skill_apply"
+            "calloutTid": "tid_minbreak"
           }
         }
       ],
