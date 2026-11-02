@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-02T06:12:07Z",
+  "generated_at": "2026-11-02T11:36:06Z",
   "album_count": 5,
   "set_count": 54,
   "sticker_count": 551,
@@ -15270,7 +15270,7 @@
           "asset_stickers": "temp_album_dia_de_muertos",
           "start_ts": 1793617200,
           "end_ts": 1794394800,
-          "status": "upcoming",
+          "status": "current",
           "reward": [
             {
               "id": 3506,

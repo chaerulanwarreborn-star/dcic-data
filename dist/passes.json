@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-02T06:11:49.737092Z",
+  "generated_at": "2026-11-02T11:35:51.319167Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -666355,18 +666355,21 @@
         "asset_kind": "skin",
         "id": 3427,
         "skin_id": 3427,
-        "name": "Skin #3427",
+        "name": "Drago Catrina Skin",
         "amount": 1,
-        "thumbnail": "",
-        "skin_thumbnail": "",
-        "thumbnail_candidates": [],
-        "image_url": "",
+        "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+        "skin_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+        "thumbnail_candidates": [
+          "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+          "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_skin1_3@2x.png"
+        ],
+        "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
         "image_candidates": [],
         "popup": {
           "kind": "skin",
           "id": 3427
         },
-        "rarity": "",
+        "rarity": "H",
         "frame_shape": "hexagon"
       },
       "progression": {
@@ -666395,10 +666398,10 @@
                 ],
                 "reward": {
                   "reward_id": 341002,
-                  "name": "Skin #3427",
+                  "name": "Drago Catrina Skin",
                   "amount": 1,
                   "kind": "skin",
-                  "image_url": "",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
                   "popup": {
                     "kind": "skin",
                     "id": 3427
@@ -666411,12 +666414,15 @@
                       "asset_kind": "skin",
                       "id": 3427,
                       "skin_id": 3427,
-                      "name": "Skin #3427",
+                      "name": "Drago Catrina Skin",
                       "amount": 1,
-                      "thumbnail": "",
-                      "skin_thumbnail": "",
-                      "thumbnail_candidates": [],
-                      "image_url": "",
+                      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+                      "skin_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3506_dragon_highcalavera_skin1_3@2x.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3506_dragon_highcalavera_skin1_3.png",
                       "image_candidates": [],
                       "popup": {
                         "kind": "skin",

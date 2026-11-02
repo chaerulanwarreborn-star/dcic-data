@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-02T06:12:19Z",
+  "generated_at": "2026-11-02T11:36:13Z",
   "quest_count": 189,
   "permanent_count": 45,
   "event_count": 144,
@@ -251706,7 +251706,7 @@
       "end_ts": 1794826800,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-16T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 15,
       "stages": [
         {
@@ -261856,7 +261856,7 @@
       "end_ts": 1793617200,
       "start_iso": "2026-10-26T11:00:00Z",
       "end_iso": "2026-11-02T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 22,
       "stages": [
         {
@@ -264369,7 +264369,7 @@
       "end_ts": 1793617200,
       "start_iso": "2026-10-26T11:00:00Z",
       "end_iso": "2026-11-02T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 22,
       "stages": [
         {
@@ -271908,7 +271908,7 @@
       "end_ts": 1794222000,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-09T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 22,
       "stages": [
         {
@@ -274421,7 +274421,7 @@
       "end_ts": 1794222000,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-09T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 22,
       "stages": [
         {
@@ -281960,7 +281960,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 10,
       "stages": [
         {
@@ -288976,7 +288976,7 @@
       "end_ts": 1793617200,
       "start_iso": "2026-10-29T11:00:00Z",
       "end_iso": "2026-11-02T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -292144,7 +292144,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 11,
       "stages": [
         {
@@ -293868,7 +293868,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 11,
       "stages": [
         {
@@ -295592,7 +295592,7 @@
       "end_ts": 1794394800,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-11T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 20,
       "stages": [
         {
