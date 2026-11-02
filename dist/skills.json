@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T12:16:00Z",
+  "generated_at": "2026-11-02T14:30:23Z",
   "count": 609,
   "linked_count": 314,
   "skills": [
@@ -32168,8 +32168,8 @@
     },
     {
       "id": 34782,
-      "name": "COMING SOON",
-      "description": "This skill will be revealed on October 29th",
+      "name": "Hush of Dusk",
+      "description": "Silences the Battlefield upon entry.",
       "cooldown": 0,
       "effects": [
         {
@@ -32199,7 +32199,7 @@
           "rarity": "H",
           "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3478_dragon_apexofduskreveal2_3.png",
           "attack_id": 0,
-          "attack_name": "COMING SOON",
+          "attack_name": "Hush of Dusk",
           "move_type": "passive",
           "element": ""
         }
