@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-05T12:16:01Z",
+  "generated_at": "2026-11-05T13:59:57Z",
   "album_count": 5,
   "set_count": 54,
   "sticker_count": 551,
@@ -15264,7 +15264,7 @@
       "temporary_sets": [
         {
           "id": 15013,
-          "name": "Dia de los Muertos Set",
+          "name": "Dia de los Muertos",
           "lifetime": "temporary",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_diademuertos_set_a.png",
           "asset_stickers": "temp_album_dia_de_muertos",
@@ -74160,7 +74160,7 @@
       "name": "Diademuertos Sticker Pack",
       "stickers_amount": 1,
       "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-stickers-pack-diademuertos/HD/ic-stickers-pack-diademuertos_c.png",
-      "summary": "Contains 1 Sticker, at least 1 1-Diamond Dia de los Muertos Set Sticker Guaranteed",
+      "summary": "Contains 1 Sticker, at least 1 1-Diamond Dia de los Muertos Sticker Guaranteed",
       "context_album_id": 15,
       "context_start_ts": 1792058400,
       "context_end_ts": 1795687140,

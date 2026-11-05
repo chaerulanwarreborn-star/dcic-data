@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T12:16:16Z",
-  "count": 2217,
+  "generated_at": "2026-11-05T14:00:13Z",
+  "count": 2220,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -10384,6 +10384,13 @@
       "family": "hatching_pass"
     },
     {
+      "key": "hatching_pass_points.20261116",
+      "name": "hatching_pass_points.20261116",
+      "type": "currency",
+      "image_url": "",
+      "family": "hatching_pass"
+    },
+    {
       "key": "hatching_pass_points.s1",
       "name": "hatching_pass_points.s1",
       "type": "currency",
@@ -10986,6 +10993,13 @@
       "family": "pet_food"
     },
     {
+      "key": "pet_food.s9",
+      "name": "pet_food.s9",
+      "type": "currency",
+      "image_url": "",
+      "family": "pet_food"
+    },
+    {
       "key": "pet_food_pack.*",
       "name": "pet_food_pack.*",
       "type": "currency",
@@ -11184,6 +11198,13 @@
     {
       "key": "pet_points.s8",
       "name": "pet_points.s8",
+      "type": "currency",
+      "image_url": "",
+      "family": "pet"
+    },
+    {
+      "key": "pet_points.s9",
+      "name": "pet_points.s9",
       "type": "currency",
       "image_url": "",
       "family": "pet"

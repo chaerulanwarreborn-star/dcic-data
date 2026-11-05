@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T12:15:35.484953Z",
+  "generated_at": "2026-11-05T13:59:32.305163Z",
   "source_file": "game_config.json",
-  "event_count": 81,
+  "event_count": 82,
   "events": [
     {
       "key": "event_island:1",
@@ -3268,6 +3268,63 @@
       "building_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/items/buildings/0837_heroic_island_generic.png",
       "featured_dragon_id": 2500,
       "asset_zip": "/mobile/ui/heroicraces_islands/mr_110_mythical_imperviousdiamond.zip"
+    },
+    {
+      "key": "fog_island:324",
+      "id": 324,
+      "type": "fog_island",
+      "variant": "fog_island",
+      "type_label": "Fog Island",
+      "title": "Carnaval Fog Island",
+      "subtitle": "",
+      "start_ts": 1794826800,
+      "end_ts": 1795172400,
+      "start_iso": "2026-11-16T11:00:00Z",
+      "end_iso": "2026-11-20T11:00:00Z",
+      "guide": "/p/fog-island-guide.html?id=324",
+      "schedule_source": "game_config",
+      "source_section": "fog_island",
+      "featured_dragons": [
+        {
+          "id": 3061,
+          "name": "Alakazam Dragon",
+          "rarity": "L",
+          "img_name": "3061_dragon_alakazam",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3061_dragon_alakazam_3.png"
+        },
+        {
+          "id": 2291,
+          "name": "Purpureus Dragon",
+          "rarity": "E",
+          "img_name": "2291_dragon_purpureus",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2291_dragon_purpureus_3.png"
+        },
+        {
+          "id": 1330,
+          "name": "Double Metal Dragon",
+          "rarity": "V",
+          "img_name": "1330_dragon_double_metal",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1330_dragon_double_metal_3.png"
+        },
+        {
+          "id": 1148,
+          "name": "Cerberus Dragon",
+          "rarity": "R",
+          "img_name": "1148_dragon_cerberus_b",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1148_dragon_cerberus_b_3.png"
+        },
+        {
+          "id": 1132,
+          "name": "Chainmail Dragon",
+          "rarity": "C",
+          "img_name": "1132_dragon_chainmail",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1132_dragon_chainmail_3.png"
+        }
+      ],
+      "featured_dragon_count": 5,
+      "building_id": 343,
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0343_jungle_island@2x.png",
+      "asset_zip": "/mobile/ui/fog_islands/fi_carnaval_b.zip"
     }
   ],
   "warnings": [
@@ -3277,6 +3334,7 @@
     "Skipped maze_island:322: incomplete schedule start=0, end=0. Child paths indicate end_ts=1791194399 (2026-10-05T09:59:59Z), but start is missing.",
     "Skipped maze_island:323: incomplete schedule start=0, end=0. Child paths indicate end_ts=1792058400 (2026-10-15T10:00:00Z), but start is missing.",
     "Skipped maze_island:325: incomplete schedule start=0, end=0. Child paths indicate end_ts=1793271540 (2026-10-29T10:59:00Z), but start is missing.",
+    "Skipped maze_island:327: incomplete schedule start=0, end=0. Child paths indicate end_ts=1795690800 (2026-11-26T11:00:00Z), but start is missing.",
     "Skipped event_island:37: incomplete schedule start=0, end=1.",
     "Skipped event_island:38: incomplete schedule start=0, end=1.",
     "Skipped event_island:39: incomplete schedule start=0, end=1.",

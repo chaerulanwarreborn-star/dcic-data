@@ -1,12 +1,12 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-05T12:15:33.886544Z",
+  "generated_at": "2026-11-05T13:59:30.466846Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
-  "pass_count": 143,
+  "pass_count": 144,
   "divine_pass_count": 93,
-  "progression_pass_count": 50,
+  "progression_pass_count": 51,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -670550,7 +670550,7 @@
                 ],
                 "reward": {
                   "reward_id": 338003,
-                  "name": "Energy_arena_electric_170",
+                  "name": "Electric Arena Booster",
                   "amount": 1,
                   "kind": "decoration",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11469_energy_arena_electric_v5@2x.png",
@@ -670564,7 +670564,7 @@
                       "id": 12101,
                       "item_id": 12101,
                       "group_type": "DECO",
-                      "name": "Energy_arena_electric_170",
+                      "name": "Electric Arena Booster",
                       "amount": 1,
                       "img_name_mobile": "11469_energy_arena_electric_v5",
                       "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11469_energy_arena_electric_v5@2x.png",
@@ -680545,7 +680545,7 @@
                 ],
                 "reward": {
                   "reward_id": 339003,
-                  "name": "Evil nutcracker",
+                  "name": "Primal Arena Booster",
                   "amount": 1,
                   "kind": "decoration",
                   "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11568_energy_arena_primal@2x.png",
@@ -680559,7 +680559,7 @@
                       "id": 12102,
                       "item_id": 12102,
                       "group_type": "DECO",
-                      "name": "Evil nutcracker",
+                      "name": "Primal Arena Booster",
                       "amount": 1,
                       "img_name_mobile": "11568_energy_arena_primal",
                       "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11568_energy_arena_primal@2x.png",
@@ -693418,6 +693418,3992 @@
       "icon_remote": "/mobile/ui/economy_system/ic-currency-blackfriday26-pass/$HDSD/ic-currency-blackfriday26-pass_massive_c.png",
       "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic-currency-blackfriday26-pass/HD/ic-currency-blackfriday26-pass_massive_c.png",
       "hud_button_asset": "blackfriday26_pass_hud"
+    },
+    {
+      "key": "progression_pass:355",
+      "id": 355,
+      "type": "progression_pass",
+      "variant": "hatching_pass",
+      "type_label": "Progression Pass",
+      "title": "HATCH PASS",
+      "subtitle": "",
+      "start_ts": 1794826800,
+      "end_ts": 1795690800,
+      "start_iso": "2026-11-16T11:00:00Z",
+      "end_iso": "2026-11-26T11:00:00Z",
+      "details": "/p/progression-pass.html?id=355",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "hatching_pass.20261116",
+      "featured_dragons": [
+        {
+          "id": 3120,
+          "name": "Halo Dragon",
+          "rarity": "M",
+          "img_name": "3120_dragon_halo",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png"
+          ],
+          "path": "free"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "featured_reward": {
+        "kind": "dragon",
+        "type": "dragon_egg",
+        "asset_kind": "dragon",
+        "id": 3120,
+        "dragon_id": 3120,
+        "name": "Halo Dragon",
+        "amount": 1,
+        "img_name_mobile": "3120_dragon_halo",
+        "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+        "baby_image_candidates": [
+          "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png"
+        ],
+        "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+        "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+        "popup": {
+          "kind": "dragon",
+          "id": 3120
+        },
+        "rarity": "M",
+        "frame_shape": "round"
+      },
+      "progression": {
+        "lanes": [
+          {
+            "id": 355002,
+            "key": "platinum",
+            "name": "Platinum Lane",
+            "currency": "hatching_pass_points.20261116",
+            "unlock_system_availability": "hatching_pass.20261116_platinum",
+            "goals": [
+              {
+                "order": 1,
+                "id": 355003,
+                "points": 15,
+                "requirements": [
+                  {
+                    "id": 355003,
+                    "type": "EARN_CURRENCY",
+                    "amount": 15,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355003,
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "sticker_pack",
+                      "resource": "sticker_pack",
+                      "key": "album_pack_aces.4",
+                      "name": "Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "album_pack_aces.4": 1
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 355009,
+                "points": 30,
+                "requirements": [
+                  {
+                    "id": 355009,
+                    "type": "EARN_CURRENCY",
+                    "amount": 30,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355009,
+                  "name": "Halo Dragon Orbs",
+                  "amount": 100,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3120
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3120,
+                      "dragon_id": 3120,
+                      "name": "Halo Dragon Orbs",
+                      "amount": 100,
+                      "dragon_rarity": "M",
+                      "img_name_mobile": "3120_dragon_halo",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3120
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3120,
+                          "amount": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 355014,
+                "points": 45,
+                "requirements": [
+                  {
+                    "id": 355014,
+                    "type": "EARN_CURRENCY",
+                    "amount": 45,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355014,
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "sticker_pack",
+                      "resource": "sticker_pack",
+                      "key": "album_pack_aces.5",
+                      "name": "Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "album_pack_aces.5": 1
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 355018,
+                "points": 55,
+                "requirements": [
+                  {
+                    "id": 355018,
+                    "type": "EARN_CURRENCY",
+                    "amount": 55,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355018,
+                  "name": "deco_covens hatching",
+                  "amount": 5,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 5,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023,
+                        12023,
+                        12023,
+                        12023,
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 355022,
+                "points": 65,
+                "requirements": [
+                  {
+                    "id": 355022,
+                    "type": "EARN_CURRENCY",
+                    "amount": 65,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355022,
+                  "name": "Mythical Joker Orbs",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png",
+                  "popup": {},
+                  "rarity": "M",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "joker_orbs",
+                      "resource": "joker_orbs",
+                      "key": "rarity_seeds",
+                      "name": "Mythical Joker Orbs",
+                      "amount": 50,
+                      "rarity": "M",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png"
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "rarity_seeds": [
+                        {
+                          "rarity": "M",
+                          "amount": 50
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 355026,
+                "points": 85,
+                "requirements": [
+                  {
+                    "id": 355026,
+                    "type": "EARN_CURRENCY",
+                    "amount": 85,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355026,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10713,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 10713,
+                      "chest_id": 10713,
+                      "source_chest_id": 10713,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:10713",
+                      "detail_file": "generic/25.json",
+                      "name": "Banquet Box",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 10713,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 10713
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 355030,
+                "points": 105,
+                "requirements": [
+                  {
+                    "id": 355030,
+                    "type": "EARN_CURRENCY",
+                    "amount": 105,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355030,
+                  "name": "Mythical Joker Orbs",
+                  "amount": 70,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png",
+                  "popup": {},
+                  "rarity": "M",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "joker_orbs",
+                      "resource": "joker_orbs",
+                      "key": "rarity_seeds",
+                      "name": "Mythical Joker Orbs",
+                      "amount": 70,
+                      "rarity": "M",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png"
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "rarity_seeds": [
+                        {
+                          "rarity": "M",
+                          "amount": 70
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 8,
+                "id": 355032,
+                "points": 115,
+                "requirements": [
+                  {
+                    "id": 355032,
+                    "type": "EARN_CURRENCY",
+                    "amount": 115,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355032,
+                  "name": "Heroic Treasure Key",
+                  "amount": 2,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.heroic",
+                      "name": "Heroic Treasure Key",
+                      "amount": 2,
+                      "subtype": "heroic",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.heroic": 2
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 9,
+                "id": 355035,
+                "points": 135,
+                "requirements": [
+                  {
+                    "id": 355035,
+                    "type": "EARN_CURRENCY",
+                    "amount": 135,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355035,
+                  "name": "Heroic Joker Orbs",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png",
+                  "popup": {},
+                  "rarity": "H",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "joker_orbs",
+                      "resource": "joker_orbs",
+                      "key": "rarity_seeds",
+                      "name": "Heroic Joker Orbs",
+                      "amount": 40,
+                      "rarity": "H",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-h.png"
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "rarity_seeds": [
+                        {
+                          "rarity": "H",
+                          "amount": 40
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 10,
+                "id": 355039,
+                "points": 155,
+                "requirements": [
+                  {
+                    "id": 355039,
+                    "type": "EARN_CURRENCY",
+                    "amount": 155,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355039,
+                  "name": "Halo Dragon Orbs",
+                  "amount": 200,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3120
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3120,
+                      "dragon_id": 3120,
+                      "name": "Halo Dragon Orbs",
+                      "amount": 200,
+                      "dragon_rarity": "M",
+                      "img_name_mobile": "3120_dragon_halo",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3120
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3120,
+                          "amount": 200
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 355001,
+            "key": "golden",
+            "name": "Golden Lane",
+            "currency": "hatching_pass_points.20261116",
+            "unlock_system_availability": "hatching_pass.20261116_golden",
+            "goals": [
+              {
+                "order": 1,
+                "id": 355001,
+                "points": 10,
+                "requirements": [
+                  {
+                    "id": 355001,
+                    "type": "EARN_CURRENCY",
+                    "amount": 10,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355001,
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "sticker_pack",
+                      "resource": "sticker_pack",
+                      "key": "album_pack_aces.1",
+                      "name": "Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "album_pack_aces.1": 1
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 355005,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 355005,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355005,
+                  "name": "Perks",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "perks",
+                      "name": "Perks",
+                      "amount": 1,
+                      "image_url": "",
+                      "values": [
+                        {
+                          "id": 1,
+                          "quantity": 5
+                        }
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "perks": [
+                        {
+                          "id": 1,
+                          "quantity": 5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 355007,
+                "points": 25,
+                "requirements": [
+                  {
+                    "id": 355007,
+                    "type": "EARN_CURRENCY",
+                    "amount": 25,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355007,
+                  "name": "Large Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16553,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16553,
+                      "chest_id": 16553,
+                      "source_chest_id": 16553,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16553",
+                      "detail_file": "generic/41.json",
+                      "name": "Large Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16553,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16553
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 355011,
+                "points": 35,
+                "requirements": [
+                  {
+                    "id": 355011,
+                    "type": "EARN_CURRENCY",
+                    "amount": 35,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355011,
+                  "name": "Extra Large Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16554,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16554,
+                      "chest_id": 16554,
+                      "source_chest_id": 16554,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16554",
+                      "detail_file": "generic/42.json",
+                      "name": "Extra Large Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_xl.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16554,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16554
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 355013,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 355013,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355013,
+                  "name": "Skin #3436",
+                  "amount": 1,
+                  "kind": "skin",
+                  "image_url": "",
+                  "popup": {
+                    "kind": "skin",
+                    "id": 3436
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "skin",
+                      "type": "skin",
+                      "asset_kind": "skin",
+                      "id": 3436,
+                      "skin_id": 3436,
+                      "name": "Skin #3436",
+                      "amount": 1,
+                      "thumbnail": "",
+                      "skin_thumbnail": "",
+                      "thumbnail_candidates": [],
+                      "image_url": "",
+                      "image_candidates": [],
+                      "popup": {
+                        "kind": "skin",
+                        "id": 3436
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "skin": 3436
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 355016,
+                "points": 50,
+                "requirements": [
+                  {
+                    "id": 355016,
+                    "type": "EARN_CURRENCY",
+                    "amount": 50,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355016,
+                  "name": "Perks",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "perks",
+                      "name": "Perks",
+                      "amount": 1,
+                      "image_url": "",
+                      "values": [
+                        {
+                          "id": 1,
+                          "quantity": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "perks": [
+                        {
+                          "id": 1,
+                          "quantity": 10
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 355020,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 355020,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355020,
+                  "name": "Legendary Treasure Key",
+                  "amount": 25,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 25,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.legendary": 25
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 8,
+                "id": 355024,
+                "points": 75,
+                "requirements": [
+                  {
+                    "id": 355024,
+                    "type": "EARN_CURRENCY",
+                    "amount": 75,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355024,
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "sticker_pack",
+                      "resource": "sticker_pack",
+                      "key": "album_pack_aces.3",
+                      "name": "Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "album_pack_aces.3": 1
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 9,
+                "id": 355028,
+                "points": 95,
+                "requirements": [
+                  {
+                    "id": 355028,
+                    "type": "EARN_CURRENCY",
+                    "amount": 95,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355028,
+                  "name": "Mythical Trade Essences",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png",
+                  "popup": {},
+                  "rarity": "M",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "trade_essence",
+                      "resource": "trade_essence",
+                      "key": "trade_tickets",
+                      "name": "Mythical Trade Essences",
+                      "amount": 10,
+                      "rarity": "M",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "trade_tickets": [
+                        {
+                          "rarity": "M",
+                          "amount": 10,
+                          "limit": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 10,
+                "id": 355034,
+                "points": 125,
+                "requirements": [
+                  {
+                    "id": 355034,
+                    "type": "EARN_CURRENCY",
+                    "amount": 125,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355034,
+                  "name": "deco_covens hatching",
+                  "amount": 3,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 3,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023,
+                        12023,
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 11,
+                "id": 355037,
+                "points": 145,
+                "requirements": [
+                  {
+                    "id": 355037,
+                    "type": "EARN_CURRENCY",
+                    "amount": 145,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355037,
+                  "name": "Halo Dragon Orbs",
+                  "amount": 100,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3120
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3120,
+                      "dragon_id": 3120,
+                      "name": "Halo Dragon Orbs",
+                      "amount": 100,
+                      "dragon_rarity": "M",
+                      "img_name_mobile": "3120_dragon_halo",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3120
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3120,
+                          "amount": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 12,
+                "id": 355041,
+                "points": 160,
+                "requirements": [
+                  {
+                    "id": 355041,
+                    "type": "EARN_CURRENCY",
+                    "amount": 160,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355041,
+                  "name": "Halo Dragon Orbs",
+                  "amount": 150,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3120
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3120,
+                      "dragon_id": 3120,
+                      "name": "Halo Dragon Orbs",
+                      "amount": 150,
+                      "dragon_rarity": "M",
+                      "img_name_mobile": "3120_dragon_halo",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-m-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3120
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3120,
+                          "amount": 150
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 355000,
+            "key": "free",
+            "name": "Free",
+            "currency": "hatching_pass_points.20261116",
+            "unlock_system_availability": null,
+            "goals": [
+              {
+                "order": 1,
+                "id": 355000,
+                "points": 10,
+                "requirements": [
+                  {
+                    "id": 355000,
+                    "type": "EARN_CURRENCY",
+                    "amount": 10,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355000,
+                  "name": "Small Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16551,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16551,
+                      "chest_id": 16551,
+                      "source_chest_id": 16551,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16551",
+                      "detail_file": "generic/39.json",
+                      "name": "Small Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_s@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_s@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_s.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16551,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16551
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 355002,
+                "points": 15,
+                "requirements": [
+                  {
+                    "id": 355002,
+                    "type": "EARN_CURRENCY",
+                    "amount": 15,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355002,
+                  "name": "Legendary Treasure Key",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 10,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.legendary": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 355004,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 355004,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355004,
+                  "name": "Perks",
+                  "amount": 1,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "perks",
+                      "name": "Perks",
+                      "amount": 1,
+                      "image_url": "",
+                      "values": [
+                        {
+                          "id": 1,
+                          "quantity": 1
+                        }
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "perks": [
+                        {
+                          "id": 1,
+                          "quantity": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 355006,
+                "points": 25,
+                "requirements": [
+                  {
+                    "id": 355006,
+                    "type": "EARN_CURRENCY",
+                    "amount": 25,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355006,
+                  "name": "Medium Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16552,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16552,
+                      "chest_id": 16552,
+                      "source_chest_id": 16552,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16552",
+                      "detail_file": "generic/40.json",
+                      "name": "Medium Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16552,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16552
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 355008,
+                "points": 30,
+                "requirements": [
+                  {
+                    "id": 355008,
+                    "type": "EARN_CURRENCY",
+                    "amount": 30,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355008,
+                  "name": "Legendary Trade Essences",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png",
+                  "popup": {},
+                  "rarity": "L",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "trade_essence",
+                      "resource": "trade_essence",
+                      "key": "trade_tickets",
+                      "name": "Legendary Trade Essences",
+                      "amount": 10,
+                      "rarity": "L",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-l.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "trade_tickets": [
+                        {
+                          "rarity": "L",
+                          "amount": 10,
+                          "limit": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 355010,
+                "points": 35,
+                "requirements": [
+                  {
+                    "id": 355010,
+                    "type": "EARN_CURRENCY",
+                    "amount": 35,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355010,
+                  "name": "Legendary Treasure Key",
+                  "amount": 15,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 15,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.legendary": 15
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 355012,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 355012,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355012,
+                  "name": "deco_covens hatching",
+                  "amount": 1,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 1,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 8,
+                "id": 355015,
+                "points": 50,
+                "requirements": [
+                  {
+                    "id": 355015,
+                    "type": "EARN_CURRENCY",
+                    "amount": 50,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355015,
+                  "name": "Legendary Joker Orbs",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png",
+                  "popup": {},
+                  "rarity": "L",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "joker_orbs",
+                      "resource": "joker_orbs",
+                      "key": "rarity_seeds",
+                      "name": "Legendary Joker Orbs",
+                      "amount": 40,
+                      "rarity": "L",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "rarity_seeds": [
+                        {
+                          "rarity": "L",
+                          "amount": 40
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 9,
+                "id": 355017,
+                "points": 55,
+                "requirements": [
+                  {
+                    "id": 355017,
+                    "type": "EARN_CURRENCY",
+                    "amount": 55,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355017,
+                  "name": "Legendary Treasure Key",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 20,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.legendary": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 10,
+                "id": 355019,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 355019,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355019,
+                  "name": "Large Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16553,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16553,
+                      "chest_id": 16553,
+                      "source_chest_id": 16553,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16553",
+                      "detail_file": "generic/41.json",
+                      "name": "Large Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16553,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16553
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 11,
+                "id": 355021,
+                "points": 65,
+                "requirements": [
+                  {
+                    "id": 355021,
+                    "type": "EARN_CURRENCY",
+                    "amount": 65,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355021,
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16618,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16618,
+                      "chest_id": 16618,
+                      "source_chest_id": 16618,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16618",
+                      "detail_file": "generic/42.json",
+                      "name": "Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_no_rarity@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16618,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16618
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 12,
+                "id": 355023,
+                "points": 75,
+                "requirements": [
+                  {
+                    "id": 355023,
+                    "type": "EARN_CURRENCY",
+                    "amount": 75,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355023,
+                  "name": "deco_covens hatching",
+                  "amount": 1,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 1,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 13,
+                "id": 355025,
+                "points": 85,
+                "requirements": [
+                  {
+                    "id": 355025,
+                    "type": "EARN_CURRENCY",
+                    "amount": 85,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355025,
+                  "name": "Mythical Trade Essences",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png",
+                  "popup": {},
+                  "rarity": "M",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "trade_essence",
+                      "resource": "trade_essence",
+                      "key": "trade_tickets",
+                      "name": "Mythical Trade Essences",
+                      "amount": 20,
+                      "rarity": "M",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-trade-orb-big-m.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "trade_tickets": [
+                        {
+                          "rarity": "M",
+                          "amount": 20,
+                          "limit": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 14,
+                "id": 355027,
+                "points": 95,
+                "requirements": [
+                  {
+                    "id": 355027,
+                    "type": "EARN_CURRENCY",
+                    "amount": 95,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355027,
+                  "name": "deco_covens hatching",
+                  "amount": 2,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 2,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023,
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 15,
+                "id": 355029,
+                "points": 105,
+                "requirements": [
+                  {
+                    "id": 355029,
+                    "type": "EARN_CURRENCY",
+                    "amount": 105,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355029,
+                  "name": "Legendary Treasure Key",
+                  "amount": 25,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.legendary",
+                      "name": "Legendary Treasure Key",
+                      "amount": 25,
+                      "subtype": "legendary",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.legendary": 25
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 16,
+                "id": 355031,
+                "points": 115,
+                "requirements": [
+                  {
+                    "id": 355031,
+                    "type": "EARN_CURRENCY",
+                    "amount": 115,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355031,
+                  "name": "Medium Shiny Sticker Pack",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16557,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 16557,
+                      "chest_id": 16557,
+                      "source_chest_id": 16557,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:16557",
+                      "detail_file": "generic/45.json",
+                      "name": "Medium Shiny Sticker Pack",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_2@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_2@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_2.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 16557,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 16557
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 17,
+                "id": 355033,
+                "points": 125,
+                "requirements": [
+                  {
+                    "id": 355033,
+                    "type": "EARN_CURRENCY",
+                    "amount": 125,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355033,
+                  "name": "deco_covens hatching",
+                  "amount": 2,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12023,
+                      "item_id": 12023,
+                      "group_type": "DECO",
+                      "name": "deco_covens hatching",
+                      "amount": 2,
+                      "img_name_mobile": "12023_deco_covenshatching",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12023_deco_covenshatching.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12023_deco_covenshatching.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "b": [
+                        12023,
+                        12023
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 18,
+                "id": 355036,
+                "points": 145,
+                "requirements": [
+                  {
+                    "id": 355036,
+                    "type": "EARN_CURRENCY",
+                    "amount": 145,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355036,
+                  "name": "Mythical Treasure Key",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.mythical",
+                      "name": "Mythical Treasure Key",
+                      "amount": 5,
+                      "subtype": "mythical",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                      "image_candidates": [
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
+                      ]
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "permanent_gacha.mythical": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 19,
+                "id": 355038,
+                "points": 155,
+                "requirements": [
+                  {
+                    "id": 355038,
+                    "type": "EARN_CURRENCY",
+                    "amount": 155,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355038,
+                  "name": "Mythical Joker Orbs",
+                  "amount": 15,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png",
+                  "popup": {},
+                  "rarity": "M",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "joker_orbs",
+                      "resource": "joker_orbs",
+                      "key": "rarity_seeds",
+                      "name": "Mythical Joker Orbs",
+                      "amount": 15,
+                      "rarity": "M",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-m.png"
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "rarity_seeds": [
+                        {
+                          "rarity": "M",
+                          "amount": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 20,
+                "id": 355040,
+                "points": 160,
+                "requirements": [
+                  {
+                    "id": 355040,
+                    "type": "EARN_CURRENCY",
+                    "amount": 160,
+                    "rules": {
+                      "currency_id": "hatching_pass_points.20261116"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 355040,
+                  "name": "Halo Dragon",
+                  "amount": 1,
+                  "kind": "dragon",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3120
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon",
+                      "type": "dragon_egg",
+                      "asset_kind": "dragon",
+                      "id": 3120,
+                      "dragon_id": 3120,
+                      "name": "Halo Dragon",
+                      "amount": 1,
+                      "img_name_mobile": "3120_dragon_halo",
+                      "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+                      "baby_image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png"
+                      ],
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_3.png",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_1@2x.png",
+                      "popup": {
+                        "kind": "dragon",
+                        "id": 3120
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "egg": 3120
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ],
+        "mission_groups": [
+          {
+            "id": 355000,
+            "name": "GOALS",
+            "unlock_system_availability": "hatching_pass.20261116",
+            "goals": [
+              {
+                "id": 3550000,
+                "requirements": [
+                  {
+                    "id": 3550000,
+                    "type": "HATCH_EGG",
+                    "amount": 1,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550000,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550001,
+                "requirements": [
+                  {
+                    "id": 3550001,
+                    "type": "HATCH_EGG",
+                    "amount": 2,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550001,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550002,
+                "requirements": [
+                  {
+                    "id": 3550002,
+                    "type": "HATCH_EGG",
+                    "amount": 3,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550002,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550003,
+                "requirements": [
+                  {
+                    "id": 3550003,
+                    "type": "HATCH_EGG",
+                    "amount": 4,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550003,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550004,
+                "requirements": [
+                  {
+                    "id": 3550004,
+                    "type": "HATCH_EGG",
+                    "amount": 5,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550004,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550005,
+                "requirements": [
+                  {
+                    "id": 3550005,
+                    "type": "HATCH_EGG",
+                    "amount": 6,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550005,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550006,
+                "requirements": [
+                  {
+                    "id": 3550006,
+                    "type": "HATCH_EGG",
+                    "amount": 7,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550006,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550007,
+                "requirements": [
+                  {
+                    "id": 3550007,
+                    "type": "HATCH_EGG",
+                    "amount": 8,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550007,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550008,
+                "requirements": [
+                  {
+                    "id": 3550008,
+                    "type": "HATCH_EGG",
+                    "amount": 9,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550008,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550009,
+                "requirements": [
+                  {
+                    "id": 3550009,
+                    "type": "HATCH_EGG",
+                    "amount": 10,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550009,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550010,
+                "requirements": [
+                  {
+                    "id": 3550010,
+                    "type": "HATCH_EGG",
+                    "amount": 11,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550010,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550011,
+                "requirements": [
+                  {
+                    "id": 3550011,
+                    "type": "HATCH_EGG",
+                    "amount": 12,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550011,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550012,
+                "requirements": [
+                  {
+                    "id": 3550012,
+                    "type": "HATCH_EGG",
+                    "amount": 13,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550012,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550013,
+                "requirements": [
+                  {
+                    "id": 3550013,
+                    "type": "HATCH_EGG",
+                    "amount": 14,
+                    "rules": {
+                      "rarity": "V"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550013,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 20,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 20,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 20
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550014,
+                "requirements": [
+                  {
+                    "id": 3550014,
+                    "type": "HATCH_EGG",
+                    "amount": 1,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550014,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550015,
+                "requirements": [
+                  {
+                    "id": 3550015,
+                    "type": "HATCH_EGG",
+                    "amount": 2,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550015,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550016,
+                "requirements": [
+                  {
+                    "id": 3550016,
+                    "type": "HATCH_EGG",
+                    "amount": 3,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550016,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550017,
+                "requirements": [
+                  {
+                    "id": 3550017,
+                    "type": "HATCH_EGG",
+                    "amount": 4,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550017,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550018,
+                "requirements": [
+                  {
+                    "id": 3550018,
+                    "type": "HATCH_EGG",
+                    "amount": 5,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550018,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550019,
+                "requirements": [
+                  {
+                    "id": 3550019,
+                    "type": "HATCH_EGG",
+                    "amount": 6,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550019,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550020,
+                "requirements": [
+                  {
+                    "id": 3550020,
+                    "type": "HATCH_EGG",
+                    "amount": 7,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550020,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550021,
+                "requirements": [
+                  {
+                    "id": 3550021,
+                    "type": "HATCH_EGG",
+                    "amount": 8,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550021,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550022,
+                "requirements": [
+                  {
+                    "id": 3550022,
+                    "type": "HATCH_EGG",
+                    "amount": 9,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550022,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550023,
+                "requirements": [
+                  {
+                    "id": 3550023,
+                    "type": "HATCH_EGG",
+                    "amount": 10,
+                    "rules": {
+                      "rarity": "E"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550023,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 30,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 30,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 30
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550024,
+                "requirements": [
+                  {
+                    "id": 3550024,
+                    "type": "HATCH_EGG",
+                    "amount": 1,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550024,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550025,
+                "requirements": [
+                  {
+                    "id": 3550025,
+                    "type": "HATCH_EGG",
+                    "amount": 2,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550025,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550026,
+                "requirements": [
+                  {
+                    "id": 3550026,
+                    "type": "HATCH_EGG",
+                    "amount": 3,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550026,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550027,
+                "requirements": [
+                  {
+                    "id": 3550027,
+                    "type": "HATCH_EGG",
+                    "amount": 4,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550027,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550028,
+                "requirements": [
+                  {
+                    "id": 3550028,
+                    "type": "HATCH_EGG",
+                    "amount": 5,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550028,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550029,
+                "requirements": [
+                  {
+                    "id": 3550029,
+                    "type": "HATCH_EGG",
+                    "amount": 6,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550029,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550030,
+                "requirements": [
+                  {
+                    "id": 3550030,
+                    "type": "HATCH_EGG",
+                    "amount": 7,
+                    "rules": {
+                      "rarity": "L"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550030,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550031,
+                "requirements": [
+                  {
+                    "id": 3550031,
+                    "type": "HATCH_EGG",
+                    "amount": 1,
+                    "rules": {
+                      "rarity": "M"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550031,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550032,
+                "requirements": [
+                  {
+                    "id": 3550032,
+                    "type": "HATCH_EGG",
+                    "amount": 2,
+                    "rules": {
+                      "rarity": "M"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550032,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550033,
+                "requirements": [
+                  {
+                    "id": 3550033,
+                    "type": "HATCH_EGG",
+                    "amount": 3,
+                    "rules": {
+                      "rarity": "M"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550033,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550034,
+                "requirements": [
+                  {
+                    "id": 3550034,
+                    "type": "HATCH_EGG",
+                    "amount": 4,
+                    "rules": {
+                      "rarity": "M"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550034,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550035,
+                "requirements": [
+                  {
+                    "id": 3550035,
+                    "type": "HATCH_EGG",
+                    "amount": 5,
+                    "rules": {
+                      "rarity": "M"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550035,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550036,
+                "requirements": [
+                  {
+                    "id": 3550036,
+                    "type": "HATCH_EGG",
+                    "amount": 1,
+                    "rules": {
+                      "rarity": "H"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550036,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550037,
+                "requirements": [
+                  {
+                    "id": 3550037,
+                    "type": "HATCH_EGG",
+                    "amount": 2,
+                    "rules": {
+                      "rarity": "H"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550037,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550038,
+                "requirements": [
+                  {
+                    "id": 3550038,
+                    "type": "HATCH_EGG",
+                    "amount": 3,
+                    "rules": {
+                      "rarity": "H"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550038,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "id": 3550039,
+                "requirements": [
+                  {
+                    "id": 3550039,
+                    "type": "HATCH_EGG",
+                    "amount": 4,
+                    "rules": {
+                      "rarity": "H"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3550039,
+                  "name": "Hatching Pass Points 20261116",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "hatching_pass_points.20261116",
+                      "name": "Hatching Pass Points 20261116",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "hatching_pass_points.20261116": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ]
+      },
+      "currency_ids": [
+        "hatching_pass_points.20261116"
+      ],
+      "currency_id": "hatching_pass_points.20261116",
+      "visual_icon_id": "hatching_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/$HDSD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_iap_pass_currency_hatchery_egg/HD/ic_iap_pass_currency_hatchery_egg-massive_c.png",
+      "hud_button_asset": "hatchery-current-icon"
     }
   ]
 }

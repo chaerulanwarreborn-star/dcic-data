@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:16:08Z",
+  "generated_at": "2026-11-05T14:00:04Z",
   "collections": [
     {
       "id": 3015,
@@ -51065,17 +51065,25 @@
             },
             {
               "position": 9,
-              "reward_id": 961,
+              "reward_id": 990,
               "rewards": [
                 {
-                  "kind": "item",
-                  "id": 12123,
-                  "name": "DTV Coin",
+                  "kind": "chest",
+                  "id": 20505,
+                  "name": "Covens hatching",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_10012_dragontv_coin_b@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_covenshatching@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_covenshatching@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_covenshatching@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_covenshatching@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_covenshatching.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
-                    "kind": "item",
-                    "id": 12123
+                    "kind": "chest",
+                    "id": 20505,
+                    "type": "generic"
                   }
                 }
               ]
