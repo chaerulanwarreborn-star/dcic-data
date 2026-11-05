@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-05T08:55:12Z",
+  "generated_at": "2026-11-05T10:49:07Z",
   "schema_version": 2,
   "count": 609,
   "linked_count": 315,
-  "attack_count": 1165,
+  "attack_count": 1167,
   "dragon_index": {
     "1000": [
       "Nature Dragon",
@@ -11234,6 +11234,11 @@
       "High Risen Metal Dragon",
       "H",
       "3509_dragon_highrisenmetal"
+    ],
+    "3513": [
+      "High Hypno Minds eye Dragon",
+      "H",
+      "3512_dragon_hypnowhisperer"
     ]
   },
   "skills": [
@@ -41336,7 +41341,7 @@
       "id": 582,
       "name": "Brain Drain",
       "description": "When this dragon defeats an enemy, all allies restore a portion of their health.",
-      "cooldown": 0,
+      "cooldown": 3,
       "effects": [
         {
           "id": 849,
@@ -115018,7 +115023,7 @@
       "cooldown": null,
       "button_style": 1,
       "special_icon": 0,
-      "usage_count": 16,
+      "usage_count": 17,
       "dragons": [
         [
           1405,
@@ -115112,6 +115117,12 @@
         ],
         [
           3464,
+          "b",
+          1050,
+          null
+        ],
+        [
+          3513,
           "b",
           1050,
           null
@@ -118459,7 +118470,7 @@
       "cooldown": null,
       "button_style": 2,
       "special_icon": 0,
-      "usage_count": 55,
+      "usage_count": 56,
       "dragons": [
         [
           1428,
@@ -118787,6 +118798,12 @@
         ],
         [
           3104,
+          "t",
+          1350,
+          172800
+        ],
+        [
+          3513,
           "t",
           1350,
           172800
@@ -134102,7 +134119,7 @@
       "cooldown": null,
       "button_style": 2,
       "special_icon": 0,
-      "usage_count": 76,
+      "usage_count": 77,
       "dragons": [
         [
           1041,
@@ -134556,6 +134573,12 @@
         ],
         [
           3034,
+          "t",
+          2600,
+          172800
+        ],
+        [
+          3513,
           "t",
           2600,
           172800
@@ -149796,7 +149819,7 @@
       "cooldown": null,
       "button_style": 2,
       "special_icon": 0,
-      "usage_count": 2,
+      "usage_count": 3,
       "dragons": [
         [
           3158,
@@ -149806,6 +149829,12 @@
         ],
         [
           3236,
+          "t",
+          2250,
+          172800
+        ],
+        [
+          3513,
           "t",
           2250,
           172800
@@ -151441,7 +151470,7 @@
       "cooldown": null,
       "button_style": 1,
       "special_icon": 0,
-      "usage_count": 3,
+      "usage_count": 4,
       "dragons": [
         [
           3113,
@@ -151457,6 +151486,12 @@
         ],
         [
           3331,
+          "b",
+          1450,
+          null
+        ],
+        [
+          3513,
           "b",
           1450,
           null
@@ -151715,7 +151750,7 @@
       "cooldown": null,
       "button_style": 2,
       "special_icon": 0,
-      "usage_count": 4,
+      "usage_count": 5,
       "dragons": [
         [
           3160,
@@ -151737,6 +151772,12 @@
         ],
         [
           3445,
+          "t",
+          1900,
+          172800
+        ],
+        [
+          3513,
           "t",
           1900,
           172800
@@ -157644,6 +157685,25 @@
           "t",
           2200,
           172800
+        ]
+      ]
+    },
+    {
+      "id": 795,
+      "name": "Bright Fireworks",
+      "element": "hp",
+      "element_name": "Happy",
+      "skill_id": null,
+      "cooldown": null,
+      "button_style": 1,
+      "special_icon": 0,
+      "usage_count": 1,
+      "dragons": [
+        [
+          3513,
+          "b",
+          1750,
+          null
         ]
       ]
     },
@@ -165783,6 +165843,25 @@
           "t",
           2050,
           86400
+        ]
+      ]
+    },
+    {
+      "id": 6011,
+      "name": "Astro Hit",
+      "element": "wr",
+      "element_name": "War",
+      "skill_id": null,
+      "cooldown": null,
+      "button_style": 1,
+      "special_icon": 0,
+      "usage_count": 1,
+      "dragons": [
+        [
+          3513,
+          "b",
+          1850,
+          null
         ]
       ]
     },

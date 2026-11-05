@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-05T08:54:42.582570Z",
+  "generated_at": "2026-11-05T10:48:24.917087Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -670539,30 +670539,41 @@
                 ],
                 "reward": {
                   "reward_id": 338003,
-                  "name": "Heroic Treasure Key",
-                  "amount": 10,
-                  "kind": "resource",
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                  "name": "Energy_arena_electric_170",
+                  "amount": 1,
+                  "kind": "decoration",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11469_energy_arena_electric_v5@2x.png",
                   "popup": {},
                   "rarity": "",
                   "items": [
                     {
-                      "kind": "resource",
-                      "type": "treasure_key",
-                      "resource": "treasure_key",
-                      "key": "permanent_gacha.heroic",
-                      "name": "Heroic Treasure Key",
-                      "amount": 10,
-                      "subtype": "heroic",
-                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                      "kind": "decoration",
+                      "type": "decoration",
+                      "asset_kind": "decoration",
+                      "id": 12101,
+                      "item_id": 12101,
+                      "group_type": "DECO",
+                      "name": "Energy_arena_electric_170",
+                      "amount": 1,
+                      "img_name_mobile": "11469_energy_arena_electric_v5",
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11469_energy_arena_electric_v5@2x.png",
                       "image_candidates": [
-                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png"
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11469_energy_arena_electric_v5@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/11469_energy_arena_electric_v5@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/11469_energy_arena_electric_v5.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/11469_energy_arena_electric_v5.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_11469_energy_arena_electric_v5@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/11469_energy_arena_electric_v5@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/11469_energy_arena_electric_v5.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/11469_energy_arena_electric_v5.png"
                       ]
                     }
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.heroic": 10
+                      "b": [
+                        12101
+                      ]
                     }
                   ]
                 },
@@ -670706,49 +670717,30 @@
                 ],
                 "reward": {
                   "reward_id": 338011,
-                  "name": "Mythical and Legendary Treasure Keys",
-                  "amount": 1,
-                  "kind": "chest",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
-                  "popup": {
-                    "kind": "chest",
-                    "id": 14959,
-                    "type": "generic"
-                  },
+                  "name": "Heroic Treasure Key",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                  "popup": {},
                   "rarity": "",
                   "items": [
                     {
-                      "kind": "chest",
-                      "type": "chest",
-                      "asset_kind": "chest",
-                      "id": 14959,
-                      "chest_id": 14959,
-                      "source_chest_id": 14959,
-                      "source_chest_img_name": "",
-                      "img_name": "",
-                      "chest_type": "generic",
-                      "chest_key": "generic:14959",
-                      "detail_file": "generic/47.json",
-                      "name": "Mythical and Legendary Treasure Keys",
-                      "amount": 1,
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.heroic",
+                      "name": "Heroic Treasure Key",
+                      "amount": 10,
+                      "subtype": "heroic",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
                       "image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold_silver.png",
-                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-                      ],
-                      "popup": {
-                        "kind": "chest",
-                        "id": 14959,
-                        "type": "generic"
-                      }
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png"
+                      ]
                     }
                   ],
                   "raw": [
                     {
-                      "chest": 14959
+                      "permanent_gacha.heroic": 10
                     }
                   ]
                 },
