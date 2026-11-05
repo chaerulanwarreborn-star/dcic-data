@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-05T10:49:01Z",
+  "generated_at": "2026-11-05T11:47:19Z",
   "quest_count": 190,
   "permanent_count": 45,
   "event_count": 145,
@@ -281960,7 +281960,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -282752,7 +282752,7 @@
       "end_ts": 1794826800,
       "start_iso": "2026-11-05T11:00:00Z",
       "end_iso": "2026-11-16T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 10,
       "stages": [
         {
@@ -292144,7 +292144,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 11,
       "stages": [
         {
@@ -293868,7 +293868,7 @@
       "end_ts": 1793876400,
       "start_iso": "2026-11-02T11:00:00Z",
       "end_iso": "2026-11-05T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 11,
       "stages": [
         {
@@ -298551,7 +298551,7 @@
       "end_ts": 1796295600,
       "start_iso": "2026-11-05T11:00:00Z",
       "end_iso": "2026-12-03T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 7,
       "stages": [
         {
