@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-06T11:25:53.164220Z",
+  "generated_at": "2026-11-06T22:55:37.289418Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -664839,50 +664839,6 @@
               ]
             },
             {
-              "id": 124030,
-              "title": "Complete Mdr Node",
-              "display_title": "Complete Mdr Node",
-              "week": 2,
-              "action_type": "COMPLETE_MDR_NODE",
-              "target": 15,
-              "divine_points": 45,
-              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
-              "reward": {
-                "reward_id": 1245029,
-                "name": "Divine Points",
-                "amount": 45,
-                "kind": "resource",
-                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
-                "popup": {},
-                "rarity": "",
-                "items": [
-                  {
-                    "kind": "resource",
-                    "type": "divine_points",
-                    "resource": "divine_points",
-                    "key": "pp",
-                    "name": "Divine Points",
-                    "amount": 45,
-                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
-                  }
-                ],
-                "raw": [
-                  {
-                    "pp": 45
-                  }
-                ]
-              },
-              "minor_symbols": [],
-              "collectible_actions": [
-                {
-                  "id": 124030,
-                  "type": "COMPLETE_MDR_NODE",
-                  "amount": 15,
-                  "rules": {}
-                }
-              ]
-            },
-            {
               "id": 124031,
               "title": "Spend Tower Coins",
               "display_title": "Spend Tower Coins",
@@ -665113,6 +665069,59 @@
             }
           ],
           "week_3": [
+            {
+              "id": 124038,
+              "title": "Feed a dragon",
+              "display_title": "Feed a dragon",
+              "week": 3,
+              "action_type": "FEED",
+              "target": 10,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-feed.png",
+              "reward": {
+                "reward_id": 1245037,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 124038,
+                  "type": "FEED",
+                  "amount": 10,
+                  "rules": {
+                    "all_of_elements": [
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "id": 124036,
               "title": "Breed dragons",
