@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:27:31Z",
+  "generated_at": "2026-11-08T07:30:50Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -245325,18 +245325,17 @@
       "kind": "passive",
       "id": 13,
       "name": "Phoenix Perk",
-      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival. You can find this Perk in Offers!\nProduces Food 60/min.",
+      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival. You can find this Perk in Offers!",
       "skill_id": 1000,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
-        "PHOENIX",
-        "RESOURCE_PRODUCTION"
+        "PHOENIX"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 2,
+      "effect_count": 1,
       "multiplier": null,
       "status_icons": [],
       "dragons": [],
@@ -245351,19 +245350,12 @@
           "id": 1000,
           "type": "PHOENIX",
           "target": "SELF"
-        },
-        {
-          "id": 6,
-          "type": "RESOURCE_PRODUCTION",
-          "target": null,
-          "world": true
         }
       ],
       "perk": {
         "frame": "perks/ic-combat-perk-frame-pro.png",
         "icon": "perks/ic-phoenix-perk.png"
-      },
-      "world_skill_id": 6
+      }
     },
     {
       "kind": "passive",
