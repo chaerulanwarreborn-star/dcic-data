@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:18:57Z",
+  "generated_at": "2026-11-08T15:25:40Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -54415,7 +54415,7 @@
     },
     {
       "id": 577,
-      "name": "Doom Bloom",
+      "name": "Doommark",
       "description": "Applies Doommark upon actively joining the battle.",
       "cooldown": 0,
       "effects": [
@@ -234719,7 +234719,7 @@
       ],
       "hit_chance": 1,
       "params": {},
-      "name": "Doom Bloom",
+      "name": "Doommark",
       "description": "Applies Doommark upon actively joining the battle.",
       "skill_id": 577,
       "skill_ids": [
@@ -249748,7 +249748,7 @@
     {
       "kind": "passive",
       "id": 122,
-      "name": "Doom Bloom",
+      "name": "Doommark",
       "description": "Applies Doommark upon actively joining the battle.",
       "skill_id": 577,
       "special_icon": 1,
