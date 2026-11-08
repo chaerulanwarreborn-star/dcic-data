@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T18:44:35Z",
+  "generated_at": "2026-11-08T01:22:56Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -55322,7 +55322,7 @@
     },
     {
       "id": 593,
-      "name": "[SKIN] tid_skill_name_hypnowhisperer_passive_silenceall + damage-give",
+      "name": "Draining Whisper",
       "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "cooldown": 0,
       "effects": [
@@ -247309,10 +247309,28 @@
       "status_icons": [
         3
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3422,
+        3423,
+        3424,
+        3425,
+        3426,
+        3427,
+        3471,
+        3476,
+        3506
+      ],
+      "skins": [
+        3292,
+        3299,
+        3301,
+        3306,
+        3312,
+        3315,
+        3374
+      ],
+      "dragon_count": 9,
+      "skin_count": 7,
       "order": 72,
       "trigger": "Attack Moves",
       "durations": [],
@@ -247441,10 +247459,20 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3456,
+        3457,
+        3458,
+        3459,
+        3461
+      ],
+      "skins": [
+        3328,
+        3330,
+        3348
+      ],
+      "dragon_count": 5,
+      "skin_count": 3,
       "order": 76,
       "trigger": "Attack Moves",
       "durations": [
@@ -247477,10 +247505,17 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3477,
+        3478
+      ],
+      "skins": [
+        3323,
+        3339,
+        3394
+      ],
+      "dragon_count": 2,
+      "skin_count": 3,
       "order": 77,
       "trigger": "Attack Moves",
       "durations": [
@@ -247722,10 +247757,15 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3498
+      ],
+      "skins": [
+        3392,
+        3410
+      ],
+      "dragon_count": 1,
+      "skin_count": 2,
       "order": 84,
       "trigger": "Attack Moves",
       "durations": [
@@ -247824,10 +247864,15 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3468
+      ],
+      "skins": [
+        3367,
+        3374
+      ],
+      "dragon_count": 1,
+      "skin_count": 2,
       "order": 87,
       "trigger": "Attack Moves",
       "durations": [
@@ -247860,9 +247905,16 @@
       "status_icons": [
         5
       ],
-      "dragons": [],
+      "dragons": [
+        3468,
+        3470,
+        3471,
+        3472,
+        3473,
+        3476
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 6,
       "skin_count": 0,
       "order": 88,
       "trigger": "Attack Moves",
@@ -247896,10 +247948,19 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3469,
+        3470,
+        3471,
+        3472,
+        3473,
+        3476
+      ],
+      "skins": [
+        3357
+      ],
+      "dragon_count": 6,
+      "skin_count": 1,
       "order": 89,
       "trigger": "Attack Moves",
       "durations": [
@@ -247932,10 +247993,16 @@
       "status_icons": [
         5
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3469
+      ],
+      "skins": [
+        3357,
+        3367,
+        3374
+      ],
+      "dragon_count": 1,
+      "skin_count": 3,
       "order": 90,
       "trigger": "Attack Moves",
       "durations": [
@@ -248218,10 +248285,14 @@
       "status_icons": [
         6
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3491
+      ],
+      "skins": [
+        3390
+      ],
+      "dragon_count": 1,
+      "skin_count": 1,
       "order": 98,
       "trigger": "Attack Moves",
       "durations": [
@@ -248257,9 +248328,11 @@
         6
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3390
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "order": 99,
       "trigger": "Enemy Defeated",
       "durations": [
@@ -248399,10 +248472,14 @@
       "status_icons": [
         6
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3492
+      ],
+      "skins": [
+        3398
+      ],
+      "dragon_count": 1,
+      "skin_count": 1,
       "order": 103,
       "trigger": "Attack Moves",
       "durations": [
@@ -248438,9 +248515,11 @@
         6
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3398
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "order": 104,
       "trigger": "Enemy Defeated",
       "durations": [
@@ -248478,10 +248557,16 @@
       "status_icons": [
         6
       ],
-      "dragons": [],
-      "skins": [],
-      "dragon_count": 0,
-      "skin_count": 0,
+      "dragons": [
+        3493,
+        3496
+      ],
+      "skins": [
+        3400,
+        3416
+      ],
+      "dragon_count": 2,
+      "skin_count": 2,
       "order": 105,
       "trigger": "Attack Moves",
       "durations": [
@@ -248517,9 +248602,12 @@
         6
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3400,
+        3416
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 2,
       "order": 106,
       "trigger": "Enemy Defeated",
       "durations": [
@@ -248591,9 +248679,11 @@
       "status_icons": [
         6
       ],
-      "dragons": [],
+      "dragons": [
+        3494
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 1,
       "skin_count": 0,
       "order": 108,
       "trigger": "Attack Moves",
@@ -248628,9 +248718,11 @@
         6
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3403
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "order": 109,
       "trigger": "Attack Moves",
       "durations": [
@@ -248695,9 +248787,11 @@
       "status_icons": [
         6
       ],
-      "dragons": [],
+      "dragons": [
+        3495
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 1,
       "skin_count": 0,
       "order": 111,
       "trigger": "Attack Moves",
@@ -248732,9 +248826,11 @@
         6
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3412
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "order": 112,
       "trigger": "Attack Moves",
       "durations": [
@@ -248806,7 +248902,7 @@
       "dragon_count": 0,
       "skin_count": 0,
       "order": 114,
-      "trigger": null,
+      "trigger": "Attack Moves",
       "durations": [
         3
       ],
@@ -248842,7 +248938,7 @@
       "dragon_count": 0,
       "skin_count": 0,
       "order": 115,
-      "trigger": null,
+      "trigger": "Attack Moves",
       "durations": [
         3
       ],
@@ -248873,9 +248969,11 @@
       "status_icons": [
         3
       ],
-      "dragons": [],
+      "dragons": [
+        3496
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 1,
       "skin_count": 0,
       "order": 116,
       "trigger": "Start of Battle",
@@ -248943,9 +249041,13 @@
       "status_icons": [
         7
       ],
-      "dragons": [],
+      "dragons": [
+        3510,
+        3511,
+        3512
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 3,
       "skin_count": 0,
       "order": 118,
       "trigger": "Attack Moves",
@@ -249012,9 +249114,13 @@
         7
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3419,
+        3430,
+        3434
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 3,
       "order": 120,
       "trigger": "Attack Moves",
       "durations": [
@@ -249113,9 +249219,11 @@
       "status_icons": [
         4
       ],
-      "dragons": [],
+      "dragons": [
+        3512
+      ],
       "skins": [],
-      "dragon_count": 0,
+      "dragon_count": 1,
       "skin_count": 0,
       "order": 123,
       "trigger": "Start of Battle",
@@ -249186,9 +249294,11 @@
         4
       ],
       "dragons": [],
-      "skins": [],
+      "skins": [
+        3434
+      ],
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "order": 125,
       "trigger": "Start of Battle",
       "durations": [
@@ -249205,7 +249315,7 @@
     {
       "kind": "passive",
       "id": 132,
-      "name": "[SKIN] tid_skill_name_hypnowhisperer_passive_silenceall + damage-give",
+      "name": "Draining Whisper",
       "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "skill_id": 593,
       "special_icon": 1,
