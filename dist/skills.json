@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T07:39:20Z",
+  "generated_at": "2026-11-08T11:14:00Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -38170,8 +38170,8 @@
     },
     {
       "id": 301,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "cooldown": 0,
       "effects": [
         {
@@ -38263,8 +38263,8 @@
     },
     {
       "id": 303,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "cooldown": 0,
       "effects": [
         {
@@ -39496,8 +39496,8 @@
     },
     {
       "id": 322,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "cooldown": 0,
       "effects": [
         {
@@ -39631,8 +39631,8 @@
     },
     {
       "id": 324,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "cooldown": 0,
       "effects": [
         {
@@ -39688,8 +39688,8 @@
     },
     {
       "id": 325,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "cooldown": 0,
       "effects": [
         {
@@ -40182,8 +40182,8 @@
     },
     {
       "id": 344,
-      "name": "doomark_name",
-      "description": "",
+      "name": "Doommark",
+      "description": "Marked dragons takes more damage; the more Doommarks applied, the more damage they take.",
       "cooldown": 0,
       "effects": [
         {
@@ -40571,8 +40571,8 @@
     },
     {
       "id": 350,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "cooldown": 0,
       "effects": [
         {
@@ -41299,8 +41299,8 @@
     },
     {
       "id": 361,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "cooldown": 0,
       "effects": [
         {
@@ -41400,8 +41400,8 @@
     },
     {
       "id": 363,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "cooldown": 0,
       "effects": [
         {
@@ -44533,8 +44533,8 @@
     },
     {
       "id": 405,
-      "name": "exhaust 3 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "cooldown": 0,
       "effects": [
         {
@@ -47420,8 +47420,8 @@
     },
     {
       "id": 446,
-      "name": "Skill 446",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -47474,8 +47474,8 @@
     },
     {
       "id": 447,
-      "name": "Skill 447",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -48125,8 +48125,8 @@
     },
     {
       "id": 459,
-      "name": "Skill 459",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -48179,8 +48179,8 @@
     },
     {
       "id": 460,
-      "name": "Venomcrest Skin - Poison DoT passive (contagion)",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -48715,8 +48715,8 @@
     },
     {
       "id": 467,
-      "name": "Skill 467",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -48769,8 +48769,8 @@
     },
     {
       "id": 468,
-      "name": "Skill 468",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -49130,8 +49130,8 @@
     },
     {
       "id": 473,
-      "name": "Skill 473",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -49184,8 +49184,8 @@
     },
     {
       "id": 474,
-      "name": "Skill 474",
-      "description": "",
+      "name": "Poison Enemy Team",
+      "description": "Poison spreads directly to all opponents, continously damages them for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -49522,8 +49522,8 @@
     },
     {
       "id": 479,
-      "name": "Skill 479",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -49577,8 +49577,8 @@
     },
     {
       "id": 480,
-      "name": "Skill 480",
-      "description": "",
+      "name": "Poison Enemy Team",
+      "description": "Poison spreads directly to all opponents, continously damages them for several turns.",
       "cooldown": 0,
       "effects": [
         {
@@ -54506,7 +54506,7 @@
     },
     {
       "id": 580,
-      "name": "Skill 580",
+      "name": "Mind Broken",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "cooldown": 0,
       "effects": [
@@ -54678,7 +54678,7 @@
     },
     {
       "id": 583,
-      "name": "Skill 583",
+      "name": "Mind Broken",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "cooldown": 0,
       "effects": [
@@ -55214,8 +55214,8 @@
     },
     {
       "id": 591,
-      "name": "Skill 591",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "cooldown": 0,
       "effects": [
         {
@@ -55322,7 +55322,7 @@
     },
     {
       "id": 593,
-      "name": "Draining Whisper",
+      "name": "Draining Whisper+",
       "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "cooldown": 0,
       "effects": [
@@ -57364,7 +57364,7 @@
     },
     {
       "id": 100000,
-      "name": "multilife_tid",
+      "name": "Multi Life",
       "description": "",
       "cooldown": 0,
       "effects": [
@@ -246904,8 +246904,8 @@
     {
       "kind": "passive",
       "id": 62,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "skill_id": 301,
       "special_icon": 1,
       "cooldown": 0,
@@ -246936,8 +246936,8 @@
     {
       "kind": "passive",
       "id": 63,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "skill_id": 303,
       "special_icon": 1,
       "cooldown": 0,
@@ -247306,8 +247306,8 @@
     {
       "kind": "passive",
       "id": 74,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "skill_id": 322,
       "special_icon": 1,
       "cooldown": 0,
@@ -247340,8 +247340,8 @@
     {
       "kind": "passive",
       "id": 75,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "skill_id": 324,
       "special_icon": 1,
       "cooldown": 0,
@@ -247374,8 +247374,8 @@
     {
       "kind": "passive",
       "id": 76,
-      "name": "give doommark on enter combat",
-      "description": "",
+      "name": "Doommark on Enter",
+      "description": "Applies Doommark upon actively joining the battle",
       "skill_id": 325,
       "special_icon": 1,
       "cooldown": 0,
@@ -247408,8 +247408,8 @@
     {
       "kind": "passive",
       "id": 77,
-      "name": "doomark_name",
-      "description": "",
+      "name": "Doommark",
+      "description": "Marked dragons takes more damage; the more Doommarks applied, the more damage they take.",
       "skill_id": 344,
       "special_icon": 1,
       "cooldown": 0,
@@ -247460,8 +247460,8 @@
     {
       "kind": "passive",
       "id": 78,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "skill_id": 350,
       "special_icon": 1,
       "cooldown": 0,
@@ -247526,8 +247526,8 @@
     {
       "kind": "passive",
       "id": 80,
-      "name": "give doommark on die",
-      "description": "",
+      "name": "Doommark on Death",
+      "description": "Applies Doommark once the user is knocked out",
       "skill_id": 350,
       "special_icon": 1,
       "cooldown": 0,
@@ -247558,8 +247558,8 @@
     {
       "kind": "passive",
       "id": 81,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 361,
       "special_icon": 1,
       "cooldown": 0,
@@ -247604,8 +247604,8 @@
     {
       "kind": "passive",
       "id": 82,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 363,
       "special_icon": 1,
       "cooldown": 0,
@@ -247864,8 +247864,8 @@
     {
       "kind": "passive",
       "id": 90,
-      "name": "exhaust 3 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 405,
       "special_icon": 1,
       "cooldown": 0,
@@ -247971,8 +247971,8 @@
     {
       "kind": "passive",
       "id": 93,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 361,
       "special_icon": 1,
       "cooldown": 0,
@@ -248055,8 +248055,8 @@
     {
       "kind": "passive",
       "id": 95,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 363,
       "special_icon": 1,
       "cooldown": 0,
@@ -248392,8 +248392,8 @@
     {
       "kind": "passive",
       "id": 104,
-      "name": "Poison DoT - High Stained Naiad",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 446,
       "special_icon": 1,
       "cooldown": 0,
@@ -248432,8 +248432,8 @@
     {
       "kind": "passive",
       "id": 105,
-      "name": "Poison DoT Skin - High Stained Naiad (contagion)",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "skill_id": 447,
       "special_icon": 1,
       "cooldown": 0,
@@ -248579,8 +248579,8 @@
     {
       "kind": "passive",
       "id": 109,
-      "name": "Poison DoT - Stained Venomcrest",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 459,
       "special_icon": 1,
       "cooldown": 0,
@@ -248619,8 +248619,8 @@
     {
       "kind": "passive",
       "id": 110,
-      "name": "Venomcrest Skin - Poison DoT passive (contagion)",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "skill_id": 460,
       "special_icon": 1,
       "cooldown": 0,
@@ -248664,8 +248664,8 @@
     {
       "kind": "passive",
       "id": 111,
-      "name": "Poison DoT - Stained Moonveil",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 467,
       "special_icon": 1,
       "cooldown": 0,
@@ -248706,8 +248706,8 @@
     {
       "kind": "passive",
       "id": 112,
-      "name": "Poison DoT Skin - Stained Moonveil (contagion)",
-      "description": "",
+      "name": "Poison Contagion",
+      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
       "skill_id": 468,
       "special_icon": 1,
       "cooldown": 0,
@@ -248786,8 +248786,8 @@
     {
       "kind": "passive",
       "id": 114,
-      "name": "Poison DoT - Stained Sharpfang",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 473,
       "special_icon": 1,
       "cooldown": 0,
@@ -248824,8 +248824,8 @@
     {
       "kind": "passive",
       "id": 115,
-      "name": "Poison DoT Skin - Stained Sharpfang (contagion)",
-      "description": "",
+      "name": "Poison Enemy Team",
+      "description": "Poison spreads directly to all opponents, continously damages them for several turns.",
       "skill_id": 474,
       "special_icon": 1,
       "cooldown": 0,
@@ -248894,8 +248894,8 @@
     {
       "kind": "passive",
       "id": 117,
-      "name": "Poison DoT - Stained Dreadsting",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 479,
       "special_icon": 1,
       "cooldown": 0,
@@ -248932,8 +248932,8 @@
     {
       "kind": "passive",
       "id": 118,
-      "name": "Poison DoT Skin - Stained Dreadsting (contagion)",
-      "description": "",
+      "name": "Poison Enemy Team",
+      "description": "Poison spreads directly to all opponents, continously damages them for several turns.",
       "skill_id": 480,
       "special_icon": 1,
       "cooldown": 0,
@@ -249004,8 +249004,8 @@
     {
       "kind": "passive",
       "id": 120,
-      "name": "Poison DoT - Stained Belladone",
-      "description": "",
+      "name": "Poison",
+      "description": "Poisons the target, continously damages the target for several turns.",
       "skill_id": 479,
       "special_icon": 1,
       "cooldown": 0,
@@ -249040,8 +249040,8 @@
     {
       "kind": "passive",
       "id": 121,
-      "name": "Poison DoT Skin - Stained Belladone",
-      "description": "",
+      "name": "Poison Enemy Team",
+      "description": "Poison spreads directly to all opponents, continously damages them for several turns.",
       "skill_id": 480,
       "special_icon": 1,
       "cooldown": 0,
@@ -249148,7 +249148,7 @@
     {
       "kind": "passive",
       "id": 124,
-      "name": "High Hypno Mindbreak - Mindbreak",
+      "name": "Mind Broken",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "skill_id": 580,
       "special_icon": 1,
@@ -249220,7 +249220,7 @@
     {
       "kind": "passive",
       "id": 126,
-      "name": "High Hypno Mindbreak - Mindbreak - Skin",
+      "name": "Mind Broken",
       "description": "Mindbroken dragons have a chance to misdirect their skills for a few turns.",
       "skill_id": 583,
       "special_icon": 1,
@@ -249326,8 +249326,8 @@
     {
       "kind": "passive",
       "id": 129,
-      "name": "Hypno Whisperer Exhaust on Ener",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 591,
       "special_icon": 1,
       "cooldown": 0,
@@ -249400,8 +249400,8 @@
     {
       "kind": "passive",
       "id": 131,
-      "name": "exhaust 5 turns",
-      "description": "",
+      "name": "Exhaustion",
+      "description": "Reduces the affected dragon's damage for several turns",
       "skill_id": 361,
       "special_icon": 1,
       "cooldown": 0,
@@ -249438,7 +249438,7 @@
     {
       "kind": "passive",
       "id": 132,
-      "name": "Draining Whisper",
+      "name": "Draining Whisper+",
       "description": "Applies Exhaust to the target, draining their energy and reducing their effectiveness in battle upon entrance.",
       "skill_id": 593,
       "special_icon": 1,
@@ -249708,7 +249708,7 @@
     {
       "kind": "passive",
       "id": 100000,
-      "name": "multilife_tid",
+      "name": "Multi Life",
       "description": "",
       "skill_id": 100000,
       "special_icon": 1,

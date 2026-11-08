@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-08T07:39:04Z",
+  "generated_at": "2026-11-08T11:13:45Z",
   "box_assets": {
     "regular": {
       "sq": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
@@ -103574,7 +103574,7 @@
       "end_ts": 1794135540,
       "start_iso": "2026-11-07T11:00:00Z",
       "end_iso": "2026-11-08T10:59:00Z",
-      "status": "current",
+      "status": "past",
       "reward_count": 11,
       "rewards": [
         {
@@ -104162,7 +104162,7 @@
       "end_ts": 1794221940,
       "start_iso": "2026-11-08T11:00:00Z",
       "end_iso": "2026-11-09T10:59:00Z",
-      "status": "upcoming",
+      "status": "current",
       "reward_count": 11,
       "rewards": [
         {
