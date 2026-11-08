@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:08:15Z",
+  "generated_at": "2026-11-08T15:18:57Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -57525,8 +57525,8 @@
     },
     {
       "id": 100000,
-      "name": "Multi Life",
-      "description": "",
+      "name": "Multi-Life",
+      "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
       "cooldown": 0,
       "effects": [
         {
@@ -249312,8 +249312,8 @@
     {
       "kind": "passive",
       "id": 100000,
-      "name": "Multi Life",
-      "description": "",
+      "name": "Multi-Life",
+      "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
       "skill_id": 100000,
       "special_icon": 1,
       "cooldown": 0,
