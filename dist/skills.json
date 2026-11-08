@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:56:10Z",
+  "generated_at": "2026-11-08T07:27:31Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -244808,17 +244808,18 @@
       "kind": "passive",
       "id": 1,
       "name": "Titan Shield",
-      "description": "100% protection against the first attack",
+      "description": "100% protection against the first attack.\nProduces Food 20/min.",
       "skill_id": 31,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [
@@ -244847,8 +244848,15 @@
           "id": 38,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 1,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 1
     },
     {
       "kind": "passive",
@@ -244880,7 +244888,8 @@
           "world": true
         }
       ],
-      "world_skill_id": 2
+      "world_skill_id": 2,
+      "world_only": true
     },
     {
       "kind": "passive",
@@ -244912,7 +244921,8 @@
           "world": true
         }
       ],
-      "world_skill_id": 3
+      "world_skill_id": 3,
+      "world_only": true
     },
     {
       "kind": "passive",
@@ -244944,7 +244954,8 @@
           "world": true
         }
       ],
-      "world_skill_id": 4
+      "world_skill_id": 4,
+      "world_only": true
     },
     {
       "kind": "passive",
@@ -244976,7 +244987,8 @@
           "world": true
         }
       ],
-      "world_skill_id": 5
+      "world_skill_id": 5,
+      "world_only": true
     },
     {
       "kind": "passive",
@@ -245020,23 +245032,25 @@
           "world": true
         }
       ],
-      "world_skill_id": 6
+      "world_skill_id": 6,
+      "world_only": true
     },
     {
       "kind": "passive",
       "id": 7,
       "name": "Titan Shield",
-      "description": "100% protection against the first attack",
+      "description": "100% protection against the first attack.\nProduces Food 80/min.",
       "skill_id": 31,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [
@@ -245053,24 +245067,32 @@
           "id": 38,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 7,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 7
     },
     {
       "kind": "passive",
       "id": 8,
       "name": "Titan Shield",
-      "description": "100% protection against the first attack",
+      "description": "100% protection against the first attack.\nProduces Food 60/min.",
       "skill_id": 31,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [],
@@ -245085,24 +245107,32 @@
           "id": 38,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 8,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 8
     },
     {
       "kind": "passive",
       "id": 9,
       "name": "Titan Shield",
-      "description": "100% protection against the first attack",
+      "description": "100% protection against the first attack.\nProduces Food 60/min.",
       "skill_id": 31,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [
@@ -245129,8 +245159,15 @@
           "id": 38,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 6,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 6
     },
     {
       "kind": "passive",
@@ -245179,23 +245216,25 @@
           "world": true
         }
       ],
-      "world_skill_id": 7
+      "world_skill_id": 7,
+      "world_only": true
     },
     {
       "kind": "passive",
       "id": 11,
       "name": "Karma Revenge",
-      "description": "Chance of absorbing opponent's attack then dealing x2 damage",
+      "description": "Chance of absorbing opponent's attack then dealing x2 damage.\nProduces Food 60/min.",
       "skill_id": 53,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "VENGEFUL"
       ],
       "targets": [
         "NONE"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": 0.0,
       "status_icons": [],
       "dragons": [
@@ -245223,24 +245262,32 @@
           "id": 72,
           "type": "VENGEFUL",
           "target": "NONE"
+        },
+        {
+          "id": 6,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 6
     },
     {
       "kind": "passive",
       "id": 12,
       "name": "Reincarnation",
-      "description": "Upon knockout of the user, a defeated ally will be revived, or healed",
+      "description": "Upon knockout of the user, a defeated ally will be revived, or healed.\nProduces Food 60/min.",
       "skill_id": 56,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
-        "REINCARNATION"
+        "REINCARNATION",
+        "RESOURCE_PRODUCTION"
       ],
       "targets": [
         "ALLY_TEAM"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [
@@ -245264,24 +245311,32 @@
           "id": 75,
           "type": "REINCARNATION",
           "target": "ALLY_TEAM"
+        },
+        {
+          "id": 6,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 6
     },
     {
       "kind": "passive",
       "id": 13,
-      "name": "Reincarnation",
-      "description": "Upon knockout of the user, a defeated ally will be revived, or healed",
+      "name": "Phoenix Perk",
+      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival. You can find this Perk in Offers!\nProduces Food 60/min.",
       "skill_id": 1000,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
-        "PHOENIX"
+        "PHOENIX",
+        "RESOURCE_PRODUCTION"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [],
@@ -245296,8 +245351,19 @@
           "id": 1000,
           "type": "PHOENIX",
           "target": "SELF"
+        },
+        {
+          "id": 6,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "perk": {
+        "frame": "perks/ic-combat-perk-frame-pro.png",
+        "icon": "perks/ic-phoenix-perk.png"
+      },
+      "world_skill_id": 6
     },
     {
       "kind": "passive",
@@ -245336,7 +245402,8 @@
           "world": true
         }
       ],
-      "world_skill_id": 6
+      "world_skill_id": 6,
+      "world_only": true
     },
     {
       "kind": "passive",
@@ -245456,8 +245523,8 @@
     {
       "kind": "passive",
       "id": 18,
-      "name": "Reincarnation",
-      "description": "Upon knockout of the user, a defeated ally will be revived, or healed",
+      "name": "Reaper Perk",
+      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt. You can find this Perk in Offers!",
       "skill_id": 96,
       "special_icon": null,
       "cooldown": 0,
@@ -245475,7 +245542,7 @@
       "dragon_count": 0,
       "skin_count": 0,
       "order": 17,
-      "trigger": "Caster Defeated",
+      "trigger": "Enemy Defeated",
       "durations": [],
       "effects": [
         {
@@ -245483,7 +245550,11 @@
           "type": "REAPER",
           "target": "ENEMY"
         }
-      ]
+      ],
+      "perk": {
+        "frame": "perks/ic-combat-perk-frame-standard.png",
+        "icon": "perks/ic-reaper-perk.png"
+      }
     },
     {
       "kind": "passive",
@@ -246239,17 +246310,18 @@
       "kind": "passive",
       "id": 44,
       "name": "Double Titan Shield",
-      "description": "100% protection against the first two attacks",
+      "description": "100% protection against the first two attacks.\nProduces Food 80/min.",
       "skill_id": 94,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [],
@@ -246266,8 +246338,15 @@
           "id": 126,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 7,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 7
     },
     {
       "kind": "passive",
@@ -247716,17 +247795,18 @@
       "kind": "passive",
       "id": 88,
       "name": "Gea Double Shield",
-      "description": "70% protection against the first two attacks",
+      "description": "70% protection against the first two attacks.\nProduces Food 20/min.",
       "skill_id": 398,
       "special_icon": 1,
       "cooldown": 0,
       "effect_types": [
+        "RESOURCE_PRODUCTION",
         "SHIELD"
       ],
       "targets": [
         "SELF"
       ],
-      "effect_count": 1,
+      "effect_count": 2,
       "multiplier": null,
       "status_icons": [],
       "dragons": [],
@@ -247743,8 +247823,15 @@
           "id": 520,
           "type": "SHIELD",
           "target": "SELF"
+        },
+        {
+          "id": 1,
+          "type": "RESOURCE_PRODUCTION",
+          "target": null,
+          "world": true
         }
-      ]
+      ],
+      "world_skill_id": 1
     },
     {
       "kind": "passive",
