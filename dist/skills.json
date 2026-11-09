@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T15:24:56Z",
+  "generated_at": "2026-11-09T16:00:53Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -45624,7 +45624,7 @@
     },
     {
       "id": 403,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "cooldown": 3,
       "effects": [
@@ -49031,7 +49031,7 @@
     {
       "id": 447,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -49786,7 +49786,7 @@
     {
       "id": 460,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -50418,7 +50418,7 @@
     {
       "id": 468,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "cooldown": 0,
       "effects": [
         {
@@ -57049,7 +57049,7 @@
     },
     {
       "id": 588,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "cooldown": 0,
       "effects": [
@@ -58296,7 +58296,7 @@
     },
     {
       "id": 34762,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies 6 Doommarks once the user is knocked out",
       "cooldown": 3,
       "effects": [
@@ -249985,7 +249985,7 @@
       ],
       "hit_chance": 1,
       "params": {},
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "skill_id": 403,
       "skill_ids": [
@@ -258462,7 +258462,7 @@
       ],
       "hit_chance": 1,
       "params": {},
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "skill_id": 588,
       "skill_ids": [
@@ -259719,7 +259719,7 @@
       "kind": "passive",
       "id": 26,
       "name": "Guard",
-      "description": "On Kill Buff - The effects of this skill will not work as Passive skill.",
+      "description": "Activate Aura: Guard - The effects of this skill will not work as Passive skill.",
       "skill_id": 112,
       "special_icon": 1,
       "cooldown": 3,
@@ -259763,7 +259763,7 @@
       "kind": "passive",
       "id": 27,
       "name": "Perma Wound",
-      "description": "On Kill Buff - The effects of this skill will not work as Passive skill.",
+      "description": "Self Damage - The effects of this skill will not work as Passive skill.",
       "skill_id": 115,
       "special_icon": 1,
       "cooldown": 3,
@@ -259827,7 +259827,7 @@
       "kind": "passive",
       "id": 29,
       "name": "Soul Extraction",
-      "description": "Soul Extraction - The effects of this skill will not work as Passive skill.",
+      "description": "Soul Extraction - This effect will not work as Passive skill.",
       "skill_id": 120,
       "special_icon": 1,
       "cooldown": 4,
@@ -259897,7 +259897,7 @@
       "kind": "passive",
       "id": 30,
       "name": "Soul Extraction",
-      "description": "Soul Extraction - The effects of this skill will not work as Passive skill.",
+      "description": "Soul Extraction - This effect will not work as Passive skill.",
       "skill_id": 129,
       "special_icon": 1,
       "cooldown": 4,
@@ -260720,7 +260720,7 @@
       "kind": "passive",
       "id": 58,
       "name": "Terra Guard",
-      "description": "Guard - The effects of this skill will not work as Passive skill.",
+      "description": "Activate Aura: Guard - This effect will not work as Passive skill.",
       "skill_id": 263,
       "special_icon": 1,
       "cooldown": 3,
@@ -260763,7 +260763,7 @@
     {
       "kind": "passive",
       "id": 60,
-      "name": "Armor",
+      "name": "Team Armor",
       "description": "Applies 30% of Armor to all allies",
       "skill_id": 279,
       "special_icon": 2,
@@ -260802,7 +260802,7 @@
       "kind": "passive",
       "id": 59,
       "name": "Terra-X Guard",
-      "description": "Guard - The effects of this skill will not work as Passive skill.",
+      "description": "Activate Aura: Guard - This effect will not work as Passive skill.",
       "skill_id": 265,
       "special_icon": 1,
       "cooldown": 3,
@@ -260846,7 +260846,7 @@
       "kind": "passive",
       "id": 62,
       "name": "Warning Silence",
-      "description": "Silencing opponent for 2 turns - The effects of this skill will not work as Passive skill.",
+      "description": "Silence - This effect will not work as Passive skill.",
       "skill_id": 301,
       "special_icon": 1,
       "cooldown": 0,
@@ -260880,7 +260880,7 @@
       "kind": "passive",
       "id": 63,
       "name": "Apocalypse Silence",
-      "description": "Deals damage - The effects of this skill will not work as Passive skill.",
+      "description": "Damage - This effect will not work as Passive skill.",
       "skill_id": 303,
       "special_icon": 1,
       "cooldown": 0,
@@ -261951,7 +261951,7 @@
     {
       "kind": "passive",
       "id": 92,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "skill_id": 403,
       "special_icon": 1,
@@ -262065,7 +262065,7 @@
       "kind": "passive",
       "id": 94,
       "name": "Drain",
-      "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
+      "description": "Removes elemental advantages from affected dragons for several turns, preventing them from dealing double damage to their elemental weaknesses.",
       "skill_id": 409,
       "special_icon": 1,
       "cooldown": 0,
@@ -262155,7 +262155,7 @@
       "kind": "passive",
       "id": 96,
       "name": "Drain",
-      "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
+      "description": "Removes elemental advantages from affected dragons for several turns, preventing them from dealing double damage to their elemental weaknesses.",
       "skill_id": 410,
       "special_icon": 1,
       "cooldown": 0,
@@ -262229,7 +262229,7 @@
     {
       "kind": "passive",
       "id": 34762,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies 6 Doommarks once the user is knocked out",
       "skill_id": 34762,
       "special_icon": 1,
@@ -262302,8 +262302,8 @@
     {
       "kind": "passive",
       "id": 99,
-      "name": "Drain",
-      "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
+      "name": "Void Drain on Death",
+      "description": "When the user is knocked out, it removes elemental damage from rivals and leaves them exhausted.",
       "skill_id": 418,
       "special_icon": 1,
       "cooldown": 3,
@@ -262571,7 +262571,7 @@
       "kind": "passive",
       "id": 105,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "skill_id": 447,
       "special_icon": 1,
       "cooldown": 0,
@@ -262793,7 +262793,7 @@
       "kind": "passive",
       "id": 110,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "skill_id": 460,
       "special_icon": 1,
       "cooldown": 0,
@@ -262983,7 +262983,7 @@
       "kind": "passive",
       "id": 112,
       "name": "Poison Contagion",
-      "description": "Poisons the target, continously damages the target for several turns. Poison spreads to other dragons when the affected one is knocked out.",
+      "description": "Poison effect spreads to other dragons when the affected one is knocked out.",
       "skill_id": 468,
       "special_icon": 1,
       "cooldown": 0,
@@ -263514,7 +263514,7 @@
       "kind": "passive",
       "id": 125,
       "name": "Brain Drain",
-      "description": "Soul Extraction - The effects of this skill will not work as Passive skill.",
+      "description": "Soul Extraction - This effect will not work as Passive skill.",
       "skill_id": 582,
       "special_icon": 1,
       "cooldown": 3,
@@ -263655,7 +263655,7 @@
       "kind": "passive",
       "id": 127,
       "name": "Brain Drain +",
-      "description": "Soul Extraction - The effects of this skill will not work as Passive skill.",
+      "description": "Soul Extraction - This effect will not work as Passive skill.",
       "skill_id": 586,
       "special_icon": 1,
       "cooldown": 3,
@@ -263686,7 +263686,7 @@
     {
       "kind": "passive",
       "id": 128,
-      "name": "Doommark",
+      "name": "Doommark on Death",
       "description": "Applies Doommark once the user is knocked out",
       "skill_id": 588,
       "special_icon": 1,
