@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:01:08Z",
+  "generated_at": "2026-11-09T11:47:40Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -17875,7 +17875,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -17937,7 +17938,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18000,7 +18002,8 @@
             "selfDmgMultiplier": 0.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18056,7 +18059,8 @@
             "selfDmgMultiplier": 0.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18117,7 +18121,8 @@
             "damage": 900,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 7,
@@ -18125,7 +18130,8 @@
           "target": "NONE",
           "hit_chance": 0.6,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18186,7 +18192,8 @@
             "damage": 1800,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 8,
@@ -18194,7 +18201,8 @@
           "target": "NONE",
           "hit_chance": 0.6,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18265,7 +18273,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18321,7 +18330,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18381,7 +18391,8 @@
             "damage": 900,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 13,
@@ -18391,7 +18402,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18446,7 +18458,8 @@
             "damage": 1800,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 14,
@@ -18456,7 +18469,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18519,7 +18533,8 @@
             "multiplier": 1.1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18573,7 +18588,8 @@
             "multiplier": 1.08,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18633,7 +18649,8 @@
             "damage": 1000,
             "multiplier": 1.1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18686,7 +18703,8 @@
             "damage": 1950,
             "multiplier": 1.08
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18749,7 +18767,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18805,7 +18824,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -18926,7 +18946,8 @@
             "multiplier": 1.3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19059,7 +19080,8 @@
             "multiplier": 1.3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19118,7 +19140,8 @@
             "damage": 1100,
             "multiplier": 1.08
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19184,7 +19207,8 @@
             "damage": 2100,
             "multiplier": 1.11
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19250,7 +19274,8 @@
             "damage": 2200,
             "multiplier": 1.18
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19304,7 +19329,8 @@
             "multiplier": 1.28,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19364,7 +19390,8 @@
             "multiplier": 1.28,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19444,7 +19471,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19518,7 +19546,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19599,7 +19628,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19655,7 +19685,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19711,7 +19742,8 @@
             "maxHits": 3,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 35,
@@ -19723,7 +19755,8 @@
             "multiplier": 0.2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19787,7 +19820,8 @@
             "maxHits": 3,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 36,
@@ -19799,7 +19833,8 @@
             "multiplier": 0.3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19864,7 +19899,8 @@
             "maxHits": 3,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 37,
@@ -19876,7 +19912,8 @@
             "multiplier": 0.25,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -19937,7 +19974,8 @@
             "steps": 1,
             "protection": 100
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20140,7 +20178,8 @@
             "steps": 0,
             "protection": 0
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20181,7 +20220,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20244,7 +20284,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20307,7 +20348,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20455,7 +20497,8 @@
             "damage": 1000,
             "multiplier": 1.25
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20518,7 +20561,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20565,7 +20609,8 @@
             "maxHits": 4,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20628,7 +20673,8 @@
             "maxHits": 4,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20691,7 +20737,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20754,7 +20801,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20817,7 +20865,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20877,7 +20926,8 @@
             "damage": 1000,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20940,7 +20990,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -20997,7 +21048,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 61,
@@ -21008,7 +21060,8 @@
             "damage": 1000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21078,7 +21131,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21141,7 +21195,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21200,7 +21255,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 65,
@@ -21211,7 +21267,8 @@
             "damage": 1000,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21274,7 +21331,8 @@
             "multiplier": 1.25,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21335,7 +21393,8 @@
             "multiplier": 1.28,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 68,
@@ -21346,7 +21405,8 @@
             "damage": 1000,
             "multiplier": 1.15
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21411,7 +21471,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21624,7 +21685,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 71,
@@ -21636,7 +21698,8 @@
             "multiplier": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21747,7 +21810,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21894,7 +21958,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -21955,7 +22020,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22059,7 +22125,8 @@
           "parameters": {
             "healPercent": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22160,7 +22227,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22204,7 +22272,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22261,7 +22330,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 78,
@@ -22275,7 +22345,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22356,7 +22427,8 @@
             ],
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22417,7 +22489,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22460,7 +22533,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22504,7 +22578,8 @@
             "damage": 1500,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22543,7 +22618,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22588,7 +22664,8 @@
               1
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 5,
@@ -22599,7 +22676,8 @@
             "damage": 900,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22741,7 +22819,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22850,7 +22929,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22913,7 +22993,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -22973,7 +23054,8 @@
             "damage": 2500,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23030,7 +23112,8 @@
           "target": "NONE",
           "hit_chance": 0.66,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 91,
@@ -23041,7 +23124,8 @@
             "damage": 1500,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23104,7 +23188,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23167,7 +23252,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23228,7 +23314,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23290,7 +23377,8 @@
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23394,7 +23482,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23454,7 +23543,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23517,7 +23607,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23556,7 +23647,8 @@
             "multiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 101,
@@ -23570,7 +23662,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23633,7 +23726,8 @@
             "multiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 203,
@@ -23647,7 +23741,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23705,7 +23800,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23768,7 +23864,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 107,
@@ -23780,7 +23877,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23890,7 +23988,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -23937,7 +24036,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24000,7 +24100,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24056,7 +24157,8 @@
             "multiplier": 1.28,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24117,7 +24219,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24187,7 +24290,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24233,7 +24337,8 @@
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24279,7 +24384,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 119,
@@ -24290,7 +24396,8 @@
             "damage": 2400,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24351,7 +24458,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24457,7 +24565,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24511,7 +24620,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24574,7 +24684,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 125,
@@ -24586,7 +24697,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24648,7 +24760,8 @@
             "steps": 2,
             "protection": 100
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24697,7 +24810,8 @@
             "maxHits": 11,
             "waitTime": 250
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24752,7 +24866,8 @@
           "parameters": {
             "perkId": 5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24793,7 +24908,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24845,7 +24961,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24907,7 +25024,8 @@
             "damage": 2000,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 132,
@@ -24915,7 +25033,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -24978,7 +25097,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25028,7 +25148,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 135,
@@ -25040,7 +25161,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25103,7 +25225,8 @@
               2
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 139,
@@ -25114,7 +25237,8 @@
             "damage": 500,
             "multiplier": 0.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25181,7 +25305,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25244,7 +25369,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25296,7 +25422,8 @@
               2
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 139,
@@ -25307,7 +25434,8 @@
             "damage": 500,
             "multiplier": 0.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25371,7 +25499,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 142,
@@ -25381,7 +25510,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25446,7 +25576,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25500,7 +25631,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25563,7 +25695,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25627,7 +25760,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25688,7 +25822,8 @@
             "multiplier": 1.25,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25749,7 +25884,8 @@
               2
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 147,
@@ -25760,7 +25896,8 @@
             "damage": 1300,
             "multiplier": 0.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25844,7 +25981,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25896,7 +26034,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -25959,7 +26098,8 @@
             "selfDmgMultiplier": 0.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26024,7 +26164,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26074,7 +26215,8 @@
               3
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 217,
@@ -26085,7 +26227,8 @@
             "damage": 1800,
             "multiplier": 0.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26152,7 +26295,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26204,7 +26348,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 155,
@@ -26215,7 +26360,8 @@
             "damage": 2000,
             "multiplier": 1.25
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26279,7 +26425,8 @@
             "waitTime": 500,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26344,7 +26491,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26405,7 +26553,8 @@
               4
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 159,
@@ -26416,7 +26565,8 @@
             "damage": 1800,
             "multiplier": 0.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26481,7 +26631,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26541,7 +26692,8 @@
             "damage": 1800,
             "multiplier": 0.9
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 162,
@@ -26553,7 +26705,8 @@
               5
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26618,7 +26771,8 @@
             "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26679,7 +26833,8 @@
               6
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 165,
@@ -26690,7 +26845,8 @@
             "damage": 1500,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26757,7 +26913,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26818,7 +26975,8 @@
             "multiplier": 1.2,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26880,7 +27038,8 @@
             "waitTime": 500,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -26931,7 +27090,8 @@
             "damage": 1800,
             "multiplier": 0.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 177,
@@ -26943,7 +27103,8 @@
               7
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27010,7 +27171,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27070,7 +27232,8 @@
             "damage": 1800,
             "multiplier": 0.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 179,
@@ -27082,7 +27245,8 @@
               8
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27147,7 +27311,8 @@
             "multiplier": 1.2,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27209,7 +27374,8 @@
             "waitTime": 500,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27267,7 +27433,8 @@
             "selfDmgMultiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27308,7 +27475,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27378,7 +27546,8 @@
               9
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 5,
@@ -27389,7 +27558,8 @@
             "damage": 900,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27441,7 +27611,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27499,7 +27670,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27559,7 +27731,8 @@
             "damage": 2200,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 190,
@@ -27571,7 +27744,8 @@
               10
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27636,7 +27810,8 @@
             "multiplier": 2,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27696,7 +27871,8 @@
             "damage": 2200,
             "multiplier": 0.9
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 193,
@@ -27708,7 +27884,8 @@
               10
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27767,7 +27944,8 @@
             "damage": 2500,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 195,
@@ -27779,7 +27957,8 @@
               11
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27841,7 +28020,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27897,7 +28077,8 @@
             "multiplier": 1.75,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 198,
@@ -27908,7 +28089,8 @@
             "damage": 2500,
             "multiplier": 1.75
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -27968,7 +28150,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28016,7 +28199,8 @@
             "damage": 2200,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 193,
@@ -28028,7 +28212,8 @@
               10
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28090,7 +28275,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28146,7 +28332,8 @@
             "multiplier": 2,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28202,7 +28389,8 @@
             "multiplier": 1,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28261,7 +28449,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28317,7 +28506,8 @@
             "multiplier": 1.6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 207,
@@ -28328,7 +28518,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28384,7 +28575,8 @@
             "multiplier": 1.6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 207,
@@ -28395,7 +28587,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28451,7 +28644,8 @@
               12
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 209,
@@ -28462,7 +28656,8 @@
             "damage": 2200,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28527,7 +28722,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28583,7 +28779,8 @@
             "multiplier": 2.4,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28639,7 +28836,8 @@
             "multiplier": 2,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28700,7 +28898,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 218,
@@ -28711,7 +28910,8 @@
             "damage": 2300,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28774,7 +28974,8 @@
             "multiplier": 1.8,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 219,
@@ -28785,7 +28986,8 @@
             "damage": 2800,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28843,7 +29045,8 @@
               12
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 216,
@@ -28854,7 +29057,8 @@
             "damage": 2300,
             "multiplier": 1.9
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28921,7 +29125,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -28977,7 +29182,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29040,7 +29246,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29093,7 +29300,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29141,7 +29349,8 @@
             "waitTime": 500,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29216,7 +29425,8 @@
             "waitTime": 500,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29271,7 +29481,8 @@
             "damage": 2800,
             "multiplier": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 225,
@@ -29279,7 +29490,8 @@
           "target": "NONE",
           "hit_chance": 0.85,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29341,7 +29553,8 @@
             "damage": 3500,
             "multiplier": 2.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 225,
@@ -29349,7 +29562,8 @@
           "target": "NONE",
           "hit_chance": 0.85,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29407,7 +29621,8 @@
               13
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 231,
@@ -29418,7 +29633,8 @@
             "damage": 2300,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29483,7 +29699,8 @@
             "multiplier": 1.8,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29541,7 +29758,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 234,
@@ -29553,7 +29771,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29619,7 +29838,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29688,7 +29908,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 234,
@@ -29700,7 +29921,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29758,7 +29980,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 237,
@@ -29766,7 +29989,8 @@
           "target": "NONE",
           "hit_chance": 0.6,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29825,7 +30049,8 @@
           "target": "NONE",
           "hit_chance": 0.7,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 247,
@@ -29836,7 +30061,8 @@
             "damage": 2050,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29896,7 +30122,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -29952,7 +30179,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 241,
@@ -29964,7 +30192,8 @@
             "multiplier": 1.5,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30030,7 +30259,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30083,7 +30313,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30132,7 +30363,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30196,7 +30428,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30249,7 +30482,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30296,7 +30530,8 @@
               14
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 251,
@@ -30307,7 +30542,8 @@
             "damage": 1300,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30375,7 +30611,8 @@
               14
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 252,
@@ -30386,7 +30623,8 @@
             "damage": 1500,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30446,7 +30684,8 @@
             "multiplier": 1.9,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30500,7 +30739,8 @@
             "multiplier": 2.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30556,7 +30796,8 @@
             "multiplier": 1.9,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30610,7 +30851,8 @@
             "multiplier": 1.6,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30661,7 +30903,8 @@
             "multiplier": 2,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30712,7 +30955,8 @@
               14
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 5,
@@ -30723,7 +30967,8 @@
             "damage": 900,
             "multiplier": 0.98
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30765,7 +31010,8 @@
             "damage": 2350,
             "multiplier": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30823,7 +31069,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30883,7 +31130,8 @@
             "damage": 1000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 259,
@@ -30893,7 +31141,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -30957,7 +31206,8 @@
             "maxHits": 6,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31011,7 +31261,8 @@
               15
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 261,
@@ -31025,7 +31276,8 @@
             "maxHits": 6,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31087,7 +31339,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31126,7 +31379,8 @@
               16
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 263,
@@ -31140,7 +31394,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31186,7 +31441,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31243,7 +31499,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31301,7 +31558,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31359,7 +31617,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31414,7 +31673,8 @@
             "damage": 2500,
             "multiplier": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 142,
@@ -31424,7 +31684,8 @@
           "parameters": {
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31479,7 +31740,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31537,7 +31799,8 @@
             "selfDmgMultiplier": 0.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31595,7 +31858,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31653,7 +31917,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31709,7 +31974,8 @@
             "multiplier": 1.5,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31768,7 +32034,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 132,
@@ -31776,7 +32043,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31834,7 +32102,8 @@
               151
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 278,
@@ -31845,7 +32114,8 @@
             "damage": 2200,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31905,7 +32175,8 @@
             "multiplier": 1.3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -31961,7 +32232,8 @@
             "multiplier": 2,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32016,7 +32288,8 @@
             "damage": 2200,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 279,
@@ -32028,7 +32301,8 @@
               151
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32088,7 +32362,8 @@
             "multiplier": 2.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32143,7 +32418,8 @@
             "damage": 2750,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 283,
@@ -32155,7 +32431,8 @@
               161
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32214,7 +32491,8 @@
             "damage": 2500,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 286,
@@ -32226,7 +32504,8 @@
               171
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32286,7 +32565,8 @@
             "multiplier": 1.5,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32342,7 +32622,8 @@
             "multiplier": 1.6,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32400,7 +32681,8 @@
             "selfDmgMultiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32459,7 +32741,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32503,7 +32786,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32562,7 +32846,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32611,7 +32896,8 @@
             "selfDmgMultiplier": 1,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32664,7 +32950,8 @@
             "damage": 3450,
             "multiplier": 1.75
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32714,7 +33001,8 @@
             "damage": 1000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 21,
@@ -32726,7 +33014,8 @@
             "multiplier": 1.3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 294,
@@ -32734,7 +33023,8 @@
           "target": "NONE",
           "hit_chance": 0.5,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32791,7 +33081,8 @@
             "damage": 1500,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 234,
@@ -32803,7 +33094,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 300,
@@ -32811,7 +33103,8 @@
           "target": "NONE",
           "hit_chance": 0.9,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32868,7 +33161,8 @@
             "damage": 2200,
             "multiplier": 1.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 234,
@@ -32880,7 +33174,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 300,
@@ -32888,7 +33183,8 @@
           "target": "NONE",
           "hit_chance": 0.9,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -32942,7 +33238,8 @@
             "damage": 1350,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 302,
@@ -32952,7 +33249,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33006,7 +33304,8 @@
             "damage": 1900,
             "multiplier": 1.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 302,
@@ -33016,7 +33315,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33070,7 +33370,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33124,7 +33425,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33178,7 +33480,8 @@
               17
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 309,
@@ -33189,7 +33492,8 @@
             "damage": 1900,
             "multiplier": 1.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33256,7 +33560,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33308,7 +33613,8 @@
           "parameters": {
             "healPercent": 0.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33351,7 +33657,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33402,7 +33709,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 313,
@@ -33413,7 +33721,8 @@
             "damage": 1800,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33466,7 +33775,8 @@
             "multiplier": 2.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 314,
@@ -33477,7 +33787,8 @@
             "damage": 1700,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33540,7 +33851,8 @@
               18
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 315,
@@ -33551,7 +33863,8 @@
             "damage": 1750,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33617,7 +33930,8 @@
             "damage": 1800,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 319,
@@ -33627,7 +33941,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33689,7 +34004,8 @@
             "multiplier": 1.25,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33752,7 +34068,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33816,7 +34133,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33866,7 +34184,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33918,7 +34237,8 @@
               20
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 326,
@@ -33929,7 +34249,8 @@
             "damage": 2200,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -33996,7 +34317,8 @@
               21
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 328,
@@ -34007,7 +34329,8 @@
             "damage": 2400,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34063,7 +34386,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34115,7 +34439,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34175,7 +34500,8 @@
             "damage": 2200,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34232,7 +34558,8 @@
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34278,7 +34605,8 @@
             "damage": 2100,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 335,
@@ -34288,7 +34616,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34352,7 +34681,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34404,7 +34734,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34464,7 +34795,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 338,
@@ -34474,7 +34806,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34535,7 +34868,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 341,
@@ -34545,7 +34879,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34607,7 +34942,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 343,
@@ -34619,7 +34955,8 @@
             "multiplier": 1.4,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34682,7 +35019,8 @@
             "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34740,7 +35078,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34798,7 +35137,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34858,7 +35198,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -34921,7 +35262,8 @@
               24
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 350,
@@ -34933,7 +35275,8 @@
               25
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 351,
@@ -34944,7 +35287,8 @@
             "damage": 1800,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35015,7 +35359,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35075,7 +35420,8 @@
             "damage": 2100,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 355,
@@ -35085,7 +35431,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35146,7 +35493,8 @@
             "damage": 2200,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 381,
@@ -35158,7 +35506,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35225,7 +35574,8 @@
             "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35285,7 +35635,8 @@
             "damage": 2200,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 382,
@@ -35297,7 +35648,8 @@
               27
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35360,7 +35712,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35414,7 +35767,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 360,
@@ -35425,7 +35779,8 @@
             "damage": 1500,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35489,7 +35844,8 @@
             "damage": 1800,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35553,7 +35909,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35603,7 +35960,8 @@
             "damage": 2000,
             "multiplier": 1.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35661,7 +36019,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 366,
@@ -35672,7 +36031,8 @@
             "damage": 1700,
             "multiplier": 1.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35734,7 +36094,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35785,7 +36146,8 @@
             "multiplier": 1.25,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35835,7 +36197,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 369,
@@ -35849,7 +36212,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35913,7 +36277,8 @@
             "damage": 1750,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 371,
@@ -35927,7 +36292,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -35992,7 +36358,8 @@
             "multiplier": 1.2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36053,7 +36420,8 @@
             "multiplier": 1.4,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36116,7 +36484,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36170,7 +36539,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 376,
@@ -36181,7 +36551,8 @@
             "damage": 1650,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36245,7 +36616,8 @@
             "damage": 1600,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 379,
@@ -36257,7 +36629,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36319,7 +36692,8 @@
             "damage": 1650,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 384,
@@ -36333,7 +36707,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36392,7 +36767,8 @@
             "damage": 1600,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 386,
@@ -36404,7 +36780,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36464,7 +36841,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 388,
@@ -36475,7 +36853,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36539,7 +36918,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 390,
@@ -36547,7 +36927,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36612,7 +36993,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 392,
@@ -36623,7 +37005,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36690,7 +37073,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36751,7 +37135,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36874,7 +37259,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -36981,7 +37367,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37099,7 +37486,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 398,
@@ -37111,7 +37499,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37229,7 +37618,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 399,
@@ -37239,7 +37629,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37375,7 +37766,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37521,7 +37913,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 474,
@@ -37532,7 +37925,8 @@
             "damage": 2000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37672,7 +38066,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 404,
@@ -37683,7 +38078,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37816,7 +38212,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 406,
@@ -37827,7 +38224,8 @@
             "damage": 1500,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -37944,7 +38342,8 @@
             "damage": 1900,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 408,
@@ -37954,7 +38353,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38018,7 +38418,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38078,7 +38479,8 @@
             "damage": 2200,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 411,
@@ -38088,7 +38490,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38145,7 +38548,8 @@
             "damage": 1900,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38182,7 +38586,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38222,7 +38627,8 @@
             "damage": 1500,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 409,
@@ -38236,7 +38642,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38276,7 +38683,8 @@
             "damage": 2200,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38322,7 +38730,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 417,
@@ -38333,7 +38744,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38400,7 +38812,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38468,6 +38881,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -38527,6 +38943,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -38581,7 +39000,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 422,
@@ -38592,7 +39014,8 @@
             "damage": 1800,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38661,7 +39084,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 424,
@@ -38672,7 +39098,8 @@
             "damage": 2100,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38738,6 +39165,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -38797,6 +39227,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -38851,7 +39284,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 428,
@@ -38862,7 +39298,8 @@
             "damage": 1700,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -38931,7 +39368,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 430,
@@ -38942,7 +39382,8 @@
             "damage": 2250,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39000,7 +39441,8 @@
             "damage": 2250,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 433,
@@ -39012,7 +39454,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39084,6 +39527,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39143,6 +39589,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39197,7 +39646,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 436,
@@ -39208,7 +39660,8 @@
             "damage": 2100,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39279,6 +39732,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39338,6 +39794,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39392,7 +39851,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 440,
@@ -39403,7 +39865,8 @@
             "damage": 1800,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39472,7 +39935,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 442,
@@ -39483,7 +39949,8 @@
             "damage": 2200,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39549,6 +40016,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39606,7 +40076,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 445,
@@ -39617,7 +40090,8 @@
             "damage": 1900,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39688,6 +40162,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39747,6 +40224,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -39794,7 +40274,8 @@
           "parameters": {
             "healPercent": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39842,7 +40323,8 @@
           "parameters": {
             "healPercent": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39879,7 +40361,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 451,
@@ -39893,7 +40376,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39953,7 +40437,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -39993,7 +40478,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40058,7 +40544,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40120,7 +40607,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40180,7 +40668,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40236,7 +40725,8 @@
           },
           "trigger": [
             "negative"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40279,7 +40769,8 @@
               30
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 404,
@@ -40290,7 +40781,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40355,7 +40847,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 404,
@@ -40366,7 +40859,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40426,7 +40920,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40486,7 +40981,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 399,
@@ -40496,7 +40992,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40557,7 +41054,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 341,
@@ -40567,7 +41065,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40632,6 +41131,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -40681,7 +41183,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 436,
@@ -40692,7 +41197,8 @@
             "damage": 2100,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40725,12 +41231,12 @@
       "skins": [
         [
           3306,
-          "b",
+          "t",
           1334
         ],
         [
           3306,
-          "t",
+          "b",
           1334
         ]
       ]
@@ -40751,7 +41257,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40810,7 +41317,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40851,7 +41359,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40914,7 +41423,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -40972,7 +41482,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41030,7 +41541,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 398,
@@ -41042,7 +41554,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41112,7 +41625,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 468,
@@ -41130,7 +41644,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -41207,7 +41724,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 470,
@@ -41225,7 +41743,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -41285,7 +41806,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 474,
@@ -41296,7 +41818,8 @@
             "damage": 2000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41365,7 +41888,8 @@
           },
           "trigger": [
             "attack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41423,7 +41947,8 @@
             ],
             "element": "e"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41466,7 +41991,8 @@
           },
           "trigger": [
             "attack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41510,7 +42036,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 477,
@@ -41521,7 +42048,8 @@
             "damage": 2350,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41583,7 +42111,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 479,
@@ -41595,7 +42124,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41670,7 +42200,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 480,
@@ -41688,7 +42219,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -41765,7 +42299,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 482,
@@ -41783,7 +42318,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -41843,7 +42381,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 397,
@@ -41857,7 +42396,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -41926,7 +42466,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         },
         {
           "id": 485,
@@ -41950,7 +42493,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42021,7 +42565,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         },
         {
           "id": 487,
@@ -42045,7 +42592,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42106,7 +42654,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42170,7 +42719,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42229,7 +42779,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42293,7 +42844,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42354,7 +42906,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42413,7 +42966,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 500,
@@ -42431,7 +42985,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -42495,7 +43052,8 @@
             "damage": 2200,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 497,
@@ -42505,7 +43063,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42580,7 +43139,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 494,
@@ -42598,7 +43158,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -42660,7 +43223,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 498,
@@ -42672,7 +43236,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42737,7 +43302,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 499,
@@ -42749,7 +43315,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42807,7 +43374,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 501,
@@ -42818,7 +43386,8 @@
             "damage": 2300,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42885,7 +43454,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -42945,7 +43515,8 @@
             "damage": 1900,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 507,
@@ -42957,7 +43528,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43022,7 +43594,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 504,
@@ -43033,7 +43606,8 @@
             "damage": 1500,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43098,7 +43672,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43161,7 +43736,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 509,
@@ -43171,7 +43747,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43235,7 +43812,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 510,
@@ -43247,7 +43825,8 @@
               31
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43309,7 +43888,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43367,7 +43947,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43430,7 +44011,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43488,7 +44070,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43563,7 +44146,8 @@
           },
           "trigger": [
             "onDie"
-          ]
+          ],
+          "passives": []
         },
         {
           "id": 511,
@@ -43581,7 +44165,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -43660,7 +44247,8 @@
           },
           "trigger": [
             "onDie"
-          ]
+          ],
+          "passives": []
         },
         {
           "id": 513,
@@ -43678,7 +44266,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            81
+          ]
         }
       ],
       "effect_types": [
@@ -43752,7 +44343,8 @@
           },
           "trigger": [
             "onDie"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43816,7 +44408,8 @@
           },
           "trigger": [
             "onDie"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43865,7 +44458,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43926,7 +44520,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 519,
@@ -43938,7 +44533,8 @@
             "multiplier": 1.5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -43995,7 +44591,8 @@
             "steps": 2,
             "protection": 70
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44041,7 +44638,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44092,7 +44690,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 523,
@@ -44106,7 +44705,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44228,7 +44828,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44286,7 +44887,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 525,
@@ -44297,7 +44901,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44413,6 +45018,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -44468,7 +45076,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 528,
@@ -44486,7 +45095,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            90
+          ]
         }
       ],
       "effect_types": [
@@ -44621,7 +45233,8 @@
           },
           "trigger": [
             "attack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44663,7 +45276,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 532,
@@ -44682,7 +45296,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            93
+          ]
         },
         {
           "id": 533,
@@ -44702,7 +45319,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -44766,7 +45386,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 538,
@@ -44780,7 +45401,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44845,7 +45467,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 535,
@@ -44864,7 +45487,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 536,
@@ -44884,7 +45510,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            96
+          ]
         }
       ],
       "effect_types": [
@@ -44948,7 +45577,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -44995,7 +45625,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45036,7 +45667,8 @@
           "parameters": {
             "healPercent": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45075,7 +45707,8 @@
           "parameters": {
             "healPercent": 0.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45125,7 +45758,8 @@
               32
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 546,
@@ -45137,7 +45771,8 @@
             "multiplier": 1.4,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45201,7 +45836,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 548,
@@ -45213,7 +45849,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45276,7 +45913,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45339,7 +45977,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45402,7 +46041,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45467,6 +46107,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            95
           ]
         },
         {
@@ -45489,6 +46132,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            96
           ]
         }
       ],
@@ -45542,7 +46188,8 @@
               33
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 555,
@@ -45553,7 +46200,8 @@
             "damage": 1950,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45614,7 +46262,8 @@
           "target": "NONE",
           "hit_chance": 0.5,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 557,
@@ -45625,7 +46274,8 @@
             "damage": 1900,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45687,7 +46337,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 559,
@@ -45706,7 +46357,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 560,
@@ -45726,7 +46380,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -45790,7 +46447,8 @@
             "damage": 1900,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 565,
@@ -45800,7 +46458,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -45862,7 +46521,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 562,
@@ -45881,7 +46541,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            93
+          ]
         },
         {
           "id": 563,
@@ -45901,7 +46564,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            96
+          ]
         }
       ],
       "effect_types": [
@@ -45961,7 +46627,8 @@
               34
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 567,
@@ -45972,7 +46639,8 @@
             "damage": 2450,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46039,7 +46707,8 @@
             "multiplier": 0.8,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 569,
@@ -46050,7 +46719,8 @@
             "damage": 2050,
             "multiplier": 1.1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46112,7 +46782,8 @@
             "damage": 2300,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 572,
@@ -46124,7 +46795,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46189,7 +46861,8 @@
               36
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 574,
@@ -46200,7 +46873,8 @@
             "damage": 2300,
             "multiplier": 0.9
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46260,7 +46934,8 @@
               34
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 567,
@@ -46271,7 +46946,8 @@
             "damage": 2450,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46321,7 +46997,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 578,
@@ -46340,7 +47017,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 579,
@@ -46360,7 +47040,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -46432,6 +47115,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         },
         {
@@ -46443,7 +47129,8 @@
             "damage": 2000,
             "multiplier": 1.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 581,
@@ -46462,7 +47149,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            93
+          ]
         },
         {
           "id": 582,
@@ -46482,7 +47172,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            96
+          ]
         }
       ],
       "effect_types": [
@@ -46548,7 +47241,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 584,
@@ -46559,7 +47255,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46624,7 +47321,8 @@
             "extraDamagePercentage": 5,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46676,7 +47374,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 587,
@@ -46688,7 +47387,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46753,7 +47453,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 589,
@@ -46765,7 +47466,8 @@
             "multiplier": 2.8,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46822,7 +47524,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 591,
@@ -46841,7 +47544,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 592,
@@ -46861,7 +47567,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -46925,7 +47634,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -46976,7 +47686,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47027,7 +47738,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47087,7 +47799,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 605,
@@ -47106,7 +47819,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 606,
@@ -47126,7 +47842,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -47191,7 +47910,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 608,
@@ -47202,7 +47922,8 @@
             "damage": 2000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47267,7 +47988,8 @@
               27
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 610,
@@ -47278,7 +48000,8 @@
             "damage": 2000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47339,7 +48062,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47379,7 +48103,8 @@
             "damage": 2300,
             "multiplier": 2.2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 612,
@@ -47391,7 +48116,8 @@
             "multiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47462,7 +48188,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            105
+          ]
         },
         {
           "id": 725,
@@ -47477,7 +48206,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47547,7 +48277,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47601,7 +48332,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         },
         {
           "id": 728,
@@ -47624,6 +48356,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            104
           ]
         }
       ],
@@ -47669,7 +48404,8 @@
             "multiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 566,
@@ -47681,7 +48417,8 @@
               34
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 567,
@@ -47692,7 +48429,8 @@
             "damage": 2450,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47763,7 +48501,8 @@
             "fg_vfx_screen_effectname": "megacrit_speedlines",
             "vfx_text_effectname": "megacrit_skill"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47821,7 +48560,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            104
+          ]
         },
         {
           "id": 723,
@@ -47836,7 +48578,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47901,7 +48644,8 @@
             "extraDamagePercentage": 15,
             "extraTurnMessageTid": "tid_battle_extra_turn_dragon"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -47947,7 +48691,8 @@
             "damage": 1800,
             "multiplier": 0.6
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 617,
@@ -47959,7 +48704,8 @@
               39
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48022,7 +48768,8 @@
           "parameters": {
             "healPercent": 0.25
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48071,7 +48818,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 587,
@@ -48083,7 +48831,8 @@
             "multiplier": 1,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 524,
@@ -48096,7 +48845,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48166,7 +48916,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 734,
@@ -48186,7 +48937,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            110
+          ]
         }
       ],
       "effect_types": [
@@ -48256,7 +49010,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48310,7 +49065,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         },
         {
           "id": 736,
@@ -48333,6 +49089,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            109
           ]
         }
       ],
@@ -48381,7 +49140,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48440,7 +49200,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 732,
@@ -48460,7 +49221,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            109
+          ]
         }
       ],
       "effect_types": [
@@ -48523,7 +49287,8 @@
             "damage": 2100,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 619,
@@ -48533,7 +49298,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48597,7 +49363,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 621,
@@ -48609,7 +49376,8 @@
             "multiplier": 2.2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48675,7 +49443,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 738,
@@ -48695,7 +49464,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            111
+          ]
         }
       ],
       "effect_types": [
@@ -48762,7 +49534,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 740,
@@ -48782,7 +49555,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            112
+          ]
         }
       ],
       "effect_types": [
@@ -48852,7 +49628,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -48906,7 +49683,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         },
         {
           "id": 742,
@@ -48929,6 +49707,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            111
           ]
         }
       ],
@@ -48976,7 +49757,8 @@
             "selfDmgMultiplier": 0.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49040,7 +49822,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49093,7 +49876,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 747,
@@ -49113,7 +49897,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            114
+          ]
         }
       ],
       "effect_types": [
@@ -49180,7 +49967,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 749,
@@ -49200,7 +49988,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            115
+          ]
         }
       ],
       "effect_types": [
@@ -49271,7 +50062,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49325,7 +50117,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49369,7 +50162,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49434,7 +50228,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49489,7 +50284,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 757,
@@ -49509,7 +50305,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            117
+          ]
         }
       ],
       "effect_types": [
@@ -49576,7 +50375,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 759,
@@ -49596,7 +50396,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            118
+          ]
         }
       ],
       "effect_types": [
@@ -49667,7 +50470,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49722,7 +50526,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49768,7 +50573,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49837,7 +50643,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            90
+          ]
         },
         {
           "id": 764,
@@ -49861,7 +50670,8 @@
             ],
             "vfx": ""
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49925,7 +50735,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 766,
@@ -49939,7 +50750,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -49987,7 +50799,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50034,7 +50847,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50075,7 +50889,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50115,7 +50930,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50161,7 +50977,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50208,7 +51025,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50249,7 +51067,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50288,7 +51107,8 @@
             "multiplier": 1.7,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50332,7 +51152,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50377,7 +51198,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 257,
@@ -50391,7 +51213,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50434,7 +51257,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50481,7 +51305,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            104
+          ]
         },
         {
           "id": 776,
@@ -50496,7 +51323,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50543,7 +51371,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50590,7 +51419,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50631,7 +51461,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50670,7 +51501,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 780,
@@ -50681,7 +51513,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50729,7 +51562,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50776,7 +51610,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50817,7 +51652,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50855,7 +51691,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 784,
@@ -50865,7 +51702,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50910,7 +51748,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 786,
@@ -50920,7 +51759,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -50968,7 +51808,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51009,7 +51850,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51050,7 +51892,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51094,7 +51937,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51141,7 +51985,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51182,7 +52027,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51226,7 +52072,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 790,
@@ -51237,7 +52086,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51291,7 +52141,10 @@
             "vfx": "doom-mark_skill",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            77
+          ]
         },
         {
           "id": 792,
@@ -51302,7 +52155,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51353,7 +52207,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51394,7 +52249,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51435,7 +52291,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 794,
@@ -51447,7 +52304,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51493,7 +52351,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51540,7 +52399,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51581,7 +52441,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51622,7 +52483,8 @@
             "selfDmgMultiplier": 0,
             "waitTime": 400
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51666,7 +52528,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51713,7 +52576,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51754,7 +52618,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51793,7 +52658,8 @@
               26
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 802,
@@ -51804,7 +52670,8 @@
             "damage": 2000,
             "multiplier": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51852,7 +52719,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51905,7 +52773,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51946,7 +52815,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -51987,7 +52857,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52028,7 +52899,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52069,7 +52941,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52110,7 +52983,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52151,7 +53025,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52192,7 +53067,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52233,7 +53109,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52274,7 +53151,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52313,7 +53191,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 806,
@@ -52324,7 +53203,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52372,7 +53252,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52419,7 +53300,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52460,7 +53342,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52498,7 +53381,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 810,
@@ -52517,7 +53401,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            93
+          ]
         },
         {
           "id": 811,
@@ -52537,7 +53424,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -52585,7 +53475,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 813,
@@ -52604,7 +53495,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            93
+          ]
         },
         {
           "id": 814,
@@ -52624,7 +53518,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -52675,7 +53572,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52716,7 +53614,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52757,7 +53656,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52801,7 +53701,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52848,7 +53749,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52889,7 +53791,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52929,7 +53832,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -52975,7 +53879,8 @@
             "damage": 2200,
             "multiplier": 3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53024,7 +53929,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53065,7 +53971,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53103,7 +54010,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 820,
@@ -53113,7 +54021,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53158,7 +54067,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53205,7 +54115,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53246,7 +54157,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53285,7 +54197,8 @@
               29
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 824,
@@ -53296,7 +54209,8 @@
             "damage": 2100,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53344,7 +54258,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53391,7 +54306,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53432,7 +54348,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53473,7 +54390,8 @@
             "maxHits": 6,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 828,
@@ -53485,7 +54403,8 @@
             "multiplier": 1.7,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53531,7 +54450,8 @@
             "damage": 2200,
             "multiplier": 2.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53581,7 +54501,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53622,7 +54543,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53663,7 +54585,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53704,7 +54627,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53745,7 +54669,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53786,7 +54711,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53827,7 +54753,8 @@
             "maxHits": 5,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53867,7 +54794,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53928,7 +54856,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -53977,7 +54906,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54036,7 +54966,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 836,
@@ -54056,7 +54987,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            111
+          ]
         }
       ],
       "effect_types": [
@@ -54123,7 +55057,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 838,
@@ -54143,7 +55078,10 @@
             "giveToDragons": "alive",
             "dragonAnimation": "special1"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            112
+          ]
         }
       ],
       "effect_types": [
@@ -54214,7 +55152,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54266,7 +55205,8 @@
           },
           "trigger": [
             "postAttack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54309,7 +55249,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54377,6 +55318,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            122
           ]
         }
       ],
@@ -54429,7 +55373,8 @@
           },
           "trigger": [
             "negative"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54472,7 +55417,8 @@
               34
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 843,
@@ -54483,7 +55429,8 @@
             "damage": 2450,
             "multiplier": 0.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54545,7 +55492,8 @@
             "multiplier": 2.2,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 844,
@@ -54566,7 +55514,10 @@
             "giveToDragons": "any",
             "vfxAttachedToTarget": "true"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            124
+          ]
         }
       ],
       "effect_types": [
@@ -54662,7 +55613,8 @@
             "procChance": 0.25,
             "vfx": "mindbreak_skill_apply"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54708,7 +55660,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 848,
@@ -54716,7 +55669,8 @@
           "target": "NONE",
           "hit_chance": 0.4,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54780,7 +55734,8 @@
             "multiplier": 3.5,
             "waitTime": 300
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54834,7 +55789,8 @@
             "missTid": "tid_miss",
             "calloutTid": "tid_minbreak"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -54877,7 +55833,8 @@
             "multiplier": 2.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 852,
@@ -54898,7 +55855,10 @@
             "giveToDragons": "any",
             "vfxAttachedToTarget": "true"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            126
+          ]
         }
       ],
       "effect_types": [
@@ -54982,7 +55942,8 @@
             "damage": 1700,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 854,
@@ -54996,7 +55957,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55057,7 +56019,8 @@
             "waitTime": 300,
             "max_kills": 2
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55105,7 +56068,8 @@
             "damage": 2000,
             "multiplier": 1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 619,
@@ -55115,7 +56079,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55184,6 +56149,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -55237,7 +56205,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
             "effectName": "tid_crit_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55299,7 +56268,8 @@
             "damage": 2000,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 341,
@@ -55309,7 +56279,8 @@
           "parameters": {
             "vfx": "silenced_shield_3"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55376,7 +56347,8 @@
           },
           "trigger": [
             "attack"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55430,6 +56402,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            129
           ]
         }
       ],
@@ -55493,6 +56468,9 @@
           },
           "trigger": [
             "onEnterCombat"
+          ],
+          "passives": [
+            131
           ]
         }
       ],
@@ -55542,7 +56520,8 @@
             "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55604,7 +56583,8 @@
             "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
             "effectName": "tid_skill_armor_effect_name"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55658,7 +56638,8 @@
             "dmgTakenModifier": 1,
             "playerEffectName": "emergency_damage"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55716,7 +56697,8 @@
             "maxHits": 8,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 2641,
@@ -55728,7 +56710,8 @@
             "multiplier": 2,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55784,7 +56767,8 @@
           "parameters": {
             "perkId": 4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55827,7 +56811,8 @@
             "waitTime": 500,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55883,7 +56868,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -55929,7 +56915,8 @@
             "damage": 2400,
             "multiplier": 1.5
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 132,
@@ -55937,7 +56924,8 @@
           "target": "NONE",
           "hit_chance": 1,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56010,7 +56998,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56082,7 +57071,8 @@
             "multiplier": 1.25,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 268,
@@ -56094,7 +57084,8 @@
             "multiplier": 1.5,
             "effect_tid": "tid_skill_description_250_battlefield"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56141,7 +57132,8 @@
             "effectName": "plasma_skill_main",
             "counterMessageTid": "tid_battle_counter_attack"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56190,7 +57182,8 @@
             "waitTime": 25,
             "counterAttackEffectName": "plasma_skill_impact"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56249,7 +57242,8 @@
               "EVASION"
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 8481,
@@ -56257,7 +57251,8 @@
           "target": "NONE",
           "hit_chance": 0.6,
           "parameters": {},
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56318,7 +57313,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56375,6 +57371,9 @@
           },
           "trigger": [
             "onDie"
+          ],
+          "passives": [
+            77
           ]
         }
       ],
@@ -56426,7 +57425,8 @@
             "damage": 1900,
             "multiplier": 1.3
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 578,
@@ -56445,7 +57445,10 @@
             "vfx": "",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            95
+          ]
         },
         {
           "id": 579,
@@ -56465,7 +57468,10 @@
             "vfx": "void_skill",
             "giveToDragons": "any"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            94
+          ]
         }
       ],
       "effect_types": [
@@ -56530,7 +57536,8 @@
               24
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 350,
@@ -56542,7 +57549,8 @@
               25
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 351,
@@ -56553,7 +57561,8 @@
             "damage": 1800,
             "multiplier": 1.4
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56622,7 +57631,8 @@
               37
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 3501,
@@ -56634,7 +57644,8 @@
               38
             ]
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 3511,
@@ -56645,7 +57656,8 @@
             "damage": 2500,
             "multiplier": 1.8
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56683,12 +57695,12 @@
       "skins": [
         [
           4000,
-          "b",
+          "t",
           347605
         ],
         [
           4000,
-          "t",
+          "b",
           347605
         ]
       ]
@@ -56712,7 +57724,8 @@
           "trigger": [
             "attack",
             "defense"
-          ]
+          ],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56761,7 +57774,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56811,7 +57825,8 @@
           "parameters": {
             "healPercent": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -56875,7 +57890,8 @@
             ],
             "element": "e"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 34777,
@@ -56893,7 +57909,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -56958,7 +57977,8 @@
             "multiplier": 3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57032,7 +58052,8 @@
             ],
             "element": "e"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 34779,
@@ -57050,7 +58071,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -57112,7 +58136,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57163,7 +58188,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57211,7 +58237,8 @@
           "parameters": {
             "healPercent": 0.7
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57274,7 +58301,8 @@
             ],
             "element": "e"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 34787,
@@ -57292,7 +58320,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -57357,7 +58388,8 @@
             "multiplier": 3,
             "waitTime": 500
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57431,7 +58463,8 @@
             ],
             "element": "e"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         },
         {
           "id": 34789,
@@ -57449,7 +58482,10 @@
             "vfx": "",
             "addRandomly": false
           },
-          "trigger": []
+          "trigger": [],
+          "passives": [
+            82
+          ]
         }
       ],
       "effect_types": [
@@ -57500,7 +58536,8 @@
             "max_kills": 2,
             "tid_damage_multiplier": "DAMAGE INCREASED!!!"
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -57539,7 +58576,8 @@
             "health_multiplier": 1.1,
             "attack_multiplier": 1.1
           },
-          "trigger": []
+          "trigger": [],
+          "passives": []
         }
       ],
       "effect_types": [
@@ -214450,11 +215488,11 @@
       "skins": [
         [
           3306,
-          "b"
+          "t"
         ],
         [
           3306,
-          "t"
+          "b"
         ]
       ],
       "triggers": [
@@ -220795,11 +221833,11 @@
       "skins": [
         [
           4000,
-          "b"
+          "t"
         ],
         [
           4000,
-          "t"
+          "b"
         ]
       ],
       "triggers": [
