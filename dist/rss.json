@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T12:30:22Z",
-  "count": 2220,
+  "generated_at": "2026-11-09T14:08:54Z",
+  "count": 2221,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -11359,6 +11359,13 @@
     {
       "key": "season_pass_points.20261001",
       "name": "season_pass_points.20261001",
+      "type": "currency",
+      "image_url": "",
+      "family": "season_pass"
+    },
+    {
+      "key": "season_pass_points.20261109",
+      "name": "season_pass_points.20261109",
       "type": "currency",
       "image_url": "",
       "family": "season_pass"
