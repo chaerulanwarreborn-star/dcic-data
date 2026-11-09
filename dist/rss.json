@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T18:45:41Z",
-  "count": 2221,
+  "generated_at": "2026-11-09T18:52:07Z",
+  "count": 2220,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -11131,13 +11131,6 @@
       "type": "currency",
       "image_url": "",
       "family": "pet_food_pass"
-    },
-    {
-      "key": "pet_points",
-      "name": "pet_points",
-      "type": "currency",
-      "image_url": "",
-      "family": "pet"
     },
     {
       "key": "pet_points.*",
