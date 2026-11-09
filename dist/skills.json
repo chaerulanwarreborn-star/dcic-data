@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T05:17:53Z",
+  "generated_at": "2026-11-09T10:41:30Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -34975,8 +34975,8 @@
         25
       ],
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -40725,12 +40725,12 @@
       "skins": [
         [
           3306,
-          "t",
+          "b",
           1334
         ],
         [
           3306,
-          "b",
+          "t",
           1334
         ]
       ]
@@ -46002,7 +46002,7 @@
         34
       ],
       "status_icons": [
-        1
+        0
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -46298,7 +46298,7 @@
         34
       ],
       "status_icons": [
-        1
+        0
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -47723,7 +47723,7 @@
         34
       ],
       "status_icons": [
-        1
+        0
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -54510,7 +54510,7 @@
         34
       ],
       "status_icons": [
-        1
+        0
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -56584,8 +56584,8 @@
         25
       ],
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -56673,8 +56673,8 @@
         38
       ],
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -56683,12 +56683,12 @@
       "skins": [
         [
           4000,
-          "t",
+          "b",
           347605
         ],
         [
           4000,
-          "b",
+          "t",
           347605
         ]
       ]
@@ -197181,8 +197181,8 @@
       "effect_count": 3,
       "multiplier": 1.4,
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "order": 1161,
       "usage_count": 2,
@@ -206517,11 +206517,11 @@
       "skins": [
         [
           3306,
-          "t"
+          "b"
         ],
         [
           3306,
-          "b"
+          "t"
         ]
       ]
     },
@@ -210771,8 +210771,8 @@
       "effect_count": 3,
       "multiplier": 1.4,
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "order": 1549,
       "usage_count": 2,
@@ -211303,7 +211303,7 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        1
+        0
       ],
       "order": 1561,
       "usage_count": 2,
@@ -211481,7 +211481,7 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        1
+        0
       ],
       "order": 1565,
       "usage_count": 0,
@@ -212131,8 +212131,8 @@
       "effect_count": 3,
       "multiplier": 1.8,
       "status_icons": [
-        0,
-        1
+        1,
+        0
       ],
       "order": 1581,
       "usage_count": 0,
@@ -212142,11 +212142,11 @@
       "skins": [
         [
           4000,
-          "t"
+          "b"
         ],
         [
           4000,
-          "b"
+          "t"
         ]
       ]
     },
@@ -212396,7 +212396,7 @@
       "effect_count": 3,
       "multiplier": 2.0,
       "status_icons": [
-        1
+        0
       ],
       "order": 1588,
       "usage_count": 2,
@@ -216765,7 +216765,7 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        1
+        0
       ],
       "order": 1723,
       "usage_count": 0,
@@ -230770,7 +230770,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3380,
@@ -230807,7 +230807,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [
         3380,
@@ -237955,7 +237955,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [
         3467,
@@ -238268,7 +238268,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [],
@@ -239331,7 +239331,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [
@@ -239366,7 +239366,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [
@@ -247282,7 +247282,7 @@
       "kind": "passive",
       "id": 62,
       "name": "Warning Silence",
-      "description": "Deals damage - The effects of this skill will not work as Passive skill.",
+      "description": "Silencing opponent for 2 turns - The effects of this skill will not work as Passive skill.",
       "skill_id": 301,
       "special_icon": 1,
       "cooldown": 0,
@@ -247316,7 +247316,7 @@
       "kind": "passive",
       "id": 63,
       "name": "Apocalypse Silence",
-      "description": "Silencing opponent for 2 turns - The effects of this skill will not work as Passive skill.",
+      "description": "Deals damage - The effects of this skill will not work as Passive skill.",
       "skill_id": 303,
       "special_icon": 1,
       "cooldown": 0,
@@ -251121,7 +251121,7 @@
       "kind": "aura",
       "id": 1,
       "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "description": "Reduces damage dealt by 25% to the user and allies for 3 turns.",
       "skill_id": 65,
       "skill_ids": [
         65
@@ -251165,8 +251165,8 @@
     {
       "kind": "aura",
       "id": 2,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 25% to the user and allies for 3 turns.",
       "skill_id": 102,
       "skill_ids": [
         102,
@@ -251210,8 +251210,8 @@
     {
       "kind": "aura",
       "id": 3,
-      "name": "Impaler",
-      "description": "Protects the user from an attack while damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 117,
       "skill_ids": [
         117
@@ -251250,8 +251250,8 @@
     {
       "kind": "aura",
       "id": 4,
-      "name": "Impaler",
-      "description": "Deals instant damage and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 122,
       "skill_ids": [
         122
@@ -251290,8 +251290,8 @@
     {
       "kind": "aura",
       "id": 5,
-      "name": "Impaler",
-      "description": "Deals instant damage and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 124,
       "skill_ids": [
         124
@@ -251340,8 +251340,8 @@
     {
       "kind": "aura",
       "id": 6,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 30% to the user and allies for 3 turns.",
       "skill_id": 126,
       "skill_ids": [
         126
@@ -251380,8 +251380,8 @@
     {
       "kind": "aura",
       "id": 7,
-      "name": "Impaler",
-      "description": "Deals instant damage and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 130,
       "skill_ids": [
         130
@@ -251420,8 +251420,8 @@
     {
       "kind": "aura",
       "id": 8,
-      "name": "Impaler",
-      "description": "Deals instant damage and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 132,
       "skill_ids": [
         132
@@ -251460,8 +251460,8 @@
     {
       "kind": "aura",
       "id": 9,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage for following turns",
+      "name": "Evasion Shield",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 137,
       "skill_ids": [
         137
@@ -251498,8 +251498,8 @@
     {
       "kind": "aura",
       "id": 10,
-      "name": "Impaler",
-      "description": "Protects user from next attack while dealing further damage",
+      "name": "Spiked Shield",
+      "description": "Reflects incoming damage back at attackers with +20% more damage (120%).",
       "skill_id": 140,
       "skill_ids": [
         140,
@@ -251548,8 +251548,8 @@
     {
       "kind": "aura",
       "id": 11,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 40% to the user and allies for 3 turns.",
       "skill_id": 143,
       "skill_ids": [
         143
@@ -251588,8 +251588,8 @@
     {
       "kind": "aura",
       "id": 12,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage for following turns",
+      "name": "Evasion Shield",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 154,
       "skill_ids": [
         154,
@@ -251635,8 +251635,8 @@
     {
       "kind": "aura",
       "id": 13,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage for following turns",
+      "name": "Evasion Shield",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 169,
       "skill_ids": [
         169
@@ -251675,8 +251675,8 @@
     {
       "kind": "aura",
       "id": 14,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
+      "name": "Evasion Shield",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 183,
       "skill_ids": [
         183,
@@ -251719,8 +251719,8 @@
     {
       "kind": "aura",
       "id": 151,
-      "name": "Impaler",
-      "description": "Protects the user from an attack while damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects incoming damage back at attackers with +20% more damage (120%).",
       "skill_id": 209,
       "skill_ids": [
         209,
@@ -251762,7 +251762,7 @@
       "kind": "aura",
       "id": 15,
       "name": "Critical Chance",
-      "description": "Deals multiple hits, each with 50% chance of triggering a Critical Hit",
+      "description": "Grants a 50% Critical Hit chance instantly to the user's attack.",
       "skill_id": 195,
       "skill_ids": [
         195
@@ -251803,8 +251803,8 @@
     {
       "kind": "aura",
       "id": 161,
-      "name": "Impaler",
-      "description": "Protects user from next attack while dealing further damage",
+      "name": "Spiked Shield",
+      "description": "Reflects incoming damage back at attackers with +50% more damage (150%).",
       "skill_id": 214,
       "skill_ids": [
         214
@@ -251844,7 +251844,7 @@
       "kind": "aura",
       "id": 16,
       "name": "Critical Chance",
-      "description": "",
+      "description": "Grants a 50% Critical Hit chance instantly to the user's attack.",
       "skill_id": 197,
       "skill_ids": [
         197
@@ -251883,8 +251883,8 @@
     {
       "kind": "aura",
       "id": 171,
-      "name": "Impaler",
-      "description": "Deals instant damage and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reflects incoming damage back at attackers with +40% more damage (140%).",
       "skill_id": 215,
       "skill_ids": [
         215
@@ -251923,8 +251923,8 @@
     {
       "kind": "aura",
       "id": 17,
-      "name": "Evasion",
-      "description": "50% chance of Evasion for 3 turns",
+      "name": "Evasion Aura",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 231,
       "skill_ids": [
         231
@@ -251964,7 +251964,7 @@
       "kind": "aura",
       "id": 18,
       "name": "Critical Chance",
-      "description": "Gives all allies a 33% chance of triggering a Critical Hit",
+      "description": "Grants a 33% Critical Hit chance instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": 237,
       "skill_ids": [
         237
@@ -252006,7 +252006,7 @@
       "kind": "aura",
       "id": 19,
       "name": "Critical Chance",
-      "description": "",
+      "description": "Grants a 33% Critical Hit chance instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252036,7 +252036,7 @@
       "kind": "aura",
       "id": 20,
       "name": "Critical Damage",
-      "description": "Increases Critical Damage dealt by all allies by 33%",
+      "description": "Increases Critical Damage dealt by 33% instantly to the user's attack and for the next 1 turn to all allies.",
       "skill_id": 243,
       "skill_ids": [
         243
@@ -252078,7 +252078,7 @@
       "kind": "aura",
       "id": 21,
       "name": "Critical Damage",
-      "description": "Increases Critical Damage dealt by all allies by 50%",
+      "description": "Increases Critical Damage dealt by 50% instantly to the user's attack and for the next 1 turn to all allies.",
       "skill_id": 244,
       "skill_ids": [
         244
@@ -252120,7 +252120,7 @@
       "kind": "aura",
       "id": 22,
       "name": "Critical Chance",
-      "description": "",
+      "description": "Grants a 40% Critical Hit chance.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252141,14 +252141,16 @@
       "order": 184,
       "trigger": null,
       "lbp_id": 15,
-      "durations": [],
+      "durations": [
+        0
+      ],
       "effects": []
     },
     {
       "kind": "aura",
       "id": 23,
-      "name": "Critical Damage",
-      "description": "",
+      "name": "Critical Chance",
+      "description": "Grants a 50% Critical Hit chance for 2 turns.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252160,7 +252162,7 @@
       "effect_count": 0,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [],
@@ -252177,8 +252179,8 @@
     {
       "kind": "aura",
       "id": 24,
-      "name": "Critical Chance",
-      "description": "Increases chance of Critical Hit by 25% and Critical Damage dealt by 50% of all allies",
+      "name": "Critical Damage",
+      "description": "Increases Critical Damage dealt by 50% instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": 260,
       "skill_ids": [
         260,
@@ -252195,7 +252197,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3380,
@@ -252221,8 +252223,8 @@
     {
       "kind": "aura",
       "id": 25,
-      "name": "Critical Damage",
-      "description": "Increases chance of Critical Hit by 25% and Critical Damage dealt by 50% of all allies",
+      "name": "Critical Chance",
+      "description": "Grants a 25% Critical Hit chance instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": 260,
       "skill_ids": [
         260,
@@ -252239,7 +252241,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [
         3380,
@@ -252265,8 +252267,8 @@
     {
       "kind": "aura",
       "id": 26,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 30% to the user and allies for 3 turns.",
       "skill_id": 263,
       "skill_ids": [
         263,
@@ -252349,8 +252351,8 @@
     {
       "kind": "aura",
       "id": 27,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 50% to the user and allies for 3 turns.",
       "skill_id": 265,
       "skill_ids": [
         265,
@@ -252396,8 +252398,8 @@
     {
       "kind": "aura",
       "id": 28,
-      "name": "Bunker",
-      "description": "",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 30% to the user and allies for 3 turns.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252424,8 +252426,8 @@
     {
       "kind": "aura",
       "id": 29,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
+      "name": "Evasion Aura",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 295,
       "skill_ids": [
         295,
@@ -252490,8 +252492,8 @@
     {
       "kind": "aura",
       "id": 30,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage by 30% for following turns",
+      "name": "Evasion Aura",
+      "description": "30% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 345,
       "skill_ids": [
         345
@@ -252530,8 +252532,8 @@
     {
       "kind": "aura",
       "id": 31,
-      "name": "Impaler",
-      "description": "Deals multiple hits and protects the user from an attack while further damaging the opponent",
+      "name": "Spiked Shield",
+      "description": "Reduces incoming damage by 80% and reflects 90% of the original damage back at attackers.",
       "skill_id": 387,
       "skill_ids": [
         387
@@ -252570,8 +252572,8 @@
     {
       "kind": "aura",
       "id": 32,
-      "name": "Evasion",
-      "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
+      "name": "Evasion Aura",
+      "description": "50% chance to dodge incoming attacks for 3 turns.",
       "skill_id": 413,
       "skill_ids": [
         413
@@ -252610,8 +252612,8 @@
     {
       "kind": "aura",
       "id": 33,
-      "name": "Bunker",
-      "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 40% to the user and allies for 3 turns.",
       "skill_id": 419,
       "skill_ids": [
         419
@@ -252650,8 +252652,8 @@
     {
       "kind": "aura",
       "id": 34,
-      "name": "Critical Damage",
-      "description": "Deals damage with a 50% chance of a Critical Hit",
+      "name": "Critical Chance",
+      "description": "Grants a 50% Critical Hit chance to the user for 2 turns.",
       "skill_id": 424,
       "skill_ids": [
         424,
@@ -252670,7 +252672,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [
         3467,
@@ -252698,8 +252700,8 @@
     {
       "kind": "aura",
       "id": 36,
-      "name": "Bunker",
-      "description": "Deals damage and drastically reduces damage taken by the user and allies for several turns.",
+      "name": "Guard Shield",
+      "description": "Reduces damage dealt by 50% to the user and allies for 3 turns.",
       "skill_id": 427,
       "skill_ids": [
         427
@@ -252738,8 +252740,8 @@
     {
       "kind": "aura",
       "id": 35,
-      "name": "Critical Damage",
-      "description": "",
+      "name": "Critical Chance",
+      "description": "Grants a 70% Critical Hit chance to the user for 2 turns.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252753,7 +252755,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [],
@@ -252776,8 +252778,8 @@
     {
       "kind": "aura",
       "id": 37,
-      "name": "Critical Chance",
-      "description": "Increases chance of Critical Hit by 35% and Critical Damage dealt by 60% of all allies",
+      "name": "Critical Damage",
+      "description": "Increases Critical Damage dealt by 60% instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": 34765,
       "skill_ids": [
         34765
@@ -252793,7 +252795,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [
@@ -252818,8 +252820,8 @@
     {
       "kind": "aura",
       "id": 38,
-      "name": "Critical Damage",
-      "description": "Increases chance of Critical Hit by 35% and Critical Damage dealt by 60% of all allies",
+      "name": "Critical Chance",
+      "description": "Grants a 35% Critical Hit chance instantly to the user's attack and for the next 2 turns to all allies.",
       "skill_id": 34765,
       "skill_ids": [
         34765
@@ -252835,7 +252837,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [
@@ -252860,8 +252862,8 @@
     {
       "kind": "aura",
       "id": 39,
-      "name": "Impaler",
-      "description": "Deals damage and raises a barrier of spikes that reflects a portion of incoming damage back at attackers.",
+      "name": "Spiked Shield",
+      "description": "Reflects 90% of incoming damage back at attackers.",
       "skill_id": 453,
       "skill_ids": [
         453
@@ -252900,8 +252902,8 @@
     {
       "kind": "aura",
       "id": 40,
-      "name": "Critical Damage",
-      "description": "",
+      "name": "Critical Chance",
+      "description": "Grants a 33% Critical Hit chance for 3 turns.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
@@ -252913,7 +252915,7 @@
       "effect_count": 0,
       "multiplier": null,
       "status_icons": [
-        1
+        0
       ],
       "dragons": [],
       "skins": [],
@@ -252931,7 +252933,7 @@
       "kind": "aura",
       "id": 41,
       "name": "Critical Damage",
-      "description": "",
+      "description": "Increases Critical Damage dealt by 50% for 3 turns.",
       "skill_id": null,
       "skill_ids": [],
       "special_icon": null,
