@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:52:08Z",
+  "generated_at": "2026-11-10T07:04:48Z",
   "schema_version": 3,
   "count": 609,
   "linked_count": 315,
@@ -17856,6 +17856,7 @@
       "3512_dragon_hypnowhisperer_skin2"
     ]
   },
+  "lbp_count": 41,
   "skills": [
     {
       "id": 1,
@@ -41773,12 +41774,12 @@
       "skins": [
         [
           3306,
-          "t",
+          "b",
           1334
         ],
         [
           3306,
-          "b",
+          "t",
           1334
         ]
       ]
@@ -58659,12 +58660,12 @@
       "skins": [
         [
           4000,
-          "t",
+          "b",
           347605
         ],
         [
           4000,
-          "b",
+          "t",
           347605
         ]
       ]
@@ -217939,11 +217940,11 @@
       "skins": [
         [
           3306,
-          "t"
+          "b"
         ],
         [
           3306,
-          "b"
+          "t"
         ]
       ],
       "triggers": [
@@ -224572,11 +224573,11 @@
       "skins": [
         [
           4000,
-          "t"
+          "b"
         ],
         [
           4000,
-          "b"
+          "t"
         ]
       ],
       "triggers": [
@@ -266891,6 +266892,1042 @@
       ],
       "icon": "/mobile/ui/building-tooltip-icons/titans_production/$HDSD/ic-titan-box.png",
       "order": 7
+    }
+  ],
+  "lbps": [
+    {
+      "id": 1,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.2,
+              "turns": 0
+            },
+            {
+              "chance": 0.4,
+              "turns": 1
+            },
+            {
+              "chance": 0.3,
+              "turns": 2
+            },
+            {
+              "chance": 0.1,
+              "turns": 3
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.1,
+              "turns": 0
+            },
+            {
+              "chance": 0.5,
+              "turns": 1
+            },
+            {
+              "chance": 0.2,
+              "turns": 2
+            },
+            {
+              "chance": 0.2,
+              "turns": 3
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "auras": [],
+      "skills": []
+    },
+    {
+      "id": 2,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.2,
+              "turns": 0
+            },
+            {
+              "chance": 0.4,
+              "turns": 1
+            },
+            {
+              "chance": 0.3,
+              "turns": 2
+            },
+            {
+              "chance": 0.1,
+              "turns": 3
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.1,
+              "turns": 0
+            },
+            {
+              "chance": 0.5,
+              "turns": 1
+            },
+            {
+              "chance": 0.2,
+              "turns": 2
+            },
+            {
+              "chance": 0.2,
+              "turns": 3
+            }
+          ]
+        }
+      },
+      "effects": [],
+      "auras": [],
+      "skills": []
+    },
+    {
+      "id": 3,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.25,
+              "turns": 2
+            },
+            {
+              "chance": 0.75,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.75,
+              "turns": 2
+            },
+            {
+              "chance": 0.25,
+              "turns": 0
+            }
+          ]
+        }
+      },
+      "effects": [
+        253
+      ],
+      "auras": [],
+      "skills": []
+    },
+    {
+      "id": 4,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.3,
+              "turns": 2
+            },
+            {
+              "chance": 0.7,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.6,
+              "turns": 2
+            },
+            {
+              "chance": 0.4,
+              "turns": 0
+            }
+          ]
+        },
+        "70": {
+          "turn_chances": [
+            {
+              "chance": 0.85,
+              "turns": 2
+            },
+            {
+              "chance": 0.15,
+              "turns": 0
+            }
+          ]
+        }
+      },
+      "effects": [
+        259
+      ],
+      "auras": [],
+      "skills": [
+        193
+      ]
+    },
+    {
+      "id": 5,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        262
+      ],
+      "auras": [
+        15
+      ],
+      "skills": [
+        195
+      ]
+    },
+    {
+      "id": 6,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        264
+      ],
+      "auras": [
+        16
+      ],
+      "skills": [
+        197
+      ]
+    },
+    {
+      "id": 7,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5
+          },
+          "damage": 1550,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        265
+      ],
+      "auras": [],
+      "skills": [
+        198
+      ]
+    },
+    {
+      "id": 8,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.75
+          },
+          "damage": 1900,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        266
+      ],
+      "auras": [],
+      "skills": [
+        199
+      ]
+    },
+    {
+      "id": 9,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.6,
+              "turns": 2
+            },
+            {
+              "chance": 0.4,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.8,
+              "turns": 2
+            },
+            {
+              "chance": 0.2,
+              "turns": 0
+            }
+          ]
+        },
+        "70": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        302,
+        509
+      ],
+      "auras": [],
+      "skills": [
+        227,
+        228,
+        386
+      ]
+    },
+    {
+      "id": 10,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.33
+          },
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 3
+            }
+          ],
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [],
+      "auras": [
+        18
+      ],
+      "skills": []
+    },
+    {
+      "id": 11,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.75,
+              "turns": 2
+            },
+            {
+              "chance": 0.25,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.85,
+              "turns": 2
+            },
+            {
+              "chance": 0.15,
+              "turns": 0
+            }
+          ]
+        },
+        "70": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        319
+      ],
+      "auras": [],
+      "skills": [
+        238
+      ]
+    },
+    {
+      "id": 12,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.33
+          }
+        }
+      },
+      "effects": [
+        324
+      ],
+      "auras": [
+        19
+      ],
+      "skills": [
+        242
+      ]
+    },
+    {
+      "id": 13,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "damage_multiplier": 0.33
+          }
+        }
+      },
+      "effects": [
+        325
+      ],
+      "auras": [
+        20
+      ],
+      "skills": [
+        243
+      ]
+    },
+    {
+      "id": 14,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "damage_multiplier": 0.5
+          }
+        }
+      },
+      "effects": [
+        327
+      ],
+      "auras": [
+        21
+      ],
+      "skills": [
+        244
+      ]
+    },
+    {
+      "id": 15,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.4
+          }
+        }
+      },
+      "effects": [
+        329
+      ],
+      "auras": [
+        22
+      ],
+      "skills": [
+        245
+      ]
+    },
+    {
+      "id": 16,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.75,
+              "turns": 2
+            },
+            {
+              "chance": 0.25,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.85,
+              "turns": 2
+            },
+            {
+              "chance": 0.15,
+              "turns": 0
+            }
+          ]
+        },
+        "70": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        335
+      ],
+      "auras": [],
+      "skills": [
+        249
+      ]
+    },
+    {
+      "id": 17,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        338
+      ],
+      "auras": [],
+      "skills": [
+        253
+      ]
+    },
+    {
+      "id": 18,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        341,
+        411,
+        497,
+        786
+      ],
+      "auras": [],
+      "skills": [
+        254,
+        299,
+        349,
+        377,
+        504,
+        590
+      ]
+    },
+    {
+      "id": 19,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        347
+      ],
+      "auras": [
+        23
+      ],
+      "skills": [
+        259
+      ]
+    },
+    {
+      "id": 20,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "damage_multiplier": 0.5
+          }
+        }
+      },
+      "effects": [],
+      "auras": [
+        24
+      ],
+      "skills": []
+    },
+    {
+      "id": 21,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.25
+          }
+        }
+      },
+      "effects": [],
+      "auras": [
+        25
+      ],
+      "skills": []
+    },
+    {
+      "id": 22,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        355
+      ],
+      "auras": [],
+      "skills": [
+        262
+      ]
+    },
+    {
+      "id": 23,
+      "levels": {
+        "1": {
+          "armor": {
+            "baseValue": 1000
+          }
+        },
+        "40": {
+          "armor": {
+            "baseValue": 1000,
+            "percentageValue": 1
+          }
+        },
+        "70": {
+          "armor": {
+            "percentageValue": 0.4
+          }
+        }
+      },
+      "effects": [],
+      "auras": [],
+      "skills": []
+    },
+    {
+      "id": 24,
+      "levels": {
+        "1": {
+          "armor": {
+            "baseValue": 1000
+          }
+        },
+        "40": {
+          "armor": {
+            "baseValue": 1000,
+            "percentageValue": 1
+          }
+        },
+        "70": {
+          "armor": {
+            "percentageValue": 0.4
+          }
+        }
+      },
+      "effects": [],
+      "auras": [],
+      "skills": []
+    },
+    {
+      "id": 25,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 1,
+              "turns": 2
+            }
+          ]
+        }
+      },
+      "effects": [
+        399,
+        408,
+        565,
+        784,
+        820,
+        822
+      ],
+      "auras": [],
+      "skills": [
+        292,
+        297,
+        301,
+        348,
+        422,
+        503,
+        551
+      ]
+    },
+    {
+      "id": 26,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.4
+          },
+          "damage": 2000,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        453,
+        488
+      ],
+      "auras": [],
+      "skills": [
+        340,
+        371
+      ]
+    },
+    {
+      "id": 27,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.6
+          },
+          "damage": 2000,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        455,
+        769,
+        817
+      ],
+      "auras": [],
+      "skills": [
+        342,
+        487,
+        547
+      ]
+    },
+    {
+      "id": 28,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5
+          },
+          "damage": 2200,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        489
+      ],
+      "auras": [],
+      "skills": [
+        372
+      ]
+    },
+    {
+      "id": 29,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.6
+          },
+          "damage": 2200,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        490
+      ],
+      "auras": [],
+      "skills": [
+        373
+      ]
+    },
+    {
+      "id": 30,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.8
+          },
+          "damage": 2640,
+          "multiplier": 1.4,
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        491
+      ],
+      "auras": [],
+      "skills": [
+        374
+      ]
+    },
+    {
+      "id": 31,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.3
+          }
+        }
+      },
+      "effects": [
+        521
+      ],
+      "auras": [],
+      "skills": [
+        399
+      ]
+    },
+    {
+      "id": 32,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5,
+            "turns": 2
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [],
+      "auras": [
+        34
+      ],
+      "skills": []
+    },
+    {
+      "id": 33,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.7,
+            "turns": 2
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [],
+      "auras": [
+        35
+      ],
+      "skills": []
+    },
+    {
+      "id": 34,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.3,
+            "turns": 3
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        596
+      ],
+      "auras": [],
+      "skills": [
+        437
+      ]
+    },
+    {
+      "id": 35,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.5,
+            "turns": 3
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        597
+      ],
+      "auras": [],
+      "skills": [
+        438
+      ]
+    },
+    {
+      "id": 36,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "damage_multiplier": 0.6
+          }
+        }
+      },
+      "effects": [],
+      "auras": [
+        37
+      ],
+      "skills": []
+    },
+    {
+      "id": 37,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.35
+          }
+        }
+      },
+      "effects": [],
+      "auras": [
+        38
+      ],
+      "skills": []
+    },
+    {
+      "id": 38,
+      "levels": {
+        "1": {
+          "turn_chances": [
+            {
+              "chance": 0.6,
+              "turns": 2
+            },
+            {
+              "chance": 0.4,
+              "turns": 0
+            }
+          ]
+        },
+        "40": {
+          "turn_chances": [
+            {
+              "chance": 0.65,
+              "turns": 2
+            },
+            {
+              "chance": 0.35,
+              "turns": 0
+            }
+          ]
+        },
+        "70": {
+          "turn_chances": [
+            {
+              "chance": 0.7,
+              "turns": 2
+            },
+            {
+              "chance": 0.3,
+              "turns": 0
+            }
+          ]
+        }
+      },
+      "effects": [
+        619
+      ],
+      "auras": [],
+      "skills": [
+        463,
+        587
+      ]
+    },
+    {
+      "id": 39,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.33
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        752
+      ],
+      "auras": [
+        40
+      ],
+      "skills": [
+        475
+      ]
+    },
+    {
+      "id": 40,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "damage_multiplier": 0.5
+          }
+        }
+      },
+      "effects": [],
+      "auras": [
+        41
+      ],
+      "skills": []
+    },
+    {
+      "id": 41,
+      "levels": {
+        "1": {
+          "critical_chances": {
+            "chance": 0.45
+          },
+          "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
+          "effectName": "tid_crit_effect_name"
+        }
+      },
+      "effects": [
+        832,
+        857
+      ],
+      "auras": [],
+      "skills": [
+        568,
+        589
+      ]
     }
   ]
 }
