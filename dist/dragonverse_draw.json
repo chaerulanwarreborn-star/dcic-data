@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-10T07:09:20Z",
+  "generated_at": "2026-11-10T10:29:24Z",
   "box_assets": {
     "regular": {
       "sq": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
@@ -21,7 +21,7 @@
       "normal": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-claimed-gift.png"
     }
   },
-  "event_count": 192,
+  "event_count": 194,
   "events": [
     {
       "id": 148,
@@ -105920,6 +105920,514 @@
       "show_event_button_reward_id": 164
     },
     {
+      "id": 225,
+      "name": "Dragonverse Draw #225",
+      "start_ts": 1794308400,
+      "end_ts": 1794567600,
+      "start_iso": "2026-11-10T11:00:00Z",
+      "end_iso": "2026-11-13T11:00:00Z",
+      "status": "upcoming",
+      "reward_count": 11,
+      "rewards": [
+        {
+          "position": 1,
+          "reward_weight_id": 391,
+          "reward_id": 352,
+          "weight_id": 79,
+          "weight": 35,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "chest",
+            "id": 10712,
+            "name": "Dinner Box",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+            "image_candidates": [
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+              "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+            ],
+            "popup": {
+              "kind": "chest",
+              "id": 10712,
+              "type": "generic"
+            }
+          },
+          "items": [
+            {
+              "kind": "chest",
+              "id": 10712,
+              "name": "Dinner Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10712,
+                "type": "generic"
+              }
+            }
+          ],
+          "probability": 34.6535
+        },
+        {
+          "position": 2,
+          "reward_weight_id": 392,
+          "reward_id": 353,
+          "weight_id": 80,
+          "weight": 25,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "joker_orbs",
+            "rarity": "L",
+            "name": "Legendary Joker Orbs",
+            "amount": 20,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+          },
+          "items": [
+            {
+              "kind": "joker_orbs",
+              "rarity": "L",
+              "name": "Legendary Joker Orbs",
+              "amount": 20,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+            }
+          ],
+          "probability": 24.7525
+        },
+        {
+          "position": 3,
+          "reward_weight_id": 393,
+          "reward_id": 354,
+          "weight_id": 81,
+          "weight": 9,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 2,
+            "name": "Health Perk",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+            "perk_type": "combat",
+            "rarity_level": 1
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 2,
+              "name": "Health Perk",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
+            }
+          ],
+          "probability": 8.9109
+        },
+        {
+          "position": 4,
+          "reward_weight_id": 394,
+          "reward_id": 355,
+          "weight_id": 82,
+          "weight": 8,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "m",
+            "name": "Medium",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "m"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "m",
+              "name": "Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "m"
+              }
+            }
+          ],
+          "probability": 7.9208
+        },
+        {
+          "position": 5,
+          "reward_weight_id": 399,
+          "reward_id": 360,
+          "weight_id": 87,
+          "weight": 3,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.legendary",
+            "name": "Legendary Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "probability": 2.9703
+        },
+        {
+          "position": 6,
+          "reward_weight_id": 401,
+          "reward_id": 362,
+          "weight_id": 89,
+          "weight": 1,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.heroic",
+            "name": "Heroic Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_mds/HD/ic-gachakey-mds-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.heroic",
+              "name": "Heroic Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_mds/HD/ic-gachakey-mds-massive.png"
+            }
+          ],
+          "probability": 0.9901
+        },
+        {
+          "position": 7,
+          "reward_weight_id": 400,
+          "reward_id": 361,
+          "weight_id": 88,
+          "weight": 2,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.mythical",
+            "name": "Mythical Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.mythical",
+              "name": "Mythical Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
+            }
+          ],
+          "probability": 1.9802
+        },
+        {
+          "position": 8,
+          "reward_weight_id": 395,
+          "reward_id": 356,
+          "weight_id": 83,
+          "weight": 6,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "ace_1",
+            "name": "Shiny Small",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_1/HD/ic_stickers_pack_ace_1.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "ace_1"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "ace_1",
+              "name": "Shiny Small",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_1/HD/ic_stickers_pack_ace_1.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "ace_1"
+              }
+            }
+          ],
+          "probability": 5.9406
+        },
+        {
+          "position": 9,
+          "reward_weight_id": 396,
+          "reward_id": 357,
+          "weight_id": 84,
+          "weight": 5,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 4,
+            "name": "Phoenix Perk",
+            "amount": 2,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+            "perk_type": "combat",
+            "rarity_level": 3
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 4,
+              "name": "Phoenix Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "probability": 4.9505
+        },
+        {
+          "position": 10,
+          "reward_weight_id": 397,
+          "reward_id": 358,
+          "weight_id": 85,
+          "weight": 4,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 8,
+            "name": "Advanced Damage Perk",
+            "amount": 2,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+            "perk_type": "combat",
+            "rarity_level": 3
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "probability": 3.9604
+        },
+        {
+          "position": 11,
+          "reward_weight_id": 398,
+          "reward_id": 359,
+          "weight_id": 86,
+          "weight": 3,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "ace_2",
+            "name": "Shiny Medium",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_2/HD/ic_stickers_pack_ace_2.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "ace_2"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "ace_2",
+              "name": "Shiny Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_2/HD/ic_stickers_pack_ace_2.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "ace_2"
+              }
+            }
+          ],
+          "probability": 2.9703
+        }
+      ],
+      "draw_prices": [
+        {
+          "draw": 1,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 0,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 2,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 5,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 3,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 10,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 4,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 20,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 5,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 50,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 6,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 80,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 7,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 150,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 8,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 300,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 9,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 500,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 10,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 700,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 11,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 900,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        }
+      ],
+      "ui_config_id": 82,
+      "news_asset": "news_royaldraw_generic",
+      "bundle_name": "dragonverse-draw-royal",
+      "show_event_button_reward_id": 362
+    },
+    {
       "id": 220,
       "name": "Dragonverse Draw #220",
       "start_ts": 1794567600,
@@ -106450,6 +106958,514 @@
       "news_asset": "news_royaldraw_generic",
       "bundle_name": "dragonverse-draw-royal",
       "show_event_button_reward_id": 90
+    },
+    {
+      "id": 226,
+      "name": "Dragonverse Draw #226",
+      "start_ts": 1794826800,
+      "end_ts": 1795086000,
+      "start_iso": "2026-11-16T11:00:00Z",
+      "end_iso": "2026-11-19T11:00:00Z",
+      "status": "upcoming",
+      "reward_count": 11,
+      "rewards": [
+        {
+          "position": 1,
+          "reward_weight_id": 391,
+          "reward_id": 352,
+          "weight_id": 79,
+          "weight": 35,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "chest",
+            "id": 10712,
+            "name": "Dinner Box",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+            "image_candidates": [
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+              "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+              "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+            ],
+            "popup": {
+              "kind": "chest",
+              "id": 10712,
+              "type": "generic"
+            }
+          },
+          "items": [
+            {
+              "kind": "chest",
+              "id": 10712,
+              "name": "Dinner Box",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/347_chest_tomato_l.png",
+                "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+              ],
+              "popup": {
+                "kind": "chest",
+                "id": 10712,
+                "type": "generic"
+              }
+            }
+          ],
+          "probability": 34.6535
+        },
+        {
+          "position": 2,
+          "reward_weight_id": 392,
+          "reward_id": 353,
+          "weight_id": 80,
+          "weight": 25,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "joker_orbs",
+            "rarity": "L",
+            "name": "Legendary Joker Orbs",
+            "amount": 20,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+          },
+          "items": [
+            {
+              "kind": "joker_orbs",
+              "rarity": "L",
+              "name": "Legendary Joker Orbs",
+              "amount": 20,
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+            }
+          ],
+          "probability": 24.7525
+        },
+        {
+          "position": 3,
+          "reward_weight_id": 393,
+          "reward_id": 354,
+          "weight_id": 81,
+          "weight": 9,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 2,
+            "name": "Health Perk",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+            "perk_type": "combat",
+            "rarity_level": 1
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 2,
+              "name": "Health Perk",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-health-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-basic.png",
+              "perk_type": "combat",
+              "rarity_level": 1
+            }
+          ],
+          "probability": 8.9109
+        },
+        {
+          "position": 4,
+          "reward_weight_id": 394,
+          "reward_id": 355,
+          "weight_id": 82,
+          "weight": 8,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "m",
+            "name": "Medium",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "m"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "m",
+              "name": "Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_m/HD/ic_stickers_pack_m.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "m"
+              }
+            }
+          ],
+          "probability": 7.9208
+        },
+        {
+          "position": 5,
+          "reward_weight_id": 399,
+          "reward_id": 360,
+          "weight_id": 87,
+          "weight": 3,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.legendary",
+            "name": "Legendary Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.legendary",
+              "name": "Legendary Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_silver/HD/ic-gachakey-silver-massive.png"
+            }
+          ],
+          "probability": 2.9703
+        },
+        {
+          "position": 6,
+          "reward_weight_id": 401,
+          "reward_id": 362,
+          "weight_id": 89,
+          "weight": 1,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.heroic",
+            "name": "Heroic Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_mds/HD/ic-gachakey-mds-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.heroic",
+              "name": "Heroic Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_mds/HD/ic-gachakey-mds-massive.png"
+            }
+          ],
+          "probability": 0.9901
+        },
+        {
+          "position": 7,
+          "reward_weight_id": 400,
+          "reward_id": 361,
+          "weight_id": 88,
+          "weight": 2,
+          "ui_style": "HIGH_VALUE",
+          "box_tier": "best",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
+          "reward": {
+            "kind": "resource",
+            "type": "currency",
+            "key": "permanent_gacha.mythical",
+            "name": "Mythical Treasure Key",
+            "amount": 200,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
+          },
+          "items": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "permanent_gacha.mythical",
+              "name": "Mythical Treasure Key",
+              "amount": 200,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_gachakey_gold/HD/ic-gachakey-gold-massive.png"
+            }
+          ],
+          "probability": 1.9802
+        },
+        {
+          "position": 8,
+          "reward_weight_id": 395,
+          "reward_id": 356,
+          "weight_id": 83,
+          "weight": 6,
+          "ui_style": "LOW_VALUE",
+          "box_tier": "regular",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "ace_1",
+            "name": "Shiny Small",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_1/HD/ic_stickers_pack_ace_1.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "ace_1"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "ace_1",
+              "name": "Shiny Small",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_1/HD/ic_stickers_pack_ace_1.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "ace_1"
+              }
+            }
+          ],
+          "probability": 5.9406
+        },
+        {
+          "position": 9,
+          "reward_weight_id": 396,
+          "reward_id": 357,
+          "weight_id": 84,
+          "weight": 5,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 4,
+            "name": "Phoenix Perk",
+            "amount": 2,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+            "perk_type": "combat",
+            "rarity_level": 3
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 4,
+              "name": "Phoenix Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-phoenix-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-pro.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "probability": 4.9505
+        },
+        {
+          "position": 10,
+          "reward_weight_id": 397,
+          "reward_id": 358,
+          "weight_id": 85,
+          "weight": 4,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "perk",
+            "id": 8,
+            "name": "Advanced Damage Perk",
+            "amount": 2,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+            "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+            "perk_type": "combat",
+            "rarity_level": 3
+          },
+          "items": [
+            {
+              "kind": "perk",
+              "id": 8,
+              "name": "Advanced Damage Perk",
+              "amount": 2,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk.png",
+              "frame_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/perks_resources/HD/ic-combat-perk-frame-standard.png",
+              "perk_type": "combat",
+              "rarity_level": 3
+            }
+          ],
+          "probability": 3.9604
+        },
+        {
+          "position": 11,
+          "reward_weight_id": 398,
+          "reward_id": 359,
+          "weight_id": 86,
+          "weight": 3,
+          "ui_style": "MIDD_VALUE",
+          "box_tier": "mid",
+          "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
+          "reward": {
+            "kind": "sticker_pack",
+            "size": "ace_2",
+            "name": "Shiny Medium",
+            "amount": 1,
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_2/HD/ic_stickers_pack_ace_2.png",
+            "popup": {
+              "kind": "sticker_pack",
+              "id": "ace_2"
+            }
+          },
+          "items": [
+            {
+              "kind": "sticker_pack",
+              "size": "ace_2",
+              "name": "Shiny Medium",
+              "amount": 1,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_stickers_pack_ace_2/HD/ic_stickers_pack_ace_2.png",
+              "popup": {
+                "kind": "sticker_pack",
+                "id": "ace_2"
+              }
+            }
+          ],
+          "probability": 2.9703
+        }
+      ],
+      "draw_prices": [
+        {
+          "draw": 1,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 0,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 2,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 5,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 3,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 10,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 4,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 20,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 5,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 50,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 6,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 80,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 7,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 150,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 8,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 300,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 9,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 500,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 10,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 700,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        },
+        {
+          "draw": 11,
+          "cost": {
+            "kind": "resource",
+            "type": "gems",
+            "key": "c",
+            "name": "Gems",
+            "amount": 900,
+            "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+          }
+        }
+      ],
+      "ui_config_id": 82,
+      "news_asset": "news_royaldraw_generic",
+      "bundle_name": "dragonverse-draw-royal",
+      "show_event_button_reward_id": 362
     },
     {
       "id": 221,
