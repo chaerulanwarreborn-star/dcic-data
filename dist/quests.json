@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T15:16:51Z",
-  "quest_count": 195,
+  "generated_at": "2026-11-10T16:27:18Z",
+  "quest_count": 196,
   "permanent_count": 45,
-  "event_count": 150,
-  "stage_count": 2950,
+  "event_count": 151,
+  "stage_count": 2971,
   "quests": [
     {
       "id": 138,
@@ -303857,11 +303857,11 @@
       "min_level": 7,
       "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
       "background_asset": "tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
-      "start_ts": 1794222000,
-      "end_ts": 1794826800,
-      "start_iso": "2026-11-09T11:00:00Z",
-      "end_iso": "2026-11-16T11:00:00Z",
-      "status": "current",
+      "start_ts": 1762686000,
+      "end_ts": 1763290800,
+      "start_iso": "2025-11-09T11:00:00Z",
+      "end_iso": "2025-11-16T11:00:00Z",
+      "status": "past",
       "stage_count": 21,
       "stages": [
         {
@@ -305824,7 +305824,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -306077,7 +306077,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -306330,7 +306330,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -306583,7 +306583,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -306836,7 +306836,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -307089,7 +307089,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -307342,7 +307342,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -307614,7 +307614,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -307867,7 +307867,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -308120,7 +308120,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -308373,7 +308373,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -308626,7 +308626,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -308879,7 +308879,7 @@
           "level_requirement": 30,
           "star_requirement": 0,
           "cooldown_seconds": 21600,
-          "speedup_cost_hour": 0,
+          "speedup_cost_hour": 5,
           "rewards": [
             {
               "kind": "resource",
@@ -309146,6 +309146,1730 @@
           "raw_reward": [
             {
               "gacha_apex.20261109": 45
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10913,
+      "name": "Apex of the Dawn Quest",
+      "category": "event",
+      "category_label": "Time-Limited Quest",
+      "order": 10913,
+      "difficulty": "normal",
+      "min_level": 7,
+      "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
+      "background_asset": "tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
+      "start_ts": 1794222000,
+      "end_ts": 1794826800,
+      "start_iso": "2026-11-09T11:00:00Z",
+      "end_iso": "2026-11-16T11:00:00Z",
+      "status": "current",
+      "stage_count": 21,
+      "stages": [
+        {
+          "stage": 1,
+          "match_id": 10913001,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2799,
+              "name": "Dracarctic Predator Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2799_dragon_dracarticpredator_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2799_dragon_dracarticpredator_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2799_dragon_dracarticpredator_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2799_dragon_dracarticpredator_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2799
+              },
+              "level": 10,
+              "star_requirement": null
+            },
+            {
+              "id": 2836,
+              "name": "Kung Flow Karma Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2836_dragon_kungflowkarma_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2836_dragon_kungflowkarma_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2836_dragon_kungflowkarma_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2836_dragon_kungflowkarma_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2836
+              },
+              "level": 10,
+              "star_requirement": null
+            },
+            {
+              "id": 2943,
+              "name": "Lanternfinder Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2943_dragon_lanternfinder_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2943_dragon_lanternfinder_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2943_dragon_lanternfinder_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2943_dragon_lanternfinder_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2943
+              },
+              "level": 10,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 2,
+          "match_id": 10913002,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3134,
+              "name": "Storyteller Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3134_dragon_storyteller_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3134_dragon_storyteller_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3134_dragon_storyteller_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3134_dragon_storyteller_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3134
+              },
+              "level": 20,
+              "star_requirement": null
+            },
+            {
+              "id": 3470,
+              "name": "Void Night Feather Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3470_dragon_voidnightfeather_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3470_dragon_voidnightfeather_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3470_dragon_voidnightfeather_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3470_dragon_voidnightfeather_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3470
+              },
+              "level": 20,
+              "star_requirement": null
+            },
+            {
+              "id": 2657,
+              "name": "Pyromaniac Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2657_dragon_pyromaniac_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2657_dragon_pyromaniac_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2657
+              },
+              "level": 20,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 3,
+          "match_id": 10913003,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2901,
+              "name": "High Corrupted Time Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2901_dragon_highcorruptedtime_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2901_dragon_highcorruptedtime_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2901_dragon_highcorruptedtime_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2901_dragon_highcorruptedtime_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2901
+              },
+              "level": 30,
+              "star_requirement": null
+            },
+            {
+              "id": 3205,
+              "name": "High Mayday Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3205_dragon_highmayday_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3205_dragon_highmayday_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3205_dragon_highmayday_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3205_dragon_highmayday_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3205
+              },
+              "level": 30,
+              "star_requirement": null
+            },
+            {
+              "id": 2625,
+              "name": "High Druid Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2625_dragon_druid_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2625_dragon_druid_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2625_dragon_druid_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2625_dragon_druid_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2625
+              },
+              "level": 30,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 4,
+          "match_id": 10913004,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3266,
+              "name": "Beau the Strategist Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3266_dragon_beautheestrategist_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3266_dragon_beautheestrategist_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3266_dragon_beautheestrategist_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3266_dragon_beautheestrategist_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3266
+              },
+              "level": 32,
+              "star_requirement": null
+            },
+            {
+              "id": 3368,
+              "name": "Reign Bow Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3368_dragon_reignbow_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3368_dragon_reignbow_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3368_dragon_reignbow_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3368_dragon_reignbow_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3368
+              },
+              "level": 32,
+              "star_requirement": null
+            },
+            {
+              "id": 2674,
+              "name": "Elder Core Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2674_dragon_eldercore_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2674_dragon_eldercore_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2674_dragon_eldercore_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2674_dragon_eldercore_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2674
+              },
+              "level": 32,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 5,
+          "match_id": 10913005,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2381,
+              "name": "Primal Titan Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2381_dragon_primaltitan_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2381_dragon_primaltitan_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2381_dragon_primaltitan_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2381_dragon_primaltitan_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2381
+              },
+              "level": 36,
+              "star_requirement": null
+            },
+            {
+              "id": 2725,
+              "name": "Polar General Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2725_dragon_polargeneral_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2725_dragon_polargeneral_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2725_dragon_polargeneral_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2725_dragon_polargeneral_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2725
+              },
+              "level": 36,
+              "star_requirement": null
+            },
+            {
+              "id": 1845,
+              "name": "Coyote Dragon",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1845_dragon_coyote_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1845_dragon_coyote_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1845_dragon_coyote_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1845_dragon_coyote_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1845
+              },
+              "level": 36,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 6,
+          "match_id": 10913006,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2079,
+              "name": "High Score Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2079_dragon_highscore_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2079_dragon_highscore_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2079_dragon_highscore_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2079_dragon_highscore_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2079
+              },
+              "level": 42,
+              "star_requirement": null
+            },
+            {
+              "id": 1999,
+              "name": "High Zephyr Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1999_dragon_highzephyr_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1999_dragon_highzephyr_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1999_dragon_highzephyr_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1999_dragon_highzephyr_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1999
+              },
+              "level": 42,
+              "star_requirement": null
+            },
+            {
+              "id": 3246,
+              "name": "High Spiked Rhinodillo Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3246_dragon_highspikedrhinodillo_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3246_dragon_highspikedrhinodillo_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3246_dragon_highspikedrhinodillo_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3246_dragon_highspikedrhinodillo_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3246
+              },
+              "level": 42,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 7,
+          "match_id": 10913007,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2379,
+              "name": "Light Titan Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2379_dragon_lighttitan_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2379_dragon_lighttitan_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2379_dragon_lighttitan_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2379_dragon_lighttitan_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2379
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 2200,
+              "name": "Big Heart Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2200_dragon_bigheart_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2200_dragon_bigheart_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2200_dragon_bigheart_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2200_dragon_bigheart_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2200
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 3191,
+              "name": "Chargechick Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3191_dragon_chargechick_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3191_dragon_chargechick_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3191_dragon_chargechick_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3191_dragon_chargechick_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3191
+              },
+              "level": 44,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 8,
+          "match_id": 10913008,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2269,
+              "name": "Mechano Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2269_dragon_mechano_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2269_dragon_mechano_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2269_dragon_mechano_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2269_dragon_mechano_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2269
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 3038,
+              "name": "Haunted Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3038_dragon_haunteddragon_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3038_dragon_haunteddragon_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3038_dragon_haunteddragon_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3038_dragon_haunteddragon_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3038
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 3512,
+              "name": "Hypno Whisperer Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3512
+              },
+              "level": 44,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 9,
+          "match_id": 10913009,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2535,
+              "name": "High Tectonic Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2535_dragon_hightectonic_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2535_dragon_hightectonic_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2535_dragon_hightectonic_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2535_dragon_hightectonic_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2535
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 3387,
+              "name": "High Sculpture Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3387_dragon_highsculpture_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3387_dragon_highsculpture_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3387_dragon_highsculpture_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3387_dragon_highsculpture_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3387
+              },
+              "level": 44,
+              "star_requirement": null
+            },
+            {
+              "id": 2553,
+              "name": "High Earthen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2553_dragon_highearthen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2553_dragon_highearthen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2553
+              },
+              "level": 44,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 10,
+          "match_id": 10913010,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3461,
+              "name": "Astro Graviton Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3461_dragon_astrograviton_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3461_dragon_astrograviton_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3461_dragon_astrograviton_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3461_dragon_astrograviton_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3461
+              },
+              "level": 46,
+              "star_requirement": null
+            },
+            {
+              "id": 3480,
+              "name": "Togetherness Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3480_dragon_togetherness_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3480_dragon_togetherness_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3480_dragon_togetherness_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3480_dragon_togetherness_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3480
+              },
+              "level": 46,
+              "star_requirement": null
+            },
+            {
+              "id": 3420,
+              "name": "Pestilence Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3420_dragon_pestilence_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3420_dragon_pestilence_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3420_dragon_pestilence_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3420_dragon_pestilence_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3420
+              },
+              "level": 46,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 11,
+          "match_id": 10913011,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2146,
+              "name": "Whimsical Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2146_dragon_whimsical_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2146_dragon_whimsical_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2146_dragon_whimsical_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2146_dragon_whimsical_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2146
+              },
+              "level": 46,
+              "star_requirement": null
+            },
+            {
+              "id": 3339,
+              "name": "Axed Silencer Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3339_dragon_axedsilencer_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3339_dragon_axedsilencer_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3339_dragon_axedsilencer_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3339_dragon_axedsilencer_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3339
+              },
+              "level": 46,
+              "star_requirement": null
+            },
+            {
+              "id": 3078,
+              "name": "Fuego Fighter Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3078_dragon_fuegofighter_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3078_dragon_fuegofighter_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3078_dragon_fuegofighter_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3078_dragon_fuegofighter_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3078
+              },
+              "level": 46,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 12,
+          "match_id": 10913012,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3381,
+              "name": "High Cloaked Critical Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3381_dragon_highcloakedcritical_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3381_dragon_highcloakedcritical_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3381_dragon_highcloakedcritical_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3381_dragon_highcloakedcritical_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3381
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3502,
+              "name": "High Risen Sea Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3502_dragon_highrisensea_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3502_dragon_highrisensea_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3502_dragon_highrisensea_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3502_dragon_highrisensea_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3502
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3196,
+              "name": "High Flying Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3196_dragon_highflyer_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3196_dragon_highflyer_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3196_dragon_highflyer_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3196_dragon_highflyer_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3196
+              },
+              "level": 50,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 13,
+          "match_id": 10913013,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3372,
+              "name": "Phan Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3372_dragon_phan_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3372_dragon_phan_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3372_dragon_phan_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3372_dragon_phan_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3372
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3050,
+              "name": "Midsummer Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3050_dragon_midsummer_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3050_dragon_midsummer_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3050_dragon_midsummer_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3050_dragon_midsummer_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3050
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3112,
+              "name": "Puppet Master Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3112_dragon_puppetmaster_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3112_dragon_puppetmaster_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3112_dragon_puppetmaster_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3112_dragon_puppetmaster_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3112
+              },
+              "level": 50,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 14,
+          "match_id": 10913014,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2595,
+              "name": "Allfather Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2595_dragon_allfather_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2595_dragon_allfather_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2595_dragon_allfather_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2595_dragon_allfather_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2595
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3415,
+              "name": "Snowscape Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3415_dragon_snowscape_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3415_dragon_snowscape_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3415_dragon_snowscape_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3415_dragon_snowscape_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3415
+              },
+              "level": 50,
+              "star_requirement": null
+            },
+            {
+              "id": 3098,
+              "name": "Mecha Mace Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3098_dragon_mechamace_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3098_dragon_mechamace_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3098
+              },
+              "level": 50,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 15,
+          "match_id": 10913015,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3511,
+              "name": "Hypno Siren Dragon",
+              "rarity": "L",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3511_dragon_hypnosiren_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3511_dragon_hypnosiren_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3511_dragon_hypnosiren_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3511
+              },
+              "level": 52,
+              "star_requirement": null
+            },
+            {
+              "id": 3498,
+              "name": "High Ymir Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3498_dragon_highymir_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3498_dragon_highymir_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3498_dragon_highymir_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3498_dragon_highymir_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3498
+              },
+              "level": 52,
+              "star_requirement": null
+            },
+            {
+              "id": 2471,
+              "name": "High Reborn Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2471_dragon_highreborn_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2471_dragon_highreborn_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2471_dragon_highreborn_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2471_dragon_highreborn_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2471
+              },
+              "level": 52,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 16,
+          "match_id": 10913016,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 10,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3512,
+                "name": "Hypno Whisperer Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3512
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3072,
+              "name": "Enchantress Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3072_dragon_enchantress_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3072_dragon_enchantress_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3072_dragon_enchantress_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3072_dragon_enchantress_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3072
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2098,
+              "name": "Barbarian Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2000_dragon_barbarian_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2000_dragon_barbarian_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2098
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2521,
+              "name": "Gluttonous Vampire Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2521_dragon_gluttony_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2521_dragon_gluttony_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2521_dragon_gluttony_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2521_dragon_gluttony_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2521
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 10,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 17,
+          "match_id": 10913017,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 2885,
+              "name": "Time Patrol Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2885_dragon_timepatrol_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2885_dragon_timepatrol_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2885
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2533,
+              "name": "Golden Light Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2533_dragon_goldenlight_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2533_dragon_goldenlight_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2533_dragon_goldenlight_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2533_dragon_goldenlight_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2533
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2586,
+              "name": "No Sleep Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2586_dragon_nosleep_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2586_dragon_nosleep_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2586_dragon_nosleep_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2586_dragon_nosleep_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2586
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 18,
+          "match_id": 10913018,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 30,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3512,
+                "name": "Hypno Whisperer Dragon",
+                "rarity": "M",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3512_dragon_hypnowhisperer_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3512_dragon_hypnowhisperer_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3512
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3341,
+              "name": "High Clawed Silencer Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3341_dragon_highclawedsilencer_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3341_dragon_highclawedsilencer_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3341_dragon_highclawedsilencer_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3341_dragon_highclawedsilencer_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3341
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3017,
+              "name": "High Nest Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3017_dragon_highnest_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3017_dragon_highnest_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3017_dragon_highnest_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3017_dragon_highnest_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3017
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3115,
+              "name": "High Ashwing Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3115_dragon_highashwing_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3115_dragon_highashwing_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3115_dragon_highashwing_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3115_dragon_highashwing_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3115
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 30,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
+            }
+          ]
+        },
+        {
+          "stage": 19,
+          "match_id": 10913019,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 10,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3011,
+                "name": "High Master Karma Dragon",
+                "rarity": "H",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3011_dragon_highmasterkarma_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3011_dragon_highmasterkarma_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3011_dragon_highmasterkarma_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3011_dragon_highmasterkarma_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3011
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3082,
+              "name": "Avalanche Eternal Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3082_dragon_avalancheeternal_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3082_dragon_avalancheeternal_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3082_dragon_avalancheeternal_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3082_dragon_avalancheeternal_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3082
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3458,
+              "name": "Astro Meteoro Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3458_dragon_astrometeoro_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3458_dragon_astrometeoro_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3458_dragon_astrometeoro_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3458_dragon_astrometeoro_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3458
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2323,
+              "name": "Deep Jungle Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2323_dragon_deepjungle_b_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2323_dragon_deepjungle_b_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2323_dragon_deepjungle_b_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2323_dragon_deepjungle_b_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2323
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 10,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 20,
+          "match_id": 10913020,
+          "requirements": [],
+          "enemies": [
+            {
+              "id": 3442,
+              "name": "Mythmarvel Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3442_dragon_mythmarvel_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3442_dragon_mythmarvel_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3442_dragon_mythmarvel_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3442_dragon_mythmarvel_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3442
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3244,
+              "name": "Ravenous Extractor Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3244_dragon_ravenousextractor_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3244_dragon_ravenousextractor_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3244_dragon_ravenousextractor_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3244_dragon_ravenousextractor_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3244
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 3421,
+              "name": "Warmonger Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3421_dragon_highwar_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3421_dragon_highwar_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3421_dragon_highwar_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3421_dragon_highwar_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3421
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": null,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 10,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 10
+            }
+          ]
+        },
+        {
+          "stage": 21,
+          "match_id": 10913021,
+          "requirements": [
+            {
+              "slot": 1,
+              "level": 30,
+              "rarity": null,
+              "elements": [],
+              "dragon": {
+                "id": 3011,
+                "name": "High Master Karma Dragon",
+                "rarity": "H",
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3011_dragon_highmasterkarma_3.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3011_dragon_highmasterkarma_3.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3011_dragon_highmasterkarma_3@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3011_dragon_highmasterkarma_1@2x.png"
+                ],
+                "popup": {
+                  "kind": "dragon",
+                  "id": 3011
+                }
+              }
+            }
+          ],
+          "enemies": [
+            {
+              "id": 3357,
+              "name": "High Thirteen Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3357_dragon_highthirteen_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3357_dragon_highthirteen_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3357_dragon_highthirteen_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3357_dragon_highthirteen_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 3357
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 2679,
+              "name": "High Queen Joadycea Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2679_dragon_queenjoadycea_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2679_dragon_queenjoadycea_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2679_dragon_queenjoadycea_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 2679
+              },
+              "level": 54,
+              "star_requirement": null
+            },
+            {
+              "id": 1675,
+              "name": "High Fenrir Dragon",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1675_dragon_fenrir_3.png",
+              "image_candidates": [
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1675_dragon_fenrir_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1675_dragon_fenrir_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1675_dragon_fenrir_1@2x.png"
+              ],
+              "popup": {
+                "kind": "dragon",
+                "id": 1675
+              },
+              "level": 54,
+              "star_requirement": null
+            }
+          ],
+          "level_requirement": 30,
+          "star_requirement": 0,
+          "cooldown_seconds": 0,
+          "speedup_cost_hour": 0,
+          "rewards": [
+            {
+              "kind": "resource",
+              "type": "currency",
+              "key": "gacha_apex.20261109",
+              "name": "Apex of the Dawn tickets",
+              "amount": 15,
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+            }
+          ],
+          "raw_reward": [
+            {
+              "gacha_apex.20261109": 15
             }
           ]
         }

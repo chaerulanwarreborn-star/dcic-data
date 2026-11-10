@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-10T15:16:12.015902Z",
+  "generated_at": "2026-11-10T16:26:44.102112Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -699646,7 +699646,7 @@
                 ],
                 "reward": {
                   "reward_id": 346002,
-                  "name": "Anniversary Pass Points",
+                  "name": "Anniversary Pass Points 20261112",
                   "amount": 200,
                   "kind": "resource",
                   "image_url": "",
@@ -699657,15 +699657,15 @@
                       "kind": "resource",
                       "type": "resource",
                       "resource": "resource",
-                      "key": "anniversary_pass_points",
-                      "name": "Anniversary Pass Points",
+                      "key": "anniversary_pass_points.20261112",
+                      "name": "Anniversary Pass Points 20261112",
                       "amount": 200,
                       "image_url": ""
                     }
                   ],
                   "raw": [
                     {
-                      "anniversary_pass_points": 200
+                      "anniversary_pass_points.20261112": 200
                     }
                   ]
                 },
