@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-10T14:49:29Z",
+  "generated_at": "2026-11-10T15:16:51Z",
   "quest_count": 195,
   "permanent_count": 45,
   "event_count": 150,
@@ -303857,11 +303857,11 @@
       "min_level": 7,
       "background": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragon_tournaments/HD/tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
       "background_asset": "tournament_backgrounds/gr-dragon-tournament-apexofdawn-pass.png",
-      "start_ts": 1762686000,
-      "end_ts": 1763290800,
-      "start_iso": "2025-11-09T11:00:00Z",
-      "end_iso": "2025-11-16T11:00:00Z",
-      "status": "past",
+      "start_ts": 1794222000,
+      "end_ts": 1794826800,
+      "start_iso": "2026-11-09T11:00:00Z",
+      "end_iso": "2026-11-16T11:00:00Z",
+      "status": "current",
       "stage_count": 21,
       "stages": [
         {
@@ -304077,7 +304077,7 @@
           ],
           "level_requirement": null,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -304308,7 +304308,7 @@
           ],
           "level_requirement": null,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -304539,7 +304539,7 @@
           ],
           "level_requirement": null,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -304770,7 +304770,7 @@
           ],
           "level_requirement": null,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -305001,7 +305001,7 @@
           ],
           "level_requirement": null,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -305276,7 +305276,7 @@
           ],
           "level_requirement": 30,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
@@ -305551,7 +305551,7 @@
           ],
           "level_requirement": 30,
           "star_requirement": 0,
-          "cooldown_seconds": 21600,
+          "cooldown_seconds": 0,
           "speedup_cost_hour": 0,
           "rewards": [
             {
