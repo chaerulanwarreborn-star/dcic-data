@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T11:37:39Z",
-  "count": 2222,
+  "generated_at": "2026-11-12T15:55:26Z",
+  "count": 2232,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -9117,6 +9117,55 @@
       "family": "arena_pass"
     },
     {
+      "key": "arena_pass_points.20261119",
+      "name": "arena_pass_points.20261119",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261126",
+      "name": "arena_pass_points.20261126",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261203",
+      "name": "arena_pass_points.20261203",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261210",
+      "name": "arena_pass_points.20261210",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261217",
+      "name": "arena_pass_points.20261217",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261224",
+      "name": "arena_pass_points.20261224",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
+      "key": "arena_pass_points.20261231",
+      "name": "arena_pass_points.20261231",
+      "type": "currency",
+      "image_url": "",
+      "family": "arena_pass"
+    },
+    {
       "key": "arena_pass_points.s1",
       "name": "arena_pass_points.s1",
       "type": "currency",
@@ -10687,6 +10736,27 @@
     {
       "key": "master_arena_pass_points.20261015_seg81",
       "name": "master_arena_pass_points.20261015_seg81",
+      "type": "currency",
+      "image_url": "",
+      "family": "master_arena_pass"
+    },
+    {
+      "key": "master_arena_pass_points.20261119_seg81",
+      "name": "master_arena_pass_points.20261119_seg81",
+      "type": "currency",
+      "image_url": "",
+      "family": "master_arena_pass"
+    },
+    {
+      "key": "master_arena_pass_points.20261126_seg81",
+      "name": "master_arena_pass_points.20261126_seg81",
+      "type": "currency",
+      "image_url": "",
+      "family": "master_arena_pass"
+    },
+    {
+      "key": "master_arena_pass_points.20261231_seg81",
+      "name": "master_arena_pass_points.20261231_seg81",
       "type": "currency",
       "image_url": "",
       "family": "master_arena_pass"
