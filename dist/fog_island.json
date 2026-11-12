@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-12T06:24:21.259308Z",
+  "generated_at": "2026-11-12T11:36:58.952111Z",
   "source_file": "game_config.json",
   "localization_file": "dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -71021,6 +71021,20 @@
             "localization_description_key": "tid_chest_description_sticker_ace_pack_generic"
           },
           {
+            "id": 17058,
+            "chest_id": 17058,
+            "source_chest_id": 17058,
+            "kind": "chest",
+            "asset_kind": "chest",
+            "name": "Legendary Treasure Key",
+            "description": "Contains Mythical and Legendary Treasure Keys.",
+            "img_name": "chest_gachakey_silver",
+            "source_chest_img_name": "chest_gachakey_silver",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_17058_chest_gachakey_silver@2x.png",
+            "localization_name_key": "tid_chest_name_l",
+            "localization_description_key": "tid_chest_desc_MnL_HRpass"
+          },
+          {
             "id": 19741,
             "chest_id": 19741,
             "source_chest_id": 19741,
@@ -73845,15 +73859,15 @@
           "come_back_cost": 5,
           "highlight": 0,
           "reward": {
-            "id": 19741,
-            "chest_id": 19741,
-            "source_chest_id": 19741,
+            "id": 17058,
+            "chest_id": 17058,
+            "source_chest_id": 17058,
             "kind": "chest",
             "asset_kind": "chest",
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_17058_chest_gachakey_silver@2x.png",
             "summary_excluded": false
           }
         },
