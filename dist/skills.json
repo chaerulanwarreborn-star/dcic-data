@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T09:14:43Z",
+  "generated_at": "2026-11-13T11:33:54Z",
   "schema_version": 3,
   "count": 612,
   "linked_count": 317,
@@ -15013,7 +15013,7 @@
       ]
     ],
     "3513": [
-      "High Hypno Mindseye Dragon",
+      "High Hypno Mindseye",
       "H",
       "3513_dragon_highhypnomindseye",
       [
@@ -17888,17 +17888,17 @@
       "3509_dragon_highrisenmetal_skin1"
     ],
     "3437": [
-      "Skin 3437",
+      "Phoenix Seer Skill Skin",
       3513,
       "3513_dragon_highhypnomindseye_skin1"
     ],
     "3438": [
-      "Skin 3438",
+      "Verdant Oracle Skill Skin",
       3513,
       "3513_dragon_highhypnomindseye_skin2"
     ],
     "3439": [
-      "Skin 3439",
+      "Verdant Oracle Skill Skin",
       3515,
       "3513_dragon_highhypnomindseye_skin2"
     ]
@@ -61827,8 +61827,8 @@
     },
     {
       "id": 596,
-      "name": "Skill 596",
-      "description": "",
+      "name": "Eye of Ruin",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
       "cooldown": 2,
       "effects": [
         {
@@ -61953,8 +61953,8 @@
     },
     {
       "id": 597,
-      "name": "Skill 597",
-      "description": "",
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
       "cooldown": 0,
       "effects": [
         {
@@ -62014,8 +62014,8 @@
     },
     {
       "id": 598,
-      "name": "Skill 598",
-      "description": "",
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
       "cooldown": 0,
       "effects": [
         {
@@ -244330,7 +244330,7 @@
     },
     {
       "id": 1641,
-      "name": "High Hypno Mindseye - Trained Attack 3",
+      "name": "Joyful Gaze+",
       "element": "hp",
       "element_name": "Happy",
       "skill_id": null,
@@ -244372,7 +244372,7 @@
     },
     {
       "id": 1639,
-      "name": "High Hypno Mindseye - Attack 3",
+      "name": "Joyful Gaze",
       "element": "hp",
       "element_name": "Happy",
       "skill_id": null,
@@ -244471,7 +244471,7 @@
     },
     {
       "id": 1638,
-      "name": "High Hypno Mindseye - Overdrive Armor",
+      "name": "Eye of Ruin",
       "element": "wr",
       "element_name": "War",
       "skill_id": 596,
@@ -244534,7 +244534,7 @@
     },
     {
       "id": 1640,
-      "name": "High Hypno Mindseye - Attack 4",
+      "name": "Dazzling Stare",
       "element": "bt",
       "element_name": "Beauty",
       "skill_id": null,
@@ -244576,7 +244576,7 @@
     },
     {
       "id": 1642,
-      "name": "High Hypno Mindseye - Trained Attack 4",
+      "name": "Dazzling Stare+",
       "element": "bt",
       "element_name": "Beauty",
       "skill_id": null,
@@ -276591,13 +276591,13 @@
         "shieldMultiplier": 0.9,
         "armorMultiplier": 1.8
       },
-      "name": "Special Effect",
-      "description": "",
-      "skill_id": null,
+      "name": "Eye of Ruin",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
+      "skill_id": 596,
       "skill_ids": [
         596
       ],
-      "cooldown": null,
+      "cooldown": 2,
       "kinds": [
         "active"
       ],
@@ -276632,13 +276632,13 @@
       "params": {
         "maxStacks": 1
       },
-      "name": "Special Effect",
-      "description": "",
-      "skill_id": null,
+      "name": "Eye of Ruin",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
+      "skill_id": 596,
       "skill_ids": [
         596
       ],
-      "cooldown": null,
+      "cooldown": 2,
       "kinds": [
         "active"
       ],
@@ -276671,13 +276671,13 @@
       "params": {
         "activeTurns": 2
       },
-      "name": "Special Effect",
-      "description": "",
-      "skill_id": null,
+      "name": "Eye of Ruin",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
+      "skill_id": 596,
       "skill_ids": [
         596
       ],
-      "cooldown": null,
+      "cooldown": 2,
       "kinds": [
         "active"
       ],
@@ -276712,13 +276712,13 @@
       ],
       "hit_chance": 1,
       "params": {},
-      "name": "Special Effect",
-      "description": "",
-      "skill_id": null,
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
+      "skill_id": 597,
       "skill_ids": [
         597
       ],
-      "cooldown": null,
+      "cooldown": 0,
       "kinds": [
         "passive"
       ],
@@ -276751,13 +276751,13 @@
       ],
       "hit_chance": 1,
       "params": {},
-      "name": "Special Effect",
-      "description": "",
-      "skill_id": null,
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
+      "skill_id": 598,
       "skill_ids": [
         598
       ],
-      "cooldown": null,
+      "cooldown": 0,
       "kinds": [
         "passive"
       ],
@@ -282886,8 +282886,8 @@
     {
       "kind": "passive",
       "id": 134,
-      "name": "High Hypno Mindseye- Hypershot",
-      "description": "",
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
       "skill_id": 597,
       "special_icon": 1,
       "cooldown": 0,
@@ -282926,8 +282926,8 @@
     {
       "kind": "passive",
       "id": 135,
-      "name": "High Hypno Mindseye- Hypershot",
-      "description": "",
+      "name": "Piercing Gaze",
+      "description": "Strong elemental hits also deal damage to 2 other opponents",
       "skill_id": 598,
       "special_icon": 1,
       "cooldown": 0,

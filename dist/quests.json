@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-13T09:14:37Z",
+  "generated_at": "2026-11-13T11:33:48Z",
   "quest_count": 198,
   "permanent_count": 45,
   "event_count": 153,
@@ -301971,7 +301971,7 @@
             {
               "kind": "item",
               "id": 12023,
-              "name": "deco_covens hatching",
+              "name": "Covens hatching",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
               "popup": {
@@ -302210,7 +302210,7 @@
             {
               "kind": "item",
               "id": 12023,
-              "name": "deco_covens hatching",
+              "name": "Covens hatching",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
               "popup": {
@@ -302776,7 +302776,7 @@
             {
               "kind": "item",
               "id": 12023,
-              "name": "deco_covens hatching",
+              "name": "Covens hatching",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
               "popup": {
@@ -303015,7 +303015,7 @@
             {
               "kind": "item",
               "id": 12023,
-              "name": "deco_covens hatching",
+              "name": "Covens hatching",
               "amount": 1,
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12023_deco_covenshatching@2x.png",
               "popup": {
@@ -303169,7 +303169,7 @@
             },
             {
               "id": 3513,
-              "name": "High Hypno Mindseye Dragon",
+              "name": "High Hypno Mindseye",
               "rarity": "H",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
@@ -303328,7 +303328,7 @@
             },
             {
               "id": 3513,
-              "name": "High Hypno Mindseye Dragon",
+              "name": "High Hypno Mindseye",
               "rarity": "H",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
@@ -303567,7 +303567,7 @@
             },
             {
               "id": 3513,
-              "name": "High Hypno Mindseye Dragon",
+              "name": "High Hypno Mindseye",
               "rarity": "H",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
@@ -303806,7 +303806,7 @@
             },
             {
               "id": 3513,
-              "name": "High Hypno Mindseye Dragon",
+              "name": "High Hypno Mindseye",
               "rarity": "H",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
@@ -304949,7 +304949,7 @@
           "enemies": [
             {
               "id": 3513,
-              "name": "High Hypno Mindseye Dragon",
+              "name": "High Hypno Mindseye",
               "rarity": "H",
               "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
