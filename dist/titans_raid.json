@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T07:56:31Z",
+  "generated_at": "2026-11-14T10:17:41Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -8332,7 +8332,7 @@
             {
               "id": 1574,
               "name": "Void Drain",
-              "element": "dr",
+              "element": "ti",
               "button_style": 3,
               "special_icon": 1,
               "skill_id": 539,
