@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T10:17:41Z",
+  "generated_at": "2026-11-14T13:17:56Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -4093,7 +4093,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -4102,13 +4103,15 @@
             "id": 1518,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 483
+            "skill_id": 483,
+            "icon_kind": "mix"
           },
           {
             "id": 1519,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 484
+            "skill_id": 484,
+            "icon_kind": "active"
           },
           {
             "id": 1520,
@@ -4122,8 +4125,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -4141,7 +4144,8 @@
             "skill_definition_id": 483,
             "name": "Extra Armor",
             "description": "Deals damage and applies 40% of Armor to user",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1518
@@ -4153,6 +4157,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1519
@@ -4163,6 +4168,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -4396,7 +4402,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -4405,13 +4412,15 @@
             "id": 1522,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 487
+            "skill_id": 487,
+            "icon_kind": "active"
           },
           {
             "id": 1523,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 488
+            "skill_id": 488,
+            "icon_kind": "active"
           },
           {
             "id": 1524,
@@ -4445,6 +4454,7 @@
             "name": "Divine Intervention",
             "description": "Deals any remaining damage to another opponent",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1522
@@ -4456,6 +4466,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1523
@@ -4466,6 +4477,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -4692,7 +4704,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -4701,13 +4714,15 @@
             "id": 1526,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 491
+            "skill_id": 491,
+            "icon_kind": "active"
           },
           {
             "id": 1527,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 492
+            "skill_id": 492,
+            "icon_kind": "active"
           },
           {
             "id": 1528,
@@ -4741,6 +4756,7 @@
             "name": "Divine Intervention",
             "description": "Deals any remaining damage to another opponent",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1526
@@ -4752,6 +4768,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1527
@@ -4762,6 +4779,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -4988,7 +5006,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -4997,13 +5016,15 @@
             "id": 1530,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 495
+            "skill_id": 495,
+            "icon_kind": "mix"
           },
           {
             "id": 1531,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 496
+            "skill_id": 496,
+            "icon_kind": "active"
           },
           {
             "id": 1532,
@@ -5017,8 +5038,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -5036,7 +5057,8 @@
             "skill_definition_id": 495,
             "name": "Poisoned Kiss",
             "description": "Deals damage and poisons the target. The target takes damage at the end of each of its turns. This skill cannot be dodged.",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1530
@@ -5048,6 +5070,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1531
@@ -5058,6 +5081,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -5284,7 +5308,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -5293,13 +5318,15 @@
             "id": 1534,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 499
+            "skill_id": 499,
+            "icon_kind": "mix"
           },
           {
             "id": 1535,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 500
+            "skill_id": 500,
+            "icon_kind": "active"
           },
           {
             "id": 1536,
@@ -5313,8 +5340,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -5332,7 +5359,8 @@
             "skill_definition_id": 499,
             "name": "Evasive Hit",
             "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1534
@@ -5344,6 +5372,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1535
@@ -5354,6 +5383,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -5587,7 +5617,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -5596,13 +5627,15 @@
             "id": 1538,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 503
+            "skill_id": 503,
+            "icon_kind": "active"
           },
           {
             "id": 1539,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 504
+            "skill_id": 504,
+            "icon_kind": "active"
           },
           {
             "id": 1540,
@@ -5636,6 +5669,7 @@
             "name": "Silence",
             "description": "Prevents opponents from using skills",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1538
@@ -5647,6 +5681,7 @@
             "name": "Rabid Hunt",
             "description": "Deals damage while silencing opponents for 2 turns",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1539
@@ -5657,6 +5692,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -5888,7 +5924,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -5897,13 +5934,15 @@
             "id": 1542,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 507
+            "skill_id": 507,
+            "icon_kind": "active"
           },
           {
             "id": 1543,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 508
+            "skill_id": 508,
+            "icon_kind": "active"
           },
           {
             "id": 1544,
@@ -5937,6 +5976,7 @@
             "name": "Berserk",
             "description": "The damage inflicted increases with the amount of damage received",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1542
@@ -5948,6 +5988,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1543
@@ -5958,6 +5999,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -6191,7 +6233,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -6200,13 +6243,15 @@
             "id": 1546,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 511
+            "skill_id": 511,
+            "icon_kind": "mix"
           },
           {
             "id": 1547,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 512
+            "skill_id": 512,
+            "icon_kind": "mix"
           },
           {
             "id": 1548,
@@ -6220,8 +6265,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -6239,7 +6284,8 @@
             "skill_definition_id": 511,
             "name": "Marked Ones",
             "description": "Deals damage and applies 2 Doommarks",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1546
@@ -6250,7 +6296,8 @@
             "skill_definition_id": 512,
             "name": "Marked Ones",
             "description": "Deals damage and applies 2 Doommarks",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1547
@@ -6261,6 +6308,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -6487,7 +6535,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -6496,13 +6545,15 @@
             "id": 1550,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 515
+            "skill_id": 515,
+            "icon_kind": "active"
           },
           {
             "id": 1551,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 516
+            "skill_id": 516,
+            "icon_kind": "active"
           },
           {
             "id": 1552,
@@ -6536,6 +6587,7 @@
             "name": "Arcana Absorption",
             "description": "Hits multiple times, heals the user, damages all opponents",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1550
@@ -6547,6 +6599,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1551
@@ -6557,6 +6610,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -6788,7 +6842,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -6797,13 +6852,15 @@
             "id": 1554,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 519
+            "skill_id": 519,
+            "icon_kind": "active"
           },
           {
             "id": 1555,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 520
+            "skill_id": 520,
+            "icon_kind": "active"
           },
           {
             "id": 1556,
@@ -6837,6 +6894,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1554
@@ -6848,6 +6906,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1555
@@ -6858,6 +6917,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -7084,7 +7144,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -7093,13 +7154,15 @@
             "id": 1558,
             "source": "attack",
             "special_icon": 2,
-            "skill_id": 523
+            "skill_id": 523,
+            "icon_kind": "mix"
           },
           {
             "id": 1559,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 524
+            "skill_id": 524,
+            "icon_kind": "active"
           },
           {
             "id": 1560,
@@ -7113,7 +7176,6 @@
           }
         ],
         "filters": [
-          "active",
           "passive",
           "mix"
         ],
@@ -7134,6 +7196,7 @@
             "name": "Guard",
             "description": "Deals damage and reduces damage dealt to the user and allies for several turns",
             "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1558
@@ -7145,6 +7208,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1559
@@ -7155,6 +7219,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -7381,7 +7446,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -7395,7 +7461,8 @@
             "id": 1563,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 524
+            "skill_id": 524,
+            "icon_kind": "active"
           },
           {
             "id": 1564,
@@ -7428,6 +7495,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1563
@@ -7438,6 +7506,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -7664,7 +7733,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -7678,7 +7748,8 @@
             "id": 1567,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 524
+            "skill_id": 524,
+            "icon_kind": "active"
           },
           {
             "id": 1568,
@@ -7711,6 +7782,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1567
@@ -7721,6 +7793,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -7952,7 +8025,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -7961,13 +8035,15 @@
             "id": 1570,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 535
+            "skill_id": 535,
+            "icon_kind": "mix"
           },
           {
             "id": 1571,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 536
+            "skill_id": 536,
+            "icon_kind": "active"
           },
           {
             "id": 1572,
@@ -7981,8 +8057,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -8000,7 +8076,8 @@
             "skill_definition_id": 535,
             "name": "Evasive Hit",
             "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1570
@@ -8012,6 +8089,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1571
@@ -8022,6 +8100,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -8252,7 +8331,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -8261,13 +8341,15 @@
             "id": 1574,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 539
+            "skill_id": 539,
+            "icon_kind": "mix"
           },
           {
             "id": 1575,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 540
+            "skill_id": 540,
+            "icon_kind": "mix"
           },
           {
             "id": 1576,
@@ -8281,8 +8363,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -8300,7 +8382,8 @@
             "skill_definition_id": 539,
             "name": "Void Drain",
             "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1574
@@ -8311,7 +8394,8 @@
             "skill_definition_id": 540,
             "name": "Void Drain",
             "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1575
@@ -8322,6 +8406,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -8548,7 +8633,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -8557,13 +8643,15 @@
             "id": 1578,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 543
+            "skill_id": 543,
+            "icon_kind": "active"
           },
           {
             "id": 1579,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 544
+            "skill_id": 544,
+            "icon_kind": "active"
           },
           {
             "id": 1580,
@@ -8597,6 +8685,7 @@
             "name": "Leech Fang",
             "description": "Steals life points from the opponent",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1578
@@ -8608,6 +8697,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1579
@@ -8618,6 +8708,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -8844,7 +8935,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -8853,13 +8945,15 @@
             "id": 1582,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 547
+            "skill_id": 547,
+            "icon_kind": "active"
           },
           {
             "id": 1583,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 548
+            "skill_id": 548,
+            "icon_kind": "active"
           },
           {
             "id": 1584,
@@ -8893,6 +8987,7 @@
             "name": "Astro Critical",
             "description": "Deals damage with a 40% chance of a Critical Hit",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1582
@@ -8904,6 +8999,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1583
@@ -8914,6 +9010,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -9140,7 +9237,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -9149,13 +9247,15 @@
             "id": 1586,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 551
+            "skill_id": 551,
+            "icon_kind": "active"
           },
           {
             "id": 1587,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 552
+            "skill_id": 552,
+            "icon_kind": "active"
           },
           {
             "id": 1588,
@@ -9189,6 +9289,7 @@
             "name": "Silence",
             "description": "Prevents opponents from using skills",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1586
@@ -9200,6 +9301,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1587
@@ -9210,6 +9312,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -9436,7 +9539,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -9445,13 +9549,15 @@
             "id": 1590,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 555
+            "skill_id": 555,
+            "icon_kind": "mix"
           },
           {
             "id": 1591,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 556
+            "skill_id": 556,
+            "icon_kind": "active"
           },
           {
             "id": 1592,
@@ -9465,8 +9571,8 @@
           }
         ],
         "filters": [
-          "active",
-          "passive"
+          "passive",
+          "mix"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -9484,7 +9590,8 @@
             "skill_definition_id": 555,
             "name": "Evasive Hit",
             "description": "Deals damage and reduces the chance of receiving damage by 50% for following turns",
-            "type": "active",
+            "type": "mix",
+            "icon": "mix",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1590
@@ -9496,6 +9603,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1591
@@ -9506,6 +9614,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -9732,7 +9841,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [],
@@ -9741,13 +9851,15 @@
             "id": 1594,
             "source": "attack",
             "special_icon": 1,
-            "skill_id": 559
+            "skill_id": 559,
+            "icon_kind": "active"
           },
           {
             "id": 1595,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 560
+            "skill_id": 560,
+            "icon_kind": "active"
           },
           {
             "id": 1596,
@@ -9781,6 +9893,7 @@
             "name": "Arcana Absorption",
             "description": "Hits multiple times, heals the user, damages all opponents",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1594
@@ -9792,6 +9905,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1595
@@ -9802,6 +9916,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -10028,7 +10143,8 @@
             "id": 100000,
             "source": "passive",
             "special_icon": 1,
-            "skill_id": 100000
+            "skill_id": 100000,
+            "icon_kind": "passive"
           }
         ],
         "post": [
@@ -10036,7 +10152,8 @@
             "id": 11,
             "source": "post",
             "special_icon": 1,
-            "skill_id": 165
+            "skill_id": 165,
+            "icon_kind": "post"
           }
         ],
         "attacks": [
@@ -10049,7 +10166,8 @@
             "id": 1599,
             "source": "attack",
             "special_icon": 0,
-            "skill_id": 560
+            "skill_id": 560,
+            "icon_kind": "active"
           },
           {
             "id": 1600,
@@ -10082,6 +10200,7 @@
             "name": "No Remorse",
             "description": "Damages all opponents but the user is hurt",
             "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1599
@@ -10092,6 +10211,7 @@
             "name": "Multi Life",
             "description": "Multiple Lives; each subsequent life has more health points. This skill is currently only used for Titans.",
             "type": "passive",
+            "icon": "passive",
             "source": "passive",
             "link_type": "passive_skill_id",
             "link_id": 100000
@@ -10102,6 +10222,7 @@
             "name": "Soul Extraction",
             "description": "Heals the user and all allies when the active opponent is knocked out",
             "type": "passive",
+            "icon": "post",
             "source": "post",
             "link_type": "post_skill_id",
             "link_id": 11
