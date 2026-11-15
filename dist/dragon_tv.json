@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-15T09:07:19Z",
+  "generated_at": "2026-11-15T17:04:56Z",
   "count": 2571,
   "detail_shards": 32,
   "collections": [
@@ -40279,7 +40279,7 @@
     {
       "id": 2436,
       "time_pool_id": 2436,
-      "status": "current",
+      "status": "past",
       "start_ts": 1794654000,
       "end_ts": 1794740400,
       "start_iso": "2026-11-14T11:00:00Z",
@@ -40295,7 +40295,7 @@
     {
       "id": 2437,
       "time_pool_id": 2437,
-      "status": "upcoming",
+      "status": "current",
       "start_ts": 1794740400,
       "end_ts": 1794826800,
       "start_iso": "2026-11-15T11:00:00Z",
