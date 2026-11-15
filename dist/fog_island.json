@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-15T06:46:17.490190Z",
+  "generated_at": "2026-11-15T06:48:34.408176Z",
   "source_file": "game_config.json",
   "localization_file": "dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -70795,7 +70795,7 @@
       "item_visuals": {
         "8906": {
           "scale": 1.35,
-          "color": "#edaf4d"
+          "color": "#c2b299"
         },
         "20505": {
           "scale": 1.3
