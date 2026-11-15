@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-15T06:48:34.408176Z",
+  "generated_at": "2026-11-15T06:53:48.683005Z",
   "source_file": "game_config.json",
   "localization_file": "dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -70794,8 +70794,7 @@
       "title": "Covens Hatching Fog Island",
       "item_visuals": {
         "8906": {
-          "scale": 1.35,
-          "color": "#c2b299"
+          "scale": 1.35
         },
         "20505": {
           "scale": 1.3
