@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-14T13:55:39.506510Z",
+  "generated_at": "2026-11-15T06:36:49.473477Z",
   "source_file": "game_config.json",
   "event_count": 82,
   "events": [
@@ -3275,7 +3275,7 @@
       "type": "fog_island",
       "variant": "fog_island",
       "type_label": "Fog Island",
-      "title": "Carnaval Fog Island",
+      "title": "Covens Hatching Fog Island",
       "subtitle": "",
       "start_ts": 1794826800,
       "end_ts": 1795172400,
@@ -3322,6 +3322,7 @@
         }
       ],
       "featured_dragon_count": 5,
+      "event_season": "Covens Hatching",
       "building_id": 343,
       "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0343_jungle_island@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_carnaval_b.zip"
