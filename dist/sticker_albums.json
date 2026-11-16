@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-16T16:11:31Z",
+  "generated_at": "2026-11-16T17:21:26Z",
   "album_count": 6,
   "set_count": 66,
   "sticker_count": 671,
@@ -15917,7 +15917,7 @@
       "sets": [
         {
           "id": 17001,
-          "name": "Set 17001",
+          "name": "The Hollow Awakening",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_a.png",
           "asset_stickers": "album14_set_a",
@@ -16012,8 +16012,8 @@
             },
             {
               "id": 170004,
-              "name": "Sticker 170004",
-              "description": "Unit 3519 Description",
+              "name": "High Hollow Queen",
+              "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
               "rarity_type": "normal",
@@ -16033,8 +16033,8 @@
             },
             {
               "id": 170005,
-              "name": "Sticker 170005",
-              "description": "Unit 3519 Description",
+              "name": "High Hollow Queen",
+              "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
               "rarity_type": "normal",
@@ -16054,8 +16054,8 @@
             },
             {
               "id": 170006,
-              "name": "Sticker 170006",
-              "description": "Unit 3519 Description",
+              "name": "High Hollow Queen",
+              "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
               "rarity_type": "normal",
@@ -16138,7 +16138,7 @@
             },
             {
               "id": 170010,
-              "name": "Sticker 170010",
+              "name": "Golden Hollow Heart",
               "description": "Unit 3519 Skin1 Description",
               "rarity": "rarity_2",
               "rarity_name": "Rarity 2",
@@ -18508,7 +18508,7 @@
         },
         {
           "id": 17011,
-          "name": "Set 17011",
+          "name": "Evaders",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_k.png",
           "asset_stickers": "album14_set_k",
@@ -18796,7 +18796,7 @@
         },
         {
           "id": 17012,
-          "name": "Set 17012",
+          "name": "Hypno Family",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_l.png",
           "asset_stickers": "album14_set_l",
