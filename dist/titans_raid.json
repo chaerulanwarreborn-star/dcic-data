@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T06:34:40Z",
+  "generated_at": "2026-11-16T16:11:43Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -164,16 +164,16 @@
     "MIN_USER_LEVEL": 21,
     "ACTIVE_PLATFORMS": {
       "ios": [
-        1
+        1805122344
       ],
       "android": [
-        1
+        1805122346
       ],
       "amazon": [
-        1
+        1805122352
       ],
       "windows": [
-        1
+        1805122365
       ]
     },
     "FEATURE_ACTIVE": 1,

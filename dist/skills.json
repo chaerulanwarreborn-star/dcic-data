@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:34:45Z",
+  "generated_at": "2026-11-16T16:11:48Z",
   "schema_version": 3,
   "count": 612,
   "linked_count": 317,
@@ -20225,6 +20225,11 @@
       3509,
       "3509_dragon_highrisenmetal_skin1"
     ],
+    "3436": [
+      "Digital Overload Halo",
+      3120,
+      "3120_dragon_halo_skin1"
+    ],
     "3437": [
       "Phoenix Seer Skill Skin",
       3513,
@@ -20233,11 +20238,6 @@
     "3438": [
       "Verdant Oracle Skill Skin",
       3513,
-      "3513_dragon_highhypnomindseye_skin2"
-    ],
-    "3439": [
-      "Verdant Oracle Skill Skin",
-      3515,
       "3513_dragon_highhypnomindseye_skin2"
     ]
   },
@@ -55284,7 +55284,7 @@
       ],
       "usage_count": 0,
       "dragon_count": 0,
-      "skin_count": 2,
+      "skin_count": 3,
       "dragons": [],
       "skins": [
         [
@@ -55306,6 +55306,16 @@
           3410,
           "t",
           1433
+        ],
+        [
+          3436,
+          "b",
+          1635
+        ],
+        [
+          3436,
+          "t",
+          1635
         ]
       ],
       "titan_count": 0,
@@ -252207,9 +252217,18 @@
       "order": 1757,
       "usage_count": 0,
       "dragon_count": 0,
-      "skin_count": 0,
+      "skin_count": 1,
       "dragons": [],
-      "skins": [],
+      "skins": [
+        [
+          3436,
+          "b"
+        ],
+        [
+          3436,
+          "t"
+        ]
+      ],
       "titan_count": 0,
       "titans": [],
       "triggers": [
@@ -285103,11 +285122,12 @@
       "dragons": [],
       "skins": [
         3392,
-        3410
+        3410,
+        3436
       ],
       "titans": [],
       "dragon_count": 0,
-      "skin_count": 2,
+      "skin_count": 3,
       "titan_count": 0,
       "order": 510,
       "categories": [
@@ -285273,11 +285293,12 @@
       "dragons": [],
       "skins": [
         3392,
-        3410
+        3410,
+        3436
       ],
       "titans": [],
       "dragon_count": 0,
-      "skin_count": 2,
+      "skin_count": 3,
       "titan_count": 0,
       "order": 512,
       "categories": [],
@@ -304633,11 +304654,12 @@
       ],
       "skins": [
         3392,
-        3410
+        3410,
+        3436
       ],
       "titans": [],
       "dragon_count": 1,
-      "skin_count": 2,
+      "skin_count": 3,
       "titan_count": 0,
       "order": 84,
       "trigger": "Give Passive Effect",

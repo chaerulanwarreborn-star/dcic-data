@@ -1,11 +1,11 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-16T06:33:57.048976Z",
+  "generated_at": "2026-11-16T16:11:03.937990Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
-  "pass_count": 156,
-  "divine_pass_count": 93,
+  "pass_count": 157,
+  "divine_pass_count": 94,
   "progression_pass_count": 63,
   "passes": [
     {
@@ -706942,10 +706942,10 @@
                 ],
                 "reward": {
                   "reward_id": 355013,
-                  "name": "Skin #3436",
+                  "name": "Digital Overload Halo",
                   "amount": 1,
                   "kind": "skin",
-                  "image_url": "",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_skin1_3.png",
                   "popup": {
                     "kind": "skin",
                     "id": 3436
@@ -706958,12 +706958,15 @@
                       "asset_kind": "skin",
                       "id": 3436,
                       "skin_id": 3436,
-                      "name": "Skin #3436",
+                      "name": "Digital Overload Halo",
                       "amount": 1,
-                      "thumbnail": "",
-                      "skin_thumbnail": "",
-                      "thumbnail_candidates": [],
-                      "image_url": "",
+                      "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_skin1_3.png",
+                      "skin_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_skin1_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_skin1_3.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3120_dragon_halo_skin1_3@2x.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3120_dragon_halo_skin1_3.png",
                       "image_candidates": [],
                       "popup": {
                         "kind": "skin",
@@ -721835,6 +721838,4142 @@
         81
       ],
       "player_segmentation_type": "dynamic"
+    },
+    {
+      "key": "divine_pass:125",
+      "id": 125,
+      "type": "divine_pass",
+      "variant": "divine_pass",
+      "type_label": "Divine Pass",
+      "title": "DIVINE PASS: HYPNO FAMILY",
+      "subtitle": "Second Heroic of Hypno family !",
+      "description": "Second Heroic of Hypno family !",
+      "start_ts": 1795690800,
+      "end_ts": 1796893200,
+      "start_iso": "2026-11-26T11:00:00Z",
+      "end_iso": "2026-12-10T09:00:00Z",
+      "details": "/p/divine-pass.html?id=125",
+      "source_section": "battle_pass.battle_pass",
+      "featured_dragons": [
+        {
+          "id": 3513,
+          "name": "High Hypno Mindseye",
+          "rarity": "H",
+          "img_name": "3513_dragon_highhypnomindseye",
+          "thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
+          "baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png",
+          "baby_image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png"
+          ],
+          "path": "premium"
+        }
+      ],
+      "featured_dragon_count": 1,
+      "divine_pass": {
+        "main_reward_node": 125014,
+        "node_count": 29,
+        "nodes": [
+          {
+            "id": 125001,
+            "completion_score": 0,
+            "premium_reward": {
+              "reward_id": 1250000,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.1",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_1_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.1": 1
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252000,
+              "name": "S Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_s_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.s",
+                  "name": "S Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_s_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_s_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.s": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125002,
+            "completion_score": 10,
+            "premium_reward": {
+              "reward_id": 1250001,
+              "name": "Gems",
+              "amount": 50,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
+                  "key": "c",
+                  "name": "Gems",
+                  "amount": 50,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+                }
+              ],
+              "raw": [
+                {
+                  "c": 50
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252001,
+              "name": "Legendary Treasure Key",
+              "amount": 50,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.legendary",
+                  "name": "Legendary Treasure Key",
+                  "amount": 50,
+                  "subtype": "legendary",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.legendary": 50
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125003,
+            "completion_score": 25,
+            "premium_reward": {
+              "reward_id": 1250002,
+              "name": "Red Dusk Sigil",
+              "amount": 1,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 1,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252002,
+              "name": "Divine Tokens",
+              "amount": 50,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "special_token",
+                  "resource": "special_token",
+                  "key": "oph_token",
+                  "name": "Divine Tokens",
+                  "amount": 50,
+                  "token": "oph",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "oph_token": 50
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125004,
+            "completion_score": 40,
+            "premium_reward": {
+              "reward_id": 1250003,
+              "name": "Premium Food Box",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40029,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40029,
+                  "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40029",
+                  "detail_file": "generic/29.json",
+                  "name": "Premium Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40029,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40029
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252003,
+              "name": "Gems",
+              "amount": 10,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
+                  "key": "c",
+                  "name": "Gems",
+                  "amount": 10,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+                }
+              ],
+              "raw": [
+                {
+                  "c": 10
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125005,
+            "completion_score": 55,
+            "premium_reward": {
+              "reward_id": 1250004,
+              "name": "VIP Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40004,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40004,
+                  "chest_id": 40004,
+                  "source_chest_id": 40004,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40004",
+                  "detail_file": "generic/04.json",
+                  "name": "VIP Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40004,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40004
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252004,
+              "name": "Mythical Treasure Key",
+              "amount": 2,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.mythical",
+                  "name": "Mythical Treasure Key",
+                  "amount": 2,
+                  "subtype": "mythical",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.mythical": 2
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125006,
+            "completion_score": 70,
+            "premium_reward": {
+              "reward_id": 1250005,
+              "name": "Divine Tokens",
+              "amount": 500,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "special_token",
+                  "resource": "special_token",
+                  "key": "oph_token",
+                  "name": "Divine Tokens",
+                  "amount": 500,
+                  "token": "oph",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "oph_token": 500
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252005,
+              "name": "Divine Tokens",
+              "amount": 70,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "special_token",
+                  "resource": "special_token",
+                  "key": "oph_token",
+                  "name": "Divine Tokens",
+                  "amount": 70,
+                  "token": "oph",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tokens/ic-token-oph.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "oph_token": 70
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125007,
+            "completion_score": 85,
+            "premium_reward": {
+              "reward_id": 1250006,
+              "name": "Mythical Egg Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40003,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40003,
+                  "chest_id": 40003,
+                  "source_chest_id": 40003,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40003",
+                  "detail_file": "generic/03.json",
+                  "name": "Mythical Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40003,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40003
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125008,
+            "completion_score": 105,
+            "premium_reward": {
+              "reward_id": 1250007,
+              "name": "Red Dusk Sigil",
+              "amount": 2,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 2,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077,
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252007,
+              "name": "Snack Box",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 10710,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 10710,
+                  "chest_id": 10710,
+                  "source_chest_id": 10710,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:10710",
+                  "detail_file": "generic/22.json",
+                  "name": "Snack Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/349_chest_tomato_s.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 10710,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 10710
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125009,
+            "completion_score": 125,
+            "premium_reward": {
+              "reward_id": 1250008,
+              "name": "Premium Food Box",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40029,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40029,
+                  "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40029",
+                  "detail_file": "generic/29.json",
+                  "name": "Premium Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40029,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40029
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252008,
+              "name": "M Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_m_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.m",
+                  "name": "M Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_m_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_m_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.m": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125010,
+            "completion_score": 145,
+            "premium_reward": {
+              "reward_id": 1250009,
+              "name": "Legendary Treasure Key",
+              "amount": 30,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.legendary",
+                  "name": "Legendary Treasure Key",
+                  "amount": 30,
+                  "subtype": "legendary",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.legendary": 30
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125011,
+            "completion_score": 165,
+            "premium_reward": {
+              "reward_id": 1250010,
+              "name": "Red Dusk Sigil",
+              "amount": 2,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 2,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077,
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252010,
+              "name": "Legendary Joker Orbs",
+              "amount": 25,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png",
+              "popup": {},
+              "rarity": "L",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
+                  "key": "rarity_seeds",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 25,
+                  "rarity": "L",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ],
+              "raw": [
+                {
+                  "rarity_seeds": [
+                    {
+                      "rarity": "L",
+                      "amount": 25
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125012,
+            "completion_score": 185,
+            "premium_reward": {
+              "reward_id": 1250011,
+              "name": "Legendary Egg Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40002,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40002,
+                  "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40002",
+                  "detail_file": "generic/02.json",
+                  "name": "Legendary Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40002,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40002
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252011,
+              "name": "Mythical Treasure Key",
+              "amount": 10,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.mythical",
+                  "name": "Mythical Treasure Key",
+                  "amount": 10,
+                  "subtype": "mythical",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.mythical": 10
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125013,
+            "completion_score": 205,
+            "premium_reward": {
+              "reward_id": 1250012,
+              "name": "Premium Food Box",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40029,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40029,
+                  "chest_id": 40029,
+                  "source_chest_id": 40029,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40029",
+                  "detail_file": "generic/29.json",
+                  "name": "Premium Food Box",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/494_chest_bp_food_large.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40029,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40029
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125014,
+            "completion_score": 225,
+            "premium_reward": {
+              "reward_id": 1250013,
+              "name": "High Hypno Mindseye",
+              "amount": 1,
+              "kind": "dragon",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png",
+              "popup": {
+                "kind": "dragon",
+                "id": 3513
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "dragon",
+                  "type": "dragon_egg",
+                  "asset_kind": "dragon",
+                  "id": 3513,
+                  "dragon_id": 3513,
+                  "name": "High Hypno Mindseye",
+                  "amount": 1,
+                  "img_name_mobile": "3513_dragon_highhypnomindseye",
+                  "dragon_baby_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png",
+                  "baby_image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png"
+                  ],
+                  "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png",
+                  "popup": {
+                    "kind": "dragon",
+                    "id": 3513
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "egg": 3513
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252013,
+              "name": "L Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_l_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.l",
+                  "name": "L Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_l_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_l_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.l": 1
+                }
+              ]
+            },
+            "is_main_reward": true,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125015,
+            "completion_score": 260,
+            "premium_reward": {
+              "reward_id": 1250014,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.3",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_3_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.3": 1
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125016,
+            "completion_score": 295,
+            "premium_reward": {
+              "reward_id": 1250015,
+              "name": "Mythical Treasure Key",
+              "amount": 30,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.mythical",
+                  "name": "Mythical Treasure Key",
+                  "amount": 30,
+                  "subtype": "mythical",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.mythical": 30
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252015,
+              "name": "Legendary Joker Orbs",
+              "amount": 40,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png",
+              "popup": {},
+              "rarity": "L",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "joker_orbs",
+                  "resource": "joker_orbs",
+                  "key": "rarity_seeds",
+                  "name": "Legendary Joker Orbs",
+                  "amount": 40,
+                  "rarity": "L",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-joker-l.png"
+                }
+              ],
+              "raw": [
+                {
+                  "rarity_seeds": [
+                    {
+                      "rarity": "L",
+                      "amount": 40
+                    }
+                  ]
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125017,
+            "completion_score": 330,
+            "premium_reward": {
+              "reward_id": 1250016,
+              "name": "Legendary Egg Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40002,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40002,
+                  "chest_id": 40002,
+                  "source_chest_id": 40002,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40002",
+                  "detail_file": "generic/02.json",
+                  "name": "Legendary Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/227_chest_legendary_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40002,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40002
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252016,
+              "name": "L Pet Food Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
+                  "key": "pet_food_pack.l",
+                  "name": "L Pet Food Pack",
+                  "amount": 1,
+                  "subtype": "l",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-pet-food-s2-massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "pet_food_pack.l": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125018,
+            "completion_score": 365,
+            "premium_reward": {
+              "reward_id": 1250017,
+              "name": "Red Dusk Sigil",
+              "amount": 2,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 2,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077,
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125019,
+            "completion_score": 400,
+            "premium_reward": {
+              "reward_id": 1250018,
+              "name": "XL Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.xl",
+                  "name": "XL Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.xl": 1
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252018,
+              "name": "XL Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.xl",
+                  "name": "XL Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.xl": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125020,
+            "completion_score": 435,
+            "premium_reward": {
+              "reward_id": 1250019,
+              "name": "L Pet Food Pack",
+              "amount": 2,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
+                  "key": "pet_food_pack.l",
+                  "name": "L Pet Food Pack",
+                  "amount": 2,
+                  "subtype": "l",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-pet-food-s2-massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "pet_food_pack.l": 2
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125021,
+            "completion_score": 470,
+            "premium_reward": {
+              "reward_id": 1250020,
+              "name": "Red Dusk Sigil",
+              "amount": 2,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 2,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077,
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252020,
+              "name": "XL Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack.xl",
+                  "name": "XL Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_xl_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack.xl": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125022,
+            "completion_score": 505,
+            "premium_reward": {
+              "reward_id": 1250021,
+              "name": "Gems",
+              "amount": 50,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
+                  "key": "c",
+                  "name": "Gems",
+                  "amount": 50,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+                }
+              ],
+              "raw": [
+                {
+                  "c": 50
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252021,
+              "name": "Legendary Treasure Key",
+              "amount": 50,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.legendary",
+                  "name": "Legendary Treasure Key",
+                  "amount": 50,
+                  "subtype": "legendary",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.legendary": 50
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125023,
+            "completion_score": 540,
+            "premium_reward": {
+              "reward_id": 1250022,
+              "name": "Mythical Egg Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40003,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40003,
+                  "chest_id": 40003,
+                  "source_chest_id": 40003,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40003",
+                  "detail_file": "generic/03.json",
+                  "name": "Mythical Egg Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/231_chest_mythical_egg_b.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40003,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40003
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125024,
+            "completion_score": 575,
+            "premium_reward": {
+              "reward_id": 1250023,
+              "name": "Joker Orbs Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 16592,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 16592,
+                  "chest_id": 16592,
+                  "source_chest_id": 16592,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:16592",
+                  "detail_file": "generic/16.json",
+                  "name": "Joker Orbs Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/604_chest_joker_all_premium@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/604_chest_joker_all_premium.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 16592,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 16592
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252023,
+              "name": "Gems",
+              "amount": 25,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "gems",
+                  "resource": "gems",
+                  "key": "c",
+                  "name": "Gems",
+                  "amount": 25,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
+                }
+              ],
+              "raw": [
+                {
+                  "c": 25
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125025,
+            "completion_score": 610,
+            "premium_reward": {
+              "reward_id": 1250024,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.generic",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_generic_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.generic": 1
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252024,
+              "name": "Mythical Treasure Key",
+              "amount": 10,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.mythical",
+                  "name": "Mythical Treasure Key",
+                  "amount": 10,
+                  "subtype": "mythical",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.mythical": 10
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125026,
+            "completion_score": 645,
+            "premium_reward": {
+              "reward_id": 1250025,
+              "name": "Red Dusk Sigil",
+              "amount": 2,
+              "kind": "decoration",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "decoration",
+                  "type": "decoration",
+                  "asset_kind": "decoration",
+                  "id": 12077,
+                  "item_id": 12077,
+                  "group_type": "DECO",
+                  "name": "Red Dusk Sigil",
+                  "amount": 2,
+                  "img_name_mobile": "12077_deco_dusksigil_red",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/HD/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/12077_deco_dusksigil_red.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/HD/12077_deco_dusksigil_red.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "b": [
+                    12077,
+                    12077
+                  ]
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252025,
+              "name": "L Pet Food Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "pet_food",
+                  "resource": "pet_food",
+                  "key": "pet_food_pack.l",
+                  "name": "L Pet Food Pack",
+                  "amount": 1,
+                  "subtype": "l",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pet-food/ui_chest_pet_food_l.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-pet-food-s2-massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "pet_food_pack.l": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125027,
+            "completion_score": 690,
+            "premium_reward": {
+              "reward_id": 1250026,
+              "name": "Heroic Treasure Key",
+              "amount": 3,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "treasure_key",
+                  "resource": "treasure_key",
+                  "key": "permanent_gacha.heroic",
+                  "name": "Heroic Treasure Key",
+                  "amount": 3,
+                  "subtype": "heroic",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "permanent_gacha.heroic": 3
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252026,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_2_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.2",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_2_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_2_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.2": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          },
+          {
+            "id": 125028,
+            "completion_score": 725,
+            "premium_reward": {
+              "reward_id": 1250027,
+              "name": "VIP Chest",
+              "amount": 1,
+              "kind": "chest",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+              "popup": {
+                "kind": "chest",
+                "id": 40004,
+                "type": "generic"
+              },
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "chest",
+                  "type": "chest",
+                  "asset_kind": "chest",
+                  "id": 40004,
+                  "chest_id": 40004,
+                  "source_chest_id": 40004,
+                  "source_chest_img_name": "",
+                  "img_name": "",
+                  "chest_type": "generic",
+                  "chest_key": "generic:40004",
+                  "detail_file": "generic/04.json",
+                  "name": "VIP Chest",
+                  "amount": 1,
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/465_chest_vip_egg.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
+                  "popup": {
+                    "kind": "chest",
+                    "id": 40004,
+                    "type": "generic"
+                  }
+                }
+              ],
+              "raw": [
+                {
+                  "chest": 40004
+                }
+              ]
+            },
+            "free_reward": null,
+            "is_main_reward": false,
+            "limit_bp_discount": true
+          },
+          {
+            "id": 125029,
+            "completion_score": 770,
+            "premium_reward": {
+              "reward_id": 1250028,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.5",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_5_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.5": 1
+                }
+              ]
+            },
+            "free_reward": {
+              "reward_id": 1252028,
+              "name": "Shiny Sticker Pack",
+              "amount": 1,
+              "kind": "resource",
+              "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png",
+              "popup": {},
+              "rarity": "",
+              "items": [
+                {
+                  "kind": "resource",
+                  "type": "sticker_pack",
+                  "resource": "sticker_pack",
+                  "key": "album_pack_aces.4",
+                  "name": "Shiny Sticker Pack",
+                  "amount": 1,
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png",
+                  "image_candidates": [
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/stickers/ic_stickers_pack_ace_4_massive.png"
+                  ]
+                }
+              ],
+              "raw": [
+                {
+                  "album_pack_aces.4": 1
+                }
+              ]
+            },
+            "is_main_reward": false,
+            "limit_bp_discount": false
+          }
+        ],
+        "extra_reward": {
+          "id": 125,
+          "iteration_score": 400,
+          "free_reward": {
+            "reward_id": 1254001,
+            "name": "Medium Sticker Pack",
+            "amount": 1,
+            "kind": "chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+            "popup": {
+              "kind": "chest",
+              "id": 16552,
+              "type": "generic"
+            },
+            "rarity": "",
+            "items": [
+              {
+                "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
+                "id": 16552,
+                "chest_id": 16552,
+                "source_chest_id": 16552,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
+                "chest_key": "generic:16552",
+                "detail_file": "generic/40.json",
+                "name": "Medium Sticker Pack",
+                "amount": 1,
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_m.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
+                "popup": {
+                  "kind": "chest",
+                  "id": 16552,
+                  "type": "generic"
+                }
+              }
+            ],
+            "raw": [
+              {
+                "chest": 16552
+              }
+            ]
+          },
+          "premium_reward": {
+            "reward_id": 1254000,
+            "name": "Large Sticker Pack",
+            "amount": 1,
+            "kind": "chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+            "popup": {
+              "kind": "chest",
+              "id": 16553,
+              "type": "generic"
+            },
+            "rarity": "",
+            "items": [
+              {
+                "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
+                "id": 16553,
+                "chest_id": 16553,
+                "source_chest_id": 16553,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
+                "chest_key": "generic:16553",
+                "detail_file": "generic/41.json",
+                "name": "Large Sticker Pack",
+                "amount": 1,
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_l@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_l@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_l.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
+                "popup": {
+                  "kind": "chest",
+                  "id": 16553,
+                  "type": "generic"
+                }
+              }
+            ],
+            "raw": [
+              {
+                "chest": 16553
+              }
+            ]
+          },
+          "elite_reward": {
+            "reward_id": 1254002,
+            "name": "Shiny Sticker Pack",
+            "amount": 1,
+            "kind": "chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+            "popup": {
+              "kind": "chest",
+              "id": 12086,
+              "type": "generic"
+            },
+            "rarity": "",
+            "items": [
+              {
+                "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
+                "id": 12086,
+                "chest_id": 12086,
+                "source_chest_id": 12086,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
+                "chest_key": "generic:12086",
+                "detail_file": "generic/54.json",
+                "name": "Shiny Sticker Pack",
+                "amount": 1,
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_stickerpack_ace_no_rarity_x2.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
+                "popup": {
+                  "kind": "chest",
+                  "id": 12086,
+                  "type": "generic"
+                }
+              }
+            ],
+            "raw": [
+              {
+                "chest": 12086
+              }
+            ]
+          }
+        },
+        "goals": {
+          "daily": [
+            {
+              "id": 125001,
+              "title": "Feed a dragon",
+              "display_title": "Feed a dragon",
+              "week": 0,
+              "action_type": "FEED",
+              "target": 10,
+              "divine_points": 5,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-feed.png",
+              "reward": {
+                "reward_id": 1255000,
+                "name": "Divine Points",
+                "amount": 5,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 5,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 5
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125001,
+                  "type": "FEED",
+                  "amount": 10,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125002,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 0,
+              "action_type": "COMBAT_ARENA",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255001,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125002,
+                  "type": "COMBAT_ARENA",
+                  "amount": 1,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125003,
+              "title": "Spend Event Points",
+              "display_title": "Spend Event Points",
+              "week": 0,
+              "action_type": "SPEND_EVENT_POINTS",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/coin-mix.png",
+              "reward": {
+                "reward_id": 1255002,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125003,
+                  "type": "SPEND_EVENT_POINTS",
+                  "amount": 1,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125004,
+              "title": "Complete Heroic Node",
+              "display_title": "Complete Heroic Node",
+              "week": 0,
+              "action_type": "COMPLETE_HEROIC_NODE",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-heroicrace.png",
+              "reward": {
+                "reward_id": 1255003,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125004,
+                  "type": "COMPLETE_HEROIC_NODE",
+                  "amount": 1,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125005,
+              "title": "Watch a Dragon TV video",
+              "display_title": "Watch a Dragon TV video",
+              "week": 0,
+              "action_type": "WATCH_DRAGONTV_AD",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragontv.png",
+              "reward": {
+                "reward_id": 1255004,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125005,
+                  "type": "WATCH_DRAGONTV_AD",
+                  "amount": 1,
+                  "rules": {}
+                }
+              ]
+            }
+          ],
+          "week_1": [
+            {
+              "id": 125006,
+              "title": "Feed a dragon",
+              "display_title": "Feed a dragon",
+              "week": 1,
+              "action_type": "FEED",
+              "target": 10,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-feed.png",
+              "reward": {
+                "reward_id": 1255005,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "p"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125006,
+                  "type": "FEED",
+                  "amount": 10,
+                  "rules": {
+                    "all_of_elements": [
+                      "p"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125007,
+              "title": "Collect Food",
+              "display_title": "Collect Food",
+              "week": 1,
+              "action_type": "COLLECT_FOOD",
+              "target": 15,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png",
+              "reward": {
+                "reward_id": 1255006,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125007,
+                  "type": "COLLECT_FOOD",
+                  "amount": 15,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125008,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 1,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255007,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "w"
+                },
+                {
+                  "kind": "element",
+                  "code": "e"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125008,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "w",
+                      "e"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125009,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 1,
+              "action_type": "BREED",
+              "target": 3,
+              "divine_points": 45,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255008,
+                "name": "Divine Points",
+                "amount": 45,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 45,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 45
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "p"
+                },
+                {
+                  "kind": "element",
+                  "code": "w"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125009,
+                  "type": "BREED",
+                  "amount": 3,
+                  "rules": {
+                    "parents_elements": [
+                      "p",
+                      "w"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125010,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 1,
+              "action_type": "BREED",
+              "target": 3,
+              "divine_points": 45,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255009,
+                "name": "Divine Points",
+                "amount": 45,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 45,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 45
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                },
+                {
+                  "kind": "element",
+                  "code": "el"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125010,
+                  "type": "BREED",
+                  "amount": 3,
+                  "rules": {
+                    "parents_elements": [
+                      "f",
+                      "el"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125011,
+              "title": "Levelup Dragon",
+              "display_title": "Levelup Dragon",
+              "week": 1,
+              "action_type": "LEVELUP_DRAGON",
+              "target": 1,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragon-lvlup.png",
+              "reward": {
+                "reward_id": 1255010,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125011,
+                  "type": "LEVELUP_DRAGON",
+                  "amount": 1,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125012,
+              "title": "Feed a dragon",
+              "display_title": "Feed a dragon",
+              "week": 1,
+              "action_type": "FEED",
+              "target": 10,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-feed.png",
+              "reward": {
+                "reward_id": 1255011,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "e"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125012,
+                  "type": "FEED",
+                  "amount": 10,
+                  "rules": {
+                    "all_of_elements": [
+                      "e"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125013,
+              "title": "Hatch dragons",
+              "display_title": "Hatch dragons",
+              "week": 1,
+              "action_type": "HATCH_EGG",
+              "target": 2,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png",
+              "reward": {
+                "reward_id": 1255012,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "rarity",
+                  "code": "V"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125013,
+                  "type": "HATCH_EGG",
+                  "amount": 2,
+                  "rules": {
+                    "rarity": "V"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125014,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 1,
+              "divine_points": 20,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255013,
+                "name": "Divine Points",
+                "amount": 20,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 20,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 20
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125014,
+                  "type": "COMBAT_ARENA",
+                  "amount": 1,
+                  "rules": {
+                    "all_of_elements": [
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125015,
+              "title": "Hatch dragons",
+              "display_title": "Hatch dragons",
+              "week": 1,
+              "action_type": "HATCH_EGG",
+              "target": 2,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png",
+              "reward": {
+                "reward_id": 1255014,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "rarity",
+                  "code": "C"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125015,
+                  "type": "HATCH_EGG",
+                  "amount": 2,
+                  "rules": {
+                    "rarity": "C"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125016,
+              "title": "Levelup Dragon",
+              "display_title": "Levelup Dragon",
+              "week": 1,
+              "action_type": "LEVELUP_DRAGON",
+              "target": 5,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragon-lvlup.png",
+              "reward": {
+                "reward_id": 1255015,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "e"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125016,
+                  "type": "LEVELUP_DRAGON",
+                  "amount": 5,
+                  "rules": {
+                    "all_of_elements": [
+                      "e"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125017,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 1,
+              "divine_points": 20,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255016,
+                "name": "Divine Points",
+                "amount": 20,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 20,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 20
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "e"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125017,
+                  "type": "COMBAT_ARENA",
+                  "amount": 1,
+                  "rules": {
+                    "all_of_elements": [
+                      "e"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125018,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 1,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255017,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                },
+                {
+                  "kind": "element",
+                  "code": "el"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125018,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "f",
+                      "el"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125019,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 3,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255018,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125019,
+                  "type": "COMBAT_ARENA",
+                  "amount": 3,
+                  "rules": {
+                    "all_of_elements": [
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125020,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 1,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255019,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "w"
+                },
+                {
+                  "kind": "element",
+                  "code": "i"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125020,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "w",
+                      "i"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125021,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 20,
+              "divine_points": 200,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255020,
+                "name": "Divine Points",
+                "amount": 200,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 200,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 200
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "l"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125021,
+                  "type": "COMBAT_ARENA",
+                  "amount": 20,
+                  "rules": {
+                    "all_of_elements": [
+                      "l"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125022,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 20,
+              "divine_points": 200,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255021,
+                "name": "Divine Points",
+                "amount": 200,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 200,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 200
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "wr"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125022,
+                  "type": "COMBAT_ARENA",
+                  "amount": 20,
+                  "rules": {
+                    "all_of_elements": [
+                      "wr"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125023,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 20,
+              "divine_points": 200,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255022,
+                "name": "Divine Points",
+                "amount": 200,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 200,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 200
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "hp"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125023,
+                  "type": "COMBAT_ARENA",
+                  "amount": 20,
+                  "rules": {
+                    "all_of_elements": [
+                      "hp"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125024,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 1,
+              "action_type": "COMBAT_ARENA",
+              "target": 20,
+              "divine_points": 200,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255023,
+                "name": "Divine Points",
+                "amount": 200,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 200,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 200
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "bt"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125024,
+                  "type": "COMBAT_ARENA",
+                  "amount": 20,
+                  "rules": {
+                    "all_of_elements": [
+                      "bt"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "week_2": [
+            {
+              "id": 125025,
+              "title": "Levelup Dragon",
+              "display_title": "Levelup Dragon",
+              "week": 2,
+              "action_type": "LEVELUP_DRAGON",
+              "target": 3,
+              "divine_points": 90,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragon-lvlup.png",
+              "reward": {
+                "reward_id": 1255024,
+                "name": "Divine Points",
+                "amount": 90,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 90,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 90
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125025,
+                  "type": "LEVELUP_DRAGON",
+                  "amount": 3,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125026,
+              "title": "Feed a dragon",
+              "display_title": "Feed a dragon",
+              "week": 2,
+              "action_type": "FEED",
+              "target": 10,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-feed.png",
+              "reward": {
+                "reward_id": 1255025,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125026,
+                  "type": "FEED",
+                  "amount": 10,
+                  "rules": {
+                    "all_of_elements": [
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125027,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 2,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255026,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "e"
+                },
+                {
+                  "kind": "element",
+                  "code": "p"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125027,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "e",
+                      "p"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125028,
+              "title": "Collect Food",
+              "display_title": "Collect Food",
+              "week": 2,
+              "action_type": "COLLECT_FOOD",
+              "target": 25,
+              "divine_points": 90,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png",
+              "reward": {
+                "reward_id": 1255027,
+                "name": "Divine Points",
+                "amount": 90,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 90,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 90
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125028,
+                  "type": "COLLECT_FOOD",
+                  "amount": 25,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125029,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 2,
+              "action_type": "COMBAT_ARENA",
+              "target": 1,
+              "divine_points": 25,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255028,
+                "name": "Divine Points",
+                "amount": 25,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 25,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 25
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "w"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125029,
+                  "type": "COMBAT_ARENA",
+                  "amount": 1,
+                  "rules": {
+                    "all_of_elements": [
+                      "w"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125030,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 2,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255029,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "el"
+                },
+                {
+                  "kind": "element",
+                  "code": "p"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125030,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "el",
+                      "p"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125031,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 2,
+              "action_type": "COMBAT_ARENA",
+              "target": 3,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255030,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "i"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125031,
+                  "type": "COMBAT_ARENA",
+                  "amount": 3,
+                  "rules": {
+                    "all_of_elements": [
+                      "i"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125032,
+              "title": "Levelup Dragon",
+              "display_title": "Levelup Dragon",
+              "week": 2,
+              "action_type": "LEVELUP_DRAGON",
+              "target": 5,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragon-lvlup.png",
+              "reward": {
+                "reward_id": 1255031,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125032,
+                  "type": "LEVELUP_DRAGON",
+                  "amount": 5,
+                  "rules": {
+                    "all_of_elements": [
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125033,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 2,
+              "action_type": "BREED",
+              "target": 1,
+              "divine_points": 10,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255032,
+                "name": "Divine Points",
+                "amount": 10,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 10,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 10
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "w"
+                },
+                {
+                  "kind": "element",
+                  "code": "f"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125033,
+                  "type": "BREED",
+                  "amount": 1,
+                  "rules": {
+                    "parents_elements": [
+                      "w",
+                      "f"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125034,
+              "title": "Arena Battle",
+              "display_title": "Arena Battle",
+              "week": 2,
+              "action_type": "COMBAT_ARENA",
+              "target": 5,
+              "divine_points": 90,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png",
+              "reward": {
+                "reward_id": 1255033,
+                "name": "Divine Points",
+                "amount": 90,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 90,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 90
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "p"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125034,
+                  "type": "COMBAT_ARENA",
+                  "amount": 5,
+                  "rules": {
+                    "all_of_elements": [
+                      "p"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125035,
+              "title": "Breed dragons",
+              "display_title": "Breed dragons",
+              "week": 2,
+              "action_type": "BREED",
+              "target": 3,
+              "divine_points": 45,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-breed.png",
+              "reward": {
+                "reward_id": 1255034,
+                "name": "Divine Points",
+                "amount": 45,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 45,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 45
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "element",
+                  "code": "e"
+                },
+                {
+                  "kind": "element",
+                  "code": "i"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125035,
+                  "type": "BREED",
+                  "amount": 3,
+                  "rules": {
+                    "parents_elements": [
+                      "e",
+                      "i"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 125036,
+              "title": "Levelup Dragon",
+              "display_title": "Levelup Dragon",
+              "week": 2,
+              "action_type": "LEVELUP_DRAGON",
+              "target": 5,
+              "divine_points": 50,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-dragon-lvlup.png",
+              "reward": {
+                "reward_id": 1255035,
+                "name": "Divine Points",
+                "amount": 50,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 50,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 50
+                  }
+                ]
+              },
+              "minor_symbols": [],
+              "collectible_actions": [
+                {
+                  "id": 125036,
+                  "type": "LEVELUP_DRAGON",
+                  "amount": 5,
+                  "rules": {}
+                }
+              ]
+            },
+            {
+              "id": 125037,
+              "title": "Hatch dragons",
+              "display_title": "Hatch dragons",
+              "week": 2,
+              "action_type": "HATCH_EGG",
+              "target": 2,
+              "divine_points": 15,
+              "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-hatch.png",
+              "reward": {
+                "reward_id": 1255036,
+                "name": "Divine Points",
+                "amount": 15,
+                "kind": "resource",
+                "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png",
+                "popup": {},
+                "rarity": "",
+                "items": [
+                  {
+                    "kind": "resource",
+                    "type": "divine_points",
+                    "resource": "divine_points",
+                    "key": "pp",
+                    "name": "Divine Points",
+                    "amount": 15,
+                    "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "raw": [
+                  {
+                    "pp": 15
+                  }
+                ]
+              },
+              "minor_symbols": [
+                {
+                  "kind": "rarity",
+                  "code": "R"
+                }
+              ],
+              "collectible_actions": [
+                {
+                  "id": 125037,
+                  "type": "HATCH_EGG",
+                  "amount": 2,
+                  "rules": {
+                    "rarity": "R"
+                  }
+                }
+              ]
+            }
+          ],
+          "week_3": [],
+          "week_4": [],
+          "unassigned": []
+        },
+        "elite": {
+          "enabled": true,
+          "orbs_producing_habitat_id": 10306,
+          "elite_extra_reward": {
+            "reward_id": 1259000,
+            "name": "Skin Chest",
+            "amount": 1,
+            "kind": "chest",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_hypnomindseye@2x.png",
+            "popup": {
+              "kind": "chest",
+              "id": 19456,
+              "type": "generic"
+            },
+            "rarity": "",
+            "items": [
+              {
+                "kind": "chest",
+                "type": "chest",
+                "asset_kind": "chest",
+                "id": 19456,
+                "chest_id": 19456,
+                "source_chest_id": 19456,
+                "source_chest_img_name": "",
+                "img_name": "",
+                "chest_type": "generic",
+                "chest_key": "generic:19456",
+                "detail_file": "generic/00.json",
+                "name": "Skin Chest",
+                "amount": 1,
+                "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_hypnomindseye@2x.png",
+                "image_candidates": [
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_elite_skin_high_hypnomindseye@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_elite_skin_high_hypnomindseye@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_elite_skin_high_hypnomindseye@2x.png",
+                  "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_elite_skin_high_hypnomindseye.png",
+                  "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                ],
+                "popup": {
+                  "kind": "chest",
+                  "id": 19456,
+                  "type": "generic"
+                }
+              }
+            ],
+            "raw": [
+              {
+                "chest": 19456
+              }
+            ]
+          },
+          "purchased_elite_extra_reward": {
+            "reward_id": 1259501,
+            "name": "Prestige Points",
+            "amount": 4000,
+            "kind": "resource",
+            "image_url": "",
+            "popup": {},
+            "rarity": "",
+            "items": [
+              {
+                "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
+                "key": "prestige_points",
+                "name": "Prestige Points",
+                "amount": 4000,
+                "image_url": ""
+              }
+            ],
+            "raw": [
+              {
+                "prestige_points": 4000
+              }
+            ]
+          },
+          "purchased_premium_extra_reward": {
+            "reward_id": 1259500,
+            "name": "Prestige Points",
+            "amount": 2000,
+            "kind": "resource",
+            "image_url": "",
+            "popup": {},
+            "rarity": "",
+            "items": [
+              {
+                "kind": "resource",
+                "type": "resource",
+                "resource": "resource",
+                "key": "prestige_points",
+                "name": "Prestige Points",
+                "amount": 2000,
+                "image_url": ""
+              }
+            ],
+            "raw": [
+              {
+                "prestige_points": 2000
+              }
+            ]
+          },
+          "booster_parameters": {
+            "ELITE_COIN_COLLECT_BONUS_MULT": 0.2,
+            "ELITE_COIN_COLLECT_BONUS_CHANCE": 1,
+            "ELITE_TOKEN_COLLECT_BONUS_MULT": 0.2,
+            "ELITE_TOKEN_COLLECT_BONUS_CHANCE": 1,
+            "ELITE_HEROIC_SPIN_BOOST_SECONDS_DISCOUNT": 43200
+          },
+          "event_booster": {
+            "coin_bonus_percent": 20,
+            "coin_bonus_chance": 1,
+            "token_bonus_percent": 20,
+            "token_bonus_chance": 1,
+            "heroic_spin_discount_seconds": 43200
+          },
+          "benefit_texts": {
+            "orbs_habitat_title": "DIVINE ORBS HABITAT",
+            "orbs_habitat_slot": "+1 extra Orbs slot",
+            "orbs_habitat_description": "Guaranteed Orbs of a Heroic dragon placed inside",
+            "event_booster_title": "EVENT BOOSTER",
+            "event_booster_description": "Get boosts collecting event currencies!",
+            "event_booster_info": "Elite Pass bonuses: Receive additional Spins in Heroic Races and earn extra Event Currencies (Coins, Moves, Stamps, etc.) that don't count towards your usual collection pool.",
+            "event_currency_label": "Event Currency",
+            "spin_booster_label": "x2 Free Spins!"
+          }
+        },
+        "asset": "battle_pass_93.zip",
+        "sound_tag": "MYSTERIOUS",
+        "icon_id": "icon_1"
+      }
     },
     {
       "key": "progression_pass:358",
