@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T11:32:03Z",
+  "generated_at": "2026-11-17T12:07:11Z",
   "schema_version": 3,
   "count": 612,
   "linked_count": 317,
@@ -26598,7 +26598,7 @@
       "id": 1000,
       "order": 67,
       "name": "Reincarnation",
-      "description": "Upon knockout of the user, a defeated ally will be revived, or healed",
+      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival.",
       "cooldown": 0,
       "effects": [
         {
@@ -29072,7 +29072,7 @@
       "id": 96,
       "order": 97,
       "name": "Reaper Perk",
-      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt. You can find this Perk in Offers!",
+      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt.",
       "cooldown": 0,
       "effects": [
         {
@@ -252783,8 +252783,8 @@
             "value": "0.9x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -252848,8 +252848,8 @@
             "value": "0.94x"
           },
           {
-            "label": "Damage",
-            "value": "1,950"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -253057,8 +253057,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -253114,8 +253115,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -253430,8 +253432,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -253486,8 +253489,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -254276,7 +254280,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Has a 40% chance to restore all allies' health equal to 128% of the user's damage.",
+        "desc": "Has a 40% chance to restore all allies' health equal to a total of 128% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -254343,7 +254347,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Has a 40% chance to restore all allies' health equal to 128% of the user's damage.",
+        "desc": "Has a 40% chance to restore all allies' health equal to a total of 128% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -254411,7 +254415,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 12 possible attack moves, dealing damage equal to 110% of the user's damage.",
+        "desc": "Launches 1 of 12 possible random attack moves, with 10% increased effectiveness.",
         "source": "template",
         "params": [
           {
@@ -254475,7 +254479,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 12 possible attack moves, dealing damage equal to 110% of the user's damage.",
+        "desc": "Launches 1 of 12 possible random attack moves, with 10% increased effectiveness.",
         "source": "template",
         "params": [
           {
@@ -255158,7 +255162,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Blocks 0% damage of an incoming hit.",
+        "desc": "Blocks 0% damage.",
         "source": "template",
         "params": [
           {
@@ -255167,7 +255171,7 @@
           },
           {
             "label": "Blocks",
-            "value": "1 hit(s)"
+            "value": "0 hit(s)"
           }
         ],
         "note": null
@@ -255222,8 +255226,8 @@
             "value": "1.3x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "25%"
           }
         ],
         "note": null
@@ -255556,8 +255560,8 @@
             "value": "0.95x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "25%"
           }
         ],
         "note": null
@@ -255778,8 +255782,8 @@
             "value": "1.3x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "10000%"
           }
         ],
         "note": null
@@ -255882,7 +255886,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 400% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 400% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -255948,8 +255952,8 @@
             "value": "1.3x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "10000%"
           }
         ],
         "note": null
@@ -256449,12 +256453,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -256568,7 +256573,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 5 possible attack moves, dealing damage equal to 110% of the user's damage.",
+        "desc": "Launches 1 of 5 possible random attack moves, with 10% increased effectiveness.",
         "source": "template",
         "params": [
           {
@@ -256700,8 +256705,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -256878,7 +256884,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 128% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 128% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -257092,7 +257098,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 65%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 65%.",
         "source": "template",
         "params": [
           {
@@ -257100,8 +257106,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "1,000"
+            "label": "Reduced HP",
+            "value": "65%"
           }
         ],
         "note": null
@@ -257163,7 +257169,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 500% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 500% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -257316,7 +257322,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 3 possible attack moves, dealing damage equal to 110% of the user's damage.",
+        "desc": "Launches 1 of 3 possible random attack moves, with 10% increased effectiveness.",
         "source": "template",
         "params": [
           {
@@ -257521,7 +257527,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 3 possible attack moves, dealing damage equal to 110% of the user's damage.",
+        "desc": "Launches 1 of 3 possible random attack moves, with 10% increased effectiveness.",
         "source": "template",
         "params": [
           {
@@ -257584,12 +257590,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -257707,7 +257714,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Launches a random attack move out of 4 possible attack moves, dealing damage equal to 100% of the user's damage.",
+        "desc": "Launches 1 of 4 possible random attack moves.",
         "source": "template",
         "params": [
           {
@@ -257837,8 +257844,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -257946,7 +257954,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 100% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 100% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -258067,7 +258075,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 100% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 100% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -258202,7 +258210,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -258210,8 +258218,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -258282,8 +258290,8 @@
             "value": "1.5x"
           },
           {
-            "label": "Damage",
-            "value": "3,000"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -258339,7 +258347,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Upon knockout of the user, a defeated ally will be revived, or healed",
+        "desc": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival.",
         "source": "template",
         "params": [
           {
@@ -258366,7 +258374,7 @@
       "hit_chance": 1,
       "params": {},
       "name": "Reincarnation",
-      "description": "Upon knockout of the user, a defeated ally will be revived, or healed",
+      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival.",
       "skill_id": 1000,
       "skill_ids": [
         1000
@@ -258525,8 +258533,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -258640,7 +258649,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 100% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 100% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -258967,7 +258976,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 100% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 100% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -259093,7 +259102,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 200% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 200% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -259159,7 +259168,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 100% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 60%.",
+        "desc": "Deals up to 100% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 60%.",
         "source": "template",
         "params": [
           {
@@ -259167,8 +259176,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "1,800"
+            "label": "Reduced HP",
+            "value": "60%"
           }
         ],
         "note": null
@@ -259224,7 +259233,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 200% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 200% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -259290,7 +259299,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 100% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 30%.",
+        "desc": "Deals up to 100% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 30%.",
         "source": "template",
         "params": [
           {
@@ -259298,8 +259307,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "2,500"
+            "label": "Reduced HP",
+            "value": "30%"
           }
         ],
         "note": null
@@ -259616,7 +259625,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 50%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 50%.",
         "source": "template",
         "params": [
           {
@@ -259624,8 +259633,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "1,600"
+            "label": "Reduced HP",
+            "value": "50%"
           }
         ],
         "note": null
@@ -259679,7 +259688,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 100% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 40%.",
+        "desc": "Deals up to 100% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 40%.",
         "source": "template",
         "params": [
           {
@@ -259687,8 +259696,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Reduced HP",
+            "value": "40%"
           }
         ],
         "note": null
@@ -259744,7 +259753,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 200% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 200% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -259802,7 +259811,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 30%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 30%.",
         "source": "template",
         "params": [
           {
@@ -259810,8 +259819,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,400"
+            "label": "Reduced HP",
+            "value": "30%"
           }
         ],
         "note": null
@@ -259867,7 +259876,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 200% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 200% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -259925,7 +259934,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 128% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 128% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -260235,12 +260244,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -260407,7 +260417,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 120% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 120% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -260882,7 +260892,7 @@
       "hit_chance": 1,
       "params": {},
       "name": "Reaper Perk",
-      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt. You can find this Perk in Offers!",
+      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt.",
       "skill_id": 96,
       "skill_ids": [
         96
@@ -261218,12 +261228,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -261811,8 +261822,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -261867,7 +261879,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 120% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 120% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -262256,8 +262268,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "2,300"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -262696,7 +262708,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Restores all allies' health equal to 180% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 180% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -262899,7 +262911,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 100% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 100% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -263484,7 +263496,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Restores all allies' health equal to 180% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 180% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -264285,7 +264297,7 @@
     {
       "icon": "post",
       "card": {
-        "desc": "Restores all allies' health equal to 200% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 200% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -264360,8 +264372,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "3,000"
+            "label": "Reduced HP",
+            "value": "40%"
           }
         ],
         "note": null
@@ -264789,7 +264801,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 200% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 30%.",
+        "desc": "Deals up to 200% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 30%.",
         "source": "template",
         "params": [
           {
@@ -264797,8 +264809,8 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,500"
+            "label": "Reduced HP",
+            "value": "30%"
           }
         ],
         "note": null
@@ -266022,7 +266034,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -266344,7 +266356,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -266473,7 +266485,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 180% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 180% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -266921,8 +266933,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -267104,7 +267117,7 @@
     {
       "icon": "post",
       "card": {
-        "desc": "Restores all allies' health equal to 200% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 200% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -267176,7 +267189,7 @@
     {
       "icon": "post",
       "card": {
-        "desc": "Restores all allies' health equal to 230% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 230% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -267513,7 +267526,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -267583,8 +267596,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -267639,8 +267653,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -270033,8 +270048,8 @@
             "value": "1.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,700"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -270281,7 +270296,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 150% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 150% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -270348,8 +270363,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -270592,7 +270608,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 130% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 130% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -271236,8 +271252,8 @@
             "value": "1x"
           },
           {
-            "label": "Damage",
-            "value": "3,000"
+            "label": "Reduced HP",
+            "value": "40%"
           }
         ],
         "note": null
@@ -271359,8 +271375,8 @@
             "value": "1.5x"
           },
           {
-            "label": "Damage",
-            "value": "3,000"
+            "label": "Reduced HP",
+            "value": "10%"
           }
         ],
         "note": null
@@ -271543,8 +271559,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -272680,7 +272697,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 250% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 250% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -272814,7 +272831,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -273439,7 +273456,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 120% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 120% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -274273,7 +274290,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -274467,7 +274484,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents all opponents from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent all opponents from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -274663,7 +274680,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 140% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 140% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -275247,7 +275264,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -275816,7 +275833,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 150% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 150% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -276776,7 +276793,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 150% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 150% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -277188,7 +277205,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 170% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 170% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -277411,7 +277428,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -277419,8 +277436,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -277814,12 +277831,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -277870,7 +277888,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -278608,12 +278626,13 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Grants a guaranteed extra turn.",
+        "desc": "Grants a 100% chance to attack once more.",
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -278837,7 +278856,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -278902,7 +278921,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -278910,8 +278929,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -279036,7 +279055,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents all opponents from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent all opponents from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -279286,7 +279305,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -279294,8 +279313,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -279351,7 +279370,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 3 Doommark to all opponents upon actively joining the battle.",
+        "desc": "Applies 3 Doommarks to all opponents upon actively joining the battle.",
         "source": "template",
         "params": [
           {
@@ -279411,7 +279430,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to all opponents.",
+        "desc": "Applies a total of 2 Doommarks to random opponents.",
         "source": "template",
         "params": [
           {
@@ -279718,7 +279737,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 2 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -279910,7 +279929,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent.",
+        "desc": "Applies 2 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -280343,7 +280362,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 5 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 5 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -280466,7 +280485,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 4 Doommark to the opponent upon actively joining the battle.",
+        "desc": "Applies 4 Doommarks to the opponent upon actively joining the battle.",
         "source": "template",
         "params": [
           {
@@ -280526,7 +280545,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent.",
+        "desc": "Applies 2 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -280649,7 +280668,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent upon actively joining the battle.",
+        "desc": "Applies 2 Doommarks to the opponent upon actively joining the battle.",
         "source": "template",
         "params": [
           {
@@ -280829,7 +280848,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 6 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 6 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -280893,7 +280912,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 3 Doommark to the opponent.",
+        "desc": "Applies 3 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -280953,7 +280972,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent.",
+        "desc": "Applies 2 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -281080,7 +281099,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 3 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 3 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -281592,7 +281611,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 3 Doommark to the opponent.",
+        "desc": "Applies 3 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -281715,7 +281734,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -281723,8 +281742,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -281780,7 +281799,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 300% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 20%.",
+        "desc": "Deals up to 300% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 20%.",
         "source": "template",
         "params": [
           {
@@ -281788,8 +281807,8 @@
             "value": "3x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -282021,7 +282040,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 270% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 270% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -282029,8 +282048,12 @@
             "value": "2.7x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -282153,7 +282176,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 190% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -282161,8 +282184,12 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -282218,7 +282245,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 10000% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 10000% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -282226,8 +282253,12 @@
             "value": "100x"
           },
           {
-            "label": "Damage",
-            "value": "1,900"
+            "label": "Shield Bonus",
+            "value": "+50%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+250%"
           }
         ],
         "note": null
@@ -282749,7 +282780,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 190% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -282757,8 +282788,12 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -282874,7 +282909,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 190% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -282882,8 +282917,12 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -282999,7 +283038,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 300% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 300% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -283007,8 +283046,12 @@
             "value": "3x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -283189,7 +283232,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 300% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 300% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -283197,8 +283240,12 @@
             "value": "3x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -283513,7 +283560,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 250% total damage, divided evenly among all opponents, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 250% total damage, divided evenly among all opponents, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -283521,8 +283568,12 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -283578,7 +283629,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 200% total damage, divided evenly among all opponents, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 200% total damage, divided evenly among all opponents, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -283586,8 +283637,12 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -283826,7 +283881,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents all opponents from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent all opponents from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -283887,7 +283942,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 170% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 170% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -283953,7 +284008,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores the user's allies' health equal to 170% of the user's damage.",
+        "desc": "Restores only allies' health equal to a total of 170% of the user's damage, divided evenly among them.",
         "source": "template",
         "params": [
           {
@@ -284396,7 +284451,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 200% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 200% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -284404,8 +284459,12 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -284466,7 +284525,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 200% total damage, divided evenly among all opponents, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 200% total damage, divided evenly among all opponents, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -284474,8 +284533,12 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -284658,7 +284721,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -285182,7 +285245,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 150% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 150% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -285455,7 +285518,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 5 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 5 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -285513,7 +285576,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 180% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -285521,8 +285584,12 @@
             "value": "1.8x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -285842,7 +285909,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 3 Doommark to all opponents.",
+        "desc": "Applies a total of 3 Doommarks to random opponents.",
         "source": "template",
         "params": [
           {
@@ -287565,8 +287632,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -288186,7 +288254,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -289343,7 +289411,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 3 Doommark to the opponent.",
+        "desc": "Applies 3 Doommarks to the opponent.",
         "source": "template",
         "params": [
           {
@@ -289464,7 +289532,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 280% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 280% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -290096,7 +290164,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -290104,8 +290172,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,250"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -290868,7 +290936,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -291055,7 +291123,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 185% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 185% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -291118,7 +291186,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies Poison to the user's allies once the user is knocked out. This effect lasts for 3 turns.",
+        "desc": "Applies Poison to the affected dragon's allies once the affected dragon is knocked out. This effect lasts for 3 turns.",
         "source": "template",
         "params": [
           {
@@ -291361,7 +291429,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 200% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 200% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -291614,7 +291682,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies Poison to the user's allies once the user is knocked out. This effect lasts for 3 turns.",
+        "desc": "Applies Poison to the affected dragon's allies once the affected dragon is knocked out. This effect lasts for 3 turns.",
         "source": "template",
         "params": [
           {
@@ -291672,7 +291740,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -291800,7 +291868,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 185% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 185% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -291924,7 +291992,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 165% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 165% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -291979,7 +292047,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 150% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 150% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -292423,7 +292491,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 220% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 220% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -292609,7 +292677,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -292734,7 +292802,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 20%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 20%.",
         "source": "template",
         "params": [
           {
@@ -292742,8 +292810,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Reduced HP",
+            "value": "20%"
           }
         ],
         "note": null
@@ -292799,7 +292867,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies Poison to the user's allies once the user is knocked out. This effect lasts for 3 turns.",
+        "desc": "Applies Poison to the affected dragon's allies once the affected dragon is knocked out. This effect lasts for 3 turns.",
         "source": "template",
         "params": [
           {
@@ -292919,7 +292987,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -293122,7 +293190,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 180% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -293247,7 +293315,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 180% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -293932,7 +294000,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 180% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -294059,7 +294127,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 180% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -294184,7 +294252,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 220% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 220% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -294192,8 +294260,12 @@
             "value": "2.2x"
           },
           {
-            "label": "Damage",
-            "value": "2,400"
+            "label": "Shield Bonus",
+            "value": "+70%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+150%"
           }
         ],
         "note": null
@@ -294431,7 +294503,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies Exhaustion to all opponents. This effect lasts for 5 turns.",
+        "desc": "Applies a total of 1 Exhaustion to random opponents. This effect lasts for 5 turns.",
         "source": "template",
         "params": [
           {
@@ -294749,7 +294821,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents all opponents from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent all opponents from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -294865,7 +294937,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -294873,8 +294945,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -295473,7 +295545,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -296030,7 +296102,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -296038,8 +296110,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -296220,7 +296292,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 6 Doommark to all opponents.",
+        "desc": "Applies a total of 6 Doommarks to random opponents.",
         "source": "template",
         "params": [
           {
@@ -296906,7 +296978,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals up to 250% total damage, divided evenly among all opponents, based on the user's current life points, while reducing the user's current life points by 35%.",
+        "desc": "Deals up to 250% total damage based on the user's current life points, damage divided evenly among all opponents, while reducing the user's current life points by 35%.",
         "source": "template",
         "params": [
           {
@@ -296914,8 +296986,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Reduced HP",
+            "value": "35%"
           }
         ],
         "note": null
@@ -296963,7 +297035,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -297213,7 +297285,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies 2 Doommark to all opponents.",
+        "desc": "Applies a total of 2 Doommarks to random opponents.",
         "source": "template",
         "params": [
           {
@@ -297468,7 +297540,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -297594,7 +297666,7 @@
     {
       "icon": "mix",
       "card": {
-        "desc": "Applies Drain to all opponents. This effect lasts for 3 turns.",
+        "desc": "Applies a total of 1 Drain to random opponents. This effect lasts for 3 turns.",
         "source": "template",
         "params": [
           {
@@ -297783,7 +297855,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -298159,7 +298231,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Prevents an opponent from using skills for 2 turns.",
+        "desc": "Has a 100% chance to prevent an opponent from using skills for 2 turns.",
         "source": "template",
         "params": [
           {
@@ -298711,7 +298783,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -299023,7 +299095,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 170% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 170% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -299207,7 +299279,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 300% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 300% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -299395,7 +299467,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 240% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -299403,8 +299475,12 @@
             "value": "2.4x"
           },
           {
-            "label": "Damage",
-            "value": "2,600"
+            "label": "Shield Bonus",
+            "value": "+60%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+310%"
           }
         ],
         "note": null
@@ -299520,7 +299596,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 210% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -299528,8 +299604,12 @@
             "value": "2.1x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Shield Bonus",
+            "value": "+50%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+250%"
           }
         ],
         "note": null
@@ -299851,8 +299931,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -299903,7 +299984,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 240% damage to the opponent, bypassing dodge abilities such as Vengeful and Evasion.",
+        "desc": "Deals 240% damage to the opponent, this attack bypassing dodge abilities such as Vengeful and Evasion.",
         "source": "template",
         "params": [
           {
@@ -299970,7 +300051,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Restores all allies' health equal to 350% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 350% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -300365,7 +300446,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Restores all allies' health equal to 300% of the user's damage.",
+        "desc": "Restores all allies' health equal to a total of 300% of the user's damage, divided evenly among all allies.",
         "source": "template",
         "params": [
           {
@@ -300431,7 +300512,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 210% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -300439,8 +300520,12 @@
             "value": "2.1x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Shield Bonus",
+            "value": "+50%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+250%"
           }
         ],
         "note": null
@@ -300496,7 +300581,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 240% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -300504,8 +300589,12 @@
             "value": "2.4x"
           },
           {
-            "label": "Damage",
-            "value": "2,600"
+            "label": "Shield Bonus",
+            "value": "+60%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+310%"
           }
         ],
         "note": null
@@ -300851,7 +300940,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Restores all allies' health equal to 350% of the user's damage after knocking out up to 2 opponents.",
+        "desc": "Restores all allies' health equal to a total of 350% of the user's damage, divided evenly among all allies, after knocking out up to 2 opponents.",
         "source": "template",
         "params": [
           {
@@ -300920,7 +301009,7 @@
     {
       "icon": "passive",
       "card": {
-        "desc": "Applies 2 Doommark to the opponent once the user is knocked out.",
+        "desc": "Applies 2 Doommarks to the opponent once the user is knocked out.",
         "source": "template",
         "params": [
           {
@@ -301363,8 +301452,9 @@
         "source": "template",
         "params": [
           {
-            "label": "None",
-            "value": "User's Team"
+            "label": "",
+            "value": "None = User's Team",
+            "full": true
           }
         ],
         "note": null
@@ -301415,7 +301505,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 270% damage to the opponent, bypassing dodge and block damage abilities such as Vengeful, Evasion, and Shield, while instantly destroying their Shield and damage reduction abilities such as Bunker and Guard.",
+        "desc": "Deals 270% damage to the opponent, deals 90% more damage to an opponent with Shield and 180% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -301423,8 +301513,12 @@
             "value": "2.7x"
           },
           {
-            "label": "Damage",
-            "value": "2,500"
+            "label": "Shield Bonus",
+            "value": "+90%"
+          },
+          {
+            "label": "Armor Bonus",
+            "value": "+180%"
           }
         ],
         "note": null
@@ -302323,7 +302417,7 @@
       "kind": "passive",
       "id": 13,
       "name": "Phoenix Perk",
-      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival. You can find this Perk in Offers!",
+      "description": "Upon knockout, your dragon is revived once. More attached Phoenix Perks means more health upon revival.",
       "skill_id": 1000,
       "special_icon": 1,
       "cooldown": 0,
@@ -302628,7 +302722,7 @@
       "kind": "passive",
       "id": 18,
       "name": "Reaper Perk",
-      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt. You can find this Perk in Offers!",
+      "description": "Deals damage to an opponent revived by a Phoenix Perk and can be activated multiple times. More attached Reaper Perks means more damage dealt.",
       "skill_id": 96,
       "special_icon": null,
       "cooldown": 0,
