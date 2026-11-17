@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:24Z",
+  "generated_at": "2026-11-17T16:56:38Z",
   "collections": [
     {
       "id": 3015,
@@ -35992,8 +35992,11 @@
                   "id": 14845,
                   "name": "Hallows Pumpkin",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin@2x.png",

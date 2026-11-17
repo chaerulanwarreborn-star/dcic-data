@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:24Z",
+  "generated_at": "2026-11-17T16:56:38Z",
   "collections": [
     {
       "id": 3017,
@@ -33560,8 +33560,11 @@
                   "id": 14570,
                   "name": "12th Birthday Cake",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_12anniversary_cake@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_12anniversary_cake_c@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_12anniversary_cake_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_12anniversary_cake_c@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_12anniversary_cake_c@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_12anniversary_cake@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_12anniversary_cake@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_12anniversary_cake@2x.png",
@@ -35784,8 +35787,11 @@
                   "id": 14846,
                   "name": "Paper Bag",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_paperback@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_paperback_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_paperback_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_paperback_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_paperback_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_paperback@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_paperback@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_paperback@2x.png",

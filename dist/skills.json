@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:35Z",
+  "generated_at": "2026-11-17T16:56:46Z",
   "schema_version": 3,
   "count": 612,
   "linked_count": 317,
@@ -11907,7 +11907,7 @@
     "2755": [
       "Incendiary Dragon",
       "L",
-      "2755_dragon_incendiary",
+      "2755_dragon_incendiary_b",
       [],
       1578
     ],
@@ -12075,7 +12075,7 @@
     "2785": [
       "Courageous Karma Dragon",
       "M",
-      "2785_dragon_courageouskarma",
+      "2785_dragon_courageouskarma_b",
       [
         "karma",
         "vip",
@@ -12140,7 +12140,7 @@
     "2802": [
       "Grace Karma Dragon",
       "M",
-      "2802_dragon_gracekarma",
+      "2802_dragon_gracekarma_c",
       [
         "karma",
         "vip",
@@ -12175,7 +12175,7 @@
     "2819": [
       "Focus Karma Dragon",
       "M",
-      "2819_dragon_focuskarma",
+      "2819_dragon_focuskarma_b",
       [
         "karma",
         "vip",
@@ -12186,7 +12186,7 @@
     "2836": [
       "Kung Flow Karma Dragon",
       "M",
-      "2836_dragon_kungflowkarma",
+      "2836_dragon_kungflowkarma_b",
       [
         "karma",
         "vip",
@@ -12197,7 +12197,7 @@
     "2837": [
       "Ambition Karma Dragon",
       "M",
-      "2837_dragon_ambitionkarma",
+      "2837_dragon_ambitionkarma_b",
       [
         "karma",
         "vip",
@@ -12273,7 +12273,7 @@
     "2810": [
       "Piety Dragon",
       "L",
-      "2810_dragon_piety",
+      "2810_dragon_piety_b",
       [],
       1625
     ],
@@ -12318,7 +12318,7 @@
     "2814": [
       "Ascended Sage Dragon",
       "L",
-      "2814_dragon_ascendedsage",
+      "2814_dragon_ascendedsage_b",
       [
         "ascended",
         "vip"
@@ -12429,7 +12429,7 @@
     "2838": [
       "Red Crested Dragon",
       "L",
-      "2838_dragon_redcrested",
+      "2838_dragon_redcrested_b",
       [],
       1648
     ],
@@ -12531,7 +12531,7 @@
     "2854": [
       "Revival Karma Dragon",
       "M",
-      "2854_dragon_revivalkarma",
+      "2854_dragon_revivalkarma_b",
       [
         "karma",
         "vip",
@@ -12542,7 +12542,7 @@
     "2871": [
       "Determination Karma Dragon",
       "M",
-      "2871_dragon_determinationkarma",
+      "2871_dragon_determinationkarma_b",
       [
         "karma",
         "vip",
@@ -12574,7 +12574,7 @@
     "2888": [
       "Healing Karma Dragon",
       "M",
-      "2888_dragon_healingkarma",
+      "2888_dragon_healingkarma_b",
       [
         "karma",
         "vip",
@@ -12585,7 +12585,7 @@
     "2905": [
       "Fragmented Karma Dragon",
       "M",
-      "2905_dragon_fragmentedkarma",
+      "2905_dragon_fragmentedkarma_b",
       [
         "karma",
         "vip",
@@ -12596,7 +12596,7 @@
     "2906": [
       "Endurance Karma Dragon",
       "M",
-      "2906_dragon_endurancekarma",
+      "2906_dragon_endurancekarma_b",
       [
         "karma",
         "vip",
@@ -12694,7 +12694,7 @@
     "2890": [
       "Redemption Conquest Dragon",
       "L",
-      "2890_dragon_redemptionconquest",
+      "2890_dragon_redemptionconquest_b",
       [
         "redemption",
         "vip"
@@ -12739,14 +12739,14 @@
     "2865": [
       "Ramsey Dragon",
       "L",
-      "2865_dragon_ramsey",
+      "2865_dragon_ramsey_b",
       [],
       1685
     ],
     "2875": [
       "Jewelem Dragon",
       "M",
-      "2875_dragon_jewelem",
+      "2875_dragon_jewelem_b",
       [
         "mythical",
         "vip"
@@ -12756,14 +12756,14 @@
     "2876": [
       "Damona Dragon",
       "L",
-      "2876_dragon_damona",
+      "2876_dragon_damona_b",
       [],
       1687
     ],
     "2877": [
       "Winstance Dragon",
       "L",
-      "2877_dragon_winstance",
+      "2877_dragon_winstance_b",
       [],
       1688
     ],
@@ -12791,7 +12791,7 @@
     "2885": [
       "Time Patrol Dragon",
       "M",
-      "2885_dragon_timepatrol",
+      "2885_dragon_timepatrol_b",
       [
         "mythical"
       ],
@@ -12800,7 +12800,7 @@
     "2886": [
       "Steel Arms Dragon",
       "L",
-      "2886_dragon_steelarms",
+      "2886_dragon_steelarms_b",
       [],
       1696
     ],
@@ -12823,7 +12823,7 @@
     "2901": [
       "High Corrupted Time Dragon",
       "H",
-      "2901_dragon_highcorruptedtime",
+      "2901_dragon_highcorruptedtime_b",
       [
         "corrupted",
         "vip"
@@ -12840,7 +12840,7 @@
     "2892": [
       "Spellbinding Dragon",
       "M",
-      "2892_dragon_spellblending",
+      "2892_dragon_spellblending_b",
       [
         "mythical"
       ],
@@ -12999,7 +12999,7 @@
     "2929": [
       "Spades Dragon",
       "M",
-      "2929_dragon_spades",
+      "2929_dragon_spades_b",
       [
         "mythical"
       ],
@@ -13022,7 +13022,7 @@
     "2919": [
       "High Seven Dragon",
       "H",
-      "2919_dragon_highseven",
+      "2919_dragon_highseven_b",
       [],
       1730
     ],
@@ -13258,7 +13258,7 @@
     "2945": [
       "Bugblaze Dragon",
       "L",
-      "2945_dragon_bugblaze",
+      "2945_dragon_bugblaze_b",
       [],
       1752
     ],
@@ -13275,7 +13275,7 @@
     "2946": [
       "High Famine Dragon",
       "H",
-      "2946_dragon_highfamine",
+      "2946_dragon_highfamine_b",
       [],
       1754
     ],
@@ -13389,7 +13389,7 @@
     "3026": [
       "Colossus Eternal Dragon",
       "L",
-      "3026_dragon_colossuseternal",
+      "3026_dragon_colossuseternal_b",
       [
         "eternals",
         "vip"
@@ -13399,7 +13399,7 @@
     "3011": [
       "High Master Karma Dragon",
       "H",
-      "3011_dragon_highmasterkarma",
+      "3011_dragon_highmasterkarma_b",
       [
         "karma",
         "vip"
@@ -13621,21 +13621,21 @@
     "2989": [
       "High Five Dragon",
       "H",
-      "2989_dragon_highfive",
+      "2989_dragon_highfive_b",
       [],
       1796
     ],
     "2990": [
       "Gatekeeper Dragon",
       "L",
-      "2990_dragon_gatekeeper",
+      "2990_dragon_gatekeeper_b",
       [],
       1797
     ],
     "2991": [
       "Twinkle Dragon",
       "L",
-      "2991_dragon_twinkle",
+      "2991_dragon_twinkle_b",
       [],
       1798
     ],
@@ -13676,7 +13676,7 @@
     "2994": [
       "Empower Dragon",
       "M",
-      "2994_dragon_empower",
+      "2994_dragon_empower_b",
       [
         "mythical"
       ],
@@ -13742,7 +13742,7 @@
     "3003": [
       "High Heroic Dragon",
       "H",
-      "3003_dragon_highheroic",
+      "3003_dragon_highheroic_b",
       [],
       1812
     ],
@@ -13763,7 +13763,7 @@
     "3081": [
       "High Ascended Supreme Dragon",
       "H",
-      "3081_dragon_highascendedsupreme",
+      "3081_dragon_highascendedsupreme_b",
       [
         "ascended",
         "vip"
@@ -14291,7 +14291,7 @@
     "3072": [
       "Enchantress Dragon",
       "M",
-      "3072_dragon_enchantress",
+      "3072_dragon_enchantress_b",
       [
         "mythical"
       ],
@@ -14410,7 +14410,7 @@
     "3084": [
       "Etheray Dragon",
       "M",
-      "3084_dragon_etheray",
+      "3084_dragon_etheray_b",
       [
         "mythical"
       ],
@@ -14806,7 +14806,7 @@
     "3171": [
       "Dauntless Dragon",
       "L",
-      "3171_dragon_dauntless",
+      "3171_dragon_dauntless_b",
       [],
       1944
     ],
@@ -15406,7 +15406,7 @@
     "3278": [
       "Skeletal Extractor Dragon",
       "L",
-      "3278_dragon_skeletalextractor",
+      "3278_dragon_skeletalextractor_b",
       [
         "extractor",
         "vip"
@@ -15715,7 +15715,7 @@
     "3280": [
       "Jack-in-the-box Dragon",
       "L",
-      "3169_dragon_miracle",
+      "3169_dragon_miracle_b",
       [],
       2055
     ],
@@ -15900,7 +15900,7 @@
     "3245": [
       "Serpent Extractor Dragon",
       "L",
-      "3245_dragon_serpentextractor",
+      "3245_dragon_serpentextractor_b",
       [
         "extractor",
         "vip"
@@ -16318,7 +16318,7 @@
     "3341": [
       "High Clawed Silencer Dragon",
       "H",
-      "3341_dragon_highclawedsilencer",
+      "3341_dragon_highclawedsilencer_b",
       [
         "silencer",
         "vip"
@@ -16344,7 +16344,7 @@
     "3380": [
       "Conducting Critical Dragon",
       "L",
-      "3380_dragon_conductingcritical",
+      "3380_dragon_conductingcritical_b",
       [
         "critical",
         "vip"
@@ -16424,7 +16424,7 @@
     "3387": [
       "High Sculpture Dragon",
       "H",
-      "3387_dragon_highsculpture",
+      "3387_dragon_highsculpture_b",
       [],
       2141
     ],
@@ -16488,7 +16488,7 @@
     "3403": [
       "Cryo Armored Dragon",
       "L",
-      "3403_dragon_cryoarmored",
+      "3403_dragon_cryoarmored_b",
       [
         "armor",
         "vip"
@@ -16609,7 +16609,7 @@
     "3422": [
       "High Doom Priestess Dragon",
       "H",
-      "3422_dragon_highdoompriestess",
+      "3422_dragon_highdoompriestess_c",
       [
         "doom",
         "vip"
@@ -16766,7 +16766,7 @@
     "3456": [
       "High Astro Supernova Dragon",
       "H",
-      "3456_dragon_highastrosupernova",
+      "3456_dragon_highastrosupernova_b",
       [
         "astro",
         "vip"
@@ -16846,7 +16846,7 @@
     "3459": [
       "High Astro Black Hole Dragon",
       "H",
-      "3459_dragon_highastroblackhole",
+      "3459_dragon_highastroblackhole_b",
       [
         "astro",
         "vip"
@@ -16867,7 +16867,7 @@
     "3451": [
       "High Risen Nature Dragon",
       "H",
-      "3451_dragon_highrisennature",
+      "3451_dragon_highrisennature_b",
       [
         "risen",
         "vip"
@@ -16977,7 +16977,7 @@
     "3441": [
       "Album Adversary Dragon",
       "L",
-      "3441_dragon_albumadversary",
+      "3441_dragon_albumadversary_b",
       [],
       2206
     ],
@@ -17089,7 +17089,7 @@
     "3481": [
       "High Waverider Dragon",
       "H",
-      "3481_dragon_highwaverider",
+      "3481_dragon_highwaverider_c",
       [],
       2219
     ],
@@ -17150,7 +17150,7 @@
     "3502": [
       "High Risen Sea Dragon",
       "H",
-      "3502_dragon_highrisensea",
+      "3502_dragon_highrisensea_b",
       [
         "risen",
         "vip"
@@ -17160,7 +17160,7 @@
     "3504": [
       "High Hollow Crown Dragon",
       "H",
-      "3504_dragon_highhollowcrown",
+      "3504_dragon_highhollowcrown_b",
       [
         "vip"
       ],
@@ -17188,7 +17188,7 @@
     "3497": [
       "Beat Drop Dragon",
       "H",
-      "3497_dragon_beatdrop",
+      "3497_dragon_beatdrop_b",
       [
         "vip"
       ],
@@ -17428,17 +17428,17 @@
     "3001": [
       "Glorious Glutty",
       1796,
-      "1796_dragon_glutty_skin1"
+      "1796_dragon_glutty_skin1_b"
     ],
     "2003": [
       "Armored Kratus",
       1191,
-      "1191_dragon_kratus_skin1"
+      "1191_dragon_kratus_skin1_b"
     ],
     "2004": [
       "Dazzling Flora",
       1770,
-      "1770_dragon_flora_skin1"
+      "1770_dragon_flora_skin1_b"
     ],
     "2005": [
       "Apocalypse Sun",
@@ -17453,12 +17453,12 @@
     "2007": [
       "Icy Abyss",
       1315,
-      "1315_dragon_abyss_skin1"
+      "1315_dragon_abyss_skin1_b"
     ],
     "2008": [
       "Jeweled Boulder",
       2017,
-      "2017_dragon_boulder_skin1"
+      "2017_dragon_boulder_skin1_b"
     ],
     "2009": [
       "Kyuubi Guise",
@@ -17628,7 +17628,7 @@
     "3003": [
       "Eternal Metal",
       2136,
-      "2136_dragon_higheternal_3_skin1"
+      "2136_dragon_higheternal_3_skin1_b"
     ],
     "3004": [
       "Fallen Armor",
@@ -17808,7 +17808,7 @@
     "3037": [
       "Captain's Robes",
       2919,
-      "2919_dragon_highseven_skin1"
+      "2919_dragon_highseven_skin1_b"
     ],
     "3038": [
       "Amethyst Armor",
@@ -17833,7 +17833,7 @@
     "3042": [
       "The All-Seeing Villain",
       3011,
-      "3011_dragon_highmasterkarma_skin2"
+      "3011_dragon_highmasterkarma_skin2_b"
     ],
     "3043": [
       "Elite Overlord Robes",
@@ -17853,22 +17853,22 @@
     "3046": [
       "Suit of Stardom",
       2989,
-      "2989_dragon_highfive_skin1"
+      "2989_dragon_highfive_skin1_b"
     ],
     "3047": [
       "Heroic Shielding",
       3003,
-      "3003_dragon_highheroic_skin1"
+      "3003_dragon_highheroic_skin1_b"
     ],
     "3048": [
       "Scarlet Skill Skin",
       3081,
-      "3081_dragon_highascendedsupreme_skin1"
+      "3081_dragon_highascendedsupreme_skin1_b"
     ],
     "3049": [
       "Violet Skill Skin",
       3081,
-      "3081_dragon_highascendedsupreme_skin2"
+      "3081_dragon_highascendedsupreme_skin2_b"
     ],
     "3050": [
       "Nest Reinforcements",
@@ -17958,7 +17958,7 @@
     "3061": [
       "Viper Skill Skin",
       3158,
-      "3158_dragon_viperplasma_skin1"
+      "3158_dragon_viperplasma_skin1_b"
     ],
     "3063": [
       "Cursed Skill Skin",
@@ -18023,7 +18023,7 @@
     "3075": [
       "Dimension Skill Skin",
       2901,
-      "2901_dragon_highcorruptedtime_skin1"
+      "2901_dragon_highcorruptedtime_skin1_b"
     ],
     "3076": [
       "Glow Up Gown",
@@ -18163,7 +18163,7 @@
     "3101": [
       "Norn Skill Skin",
       3109,
-      "3109_dragon_highredemptionnorn_skin3"
+      "3109_dragon_highredemptionnorn_skin3_b"
     ],
     "3103": [
       "Cheating Skill Skin",
@@ -18348,7 +18348,7 @@
     "3237": [
       "Aqua Skill Skin",
       3273,
-      "3273_dragon_highpurusthestrategist_skin2"
+      "3273_dragon_highpurusthestrategist_skin2_b"
     ],
     "3238": [
       "Disguise Skill Skin",
@@ -18468,7 +18468,7 @@
     "3259": [
       "Arctic Skill Skin",
       3341,
-      "3341_dragon_highclawedsilencer_skin1"
+      "3341_dragon_highclawedsilencer_skin1_b"
     ],
     "3261": [
       "Freedom Skin",
@@ -18478,7 +18478,7 @@
     "3260": [
       "Hellfire Skill Skin",
       3341,
-      "3341_dragon_highclawedsilencer_skin2"
+      "3341_dragon_highclawedsilencer_skin2_b"
     ],
     "3262": [
       "Viking Skill Skin",
@@ -18543,17 +18543,17 @@
     "8014": [
       "Golden Sand Skin",
       3387,
-      "3387_dragon_highsculpture_skin1"
+      "3387_dragon_highsculpture_skin1_b"
     ],
     "3272": [
       "Sculpture Skill Skin",
       3387,
-      "3387_dragon_highsculpture_skin2"
+      "3387_dragon_highsculpture_skin2_b"
     ],
     "3276": [
       "Vined Skill Skin",
       3405,
-      "3405_dragon_highflightarmored_skin1"
+      "3405_dragon_highflightarmored_skin1_b"
     ],
     "3274": [
       "Antler Skill Skin",
@@ -18593,7 +18593,7 @@
     "3283": [
       "Cryo Skill Skin",
       3403,
-      "3403_dragon_cryoarmored_skin1"
+      "3403_dragon_cryoarmored_skin1_b"
     ],
     "3284": [
       "Shimmer Skill Skin",
@@ -18638,12 +18638,12 @@
     "3292": [
       "Autumn Skill Skin",
       3422,
-      "3422_dragon_highdoompriestess_skin1"
+      "3422_dragon_highdoompriestess_skin1_b"
     ],
     "3293": [
       "Skeleton Skill Skin",
       3422,
-      "3422_dragon_highdoompriestess_skin2"
+      "3422_dragon_highdoompriestess_skin2_b"
     ],
     "3295": [
       "Blackfall Skill Skin",
@@ -18768,7 +18768,7 @@
     "3320": [
       "Hellfire Skill Skin",
       3421,
-      "3421_dragon_highwar_skin1"
+      "3421_dragon_highwar_skin1_b"
     ],
     "3318": [
       "Chaos Skill Skin",
@@ -18783,7 +18783,7 @@
     "3321": [
       "Cyber Skill Skin",
       3421,
-      "3421_dragon_highwar_skin2"
+      "3421_dragon_highwar_skin2_b"
     ],
     "3322": [
       "Golden Baron Skin",
@@ -18793,7 +18793,7 @@
     "3323": [
       "Nova Flare Skill Skin",
       3456,
-      "3456_dragon_highastrosupernova_skin1"
+      "3456_dragon_highastrosupernova_skin1_b"
     ],
     "3325": [
       "Space & Time Skill Skin",
@@ -18803,7 +18803,7 @@
     "3324": [
       "Star-Shatter Skill Skin",
       3456,
-      "3456_dragon_highastrosupernova_skin2"
+      "3456_dragon_highastrosupernova_skin2_b"
     ],
     "3326": [
       "Sweetheart Skill Skin",
@@ -18833,7 +18833,7 @@
     "3333": [
       "Ruffled Rebel Skill Skin",
       3283,
-      "3283_dragon_highanarchaosevader_skin3"
+      "3283_dragon_highanarchaosevader_skin3_b"
     ],
     "3331": [
       "Meteorite Core Skill Skin",
@@ -18848,7 +18848,7 @@
     "3332": [
       "Goldenbound Skill Skin",
       3435,
-      "3435_dragon_highvalentinus_skin2"
+      "3435_dragon_highvalentinus_skin2_b"
     ],
     "3334": [
       "Sunset Monarch Skill Skin",
@@ -18863,7 +18863,7 @@
     "3339": [
       "Void-Reaper Skill Skin",
       3459,
-      "3459_dragon_highastroblackhole_skin1"
+      "3459_dragon_highastroblackhole_skin1_b"
     ],
     "3336": [
       "Aurelian Deceiver Skin",
@@ -18873,7 +18873,7 @@
     "3340": [
       "Dark Matter Skill Skin",
       3459,
-      "3459_dragon_highastroblackhole_skin2"
+      "3459_dragon_highastroblackhole_skin2_b"
     ],
     "3337": [
       "Sanguine Prophet Skin",
@@ -18888,7 +18888,7 @@
     "3338": [
       "Flora Skill Skin",
       3451,
-      "3451_dragon_highrisennature_skin1"
+      "3451_dragon_highrisennature_skin1_c"
     ],
     "3343": [
       "Cherry Blossom Skill Skin",
@@ -18993,7 +18993,7 @@
     "10018": [
       "High Corrupted Time Sakura Flair",
       2901,
-      "2901_dragon_highcorruptedtime"
+      "2901_dragon_highcorruptedtime_b"
     ],
     "10019": [
       "Fire Titan Sakura Flair",
@@ -19003,7 +19003,7 @@
     "10020": [
       "High Clawed Silencer Sakura Flair",
       3341,
-      "3341_dragon_highclawedsilencer"
+      "3341_dragon_highclawedsilencer_b"
     ],
     "10021": [
       "Axed Silencer Sakura Flair",
@@ -19018,7 +19018,7 @@
     "10023": [
       "High Master Karma Sakura Flair",
       3011,
-      "3011_dragon_highmasterkarma"
+      "3011_dragon_highmasterkarma_b"
     ],
     "10024": [
       "High Harpy Plasma Sakura Flair",
@@ -19058,7 +19058,7 @@
     "10031": [
       "Fragmented Karma Sakura Flair",
       2905,
-      "2905_dragon_fragmentedkarma"
+      "2905_dragon_fragmentedkarma_b"
     ],
     "10032": [
       "High Void Eternal Sakura Flair",
@@ -19068,7 +19068,7 @@
     "10033": [
       "Healing Karma Sakura Flair",
       2888,
-      "2888_dragon_healingkarma"
+      "2888_dragon_healingkarma_b"
     ],
     "10034": [
       "High Civil Armored Sakura Flair",
@@ -19258,7 +19258,7 @@
     "10054": [
       "High Risen Nature Anniversary 14 Flair",
       3451,
-      "3451_dragon_highrisennature"
+      "3451_dragon_highrisennature_b"
     ],
     "10055": [
       "High Anarchaos Evader Anniversary 14 Flair",
@@ -19283,7 +19283,7 @@
     "10058": [
       "High Corrupted Time Anniversary 14 Flair",
       2901,
-      "2901_dragon_highcorruptedtime"
+      "2901_dragon_highcorruptedtime_b"
     ],
     "10059": [
       "Cupcake Anniversary 14 Flair",
@@ -19318,7 +19318,7 @@
     "3359": [
       "Shiny Adversary Skin",
       3441,
-      "3441_dragon_albumadversary_skin1"
+      "3441_dragon_albumadversary_skin1_b"
     ],
     "10064": [
       "Drummer Anniversary 14 Flair",
@@ -19353,7 +19353,7 @@
     "10069": [
       "High Famine Anniversary 14 Flair",
       2946,
-      "2946_dragon_highfamine"
+      "2946_dragon_highfamine_b"
     ],
     "8019": [
       "Sacred Grove Skin",
@@ -19368,7 +19368,7 @@
     "10071": [
       "High Astro Supernova Anniversary 14 Flair",
       3456,
-      "3456_dragon_highastrosupernova"
+      "3456_dragon_highastrosupernova_b"
     ],
     "3361": [
       "Metal Mariachi Skill Skin",
@@ -19378,7 +19378,7 @@
     "10072": [
       "High Astro Black Hole Anniversary 14 Flair",
       3459,
-      "3459_dragon_highastroblackhole"
+      "3459_dragon_highastroblackhole_b"
     ],
     "3363": [
       "Eldritch Gatekeeper Skill Skin",
@@ -19523,7 +19523,7 @@
     "10095": [
       "High Waverider Summer Flair",
       3481,
-      "3481_dragon_highwaverider"
+      "3481_dragon_highwaverider_c"
     ],
     "10096": [
       "Racing Drake Summer Flair",
@@ -19563,7 +19563,7 @@
     "10102": [
       "High Sculpture Summer Flair",
       3387,
-      "3387_dragon_highsculpture"
+      "3387_dragon_highsculpture_b"
     ],
     "10103": [
       "Dune Summer Flair",
@@ -19593,7 +19593,7 @@
     "10107": [
       "Conducting Critical Summer Flair",
       3380,
-      "3380_dragon_conductingcritical"
+      "3380_dragon_conductingcritical_b"
     ],
     "10108": [
       "Chloro Critical Summer Flair",
@@ -19613,7 +19613,7 @@
     "10110": [
       "Focus Karma Summer Flair",
       2819,
-      "2819_dragon_focuskarma"
+      "2819_dragon_focuskarma_b"
     ],
     "10111": [
       "Crevasse Summer Flair",
@@ -19633,12 +19633,12 @@
     "10113": [
       "Revival Karma Summer Flair",
       2854,
-      "2854_dragon_revivalkarma"
+      "2854_dragon_revivalkarma_b"
     ],
     "10114": [
       "Determination Karma Summer Flair",
       2871,
-      "2871_dragon_determinationkarma"
+      "2871_dragon_determinationkarma_b"
     ],
     "10115": [
       "Scaly Armored Summer Flair",
@@ -19648,7 +19648,7 @@
     "10116": [
       "High Seven Summer Flair",
       2919,
-      "2919_dragon_highseven"
+      "2919_dragon_highseven_b"
     ],
     "10117": [
       "Maroarder Summer Flair",
@@ -19663,7 +19663,7 @@
     "10119": [
       "High Heroic Summer Flair",
       3003,
-      "3003_dragon_highheroic"
+      "3003_dragon_highheroic_b"
     ],
     "10120": [
       "Dual Parliament Summer Flair",
@@ -19708,12 +19708,12 @@
     "10079": [
       "Golden Surfer Skin",
       3481,
-      "3481_dragon_highwaverider_skin1"
+      "3481_dragon_highwaverider_skin1_c"
     ],
     "3380": [
       "Champion of the Waves Skin",
       3481,
-      "3481_dragon_highwaverider_skin2"
+      "3481_dragon_highwaverider_skin2_c"
     ],
     "10127": [
       "High Tidal Summer Flair",
@@ -19738,12 +19738,12 @@
     "10130": [
       "Champion of Summer",
       3481,
-      "3481_dragon_highwaverider_skin2"
+      "3481_dragon_highwaverider_skin2_c"
     ],
     "3383": [
       "Abyssal Rampart Skill Skin",
       3473,
-      "3473_dragon_voidfortress_skin1"
+      "3473_dragon_voidfortress_skin1_b"
     ],
     "3385": [
       "Chocolatier Skin",
@@ -19773,7 +19773,7 @@
     "3390": [
       "Nightbloom Skill Skin",
       3491,
-      "3491_dragon_highstainednaiad_skin2"
+      "3491_dragon_highstainednaiad_skin2_b"
     ],
     "3391": [
       "Rhythm Ranger Skill Skin",
@@ -19788,7 +19788,7 @@
     "3393": [
       "Neptune Armor Skill Skin",
       3502,
-      "3502_dragon_highrisensea_skin1"
+      "3502_dragon_highrisensea_skin1_b"
     ],
     "3397": [
       "Iron Plague Skill Skin",
@@ -19803,7 +19803,7 @@
     "3396": [
       "Coco Groove Skin",
       3497,
-      "3497_dragon_beatdrop_skin1"
+      "3497_dragon_beatdrop_skin1_b"
     ],
     "3398": [
       "Sacred Venom Skill Skin",
@@ -19893,7 +19893,7 @@
     "10146": [
       "High Risen Nature Groovy Flair",
       3451,
-      "3451_dragon_highrisennature"
+      "3451_dragon_highrisennature_b"
     ],
     "10147": [
       "The Herald Groovy Flair",
@@ -19943,7 +19943,7 @@
     "10156": [
       "Empower Groovy Flair",
       2994,
-      "2994_dragon_empower"
+      "2994_dragon_empower_b"
     ],
     "10157": [
       "High Camouflage Groovy Flair",
@@ -19998,7 +19998,7 @@
     "10167": [
       "High Astro Black Hole Groovy Flair",
       3459,
-      "3459_dragon_highastroblackhole"
+      "3459_dragon_highastroblackhole_b"
     ],
     "10168": [
       "High Doom Baron Groovy Flair",
@@ -20053,7 +20053,7 @@
     "3399": [
       "Divine Verdict Skill Skin",
       3504,
-      "3504_dragon_highhollowcrown_skin1"
+      "3504_dragon_highhollowcrown_skin1_b"
     ],
     "3400": [
       "Thornwitch Skill Skin",

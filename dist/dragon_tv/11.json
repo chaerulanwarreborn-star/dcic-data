@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:24Z",
+  "generated_at": "2026-11-17T16:56:38Z",
   "collections": [
     {
       "id": 3019,
@@ -35470,8 +35470,11 @@
                   "id": 14717,
                   "name": "Daisy Chain",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_daisy_chain@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_daisy_chain_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_daisy_chain_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_daisy_chain_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_daisy_chain_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_daisy_chain@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_daisy_chain@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_daisy_chain@2x.png",
@@ -36516,8 +36519,11 @@
                   "id": 14845,
                   "name": "Hallows Pumpkin",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin@2x.png",
@@ -45012,7 +45018,7 @@
                   "image_candidates": [
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3000_dragon_guardianangel_3.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_3@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_b_1@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -45301,7 +45307,7 @@
                   "image_candidates": [
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3000_dragon_guardianangel_3.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_3@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_b_1@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
@@ -45603,7 +45609,7 @@
                   "image_candidates": [
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3000_dragon_guardianangel_3.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_3@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_1@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3000_dragon_guardianangel_b_1@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

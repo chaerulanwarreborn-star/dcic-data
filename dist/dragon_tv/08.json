@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:24Z",
+  "generated_at": "2026-11-17T16:56:38Z",
   "collections": [
     {
       "id": 3016,
@@ -32734,8 +32734,11 @@
                   "id": 14656,
                   "name": "Monument Souvenir",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_minimonumentsouvenir@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_minimonumentsouvenir_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_minimonumentsouvenir_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_minimonumentsouvenir_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_minimonumentsouvenir_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_minimonumentsouvenir@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_minimonumentsouvenir@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_minimonumentsouvenir@2x.png",
@@ -34303,8 +34306,11 @@
                   "id": 14845,
                   "name": "Hallows Pumpkin",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_creepypumpkin@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_creepypumpkin@2x.png",
@@ -44844,8 +44850,8 @@
                   "image_candidates": [
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3171_dragon_dauntless_1@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3171_dragon_dauntless_0@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3171_dragon_dauntless_3.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3171_dragon_dauntless_3@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3171_dragon_dauntless_b_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3171_dragon_dauntless_b_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

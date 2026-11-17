@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:25Z",
+  "generated_at": "2026-11-17T16:56:39Z",
   "collections": [
     {
       "id": 3004,
@@ -31793,8 +31793,11 @@
                   "id": 14518,
                   "name": "Cannonball",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_908_chest_cannonball@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_908_chest_cannonball_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_908_chest_cannonball_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_908_chest_cannonball_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/908_chest_cannonball_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_908_chest_cannonball@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_908_chest_cannonball@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/908_chest_cannonball@2x.png",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T12:50:24Z",
+  "generated_at": "2026-11-17T16:56:38Z",
   "collections": [
     {
       "id": 4020,
@@ -34910,8 +34910,11 @@
                   "id": 14857,
                   "name": "Hallows Ghost",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_wailingspirit@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_wailingspirit_b@2x.png",
                   "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_wailingspirit_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_wailingspirit_b@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_wailingspirit_b@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_wailingspirit@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_wailingspirit@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_wailingspirit@2x.png",
@@ -48953,12 +48956,12 @@
                   "id": 2929,
                   "name": "Spades Dragon",
                   "rarity": "M",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_1@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_b_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_b_1@2x.png",
                     "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_0@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2929_dragon_spades_3.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_3@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2929_dragon_spades_b_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2929_dragon_spades_b_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",

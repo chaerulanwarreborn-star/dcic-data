@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-17T12:49:58.154656Z",
+  "generated_at": "2026-11-17T16:56:12.537785Z",
   "source_file": "game_config.json",
   "localization_file": "dragon_city_localization_baseline_en.json",
   "display_text_source": "localization",
@@ -10,7 +10,14 @@
       "id": 126,
       "name": "Arctic Fog Island",
       "title": "Arctic Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1769425200,
       "end_ts": 1769770799,
       "start_iso": "2026-01-26T11:00:00Z",
@@ -5017,7 +5024,14 @@
       "id": 127,
       "name": "Brightest Mirror Fog Island",
       "title": "Brightest Mirror Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1771498800,
       "end_ts": 1771844400,
       "start_iso": "2026-02-19T11:00:00Z",
@@ -10024,7 +10038,14 @@
       "id": 128,
       "name": "Stpatrick Fog Island",
       "title": "Stpatrick Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1773054000,
       "end_ts": 1773399600,
       "start_iso": "2026-03-09T11:00:00Z",
@@ -10151,7 +10172,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -11195,7 +11216,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -15045,7 +15066,14 @@
       "id": 130,
       "name": "Easter2019 Fog Island",
       "title": "Easter2019 Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1775124000,
       "end_ts": 1775469540,
       "start_iso": "2026-04-02T10:00:00Z",
@@ -15172,7 +15200,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -16216,7 +16244,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -20066,7 +20094,14 @@
       "id": 129,
       "name": "Stpatrick Fog Island",
       "title": "Stpatrick Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1776679200,
       "end_ts": 1777024740,
       "start_iso": "2026-04-20T10:00:00Z",
@@ -20193,7 +20228,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -21251,7 +21286,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -25101,7 +25136,14 @@
       "id": 131,
       "name": "Brightest Mirror Fog Island",
       "title": "Brightest Mirror Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1778752800,
       "end_ts": 1779098340,
       "start_iso": "2026-05-14T10:00:00Z",
@@ -25228,7 +25270,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -26286,7 +26328,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -30136,7 +30178,14 @@
       "id": 144,
       "name": "Divination Mapbg Ragnarok Fog Island",
       "title": "Divination Mapbg Ragnarok Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1780308000,
       "end_ts": 1780653540,
       "start_iso": "2026-06-01T10:00:00Z",
@@ -30263,7 +30312,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -31307,7 +31356,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -35157,7 +35206,14 @@
       "id": 311,
       "name": "Abyss Fog Island",
       "title": "Abyss Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1782381600,
       "end_ts": 1782727140,
       "start_iso": "2026-06-25T10:00:00Z",
@@ -35382,7 +35438,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -36398,7 +36454,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -40248,7 +40304,14 @@
       "id": 315,
       "name": "Easter2019 Fog Island",
       "title": "Easter2019 Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1783936800,
       "end_ts": 1784282400,
       "start_iso": "2026-07-13T10:00:00Z",
@@ -40375,7 +40438,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -41419,7 +41482,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -45269,7 +45332,14 @@
       "id": 320,
       "name": "Statue Of Dc Fog Island",
       "title": "Statue Of Dc Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1786010400,
       "end_ts": 1786355940,
       "start_iso": "2026-08-06T10:00:00Z",
@@ -45480,7 +45550,7 @@
             "description": "Contains a Legendary Treasure Key.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_12623_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_L_HR_fog",
             "localization_description_key": "tid_chest_desc_L_HR_fog"
           },
@@ -45522,7 +45592,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -45536,7 +45606,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_15554_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HR_fog_paid",
             "localization_description_key": "tid_chest_desc_M_HR_fog_paid"
           },
@@ -45550,7 +45620,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_15645_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HR_fog_mid",
             "localization_description_key": "tid_chest_desc_M_HR_fog_mid"
           },
@@ -45634,7 +45704,7 @@
             "description": "Contains a Legendary Treasure Key.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16885_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_L_HR_fog_paid",
             "localization_description_key": "tid_chest_desc_L_HR_fog_paid"
           },
@@ -45648,7 +45718,7 @@
             "description": "Contains a Heroic Treasure Key.",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18180_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "localization_name_key": "tid_chest_name_H_HR_fog",
             "localization_description_key": "tid_chest_desc_H_HR_fog"
           }
@@ -46594,7 +46664,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -46951,7 +47021,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_16885_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -47677,7 +47747,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_12623_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -48898,7 +48968,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_15645_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -49729,7 +49799,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_15645_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -49813,7 +49883,7 @@
             "name": "Heroic Treasure Key",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18180_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -49855,7 +49925,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_15554_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -50442,7 +50512,14 @@
       "id": 316,
       "name": "Catacombs Fog Island",
       "title": "Catacombs Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1787565600,
       "end_ts": 1787911200,
       "start_iso": "2026-08-24T10:00:00Z",
@@ -50611,7 +50688,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -51627,7 +51704,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -55477,7 +55554,14 @@
       "id": 321,
       "name": "Divination Mapbg Ragnarok Fog Island",
       "title": "Flight of the North Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1789639200,
       "end_ts": 1789984800,
       "start_iso": "2026-09-17T10:00:00Z",
@@ -55576,7 +55660,7 @@
             "description": "Contains a Heroic Treasure Key.",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_2659_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "localization_name_key": "tid_chest_name_H_HR_fog",
             "localization_description_key": "tid_chest_desc_H_HR_fog"
           },
@@ -55590,7 +55674,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -55660,7 +55744,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -55786,7 +55870,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -55800,7 +55884,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_l",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           }
@@ -55850,7 +55934,7 @@
             "name": "Heroic Treasure Key",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_2659_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -56448,7 +56532,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -56599,7 +56683,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -56746,7 +56830,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -56872,7 +56956,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -56977,7 +57061,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -58190,7 +58274,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -58821,7 +58905,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -58926,7 +59010,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -59541,7 +59625,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -59988,7 +60072,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -60544,7 +60628,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -60596,7 +60680,14 @@
       "id": 322,
       "name": "Brightest Mirror Fog Island",
       "title": "Back to School Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1791194400,
       "end_ts": 1791540000,
       "start_iso": "2026-10-05T10:00:00Z",
@@ -60709,7 +60800,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_1403_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -60737,7 +60828,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_gold_silver",
             "source_chest_img_name": "chest_gachakey_gold_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_10257_chest_gachakey_gold_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_MnL_HRpass",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           },
@@ -60779,7 +60870,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -60863,7 +60954,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_l",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           }
@@ -60913,7 +61004,7 @@
             "name": "Mythical and Legendary Treasure Keys",
             "img_name": "chest_gachakey_gold_silver",
             "source_chest_img_name": "chest_gachakey_gold_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_10257_chest_gachakey_gold_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -61809,7 +61900,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -62680,7 +62771,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -63672,7 +63763,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -64713,7 +64804,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -65649,7 +65740,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_1403_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         }
@@ -65659,7 +65750,14 @@
       "id": 323,
       "name": "Catacombs Fog Island",
       "title": "Flying Broomsticks Fog Island",
-      "item_visuals": {},
+      "item_visuals": {
+        "8906": {
+          "scale": 1.35
+        },
+        "20505": {
+          "scale": 1.3
+        }
+      },
       "start_ts": 1793271600,
       "end_ts": 1793617140,
       "start_iso": "2026-10-29T11:00:00Z",
@@ -65758,7 +65856,7 @@
             "description": "Contains a Heroic Treasure Key.",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_2659_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "localization_name_key": "tid_chest_name_H_HR_fog",
             "localization_description_key": "tid_chest_desc_H_HR_fog"
           },
@@ -65772,7 +65870,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -65842,7 +65940,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -65968,7 +66066,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -65996,7 +66094,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_l",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           }
@@ -66046,7 +66144,7 @@
             "name": "Heroic Treasure Key",
             "img_name": "chest_gachakey_mds",
             "source_chest_img_name": "chest_gachakey_mds",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_2659_chest_gachakey_mds@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_mds_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -66302,7 +66400,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -66472,7 +66570,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_3747_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -66730,7 +66828,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -66942,7 +67040,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -67173,7 +67271,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -68386,7 +68484,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -69017,7 +69115,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -69122,7 +69220,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -69737,7 +69835,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -70184,7 +70282,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -70740,7 +70838,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_18127_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -70898,7 +70996,7 @@
             "description": "Contains a Mythical Treasure Key.",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_1403_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "localization_name_key": "tid_chest_name_M_HRTower_paid",
             "localization_description_key": "tid_chest_desc_M_HRTower_paid"
           },
@@ -70926,7 +71024,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_gold_silver",
             "source_chest_img_name": "chest_gachakey_gold_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_10257_chest_gachakey_gold_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_MnL_HRpass",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           },
@@ -70968,7 +71066,7 @@
             "description": "Contains a large amount of Pet Food.",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "localization_name_key": "tid_chest_name_petfood_l",
             "localization_description_key": "tid_chest_description_petfood_l"
           },
@@ -71052,7 +71150,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_17058_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_l",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           },
@@ -71066,7 +71164,7 @@
             "description": "Contains Mythical and Legendary Treasure Keys.",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "localization_name_key": "tid_chest_name_l",
             "localization_description_key": "tid_chest_desc_MnL_HRpass"
           },
@@ -71130,7 +71228,7 @@
             "name": "Mythical and Legendary Treasure Keys",
             "img_name": "chest_gachakey_gold_silver",
             "source_chest_img_name": "chest_gachakey_gold_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_10257_chest_gachakey_gold_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -72026,7 +72124,7 @@
             "name": "Large Pet Food Basket",
             "img_name": "chest_pet_food_l",
             "source_chest_img_name": "chest_pet_food_l",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_14937_chest_pet_food_l@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_pet_food_l_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -72897,7 +72995,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -73889,7 +73987,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_17058_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -74930,7 +75028,7 @@
             "name": "Legendary Treasure Key",
             "img_name": "chest_gachakey_silver",
             "source_chest_img_name": "chest_gachakey_silver",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_19741_chest_gachakey_silver@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_silver_b@2x.png",
             "summary_excluded": false
           }
         },
@@ -75866,7 +75964,7 @@
             "name": "Mythical Treasure Key",
             "img_name": "chest_gachakey_gold",
             "source_chest_img_name": "chest_gachakey_gold",
-            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_1403_chest_gachakey_gold@2x.png",
+            "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_b@2x.png",
             "summary_excluded": false
           }
         }

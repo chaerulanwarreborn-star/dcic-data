@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-17T12:50:16Z",
+  "generated_at": "2026-11-17T16:56:33Z",
   "album_count": 6,
   "set_count": 66,
   "sticker_count": 671,
@@ -4409,7 +4409,7 @@
           "image_candidates": [
             "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3491_dragon_highstainednaiad_3.png",
             "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_3@2x.png",
-            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_1@2x.png"
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_b_1@2x.png"
           ],
           "popup": {
             "kind": "dragon",
@@ -7397,7 +7397,7 @@
               "image_candidates": [
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3491_dragon_highstainednaiad_3.png",
                 "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_3@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_1@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3491_dragon_highstainednaiad_b_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
@@ -16139,7 +16139,7 @@
             {
               "id": 170010,
               "name": "Golden Hollow Heart",
-              "description": "Unit 3519 Skin1 Description",
+              "description": "By simply owning this Skin, your dragon's overall damage stat and life points will be boosted by 25%.",
               "rarity": "rarity_2",
               "rarity_name": "Rarity 2",
               "rarity_type": "normal",
