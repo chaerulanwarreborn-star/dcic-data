@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-17T07:07:18.038726Z",
+  "generated_at": "2026-11-17T11:31:28.356688Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -710390,49 +710390,30 @@
                 ],
                 "reward": {
                   "reward_id": 354011,
-                  "name": "Mythical and Legendary Treasure Keys",
-                  "amount": 1,
-                  "kind": "chest",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
-                  "popup": {
-                    "kind": "chest",
-                    "id": 14959,
-                    "type": "generic"
-                  },
+                  "name": "Heroic Treasure Key",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
+                  "popup": {},
                   "rarity": "",
                   "items": [
                     {
-                      "kind": "chest",
-                      "type": "chest",
-                      "asset_kind": "chest",
-                      "id": 14959,
-                      "chest_id": 14959,
-                      "source_chest_id": 14959,
-                      "source_chest_img_name": "",
-                      "img_name": "",
-                      "chest_type": "generic",
-                      "chest_key": "generic:14959",
-                      "detail_file": "generic/47.json",
-                      "name": "Mythical and Legendary Treasure Keys",
-                      "amount": 1,
-                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
+                      "kind": "resource",
+                      "type": "treasure_key",
+                      "resource": "treasure_key",
+                      "key": "permanent_gacha.heroic",
+                      "name": "Heroic Treasure Key",
+                      "amount": 10,
+                      "subtype": "heroic",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
                       "image_candidates": [
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold_silver@2x.png",
-                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_gachakey_gold_silver.png",
-                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
-                      ],
-                      "popup": {
-                        "kind": "chest",
-                        "id": 14959,
-                        "type": "generic"
-                      }
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png"
+                      ]
                     }
                   ],
                   "raw": [
                     {
-                      "chest": 14959
+                      "permanent_gacha.heroic": 10
                     }
                   ]
                 },
@@ -710935,7 +710916,7 @@
                 "reward": {
                   "reward_id": 354013,
                   "name": "Legendary Treasure Key",
-                  "amount": 10,
+                  "amount": 20,
                   "kind": "resource",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "popup": {},
@@ -710947,7 +710928,7 @@
                       "resource": "treasure_key",
                       "key": "permanent_gacha.legendary",
                       "name": "Legendary Treasure Key",
-                      "amount": 10,
+                      "amount": 20,
                       "subtype": "legendary",
                       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                       "image_candidates": [
@@ -710957,7 +710938,7 @@
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.legendary": 10
+                      "permanent_gacha.legendary": 20
                     }
                   ]
                 },
@@ -711101,10 +711082,10 @@
                 ],
                 "reward": {
                   "reward_id": 354025,
-                  "name": "Legendary Treasure Key",
-                  "amount": 10,
+                  "name": "Mythical Treasure Key",
+                  "amount": 40,
                   "kind": "resource",
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "popup": {},
                   "rarity": "",
                   "items": [
@@ -711112,19 +711093,19 @@
                       "kind": "resource",
                       "type": "treasure_key",
                       "resource": "treasure_key",
-                      "key": "permanent_gacha.legendary",
-                      "name": "Legendary Treasure Key",
-                      "amount": 10,
-                      "subtype": "legendary",
-                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "key": "permanent_gacha.mythical",
+                      "name": "Mythical Treasure Key",
+                      "amount": 40,
+                      "subtype": "mythical",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                       "image_candidates": [
-                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
                       ]
                     }
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.legendary": 10
+                      "permanent_gacha.mythical": 40
                     }
                   ]
                 },
@@ -711148,7 +711129,7 @@
                 "reward": {
                   "reward_id": 354029,
                   "name": "Mythical Treasure Key",
-                  "amount": 5,
+                  "amount": 25,
                   "kind": "resource",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "popup": {},
@@ -711160,7 +711141,7 @@
                       "resource": "treasure_key",
                       "key": "permanent_gacha.mythical",
                       "name": "Mythical Treasure Key",
-                      "amount": 5,
+                      "amount": 25,
                       "subtype": "mythical",
                       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                       "image_candidates": [
@@ -711170,7 +711151,7 @@
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.mythical": 5
+                      "permanent_gacha.mythical": 25
                     }
                   ]
                 },
@@ -711372,7 +711353,7 @@
                 "reward": {
                   "reward_id": 354002,
                   "name": "Legendary Treasure Key",
-                  "amount": 2,
+                  "amount": 10,
                   "kind": "resource",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "popup": {},
@@ -711384,7 +711365,7 @@
                       "resource": "treasure_key",
                       "key": "permanent_gacha.legendary",
                       "name": "Legendary Treasure Key",
-                      "amount": 2,
+                      "amount": 10,
                       "subtype": "legendary",
                       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                       "image_candidates": [
@@ -711394,7 +711375,7 @@
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.legendary": 2
+                      "permanent_gacha.legendary": 10
                     }
                   ]
                 },
@@ -711594,7 +711575,7 @@
                 "reward": {
                   "reward_id": 354010,
                   "name": "Legendary Treasure Key",
-                  "amount": 5,
+                  "amount": 10,
                   "kind": "resource",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "popup": {},
@@ -711606,7 +711587,7 @@
                       "resource": "treasure_key",
                       "key": "permanent_gacha.legendary",
                       "name": "Legendary Treasure Key",
-                      "amount": 5,
+                      "amount": 10,
                       "subtype": "legendary",
                       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                       "image_candidates": [
@@ -711616,7 +711597,7 @@
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.legendary": 5
+                      "permanent_gacha.legendary": 10
                     }
                   ]
                 },
@@ -711879,10 +711860,10 @@
                 ],
                 "reward": {
                   "reward_id": 354020,
-                  "name": "Legendary Treasure Key",
-                  "amount": 2,
+                  "name": "Mythical Treasure Key",
+                  "amount": 5,
                   "kind": "resource",
-                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                  "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "popup": {},
                   "rarity": "",
                   "items": [
@@ -711890,19 +711871,19 @@
                       "kind": "resource",
                       "type": "treasure_key",
                       "resource": "treasure_key",
-                      "key": "permanent_gacha.legendary",
-                      "name": "Legendary Treasure Key",
-                      "amount": 2,
-                      "subtype": "legendary",
-                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
+                      "key": "permanent_gacha.mythical",
+                      "name": "Mythical Treasure Key",
+                      "amount": 5,
+                      "subtype": "mythical",
+                      "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                       "image_candidates": [
-                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png"
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png"
                       ]
                     }
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.legendary": 2
+                      "permanent_gacha.mythical": 5
                     }
                   ]
                 },
@@ -712232,7 +712213,7 @@
                 "reward": {
                   "reward_id": 354032,
                   "name": "Mythical Treasure Key",
-                  "amount": 1,
+                  "amount": 10,
                   "kind": "resource",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "popup": {},
@@ -712244,7 +712225,7 @@
                       "resource": "treasure_key",
                       "key": "permanent_gacha.mythical",
                       "name": "Mythical Treasure Key",
-                      "amount": 1,
+                      "amount": 10,
                       "subtype": "mythical",
                       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                       "image_candidates": [
@@ -712254,7 +712235,7 @@
                   ],
                   "raw": [
                     {
-                      "permanent_gacha.mythical": 1
+                      "permanent_gacha.mythical": 10
                     }
                   ]
                 },
@@ -721966,7 +721947,7 @@
             "free_reward": {
               "reward_id": 1252001,
               "name": "Legendary Treasure Key",
-              "amount": 50,
+              "amount": 75,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
               "popup": {},
@@ -721978,7 +721959,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Treasure Key",
-                  "amount": 50,
+                  "amount": 75,
                   "subtype": "legendary",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "image_candidates": [
@@ -721988,7 +721969,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.legendary": 50
+                  "permanent_gacha.legendary": 75
                 }
               ]
             },
@@ -722124,7 +722105,7 @@
             "free_reward": {
               "reward_id": 1252003,
               "name": "Gems",
-              "amount": 10,
+              "amount": 20,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png",
               "popup": {},
@@ -722136,13 +722117,13 @@
                   "resource": "gems",
                   "key": "c",
                   "name": "Gems",
-                  "amount": 10,
+                  "amount": 20,
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/resources/ic-gem.png"
                 }
               ],
               "raw": [
                 {
-                  "c": 10
+                  "c": 20
                 }
               ]
             },
@@ -722534,7 +722515,7 @@
             "premium_reward": {
               "reward_id": 1250009,
               "name": "Legendary Treasure Key",
-              "amount": 30,
+              "amount": 100,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
               "popup": {},
@@ -722546,7 +722527,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Treasure Key",
-                  "amount": 30,
+                  "amount": 100,
                   "subtype": "legendary",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "image_candidates": [
@@ -722556,7 +722537,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.legendary": 30
+                  "permanent_gacha.legendary": 100
                 }
               ]
             },
@@ -722696,7 +722677,7 @@
             "free_reward": {
               "reward_id": 1252011,
               "name": "Mythical Treasure Key",
-              "amount": 10,
+              "amount": 25,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
               "popup": {},
@@ -722708,7 +722689,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Treasure Key",
-                  "amount": 10,
+                  "amount": 25,
                   "subtype": "mythical",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "image_candidates": [
@@ -722718,7 +722699,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.mythical": 10
+                  "permanent_gacha.mythical": 25
                 }
               ]
             },
@@ -722894,7 +722875,7 @@
             "premium_reward": {
               "reward_id": 1250015,
               "name": "Mythical Treasure Key",
-              "amount": 30,
+              "amount": 100,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
               "popup": {},
@@ -722906,7 +722887,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Treasure Key",
-                  "amount": 30,
+                  "amount": 100,
                   "subtype": "mythical",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "image_candidates": [
@@ -722916,7 +722897,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.mythical": 30
+                  "permanent_gacha.mythical": 100
                 }
               ]
             },
@@ -723291,7 +723272,7 @@
             "free_reward": {
               "reward_id": 1252021,
               "name": "Legendary Treasure Key",
-              "amount": 50,
+              "amount": 100,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
               "popup": {},
@@ -723303,7 +723284,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.legendary",
                   "name": "Legendary Treasure Key",
-                  "amount": 50,
+                  "amount": 100,
                   "subtype": "legendary",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-silver-special.png",
                   "image_candidates": [
@@ -723313,7 +723294,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.legendary": 50
+                  "permanent_gacha.legendary": 100
                 }
               ]
             },
@@ -723488,7 +723469,7 @@
             "free_reward": {
               "reward_id": 1252024,
               "name": "Mythical Treasure Key",
-              "amount": 10,
+              "amount": 25,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
               "popup": {},
@@ -723500,7 +723481,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.mythical",
                   "name": "Mythical Treasure Key",
-                  "amount": 10,
+                  "amount": 25,
                   "subtype": "mythical",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-gold-special.png",
                   "image_candidates": [
@@ -723510,7 +723491,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.mythical": 10
+                  "permanent_gacha.mythical": 25
                 }
               ]
             },
@@ -723600,7 +723581,7 @@
             "premium_reward": {
               "reward_id": 1250026,
               "name": "Heroic Treasure Key",
-              "amount": 3,
+              "amount": 25,
               "kind": "resource",
               "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
               "popup": {},
@@ -723612,7 +723593,7 @@
                   "resource": "treasure_key",
                   "key": "permanent_gacha.heroic",
                   "name": "Heroic Treasure Key",
-                  "amount": 3,
+                  "amount": 25,
                   "subtype": "heroic",
                   "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic-gachakey-mds-special.png",
                   "image_candidates": [
@@ -723622,7 +723603,7 @@
               ],
               "raw": [
                 {
-                  "permanent_gacha.heroic": 3
+                  "permanent_gacha.heroic": 25
                 }
               ]
             },
@@ -725670,7 +725651,7 @@
               "minor_symbols": [
                 {
                   "kind": "element",
-                  "code": "p"
+                  "code": "hp"
                 }
               ],
               "collectible_actions": [
@@ -725680,7 +725661,7 @@
                   "amount": 5,
                   "rules": {
                     "all_of_elements": [
-                      "p"
+                      "hp"
                     ]
                   }
                 }

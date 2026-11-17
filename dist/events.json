@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-17T07:07:19.817463Z",
+  "generated_at": "2026-11-17T11:31:29.824838Z",
   "source_file": "game_config.json",
   "event_count": 90,
   "events": [
@@ -3879,7 +3879,7 @@
       "featured_dragon_count": 5,
       "event_season": "Covens Hatching",
       "building_id": 343,
-      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0343_jungle_island@2x.png",
+      "building_image": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/buildings/ui_0343_jungle_island_b@2x.png",
       "asset_zip": "/mobile/ui/fog_islands/fi_carnaval_b.zip"
     },
     {
