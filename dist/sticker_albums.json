@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-18T07:22:09Z",
+  "generated_at": "2026-11-18T12:21:16Z",
   "album_count": 6,
   "set_count": 66,
   "sticker_count": 671,
@@ -16012,7 +16012,7 @@
             },
             {
               "id": 170004,
-              "name": "High Hollow Queen",
+              "name": "High Hollow Queen Dragon",
               "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
@@ -16033,7 +16033,7 @@
             },
             {
               "id": 170005,
-              "name": "High Hollow Queen",
+              "name": "High Hollow Queen Dragon",
               "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
@@ -16054,7 +16054,7 @@
             },
             {
               "id": 170006,
-              "name": "High Hollow Queen",
+              "name": "High Hollow Queen Dragon",
               "description": "No winter could cage her. No kingdom could tame her. The High Hollow Queen swept through Dragon City like a frozen storm, her icy armor radiating a power that freezes the very will of her enemies. What she claims, stays claimed. What she conquers, stays conquered.",
               "rarity": "rarity_1",
               "rarity_name": "Rarity 1",
@@ -16164,7 +16164,7 @@
         },
         {
           "id": 17002,
-          "name": "Set 17002",
+          "name": "Frostborn Legends",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_b.png",
           "asset_stickers": "album14_set_b",
@@ -16426,7 +16426,7 @@
         },
         {
           "id": 17003,
-          "name": "Set 17003",
+          "name": "Legends of the Winter Star",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_c.png",
           "asset_stickers": "album14_set_c",
@@ -16670,7 +16670,7 @@
         },
         {
           "id": 17004,
-          "name": "Set 17004",
+          "name": "Winterbound Spirits",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_d.png",
           "asset_stickers": "album14_set_d",
@@ -16911,7 +16911,7 @@
         },
         {
           "id": 17005,
-          "name": "Set 17005",
+          "name": "The Grand Winter Feast",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_e.png",
           "asset_stickers": "album14_set_e",
@@ -17172,7 +17172,7 @@
         },
         {
           "id": 17006,
-          "name": "Set 17006",
+          "name": "Eternal Flame",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_f.png",
           "asset_stickers": "album14_set_f",
@@ -17426,7 +17426,7 @@
         },
         {
           "id": 17007,
-          "name": "Set 17007",
+          "name": "Quantum Creation",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_g.png",
           "asset_stickers": "album14_set_g",
@@ -17435,19 +17435,19 @@
           "status": "upcoming",
           "reward": [
             {
-              "id": 3027,
-              "name": "Empire Wasteland Dragon",
-              "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_1@2x.png",
+              "id": 2768,
+              "name": "Corrupted Chaos Dragon",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_1@2x.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_1@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_0@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3027_dragon_empirewasteland_3.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_3@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_1@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_0@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_3@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
-                "id": 3027
+                "id": 2768
               },
               "kind": "egg",
               "amount": 1
@@ -17698,7 +17698,7 @@
         },
         {
           "id": 17008,
-          "name": "Set 17008",
+          "name": "The Merry Hoard",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_h.png",
           "asset_stickers": "album14_set_h",
@@ -17707,18 +17707,18 @@
           "status": "upcoming",
           "reward": [
             {
-              "id": 3027,
-              "name": "Empire Wasteland Orbs",
-              "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3027_dragon_empirewasteland_3.png",
+              "id": 2768,
+              "name": "Corrupted Chaos Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3027_dragon_empirewasteland_3.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_3@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_1@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
-                "id": 3027
+                "id": 2768
               },
               "kind": "dragon_orbs",
               "amount": 200
@@ -17956,7 +17956,7 @@
         },
         {
           "id": 17009,
-          "name": "Set 17009",
+          "name": "The Starlight Gathering",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_i.png",
           "asset_stickers": "album14_set_i",
@@ -18237,7 +18237,7 @@
         },
         {
           "id": 17010,
-          "name": "Set 17010",
+          "name": "Ascended",
           "lifetime": "permanent",
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/sticker_album_sets/HD/album_14_set_j.png",
           "asset_stickers": "album14_set_j",
@@ -18247,13 +18247,13 @@
           "reward": [
             {
               "kind": "skin",
-              "id": 3422,
-              "name": "Captain Corsair Skin",
+              "id": 3456,
+              "name": "Skin 3456",
               "amount": 1,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3507_dragon_witchhunter_skin1_3.png",
+              "image_url": "",
               "popup": {
                 "kind": "skin",
-                "id": 3422
+                "id": 3456
               }
             },
             {
@@ -18535,18 +18535,18 @@
               "amount": 1
             },
             {
-              "id": 3027,
-              "name": "Empire Wasteland Orbs",
-              "rarity": "L",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3027_dragon_empirewasteland_3.png",
+              "id": 2768,
+              "name": "Corrupted Chaos Orbs",
+              "rarity": "M",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3027_dragon_empirewasteland_3.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_3@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3027_dragon_empirewasteland_1@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_2768_dragon_corruptedchaos_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_2768_dragon_corruptedchaos_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
-                "id": 3027
+                "id": 2768
               },
               "kind": "dragon_orbs",
               "amount": 320

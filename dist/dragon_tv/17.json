@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:22:19Z",
+  "generated_at": "2026-11-18T12:21:24Z",
   "collections": [
     {
       "id": 3025,
@@ -48593,17 +48593,25 @@
             },
             {
               "position": 3,
-              "reward_id": 913,
+              "reward_id": 268,
               "rewards": [
                 {
-                  "kind": "item",
-                  "id": 11888,
-                  "name": "Firecracker",
+                  "kind": "chest",
+                  "id": 11334,
+                  "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11888_deco_firecracker@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_169_chest_tokenseav2@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_169_chest_tokenseav2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_169_chest_tokenseav2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/169_chest_tokenseav2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/169_chest_tokenseav2.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
-                    "kind": "item",
-                    "id": 11888
+                    "kind": "chest",
+                    "id": 11334,
+                    "type": "generic"
                   }
                 }
               ]
@@ -48677,17 +48685,25 @@
             },
             {
               "position": 7,
-              "reward_id": 913,
+              "reward_id": 341,
               "rewards": [
                 {
-                  "kind": "item",
-                  "id": 11888,
-                  "name": "Firecracker",
+                  "kind": "chest",
+                  "id": 11453,
+                  "name": "Roulette Chest",
                   "amount": 1,
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/decorations/ui_11888_deco_firecracker@2x.png",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_176_chest_tokenwarv2@2x.png",
+                  "image_candidates": [
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_176_chest_tokenwarv2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_176_chest_tokenwarv2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/176_chest_tokenwarv2@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/176_chest_tokenwarv2.png",
+                    "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                  ],
                   "popup": {
-                    "kind": "item",
-                    "id": 11888
+                    "kind": "chest",
+                    "id": 11453,
+                    "type": "generic"
                   }
                 }
               ]
