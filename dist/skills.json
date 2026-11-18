@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:56:46Z",
+  "generated_at": "2026-11-18T07:22:31Z",
   "schema_version": 3,
   "count": 612,
   "linked_count": 317,
@@ -9,6 +9,7 @@
   "effect_count": 767,
   "world_count": 8,
   "status_icons": [
+    "asset:skills-icon/effects/ic-status-silence.png",
     "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-chance-positive.png",
     "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-critical-damage-positive.png",
     "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
@@ -27636,12 +27637,12 @@
       "skins": [
         [
           3049,
-          "t",
+          "b",
           3141
         ],
         [
           3049,
-          "b",
+          "t",
           3141
         ]
       ],
@@ -27789,12 +27790,12 @@
       "skins": [
         [
           3048,
-          "t",
+          "b",
           3191
         ],
         [
           3048,
-          "b",
+          "t",
           3191
         ]
       ],
@@ -28150,12 +28151,12 @@
       "skins": [
         [
           3109,
-          "t",
+          "b",
           334
         ],
         [
           3109,
-          "b",
+          "t",
           334
         ]
       ],
@@ -28531,12 +28532,12 @@
       "skins": [
         [
           3058,
-          "t",
+          "b",
           3661
         ],
         [
           3058,
-          "b",
+          "t",
           3661
         ]
       ],
@@ -29044,13 +29045,13 @@
       "skins": [
         [
           3066,
-          "t",
-          5361
+          "b",
+          5321
         ],
         [
           3066,
-          "b",
-          5321
+          "t",
+          5361
         ]
       ],
       "titan_count": 0,
@@ -32600,22 +32601,22 @@
       "skins": [
         [
           3104,
-          "t",
+          "b",
           749
         ],
         [
           3104,
-          "b",
+          "t",
           749
         ],
         [
           3112,
-          "t",
+          "b",
           771
         ],
         [
           3112,
-          "b",
+          "t",
           771
         ]
       ],
@@ -32939,12 +32940,12 @@
       "skins": [
         [
           3090,
-          "t",
+          "b",
           6871
         ],
         [
           3090,
-          "b",
+          "t",
           6871
         ]
       ],
@@ -33109,12 +33110,12 @@
       "skins": [
         [
           3091,
-          "t",
+          "b",
           6941
         ],
         [
           3091,
-          "b",
+          "t",
           6941
         ]
       ],
@@ -33203,12 +33204,12 @@
       "skins": [
         [
           3096,
-          "t",
+          "b",
           7101
         ],
         [
           3096,
-          "b",
+          "t",
           7101
         ]
       ],
@@ -33280,12 +33281,12 @@
       "skins": [
         [
           3097,
-          "t",
+          "b",
           7111
         ],
         [
           3097,
-          "b",
+          "t",
           7111
         ]
       ],
@@ -33368,12 +33369,12 @@
       "skins": [
         [
           3088,
-          "t",
+          "b",
           6801
         ],
         [
           3088,
-          "b",
+          "t",
           6801
         ]
       ],
@@ -33529,12 +33530,12 @@
       "skins": [
         [
           3099,
-          "t",
+          "b",
           7281
         ],
         [
           3099,
-          "b",
+          "t",
           7281
         ]
       ],
@@ -33606,12 +33607,12 @@
       "skins": [
         [
           3099,
-          "t",
+          "b",
           7291
         ],
         [
           3099,
-          "b",
+          "t",
           7291
         ]
       ],
@@ -34028,12 +34029,12 @@
       "skins": [
         [
           3115,
-          "t",
+          "b",
           794
         ],
         [
           3115,
-          "b",
+          "t",
           794
         ]
       ],
@@ -34279,12 +34280,12 @@
       "skins": [
         [
           3116,
-          "t",
+          "b",
           804
         ],
         [
           3116,
-          "b",
+          "t",
           804
         ]
       ],
@@ -34535,12 +34536,12 @@
       "skins": [
         [
           3118,
-          "t",
+          "b",
           824
         ],
         [
           3118,
-          "b",
+          "t",
           824
         ]
       ],
@@ -35101,12 +35102,12 @@
       "skins": [
         [
           3220,
-          "t",
+          "b",
           846
         ],
         [
           3220,
-          "b",
+          "t",
           846
         ]
       ],
@@ -35389,12 +35390,12 @@
       "skins": [
         [
           3222,
-          "t",
+          "b",
           869
         ],
         [
           3222,
-          "b",
+          "t",
           869
         ]
       ],
@@ -35566,12 +35567,12 @@
       "skins": [
         [
           3223,
-          "t",
+          "b",
           879
         ],
         [
           3223,
-          "b",
+          "t",
           879
         ]
       ],
@@ -35642,12 +35643,12 @@
       "skins": [
         [
           3224,
-          "t",
+          "b",
           880
         ],
         [
           3224,
-          "b",
+          "t",
           880
         ]
       ],
@@ -35881,12 +35882,12 @@
       "skins": [
         [
           3111,
-          "t",
+          "b",
           861
         ],
         [
           3111,
-          "b",
+          "t",
           861
         ]
       ],
@@ -36484,12 +36485,12 @@
       "skins": [
         [
           3230,
-          "t",
+          "b",
           4281
         ],
         [
           3230,
-          "b",
+          "t",
           4281
         ]
       ],
@@ -36576,12 +36577,12 @@
       "skins": [
         [
           3227,
-          "t",
+          "b",
           910
         ],
         [
           3227,
-          "b",
+          "t",
           910
         ]
       ],
@@ -36790,12 +36791,12 @@
       "skins": [
         [
           3228,
-          "t",
+          "b",
           913
         ],
         [
           3228,
-          "b",
+          "t",
           913
         ]
       ],
@@ -37021,7 +37022,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -37184,12 +37187,12 @@
       "skins": [
         [
           3056,
-          "t",
+          "b",
           2711
         ],
         [
           3056,
-          "b",
+          "t",
           2711
         ]
       ],
@@ -37260,12 +37263,12 @@
       "skins": [
         [
           3063,
-          "t",
+          "b",
           5061
         ],
         [
           3063,
-          "b",
+          "t",
           5061
         ]
       ],
@@ -37418,12 +37421,12 @@
       "skins": [
         [
           3062,
-          "t",
+          "b",
           5051
         ],
         [
           3062,
-          "b",
+          "t",
           5051
         ]
       ],
@@ -37571,22 +37574,22 @@
       "skins": [
         [
           3070,
-          "t",
+          "b",
           5991
         ],
         [
           3070,
-          "b",
+          "t",
           5991
         ],
         [
           3071,
-          "t",
+          "b",
           1468
         ],
         [
           3071,
-          "b",
+          "t",
           1468
         ]
       ],
@@ -37892,12 +37895,12 @@
       "skins": [
         [
           3074,
-          "t",
+          "b",
           6251
         ],
         [
           3074,
-          "b",
+          "t",
           6251
         ]
       ],
@@ -37967,12 +37970,12 @@
       "skins": [
         [
           3075,
-          "t",
+          "b",
           2831
         ],
         [
           3075,
-          "b",
+          "t",
           2831
         ]
       ],
@@ -38198,12 +38201,12 @@
       "skins": [
         [
           3084,
-          "t",
+          "b",
           6591
         ],
         [
           3084,
-          "b",
+          "t",
           6591
         ]
       ],
@@ -38273,12 +38276,12 @@
       "skins": [
         [
           3085,
-          "t",
+          "b",
           6631
         ],
         [
           3085,
-          "b",
+          "t",
           6631
         ]
       ],
@@ -38348,12 +38351,12 @@
       "skins": [
         [
           3078,
-          "t",
+          "b",
           6351
         ],
         [
           3078,
-          "b",
+          "t",
           6351
         ]
       ],
@@ -38423,12 +38426,12 @@
       "skins": [
         [
           3079,
-          "t",
+          "b",
           6371
         ],
         [
           3079,
-          "b",
+          "t",
           6371
         ]
       ],
@@ -38496,12 +38499,12 @@
       "skins": [
         [
           3080,
-          "t",
+          "b",
           6411
         ],
         [
           3080,
-          "b",
+          "t",
           6411
         ]
       ],
@@ -38584,12 +38587,12 @@
       "skins": [
         [
           3081,
-          "t",
+          "b",
           6421
         ],
         [
           3081,
-          "b",
+          "t",
           6421
         ]
       ],
@@ -38744,12 +38747,12 @@
       "skins": [
         [
           3087,
-          "t",
+          "b",
           6741
         ],
         [
           3087,
-          "b",
+          "t",
           6741
         ]
       ],
@@ -38819,12 +38822,12 @@
       "skins": [
         [
           3093,
-          "t",
+          "b",
           6981
         ],
         [
           3093,
-          "b",
+          "t",
           6981
         ]
       ],
@@ -38993,12 +38996,12 @@
       "skins": [
         [
           3094,
-          "t",
+          "b",
           7091
         ],
         [
           3094,
-          "b",
+          "t",
           7091
         ]
       ],
@@ -39085,12 +39088,12 @@
       "skins": [
         [
           3094,
-          "t",
+          "b",
           7051
         ],
         [
           3094,
-          "b",
+          "t",
           7051
         ]
       ],
@@ -39160,12 +39163,12 @@
       "skins": [
         [
           3108,
-          "t",
+          "b",
           7611
         ],
         [
           3108,
-          "b",
+          "t",
           7611
         ]
       ],
@@ -39252,12 +39255,12 @@
       "skins": [
         [
           3107,
-          "t",
+          "b",
           7601
         ],
         [
           3107,
-          "b",
+          "t",
           7601
         ]
       ],
@@ -39345,12 +39348,12 @@
       "skins": [
         [
           3100,
-          "t",
+          "b",
           7311
         ],
         [
           3100,
-          "b",
+          "t",
           7311
         ]
       ],
@@ -39420,12 +39423,12 @@
       "skins": [
         [
           3100,
-          "t",
+          "b",
           7321
         ],
         [
           3100,
-          "b",
+          "t",
           7321
         ]
       ],
@@ -39493,12 +39496,12 @@
       "skins": [
         [
           3098,
-          "t",
+          "b",
           7161
         ],
         [
           3098,
-          "b",
+          "t",
           7161
         ]
       ],
@@ -39568,12 +39571,12 @@
       "skins": [
         [
           3103,
-          "t",
+          "b",
           7451
         ],
         [
           3103,
-          "b",
+          "t",
           7451
         ]
       ],
@@ -39989,7 +39992,7 @@
         15
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -40131,7 +40134,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 1,
       "dragon_count": 1,
       "skin_count": 0,
@@ -40219,7 +40224,7 @@
         16
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -40286,7 +40291,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -40360,7 +40365,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -40444,7 +40449,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 1,
       "dragon_count": 1,
       "skin_count": 0,
@@ -41076,7 +41083,7 @@
         18
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -41253,7 +41260,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -41557,7 +41566,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -41650,7 +41659,7 @@
         20
       ],
       "status_icons": [
-        1
+        2
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -41747,7 +41756,7 @@
         21
       ],
       "status_icons": [
-        1
+        2
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -41815,7 +41824,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -41970,12 +41979,12 @@
       "skins": [
         [
           3253,
-          "t",
+          "b",
           1018
         ],
         [
           3253,
-          "b",
+          "t",
           1018
         ]
       ],
@@ -42115,7 +42124,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -42356,7 +42367,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -42449,7 +42462,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -42536,12 +42551,12 @@
       "skins": [
         [
           3261,
-          "t",
+          "b",
           1044
         ],
         [
           3261,
-          "b",
+          "t",
           1044
         ]
       ],
@@ -42705,12 +42720,12 @@
       "skins": [
         [
           3260,
-          "t",
+          "b",
           1043
         ],
         [
           3260,
-          "b",
+          "t",
           1043
         ]
       ],
@@ -42853,7 +42868,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -43050,8 +43065,8 @@
         25
       ],
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -43143,7 +43158,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -43220,7 +43237,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -43311,7 +43328,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -43483,7 +43500,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -43492,12 +43509,12 @@
       "skins": [
         [
           3265,
-          "t",
+          "b",
           1076
         ],
         [
           3265,
-          "b",
+          "t",
           1076
         ]
       ],
@@ -43565,12 +43582,12 @@
       "skins": [
         [
           3265,
-          "t",
+          "b",
           1078
         ],
         [
           3265,
-          "b",
+          "t",
           1078
         ]
       ],
@@ -43860,7 +43877,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -43958,7 +43975,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -44193,7 +44210,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -44386,7 +44403,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -44655,7 +44672,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -44664,12 +44681,12 @@
       "skins": [
         [
           3276,
-          "t",
+          "b",
           1102
         ],
         [
           3276,
-          "b",
+          "t",
           1102
         ]
       ],
@@ -44760,12 +44777,12 @@
       "skins": [
         [
           3278,
-          "t",
+          "b",
           1065
         ],
         [
           3278,
-          "b",
+          "t",
           1065
         ]
       ],
@@ -44850,12 +44867,12 @@
       "skins": [
         [
           3276,
-          "t",
+          "b",
           1101
         ],
         [
           3276,
-          "b",
+          "t",
           1101
         ]
       ],
@@ -45200,7 +45217,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -45347,12 +45364,12 @@
       "skins": [
         [
           3308,
-          "t",
+          "b",
           1170
         ],
         [
           3308,
-          "b",
+          "t",
           1170
         ]
       ],
@@ -45499,12 +45516,12 @@
       "skins": [
         [
           3341,
-          "t",
+          "b",
           9901
         ],
         [
           3341,
-          "b",
+          "t",
           9901
         ]
       ],
@@ -45730,7 +45747,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 4,
       "dragon_count": 2,
       "skin_count": 0,
@@ -45840,7 +45859,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -46017,12 +46036,12 @@
       "skins": [
         [
           3291,
-          "t",
+          "b",
           1232
         ],
         [
           3291,
-          "b",
+          "t",
           1232
         ]
       ],
@@ -46170,32 +46189,32 @@
       "skins": [
         [
           3314,
-          "t",
+          "b",
           1261
         ],
         [
           3314,
-          "b",
+          "t",
           1261
         ],
         [
           3385,
-          "t",
+          "b",
           1264
         ],
         [
           3385,
-          "b",
+          "t",
           1264
         ],
         [
           3402,
-          "t",
+          "b",
           1250
         ],
         [
           3402,
-          "b",
+          "t",
           1250
         ]
       ],
@@ -46441,12 +46460,12 @@
       "skins": [
         [
           3381,
-          "t",
+          "b",
           1465
         ],
         [
           3381,
-          "b",
+          "t",
           1465
         ]
       ],
@@ -46587,12 +46606,12 @@
       "skins": [
         [
           3285,
-          "t",
+          "b",
           1306
         ],
         [
           3285,
-          "b",
+          "t",
           1306
         ]
       ],
@@ -46668,7 +46687,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -46847,12 +46868,12 @@
       "skins": [
         [
           3290,
-          "t",
+          "b",
           1323
         ],
         [
           3290,
-          "b",
+          "t",
           1323
         ]
       ],
@@ -46926,7 +46947,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 2,
@@ -47050,7 +47073,9 @@
       ],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 0,
@@ -47269,7 +47294,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -47434,7 +47459,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -47510,7 +47535,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -47604,7 +47629,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -47703,7 +47728,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -47712,12 +47737,12 @@
       "skins": [
         [
           3299,
-          "t",
+          "b",
           1315
         ],
         [
           3299,
-          "b",
+          "t",
           1315
         ]
       ],
@@ -47786,7 +47811,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -47862,7 +47887,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -47956,7 +47981,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -48055,7 +48080,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -48064,12 +48089,12 @@
       "skins": [
         [
           3301,
-          "t",
+          "b",
           1317
         ],
         [
           3301,
-          "b",
+          "t",
           1317
         ]
       ],
@@ -48237,7 +48262,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -48313,7 +48338,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -48407,7 +48432,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -48492,7 +48517,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -48568,7 +48593,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -48662,7 +48687,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -48761,7 +48786,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -48770,12 +48795,12 @@
       "skins": [
         [
           3312,
-          "t",
+          "b",
           1321
         ],
         [
           3312,
-          "b",
+          "t",
           1321
         ]
       ],
@@ -48844,7 +48869,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -48939,7 +48964,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -49024,7 +49049,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -49100,7 +49125,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -49233,7 +49258,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -49391,7 +49416,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -49400,12 +49425,12 @@
       "skins": [
         [
           3297,
-          "t",
+          "b",
           1327
         ],
         [
           3297,
-          "b",
+          "t",
           1327
         ]
       ],
@@ -49475,12 +49500,12 @@
       "skins": [
         [
           3297,
-          "t",
+          "b",
           1328
         ],
         [
           3297,
-          "b",
+          "t",
           1328
         ]
       ],
@@ -49537,7 +49562,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -49597,7 +49622,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -49911,12 +49936,12 @@
       "skins": [
         [
           3304,
-          "t",
+          "b",
           1332
         ],
         [
           3304,
-          "b",
+          "t",
           1332
         ]
       ],
@@ -50071,7 +50096,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -50161,7 +50188,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 1,
@@ -50169,12 +50198,12 @@
       "skins": [
         [
           3303,
-          "t",
+          "b",
           1330
         ],
         [
           3303,
-          "b",
+          "t",
           1330
         ]
       ],
@@ -50258,7 +50287,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -50267,12 +50296,12 @@
       "skins": [
         [
           3306,
-          "t",
+          "b",
           1334
         ],
         [
           3306,
-          "b",
+          "t",
           1334
         ]
       ],
@@ -50340,7 +50369,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -50411,12 +50440,12 @@
       "skins": [
         [
           3317,
-          "t",
+          "b",
           1335
         ],
         [
           3317,
-          "b",
+          "t",
           1335
         ]
       ],
@@ -50546,12 +50575,12 @@
       "skins": [
         [
           3318,
-          "t",
+          "b",
           1338
         ],
         [
           3318,
-          "b",
+          "t",
           1338
         ]
       ],
@@ -50637,12 +50666,12 @@
       "skins": [
         [
           3319,
-          "t",
+          "b",
           1339
         ],
         [
           3319,
-          "b",
+          "t",
           1339
         ]
       ],
@@ -50793,12 +50822,12 @@
       "skins": [
         [
           3320,
-          "t",
+          "b",
           1337
         ],
         [
           3320,
-          "b",
+          "t",
           1337
         ]
       ],
@@ -50898,7 +50927,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -51011,7 +51040,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -51020,12 +51049,12 @@
       "skins": [
         [
           3323,
-          "t",
+          "b",
           1341
         ],
         [
           3323,
-          "b",
+          "t",
           1341
         ]
       ],
@@ -51112,12 +51141,12 @@
       "skins": [
         [
           3325,
-          "t",
+          "b",
           1343
         ],
         [
           3325,
-          "b",
+          "t",
           1343
         ]
       ],
@@ -51350,7 +51379,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -51415,7 +51444,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -51518,7 +51547,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -51728,7 +51757,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -51737,12 +51766,12 @@
       "skins": [
         [
           3328,
-          "t",
+          "b",
           1347
         ],
         [
           3328,
-          "b",
+          "t",
           1347
         ]
       ],
@@ -51939,7 +51968,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -52052,7 +52081,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -52061,12 +52090,12 @@
       "skins": [
         [
           3330,
-          "t",
+          "b",
           1350
         ],
         [
           3330,
-          "b",
+          "t",
           1350
         ]
       ],
@@ -52128,7 +52157,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -52137,12 +52166,12 @@
       "skins": [
         [
           3333,
-          "t",
+          "b",
           1352
         ],
         [
           3333,
-          "b",
+          "t",
           1352
         ]
       ],
@@ -52207,7 +52236,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -52323,7 +52352,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -52404,7 +52433,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -52496,7 +52525,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -52575,7 +52606,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -52584,12 +52615,12 @@
       "skins": [
         [
           3335,
-          "t",
+          "b",
           1354
         ],
         [
           3335,
-          "b",
+          "t",
           1354
         ]
       ],
@@ -52753,7 +52784,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -52762,12 +52793,12 @@
       "skins": [
         [
           3339,
-          "t",
+          "b",
           1357
         ],
         [
           3339,
-          "b",
+          "t",
           1357
         ]
       ],
@@ -52951,12 +52982,12 @@
       "skins": [
         [
           3336,
-          "t",
+          "b",
           1359
         ],
         [
           3336,
-          "b",
+          "t",
           1359
         ]
       ],
@@ -53293,7 +53324,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -53570,7 +53601,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -53685,7 +53716,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -53694,12 +53725,12 @@
       "skins": [
         [
           3348,
-          "t",
+          "b",
           1369
         ],
         [
           3348,
-          "b",
+          "t",
           1369
         ]
       ],
@@ -54031,7 +54062,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -54138,12 +54171,12 @@
       "skins": [
         [
           3351,
-          "t",
+          "b",
           1371
         ],
         [
           3351,
-          "b",
+          "t",
           1371
         ]
       ],
@@ -54296,12 +54329,12 @@
       "skins": [
         [
           3352,
-          "t",
+          "b",
           1372
         ],
         [
           3352,
-          "b",
+          "t",
           1372
         ]
       ],
@@ -54371,12 +54404,12 @@
       "skins": [
         [
           3354,
-          "t",
+          "b",
           1374
         ],
         [
           3354,
-          "b",
+          "t",
           1374
         ]
       ],
@@ -54541,12 +54574,12 @@
       "skins": [
         [
           3353,
-          "t",
+          "b",
           1376
         ],
         [
           3353,
-          "b",
+          "t",
           1376
         ]
       ],
@@ -54606,7 +54639,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -54819,7 +54852,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -54828,12 +54861,12 @@
       "skins": [
         [
           3360,
-          "t",
+          "b",
           1444
         ],
         [
           3360,
-          "b",
+          "t",
           1444
         ]
       ],
@@ -54895,7 +54928,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -55049,7 +55082,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55119,7 +55152,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55280,7 +55313,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55289,32 +55322,32 @@
       "skins": [
         [
           3392,
-          "t",
+          "b",
           1430
         ],
         [
           3392,
-          "b",
+          "t",
           1430
         ],
         [
           3410,
-          "t",
+          "b",
           1433
         ],
         [
           3410,
-          "b",
+          "t",
           1433
         ],
         [
           3436,
-          "t",
+          "b",
           1635
         ],
         [
           3436,
-          "b",
+          "t",
           1635
         ]
       ],
@@ -55375,7 +55408,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55489,8 +55522,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -55660,7 +55693,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -55786,8 +55819,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55796,12 +55829,12 @@
       "skins": [
         [
           3357,
-          "t",
+          "b",
           1442
         ],
         [
           3357,
-          "b",
+          "t",
           1442
         ]
       ],
@@ -55871,7 +55904,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -55962,7 +55995,7 @@
         32
       ],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -55971,12 +56004,12 @@
       "skins": [
         [
           3362,
-          "t",
+          "b",
           1443
         ],
         [
           3362,
-          "b",
+          "t",
           1443
         ]
       ],
@@ -56039,7 +56072,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        5
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -56104,7 +56137,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        5
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -56219,8 +56252,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -56463,8 +56496,8 @@
         25
       ],
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -56578,8 +56611,8 @@
         38
       ],
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -56588,12 +56621,12 @@
       "skins": [
         [
           4000,
-          "t",
+          "b",
           347605
         ],
         [
           4000,
-          "b",
+          "t",
           347605
         ]
       ],
@@ -56902,7 +56935,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -57095,7 +57128,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -57104,12 +57137,12 @@
       "skins": [
         [
           3394,
-          "t",
+          "b",
           347707
         ],
         [
           3394,
-          "b",
+          "t",
           347707
         ]
       ],
@@ -57414,7 +57447,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -57607,7 +57640,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -57994,12 +58027,12 @@
       "skins": [
         [
           3363,
-          "t",
+          "b",
           1448
         ],
         [
           3363,
-          "b",
+          "t",
           1448
         ]
       ],
@@ -58096,8 +58129,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -58408,8 +58441,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -58502,7 +58535,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -58628,8 +58663,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -58638,12 +58673,12 @@
       "skins": [
         [
           3367,
-          "t",
+          "b",
           1453
         ],
         [
           3367,
-          "b",
+          "t",
           1453
         ]
       ],
@@ -58728,7 +58763,7 @@
         34
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -59024,12 +59059,12 @@
       "skins": [
         [
           3372,
-          "t",
+          "b",
           1457
         ],
         [
           3372,
-          "b",
+          "t",
           1457
         ]
       ],
@@ -59111,7 +59146,7 @@
         34
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -59225,8 +59260,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -59375,9 +59410,9 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3,
         4,
-        5
+        5,
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -59386,12 +59421,12 @@
       "skins": [
         [
           3374,
-          "t",
+          "b",
           1460
         ],
         [
           3374,
-          "b",
+          "t",
           1460
         ]
       ],
@@ -59478,7 +59513,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -59746,12 +59781,12 @@
       "skins": [
         [
           3376,
-          "t",
+          "b",
           1464
         ],
         [
           3376,
-          "b",
+          "t",
           1464
         ]
       ],
@@ -59811,7 +59846,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -59877,7 +59912,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -59997,8 +60032,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -60207,8 +60242,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -60412,12 +60447,12 @@
       "skins": [
         [
           3383,
-          "t",
+          "b",
           1474
         ],
         [
           3383,
-          "b",
+          "t",
           1474
         ]
       ],
@@ -60475,7 +60510,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -60571,7 +60606,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -60772,7 +60807,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -60781,12 +60816,12 @@
       "skins": [
         [
           3390,
-          "t",
+          "b",
           1481
         ],
         [
           3390,
-          "b",
+          "t",
           1481
         ]
       ],
@@ -60855,7 +60890,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -60955,7 +60990,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -61056,7 +61091,7 @@
         34
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -61235,7 +61270,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -61341,7 +61376,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -61350,12 +61385,12 @@
       "skins": [
         [
           3398,
-          "t",
+          "b",
           1491
         ],
         [
           3398,
-          "b",
+          "t",
           1491
         ]
       ],
@@ -61424,7 +61459,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -61589,7 +61624,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -61688,7 +61723,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -61778,12 +61813,12 @@
       "skins": [
         [
           3395,
-          "t",
+          "b",
           1483
         ],
         [
           3395,
-          "b",
+          "t",
           1483
         ]
       ],
@@ -62024,7 +62059,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -62395,7 +62432,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -62501,7 +62538,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -62510,12 +62547,12 @@
       "skins": [
         [
           3400,
-          "t",
+          "b",
           1497
         ],
         [
           3400,
-          "b",
+          "t",
           1497
         ]
       ],
@@ -62584,7 +62621,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -62684,7 +62721,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -62998,7 +63035,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -63105,7 +63142,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63114,12 +63151,12 @@
       "skins": [
         [
           3403,
-          "t",
+          "b",
           1504
         ],
         [
           3403,
-          "b",
+          "t",
           1504
         ]
       ],
@@ -63188,7 +63225,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63259,7 +63296,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63327,7 +63364,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -63405,7 +63442,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63414,12 +63451,12 @@
       "skins": [
         [
           3413,
-          "t",
+          "b",
           15051
         ],
         [
           3413,
-          "b",
+          "t",
           15051
         ]
       ],
@@ -63582,7 +63619,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -63689,7 +63726,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63698,12 +63735,12 @@
       "skins": [
         [
           3412,
-          "t",
+          "b",
           1511
         ],
         [
           3412,
-          "b",
+          "t",
           1511
         ]
       ],
@@ -63773,7 +63810,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63845,7 +63882,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -63914,7 +63951,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -64030,7 +64067,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -64124,7 +64161,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -64379,7 +64416,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -64911,7 +64948,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -65448,7 +65485,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 0,
@@ -65530,7 +65569,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 0,
@@ -65992,7 +66033,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -66085,7 +66126,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -67866,8 +67907,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -67986,8 +68027,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -68430,7 +68471,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -68499,7 +68540,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -68696,7 +68737,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 0,
       "dragon_count": 0,
       "skin_count": 0,
@@ -69741,12 +69784,12 @@
       "skins": [
         [
           3417,
-          "t",
+          "b",
           1602
         ],
         [
           3417,
-          "b",
+          "t",
           1602
         ]
       ],
@@ -69839,7 +69882,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -69946,7 +69989,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -69955,12 +69998,12 @@
       "skins": [
         [
           3416,
-          "t",
+          "b",
           1604
         ],
         [
           3416,
-          "b",
+          "t",
           1604
         ]
       ],
@@ -70027,7 +70070,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -70096,7 +70139,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        6
+        7
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -70250,12 +70293,12 @@
       "skins": [
         [
           3426,
-          "t",
+          "b",
           16051
         ],
         [
           3426,
-          "b",
+          "t",
           16051
         ]
       ],
@@ -70324,7 +70367,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -70433,7 +70476,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        7
+        8
       ],
       "usage_count": 8,
       "dragon_count": 4,
@@ -70567,7 +70610,7 @@
         34
       ],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -70576,12 +70619,12 @@
       "skins": [
         [
           3421,
-          "t",
+          "b",
           1610
         ],
         [
           3421,
-          "b",
+          "t",
           1610
         ]
       ],
@@ -70640,7 +70683,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        7
+        8
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -70821,12 +70864,12 @@
       "skins": [
         [
           3425,
-          "t",
+          "b",
           16131
         ],
         [
           3425,
-          "b",
+          "t",
           16131
         ]
       ],
@@ -70959,7 +71002,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        7
+        8
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -71059,7 +71102,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        7
+        8
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -71068,42 +71111,42 @@
       "skins": [
         [
           3419,
-          "t",
+          "b",
           1612
         ],
         [
           3419,
-          "b",
+          "t",
           1612
         ],
         [
           3430,
-          "t",
+          "b",
           1621
         ],
         [
           3430,
-          "b",
+          "t",
           1621
         ],
         [
           3434,
-          "t",
+          "b",
           1628
         ],
         [
           3434,
-          "b",
+          "t",
           1628
         ],
         [
           3437,
-          "t",
+          "b",
           1637
         ],
         [
           3437,
-          "b",
+          "t",
           1637
         ]
       ],
@@ -71183,7 +71226,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -71192,12 +71235,12 @@
       "skins": [
         [
           3423,
-          "t",
+          "b",
           1618
         ],
         [
           3423,
-          "b",
+          "t",
           1618
         ]
       ],
@@ -71343,7 +71386,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -71428,7 +71473,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        3
+        4
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -71503,7 +71548,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        0
+        1
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -71595,7 +71640,9 @@
       "passive_ids": [],
       "post_ids": [],
       "aura_ids": [],
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "usage_count": 2,
       "dragon_count": 1,
       "skin_count": 0,
@@ -71673,7 +71720,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -71748,7 +71795,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -71828,7 +71875,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        4
+        5
       ],
       "usage_count": 0,
       "dragon_count": 0,
@@ -71975,7 +72022,7 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2
+        3
       ],
       "usage_count": 1,
       "dragon_count": 1,
@@ -72102,8 +72149,8 @@
       "post_ids": [],
       "aura_ids": [],
       "status_icons": [
-        2,
-        4
+        3,
+        5
       ],
       "usage_count": 2,
       "dragon_count": 1,
@@ -180556,11 +180603,11 @@
       "skins": [
         [
           3109,
-          "t"
+          "b"
         ],
         [
           3109,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -180633,11 +180680,11 @@
       "skins": [
         [
           3110,
-          "t"
+          "b"
         ],
         [
           3110,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -180684,11 +180731,11 @@
       "skins": [
         [
           3110,
-          "t"
+          "b"
         ],
         [
           3110,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -180765,11 +180812,11 @@
       "skins": [
         [
           3110,
-          "t"
+          "b"
         ],
         [
           3110,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -204901,11 +204948,11 @@
       "skins": [
         [
           3104,
-          "t"
+          "b"
         ],
         [
           3104,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -205428,11 +205475,11 @@
       "skins": [
         [
           3049,
-          "t"
+          "b"
         ],
         [
           3049,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -205541,11 +205588,11 @@
       "skins": [
         [
           3049,
-          "t"
+          "b"
         ],
         [
           3049,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -205678,11 +205725,11 @@
       "skins": [
         [
           3048,
-          "t"
+          "b"
         ],
         [
           3048,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -205808,11 +205855,11 @@
       "skins": [
         [
           3048,
-          "t"
+          "b"
         ],
         [
           3048,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206041,11 +206088,11 @@
       "skins": [
         [
           3090,
-          "t"
+          "b"
         ],
         [
           3090,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206271,11 +206318,11 @@
       "skins": [
         [
           3091,
-          "t"
+          "b"
         ],
         [
           3091,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206405,11 +206452,11 @@
       "skins": [
         [
           3096,
-          "t"
+          "b"
         ],
         [
           3096,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206577,11 +206624,11 @@
       "skins": [
         [
           3097,
-          "t"
+          "b"
         ],
         [
           3097,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206669,11 +206716,11 @@
       "skins": [
         [
           3088,
-          "t"
+          "b"
         ],
         [
           3088,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -206962,11 +207009,11 @@
       "skins": [
         [
           3099,
-          "t"
+          "b"
         ],
         [
           3099,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -207068,11 +207115,11 @@
       "skins": [
         [
           3099,
-          "t"
+          "b"
         ],
         [
           3099,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -207211,11 +207258,11 @@
       "skins": [
         [
           3112,
-          "t"
+          "b"
         ],
         [
           3112,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -208425,11 +208472,11 @@
       "skins": [
         [
           3115,
-          "t"
+          "b"
         ],
         [
           3115,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -209001,11 +209048,11 @@
       "skins": [
         [
           3116,
-          "t"
+          "b"
         ],
         [
           3116,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -209740,11 +209787,11 @@
       "skins": [
         [
           3118,
-          "t"
+          "b"
         ],
         [
           3118,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -210612,11 +210659,11 @@
       "skins": [
         [
           3220,
-          "t"
+          "b"
         ],
         [
           3220,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -211491,11 +211538,11 @@
       "skins": [
         [
           3222,
-          "t"
+          "b"
         ],
         [
           3222,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -211958,11 +212005,11 @@
       "skins": [
         [
           3223,
-          "t"
+          "b"
         ],
         [
           3223,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -212009,11 +212056,11 @@
       "skins": [
         [
           3224,
-          "t"
+          "b"
         ],
         [
           3224,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -212249,11 +212296,11 @@
       "skins": [
         [
           3111,
-          "t"
+          "b"
         ],
         [
           3111,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -213644,11 +213691,11 @@
       "skins": [
         [
           3230,
-          "t"
+          "b"
         ],
         [
           3230,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -213696,11 +213743,11 @@
       "skins": [
         [
           3227,
-          "t"
+          "b"
         ],
         [
           3227,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -213744,11 +213791,11 @@
       "skins": [
         [
           3227,
-          "t"
+          "b"
         ],
         [
           3227,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -213842,11 +213889,11 @@
       "skins": [
         [
           3228,
-          "t"
+          "b"
         ],
         [
           3228,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -213890,11 +213937,11 @@
       "skins": [
         [
           3228,
-          "t"
+          "b"
         ],
         [
           3228,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -214413,8 +214460,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 953,
       "usage_count": 2,
       "dragon_count": 1,
@@ -214759,11 +214810,11 @@
       "skins": [
         [
           3056,
-          "t"
+          "b"
         ],
         [
           3056,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -214967,11 +215018,11 @@
       "skins": [
         [
           3056,
-          "t"
+          "b"
         ],
         [
           3056,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215059,11 +215110,11 @@
       "skins": [
         [
           3058,
-          "t"
+          "b"
         ],
         [
           3058,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215106,11 +215157,11 @@
       "skins": [
         [
           3058,
-          "t"
+          "b"
         ],
         [
           3058,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215150,11 +215201,11 @@
       "skins": [
         [
           3057,
-          "t"
+          "b"
         ],
         [
           3057,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215236,11 +215287,11 @@
       "skins": [
         [
           3057,
-          "t"
+          "b"
         ],
         [
           3057,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215286,11 +215337,11 @@
       "skins": [
         [
           3062,
-          "t"
+          "b"
         ],
         [
           3062,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215337,11 +215388,11 @@
       "skins": [
         [
           3063,
-          "t"
+          "b"
         ],
         [
           3063,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215383,11 +215434,11 @@
       "skins": [
         [
           3062,
-          "t"
+          "b"
         ],
         [
           3062,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -215427,11 +215478,11 @@
       "skins": [
         [
           3063,
-          "t"
+          "b"
         ],
         [
           3063,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -216065,11 +216116,11 @@
       "skins": [
         [
           3070,
-          "t"
+          "b"
         ],
         [
           3070,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -216483,11 +216534,11 @@
       "skins": [
         [
           3074,
-          "t"
+          "b"
         ],
         [
           3074,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -216620,11 +216671,11 @@
       "skins": [
         [
           3075,
-          "t"
+          "b"
         ],
         [
           3075,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -216807,11 +216858,11 @@
       "skins": [
         [
           3084,
-          "t"
+          "b"
         ],
         [
           3084,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217123,11 +217174,11 @@
       "skins": [
         [
           3085,
-          "t"
+          "b"
         ],
         [
           3085,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217420,11 +217471,11 @@
       "skins": [
         [
           3078,
-          "t"
+          "b"
         ],
         [
           3078,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217470,11 +217521,11 @@
       "skins": [
         [
           3079,
-          "t"
+          "b"
         ],
         [
           3079,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217600,11 +217651,11 @@
       "skins": [
         [
           3080,
-          "t"
+          "b"
         ],
         [
           3080,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217722,11 +217773,11 @@
       "skins": [
         [
           3081,
-          "t"
+          "b"
         ],
         [
           3081,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -217971,11 +218022,11 @@
       "skins": [
         [
           3087,
-          "t"
+          "b"
         ],
         [
           3087,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218177,11 +218228,11 @@
       "skins": [
         [
           3093,
-          "t"
+          "b"
         ],
         [
           3093,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218317,11 +218368,11 @@
       "skins": [
         [
           3094,
-          "t"
+          "b"
         ],
         [
           3094,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218411,11 +218462,11 @@
       "skins": [
         [
           3094,
-          "t"
+          "b"
         ],
         [
           3094,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218543,11 +218594,11 @@
       "skins": [
         [
           3107,
-          "t"
+          "b"
         ],
         [
           3107,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218674,11 +218725,11 @@
       "skins": [
         [
           3108,
-          "t"
+          "b"
         ],
         [
           3108,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218806,11 +218857,11 @@
       "skins": [
         [
           3100,
-          "t"
+          "b"
         ],
         [
           3100,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218858,11 +218909,11 @@
       "skins": [
         [
           3100,
-          "t"
+          "b"
         ],
         [
           3100,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -218988,11 +219039,11 @@
       "skins": [
         [
           3098,
-          "t"
+          "b"
         ],
         [
           3098,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -219118,11 +219169,11 @@
       "skins": [
         [
           3103,
-          "t"
+          "b"
         ],
         [
           3103,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -219614,8 +219665,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1068,
       "usage_count": 1,
       "dragon_count": 1,
@@ -219797,10 +219852,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1072,
       "usage_count": 1,
@@ -219935,10 +219990,10 @@
       "effect_count": 2,
       "multiplier": 1.6,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1075,
       "usage_count": 1,
@@ -220071,10 +220126,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1078,
       "usage_count": 1,
@@ -220123,8 +220178,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.6,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1079,
       "usage_count": 1,
       "dragon_count": 1,
@@ -220814,10 +220873,10 @@
       "effect_count": 2,
       "multiplier": 1.5,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1094,
       "usage_count": 2,
@@ -221229,8 +221288,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1103,
       "usage_count": 2,
       "dragon_count": 1,
@@ -221762,10 +221825,10 @@
       "effect_count": 2,
       "multiplier": 1.3,
       "status_icons": [
-        1
+        2
       ],
       "card_status_icons": [
-        1
+        2
       ],
       "order": 1115,
       "usage_count": 2,
@@ -222035,10 +222098,10 @@
       "effect_count": 2,
       "multiplier": 1.5,
       "status_icons": [
-        1
+        2
       ],
       "card_status_icons": [
-        1
+        2
       ],
       "order": 1121,
       "usage_count": 0,
@@ -222485,11 +222548,11 @@
       "skins": [
         [
           3253,
-          "t"
+          "b"
         ],
         [
           3253,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -222823,8 +222886,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1139,
       "usage_count": 2,
       "dragon_count": 1,
@@ -222922,8 +222989,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1141,
       "usage_count": 2,
       "dragon_count": 1,
@@ -223344,8 +223415,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1150,
       "usage_count": 2,
       "dragon_count": 1,
@@ -223494,11 +223569,11 @@
       "skins": [
         [
           3260,
-          "t"
+          "b"
         ],
         [
           3260,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -223540,11 +223615,11 @@
       "skins": [
         [
           3260,
-          "t"
+          "b"
         ],
         [
           3260,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -223588,11 +223663,11 @@
       "skins": [
         [
           3261,
-          "t"
+          "b"
         ],
         [
           3261,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -223672,10 +223747,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1157,
       "usage_count": 2,
@@ -223858,12 +223933,12 @@
       "effect_count": 3,
       "multiplier": 1.4,
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "card_status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "order": 1161,
       "usage_count": 2,
@@ -223961,8 +224036,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.4,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1163,
       "usage_count": 2,
       "dragon_count": 1,
@@ -224465,10 +224544,10 @@
       "effect_count": 2,
       "multiplier": 1.6,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1174,
       "usage_count": 0,
@@ -224478,11 +224557,11 @@
       "skins": [
         [
           3265,
-          "t"
+          "b"
         ],
         [
           3265,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -224529,11 +224608,11 @@
       "skins": [
         [
           3265,
-          "t"
+          "b"
         ],
         [
           3265,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -224925,10 +225004,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1184,
       "usage_count": 2,
@@ -225256,10 +225335,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1191,
       "usage_count": 2,
@@ -225318,10 +225397,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1192,
       "usage_count": 0,
@@ -225331,11 +225410,11 @@
       "skins": [
         [
           3276,
-          "t"
+          "b"
         ],
         [
           3276,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -225560,10 +225639,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1197,
       "usage_count": 2,
@@ -225673,11 +225752,11 @@
       "skins": [
         [
           3276,
-          "t"
+          "b"
         ],
         [
           3276,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -225971,11 +226050,11 @@
       "skins": [
         [
           3278,
-          "t"
+          "b"
         ],
         [
           3278,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -226016,10 +226095,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1206,
       "usage_count": 2,
@@ -226077,10 +226156,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1207,
       "usage_count": 2,
@@ -226445,10 +226524,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1215,
       "usage_count": 2,
@@ -228859,11 +228938,11 @@
       "skins": [
         [
           3308,
-          "t"
+          "b"
         ],
         [
           3308,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -230313,8 +230392,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1307,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230357,8 +230440,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1308,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230401,8 +230488,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1309,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230445,8 +230536,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1310,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230489,8 +230584,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1311,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230533,8 +230632,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1312,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230619,8 +230722,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1314,
       "usage_count": 2,
       "dragon_count": 1,
@@ -230676,8 +230783,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1315,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230720,8 +230831,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1316,
       "usage_count": 2,
       "dragon_count": 1,
@@ -230819,8 +230934,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1318,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230863,8 +230982,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1319,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230907,8 +231030,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1320,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230951,8 +231078,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1321,
       "usage_count": 0,
       "dragon_count": 0,
@@ -230995,8 +231126,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1322,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231081,8 +231216,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1324,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231125,8 +231264,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1325,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231169,8 +231312,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1326,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231213,8 +231360,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1327,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231257,8 +231408,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1328,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231301,8 +231456,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1329,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231345,8 +231504,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1330,
       "usage_count": 0,
       "dragon_count": 0,
@@ -231961,11 +232124,11 @@
       "skins": [
         [
           3402,
-          "t"
+          "b"
         ],
         [
           3402,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -232235,11 +232398,11 @@
       "skins": [
         [
           3291,
-          "t"
+          "b"
         ],
         [
           3291,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -233029,11 +233192,11 @@
       "skins": [
         [
           3385,
-          "t"
+          "b"
         ],
         [
           3385,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -233886,11 +234049,11 @@
       "skins": [
         [
           3314,
-          "t"
+          "b"
         ],
         [
           3314,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -234755,11 +234918,11 @@
       "skins": [
         [
           3285,
-          "t"
+          "b"
         ],
         [
           3285,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -235017,8 +235180,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1412,
       "usage_count": 2,
       "dragon_count": 1,
@@ -235075,8 +235242,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1413,
       "usage_count": 0,
       "dragon_count": 0,
@@ -235193,11 +235364,11 @@
       "skins": [
         [
           3290,
-          "t"
+          "b"
         ],
         [
           3290,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -235236,10 +235407,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1416,
       "usage_count": 0,
@@ -235249,11 +235420,11 @@
       "skins": [
         [
           3299,
-          "t"
+          "b"
         ],
         [
           3299,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -235293,10 +235464,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1417,
       "usage_count": 2,
@@ -235353,10 +235524,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1418,
       "usage_count": 0,
@@ -235366,11 +235537,11 @@
       "skins": [
         [
           3301,
-          "t"
+          "b"
         ],
         [
           3301,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -235409,10 +235580,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1419,
       "usage_count": 2,
@@ -235527,10 +235698,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1421,
       "usage_count": 2,
@@ -235587,10 +235758,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1422,
       "usage_count": 2,
@@ -235647,10 +235818,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1423,
       "usage_count": 2,
@@ -235761,10 +235932,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1425,
       "usage_count": 2,
@@ -235876,10 +236047,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1427,
       "usage_count": 0,
@@ -235889,11 +236060,11 @@
       "skins": [
         [
           3312,
-          "t"
+          "b"
         ],
         [
           3312,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -235994,11 +236165,11 @@
       "skins": [
         [
           3297,
-          "t"
+          "b"
         ],
         [
           3297,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236035,10 +236206,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1430,
       "usage_count": 2,
@@ -236093,10 +236264,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1431,
       "usage_count": 0,
@@ -236106,11 +236277,11 @@
       "skins": [
         [
           3297,
-          "t"
+          "b"
         ],
         [
           3297,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236270,11 +236441,11 @@
       "skins": [
         [
           3304,
-          "t"
+          "b"
         ],
         [
           3304,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236313,8 +236484,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1435,
       "usage_count": 2,
       "dragon_count": 1,
@@ -236371,8 +236546,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1436,
       "usage_count": 0,
       "dragon_count": 0,
@@ -236381,11 +236560,11 @@
       "skins": [
         [
           3303,
-          "t"
+          "b"
         ],
         [
           3303,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236425,10 +236604,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1437,
       "usage_count": 0,
@@ -236438,11 +236617,11 @@
       "skins": [
         [
           3306,
-          "t"
+          "b"
         ],
         [
           3306,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236489,11 +236668,11 @@
       "skins": [
         [
           3317,
-          "t"
+          "b"
         ],
         [
           3317,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236539,11 +236718,11 @@
       "skins": [
         [
           3320,
-          "t"
+          "b"
         ],
         [
           3320,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236643,11 +236822,11 @@
       "skins": [
         [
           3318,
-          "t"
+          "b"
         ],
         [
           3318,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236695,11 +236874,11 @@
       "skins": [
         [
           3319,
-          "t"
+          "b"
         ],
         [
           3319,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236739,10 +236918,10 @@
       "effect_count": 2,
       "multiplier": 1.9,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1443,
       "usage_count": 2,
@@ -236857,10 +237036,10 @@
       "effect_count": 2,
       "multiplier": 2.7,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1445,
       "usage_count": 0,
@@ -236870,11 +237049,11 @@
       "skins": [
         [
           3323,
-          "t"
+          "b"
         ],
         [
           3323,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -236922,11 +237101,11 @@
       "skins": [
         [
           3325,
-          "t"
+          "b"
         ],
         [
           3325,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237066,10 +237245,10 @@
       "effect_count": 2,
       "multiplier": 1.9,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1449,
       "usage_count": 0,
@@ -237079,11 +237258,11 @@
       "skins": [
         [
           3328,
-          "t"
+          "b"
         ],
         [
           3328,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237179,10 +237358,10 @@
       "effect_count": 2,
       "multiplier": 1.9,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1451,
       "usage_count": 2,
@@ -237239,10 +237418,10 @@
       "effect_count": 2,
       "multiplier": 3.0,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1452,
       "usage_count": 0,
@@ -237252,11 +237431,11 @@
       "skins": [
         [
           3330,
-          "t"
+          "b"
         ],
         [
           3330,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237293,10 +237472,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1453,
       "usage_count": 2,
@@ -237353,10 +237532,10 @@
       "effect_count": 2,
       "multiplier": 3.0,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1454,
       "usage_count": 2,
@@ -237411,10 +237590,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1455,
       "usage_count": 0,
@@ -237424,11 +237603,11 @@
       "skins": [
         [
           3333,
-          "t"
+          "b"
         ],
         [
           3333,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237465,10 +237644,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1456,
       "usage_count": 2,
@@ -237523,10 +237702,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1457,
       "usage_count": 0,
@@ -237536,11 +237715,11 @@
       "skins": [
         [
           3335,
-          "t"
+          "b"
         ],
         [
           3335,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237579,10 +237758,10 @@
       "effect_count": 2,
       "multiplier": 2.5,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1458,
       "usage_count": 0,
@@ -237592,11 +237771,11 @@
       "skins": [
         [
           3339,
-          "t"
+          "b"
         ],
         [
           3339,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237635,10 +237814,10 @@
       "effect_count": 2,
       "multiplier": 2.0,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1459,
       "usage_count": 2,
@@ -237694,8 +237873,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1460,
       "usage_count": 2,
       "dragon_count": 1,
@@ -237820,11 +238003,11 @@
       "skins": [
         [
           3336,
-          "t"
+          "b"
         ],
         [
           3336,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -237986,11 +238169,11 @@
       "skins": [
         [
           3341,
-          "t"
+          "b"
         ],
         [
           3341,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238030,10 +238213,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1466,
       "usage_count": 2,
@@ -238145,10 +238328,10 @@
       "effect_count": 2,
       "multiplier": 2.0,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1468,
       "usage_count": 2,
@@ -238259,10 +238442,10 @@
       "effect_count": 2,
       "multiplier": 2.0,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1470,
       "usage_count": 0,
@@ -238272,11 +238455,11 @@
       "skins": [
         [
           3348,
-          "t"
+          "b"
         ],
         [
           3348,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238426,8 +238609,12 @@
       ],
       "effect_count": 2,
       "multiplier": 2.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1473,
       "usage_count": 2,
       "dragon_count": 1,
@@ -238494,11 +238681,11 @@
       "skins": [
         [
           3351,
-          "t"
+          "b"
         ],
         [
           3351,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238546,11 +238733,11 @@
       "skins": [
         [
           3352,
-          "t"
+          "b"
         ],
         [
           3352,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238705,11 +238892,11 @@
       "skins": [
         [
           3354,
-          "t"
+          "b"
         ],
         [
           3354,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238758,11 +238945,11 @@
       "skins": [
         [
           3353,
-          "t"
+          "b"
         ],
         [
           3353,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -238803,10 +238990,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1480,
       "usage_count": 0,
@@ -238851,10 +239038,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1481,
       "usage_count": 0,
@@ -238899,10 +239086,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1482,
       "usage_count": 0,
@@ -238947,10 +239134,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1483,
       "usage_count": 0,
@@ -238995,10 +239182,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1484,
       "usage_count": 0,
@@ -239043,10 +239230,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1485,
       "usage_count": 0,
@@ -239091,10 +239278,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1486,
       "usage_count": 0,
@@ -239139,10 +239326,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1487,
       "usage_count": 0,
@@ -239187,10 +239374,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1488,
       "usage_count": 0,
@@ -239235,10 +239422,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1489,
       "usage_count": 0,
@@ -239283,10 +239470,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1490,
       "usage_count": 0,
@@ -239331,10 +239518,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1491,
       "usage_count": 0,
@@ -239379,10 +239566,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1492,
       "usage_count": 0,
@@ -239427,10 +239614,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1493,
       "usage_count": 0,
@@ -239475,10 +239662,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1494,
       "usage_count": 0,
@@ -239523,10 +239710,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1495,
       "usage_count": 0,
@@ -239571,10 +239758,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1496,
       "usage_count": 0,
@@ -239619,10 +239806,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1497,
       "usage_count": 0,
@@ -239667,10 +239854,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1498,
       "usage_count": 0,
@@ -239715,10 +239902,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1499,
       "usage_count": 0,
@@ -239763,10 +239950,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1500,
       "usage_count": 0,
@@ -239810,10 +239997,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1501,
       "usage_count": 0,
@@ -239858,10 +240045,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1502,
       "usage_count": 0,
@@ -239906,10 +240093,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1503,
       "usage_count": 0,
@@ -239954,10 +240141,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1504,
       "usage_count": 0,
@@ -240001,10 +240188,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1505,
       "usage_count": 0,
@@ -240049,10 +240236,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1506,
       "usage_count": 0,
@@ -240096,10 +240283,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1507,
       "usage_count": 0,
@@ -240143,10 +240330,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1508,
       "usage_count": 0,
@@ -240191,10 +240378,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1509,
       "usage_count": 0,
@@ -240238,10 +240425,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1510,
       "usage_count": 0,
@@ -240286,10 +240473,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1511,
       "usage_count": 0,
@@ -240334,10 +240521,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1512,
       "usage_count": 0,
@@ -240381,10 +240568,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1513,
       "usage_count": 0,
@@ -240429,10 +240616,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1514,
       "usage_count": 0,
@@ -240477,10 +240664,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1515,
       "usage_count": 0,
@@ -240525,10 +240712,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1516,
       "usage_count": 0,
@@ -240573,10 +240760,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1517,
       "usage_count": 0,
@@ -240621,10 +240808,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1518,
       "usage_count": 0,
@@ -240669,10 +240856,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1519,
       "usage_count": 0,
@@ -240717,10 +240904,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1520,
       "usage_count": 0,
@@ -240765,10 +240952,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1521,
       "usage_count": 0,
@@ -240813,10 +241000,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1522,
       "usage_count": 0,
@@ -240861,10 +241048,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1523,
       "usage_count": 0,
@@ -240909,10 +241096,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1524,
       "usage_count": 0,
@@ -240956,10 +241143,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1525,
       "usage_count": 0,
@@ -241003,10 +241190,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1526,
       "usage_count": 0,
@@ -241051,10 +241238,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1527,
       "usage_count": 0,
@@ -241099,10 +241286,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1528,
       "usage_count": 0,
@@ -241147,10 +241334,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1529,
       "usage_count": 0,
@@ -241195,10 +241382,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1530,
       "usage_count": 0,
@@ -241242,10 +241429,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1531,
       "usage_count": 0,
@@ -241289,10 +241476,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1532,
       "usage_count": 0,
@@ -241336,10 +241523,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1533,
       "usage_count": 0,
@@ -241349,11 +241536,11 @@
       "skins": [
         [
           3410,
-          "t"
+          "b"
         ],
         [
           3410,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -241392,10 +241579,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1534,
       "usage_count": 0,
@@ -241405,11 +241592,11 @@
       "skins": [
         [
           3392,
-          "t"
+          "b"
         ],
         [
           3392,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -241448,10 +241635,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1535,
       "usage_count": 0,
@@ -241495,10 +241682,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1536,
       "usage_count": 0,
@@ -241542,10 +241729,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1537,
       "usage_count": 0,
@@ -241589,10 +241776,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1538,
       "usage_count": 0,
@@ -241636,10 +241823,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1539,
       "usage_count": 0,
@@ -241683,10 +241870,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1540,
       "usage_count": 0,
@@ -241730,10 +241917,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1541,
       "usage_count": 0,
@@ -241777,10 +241964,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1542,
       "usage_count": 0,
@@ -241823,12 +242010,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1543,
       "usage_count": 2,
@@ -241887,10 +242074,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1544,
       "usage_count": 2,
@@ -241947,12 +242134,12 @@
       "effect_count": 3,
       "multiplier": 1.7,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1545,
       "usage_count": 0,
@@ -241962,11 +242149,11 @@
       "skins": [
         [
           3357,
-          "t"
+          "b"
         ],
         [
           3357,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -242007,7 +242194,7 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [],
       "order": 1546,
@@ -242018,11 +242205,11 @@
       "skins": [
         [
           3362,
-          "t"
+          "b"
         ],
         [
           3362,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -242159,12 +242346,12 @@
       "effect_count": 3,
       "multiplier": 1.4,
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "card_status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "order": 1549,
       "usage_count": 2,
@@ -242221,12 +242408,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1550,
       "usage_count": 2,
@@ -242285,10 +242472,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1551,
       "usage_count": 0,
@@ -242298,11 +242485,11 @@
       "skins": [
         [
           3360,
-          "t"
+          "b"
         ],
         [
           3360,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -242460,11 +242647,11 @@
       "skins": [
         [
           3363,
-          "t"
+          "b"
         ],
         [
           3363,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -242673,12 +242860,12 @@
       "effect_count": 3,
       "multiplier": 1.7,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1558,
       "usage_count": 0,
@@ -242688,11 +242875,11 @@
       "skins": [
         [
           3367,
-          "t"
+          "b"
         ],
         [
           3367,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -242731,8 +242918,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1559,
       "usage_count": 2,
       "dragon_count": 1,
@@ -242789,12 +242980,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1560,
       "usage_count": 2,
@@ -242853,10 +243044,10 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1561,
       "usage_count": 2,
@@ -243037,11 +243228,11 @@
       "skins": [
         [
           3372,
-          "t"
+          "b"
         ],
         [
           3372,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243082,10 +243273,10 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1565,
       "usage_count": 0,
@@ -243128,12 +243319,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1566,
       "usage_count": 2,
@@ -243191,10 +243382,10 @@
       "effect_count": 2,
       "multiplier": 1.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1567,
       "usage_count": 2,
@@ -243251,14 +243442,14 @@
       "effect_count": 4,
       "multiplier": 1.6,
       "status_icons": [
-        3,
         4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        3,
         4,
-        5
+        5,
+        6
       ],
       "order": 1568,
       "usage_count": 0,
@@ -243268,11 +243459,11 @@
       "skins": [
         [
           3374,
-          "t"
+          "b"
         ],
         [
           3374,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243414,11 +243605,11 @@
       "skins": [
         [
           3376,
-          "t"
+          "b"
         ],
         [
           3376,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243468,11 +243659,11 @@
       "skins": [
         [
           3381,
-          "t"
+          "b"
         ],
         [
           3381,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243512,12 +243703,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1573,
       "usage_count": 2,
@@ -243665,11 +243856,11 @@
       "skins": [
         [
           3071,
-          "t"
+          "b"
         ],
         [
           3071,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243762,12 +243953,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1578,
       "usage_count": 2,
@@ -243835,11 +244026,11 @@
       "skins": [
         [
           3383,
-          "t"
+          "b"
         ],
         [
           3383,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -243938,12 +244129,12 @@
       "effect_count": 3,
       "multiplier": 1.8,
       "status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "card_status_icons": [
-        1,
-        0
+        2,
+        1
       ],
       "order": 1581,
       "usage_count": 0,
@@ -243953,11 +244144,11 @@
       "skins": [
         [
           4000,
-          "t"
+          "b"
         ],
         [
           4000,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -244122,10 +244313,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1585,
       "usage_count": 2,
@@ -244224,10 +244415,10 @@
       "effect_count": 2,
       "multiplier": 1.85,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1587,
       "usage_count": 0,
@@ -244237,11 +244428,11 @@
       "skins": [
         [
           3390,
-          "t"
+          "b"
         ],
         [
           3390,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -244282,10 +244473,10 @@
       "effect_count": 3,
       "multiplier": 2.0,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1588,
       "usage_count": 2,
@@ -244456,10 +244647,10 @@
       "effect_count": 2,
       "multiplier": 2.4,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1591,
       "usage_count": 0,
@@ -244469,11 +244660,11 @@
       "skins": [
         [
           3394,
-          "t"
+          "b"
         ],
         [
           3394,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -244554,10 +244745,10 @@
       "effect_count": 2,
       "multiplier": 2.1,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1593,
       "usage_count": 2,
@@ -244658,10 +244849,10 @@
       "effect_count": 3,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1595,
       "usage_count": 2,
@@ -244846,10 +245037,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1599,
       "usage_count": 2,
@@ -244906,10 +245097,10 @@
       "effect_count": 2,
       "multiplier": 1.85,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1600,
       "usage_count": 0,
@@ -244919,11 +245110,11 @@
       "skins": [
         [
           3398,
-          "t"
+          "b"
         ],
         [
           3398,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -245012,11 +245203,11 @@
       "skins": [
         [
           3395,
-          "t"
+          "b"
         ],
         [
           3395,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -245169,8 +245360,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.3,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1605,
       "usage_count": 2,
       "dragon_count": 1,
@@ -245311,10 +245506,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1608,
       "usage_count": 0,
@@ -245324,11 +245519,11 @@
       "skins": [
         [
           3400,
-          "t"
+          "b"
         ],
         [
           3400,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -245409,10 +245604,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1610,
       "usage_count": 2,
@@ -245650,10 +245845,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1615,
       "usage_count": 0,
@@ -245663,11 +245858,11 @@
       "skins": [
         [
           3403,
-          "t"
+          "b"
         ],
         [
           3403,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -245748,10 +245943,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1617,
       "usage_count": 2,
@@ -245807,10 +246002,10 @@
       "effect_count": 1,
       "multiplier": 1.9,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1618,
       "usage_count": 2,
@@ -245908,10 +246103,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1620,
       "usage_count": 2,
@@ -245969,10 +246164,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1621,
       "usage_count": 0,
@@ -245982,11 +246177,11 @@
       "skins": [
         [
           3412,
-          "t"
+          "b"
         ],
         [
           3412,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -246150,7 +246345,7 @@
       "effect_count": 1,
       "multiplier": 3.0,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [],
       "order": 1625,
@@ -246250,10 +246445,10 @@
       "effect_count": 2,
       "multiplier": 2.2,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1627,
       "usage_count": 2,
@@ -246354,8 +246549,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1629,
       "usage_count": 0,
       "dragon_count": 0,
@@ -246902,10 +247101,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1642,
       "usage_count": 0,
@@ -247113,8 +247312,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1647,
       "usage_count": 0,
       "dragon_count": 0,
@@ -247814,10 +248017,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1663,
       "usage_count": 0,
@@ -247866,10 +248069,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1664,
       "usage_count": 0,
@@ -247919,10 +248122,10 @@
       "effect_count": 2,
       "multiplier": 3.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1665,
       "usage_count": 0,
@@ -248363,10 +248566,10 @@
       "effect_count": 2,
       "multiplier": 3.0,
       "status_icons": [
-        3
+        4
       ],
       "card_status_icons": [
-        3
+        4
       ],
       "order": 1675,
       "usage_count": 0,
@@ -248626,7 +248829,7 @@
       "effect_count": 1,
       "multiplier": 3.0,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [],
       "order": 1681,
@@ -249049,10 +249252,10 @@
       "effect_count": 1,
       "multiplier": 1.4,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1691,
       "usage_count": 0,
@@ -249099,8 +249302,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1692,
       "usage_count": 0,
       "dragon_count": 0,
@@ -249707,12 +249914,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1706,
       "usage_count": 0,
@@ -249848,12 +250055,12 @@
       "effect_count": 3,
       "multiplier": 1.3,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "card_status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "order": 1709,
       "usage_count": 0,
@@ -249989,10 +250196,10 @@
       "effect_count": 1,
       "multiplier": 2.3,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1712,
       "usage_count": 0,
@@ -250002,11 +250209,11 @@
       "skins": [
         [
           3413,
-          "t"
+          "b"
         ],
         [
           3413,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250052,11 +250259,11 @@
       "skins": [
         [
           3417,
-          "t"
+          "b"
         ],
         [
           3417,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250096,10 +250303,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1714,
       "usage_count": 0,
@@ -250109,11 +250316,11 @@
       "skins": [
         [
           3416,
-          "t"
+          "b"
         ],
         [
           3416,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250152,10 +250359,10 @@
       "effect_count": 2,
       "multiplier": 1.7,
       "status_icons": [
-        6
+        7
       ],
       "card_status_icons": [
-        6
+        7
       ],
       "order": 1715,
       "usage_count": 2,
@@ -250520,10 +250727,10 @@
       "effect_count": 2,
       "multiplier": 0.8,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1723,
       "usage_count": 0,
@@ -250533,11 +250740,11 @@
       "skins": [
         [
           3421,
-          "t"
+          "b"
         ],
         [
           3421,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250716,10 +250923,10 @@
       "effect_count": 2,
       "multiplier": 2.5,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1727,
       "usage_count": 0,
@@ -250729,11 +250936,11 @@
       "skins": [
         [
           3419,
-          "t"
+          "b"
         ],
         [
           3419,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250857,10 +251064,10 @@
       "effect_count": 2,
       "multiplier": 2.2,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1730,
       "usage_count": 2,
@@ -250919,10 +251126,10 @@
       "effect_count": 2,
       "multiplier": 1.4,
       "status_icons": [
-        2
+        3
       ],
       "card_status_icons": [
-        2
+        3
       ],
       "order": 1731,
       "usage_count": 0,
@@ -250932,11 +251139,11 @@
       "skins": [
         [
           3423,
-          "t"
+          "b"
         ],
         [
           3423,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -251018,10 +251225,10 @@
       "effect_count": 2,
       "multiplier": 2.4,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1733,
       "usage_count": 0,
@@ -251204,10 +251411,10 @@
       "effect_count": 2,
       "multiplier": 2.1,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1737,
       "usage_count": 2,
@@ -251304,8 +251511,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.0,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1739,
       "usage_count": 2,
       "dragon_count": 1,
@@ -251361,10 +251572,10 @@
       "effect_count": 1,
       "multiplier": 2.3,
       "status_icons": [
-        0
+        1
       ],
       "card_status_icons": [
-        0
+        1
       ],
       "order": 1740,
       "usage_count": 2,
@@ -251504,10 +251715,10 @@
       "effect_count": 2,
       "multiplier": 2.2,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1743,
       "usage_count": 2,
@@ -251565,8 +251776,12 @@
       ],
       "effect_count": 2,
       "multiplier": 1.5,
-      "status_icons": [],
-      "card_status_icons": [],
+      "status_icons": [
+        0
+      ],
+      "card_status_icons": [
+        0
+      ],
       "order": 1744,
       "usage_count": 2,
       "dragon_count": 1,
@@ -251707,10 +251922,10 @@
       "effect_count": 2,
       "multiplier": 2.5,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1747,
       "usage_count": 0,
@@ -251720,11 +251935,11 @@
       "skins": [
         [
           3434,
-          "t"
+          "b"
         ],
         [
           3434,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -251890,10 +252105,10 @@
       "effect_count": 2,
       "multiplier": 2.5,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1751,
       "usage_count": 0,
@@ -251903,11 +252118,11 @@
       "skins": [
         [
           3430,
-          "t"
+          "b"
         ],
         [
           3430,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -251989,10 +252204,10 @@
       "effect_count": 2,
       "multiplier": 2.2,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1753,
       "usage_count": 2,
@@ -252112,11 +252327,11 @@
       "skins": [
         [
           3426,
-          "t"
+          "b"
         ],
         [
           3426,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -252165,11 +252380,11 @@
       "skins": [
         [
           3425,
-          "t"
+          "b"
         ],
         [
           3425,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -252209,10 +252424,10 @@
       "effect_count": 2,
       "multiplier": 1.8,
       "status_icons": [
-        4
+        5
       ],
       "card_status_icons": [
-        4
+        5
       ],
       "order": 1757,
       "usage_count": 0,
@@ -252222,11 +252437,11 @@
       "skins": [
         [
           3436,
-          "t"
+          "b"
         ],
         [
           3436,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -252264,10 +252479,10 @@
       "effect_count": 2,
       "multiplier": 2.2,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1758,
       "usage_count": 2,
@@ -252409,10 +252624,10 @@
       "effect_count": 2,
       "multiplier": 2.5,
       "status_icons": [
-        7
+        8
       ],
       "card_status_icons": [
-        7
+        8
       ],
       "order": 1761,
       "usage_count": 0,
@@ -252422,11 +252637,11 @@
       "skins": [
         [
           3437,
-          "t"
+          "b"
         ],
         [
           3437,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -252468,12 +252683,12 @@
       "effect_count": 3,
       "multiplier": 2.7,
       "status_icons": [
-        2,
-        4
+        3,
+        5
       ],
       "card_status_icons": [
-        2,
-        4
+        3,
+        5
       ],
       "order": 1762,
       "usage_count": 2,
@@ -268696,7 +268911,9 @@
       "kinds": [],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [],
@@ -269211,7 +269428,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3336
@@ -272023,7 +272242,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -272151,7 +272370,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3337
@@ -272215,7 +272436,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -272279,7 +272500,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -272345,7 +272566,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -273052,7 +273273,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -273374,7 +273595,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3338
@@ -273687,7 +273910,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -273817,7 +274040,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        2
       ],
       "give_icons": [],
       "dragons": [
@@ -273957,7 +274180,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        2
       ],
       "give_icons": [],
       "dragons": [],
@@ -274084,7 +274307,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -274464,7 +274687,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3339
@@ -274590,7 +274815,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3340
@@ -274791,7 +275018,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3341,
@@ -275187,7 +275416,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -275441,7 +275670,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        2
       ],
       "give_icons": [],
       "dragons": [
@@ -275510,7 +275739,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -275573,7 +275802,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3399
@@ -275703,7 +275934,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -275768,7 +275999,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -275961,7 +276192,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -276412,7 +276643,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -276541,7 +276772,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -276735,7 +276966,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -276929,7 +277160,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -277324,7 +277555,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -277702,7 +277933,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -278252,7 +278483,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3438,
@@ -278319,7 +278552,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -278476,7 +278709,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -279208,7 +279441,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3419
@@ -279406,7 +279641,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [
@@ -279601,7 +279838,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3422
@@ -279730,7 +279967,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -279793,7 +280030,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3422
@@ -279856,7 +280093,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3423
@@ -280113,7 +280350,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3423
@@ -280245,7 +280482,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3426
@@ -280308,7 +280545,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -280371,7 +280608,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3426
@@ -280566,7 +280803,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3424
@@ -280629,7 +280866,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3425
@@ -280756,7 +280993,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3425
@@ -280883,7 +281120,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -280946,7 +281183,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3424
@@ -281073,7 +281310,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -281136,7 +281373,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3427
@@ -281199,7 +281436,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -281264,7 +281501,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3476
@@ -281329,7 +281566,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -281392,7 +281629,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3427
@@ -281520,7 +281757,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -281649,7 +281886,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -281845,7 +282082,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -281912,7 +282149,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        4
+        5
       ],
       "give_icons": [],
       "dragons": [],
@@ -282039,7 +282276,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -282357,7 +282594,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3456
@@ -282420,7 +282657,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -282858,7 +283095,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        4
+        5
       ],
       "give_icons": [],
       "dragons": [],
@@ -282922,7 +283159,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        3
+        4
       ],
       "give_icons": [],
       "dragons": [],
@@ -283182,7 +283419,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -283319,7 +283556,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3457
@@ -283456,7 +283693,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3458
@@ -283593,7 +283830,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -283656,7 +283893,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -283796,7 +284033,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -283862,7 +284099,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -283928,7 +284165,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -284207,7 +284444,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -284270,7 +284507,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3459
@@ -284393,7 +284630,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3459
@@ -284721,7 +284960,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -284915,7 +285154,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3461
@@ -285136,7 +285375,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -285196,7 +285435,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3353
@@ -285916,7 +286157,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -286002,7 +286243,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -286066,7 +286307,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -286336,7 +286577,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -286404,7 +286645,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -286490,7 +286731,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -286634,7 +286875,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        4
+        5
       ],
       "give_icons": [],
       "dragons": [],
@@ -286698,7 +286939,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3468
@@ -286891,7 +287132,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3468
@@ -286957,7 +287198,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [],
       "skins": [
@@ -287087,7 +287328,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -287151,7 +287392,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -287210,7 +287451,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        4
+        5
       ],
       "give_icons": [],
       "dragons": [],
@@ -287267,7 +287508,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        4
+        5
       ],
       "give_icons": [],
       "dragons": [],
@@ -287330,7 +287571,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        5
+        6
       ],
       "give_icons": [],
       "dragons": [],
@@ -287394,7 +287635,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        5
+        6
       ],
       "give_icons": [],
       "dragons": [],
@@ -287575,7 +287816,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -288034,7 +288275,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3469
@@ -288099,7 +288340,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3469
@@ -288544,7 +288785,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3470
@@ -288609,7 +288850,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [],
       "skins": [
@@ -288675,7 +288916,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3470
@@ -288741,7 +288982,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -288866,7 +289107,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3470
@@ -288938,7 +289181,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -289514,7 +289757,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -289580,7 +289823,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3471,
@@ -289710,7 +289953,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [],
       "skins": [
@@ -289776,7 +290019,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -289910,7 +290153,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3471,
@@ -290039,7 +290282,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3471
@@ -290432,7 +290675,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -290495,7 +290738,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -290561,7 +290804,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3472
@@ -290626,7 +290869,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3472
@@ -291200,7 +291443,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3473
@@ -291265,7 +291508,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [
         3473
@@ -291456,7 +291699,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        2
       ],
       "give_icons": [],
       "dragons": [],
@@ -291522,7 +291765,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -291652,7 +291895,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3491
@@ -291717,7 +291960,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -291846,7 +292089,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -291909,7 +292152,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -292226,7 +292469,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3492
@@ -292291,7 +292534,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -292356,7 +292599,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -292483,7 +292726,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -292981,7 +293224,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [
         3497,
@@ -293302,7 +293547,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -293430,7 +293675,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -293561,7 +293806,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -293622,7 +293867,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3493
@@ -293957,7 +294202,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -294086,7 +294331,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3494
@@ -294214,7 +294459,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -294278,7 +294523,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -294342,7 +294587,7 @@
       "multiplier": 1.9,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -294402,7 +294647,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        1
+        2
       ],
       "give_icons": [],
       "dragons": [],
@@ -294523,7 +294768,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -294587,7 +294832,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3495
@@ -294653,7 +294898,7 @@
       "multiplier": 3.0,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -294784,7 +295029,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -294912,7 +295157,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -295051,7 +295296,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3498
@@ -295114,7 +295359,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -295238,7 +295483,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [],
@@ -295559,7 +295804,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [],
@@ -296179,7 +296426,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [],
       "skins": [],
@@ -296297,7 +296544,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [],
@@ -296421,7 +296670,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -296669,7 +296918,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [],
@@ -296993,7 +297242,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -297056,7 +297305,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -297185,7 +297434,7 @@
       "multiplier": 3.0,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -297563,7 +297812,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -298067,7 +298316,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -298196,7 +298445,7 @@
       "multiplier": 1.4,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -298455,7 +298704,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        5
+        6
       ],
       "dragons": [],
       "skins": [],
@@ -298645,7 +298894,9 @@
       ],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [],
@@ -299018,7 +299269,9 @@
       "kinds": [],
       "multiplier": null,
       "effect_count": 1,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "give_icons": [],
       "dragons": [],
       "skins": [],
@@ -299270,7 +299523,7 @@
       "multiplier": 2.3,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [],
@@ -299463,7 +299716,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [
         3496
@@ -299525,10 +299778,10 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3496
@@ -299655,7 +299908,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -299717,7 +299970,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        6
+        7
       ],
       "give_icons": [],
       "dragons": [],
@@ -299781,7 +300034,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -300229,7 +300482,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3477
@@ -300366,7 +300619,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -300564,7 +300817,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        7
+        8
       ],
       "give_icons": [],
       "dragons": [],
@@ -300702,7 +300955,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        7
+        8
       ],
       "dragons": [
         3510,
@@ -300964,7 +301217,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        7
+        8
       ],
       "give_icons": [],
       "dragons": [],
@@ -301102,7 +301355,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        7
+        8
       ],
       "dragons": [],
       "skins": [
@@ -301234,7 +301487,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [],
@@ -301633,7 +301886,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3478
@@ -301696,7 +301949,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [],
@@ -301882,7 +302135,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        3
+        4
       ],
       "dragons": [
         3506
@@ -301947,7 +302200,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3512
@@ -302012,7 +302265,7 @@
       "multiplier": 2.3,
       "effect_count": 1,
       "status_icons": [
-        0
+        1
       ],
       "give_icons": [],
       "dragons": [
@@ -302078,7 +302331,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -302140,7 +302393,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -302468,7 +302721,7 @@
       "effect_count": 1,
       "status_icons": [],
       "give_icons": [
-        4
+        5
       ],
       "dragons": [
         3513
@@ -302530,7 +302783,7 @@
       "multiplier": null,
       "effect_count": 1,
       "status_icons": [
-        2
+        3
       ],
       "give_icons": [],
       "dragons": [
@@ -304772,7 +305025,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3381
@@ -304854,7 +305107,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3376
@@ -304972,7 +305225,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        2
+        3
       ],
       "dragons": [
         3402
@@ -305066,7 +305319,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        2
+        3
       ],
       "dragons": [
         3405
@@ -305162,7 +305415,9 @@
       ],
       "effect_count": 1,
       "multiplier": null,
-      "status_icons": [],
+      "status_icons": [
+        0
+      ],
       "dragons": [],
       "skins": [],
       "titans": [],
@@ -305242,7 +305497,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3422
@@ -305287,7 +305542,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -305332,7 +305587,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3423
@@ -305377,7 +305632,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -305422,7 +305677,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3424
@@ -305467,7 +305722,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -305594,7 +305849,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3425
@@ -305639,7 +305894,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -305684,7 +305939,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3426
@@ -305729,7 +305984,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3427
@@ -305774,7 +306029,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [
@@ -305819,7 +306074,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3422,
@@ -305880,7 +306135,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -305964,7 +306219,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -306007,7 +306262,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3456,
@@ -306060,7 +306315,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3477,
@@ -306324,7 +306579,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3461
@@ -306366,7 +306621,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3498
@@ -306415,7 +306670,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        2
+        3
       ],
       "dragons": [],
       "skins": [],
@@ -306456,7 +306711,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [],
       "skins": [],
@@ -306499,7 +306754,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3468
@@ -306590,7 +306845,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        5
+        6
       ],
       "dragons": [
         3468,
@@ -306643,7 +306898,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3469,
@@ -306695,7 +306950,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        5
+        6
       ],
       "dragons": [
         3469
@@ -306785,7 +307040,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3476
@@ -306872,8 +307127,8 @@
       "effect_count": 2,
       "multiplier": null,
       "status_icons": [
-        4,
-        5
+        5,
+        6
       ],
       "dragons": [
         3469
@@ -306970,7 +307225,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3472
@@ -307012,7 +307267,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [
@@ -307054,7 +307309,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        2
+        3
       ],
       "dragons": [
         3473
@@ -307138,7 +307393,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [
         3491
@@ -307189,7 +307444,7 @@
       "effect_count": 2,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -307320,7 +307575,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [
         3492
@@ -307449,7 +307704,7 @@
       "effect_count": 2,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -307582,7 +307837,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [
         3493,
@@ -307693,7 +307948,7 @@
       "effect_count": 2,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -307829,7 +308084,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [
         3494
@@ -307874,7 +308129,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -307957,7 +308212,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [
         3495
@@ -308002,7 +308257,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [
@@ -308047,7 +308302,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -308132,7 +308387,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        6
+        7
       ],
       "dragons": [],
       "skins": [],
@@ -308175,7 +308430,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3496
@@ -308218,7 +308473,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3496
@@ -308263,7 +308518,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        7
+        8
       ],
       "dragons": [
         3510,
@@ -308351,7 +308606,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        7
+        8
       ],
       "dragons": [],
       "skins": [
@@ -308521,7 +308776,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        3
+        4
       ],
       "dragons": [
         3506
@@ -308566,7 +308821,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3512
@@ -308611,7 +308866,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [
         3512
@@ -308658,7 +308913,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -308703,7 +308958,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        4
+        5
       ],
       "dragons": [],
       "skins": [
@@ -308750,7 +309005,7 @@
       "effect_count": 1,
       "multiplier": null,
       "status_icons": [
-        2
+        3
       ],
       "dragons": [
         3509
@@ -310619,7 +310874,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3373
@@ -310724,7 +310979,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -310880,7 +311135,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3374
@@ -310929,7 +311184,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -310971,7 +311226,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        1
+        2
       ],
       "dragons": [
         3381
@@ -311024,7 +311279,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        1
+        2
       ],
       "dragons": [],
       "skins": [
@@ -311073,7 +311328,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -311111,7 +311366,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -311154,7 +311409,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        1
+        2
       ],
       "dragons": [
         3380,
@@ -311209,7 +311464,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3380,
@@ -311780,7 +312035,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [
         3467,
@@ -311886,7 +312141,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -311937,7 +312192,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        1
+        2
       ],
       "dragons": [],
       "skins": [
@@ -311990,7 +312245,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [
@@ -312092,7 +312347,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        0
+        1
       ],
       "dragons": [],
       "skins": [],
@@ -312132,7 +312387,7 @@
       "multiplier": null,
       "aura_vfx": null,
       "status_icons": [
-        1
+        2
       ],
       "dragons": [],
       "skins": [],
