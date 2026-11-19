@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T09:52:01Z",
+  "generated_at": "2026-11-19T15:38:54Z",
   "collections": [
     {
       "id": 4021,
@@ -45011,19 +45011,19 @@
               "reward_id": 974,
               "rewards": [
                 {
-                  "id": 1211,
-                  "name": "Wrestler Dragon",
-                  "rarity": "E",
-                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1211_dragon_luchador_b_1@2x.png",
+                  "id": 3344,
+                  "name": "Misfortune Dragon",
+                  "rarity": "L",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3344_dragon_misfortune_1@2x.png",
                   "image_candidates": [
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1211_dragon_luchador_b_1@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1211_dragon_luchador_b_0@2x.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_1211_dragon_luchador_b_3.png",
-                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_1211_dragon_luchador_b_3@2x.png"
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3344_dragon_misfortune_1@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3344_dragon_misfortune_0@2x.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3344_dragon_misfortune_3.png",
+                    "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3344_dragon_misfortune_3@2x.png"
                   ],
                   "popup": {
                     "kind": "dragon",
-                    "id": 1211
+                    "id": 3344
                   },
                   "kind": "egg",
                   "amount": 1
