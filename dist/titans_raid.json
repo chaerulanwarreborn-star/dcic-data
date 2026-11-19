@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T09:19:30Z",
+  "generated_at": "2026-11-19T09:52:07Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -5017,7 +5017,7 @@
             "source": "attack",
             "special_icon": 1,
             "skill_id": 495,
-            "icon_kind": "mix"
+            "icon_kind": "active"
           },
           {
             "id": 1531,
@@ -5038,8 +5038,8 @@
           }
         ],
         "filters": [
-          "passive",
-          "mix"
+          "active",
+          "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -5057,8 +5057,8 @@
             "skill_definition_id": 495,
             "name": "Poisoned Kiss",
             "description": "Deals damage and poisons the target. The target takes damage at the end of each of its turns. This skill cannot be dodged.",
-            "type": "mix",
-            "icon": "mix",
+            "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1530
@@ -6244,14 +6244,14 @@
             "source": "attack",
             "special_icon": 1,
             "skill_id": 511,
-            "icon_kind": "mix"
+            "icon_kind": "active"
           },
           {
             "id": 1547,
             "source": "attack",
             "special_icon": 0,
             "skill_id": 512,
-            "icon_kind": "mix"
+            "icon_kind": "active"
           },
           {
             "id": 1548,
@@ -6265,8 +6265,8 @@
           }
         ],
         "filters": [
-          "passive",
-          "mix"
+          "active",
+          "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -6284,8 +6284,8 @@
             "skill_definition_id": 511,
             "name": "Marked Ones",
             "description": "Deals damage and applies 2 Doommarks",
-            "type": "mix",
-            "icon": "mix",
+            "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1546
@@ -6296,8 +6296,8 @@
             "skill_definition_id": 512,
             "name": "Marked Ones",
             "description": "Deals damage and applies 2 Doommarks",
-            "type": "mix",
-            "icon": "mix",
+            "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1547
@@ -8342,14 +8342,14 @@
             "source": "attack",
             "special_icon": 1,
             "skill_id": 539,
-            "icon_kind": "mix"
+            "icon_kind": "active"
           },
           {
             "id": 1575,
             "source": "attack",
             "special_icon": 0,
             "skill_id": 540,
-            "icon_kind": "mix"
+            "icon_kind": "active"
           },
           {
             "id": 1576,
@@ -8363,8 +8363,8 @@
           }
         ],
         "filters": [
-          "passive",
-          "mix"
+          "active",
+          "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
       },
@@ -8382,8 +8382,8 @@
             "skill_definition_id": 539,
             "name": "Void Drain",
             "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
-            "type": "mix",
-            "icon": "mix",
+            "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1574
@@ -8394,8 +8394,8 @@
             "skill_definition_id": 540,
             "name": "Void Drain",
             "description": "An attack that removes elemental damage from rivals and leaves them exhausted.",
-            "type": "mix",
-            "icon": "mix",
+            "type": "active",
+            "icon": "active",
             "source": "attack",
             "link_type": "attack_id",
             "link_id": 1575
