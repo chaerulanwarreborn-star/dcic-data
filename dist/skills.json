@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:16:00Z",
+  "generated_at": "2026-11-20T09:26:20Z",
   "schema_version": 3,
   "count": 646,
   "linked_count": 339,
@@ -293224,7 +293224,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 270% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 270% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -293232,8 +293232,8 @@
             "value": "2.7x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -293367,7 +293367,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -293375,8 +293375,8 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -293443,7 +293443,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 10000% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 10000% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -293451,8 +293451,8 @@
             "value": "100x"
           },
           {
-            "label": "Damage",
-            "value": "1,900"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -294018,8 +294018,8 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -294153,7 +294153,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 190% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -294161,8 +294161,8 @@
             "value": "1.9x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -294304,8 +294304,8 @@
             "value": "3x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -294507,7 +294507,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 300% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 300% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -294515,8 +294515,8 @@
             "value": "3x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -294862,8 +294862,8 @@
             "value": "2.5x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -294938,8 +294938,8 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -295817,8 +295817,8 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -295898,8 +295898,8 @@
             "value": "2x"
           },
           {
-            "label": "Damage",
-            "value": "2,000"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
@@ -297000,7 +297000,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 180% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 180% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -297008,8 +297008,8 @@
             "value": "1.8x"
           },
           {
-            "label": "Damage",
-            "value": "2,100"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -306192,7 +306192,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 220% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 220% damage to the opponent, deals 70% more damage to an opponent with Shield and 150% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -306200,8 +306200,8 @@
             "value": "2.2x"
           },
           {
-            "label": "Damage",
-            "value": "2,400"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -311707,7 +311707,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -311715,8 +311715,8 @@
             "value": "2.4x"
           },
           {
-            "label": "Damage",
-            "value": "2,600"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -311850,7 +311850,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -311858,8 +311858,8 @@
             "value": "2.1x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -312826,7 +312826,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 210% damage to the opponent, deals 50% more damage to an opponent with Shield and 250% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -312834,8 +312834,8 @@
             "value": "2.1x"
           },
           {
-            "label": "Damage",
-            "value": "2,200"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -312902,7 +312902,7 @@
     {
       "icon": "active",
       "card": {
-        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
+        "desc": "Deals 240% damage to the opponent, deals 60% more damage to an opponent with Shield and 310% more damage to an opponent with armor; any remaining damage carries over to another opponent. This attack bypassing dodge and block damage abilities, while instantly destroying Shield and damage reduction abilities.",
         "source": "template",
         "params": [
           {
@@ -312910,8 +312910,8 @@
             "value": "2.4x"
           },
           {
-            "label": "Damage",
-            "value": "2,600"
+            "label": "Carry Damage",
+            "value": "Yes"
           },
           {
             "label": "Shield Bonus",
@@ -313903,8 +313903,8 @@
             "value": "2.7x"
           },
           {
-            "label": "Damage",
-            "value": "2,500"
+            "label": "Carry Damage",
+            "value": "No"
           },
           {
             "label": "Shield Bonus",
