@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T15:09:33Z",
+  "generated_at": "2026-11-20T19:16:40Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -198,7 +198,12 @@
     "BATTLE_END_BACKGROUND_ASSET": "titans_battle_end_bg",
     "SHOW_BETA_TAG": 1,
     "BATTLE_RUSH_TIME": "60s",
-    "ATTEMPTS_RUSH_TIME": "1h"
+    "ATTEMPTS_RUSH_TIME": "1h",
+    "EXTRA_DRAFT_ICON_ASSET": {
+      "local": "ui/features/titans/ic-titan-pass.png"
+    },
+    "ENABLE_AUTO_PLAY_BATTLEBOOST": true,
+    "EXTRA_DRAFT_TOOLTIP_TID": "tid_titans_extra_draft_tooltip"
   },
   "formula": {
     "health": "round(base_life * initial_health_modifier / 50) + 10",
