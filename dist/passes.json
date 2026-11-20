@@ -1,6 +1,6 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-20T19:15:59.572538Z",
+  "generated_at": "2026-11-20T20:54:04.370449Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
@@ -725239,8 +725239,8 @@
       "variant": "divine_pass",
       "type_label": "Divine Pass",
       "title": "DIVINE PASS: HYPNO FAMILY",
-      "subtitle": "Second Heroic of Hypno family !",
-      "description": "Second Heroic of Hypno family !",
+      "subtitle": "Second Heroic of Hypno family!",
+      "description": "Second Heroic of Hypno family!",
       "start_ts": 1795690800,
       "end_ts": 1796893200,
       "start_iso": "2026-11-26T11:00:00Z",
