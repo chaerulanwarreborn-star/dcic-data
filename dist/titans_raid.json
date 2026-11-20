@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T15:38:59Z",
+  "generated_at": "2026-11-20T06:15:55Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -4125,6 +4125,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive",
           "mix"
         ],
@@ -5340,6 +5341,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive",
           "mix"
         ],
@@ -7176,6 +7178,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive",
           "mix"
         ],
@@ -7476,6 +7479,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
@@ -7763,6 +7767,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
@@ -8057,6 +8062,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive",
           "mix"
         ],
@@ -9571,6 +9577,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive",
           "mix"
         ],
@@ -10181,6 +10188,7 @@
           }
         ],
         "filters": [
+          "active",
           "passive"
         ],
         "card_icon": "skills-icon/ic-skills-passive-special-1.png"
