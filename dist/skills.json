@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T05:57:52Z",
+  "generated_at": "2026-11-21T07:01:06Z",
   "schema_version": 3,
   "count": 646,
   "linked_count": 339,
@@ -49948,12 +49948,12 @@
         ],
         [
           3071,
-          "t",
+          "b",
           1468
         ],
         [
           3071,
-          "b",
+          "t",
           1468
         ]
       ],
@@ -54915,12 +54915,12 @@
       "skins": [
         [
           3261,
-          "t",
+          "b",
           1044
         ],
         [
           3261,
-          "b",
+          "t",
           1044
         ]
       ],
@@ -57728,12 +57728,12 @@
       "skins": [
         [
           3308,
-          "t",
+          "b",
           1170
         ],
         [
           3308,
-          "b",
+          "t",
           1170
         ]
       ],
@@ -58400,12 +58400,12 @@
       "skins": [
         [
           3291,
-          "t",
+          "b",
           1232
         ],
         [
           3291,
-          "b",
+          "t",
           1232
         ]
       ],
@@ -58553,12 +58553,12 @@
       "skins": [
         [
           3314,
-          "t",
+          "b",
           1261
         ],
         [
           3314,
-          "b",
+          "t",
           1261
         ],
         [
@@ -58970,12 +58970,12 @@
       "skins": [
         [
           3285,
-          "t",
+          "b",
           1306
         ],
         [
           3285,
-          "b",
+          "t",
           1306
         ]
       ],
@@ -59538,7 +59538,7 @@
       "id": 303,
       "order": 310,
       "name": "give doommark on enter combat",
-      "description": "",
+      "description": "give doommark on enter combat",
       "cooldown": 0,
       "effects": [
         {
@@ -60101,12 +60101,12 @@
       "skins": [
         [
           3299,
-          "t",
+          "b",
           1315
         ],
         [
           3299,
-          "b",
+          "t",
           1315
         ]
       ],
@@ -60453,12 +60453,12 @@
       "skins": [
         [
           3301,
-          "t",
+          "b",
           1317
         ],
         [
           3301,
-          "b",
+          "t",
           1317
         ]
       ],
@@ -61159,12 +61159,12 @@
       "skins": [
         [
           3312,
-          "t",
+          "b",
           1321
         ],
         [
           3312,
-          "b",
+          "t",
           1321
         ]
       ],
@@ -61789,12 +61789,12 @@
       "skins": [
         [
           3297,
-          "t",
+          "b",
           1327
         ],
         [
           3297,
-          "b",
+          "t",
           1327
         ]
       ],
@@ -61864,12 +61864,12 @@
       "skins": [
         [
           3297,
-          "t",
+          "b",
           1328
         ],
         [
           3297,
-          "b",
+          "t",
           1328
         ]
       ],
@@ -62300,12 +62300,12 @@
       "skins": [
         [
           3304,
-          "t",
+          "b",
           1332
         ],
         [
           3304,
-          "b",
+          "t",
           1332
         ]
       ],
@@ -62562,12 +62562,12 @@
       "skins": [
         [
           3303,
-          "t",
+          "b",
           1330
         ],
         [
           3303,
-          "b",
+          "t",
           1330
         ]
       ],
@@ -62660,12 +62660,12 @@
       "skins": [
         [
           3306,
-          "t",
+          "b",
           1334
         ],
         [
           3306,
-          "b",
+          "t",
           1334
         ]
       ],
@@ -63030,12 +63030,12 @@
       "skins": [
         [
           3319,
-          "t",
+          "b",
           1339
         ],
         [
           3319,
-          "b",
+          "t",
           1339
         ]
       ],
@@ -63186,12 +63186,12 @@
       "skins": [
         [
           3320,
-          "t",
+          "b",
           1337
         ],
         [
           3320,
-          "b",
+          "t",
           1337
         ]
       ],
@@ -63413,12 +63413,12 @@
       "skins": [
         [
           3323,
-          "t",
+          "b",
           1341
         ],
         [
           3323,
-          "b",
+          "t",
           1341
         ]
       ],
@@ -63505,12 +63505,12 @@
       "skins": [
         [
           3325,
-          "t",
+          "b",
           1343
         ],
         [
           3325,
-          "b",
+          "t",
           1343
         ]
       ],
@@ -64130,12 +64130,12 @@
       "skins": [
         [
           3328,
-          "t",
+          "b",
           1347
         ],
         [
           3328,
-          "b",
+          "t",
           1347
         ]
       ],
@@ -64454,12 +64454,12 @@
       "skins": [
         [
           3330,
-          "t",
+          "b",
           1350
         ],
         [
           3330,
-          "b",
+          "t",
           1350
         ]
       ],
@@ -64530,12 +64530,12 @@
       "skins": [
         [
           3333,
-          "t",
+          "b",
           1352
         ],
         [
           3333,
-          "b",
+          "t",
           1352
         ]
       ],
@@ -64979,12 +64979,12 @@
       "skins": [
         [
           3335,
-          "t",
+          "b",
           1354
         ],
         [
           3335,
-          "b",
+          "t",
           1354
         ]
       ],
@@ -65157,12 +65157,12 @@
       "skins": [
         [
           3339,
-          "t",
+          "b",
           1357
         ],
         [
           3339,
-          "b",
+          "t",
           1357
         ]
       ],
@@ -65346,12 +65346,12 @@
       "skins": [
         [
           3336,
-          "t",
+          "b",
           1359
         ],
         [
           3336,
-          "b",
+          "t",
           1359
         ]
       ],
@@ -66089,12 +66089,12 @@
       "skins": [
         [
           3348,
-          "t",
+          "b",
           1369
         ],
         [
           3348,
-          "b",
+          "t",
           1369
         ]
       ],
@@ -68193,12 +68193,12 @@
       "skins": [
         [
           3357,
-          "t",
+          "b",
           1442
         ],
         [
           3357,
-          "b",
+          "t",
           1442
         ]
       ],
@@ -68985,12 +68985,12 @@
       "skins": [
         [
           4000,
-          "t",
+          "b",
           347605
         ],
         [
           4000,
-          "b",
+          "t",
           347605
         ]
       ],
@@ -70391,12 +70391,12 @@
       "skins": [
         [
           3363,
-          "t",
+          "b",
           1448
         ],
         [
           3363,
-          "b",
+          "t",
           1448
         ]
       ],
@@ -71037,12 +71037,12 @@
       "skins": [
         [
           3367,
-          "t",
+          "b",
           1453
         ],
         [
           3367,
-          "b",
+          "t",
           1453
         ]
       ],
@@ -71785,12 +71785,12 @@
       "skins": [
         [
           3374,
-          "t",
+          "b",
           1460
         ],
         [
           3374,
-          "b",
+          "t",
           1460
         ]
       ],
@@ -72811,12 +72811,12 @@
       "skins": [
         [
           3383,
-          "t",
+          "b",
           1474
         ],
         [
           3383,
-          "b",
+          "t",
           1474
         ]
       ],
@@ -73180,12 +73180,12 @@
       "skins": [
         [
           3390,
-          "t",
+          "b",
           1481
         ],
         [
           3390,
-          "b",
+          "t",
           1481
         ]
       ],
@@ -73749,12 +73749,12 @@
       "skins": [
         [
           3398,
-          "t",
+          "b",
           1491
         ],
         [
           3398,
-          "b",
+          "t",
           1491
         ]
       ],
@@ -74911,12 +74911,12 @@
       "skins": [
         [
           3400,
-          "t",
+          "b",
           1497
         ],
         [
           3400,
-          "b",
+          "t",
           1497
         ]
       ],
@@ -75515,12 +75515,12 @@
       "skins": [
         [
           3403,
-          "t",
+          "b",
           1504
         ],
         [
           3403,
-          "b",
+          "t",
           1504
         ]
       ],
@@ -75815,12 +75815,12 @@
       "skins": [
         [
           3413,
-          "t",
+          "b",
           15051
         ],
         [
           3413,
-          "b",
+          "t",
           15051
         ]
       ],
@@ -76099,12 +76099,12 @@
       "skins": [
         [
           3412,
-          "t",
+          "b",
           1511
         ],
         [
           3412,
-          "b",
+          "t",
           1511
         ]
       ],
@@ -82362,12 +82362,12 @@
       "skins": [
         [
           3416,
-          "t",
+          "b",
           1604
         ],
         [
           3416,
-          "b",
+          "t",
           1604
         ]
       ],
@@ -82657,12 +82657,12 @@
       "skins": [
         [
           3426,
-          "t",
+          "b",
           16051
         ],
         [
           3426,
-          "b",
+          "t",
           16051
         ]
       ],
@@ -83243,12 +83243,12 @@
       "skins": [
         [
           3425,
-          "t",
+          "b",
           16131
         ],
         [
           3425,
-          "b",
+          "t",
           16131
         ]
       ],
@@ -83493,42 +83493,42 @@
       "skins": [
         [
           3419,
-          "t",
+          "b",
           1612
         ],
         [
           3419,
-          "b",
+          "t",
           1612
         ],
         [
           3430,
-          "t",
+          "b",
           1621
         ],
         [
           3430,
-          "b",
+          "t",
           1621
         ],
         [
           3434,
-          "t",
+          "b",
           1628
         ],
         [
           3434,
-          "b",
+          "t",
           1628
         ],
         [
           3437,
-          "t",
+          "b",
           1637
         ],
         [
           3437,
-          "b",
+          "t",
           1637
         ]
       ],
@@ -84703,7 +84703,7 @@
       "id": 599,
       "order": 612,
       "name": "tid_skill_name_hypnospiral_2_evasion_armor",
-      "description": "",
+      "description": "tid_skill_description_hypnospiral_2_evasion_armor",
       "cooldown": 4,
       "effects": [
         {
@@ -84820,7 +84820,7 @@
       "id": 600,
       "order": 613,
       "name": "tid_skill_name_hypnodoomscroll_1_copy_heal",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_1_copy_heal",
       "cooldown": 3,
       "effects": [
         {
@@ -84916,7 +84916,7 @@
       "id": 601,
       "order": 614,
       "name": "tid_skill_name_hypnodoomscroll_passive_enter",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_enter",
       "cooldown": 0,
       "effects": [
         {
@@ -84999,7 +84999,7 @@
       "id": 602,
       "order": 615,
       "name": "tid_skill_name_hypnodoomscroll_passive_death",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_death",
       "cooldown": 0,
       "effects": [
         {
@@ -85082,7 +85082,7 @@
       "id": 603,
       "order": 616,
       "name": "tid_skill_name_hypnodoomscroll_passive_enter_skin",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_enter_skin",
       "cooldown": 0,
       "effects": [
         {
@@ -85156,7 +85156,7 @@
       "id": 604,
       "order": 617,
       "name": "tid_skill_name_hypnodoomscroll_passive_death_skin",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_death_skin",
       "cooldown": 0,
       "effects": [
         {
@@ -85230,7 +85230,7 @@
       "id": 605,
       "order": 618,
       "name": "tid_skill_name_highaegisbrontide_1_aegis_cleanse",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_1_aegis_cleanse",
       "cooldown": 3,
       "effects": [
         {
@@ -85334,7 +85334,7 @@
       "id": 606,
       "order": 619,
       "name": "tid_skill_name_highaegisbrontide_1_aegis_cleanse_skin",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_1_aegis_cleanse_skin",
       "cooldown": 3,
       "effects": [
         {
@@ -85439,7 +85439,7 @@
       "id": 607,
       "order": 620,
       "name": "tid_skill_name_highaegisbrontide_2_guard",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_2_guard",
       "cooldown": 3,
       "effects": [
         {
@@ -85538,7 +85538,7 @@
       "id": 608,
       "order": 621,
       "name": "tid_skill_name_highaegisbrontide_passive_bunker",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_passive_bunker",
       "cooldown": 0,
       "effects": [
         {
@@ -85613,7 +85613,7 @@
       "id": 609,
       "order": 622,
       "name": "tid_skill_name_aegisradiance_1_aegis_armor",
-      "description": "",
+      "description": "tid_skill_description_aegisradiance_1_aegis_armor",
       "cooldown": 3,
       "effects": [
         {
@@ -85737,7 +85737,7 @@
       "id": 610,
       "order": 623,
       "name": "tid_skill_name_aegisradiance_1_aegis_armor_skin",
-      "description": "",
+      "description": "tid_skill_description_aegisradiance_1_aegis_armor_skin",
       "cooldown": 2,
       "effects": [
         {
@@ -85845,7 +85845,7 @@
       "id": 611,
       "order": 624,
       "name": "tid_skill_name_aegisradiance_2_lifesteal",
-      "description": "",
+      "description": "tid_skill_description_aegisradiance_2_lifesteal",
       "cooldown": 3,
       "effects": [
         {
@@ -85926,7 +85926,7 @@
       "id": 612,
       "order": 625,
       "name": "tid_skill_name_aegiscleansingflame_1_team_aegis",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_1_team_aegis",
       "cooldown": 3,
       "effects": [
         {
@@ -86046,7 +86046,7 @@
       "id": 613,
       "order": 626,
       "name": "tid_skill_name_aegiscleansingflame_1_team_aegis_skin",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_1_team_aegis_skin",
       "cooldown": 3,
       "effects": [
         {
@@ -86150,7 +86150,7 @@
       "id": 614,
       "order": 627,
       "name": "tid_skill_name_aegiscleansingflame_2_all_enemies",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_2_all_enemies",
       "cooldown": 3,
       "effects": [
         {
@@ -86227,7 +86227,7 @@
       "id": 615,
       "order": 628,
       "name": "tid_skill_name_aegiscleansingflame_passive_death_cleanse",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_passive_death_cleanse",
       "cooldown": 0,
       "effects": [
         {
@@ -86303,7 +86303,7 @@
       "id": 616,
       "order": 629,
       "name": "tid_skill_name_highaegismetachronos_1_team_aegis_hot",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_1_team_aegis_hot",
       "cooldown": 3,
       "effects": [
         {
@@ -86425,7 +86425,7 @@
       "id": 617,
       "order": 630,
       "name": "tid_skill_name_highaegismetachronos_1_team_aegis_hot_skin",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_1_team_aegis_hot_skin",
       "cooldown": 3,
       "effects": [
         {
@@ -86551,7 +86551,7 @@
       "id": 618,
       "order": 631,
       "name": "tid_skill_name_highaegismetachronos_2_team_armor",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_2_team_armor",
       "cooldown": 3,
       "effects": [
         {
@@ -86650,7 +86650,7 @@
       "id": 619,
       "order": 632,
       "name": "tid_skill_name_highaegismetachronos_passive_team_armor",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_passive_team_armor",
       "cooldown": 0,
       "effects": [
         {
@@ -86728,7 +86728,7 @@
       "id": 620,
       "order": 633,
       "name": "tid_skill_name_aegisnereus_1_aegis_hot",
-      "description": "",
+      "description": "tid_skill_description_aegisnereus_1_aegis_hot",
       "cooldown": 3,
       "effects": [
         {
@@ -86849,7 +86849,7 @@
       "id": 621,
       "order": 634,
       "name": "tid_skill_name_aegisnereus_2_crit",
-      "description": "",
+      "description": "tid_skill_description_aegisnereus_2_crit",
       "cooldown": 2,
       "effects": [
         {
@@ -86930,7 +86930,7 @@
       "id": 622,
       "order": 635,
       "name": "tid_skill_name_aegisnereus_2_crit_skin",
-      "description": "",
+      "description": "tid_skill_description_aegisnereus_2_crit_skin",
       "cooldown": 2,
       "effects": [
         {
@@ -86995,7 +86995,7 @@
       "id": 623,
       "order": 636,
       "name": "tid_skill_name_aegiskheiron_1_aegis_hot",
-      "description": "",
+      "description": "tid_skill_description_aegiskheiron_1_aegis_hot",
       "cooldown": 3,
       "effects": [
         {
@@ -87116,7 +87116,7 @@
       "id": 624,
       "order": 637,
       "name": "tid_skill_name_aegiskheiron_2_emergency_skin",
-      "description": "",
+      "description": "tid_skill_description_aegiskheiron_2_emergency_skin",
       "cooldown": 0,
       "effects": [
         {
@@ -87180,7 +87180,7 @@
       "id": 625,
       "order": 638,
       "name": "tid_skill_name_aegiskheiron_2_emergency",
-      "description": "",
+      "description": "tid_skill_description_aegiskheiron_2_emergency",
       "cooldown": 0,
       "effects": [
         {
@@ -87260,7 +87260,7 @@
       "id": 626,
       "order": 639,
       "name": "tid_skill_name_aegiskheiron_post_team_cleanse",
-      "description": "",
+      "description": "tid_skill_description_aegiskheiron_post_team_cleanse",
       "cooldown": 3,
       "effects": [
         {
@@ -87338,7 +87338,7 @@
       "id": 627,
       "order": 640,
       "name": "tid_skill_name_highaegisbrontide_passive_bunker",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_passive_bunker",
       "cooldown": 0,
       "effects": [
         {
@@ -87400,7 +87400,7 @@
       "id": 628,
       "order": 641,
       "name": "tid_skill_name_aegiscleansingflame_passive_death_cleanse",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_passive_death_cleanse",
       "cooldown": 0,
       "effects": [
         {
@@ -87468,7 +87468,7 @@
       "id": 629,
       "order": 642,
       "name": "tid_skill_name_highaegismetachronos_passive_team_armor",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_passive_team_armor",
       "cooldown": 0,
       "effects": [
         {
@@ -241462,11 +241462,11 @@
       "skins": [
         [
           3261,
-          "t"
+          "b"
         ],
         [
           3261,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -246973,11 +246973,11 @@
       "skins": [
         [
           3308,
-          "t"
+          "b"
         ],
         [
           3308,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -250587,11 +250587,11 @@
       "skins": [
         [
           3291,
-          "t"
+          "b"
         ],
         [
           3291,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -252312,11 +252312,11 @@
       "skins": [
         [
           3314,
-          "t"
+          "b"
         ],
         [
           3314,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -253219,11 +253219,11 @@
       "skins": [
         [
           3285,
-          "t"
+          "b"
         ],
         [
           3285,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -253741,11 +253741,11 @@
       "skins": [
         [
           3299,
-          "t"
+          "b"
         ],
         [
           3299,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -253862,11 +253862,11 @@
       "skins": [
         [
           3301,
-          "t"
+          "b"
         ],
         [
           3301,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254403,11 +254403,11 @@
       "skins": [
         [
           3312,
-          "t"
+          "b"
         ],
         [
           3312,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254512,11 +254512,11 @@
       "skins": [
         [
           3297,
-          "t"
+          "b"
         ],
         [
           3297,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254628,11 +254628,11 @@
       "skins": [
         [
           3297,
-          "t"
+          "b"
         ],
         [
           3297,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254798,11 +254798,11 @@
       "skins": [
         [
           3304,
-          "t"
+          "b"
         ],
         [
           3304,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254921,11 +254921,11 @@
       "skins": [
         [
           3303,
-          "t"
+          "b"
         ],
         [
           3303,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -254980,11 +254980,11 @@
       "skins": [
         [
           3306,
-          "t"
+          "b"
         ],
         [
           3306,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255085,11 +255085,11 @@
       "skins": [
         [
           3320,
-          "t"
+          "b"
         ],
         [
           3320,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255247,11 +255247,11 @@
       "skins": [
         [
           3319,
-          "t"
+          "b"
         ],
         [
           3319,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255428,11 +255428,11 @@
       "skins": [
         [
           3323,
-          "t"
+          "b"
         ],
         [
           3323,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255482,11 +255482,11 @@
       "skins": [
         [
           3325,
-          "t"
+          "b"
         ],
         [
           3325,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255645,11 +255645,11 @@
       "skins": [
         [
           3328,
-          "t"
+          "b"
         ],
         [
           3328,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -255824,11 +255824,11 @@
       "skins": [
         [
           3330,
-          "t"
+          "b"
         ],
         [
           3330,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -256002,11 +256002,11 @@
       "skins": [
         [
           3333,
-          "t"
+          "b"
         ],
         [
           3333,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -256118,11 +256118,11 @@
       "skins": [
         [
           3335,
-          "t"
+          "b"
         ],
         [
           3335,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -256176,11 +256176,11 @@
       "skins": [
         [
           3339,
-          "t"
+          "b"
         ],
         [
           3339,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -256416,11 +256416,11 @@
       "skins": [
         [
           3336,
-          "t"
+          "b"
         ],
         [
           3336,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -256884,11 +256884,11 @@
       "skins": [
         [
           3348,
-          "t"
+          "b"
         ],
         [
           3348,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -260728,11 +260728,11 @@
       "skins": [
         [
           3357,
-          "t"
+          "b"
         ],
         [
           3357,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -261244,11 +261244,11 @@
       "skins": [
         [
           3363,
-          "t"
+          "b"
         ],
         [
           3363,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -261480,11 +261480,11 @@
       "skins": [
         [
           3367,
-          "t"
+          "b"
         ],
         [
           3367,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -262084,11 +262084,11 @@
       "skins": [
         [
           3374,
-          "t"
+          "b"
         ],
         [
           3374,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -262497,11 +262497,11 @@
       "skins": [
         [
           3071,
-          "t"
+          "b"
         ],
         [
           3071,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -262673,11 +262673,11 @@
       "skins": [
         [
           3383,
-          "t"
+          "b"
         ],
         [
           3383,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -262795,11 +262795,11 @@
       "skins": [
         [
           4000,
-          "t"
+          "b"
         ],
         [
           4000,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -263091,11 +263091,11 @@
       "skins": [
         [
           3390,
-          "t"
+          "b"
         ],
         [
           3390,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -263799,11 +263799,11 @@
       "skins": [
         [
           3398,
-          "t"
+          "b"
         ],
         [
           3398,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -264224,11 +264224,11 @@
       "skins": [
         [
           3400,
-          "t"
+          "b"
         ],
         [
           3400,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -264577,11 +264577,11 @@
       "skins": [
         [
           3403,
-          "t"
+          "b"
         ],
         [
           3403,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -264908,11 +264908,11 @@
       "skins": [
         [
           3412,
-          "t"
+          "b"
         ],
         [
           3412,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -269122,11 +269122,11 @@
       "skins": [
         [
           3413,
-          "t"
+          "b"
         ],
         [
           3413,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -269233,11 +269233,11 @@
       "skins": [
         [
           3416,
-          "t"
+          "b"
         ],
         [
           3416,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -269879,11 +269879,11 @@
       "skins": [
         [
           3419,
-          "t"
+          "b"
         ],
         [
           3419,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -270918,11 +270918,11 @@
       "skins": [
         [
           3434,
-          "t"
+          "b"
         ],
         [
           3434,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -271109,11 +271109,11 @@
       "skins": [
         [
           3430,
-          "t"
+          "b"
         ],
         [
           3430,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -271326,11 +271326,11 @@
       "skins": [
         [
           3426,
-          "t"
+          "b"
         ],
         [
           3426,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -271381,11 +271381,11 @@
       "skins": [
         [
           3425,
-          "t"
+          "b"
         ],
         [
           3425,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -271648,11 +271648,11 @@
       "skins": [
         [
           3437,
-          "t"
+          "b"
         ],
         [
           3437,
-          "b"
+          "t"
         ]
       ],
       "titan_count": 0,
@@ -336574,7 +336574,7 @@
       "kind": "passive",
       "id": 136,
       "name": "Hypno Doomscroll - Mindbreak on Enter",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_enter",
       "skill_id": 601,
       "special_icon": 1,
       "cooldown": 0,
@@ -336622,7 +336622,7 @@
       "kind": "passive",
       "id": 137,
       "name": "Hypno Doomscroll - Mindbreak on Death",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_death",
       "skill_id": 602,
       "special_icon": 1,
       "cooldown": 0,
@@ -336670,7 +336670,7 @@
       "kind": "passive",
       "id": 138,
       "name": "Hypno Doomscroll - Mindbreak on Enter - Skin",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_enter_skin",
       "skill_id": 603,
       "special_icon": 1,
       "cooldown": 0,
@@ -336716,7 +336716,7 @@
       "kind": "passive",
       "id": 139,
       "name": "Hypno Doomscroll - Mindbreak on Death - Skin",
-      "description": "",
+      "description": "tid_skill_description_hypnodoomscroll_passive_death_skin",
       "skill_id": 604,
       "special_icon": 1,
       "cooldown": 0,
@@ -336762,7 +336762,7 @@
       "kind": "passive",
       "id": 140,
       "name": "High Aegis Brontide - Bunker on Enter",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_passive_bunker",
       "skill_id": 608,
       "special_icon": 1,
       "cooldown": 0,
@@ -336805,7 +336805,7 @@
       "kind": "passive",
       "id": 141,
       "name": "Aegis Cleansing Flame Dragon - Team Cleanse on Death",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_passive_death_cleanse",
       "skill_id": 615,
       "special_icon": 1,
       "cooldown": 0,
@@ -336846,7 +336846,7 @@
       "kind": "passive",
       "id": 142,
       "name": "High Aegis Metachronos - Team Armor at Start",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_passive_team_armor",
       "skill_id": 619,
       "special_icon": 1,
       "cooldown": 0,
@@ -336889,7 +336889,7 @@
       "kind": "passive",
       "id": 143,
       "name": "High Aegis Brontide - Bunker on Enter (given)",
-      "description": "",
+      "description": "tid_skill_description_highaegisbrontide_passive_bunker",
       "skill_id": 627,
       "special_icon": 1,
       "cooldown": 0,
@@ -336934,7 +336934,7 @@
       "kind": "passive",
       "id": 144,
       "name": "Aegis Cleansing Flame Dragon - Team Cleanse on Death (given)",
-      "description": "",
+      "description": "tid_skill_description_aegiscleansingflame_passive_death_cleanse",
       "skill_id": 628,
       "special_icon": 1,
       "cooldown": 0,
@@ -336974,7 +336974,7 @@
       "kind": "passive",
       "id": 145,
       "name": "High Aegis Metachronos - Team Armor at Start (given)",
-      "description": "",
+      "description": "tid_skill_description_highaegismetachronos_passive_team_armor",
       "skill_id": 629,
       "special_icon": 1,
       "cooldown": 0,
@@ -337967,7 +337967,7 @@
       "kind": "post",
       "id": 23,
       "name": "Aegis Kheiron Dragon - Team Cleanse on Kill",
-      "description": "",
+      "description": "tid_skill_description_aegiskheiron_post_team_cleanse",
       "skill_id": 626,
       "special_icon": 1,
       "cooldown": 3,
