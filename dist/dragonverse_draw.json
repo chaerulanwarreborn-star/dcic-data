@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-20T20:54:28Z",
+  "generated_at": "2026-11-21T05:57:33Z",
   "box_assets": {
     "regular": {
       "sq": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-regular-gift-sq.png",
@@ -76379,7 +76379,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -76388,7 +76388,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -76408,7 +76408,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -76417,7 +76417,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -76437,7 +76437,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -76446,7 +76446,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -76466,7 +76466,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -76475,7 +76475,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -76931,7 +76931,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -76940,7 +76940,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -76960,7 +76960,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -76969,7 +76969,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -76989,7 +76989,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -76998,7 +76998,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -77018,7 +77018,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -77027,7 +77027,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -77483,7 +77483,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -77492,7 +77492,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -77512,7 +77512,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -77521,7 +77521,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -77541,7 +77541,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -77550,7 +77550,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -77570,7 +77570,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -77579,7 +77579,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -78035,7 +78035,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -78044,7 +78044,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -78064,7 +78064,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -78073,7 +78073,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -78093,7 +78093,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -78102,7 +78102,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -78122,7 +78122,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -78131,7 +78131,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -78587,7 +78587,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -78596,7 +78596,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -78616,7 +78616,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -78625,7 +78625,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -78645,7 +78645,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -78654,7 +78654,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -78674,7 +78674,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -78683,7 +78683,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -79139,7 +79139,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -79148,7 +79148,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -79168,7 +79168,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -79177,7 +79177,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -79197,7 +79197,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -79206,7 +79206,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -79226,7 +79226,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -79235,7 +79235,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -79691,7 +79691,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -79700,7 +79700,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -79720,7 +79720,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -79729,7 +79729,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -79749,7 +79749,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -79758,7 +79758,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -79778,7 +79778,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -79787,7 +79787,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -80879,7 +80879,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -80888,7 +80888,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -80908,7 +80908,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -80917,7 +80917,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -80937,7 +80937,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -80946,7 +80946,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -80966,7 +80966,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -80975,7 +80975,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -81431,7 +81431,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -81440,7 +81440,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -81460,7 +81460,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -81469,7 +81469,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -81489,7 +81489,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -81498,7 +81498,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -81518,7 +81518,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -81527,7 +81527,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -81983,7 +81983,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -81992,7 +81992,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -82012,7 +82012,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -82021,7 +82021,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -82041,7 +82041,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -82050,7 +82050,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -82070,7 +82070,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -82079,7 +82079,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -82535,7 +82535,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -82544,7 +82544,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -82564,7 +82564,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -82573,7 +82573,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -82593,7 +82593,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -82602,7 +82602,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -82622,7 +82622,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -82631,7 +82631,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -83087,7 +83087,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -83096,7 +83096,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -83116,7 +83116,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -83125,7 +83125,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -83145,7 +83145,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -83154,7 +83154,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -83174,7 +83174,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -83183,7 +83183,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -83639,7 +83639,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -83648,7 +83648,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -83668,7 +83668,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -83677,7 +83677,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -83697,7 +83697,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -83706,7 +83706,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -83726,7 +83726,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -83735,7 +83735,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -84191,7 +84191,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -84200,7 +84200,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -84220,7 +84220,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -84229,7 +84229,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -84249,7 +84249,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -84258,7 +84258,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -84278,7 +84278,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -84287,7 +84287,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -85275,7 +85275,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -85284,7 +85284,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -85304,7 +85304,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -85313,7 +85313,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -85333,7 +85333,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -85342,7 +85342,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -85362,7 +85362,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -85371,7 +85371,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -85827,7 +85827,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -85836,7 +85836,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -85856,7 +85856,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -85865,7 +85865,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -85885,7 +85885,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -85894,7 +85894,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -85914,7 +85914,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -85923,7 +85923,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -86379,7 +86379,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -86388,7 +86388,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -86408,7 +86408,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -86417,7 +86417,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -86437,7 +86437,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -86446,7 +86446,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -86466,7 +86466,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -86475,7 +86475,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -86931,7 +86931,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -86940,7 +86940,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -86960,7 +86960,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -86969,7 +86969,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -86989,7 +86989,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -86998,7 +86998,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -87018,7 +87018,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -87027,7 +87027,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -87483,7 +87483,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -87492,7 +87492,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -87512,7 +87512,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -87521,7 +87521,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -87541,7 +87541,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -87550,7 +87550,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -87570,7 +87570,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -87579,7 +87579,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -88035,7 +88035,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -88044,7 +88044,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -88064,7 +88064,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -88073,7 +88073,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -88093,7 +88093,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -88102,7 +88102,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -88122,7 +88122,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -88131,7 +88131,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -88587,7 +88587,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -88596,7 +88596,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -88616,7 +88616,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -88625,7 +88625,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -88645,7 +88645,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -88654,7 +88654,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -88674,7 +88674,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -88683,7 +88683,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -89775,7 +89775,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -89784,7 +89784,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -89804,7 +89804,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -89813,7 +89813,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -89833,7 +89833,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -89842,7 +89842,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -89862,7 +89862,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -89871,7 +89871,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -90327,7 +90327,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -90336,7 +90336,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -90356,7 +90356,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -90365,7 +90365,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -90385,7 +90385,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -90394,7 +90394,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -90414,7 +90414,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -90423,7 +90423,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -91363,7 +91363,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -91372,7 +91372,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -91392,7 +91392,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -91401,7 +91401,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -91421,7 +91421,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -91430,7 +91430,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -91450,7 +91450,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -91459,7 +91459,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -91915,7 +91915,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -91924,7 +91924,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -91944,7 +91944,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -91953,7 +91953,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -91973,7 +91973,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -91982,7 +91982,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -92002,7 +92002,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -92011,7 +92011,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -92467,7 +92467,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -92476,7 +92476,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -92496,7 +92496,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -92505,7 +92505,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -92525,7 +92525,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -92534,7 +92534,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -92554,7 +92554,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -92563,7 +92563,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -93987,7 +93987,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -93996,7 +93996,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -94016,7 +94016,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -94025,7 +94025,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -94045,7 +94045,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -94054,7 +94054,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -94074,7 +94074,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -94083,7 +94083,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -94539,7 +94539,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -94548,7 +94548,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -94568,7 +94568,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -94577,7 +94577,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -94597,7 +94597,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -94606,7 +94606,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -94626,7 +94626,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -94635,7 +94635,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -95091,7 +95091,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -95100,7 +95100,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -95120,7 +95120,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -95129,7 +95129,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -95149,7 +95149,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -95158,7 +95158,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -95178,7 +95178,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -95187,7 +95187,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -96175,7 +96175,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -96184,7 +96184,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -96204,7 +96204,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -96213,7 +96213,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -96233,7 +96233,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -96242,7 +96242,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -96262,7 +96262,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -96271,7 +96271,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -96727,7 +96727,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -96736,7 +96736,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -96756,7 +96756,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -96765,7 +96765,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -96785,7 +96785,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -96794,7 +96794,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -96814,7 +96814,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -96823,7 +96823,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -97279,7 +97279,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -97288,7 +97288,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -97308,7 +97308,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -97317,7 +97317,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -97337,7 +97337,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -97346,7 +97346,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -97366,7 +97366,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -97375,7 +97375,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -97831,7 +97831,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -97840,7 +97840,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -97860,7 +97860,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -97869,7 +97869,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -97889,7 +97889,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -97898,7 +97898,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -97918,7 +97918,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -97927,7 +97927,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,
@@ -98383,7 +98383,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 50,
@@ -98392,7 +98392,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 50,
@@ -98412,7 +98412,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 100,
@@ -98421,7 +98421,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 100,
@@ -98441,7 +98441,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-best-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 150,
@@ -98450,7 +98450,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 150,
@@ -98470,7 +98470,7 @@
           "box_image": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/dragonverse-draw/gr-mid-gift-sq.png",
           "reward": {
             "kind": "resource",
-            "type": "hollow_ticket",
+            "type": "gacha_ticket",
             "key": "gacha_event_tickets",
             "name": "Hollow Tickets",
             "amount": 70,
@@ -98479,7 +98479,7 @@
           "items": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 70,

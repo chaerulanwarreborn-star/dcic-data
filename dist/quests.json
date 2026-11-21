@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-20T20:54:39Z",
+  "generated_at": "2026-11-21T05:57:45Z",
   "quest_count": 204,
   "permanent_count": 45,
   "event_count": 159,
@@ -213342,7 +213342,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -213419,7 +213419,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -213496,7 +213496,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -213573,7 +213573,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -213650,7 +213650,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -213727,7 +213727,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -213804,7 +213804,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -213881,7 +213881,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -213958,7 +213958,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -214035,7 +214035,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -214112,7 +214112,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -214189,7 +214189,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -214266,7 +214266,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -214343,7 +214343,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -214420,7 +214420,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -214497,7 +214497,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -214574,7 +214574,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -214651,7 +214651,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -214728,7 +214728,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -214805,7 +214805,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -214882,7 +214882,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -214959,7 +214959,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -215036,7 +215036,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -215113,7 +215113,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -215190,7 +215190,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -215267,7 +215267,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -215344,7 +215344,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -215421,7 +215421,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -215498,7 +215498,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -215575,7 +215575,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -215652,7 +215652,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -215729,7 +215729,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -215806,7 +215806,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -215883,7 +215883,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -215960,7 +215960,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -216037,7 +216037,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -216114,7 +216114,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -216191,7 +216191,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -216268,7 +216268,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -216345,7 +216345,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -216422,7 +216422,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -216499,7 +216499,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -216617,7 +216617,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -216716,7 +216716,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -216815,7 +216815,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -216914,7 +216914,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -217013,7 +217013,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -217112,7 +217112,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -217211,7 +217211,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -217310,7 +217310,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -217409,7 +217409,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -217508,7 +217508,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -217607,7 +217607,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -217706,7 +217706,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -217805,7 +217805,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -217904,7 +217904,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -218003,7 +218003,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -218102,7 +218102,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -218201,7 +218201,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -218300,7 +218300,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,
@@ -218399,7 +218399,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 10,
@@ -218498,7 +218498,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 15,
@@ -218597,7 +218597,7 @@
           "rewards": [
             {
               "kind": "resource",
-              "type": "hollow_ticket",
+              "type": "gacha_ticket",
               "key": "gacha_event_tickets",
               "name": "Hollow Tickets",
               "amount": 25,

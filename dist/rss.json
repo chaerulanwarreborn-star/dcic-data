@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:54:43Z",
+  "generated_at": "2026-11-21T05:57:50Z",
   "count": 2356,
   "resources": [
     {
@@ -11163,7 +11163,7 @@
     {
       "key": "gacha_event_tickets",
       "name": "Hollow Tickets",
-      "type": "hollow_ticket",
+      "type": "gacha_ticket",
       "image_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/currency-icon/ic_ic_hollow_crown_massive.png",
       "family": "gacha_event_tickets"
     },
