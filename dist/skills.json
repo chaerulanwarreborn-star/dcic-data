@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:10:16Z",
+  "generated_at": "2026-11-22T14:37:12Z",
   "schema_version": 3,
   "count": 646,
   "linked_count": 339,
@@ -340906,6 +340906,12 @@
   ],
   "world_skills": [
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "20/min"
+        }
+      ],
       "id": 1,
       "name": "World Skill 1",
       "description": "World Skill Description 1",
@@ -340931,6 +340937,12 @@
       "order": 0
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "50/min"
+        }
+      ],
       "id": 2,
       "name": "World Skill 2",
       "description": "World Skill Description 1",
@@ -340956,6 +340968,12 @@
       "order": 1
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "125/min"
+        }
+      ],
       "id": 3,
       "name": "World Skill 3",
       "description": "World Skill Description 1",
@@ -340981,6 +340999,12 @@
       "order": 2
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "750/min"
+        }
+      ],
       "id": 4,
       "name": "World Skill 4",
       "description": "World Skill Description 1",
@@ -341006,6 +341030,12 @@
       "order": 3
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "500/min"
+        }
+      ],
       "id": 5,
       "name": "World Skill 5",
       "description": "World Skill Description 1",
@@ -341031,6 +341061,12 @@
       "order": 4
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "60/min"
+        }
+      ],
       "id": 6,
       "name": "World Skill 6",
       "description": "World Skill Description 1",
@@ -341056,6 +341092,12 @@
       "order": 5
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "80/min"
+        }
+      ],
       "id": 7,
       "name": "World Skill 7",
       "description": "World Skill Description 1",
@@ -341081,6 +341123,12 @@
       "order": 6
     },
     {
+      "resource_params": [
+        {
+          "label": "Food",
+          "value": "60/min"
+        }
+      ],
       "id": 8,
       "name": "World Skill 8",
       "description": "World Skill Description 1",
