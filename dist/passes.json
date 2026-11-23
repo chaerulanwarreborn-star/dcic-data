@@ -1,12 +1,12 @@
 {
   "schema_version": 6,
-  "generated_at": "2026-11-22T19:49:44.734426Z",
+  "generated_at": "2026-11-23T11:36:29.363058Z",
   "source_file": "side_events_config.json",
   "archive_enabled": false,
   "data_scope": "all_passes_present_in_side_events_source",
-  "pass_count": 158,
+  "pass_count": 161,
   "divine_pass_count": 94,
-  "progression_pass_count": 64,
+  "progression_pass_count": 67,
   "passes": [
     {
       "key": "divine_pass:3",
@@ -680270,7 +680270,7 @@
                     "amount": 5,
                     "rules": {
                       "all_of_elements": [
-                        "p"
+                        "ti"
                       ]
                     },
                     "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-arenas.png"
@@ -729370,6 +729370,3414 @@
         "sound_tag": "MYSTERIOUS",
         "icon_id": "icon_1"
       }
+    },
+    {
+      "key": "progression_pass:380",
+      "id": 380,
+      "type": "progression_pass",
+      "variant": "dragon_trails_pass",
+      "type_label": "Progression Pass",
+      "title": "DRAGON TRAILS PASS",
+      "subtitle": "",
+      "start_ts": 1796036400,
+      "end_ts": 1796641200,
+      "start_iso": "2026-11-30T11:00:00Z",
+      "end_iso": "2026-12-07T11:00:00Z",
+      "details": "/p/progression-pass.html?id=380",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "dragon_trails_pass.20261130_seg1",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "featured_reward": null,
+      "progression": {
+        "lanes": [
+          {
+            "id": 380002,
+            "key": "platinum",
+            "name": "Platinum Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_platinum",
+            "goals": [
+              {
+                "order": 1,
+                "id": 380002,
+                "points": 5,
+                "requirements": [
+                  {
+                    "id": 380002,
+                    "type": "EARN_CURRENCY",
+                    "amount": 5,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 380005,
+                "points": 15,
+                "requirements": [
+                  {
+                    "id": 380005,
+                    "type": "EARN_CURRENCY",
+                    "amount": 15,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380005,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 23015,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 23015,
+                      "chest_id": 23015,
+                      "source_chest_id": 23015,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:23015",
+                      "detail_file": "generic/39.json",
+                      "name": "Banquet Box",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 23015,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 23015
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 380008,
+                "points": 25,
+                "requirements": [
+                  {
+                    "id": 380008,
+                    "type": "EARN_CURRENCY",
+                    "amount": 25,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 380011,
+                "points": 35,
+                "requirements": [
+                  {
+                    "id": 380011,
+                    "type": "EARN_CURRENCY",
+                    "amount": 35,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380011,
+                  "name": "High Hollow Cyberwitch Dragon Orbs",
+                  "amount": 100,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3508
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3508,
+                      "dragon_id": 3508,
+                      "name": "High Hollow Cyberwitch Dragon Orbs",
+                      "amount": 100,
+                      "dragon_rarity": "H",
+                      "img_name_mobile": "3508_dragon_highhollowcyberwitch",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3508
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3508,
+                          "amount": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 380014,
+                "points": 45,
+                "requirements": [
+                  {
+                    "id": 380014,
+                    "type": "EARN_CURRENCY",
+                    "amount": 45,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 40,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 40,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 40
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 380017,
+                "points": 55,
+                "requirements": [
+                  {
+                    "id": 380017,
+                    "type": "EARN_CURRENCY",
+                    "amount": 55,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380006,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 380020,
+                "points": 65,
+                "requirements": [
+                  {
+                    "id": 380020,
+                    "type": "EARN_CURRENCY",
+                    "amount": 65,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380006,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 80,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 80,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 80
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380001,
+            "key": "golden",
+            "name": "Golden Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_golden",
+            "goals": [
+              {
+                "order": 1,
+                "id": 380001,
+                "points": 10,
+                "requirements": [
+                  {
+                    "id": 380001,
+                    "type": "EARN_CURRENCY",
+                    "amount": 10,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 380004,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 380004,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 380007,
+                "points": 30,
+                "requirements": [
+                  {
+                    "id": 380007,
+                    "type": "EARN_CURRENCY",
+                    "amount": 30,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 380010,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 380010,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 380013,
+                "points": 50,
+                "requirements": [
+                  {
+                    "id": 380013,
+                    "type": "EARN_CURRENCY",
+                    "amount": 50,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 380016,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 380016,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 380019,
+                "points": 70,
+                "requirements": [
+                  {
+                    "id": 380019,
+                    "type": "EARN_CURRENCY",
+                    "amount": 70,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 60,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 60,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 60
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380000,
+            "key": "free",
+            "name": "Free",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": null,
+            "goals": [
+              {
+                "order": 1,
+                "id": 380003,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 380003,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 380009,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 380009,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 380015,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 380015,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ],
+        "mission_groups": [
+          {
+            "id": 380000,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_1",
+            "goals": [
+              {
+                "id": 3800000,
+                "requirements": [
+                  {
+                    "id": 3800000,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380001,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_2",
+            "goals": [
+              {
+                "id": 3800001,
+                "requirements": [
+                  {
+                    "id": 3800001,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380002,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_3",
+            "goals": [
+              {
+                "id": 3800002,
+                "requirements": [
+                  {
+                    "id": 3800002,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380003,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_4",
+            "goals": [
+              {
+                "id": 3800003,
+                "requirements": [
+                  {
+                    "id": 3800003,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380004,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_5",
+            "goals": [
+              {
+                "id": 3800004,
+                "requirements": [
+                  {
+                    "id": 3800004,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380005,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_6",
+            "goals": [
+              {
+                "id": 3800005,
+                "requirements": [
+                  {
+                    "id": 3800005,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 380006,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_7",
+            "goals": [
+              {
+                "id": 3800006,
+                "requirements": [
+                  {
+                    "id": 3800006,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ]
+      },
+      "currency_ids": [
+        "dragon_trails_pass_points.20261130"
+      ],
+      "currency_id": "dragon_trails_pass_points.20261130",
+      "visual_icon_id": "dragon_trails_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_moves_dragon_trail_1/$HDSD/ic_moves_dragon_trail_1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_moves_dragon_trail_1/HD/ic_moves_dragon_trail_1.png",
+      "hud_button_asset": "react-pass-hud",
+      "player_segment_ids": [
+        42
+      ],
+      "player_segmentation_type": "dynamic"
+    },
+    {
+      "key": "progression_pass:381",
+      "id": 381,
+      "type": "progression_pass",
+      "variant": "dragon_trails_pass",
+      "type_label": "Progression Pass",
+      "title": "DRAGON TRAILS PASS",
+      "subtitle": "",
+      "start_ts": 1796036400,
+      "end_ts": 1796641200,
+      "start_iso": "2026-11-30T11:00:00Z",
+      "end_iso": "2026-12-07T11:00:00Z",
+      "details": "/p/progression-pass.html?id=381",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "dragon_trails_pass.20261130_seg2",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "featured_reward": null,
+      "progression": {
+        "lanes": [
+          {
+            "id": 381002,
+            "key": "platinum",
+            "name": "Platinum Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_platinum",
+            "goals": [
+              {
+                "order": 1,
+                "id": 381002,
+                "points": 5,
+                "requirements": [
+                  {
+                    "id": 381002,
+                    "type": "EARN_CURRENCY",
+                    "amount": 5,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 381005,
+                "points": 15,
+                "requirements": [
+                  {
+                    "id": 381005,
+                    "type": "EARN_CURRENCY",
+                    "amount": 15,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381005,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 23015,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 23015,
+                      "chest_id": 23015,
+                      "source_chest_id": 23015,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:23015",
+                      "detail_file": "generic/39.json",
+                      "name": "Banquet Box",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 23015,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 23015
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 381008,
+                "points": 25,
+                "requirements": [
+                  {
+                    "id": 381008,
+                    "type": "EARN_CURRENCY",
+                    "amount": 25,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 381011,
+                "points": 35,
+                "requirements": [
+                  {
+                    "id": 381011,
+                    "type": "EARN_CURRENCY",
+                    "amount": 35,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381011,
+                  "name": "High Hollow Cyberwitch Dragon Orbs",
+                  "amount": 100,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3508
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3508,
+                      "dragon_id": 3508,
+                      "name": "High Hollow Cyberwitch Dragon Orbs",
+                      "amount": 100,
+                      "dragon_rarity": "H",
+                      "img_name_mobile": "3508_dragon_highhollowcyberwitch",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3508
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3508,
+                          "amount": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 381014,
+                "points": 45,
+                "requirements": [
+                  {
+                    "id": 381014,
+                    "type": "EARN_CURRENCY",
+                    "amount": 45,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 381017,
+                "points": 55,
+                "requirements": [
+                  {
+                    "id": 381017,
+                    "type": "EARN_CURRENCY",
+                    "amount": 55,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 381020,
+                "points": 65,
+                "requirements": [
+                  {
+                    "id": 381020,
+                    "type": "EARN_CURRENCY",
+                    "amount": 65,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381001,
+            "key": "golden",
+            "name": "Golden Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_golden",
+            "goals": [
+              {
+                "order": 1,
+                "id": 381001,
+                "points": 10,
+                "requirements": [
+                  {
+                    "id": 381001,
+                    "type": "EARN_CURRENCY",
+                    "amount": 10,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 381004,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 381004,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 381007,
+                "points": 30,
+                "requirements": [
+                  {
+                    "id": 381007,
+                    "type": "EARN_CURRENCY",
+                    "amount": 30,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 381010,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 381010,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 381013,
+                "points": 50,
+                "requirements": [
+                  {
+                    "id": 381013,
+                    "type": "EARN_CURRENCY",
+                    "amount": 50,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 381016,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 381016,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 381019,
+                "points": 70,
+                "requirements": [
+                  {
+                    "id": 381019,
+                    "type": "EARN_CURRENCY",
+                    "amount": 70,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381000,
+            "key": "free",
+            "name": "Free",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": null,
+            "goals": [
+              {
+                "order": 1,
+                "id": 381003,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 381003,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 381009,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 381009,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 381015,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 381015,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ],
+        "mission_groups": [
+          {
+            "id": 381000,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_1",
+            "goals": [
+              {
+                "id": 3810000,
+                "requirements": [
+                  {
+                    "id": 3810000,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381001,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_2",
+            "goals": [
+              {
+                "id": 3810001,
+                "requirements": [
+                  {
+                    "id": 3810001,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381002,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_3",
+            "goals": [
+              {
+                "id": 3810002,
+                "requirements": [
+                  {
+                    "id": 3810002,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381003,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_4",
+            "goals": [
+              {
+                "id": 3810003,
+                "requirements": [
+                  {
+                    "id": 3810003,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381004,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_5",
+            "goals": [
+              {
+                "id": 3810004,
+                "requirements": [
+                  {
+                    "id": 3810004,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381005,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_6",
+            "goals": [
+              {
+                "id": 3810005,
+                "requirements": [
+                  {
+                    "id": 3810005,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 381006,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_7",
+            "goals": [
+              {
+                "id": 3810006,
+                "requirements": [
+                  {
+                    "id": 3810006,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ]
+      },
+      "currency_ids": [
+        "dragon_trails_pass_points.20261130"
+      ],
+      "currency_id": "dragon_trails_pass_points.20261130",
+      "visual_icon_id": "dragon_trails_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_moves_dragon_trail_1/$HDSD/ic_moves_dragon_trail_1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_moves_dragon_trail_1/HD/ic_moves_dragon_trail_1.png",
+      "hud_button_asset": "react-pass-hud",
+      "player_segment_ids": [
+        1335
+      ],
+      "player_segmentation_type": "dynamic"
+    },
+    {
+      "key": "progression_pass:382",
+      "id": 382,
+      "type": "progression_pass",
+      "variant": "dragon_trails_pass",
+      "type_label": "Progression Pass",
+      "title": "DRAGON TRAILS PASS",
+      "subtitle": "",
+      "start_ts": 1796036400,
+      "end_ts": 1796641200,
+      "start_iso": "2026-11-30T11:00:00Z",
+      "end_iso": "2026-12-07T11:00:00Z",
+      "details": "/p/progression-pass.html?id=382",
+      "source_section": "progression_milestones.progression_milestones",
+      "unlock_system_availability": "dragon_trails_pass.20261130_seg3",
+      "featured_dragons": [],
+      "featured_dragon_count": 0,
+      "featured_reward": null,
+      "progression": {
+        "lanes": [
+          {
+            "id": 382002,
+            "key": "platinum",
+            "name": "Platinum Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_platinum",
+            "goals": [
+              {
+                "order": 1,
+                "id": 382002,
+                "points": 5,
+                "requirements": [
+                  {
+                    "id": 382002,
+                    "type": "EARN_CURRENCY",
+                    "amount": 5,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 382005,
+                "points": 15,
+                "requirements": [
+                  {
+                    "id": 382005,
+                    "type": "EARN_CURRENCY",
+                    "amount": 15,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382005,
+                  "name": "Banquet Box",
+                  "amount": 1,
+                  "kind": "chest",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                  "popup": {
+                    "kind": "chest",
+                    "id": 23015,
+                    "type": "generic"
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "chest",
+                      "type": "chest",
+                      "asset_kind": "chest",
+                      "id": 23015,
+                      "chest_id": 23015,
+                      "source_chest_id": 23015,
+                      "source_chest_img_name": "",
+                      "img_name": "",
+                      "chest_type": "generic",
+                      "chest_key": "generic:23015",
+                      "detail_file": "generic/39.json",
+                      "name": "Banquet Box",
+                      "amount": 1,
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                      "image_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl@2x.png",
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/343_chest_tomato_xl.png",
+                        "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+                      ],
+                      "popup": {
+                        "kind": "chest",
+                        "id": 23015,
+                        "type": "generic"
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "chest": 23015
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 382008,
+                "points": 25,
+                "requirements": [
+                  {
+                    "id": 382008,
+                    "type": "EARN_CURRENCY",
+                    "amount": 25,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 382011,
+                "points": 35,
+                "requirements": [
+                  {
+                    "id": 382011,
+                    "type": "EARN_CURRENCY",
+                    "amount": 35,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382011,
+                  "name": "High Hollow Cyberwitch Dragon Orbs",
+                  "amount": 100,
+                  "kind": "dragon_orbs",
+                  "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                  "popup": {
+                    "kind": "dragon_orbs",
+                    "id": 3508
+                  },
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "dragon_orbs",
+                      "type": "dragon_orbs",
+                      "asset_kind": "dragon_orbs",
+                      "id": 3508,
+                      "dragon_id": 3508,
+                      "name": "High Hollow Cyberwitch Dragon Orbs",
+                      "amount": 100,
+                      "dragon_rarity": "H",
+                      "img_name_mobile": "3508_dragon_highhollowcyberwitch",
+                      "dragon_thumbnail": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "thumbnail_candidates": [
+                        "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png"
+                      ],
+                      "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3508_dragon_highhollowcyberwitch_3.png",
+                      "orb_icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/tree-of-life/ic-seed-h-mid-shadow.png",
+                      "popup": {
+                        "kind": "dragon_orbs",
+                        "id": 3508
+                      }
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "seeds": [
+                        {
+                          "id": 3508,
+                          "amount": 100
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 382014,
+                "points": 45,
+                "requirements": [
+                  {
+                    "id": 382014,
+                    "type": "EARN_CURRENCY",
+                    "amount": 45,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381002,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 50,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 50,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 50
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 382017,
+                "points": 55,
+                "requirements": [
+                  {
+                    "id": 382017,
+                    "type": "EARN_CURRENCY",
+                    "amount": 55,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 382020,
+                "points": 65,
+                "requirements": [
+                  {
+                    "id": 382020,
+                    "type": "EARN_CURRENCY",
+                    "amount": 65,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 381001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 100,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 100,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 100
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382001,
+            "key": "golden",
+            "name": "Golden Lane",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": "dragon_trails_pass.20261130_golden",
+            "goals": [
+              {
+                "order": 1,
+                "id": 382001,
+                "points": 10,
+                "requirements": [
+                  {
+                    "id": 382001,
+                    "type": "EARN_CURRENCY",
+                    "amount": 10,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 382004,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 382004,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 382007,
+                "points": 30,
+                "requirements": [
+                  {
+                    "id": 382007,
+                    "type": "EARN_CURRENCY",
+                    "amount": 30,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 4,
+                "id": 382010,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 382010,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 5,
+                "id": 382013,
+                "points": 50,
+                "requirements": [
+                  {
+                    "id": 382013,
+                    "type": "EARN_CURRENCY",
+                    "amount": 50,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 6,
+                "id": 382016,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 382016,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 7,
+                "id": 382019,
+                "points": 70,
+                "requirements": [
+                  {
+                    "id": 382019,
+                    "type": "EARN_CURRENCY",
+                    "amount": 70,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 382001,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 150,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 150,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 150
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382000,
+            "key": "free",
+            "name": "Free",
+            "currency": "dragon_trails_pass_points.20261130",
+            "unlock_system_availability": null,
+            "goals": [
+              {
+                "order": 1,
+                "id": 382003,
+                "points": 20,
+                "requirements": [
+                  {
+                    "id": 382003,
+                    "type": "EARN_CURRENCY",
+                    "amount": 20,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 2,
+                "id": 382009,
+                "points": 40,
+                "requirements": [
+                  {
+                    "id": 382009,
+                    "type": "EARN_CURRENCY",
+                    "amount": 40,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              },
+              {
+                "order": 3,
+                "id": 382015,
+                "points": 60,
+                "requirements": [
+                  {
+                    "id": 382015,
+                    "type": "EARN_CURRENCY",
+                    "amount": 60,
+                    "rules": {
+                      "currency_id": "dragon_trails_pass_points.20261130"
+                    },
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-pass-points-massive.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 380003,
+                  "name": "Dt Spins V2Blackfriday",
+                  "amount": 5,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dt_spins.v2BlackFriday",
+                      "name": "Dt Spins V2Blackfriday",
+                      "amount": 5,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dt_spins.v2BlackFriday": 5
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ],
+        "mission_groups": [
+          {
+            "id": 382000,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_1",
+            "goals": [
+              {
+                "id": 3820000,
+                "requirements": [
+                  {
+                    "id": 3820000,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382001,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_2",
+            "goals": [
+              {
+                "id": 3820001,
+                "requirements": [
+                  {
+                    "id": 3820001,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382002,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_3",
+            "goals": [
+              {
+                "id": 3820002,
+                "requirements": [
+                  {
+                    "id": 3820002,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382003,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_4",
+            "goals": [
+              {
+                "id": 3820003,
+                "requirements": [
+                  {
+                    "id": 3820003,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382004,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_5",
+            "goals": [
+              {
+                "id": 3820004,
+                "requirements": [
+                  {
+                    "id": 3820004,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382005,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_6",
+            "goals": [
+              {
+                "id": 3820005,
+                "requirements": [
+                  {
+                    "id": 3820005,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          },
+          {
+            "id": 382006,
+            "name": "DAILY GOALS",
+            "unlock_system_availability": "dragon_trails_pass.20261130_daily_7",
+            "goals": [
+              {
+                "id": 3820006,
+                "requirements": [
+                  {
+                    "id": 3820006,
+                    "type": "COLLECT_FOOD",
+                    "amount": 10000,
+                    "rules": {},
+                    "icon_url": "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/icons/pass/ic-gl-collect-food.png"
+                  }
+                ],
+                "reward": {
+                  "reward_id": 3800000,
+                  "name": "Dragon Trails Pass Points 20261130",
+                  "amount": 10,
+                  "kind": "resource",
+                  "image_url": "",
+                  "popup": {},
+                  "rarity": "",
+                  "items": [
+                    {
+                      "kind": "resource",
+                      "type": "resource",
+                      "resource": "resource",
+                      "key": "dragon_trails_pass_points.20261130",
+                      "name": "Dragon Trails Pass Points 20261130",
+                      "amount": 10,
+                      "image_url": ""
+                    }
+                  ],
+                  "raw": [
+                    {
+                      "dragon_trails_pass_points.20261130": 10
+                    }
+                  ]
+                },
+                "claim_limit": 1
+              }
+            ]
+          }
+        ]
+      },
+      "currency_ids": [
+        "dragon_trails_pass_points.20261130"
+      ],
+      "currency_id": "dragon_trails_pass_points.20261130",
+      "visual_icon_id": "dragon_trails_pass_points.*",
+      "icon_remote": "/mobile/ui/economy_system/ic_moves_dragon_trail_1/$HDSD/ic_moves_dragon_trail_1.png",
+      "icon_url": "https://dcw-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_moves_dragon_trail_1/HD/ic_moves_dragon_trail_1.png",
+      "hud_button_asset": "react-pass-hud",
+      "player_segment_ids": [
+        41
+      ],
+      "player_segmentation_type": "dynamic"
     },
     {
       "key": "progression_pass:358",

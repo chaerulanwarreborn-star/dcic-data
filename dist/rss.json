@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T19:50:30Z",
-  "count": 2356,
+  "generated_at": "2026-11-23T11:37:12Z",
+  "count": 2358,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -11054,6 +11054,20 @@
       "type": "currency",
       "image_url": "",
       "family": "dragon_mastery_pass_tickets_premium"
+    },
+    {
+      "key": "dragon_trails_pass_points.*",
+      "name": "dragon_trails_pass_points.*",
+      "type": "currency",
+      "image_url": "",
+      "family": "dragon_trails_pass"
+    },
+    {
+      "key": "dragon_trails_pass_points.20261130",
+      "name": "dragon_trails_pass_points.20261130",
+      "type": "currency",
+      "image_url": "",
+      "family": "dragon_trails_pass"
     },
     {
       "key": "earth_day_pass_points.*",
