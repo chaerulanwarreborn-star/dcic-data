@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:55:08Z",
+  "generated_at": "2026-11-24T23:48:44Z",
   "schema_version": 3,
   "count": 647,
   "linked_count": 340,
@@ -276910,6 +276910,20 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        22,
+        24
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
@@ -276982,6 +276996,20 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        21,
+        23,
+        25
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
@@ -279233,6 +279261,13 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        233,
+        235,
+        237,
+        239,
+        241
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
@@ -280037,6 +280072,11 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        233,
+        241,
+        255
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
@@ -280257,6 +280297,11 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        249,
+        241,
+        239
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
@@ -280459,6 +280504,12 @@
         "Control & Tempo"
       ],
       "is_perk": false,
+      "launches": [
+        287,
+        288,
+        289,
+        290
+      ],
       "icon_file": "skills-icon/effects/ic-effect-random-skill.png",
       "icon_fit": "skill"
     },
