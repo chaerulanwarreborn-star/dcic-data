@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-24T08:44:20Z",
+  "generated_at": "2026-11-24T16:54:48Z",
   "album_count": 6,
   "set_count": 66,
   "sticker_count": 671,
@@ -12061,7 +12061,7 @@
         {
           "kind": "chest",
           "id": 21292,
-          "name": "tid_chest_name_dusksigilblue",
+          "name": "Blue Dusk Sigil",
           "amount": 1,
           "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dustsigil_blue_x5@2x.png",
           "image_candidates": [
@@ -18644,8 +18644,8 @@
             },
             {
               "id": 170104,
-              "name": "Sticker 170104",
-              "description": "Unit 3272 Skin Description",
+              "name": "Fur Skill Skin",
+              "description": "By simply owning this Skin, your dragon's overall life points will be boosted by 25%, it will deal boosted damage for its Evasion skill & Ice attack, and have a reduced skill cooldown of only 3 turns.",
               "rarity": "rarity_4",
               "rarity_name": "Rarity 4",
               "rarity_type": "normal",
@@ -18805,18 +18805,18 @@
           "status": "upcoming",
           "reward": [
             {
-              "id": 3515,
-              "name": "Hypno Doom Scroll Orbs",
-              "rarity": "M",
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3515_dragon_hypnodoomscroll_3.png",
+              "id": 3513,
+              "name": "High Hypno Mindseye Orbs",
+              "rarity": "H",
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
               "image_candidates": [
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3515_dragon_hypnodoomscroll_3.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3515_dragon_hypnodoomscroll_3@2x.png",
-                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3515_dragon_hypnodoomscroll_1@2x.png"
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/HD/thumb_3513_dragon_highhypnomindseye_3.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_3@2x.png",
+                "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/dragons/ui_3513_dragon_highhypnomindseye_1@2x.png"
               ],
               "popup": {
                 "kind": "dragon",
-                "id": 3515
+                "id": 3513
               },
               "kind": "dragon_orbs",
               "amount": 120
