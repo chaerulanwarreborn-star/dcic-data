@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T09:15:14Z",
-  "count": 2358,
+  "generated_at": "2026-11-26T09:47:06Z",
+  "count": 2359,
   "resources": [
     {
       "key": "album14.sticker.*",
@@ -11441,6 +11441,13 @@
       "family": "heroic_race_pass"
     },
     {
+      "key": "heroic_race_pass_points.20261203",
+      "name": "heroic_race_pass_points.20261203",
+      "type": "currency",
+      "image_url": "",
+      "family": "heroic_race_pass"
+    },
+    {
       "key": "heroic_race_pass_points.s1",
       "name": "heroic_race_pass_points.s1",
       "type": "currency",
@@ -12325,13 +12332,6 @@
     {
       "key": "season_pass_points.20261109",
       "name": "season_pass_points.20261109",
-      "type": "currency",
-      "image_url": "",
-      "family": "season_pass"
-    },
-    {
-      "key": "season_pass_points.20261112",
-      "name": "season_pass_points.20261112",
       "type": "currency",
       "image_url": "",
       "family": "season_pass"
@@ -16483,6 +16483,13 @@
     {
       "key": "tree_of_life_pass_points.20261022",
       "name": "tree_of_life_pass_points.20261022",
+      "type": "currency",
+      "image_url": "",
+      "family": "tree_of_life_pass"
+    },
+    {
+      "key": "tree_of_life_pass_points.20261203",
+      "name": "tree_of_life_pass_points.20261203",
       "type": "currency",
       "image_url": "",
       "family": "tree_of_life_pass"
