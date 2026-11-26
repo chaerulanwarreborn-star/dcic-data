@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T09:57:56Z",
+  "generated_at": "2026-11-26T09:15:10Z",
   "source": {
     "titan_config": "net_featuredata.json -> titan.config",
     "schedule": "game_config.json -> unlock_system.unlocks (UTC)"
@@ -3942,135 +3942,135 @@
       "background_asset": "bg_battle_titans_terra_b",
       "stats": {
         "raw": {
-          "health": 900000,
+          "health": 1035000,
           "damage": 40000
         }
       },
-      "base_life": 900000,
+      "base_life": 1035000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 18010,
+          "health": 20710,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 36010,
+          "health": 41410,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 54010,
+          "health": 62110,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 72010,
+          "health": 82810,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 90010,
+          "health": 103510,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 108010,
+          "health": 124210,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 126010,
+          "health": 144910,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 144010,
+          "health": 165610,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 162010,
+          "health": 186310,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 180010,
+          "health": 207010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 198010,
+          "health": 227710,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 216010,
+          "health": 248410,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 234010,
+          "health": 269110,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 252010,
+          "health": 289810,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 270010,
+          "health": 310510,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 324010,
+          "health": 372610,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 396010,
+          "health": 455410,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 468010,
+          "health": 538210,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 540010,
+          "health": 621010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 630010,
+          "health": 724510,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 756010,
+          "health": 869410,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 900010,
+          "health": 1035010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1044010,
+          "health": 1200610,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1224010,
+          "health": 1407610,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1404010,
+          "health": 1614610,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -4253,135 +4253,135 @@
       "background_asset": "bg_battle_titans_fire",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1150000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1150000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 23010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 46010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 69010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 92010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 115010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 138010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 161010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 184010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 207010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 230010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 253010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 276010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 299010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 322010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 345010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 414010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 506010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 598010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 690010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 805010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 966010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1150010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1334010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1564010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1794010,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -5469,135 +5469,135 @@
       "background_asset": "bg_battle_titans_ice",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1150000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1150000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 23010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 46010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 69010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 92010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 115010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 138010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 161010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 184010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 207010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 230010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 253010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 276010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 299010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 322010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 345010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 414010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 506010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 598010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 690010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 805010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 966010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1150010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1334010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1564010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1794010,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -5778,135 +5778,135 @@
       "background_asset": "bg_battle_titans_metal",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1200000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1200000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 24010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 48010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 72010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 96010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 120010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 144010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 168010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 192010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 216010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 240010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 264010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 288010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 312010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 336010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 360010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 432010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 528010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 624010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 720010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 840010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 1008010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1200010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1392010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1632010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1872010,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -6085,135 +6085,135 @@
       "background_asset": "bg_battle_titans_dark",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1050000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1050000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 21010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 42010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 63010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 84010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 105010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 126010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 147010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 168010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 189010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 210010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 231010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 252010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 273010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 294010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 315010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 378010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 462010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 546010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 630010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 735010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 882010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1050010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1218010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1428010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1638010,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -6696,135 +6696,135 @@
       "background_asset": "bg_battle_titans_war",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1200000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1200000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 24010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 48010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 72010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 96010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 120010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 144010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 168010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 192010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 216010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 240010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 264010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 288010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 312010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 336010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 360010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 432010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 528010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 624010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 720010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 840010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 1008010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1200010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1392010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1632010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1872010,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -7882,135 +7882,135 @@
       "background_asset": "bg_battle_titans_wind",
       "stats": {
         "raw": {
-          "health": 900000,
+          "health": 1080000,
           "damage": 40000
         }
       },
-      "base_life": 900000,
+      "base_life": 1080000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 18010,
+          "health": 21610,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 36010,
+          "health": 43210,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 54010,
+          "health": 64810,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 72010,
+          "health": 86410,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 90010,
+          "health": 108010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 108010,
+          "health": 129610,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 126010,
+          "health": 151210,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 144010,
+          "health": 172810,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 162010,
+          "health": 194410,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 180010,
+          "health": 216010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 198010,
+          "health": 237610,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 216010,
+          "health": 259210,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 234010,
+          "health": 280810,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 252010,
+          "health": 302410,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 270010,
+          "health": 324010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 324010,
+          "health": 388810,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 396010,
+          "health": 475210,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 468010,
+          "health": 561610,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 540010,
+          "health": 648010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 630010,
+          "health": 756010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 756010,
+          "health": 907210,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 900010,
+          "health": 1080010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1044010,
+          "health": 1252810,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1224010,
+          "health": 1468810,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1404010,
+          "health": 1684810,
           "attack": 187200,
           "attack_estimated": true
         }
@@ -8190,135 +8190,135 @@
       "background_asset": "bg_battle_titans_time",
       "stats": {
         "raw": {
-          "health": 1000000,
+          "health": 1050000,
           "damage": 40000
         }
       },
-      "base_life": 1000000,
+      "base_life": 1050000,
       "base_attack": 40000,
       "tier_stats": {
         "1": {
-          "health": 20010,
+          "health": 21010,
           "attack": 2400,
           "attack_estimated": true
         },
         "2": {
-          "health": 40010,
+          "health": 42010,
           "attack": 4800,
           "attack_estimated": true
         },
         "3": {
-          "health": 60010,
+          "health": 63010,
           "attack": 7200,
           "attack_estimated": true
         },
         "4": {
-          "health": 80010,
+          "health": 84010,
           "attack": 9600,
           "attack_estimated": true
         },
         "5": {
-          "health": 100010,
+          "health": 105010,
           "attack": 12000,
           "attack_estimated": true
         },
         "6": {
-          "health": 120010,
+          "health": 126010,
           "attack": 14400,
           "attack_estimated": true
         },
         "7": {
-          "health": 140010,
+          "health": 147010,
           "attack": 16800,
           "attack_estimated": true
         },
         "8": {
-          "health": 160010,
+          "health": 168010,
           "attack": 19200,
           "attack_estimated": true
         },
         "9": {
-          "health": 180010,
+          "health": 189010,
           "attack": 21600,
           "attack_estimated": true
         },
         "10": {
-          "health": 200010,
+          "health": 210010,
           "attack": 24000,
           "attack_estimated": true
         },
         "11": {
-          "health": 220010,
+          "health": 231010,
           "attack": 26400,
           "attack_estimated": true
         },
         "12": {
-          "health": 240010,
+          "health": 252010,
           "attack": 28800,
           "attack_estimated": true
         },
         "13": {
-          "health": 260010,
+          "health": 273010,
           "attack": 31200,
           "attack_estimated": true
         },
         "14": {
-          "health": 280010,
+          "health": 294010,
           "attack": 33600,
           "attack_estimated": true
         },
         "15": {
-          "health": 300010,
+          "health": 315010,
           "attack": 36000,
           "attack_estimated": true
         },
         "16": {
-          "health": 360010,
+          "health": 378010,
           "attack": 43200,
           "attack_estimated": true
         },
         "17": {
-          "health": 440010,
+          "health": 462010,
           "attack": 52800,
           "attack_estimated": true
         },
         "18": {
-          "health": 520010,
+          "health": 546010,
           "attack": 62400,
           "attack_estimated": true
         },
         "19": {
-          "health": 600010,
+          "health": 630010,
           "attack": 72000,
           "attack_estimated": true
         },
         "20": {
-          "health": 700010,
+          "health": 735010,
           "attack": 84000,
           "attack_estimated": true
         },
         "21": {
-          "health": 840010,
+          "health": 882010,
           "attack": 100800,
           "attack_estimated": true
         },
         "22": {
-          "health": 1000010,
+          "health": 1050010,
           "attack": 120000,
           "attack_estimated": true
         },
         "23": {
-          "health": 1160010,
+          "health": 1218010,
           "attack": 139200,
           "attack_estimated": true
         },
         "24": {
-          "health": 1360010,
+          "health": 1428010,
           "attack": 163200,
           "attack_estimated": true
         },
         "25": {
-          "health": 1560010,
+          "health": 1638010,
           "attack": 187200,
           "attack_estimated": true
         }
