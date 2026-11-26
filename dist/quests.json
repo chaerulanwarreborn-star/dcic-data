@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-26T09:56:52Z",
+  "generated_at": "2026-11-26T11:37:12Z",
   "quest_count": 210,
   "permanent_count": 45,
   "event_count": 165,
@@ -285722,7 +285722,7 @@
       "end_ts": 1795690800,
       "start_iso": "2026-11-14T11:00:00Z",
       "end_iso": "2026-11-26T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 15,
       "stages": [
         {
@@ -297770,7 +297770,7 @@
       "end_ts": 1795690800,
       "start_iso": "2026-10-29T11:00:00Z",
       "end_iso": "2026-11-26T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 7,
       "stages": [
         {
@@ -299332,7 +299332,7 @@
       "end_ts": 1795690800,
       "start_iso": "2026-11-12T11:00:00Z",
       "end_iso": "2026-11-26T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 20,
       "stages": [
         {
@@ -302243,7 +302243,7 @@
       "end_ts": 1795690800,
       "start_iso": "2026-11-20T11:00:00Z",
       "end_iso": "2026-11-26T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -303048,7 +303048,7 @@
       "end_ts": 1795690800,
       "start_iso": "2026-11-19T11:00:00Z",
       "end_iso": "2026-11-26T11:00:00Z",
-      "status": "current",
+      "status": "past",
       "stage_count": 10,
       "stages": [
         {
@@ -303932,7 +303932,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304009,7 +304009,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304086,7 +304086,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304163,7 +304163,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304240,7 +304240,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304317,7 +304317,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304394,7 +304394,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304471,7 +304471,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304548,7 +304548,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304625,7 +304625,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304702,7 +304702,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304779,7 +304779,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304856,7 +304856,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -304933,7 +304933,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305010,7 +305010,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305109,7 +305109,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305186,7 +305186,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305285,7 +305285,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305384,7 +305384,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305461,7 +305461,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305560,7 +305560,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305656,7 +305656,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305733,7 +305733,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305832,7 +305832,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305909,7 +305909,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -305986,7 +305986,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306085,7 +306085,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306162,7 +306162,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306239,7 +306239,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306338,7 +306338,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306415,7 +306415,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306492,7 +306492,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306591,7 +306591,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306668,7 +306668,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306745,7 +306745,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306844,7 +306844,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306921,7 +306921,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -306998,7 +306998,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307097,7 +307097,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307174,7 +307174,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307251,7 +307251,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307350,7 +307350,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307446,7 +307446,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307523,7 +307523,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307622,7 +307622,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307699,7 +307699,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307776,7 +307776,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307875,7 +307875,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -307952,7 +307952,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308029,7 +308029,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308128,7 +308128,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308205,7 +308205,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308282,7 +308282,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308381,7 +308381,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308458,7 +308458,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308535,7 +308535,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308634,7 +308634,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308711,7 +308711,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308788,7 +308788,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308887,7 +308887,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -308964,7 +308964,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309041,7 +309041,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309140,7 +309140,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 45,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309236,7 +309236,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309313,7 +309313,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309390,7 +309390,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309467,7 +309467,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309544,7 +309544,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309621,7 +309621,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309698,7 +309698,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309775,7 +309775,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309852,7 +309852,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -309929,7 +309929,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310006,7 +310006,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310083,7 +310083,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310160,7 +310160,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310237,7 +310237,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310314,7 +310314,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310413,7 +310413,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310490,7 +310490,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310589,7 +310589,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310688,7 +310688,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310765,7 +310765,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310864,7 +310864,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -310889,7 +310889,7 @@
       "end_ts": 1796295600,
       "start_iso": "2026-11-26T11:00:00Z",
       "end_iso": "2026-12-03T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 9,
       "stages": [
         {
@@ -311678,7 +311678,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -311755,7 +311755,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -311832,7 +311832,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -311909,7 +311909,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -311986,7 +311986,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312063,7 +312063,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312140,7 +312140,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312217,7 +312217,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312316,7 +312316,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312393,7 +312393,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312470,7 +312470,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312569,7 +312569,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312646,7 +312646,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312723,7 +312723,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312822,7 +312822,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312899,7 +312899,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -312976,7 +312976,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313075,7 +313075,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313152,7 +313152,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313229,7 +313229,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313328,7 +313328,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 200,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313424,7 +313424,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313501,7 +313501,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313578,7 +313578,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313655,7 +313655,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313732,7 +313732,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313809,7 +313809,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 25,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313886,7 +313886,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -313963,7 +313963,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314062,7 +314062,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314139,7 +314139,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314216,7 +314216,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314315,7 +314315,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314392,7 +314392,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314469,7 +314469,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314568,7 +314568,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314645,7 +314645,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314722,7 +314722,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314821,7 +314821,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314898,7 +314898,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 10,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -314975,7 +314975,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 15,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -315074,7 +315074,7 @@
               "key": "gacha_apex.20261109",
               "name": "Apex of the Dawn tickets",
               "amount": 100,
-              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket/HD/ic_apex_pass_ticket_massive_c.png"
+              "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/economy_system/ic_apex_pass_ticket_b/HD/ic_apex_pass_ticket_massive_c.png"
             }
           ],
           "raw_reward": [
@@ -316704,7 +316704,7 @@
       "end_ts": 1796900400,
       "start_iso": "2026-11-26T11:00:00Z",
       "end_iso": "2026-12-10T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 15,
       "stages": [
         {
@@ -318309,7 +318309,7 @@
       "end_ts": 1800529200,
       "start_iso": "2026-11-26T11:00:00Z",
       "end_iso": "2027-01-21T11:00:00Z",
-      "status": "upcoming",
+      "status": "current",
       "stage_count": 60,
       "stages": [
         {
