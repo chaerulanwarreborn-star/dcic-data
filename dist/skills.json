@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T09:47:07Z",
+  "generated_at": "2026-11-26T09:56:58Z",
   "schema_version": 3,
-  "count": 647,
+  "count": 649,
   "linked_count": 340,
-  "attack_count": 1824,
-  "skilled_attack_count": 754,
+  "attack_count": 1826,
+  "skilled_attack_count": 756,
   "passive_count": 218,
-  "effect_count": 827,
+  "effect_count": 829,
   "world_count": 8,
   "status_icons": [
     "asset:skills-icon/effects/ic-status-silence.png",
@@ -210,6 +210,11 @@
         "key": "youtuber",
         "asset": "family-badge/youtuber-badge.png",
         "label": "Youtuber Dragons"
+      },
+      {
+        "key": "hollow",
+        "asset": "family-badge/dc-ui-family-insignia_hollow.png",
+        "label": "hollow_1"
       }
     ],
     "categories": [
@@ -29179,6 +29184,7 @@
       "H",
       "3504_dragon_highhollowcrown_b",
       [
+        "hollow",
         "vip"
       ],
       2227,
@@ -29665,6 +29671,7 @@
       "H",
       "3519_dragon_highhollowqueen",
       [
+        "hollow",
         "vip"
       ],
       0,
@@ -29680,6 +29687,7 @@
       "H",
       "3508_dragon_highhollowcyberwitch",
       [
+        "hollow",
         "vip"
       ],
       0,
@@ -87816,6 +87824,199 @@
         "Defense",
         "Support",
         "Offense"
+      ],
+      "is_perk": false
+    },
+    {
+      "id": 635,
+      "order": 647,
+      "name": "Hushed Verdict+",
+      "description": "Deals damage to all enemies and silences them, preventing the use of active skills for a few turns.",
+      "cooldown": 3,
+      "effects": [
+        {
+          "id": 340,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 1.5
+          },
+          "trigger": [],
+          "passives": [],
+          "auras": []
+        },
+        {
+          "id": 929,
+          "type": "DAMAGE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2000,
+            "multiplier": 1.7
+          },
+          "trigger": [],
+          "passives": [],
+          "auras": []
+        }
+      ],
+      "effect_types": [
+        "DAMAGE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "move_types": [],
+      "elements": [
+        "f"
+      ],
+      "element_names": [
+        "Flame"
+      ],
+      "attack_ids": [
+        1706
+      ],
+      "passive_ids": [],
+      "post_ids": [],
+      "aura_ids": [],
+      "status_icons": [],
+      "usage_count": 0,
+      "dragon_count": 0,
+      "skin_count": 0,
+      "dragons": [],
+      "skins": [],
+      "titan_count": 0,
+      "titans": [],
+      "icon": "active",
+      "icons": [
+        "active"
+      ],
+      "icon_source": "rules",
+      "kinds": [
+        "active"
+      ],
+      "categories": [
+        "Offense"
+      ],
+      "is_perk": false
+    },
+    {
+      "id": 636,
+      "order": 648,
+      "name": "Eye of Ruin+",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
+      "cooldown": 2,
+      "effects": [
+        {
+          "id": 863,
+          "type": "OVERDRIVE",
+          "target": "ENEMY",
+          "hit_chance": 1,
+          "parameters": {
+            "damage": 2500,
+            "multiplier": 2.7,
+            "shieldMultiplier": 0.9,
+            "armorMultiplier": 1.8,
+            "carryDamage": false,
+            "avoidSkills": [
+              "VENGEFUL",
+              "EVASION",
+              "SHIELD"
+            ],
+            "destroySkills": [
+              "SHIELD",
+              "BUNKER"
+            ],
+            "vfx": ""
+          },
+          "trigger": [],
+          "passives": [],
+          "auras": []
+        },
+        {
+          "id": 862,
+          "type": "GIVE_PASSIVE",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "passiveIds": [
+              82
+            ],
+            "numPassives": 1,
+            "passiveStacks": true,
+            "numStacks": 1,
+            "maxStacks": 1,
+            "vfx": "",
+            "addRandomly": false
+          },
+          "trigger": [],
+          "passives": [
+            82
+          ],
+          "auras": []
+        },
+        {
+          "id": 930,
+          "type": "ARMOR",
+          "target": "SELF",
+          "hit_chance": 1,
+          "parameters": {
+            "percentageValue": 0.6,
+            "activeTurns": 2,
+            "dragonLife": "receiver",
+            "statusIcon": "/mobile/ui/generic_sprites/ux-skills/HD/ic-status-armor-positive.png",
+            "effectName": "tid_skill_armor_effect_name"
+          },
+          "trigger": [],
+          "passives": [],
+          "auras": []
+        }
+      ],
+      "effect_types": [
+        "ARMOR",
+        "GIVE_PASSIVE",
+        "OVERDRIVE"
+      ],
+      "targets": [
+        "ENEMY",
+        "SELF"
+      ],
+      "move_types": [],
+      "elements": [
+        "wr"
+      ],
+      "element_names": [
+        "War"
+      ],
+      "attack_ids": [
+        1705
+      ],
+      "passive_ids": [],
+      "post_ids": [],
+      "aura_ids": [],
+      "status_icons": [
+        3,
+        5
+      ],
+      "usage_count": 0,
+      "dragon_count": 0,
+      "skin_count": 0,
+      "dragons": [],
+      "skins": [],
+      "titan_count": 0,
+      "titans": [],
+      "icon": "mix",
+      "icons": [
+        "mix"
+      ],
+      "icon_source": "rules",
+      "kinds": [
+        "mix"
+      ],
+      "categories": [
+        "Offense",
+        "Defense"
       ],
       "is_perk": false
     }
@@ -274818,6 +275019,102 @@
         "Support",
         "Offense"
       ]
+    },
+    {
+      "id": 1706,
+      "name": "Hushed Verdict+",
+      "ingame_name": "Hushed Verdict+",
+      "config_name": "Hypno whisperer Flair",
+      "element": "f",
+      "element_name": "Flame",
+      "skill_id": 635,
+      "skilled": true,
+      "kind": "active",
+      "cooldown": 3,
+      "button_style": 3,
+      "special_icon": 1,
+      "damage": 2200,
+      "ui_damage": 2200,
+      "training_time": 172800,
+      "effect_types": [
+        "DAMAGE"
+      ],
+      "targets": [
+        "ENEMY"
+      ],
+      "effect_count": 2,
+      "multiplier": 1.7,
+      "status_icons": [],
+      "card_status_icons": [],
+      "order": 1824,
+      "usage_count": 0,
+      "dragon_count": 0,
+      "skin_count": 0,
+      "dragons": [],
+      "skins": [],
+      "titan_count": 0,
+      "titans": [],
+      "triggers": [
+        "special"
+      ],
+      "random_from": [],
+      "random_to": [],
+      "categories": [
+        "Offense"
+      ]
+    },
+    {
+      "id": 1705,
+      "name": "Eye of Ruin+",
+      "ingame_name": "Eye of Ruin+",
+      "config_name": "High Hypno Mindseye - Overdrive Armor Flair",
+      "element": "wr",
+      "element_name": "War",
+      "skill_id": 636,
+      "skilled": true,
+      "kind": "active",
+      "cooldown": 2,
+      "button_style": 3,
+      "special_icon": 1,
+      "damage": 2400,
+      "ui_damage": 2400,
+      "training_time": 172800,
+      "effect_types": [
+        "ARMOR",
+        "GIVE_PASSIVE",
+        "OVERDRIVE"
+      ],
+      "targets": [
+        "ENEMY",
+        "SELF"
+      ],
+      "effect_count": 3,
+      "multiplier": 2.7,
+      "status_icons": [
+        3,
+        5
+      ],
+      "card_status_icons": [
+        3,
+        5
+      ],
+      "order": 1825,
+      "usage_count": 0,
+      "dragon_count": 0,
+      "skin_count": 0,
+      "dragons": [],
+      "skins": [],
+      "titan_count": 0,
+      "titans": [],
+      "triggers": [
+        "special"
+      ],
+      "random_from": [],
+      "random_to": [],
+      "categories": [
+        "Offense",
+        "Defense"
+      ]
     }
   ],
   "effects": [
@@ -298269,7 +298566,8 @@
       "attack_ids": [
         1038,
         1330,
-        1629
+        1629,
+        1706
       ],
       "passive_ids": [],
       "post_ids": [],
@@ -298294,7 +298592,8 @@
       "skill_ids": [
         254,
         349,
-        590
+        590,
+        635
       ],
       "cooldown": 3,
       "kinds": [
@@ -327687,7 +327986,8 @@
         "note": null
       },
       "attack_ids": [
-        1638
+        1638,
+        1705
       ],
       "passive_ids": [],
       "post_ids": [],
@@ -327712,7 +328012,8 @@
       "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
       "skill_id": 596,
       "skill_ids": [
-        596
+        596,
+        636
       ],
       "cooldown": 2,
       "kinds": [
@@ -327757,7 +328058,8 @@
         "note": null
       },
       "attack_ids": [
-        1638
+        1638,
+        1705
       ],
       "passive_ids": [],
       "post_ids": [],
@@ -327781,7 +328083,8 @@
       "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
       "skill_id": 596,
       "skill_ids": [
-        596
+        596,
+        636
       ],
       "cooldown": 2,
       "kinds": [
@@ -332040,6 +332343,137 @@
       "is_perk": false,
       "icon_file": "skills-icon/effects/ic-effect-damage.png",
       "icon_fit": "status"
+    },
+    {
+      "icon": "active",
+      "card": {
+        "desc": "Deals 170% damage to the opponent.",
+        "source": "template",
+        "params": [
+          {
+            "label": "Multiplier",
+            "value": "1.7x"
+          },
+          {
+            "label": "Damage",
+            "value": "2,000"
+          }
+        ],
+        "note": null
+      },
+      "attack_ids": [
+        1706
+      ],
+      "passive_ids": [],
+      "post_ids": [],
+      "gives": [],
+      "id": 929,
+      "effect_type": "DAMAGE",
+      "effect_types": [
+        "DAMAGE"
+      ],
+      "target": "ENEMY",
+      "targets": [
+        "ENEMY"
+      ],
+      "hit_chance": 1,
+      "params": {
+        "multiplier": 1.7,
+        "damage": 2000
+      },
+      "name": "Hushed Verdict+",
+      "description": "Deals damage to all enemies and silences them, preventing the use of active skills for a few turns.",
+      "skill_id": 635,
+      "skill_ids": [
+        635
+      ],
+      "cooldown": 3,
+      "kinds": [
+        "active"
+      ],
+      "multiplier": 1.7,
+      "effect_count": 1,
+      "status_icons": [],
+      "give_icons": [],
+      "label": null,
+      "dragons": [],
+      "skins": [],
+      "titans": [],
+      "dragon_count": 0,
+      "skin_count": 0,
+      "titan_count": 0,
+      "order": 827,
+      "categories": [
+        "Offense"
+      ],
+      "is_perk": false,
+      "icon_file": "skills-icon/effects/ic-effect-damage.png",
+      "icon_fit": "status"
+    },
+    {
+      "icon": "mix",
+      "card": {
+        "desc": "Adds extra life points to the user, equal to 60% of their main life points. This Armor lasts for 2 turns or until destroyed.",
+        "source": "template",
+        "params": [
+          {
+            "label": "Armor Points",
+            "value": "60%"
+          },
+          {
+            "label": "Duration",
+            "value": "2 turn(s)"
+          }
+        ],
+        "note": null
+      },
+      "attack_ids": [
+        1705
+      ],
+      "passive_ids": [],
+      "post_ids": [],
+      "gives": [],
+      "id": 930,
+      "effect_type": "ARMOR",
+      "effect_types": [
+        "ARMOR"
+      ],
+      "target": "SELF",
+      "targets": [
+        "SELF"
+      ],
+      "hit_chance": 1,
+      "params": {
+        "activeTurns": 2
+      },
+      "name": "Eye of Ruin+",
+      "description": "A shield-breaking blow that trades power for exhaustion, then grants the user armor.",
+      "skill_id": 636,
+      "skill_ids": [
+        636
+      ],
+      "cooldown": 2,
+      "kinds": [
+        "mix"
+      ],
+      "multiplier": null,
+      "effect_count": 1,
+      "status_icons": [
+        3
+      ],
+      "give_icons": [],
+      "label": null,
+      "dragons": [],
+      "skins": [],
+      "titans": [],
+      "dragon_count": 0,
+      "skin_count": 0,
+      "titan_count": 0,
+      "order": 828,
+      "categories": [
+        "Defense"
+      ],
+      "is_perk": false
     }
   ],
   "passives": [
