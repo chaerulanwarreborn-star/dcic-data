@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T11:43:50Z",
+  "generated_at": "2026-11-27T07:15:46Z",
   "schema_version": 3,
   "count": 649,
   "linked_count": 340,
@@ -58,148 +58,158 @@
       },
       {
         "key": "titans",
-        "asset": "family-badge/gr-family-badge-titans.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-titans.png",
         "label": "The Titans"
       },
       {
         "key": "vampire",
-        "asset": "family-badge/gr-family-badge-vampire.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/vampire_collection/HD/icon2.png",
         "label": "Vampire Family"
       },
       {
         "key": "corrupted",
-        "asset": "family-badge/gr-family-badge-corrupted.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-corrupted.png",
         "label": "Corrupted Clan"
       },
       {
         "key": "ascended",
-        "asset": "family-badge/gr-family-badge-ascended.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-ascended.png",
         "label": "The Ascended"
       },
       {
         "key": "karma",
-        "asset": "family-badge/gr-family-badge-karma.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/karma_dragons_collection_v4/HD/icon4.png",
         "label": "Karma Collective"
       },
       {
         "key": "redemption",
-        "asset": "family-badge/gr-family-badge-redemption.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-redemption.png",
         "label": "Redemption Rings"
       },
       {
         "key": "dual",
-        "asset": "family-badge/icon-dual.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/dual_dragons_collection/HD/icon-dual.png",
         "label": "Dual Twins"
       },
       {
         "key": "twd",
-        "asset": "family-badge/gr-family-badge-twd.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/twd_dragons_collection/HD/icon-twd.png",
         "label": "The Walking Dead"
       },
       {
-        "key": "eternals",
-        "asset": "family-badge/gr-family-badge-eternals.png",
+        "key": "eternal",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/eternal_dragons_collection/HD/icon-eternal.png",
         "label": "The Eternals"
       },
       {
         "key": "arcana",
-        "asset": "family-badge/gr-family-badge-arcana.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-arcana.png",
         "label": "The Arcana"
       },
       {
         "key": "plasma",
-        "asset": "family-badge/gr-family-badge-plasma.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/plasma_dragons_collection_1/HD/icon-plasma.png",
         "label": "Plasma Colony"
       },
       {
         "key": "quantum",
-        "asset": "family-badge/gr-family-badge-quantum.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-quantum.png",
         "label": "Quantum Quintet"
       },
       {
-        "key": "berserker",
-        "asset": "family-badge/gr-family-badge-berserker.png",
+        "key": "berserk",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-berserker.png",
         "label": "Berserkers"
       },
       {
-        "key": "guard",
-        "asset": "family-badge/gr-family-badge-guard.png",
+        "key": "guards",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-guard.png",
         "label": "Guard Guild"
       },
       {
         "key": "spikes",
-        "asset": "family-badge/gr-family-badge-spikes.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/spikes_dragons_collection_1/HD/icon-spikes.png",
         "label": "The Spikes"
       },
       {
         "key": "extractor",
-        "asset": "family-badge/gr-family-badge-extractor.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-extractor.png",
         "label": "The Extractors"
       },
       {
         "key": "strategist",
-        "asset": "family-badge/gr-family-badge-strategist.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/strategist_dragons_collection_4/HD/icon-strategist.png",
         "label": "The Strategists"
       },
       {
         "key": "evader",
-        "asset": "family-badge/gr-family-badge-evader.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-evader.png",
         "label": "The Evaders"
       },
       {
         "key": "silencer",
-        "asset": "family-badge/gr-family-badge-silencer.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/collections/silencer_dragons_collection_4/HD/icon-silencer.png",
         "label": "Silence Seekers"
       },
       {
         "key": "risen",
-        "asset": "family-badge/gr-family-badge-risen.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-risen.png",
         "label": "Risen Dragons"
       },
       {
         "key": "mecha",
-        "asset": "family-badge/gr-family-badge-mecha.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-mecha.png",
         "label": "Mecha Team"
       },
       {
-        "key": "critical",
-        "asset": "family-badge/gr-family-badge-critical.png",
+        "key": "critcrew",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-critical.png",
         "label": "Crit Crew"
       },
       {
         "key": "armor",
-        "asset": "family-badge/gr-family-badge-armor.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-armor.png",
         "label": "Armored Alliance"
       },
       {
         "key": "apocalypse",
-        "asset": "family-badge/gr-family-badge-apocalypse.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_apocalypse/HD/gr-family-badge-apocalypse.png",
         "label": "Riders of the Apocalypse"
       },
       {
         "key": "doom",
-        "asset": "family-badge/gr-family-badge-doom.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignias/HD/gr-family-badge-doom.png",
         "label": "Doom Markers"
       },
       {
         "key": "astro",
-        "asset": "family-badge/dc-ui-family-insignia_astro.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_astro/HD/dc-ui-family-insignia_astro.png",
         "label": "Astro Surge"
       },
       {
         "key": "void",
-        "asset": "family-badge/dc-ui-family-insignia_void.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_void/HD/dc-ui-family-insignia_void.png",
         "label": "The Void"
       },
       {
         "key": "stained",
-        "asset": "family-badge/dc-ui-family-insignia_stained.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_stained/HD/dc-ui-family-insignia_stained.png",
         "label": "The Stained"
       },
       {
         "key": "hypno",
-        "asset": "family-badge/dc-ui-family-insignia_hypno.png",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_hypno/HD/dc-ui-family-insignia_hypno.png",
         "label": "Hypno Family"
+      },
+      {
+        "key": "hollow",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_hollow/HD/dc-ui-family-insignia_hollow.png",
+        "label": "Hollow Team"
+      },
+      {
+        "key": "aegis",
+        "asset": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/generic_sprites/dc-ui-family-insignia_hypno/HD/dc-ui-family-insignia_hypno.png",
+        "label": "Aegis Team"
       },
       {
         "key": "vip",
@@ -210,11 +220,6 @@
         "key": "youtuber",
         "asset": "family-badge/youtuber-badge.png",
         "label": "Youtuber Dragons"
-      },
-      {
-        "key": "hollow",
-        "asset": "family-badge/dc-ui-family-insignia_hollow.png",
-        "label": "hollow_1"
       }
     ],
     "categories": [
@@ -22719,7 +22724,7 @@
       "L",
       "3026_dragon_colossuseternal_b",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1768,
@@ -22806,7 +22811,7 @@
       "M",
       "3082_dragon_avalancheeternal",
       [
-        "eternals",
+        "eternal",
         "vip",
         "mythical"
       ],
@@ -22924,7 +22929,7 @@
       "L",
       "3040_dragon_bicephalouseternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1781,
@@ -23158,7 +23163,7 @@
       "L",
       "3054_dragon_hecatoncheireeternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1799,
@@ -23298,7 +23303,7 @@
       "L",
       "3068_dragon_incinerateeternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1809,
@@ -23455,7 +23460,7 @@
       "L",
       "3096_dragon_ivyeternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1821,
@@ -23736,7 +23741,7 @@
       "L",
       "3110_dragon_hoardereternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1839,
@@ -23855,7 +23860,7 @@
       "L",
       "3124_dragon_phoenixeternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1853,
@@ -24120,7 +24125,7 @@
       "L",
       "3138_dragon_lighteternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1868,
@@ -24136,7 +24141,7 @@
       "M",
       "3155_dragon_destroyereternal",
       [
-        "eternals",
+        "eternal",
         "vip",
         "mythical"
       ],
@@ -24319,7 +24324,7 @@
       "H",
       "3142_dragon_highvoideternal",
       [
-        "eternals",
+        "eternal",
         "vip"
       ],
       1883,
@@ -25016,7 +25021,7 @@
       "L",
       "3161_dragon_rampageberserker",
       [
-        "berserker",
+        "berserk",
         "vip"
       ],
       1935,
@@ -25074,7 +25079,7 @@
       "L",
       "3166_dragon_barriguard",
       [
-        "guard",
+        "guards",
         "vip"
       ],
       1939,
@@ -25131,7 +25136,7 @@
       "L",
       "3162_dragon_bedwyrberserker",
       [
-        "berserker",
+        "berserk",
         "vip"
       ],
       1943,
@@ -25203,7 +25208,7 @@
       "L",
       "3167_dragon_gigaguard",
       [
-        "guard",
+        "guards",
         "vip"
       ],
       1948,
@@ -25273,7 +25278,7 @@
       "L",
       "3163_dragon_ragerootberserker",
       [
-        "berserker",
+        "berserk",
         "vip"
       ],
       1953,
@@ -25434,7 +25439,7 @@
       "L",
       "3187_dragon_pulseguard",
       [
-        "guard",
+        "guards",
         "vip"
       ],
       1964,
@@ -25491,7 +25496,7 @@
       "L",
       "3164_dragon_maeveberserker",
       [
-        "berserker",
+        "berserk",
         "vip"
       ],
       1968,
@@ -25507,7 +25512,7 @@
       "M",
       "3165_dragon_permawoundberserker",
       [
-        "berserker",
+        "berserk",
         "vip",
         "mythical"
       ],
@@ -25606,7 +25611,7 @@
       "L",
       "3188_dragon_veilguard",
       [
-        "guard",
+        "guards",
         "vip"
       ],
       1976,
@@ -25746,7 +25751,7 @@
       "H",
       "3189_dragon_highwhitetipberserker",
       [
-        "berserker",
+        "berserk",
         "vip"
       ],
       1984,
@@ -26006,7 +26011,7 @@
       "H",
       "3243_dragon_highgammaguard",
       [
-        "guard",
+        "guards",
         "vip"
       ],
       2004,
@@ -27232,7 +27237,7 @@
       "L",
       "3373_dragon_crematingcritical",
       [
-        "critical",
+        "critcrew",
         "vip"
       ],
       2097,
@@ -27419,7 +27424,7 @@
       "L",
       "3374_dragon_chlorocritical",
       [
-        "critical",
+        "critcrew",
         "vip"
       ],
       2106,
@@ -27494,7 +27499,7 @@
       "H",
       "3381_dragon_highcloakedcritical",
       [
-        "critical",
+        "critcrew",
         "vip"
       ],
       2115,
@@ -27616,7 +27621,7 @@
       "L",
       "3376_dragon_corecritical",
       [
-        "critical",
+        "critcrew",
         "vip"
       ],
       2127,
@@ -27816,7 +27821,7 @@
       "L",
       "3380_dragon_conductingcritical_b",
       [
-        "critical",
+        "critcrew",
         "vip"
       ],
       2134,
@@ -29562,7 +29567,7 @@
       "H",
       "3520_dragon_highaegisbrontide",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -29578,7 +29583,7 @@
       "L",
       "3521_dragon_aegisradiance",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -29594,7 +29599,7 @@
       "M",
       "3522_dragon_aegiscleansingflame",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -29610,7 +29615,7 @@
       "H",
       "3523_dragon_highaegismetachronos",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -29626,7 +29631,7 @@
       "L",
       "3524_dragon_aegisnereus",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -29642,7 +29647,7 @@
       "M",
       "3525_dragon_aegiskheiron",
       [
-        "hypno",
+        "aegis",
         "vip"
       ],
       0,
@@ -62627,12 +62632,12 @@
       "skins": [
         [
           3306,
-          "b",
+          "t",
           1334
         ],
         [
           3306,
-          "t",
+          "b",
           1334
         ]
       ],
@@ -68952,12 +68957,12 @@
       "skins": [
         [
           4000,
-          "b",
+          "t",
           347605
         ],
         [
           4000,
-          "t",
+          "b",
           347605
         ]
       ],
@@ -255274,11 +255279,11 @@
       "skins": [
         [
           3306,
-          "b"
+          "t"
         ],
         [
           3306,
-          "t"
+          "b"
         ]
       ],
       "titan_count": 0,
@@ -263089,11 +263094,11 @@
       "skins": [
         [
           4000,
-          "b"
+          "t"
         ],
         [
           4000,
-          "t"
+          "b"
         ]
       ],
       "titan_count": 0,
