@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "generated_at": "2026-11-27T07:15:29Z",
+  "generated_at": "2026-11-27T12:08:16Z",
   "album_count": 6,
   "set_count": 66,
   "sticker_count": 671,
@@ -15890,6 +15890,25 @@
           },
           "kind": "dragon_orbs",
           "amount": 1080
+        },
+        {
+          "kind": "chest",
+          "id": 21292,
+          "name": "Blue Dusk Sigil",
+          "amount": 1,
+          "image_url": "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dustsigil_blue_x5@2x.png",
+          "image_candidates": [
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_basic_chest_dustsigil_blue_x5@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/ui_chest_dustsigil_blue_x5@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dustsigil_blue_x5@2x.png",
+            "https://dci-static-s1.socialpointgames.com/static/dragoncity/mobile/ui/chests/chest_dustsigil_blue_x5.png",
+            "https://raw.githubusercontent.com/chaerulanwarreborn-star/dcic-assets/main/override/ui_000_chest_diagram%402x.png"
+          ],
+          "popup": {
+            "kind": "chest",
+            "id": 21292,
+            "type": "generic"
+          }
         }
       ],
       "special_reward": [
